@@ -2,282 +2,282 @@
  "pages": {
   "https://simba.mygamesonline.org/": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Main Index"
   },
   "https://simba.mygamesonline.org/index2.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Main Index"
   },
   "https://simba.mygamesonline.org/index1.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Default Page"
   },
   "https://simba.mygamesonline.org/rosters/index.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Team Rosters"
   },
   "https://simba.mygamesonline.org/tmstats/offense/team.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Team Statistics"
   },
   "https://simba.mygamesonline.org/salaryneeds.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Available Cap Room"
   },
   "https://simba.mygamesonline.org/ir.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Injured Reserve"
   },
   "https://simba.mygamesonline.org/divstand.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Standings"
   },
   "https://simba.mygamesonline.org/leagueschedule.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "League Schedule"
   },
   "https://simba.mygamesonline.org/leagueleaders.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "League Leaders"
   },
   "https://simba.mygamesonline.org/wkly-mnthly.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Weekly/Monthly Awards"
   },
   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Draft Eligible Players"
   },
   "https://simba.mygamesonline.org/draftorder.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Draft Order"
   },
   "https://simba.mygamesonline.org/transactions.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Transactions"
   },
   "https://simba.mygamesonline.org/fa/fa-pos.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Free Agents"
   },
   "https://simba.mygamesonline.org/historicalperformance.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Historical Team Performance"
   },
   "https://simba.mygamesonline.org/teamssnrecords.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Team Season Records"
   },
   "https://simba.mygamesonline.org/allstarweekend.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "All-Star Weekend Winners"
   },
   "https://simba.mygamesonline.org/playergmrecords.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Player Game Records"
   },
   "https://simba.mygamesonline.org/playerssnrecords.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Player Season Records"
   },
   "https://simba.mygamesonline.org/playercareerrecords.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Player Career Records"
   },
   "https://simba.mygamesonline.org/pastchamps.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Past Champions"
   },
   "https://simba.mygamesonline.org/hof/all.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Hall Of Fame"
   },
   "https://simba.mygamesonline.org/past1picks.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Past #1 Overall Picks"
   },
   "https://simba.mygamesonline.org/rosters/roster1.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Boston Celtics Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster2.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Miami Heat Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster3.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "New Jersey Nets Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster4.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "New York Knicks Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster5.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Orlando Magic Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster6.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Philadelphia 76ers Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster7.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Washington Wizards Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster8.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Atlanta Hawks Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster9.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "New Orleans Hornets Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster10.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Chicago Bulls Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster11.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Cleveland Cavaliers Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster12.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Detroit Pistons Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster13.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Indiana Pacers Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster14.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Milwaukee Bucks Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster15.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Toronto Raptors Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster16.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Dallas Mavericks Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster17.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Denver Nuggets Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster18.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Houston Rockets Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster19.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Minnesota Timberwolves Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster20.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "San Antonio Spurs Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster21.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Utah Jazz Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster22.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Memphis Grizzlies Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster23.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Golden State Warriors Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster24.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Los Angeles Clippers Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster25.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Los Angeles Lakers Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster26.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Phoenix Suns Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster27.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Portland Trail Blazers Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster28.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Sacramento Kings Roster"
   },
   "https://simba.mygamesonline.org/rosters/roster29.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Seattle SuperSonics Roster"
   },
   "https://simba.mygamesonline.org/tmstats/offense/ppg.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Team Statistics"
   },
   "https://simba.mygamesonline.org/tmstats/offense/rpg.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Team Statistics"
   },
   "https://simba.mygamesonline.org/tmstats/offense/apg.htm": {
    "status": 200,
-   "cached": true,
+   "ct": "text/html; charset=UTF-8",
    "title": "Team Statistics"
   },
   "https://simba.mygamesonline.org/tmstats/offense/spg.htm": {
@@ -15571,7 +15571,7 @@
   ]
  },
  "unvisited": [],
- "elapsed_s": 1338.2,
- "requests": 1143,
- "crawled_at": "2026-10-17T07:28:00Z"
+ "elapsed_s": 1195.3,
+ "requests": 1196,
+ "crawled_at": "2026-10-17T09:06:43Z"
 }
