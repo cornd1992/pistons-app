@@ -50,5 +50,7 @@ json.dump({"snapshots":idx},open(os.path.join(SN,"index.json"),"w"))
 # bump service-worker cache version so phones pick up new data
 sw=os.path.join(APP,"sw.js")
 if os.path.exists(sw):
-    s=open(sw).read(); s=re.sub(r"const VERSION='[^']*'",f"const VERSION='{key}-{len(idx)}'",s); open(sw,"w").write(s)
+    import hashlib  # version also changes when the app code changes, not just the data
+    hsh=hashlib.sha1(b"".join(open(os.path.join(APP,f),"rb").read() for f in ("index.html","app.js","styles.css","manifest.webmanifest",os.path.join("data","bundle.json")) if os.path.exists(os.path.join(APP,f)))).hexdigest()[:8]
+    s=open(sw).read(); s=re.sub(r"const VERSION='[^']*'",f"const VERSION='{key}-{len(idx)}-{hsh}'",s); open(sw,"w").write(s)
 print(f"built bundle ({os.path.getsize(os.path.join(D,'bundle.json'))//1024} KB), snapshot {key}, {len(idx)} snapshots total")
