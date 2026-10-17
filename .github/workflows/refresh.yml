@@ -33,9 +33,9 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      # Stats site only (simba.mygamesonline.org). The forum is NOT crawled:
-      # simba-data/forum.json is a static, manually maintained snapshot, and
-      # simba-data/cap_rules.json is manual and never overwritten.
+      # Stats site only (simba.mygamesonline.org). The forum is NOT crawled and no
+      # forum posts are published. simba-data/cap_rules.json and simba-data/manual/*
+      # (league facts, rule summaries) are hand-kept and never overwritten.
       - name: Scrape stats site
         id: scrape
         if: ${{ !inputs.skip_scrape }}

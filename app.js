@@ -47,25 +47,25 @@ async function boot(){
   B.pById=new Map(B.players.map(p=>[p.player_id,p]));
   B.teamByShort=new Map();B.teams.forEach(t=>{const w=t.name.split(' ');for(let i=1;i<w.length;i++) B.teamByShort.set(w.slice(i).join(' '),t);B.teamByShort.set(t.name,t);});
   const ca=B.meta.crawled_at?new Date(B.meta.crawled_at):null;
-  $('#asof').textContent='Data as of '+(ca?ca.toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'unknown')+(B.forum&&B.forum.meta&&B.forum.meta.fetched_at?' · forum '+new Date(B.forum.meta.fetched_at).toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'')+' · simba.mygamesonline.org';
+  $('#asof').textContent='Data as of '+(ca?ca.toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'unknown')+(B.facts&&B.facts._meta&&B.facts._meta.as_of?' · draft facts '+new Date(B.facts._meta.as_of).toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'')+' · simba.mygamesonline.org';
   prepDraft();
   try{const idx=await (await fetch('data/snapshots/index.json',{cache:'no-cache'})).json();
     SNAPS=(await Promise.all(idx.snapshots.map(k=>fetch('data/snapshots/'+k+'.json').then(r=>r.json()).catch(()=>null)))).filter(Boolean);}catch(e){SNAPS=[];}
   addEventListener('hashchange',route);route();
 }
 function prepDraft(){
-  const N=needs(),D=deficits(),nT=B.teams.length,F=B.forum;
+  const N=needs(),D=deficits(),nT=B.teams.length,F=B.facts,CD=F&&F.creation_draft;
   let made,order,nextOverall,source='stats site',onClock=null;
-  const fc=F&&(F.drafts||[]).filter(d=>d.draft==='creation');
-  if(fc&&fc.length){ // forum is the source of truth (it runs ahead of the stats site)
-    source='forum';
-    made=(F.draft_picks||[]).filter(p=>p.draft==='creation').map(p=>({...p,player_name:p.player,player_pos:(B.pById.get(p.player_id)||{}).pos||''}));
+  const fc=CD&&CD.rounds;
+  if(fc&&fc.length){ // hand-kept draft facts run ahead of the stats site
+    source='league draft log';
+    made=(CD.picks||[]).map(p=>({...p,player_name:p.player,player_pos:(B.pById.get(p.player_id)||{}).pos||''}));
     order=[];fc.forEach(d=>d.order.forEach(o=>order.push({round:d.round,pick:o.slot,team:o.team,gm:o.gm,overall:(d.round-1)*nT+o.slot})));
-    const maxR=Math.max(...fc.map(d=>d.round)),sn=F.creation_draft_order;
-    if(sn) for(let r=maxR+1;r<=maxR+2;r++) (r%2?sn.odd_rounds:sn.even_rounds).forEach((t,i)=>order.push({round:r,pick:i+1,team:t,gm:(F.gms[t]||{}).gm,overall:(r-1)*nT+i+1,projected:true}));
+    const maxR=Math.max(...fc.map(d=>d.round)),sn=CD.order;
+    if(sn) for(let r=maxR+1;r<=maxR+2;r++) (r%2?sn.odd_rounds:sn.even_rounds).forEach((t,i)=>order.push({round:r,pick:i+1,team:t,gm:(F.gms||{})[t],overall:(r-1)*nT+i+1,projected:true}));
     const cur=fc.find(d=>!d.complete);
-    onClock=cur?{...cur.on_the_clock,round:cur.round,url:cur.url}:null;
-    nextOverall=cur?cur.on_the_clock.overall:(maxR*nT+1);
+    onClock=cur&&cur.on_the_clock?{...cur.on_the_clock,round:cur.round}:null;
+    nextOverall=cur&&cur.on_the_clock?cur.on_the_clock.overall:(maxR*nT+1);
   } else {
     made=B.transactions.filter(t=>t.type==='draft').map(t=>({...t,overall:(t.round-1)*nT+t.pick}));
     order=B.draft.draft_order.map(o=>({...o,overall:(o.round-1)*nT+o.pick}));
@@ -89,7 +89,7 @@ function prepDraft(){
 function route(ev,keep){
   const h=(location.hash||'#team').slice(1).split('/');S.tab=h[0]||'team';
   document.querySelectorAll('.tabbar a').forEach(a=>a.classList.toggle('on',a.dataset.tab===S.tab));
-  const T={team:['My Team',vTeam],draft:['Draft',vDraft],league:['League',vLeague],analytics:['Analytics',vAnalytics],players:['Players',vPlayers],rules:['League Rules',vRules],forum:['Forum',vForum]};
+  const T={team:['My Team',vTeam],draft:['Draft',vDraft],league:['League',vLeague],analytics:['Analytics',vAnalytics],players:['Players',vPlayers],rules:['League Rules',vRules],trade:['Trade Checker',vTrade]};
   const [title,fn]=T[S.tab]||T.team;$('#pageTitle').textContent=title;
   if(S.tab==='players'&&h[1]) {$('#view').innerHTML=vPlayer(+h[1]);}
   else $('#view').innerHTML=fn();
@@ -165,7 +165,7 @@ function capPanel(t){const c=CR(),m=capMath(t),usedRoom=SET.get('usedRoom',false
    ${m.rm.src==='placeholder'?`<div class="warn small">🟨 <b>Rookie minimum is a placeholder.</b> ${esc(m.rm.label||'')}</div>`:`<p class="note small">Rookie minimum source: ${esc(m.rm.src)}.</p>`}`;
   h+=`<h3>Exceptions you can use</h3><div class="controls"><button class="ghost" id="usedRoom">${usedRoom?'✓ ':''}Used cap room this season</button></div>
    ${ex.length?ex.map(e=>`<div class="kpi" style="margin-bottom:6px"><div class="v">${esc(e.n)} · ${mm(e.v)}</div><div class="l">${esc(e.why)}</div></div>`).join(''):empty('No MLE available','Above the 2nd apron: no Taxpayer MLE.')}
-   <p class="note small">Per league rules every team operates over the cap by default; spending cap room switches you to under-the-cap for the season (Room Exception only). Eligibility is modelled from the forum rules; exact edge cases are the commissioners' call. <a href="#rules/cap">Full cap rules →</a></p>`;
+   <p class="note small">Per league rules every team operates over the cap by default; spending cap room switches you to under-the-cap for the season (Room Exception only). Eligibility is modelled from the league's cap rules; exact edge cases are the commissioners' call. <a href="#rules/cap">Full cap rules →</a></p>`;
   return h;}
 /* ---------- My Team ---------- */
 function vTeam(){
@@ -178,8 +178,8 @@ function vTeam(){
   <div class="kpi"><div class="v">${mm(t.cap_room)}</div><div class="l">Cap room as listed on stats site (excl. roster charge)</div></div></div>
   <div class="note small" style="margin-top:8px">${(sal/cap*100).toFixed(1)}% of cap used · cap room ranks <b>${ord(cr.rank)} of ${cr.n}</b> (1st = most room) · status ${statusChip(sal)}</div></div>
   <div class="card"><h2>Cap & aprons</h2>${capPanel(t)}</div>`;
-  const gm=B.forum&&B.forum.pistons_gm;
-  if(D.myNext) h+=`<div class="callout">🏀 Creation draft is live${D.onClock?` — ${esc(D.onClock.team)} (${esc(D.onClock.gm||'?')}) on the clock at R${D.onClock.round} #${D.onClock.slot}`:''}${gm?`. GM per forum: <b>${esc(gm.gm)}</b>`:''}. Overall pick ${D.nextOverall} is up. Your next pick is <b>Round ${D.myNext.round}, #${D.myNext.pick}</b> (overall ${D.myNext.overall}, ${D.picksBefore} picks away). <a href="#draft">Open draft board →</a></div>`;
+  const gm=B.facts&&B.facts.pistons_gm;
+  if(D.myNext) h+=`<div class="callout">🏀 Creation draft is live${D.onClock?` — ${esc(D.onClock.team)} (${esc(D.onClock.gm||'?')}) on the clock at R${D.onClock.round} #${D.onClock.slot}`:''}${gm?`. GM: <b>${esc(gm)}</b>`:''}. Overall pick ${D.nextOverall} is up. Your next pick is <b>Round ${D.myNext.round}, #${D.myNext.pick}</b> (overall ${D.myNext.overall}, ${D.picksBefore} picks away). <a href="#draft">Open draft board →</a></div>`;
   h+=`<div class="card"><h2>Roster & ratings</h2>`;
   if(!myRoster().length) h+=empty('No players yet','Draft picks will appear here.');
   else h+=table([{k:'name',l:'Player',f:(v,r)=>`<a href="#players/${r.player_id}">${esc(v)}</a>`},{k:'pos',l:'Pos'},{k:'age',l:'Age',n:1},{k:'height',l:'Ht'},
@@ -211,11 +211,11 @@ function vDraft(){
   const near=D.avail.filter(p=>!p.likelyGone).sort((a,b)=>b.fit-a.fit).slice(0,5);
   const oc=D.onClock,ago=t=>{if(!t)return'';const m=Math.round((Date.now()-new Date(t))/6e4);return m<60?m+' min ago':m<1440?Math.round(m/60)+' h ago':Math.round(m/1440)+' d ago';};
   let h=`<div class="card"><h2>Draft room <span class="chip red">On the clock: #${D.nextOverall}</span></h2>`;
-  if(oc) h+=`<div class="callout">⏱ <b>${esc(oc.team)}</b> (${esc(oc.gm||'?')}) — Round ${oc.round}, pick ${oc.slot} (overall ${oc.overall}), on the clock since ${ago(oc.since)}. <a href="${esc(oc.url)}" target="_blank" rel="noopener">Thread ↗</a></div>`;
+  if(oc) h+=`<div class="callout">⏱ <b>${esc(oc.team)}</b> (${esc(oc.gm||'?')}) — Round ${oc.round}, pick ${oc.slot} (overall ${oc.overall}), on the clock since ${ago(oc.since)}.</div>`;
   h+=D.myNext?`<div class="callout">Your next pick: <b>Round ${D.myNext.round}, #${D.myNext.pick}</b> (overall ${D.myNext.overall}${D.myNext.projected?', projected from the snake order':''}) — <b>${D.picksBefore} picks away</b>.${D.myUpcoming[1]?` After that: R${D.myUpcoming[1].round} #${D.myUpcoming[1].pick} (overall ${D.myUpcoming[1].overall}).`:''} The top ${D.picksBefore} available players by Value are flagged “likely gone”.</div>`:'<div class="callout">You have no remaining picks in this draft.</div>';
   {const pay=payrollOf(B.myTeam),c=CR(),mx=Math.max(...D.avail.map(p=>p.sal1||0));
-   h+=`<p class="note small">💰 Pistons payroll ${mm(pay)} (${capStatus(pay).k}): ${mm(c.salary_cap-pay)} under the cap, ${mm(c.luxury_tax-pay)} under the tax, ${mm(c.first_apron-pay)} under the 1st apron. Priciest available prospect: ${mm(mx)} in year 1, so no single pick crosses a threshold right now; rows show ⚠️ when one would (cap, tax, 1st/2nd apron and hard-cap consequences). Each row shows the prospect's year-1 salary and where the Pistons' payroll lands after adding him. Per the forum, creation-draft salary is unlimited, but teams over an apron when the draft ends face apron rules.</p>`;}
-  h+=`<p class="note small">Picks source: <b>${esc(D.source)}</b> (${D.made.length} made; ${D.board.filter(p=>p.taken).length} of them were still listed as eligible on the stats site and are now marked taken)${D.source==='forum'?' — the forum runs ahead of the stats site, which still lists '+B.transactions.filter(t=>t.type==='draft').length+' picks':''}.</p>`;
+   h+=`<p class="note small">💰 Pistons payroll ${mm(pay)} (${capStatus(pay).k}): ${mm(c.salary_cap-pay)} under the cap, ${mm(c.luxury_tax-pay)} under the tax, ${mm(c.first_apron-pay)} under the 1st apron. Priciest available prospect: ${mm(mx)} in year 1, so no single pick crosses a threshold right now; rows show ⚠️ when one would (cap, tax, 1st/2nd apron and hard-cap consequences). Each row shows the prospect's year-1 salary and where the Pistons' payroll lands after adding him. Per league rules, creation-draft salary is unlimited, but teams over an apron when the draft ends face apron rules.</p>`;}
+  h+=`<p class="note small">Picks source: <b>${esc(D.source)}</b> (${D.made.length} made; ${D.board.filter(p=>p.taken).length} of them were still listed as eligible on the stats site and are now marked taken)${D.source!=='stats site'?' — the league draft log runs ahead of the stats site, which still lists '+B.transactions.filter(t=>t.type==='draft').length+' picks':''}.</p>`;
   h+=`<h3>Best available at your pick (by Pistons fit)</h3><div class="plist">${near.map((p,i)=>row(p,`Fit ${f1(p.fit)}`,`Value ${f1(p.val)} · #${p.valRank} on board${salLine(p)}`)).join('')}</div>`;
   h+=`<p class="note small">Need now: ${POS.map(p=>`${p} ${D.N.need[p]===1?'●':D.N.need[p]===.5?'◐':'○'}`).join(' · ')} (● = nobody on roster). Biggest skill gaps: ${Object.entries(D.D).sort((a,b)=>b[1]-a[1]).slice(0,3).map(([k])=>RNAME[k]).join(', ')}.</p></div>`;
   h+=`<div class="card"><h2>Big board <span class="chip">${rows.length} players</span></h2><div class="controls">
@@ -237,7 +237,7 @@ function vDraft(){
    <p><b>Pistons fit</b> = 0.60 × Value + 0.25 × Need × 100 + 0.15 × Complement.<br>
    Need = 1.0 if no rostered player at that position, 0.5 if one, 0.2 if two or more (now: only Kobe Bryant at SG).<br>
    Complement = the player's skills weighted by the team's gaps (100 − best rostered grade in each skill), so skills the roster lacks count more.</p>
-   <p><b>Potential (forum rule):</b> for <i>rookie-draft prospects</i>, the potential shown is only their historical potential; after the draft each prospect's real potential is re-rolled from one of four sources (historical, historical draft slot, this league's draft slot, or random). It does not apply to base-file players, which is everyone in this creation draft, so Value uses the listed Potential as-is. For future rookie drafts, treat Potential as roughly half signal: about 1 in 4 prospects keep it outright and a random 1 in 4 lose it.</p>
+   <p><b>Potential (league rule):</b> for <i>rookie-draft prospects</i>, the potential shown is only their historical potential; after the draft each prospect's real potential is re-rolled from one of four sources (historical, historical draft slot, this league's draft slot, or random). It does not apply to base-file players, which is everyone in this creation draft, so Value uses the listed Potential as-is. For future rookie drafts, treat Potential as roughly half signal: about 1 in 4 prospects keep it outright and a random 1 in 4 lose it.</p>
    <p><b>Likely gone</b>: players ranked inside the top N by Value, where N = picks before yours. It's a projection, not a guarantee.</p></div></details></div>`;
   return h;
 }
@@ -381,44 +381,223 @@ function capRulesHtml(q){
    <div class="controls"><label class="note" style="display:flex;align-items:center;gap:8px;flex:1 1 100%">Tax salary $<input id="tpay" inputmode="numeric" style="flex:1;min-height:44px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);padding:0 10px;font-size:16px" value="${pay}"></label>
    <button class="ghost" id="tuse">Use Pistons payroll</button><button class="ghost" id="tover5">Tax line + $5M</button><button class="ghost" id="trep">${rep?'✓ ':''}Repeater</button></div>
    <div id="tout">${taxOut(pay,rep)}</div>
-   <p class="note small">Self-check: non-repeater $5,000,000 over → ${money(luxTax(5e6,false).tax)} (${luxTax(5e6,false).tax===8855000?'✓ matches the forum example $8,855,000':'✗ mismatch'}).</p></div>`;
+   <p class="note small">Self-check: non-repeater $5,000,000 over → ${money(luxTax(5e6,false).tax)} (${luxTax(5e6,false).tax===8855000?'✓ matches the league example $8,855,000':'✗ mismatch'}).</p></div>`;
   return h;}
 function taxOut(pay,rep){const c=CR(),over=pay-c.luxury_tax,r=luxTax(over,rep);
   if(over<=0) return `<div class="kpis"><div class="kpi"><div class="v">$0</div><div class="l">${mm(-over)} under the tax line (${mm(c.luxury_tax)})</div></div><div class="kpi"><div class="v">${statusChip(pay)}</div><div class="l">Status at ${mm(pay)}</div></div></div>`;
   return `<div class="kpis"><div class="kpi"><div class="v">${money(r.tax)}</div><div class="l">Tax owed${rep?' (repeater)':''}</div></div><div class="kpi"><div class="v">${mm(over)}</div><div class="l">Over the tax line · ${statusChip(pay)}</div></div></div>`+
     table([{k:'br',l:'Bracket'},{k:'amt',l:'Amount',n:1,f:mm},{k:'rate',l:'Rate',n:1,f:v=>'$'+v.toFixed(2)},{k:'tax',l:'Tax',n:1,f:v=>money(Math.round(v))}],r.rows);}
 
-/* ---------- Rules & Forum (menu) ---------- */
+/* ---------- Rules (our own summaries: manual/league_rules.json + cap_rules.json) ---------- */
 function hl(t,q){const e=esc(t);if(!q)return e;const rx=new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');return e.replace(rx,'<mark>$1</mark>');}
 function vRules(){
-  const F=B.forum||{rules:[]};
-  const q=(S.rq||'').trim();const rules=(F.rules||[]).filter(r=>!q||(r.title+' '+r.text).toLowerCase().includes(q.toLowerCase()));
-  let h=`<div class="card"><h2>League rules <span class="chip">${rules.length}</span></h2><div class="controls"><input type="search" id="rq" placeholder="Search rules (e.g. clock, apron, lottery)" value="${esc(q)}"></div>
-   <p class="note small">From pinned threads on the league forum, read-only. <a href="#rules" data-jump="capaprons">Cap & Aprons</a> · ${rules.map(r=>`<a href="#rules" data-jump="r${r.thread_id}">${esc(r.title)}</a>`).join(' · ')}</p></div>`;
+  const RS=(B.rules&&B.rules.sections)||[],F=B.facts||{};
+  const q=(S.rq||'').trim(),ql=q.toLowerCase();const secs=RS.filter(r=>!q||(r.title+' '+r.items.join(' ')).toLowerCase().includes(ql));
+  let h=`<div class="card"><h2>League rules</h2><div class="controls"><input type="search" id="rq" placeholder="Search rules (e.g. clock, apron, lottery, cash)" value="${esc(q)}"></div>
+   <p class="note small">Our own short summaries of the league's published rules — check with the commissioners for edge cases. Jump to: <a href="#rules" data-jump="capaprons">Cap & Aprons</a> · <a href="#rules" data-jump="taxcalc">Tax calculator</a> · ${secs.map(r=>`<a href="#rules" data-jump="rs-${r.id}">${esc(r.title)}</a>`).join(' · ')} · <a href="#trade">Trade checker →</a></p></div>`;
+  secs.filter(r=>r.id==='overview'||r.id==='trades').forEach(r=>{h+=ruleCard(r,q);});
   h+=capRulesHtml(q);
-  rules.forEach(r=>{h+=`<div class="card rule" id="r${r.thread_id}"><h2>${esc(r.title)} <span class="chip">${esc(r.board||'')}</span></h2><div class="txt">${hl(r.text,q)}</div>
-    <p class="note small">${esc(r.author)} · ${r.timestamp?new Date(r.timestamp).toLocaleDateString():''} · <a href="${esc(r.url)}" target="_blank" rel="noopener">Open thread ↗</a></p></div>`;});
-  const lo=F.lottery_odds||{};
-  if((lo.by_pick||[]).length&&(!q||'lottery odds'.includes(q.toLowerCase()))) h+=`<div class="card"><h2>Default lottery odds</h2>${table([{k:'pick',l:'Pick',n:1},{k:'relegation_zone',l:'Releg.',n:1,f:v=>v+'%'},{k:'three_balls',l:'3 balls',n:1,f:v=>v+'%'},{k:'two_balls',l:'2 balls',n:1,f:v=>v+'%'},{k:'one_ball',l:'1 ball',n:1,f:v=>v+'%'}],lo.by_pick)}
-     ${table([{k:'group',l:'Group'},{k:'top3',l:'Top 3',n:1,f:v=>v+'%'},{k:'top5',l:'Top 5',n:1,f:v=>v+'%'},{k:'top10',l:'Top 10',n:1,f:v=>v+'%'},{k:'avg_pick',l:'Avg pick',n:1}],lo.summary||[])}</div>`;
-  if(F.gms&&!q) h+=`<div class="card"><h2>GM list</h2>${table([{k:'team',l:'Team'},{k:'gm',l:'GM'}],Object.entries(F.gms).map(([team,g])=>({team,gm:g.gm})),{me:r=>r.team===B.myTeam.name})}</div>`;
-  if((F.inaccessible_threads||[]).length) h+=`<div class="empty"><b>Some linked rule threads aren't public</b>${F.inaccessible_threads.map(t=>esc(t.url.split('/').pop())).join(', ')} — they need a forum login, so they're not included.</div>`;
+  secs.filter(r=>r.id!=='overview'&&r.id!=='trades').forEach(r=>{h+=ruleCard(r,q);
+    const lo=F.lottery_odds||{};
+    if(r.id==='lottery'&&(lo.by_pick||[]).length) h+=`<div class="card"><h2>Default lottery odds</h2>${table([{k:'pick',l:'Pick',n:1},{k:'relegation_zone',l:'Releg.',n:1,f:v=>v+'%'},{k:'three_balls',l:'3 balls',n:1,f:v=>v+'%'},{k:'two_balls',l:'2 balls',n:1,f:v=>v+'%'},{k:'one_ball',l:'1 ball',n:1,f:v=>v+'%'}],lo.by_pick)}
+     ${table([{k:'group',l:'Group'},{k:'top3',l:'Top 3',n:1,f:v=>v+'%'},{k:'top5',l:'Top 5',n:1,f:v=>v+'%'},{k:'top10',l:'Top 10',n:1,f:v=>v+'%'},{k:'avg_pick',l:'Avg pick',n:1}],lo.summary||[])}<p class="note small">Assumes no lottery team is under a #1 or top-5 restriction.</p></div>`;});
+  if(F.gms&&!q) h+=`<div class="card"><h2>GM list</h2>${table([{k:'team',l:'Team'},{k:'gm',l:'GM'}],Object.entries(F.gms).map(([team,gm])=>({team,gm})),{me:r=>r.team===B.myTeam.name})}</div>`;
+  if(!secs.length&&q&&!h.includes('id="capaprons"')) h+=empty('No matching rules','Try another word.');
   return h;
 }
-function vForum(){
-  const F=B.forum;if(!F) return empty('Forum not loaded','Run refresh.sh to pull the league forum.');
-  const bd=S.fb||'ALL';const posts=(F.recent_posts||[]).filter(p=>bd==='ALL'||p.board===bd);
-  const boards=[...new Set((F.recent_posts||[]).map(p=>p.board).filter(Boolean))];
-  let h=`<div class="card"><h2>Forum feed <span class="chip">${posts.length}</span></h2><div class="controls"><select id="fb" style="flex:1"><option>ALL</option>${boards.map(b=>`<option ${b===bd?'selected':''}>${esc(b)}</option>`).join('')}</select></div>
-   <p class="note small">Newest first · fetched ${F.meta&&F.meta.fetched_at?new Date(F.meta.fetched_at).toLocaleString():'?'} · read-only copy of tsfbl.proboards.com</p>`;
-  h+=posts.map(p=>`<div class="post"><div class="hd"><span class="au">${esc(p.author)}</span><span class="tm">${p.timestamp?new Date(p.timestamp).toLocaleString(undefined,{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):''}</span></div>
-     <a class="th" href="${esc(p.thread_url||'#')}" target="_blank" rel="noopener">${esc(p.board||'')} › ${esc(p.thread_title||'')}</a>
-     <div class="tx">${esc(p.text.length>600?p.text.slice(0,600)+'…':p.text)}</div></div>`).join('')||empty('No posts','');
-  return h+'</div>';
+const ruleCard=(r,q)=>`<div class="card rule" id="rs-${r.id}"><h2>${esc(r.title)}</h2><ul class="rl">${r.items.map(i=>`<li>${hl(i,q)}</li>`).join('')}</ul></div>`;
+
+/* ---------- Trade checker (rules: cap_rules.json → trade; league text in manual/trade_rules_full.md) ---------- */
+const TRD=()=>{const t=CR().trade||{},o=SET.get('tradeRules',{})||{},a=t.assumed||{},lc=t.league_cash||{};
+  return {tiers:(o.tiers||t.matching_tiers||[]).map(x=>({...x})),maxOut:o.maxOut??t.max_players_out??5,
+    cashMax:o.cashMax??lc.max_per_trade??1000000,cashQ2:lc.qualifying_min_two_team??110000,cashQM:lc.qualifying_min_multi_team??1100000,
+    rosterMax:o.rosterMax??(a.roster_max||{}).value??15,rosterMin:o.rosterMin??(a.roster_min||{}).value??13,
+    minSal:o.minSal??(a.min_salary_max||{}).value??1138500,absorb:o.absorb??((a.cap_room_absorption||{}).enabled!==false),
+    stepien:o.stepien??((a.stepien||{}).enabled!==false),aboveApronPct:t.above_apron_max_incoming_pct??1.0,stPct:t.sign_and_trade_outgoing_pct_of_new??0.5,raw:t};};
+function tierMax(out,tiers){const t=tiers.find(x=>x.up_to==null||out<=x.up_to)||tiers[tiers.length-1];return {max:Math.round(out*t.pct+t.plus),t};}
+const TS={get(){const s=SET.get('trade',null);if(s&&s.teams&&s.teams.length>=2)return s;
+  const other=(B.teams.find(t=>t.team_id!==B.myTeam.team_id&&(t.players||[]).length)||B.teams.find(t=>t.team_id!==B.myTeam.team_id)).team_id;
+  return {teams:[B.myTeam.team_id,other],assets:[],cash:{},bal:{},adj:{},hc:{},rep:{},open:null};},
+  set(s){SET.set('trade',s);}};
+const tById=id=>B.teams.find(t=>t.team_id===+id);
+const yrsLeft=p=>Object.values(p.salary||{}).filter(v=>v>1).length;
+const sal1=p=>(p.salary||{}).year_1||0;
+const pickKey=p=>`${p.season}-${p.round}-${p.original_team_id}`;
+const pickLbl=p=>`${p.season} R${p.round}${p.original_team?` (${p.original_team})`:''}`;
+function assetInfo(a){ // resolve an asset in the package → {name,sal,isPlayer,isPick,pick}
+  const t=tById(a.from);
+  if(a.kind==='player'){const p=(t.players||[]).find(x=>x.player_id===a.id)||{};return {name:p.name||'?',pos:p.pos,sal:sal1(p),yrs:yrsLeft(p),isPlayer:true};}
+  if(a.kind==='custom') return {name:a.name||'Hypothetical player',sal:+a.sal||0,isPlayer:true,custom:true};
+  const pk=(t.draft_picks||[]).find(x=>pickKey(x)===a.id);return {name:pk?pickLbl(pk):a.id,sal:0,isPick:true,pick:pk};}
+function assetFlag(a,info,R){return a.flag||(info.isPlayer&&info.sal>0&&info.sal<=R.minSal?'min':'std');}
+function tradeEval(st){
+  const c=CR(),R=TRD(),multi=st.teams.length>2,res=[],ck=[];
+  const add=(lvl,msg,src,team)=>ck.push({lvl,msg,src,team});
+  const draftLive=((B.facts||{}).creation_draft||{}).rounds?.some(r=>!r.complete);
+  const cashSenders=st.teams.filter(id=>(+((st.cash[id]||{}).amt)||0)>0);
+  st.teams.forEach(id=>{
+    const t=tById(id),nm=t.name.replace(/^.* /,''),out=st.assets.filter(a=>a.from===id),inn=st.assets.filter(a=>a.to===id);
+    let outAct=0,inAct=0,outCnt=0,inCnt=0,outP=0,inP=0,stIn=false,stOut=false;const partners=new Set();
+    out.forEach(a=>{const i=assetInfo(a),f=assetFlag(a,i,R);partners.add(a.to);if(i.isPlayer){outP++;outAct+=i.sal;
+      outCnt+=f==='st'?Math.max(+a.prev||0,R.stPct*(+a.nsal||i.sal)):i.sal; if(f==='st')stOut=true;}});
+    inn.forEach(a=>{const i=assetInfo(a),f=assetFlag(a,i,R);partners.add(a.from);if(i.isPlayer){inP++;
+      const act=f==='st'?(+a.nsal||i.sal):i.sal;inAct+=act;inCnt+=f==='min'?0:f==='pp'?(+a.ppin||i.sal):act;if(f==='st')stIn=true;}});
+    const cs=st.cash[id]||{},cashOut=+cs.amt||0;if(cashOut>0&&cs.to)partners.add(+cs.to);
+    const cashIn=st.teams.filter(o=>o!==id&&+((st.cash[o]||{}).to)===id).reduce((s,o)=>s+(+st.cash[o].amt||0),0);
+    st.teams.forEach(o=>{if(o!==id&&+((st.cash[o]||{}).to)===id&&(+st.cash[o].amt||0)>0)partners.add(o);});
+    const adj=+st.adj[id]||0,pre=capMath(t,{addSalary:adj}),post=capMath(t,{addSalary:adj+inAct-outAct,addPlayers:inP-outP});
+    const rep=id===B.myTeam.team_id?(st.rep[id]??SET.get('repeater',false)):!!st.rep[id];
+    const taxPre=luxTax(pre.tax-c.luxury_tax,rep).tax,taxPost=luxTax(post.tax-c.luxury_tax,rep).tax;
+    const r={id,t,nm,out,inn,outAct,inAct,outCnt,inCnt,outP,inP,pre,post,taxPre,taxPost,cashOut,cashIn,rosterPre:(t.players||[]).length,rosterPost:(t.players||[]).length+inP-outP,mode:'',maxIn:null};
+    const aboveApron=post.tax>=c.first_apron,above2=post.tax>=c.second_apron;
+    // salary matching
+    if(inCnt<=outCnt){r.mode='≤100%';add('pass',`${nm}: takes back ${mm(inCnt)} for ${mm(outCnt)} out (≤100%) — no matching needed, no hard cap`,'League',id);}
+    else if(R.absorb&&post.cap<=c.salary_cap){r.mode='cap room';add('pass',`${nm}: absorbs ${mm(inCnt-outCnt)} into cap room (cap salary after ${mm(post.cap)} ≤ cap ${mm(c.salary_cap)})`,'Assumed',id);}
+    else if(aboveApron){r.mode='100% (apron)';r.maxIn=outCnt*R.aboveApronPct;
+      add('fail',`${nm}: above the ${above2?'2nd':'1st'} apron after the trade (${mm(post.tax)}) → incoming ${mm(inCnt)} may not exceed 100% of outgoing ${mm(outCnt)}`,'League',id);}
+    else{const tm=tierMax(outCnt,R.tiers);r.maxIn=tm.max;r.mode=tm.t.label||'table';
+      if(inCnt<=tm.max) add('warn',`${nm}: matching table OK (${mm(inCnt)} in ≤ ${mm(tm.max)} max; ${tm.t.label||''}) — this hard-caps ${nm} at the 1st apron (${mm(c.first_apron)}) for the season`,'League',id);
+      else add('fail',`${nm}: over the cap after the trade — incoming ${mm(inCnt)} exceeds the ${mm(tm.max)} max for ${mm(outCnt)} out (${tm.t.label||''}); needs ${mm(inCnt-tm.max)} more outgoing or less incoming`,'League',id);}
+    if(inn.some(a=>assetFlag(a,assetInfo(a),R)==='min')) add('info',`${nm}: minimum-salary players are not counted as incoming salary`,'League',id);
+    // player count / qualifying / receiving
+    if(outP>R.maxOut) add('fail',`${nm}: sends ${outP} players (max ${R.maxOut} per team)`,'League',id);
+    const qCash=multi?R.cashQM:R.cashQ2,qual=out.some(a=>{const i=assetInfo(a);return (i.isPlayer&&i.sal>0)||i.isPick;})||cashOut>=qCash;
+    if(!qual) add('fail',`${nm}: must send a qualifying asset (player under contract, future pick, stashed rights, pick swap, or ≥ ${mm(qCash)} league cash${multi?' in a multi-team deal':''})`,'League',id);
+    if(!inn.length&&!cashIn) add('fail',`${nm}: receives nothing`,'League',id);
+    if(multi&&partners.size<2) add('fail',`${nm}: in a multi-team trade each team must deal with at least two other teams`,'League',id);
+    // aggregation & special players
+    const salOut=out.filter(a=>assetInfo(a).isPlayer&&assetInfo(a).sal>0);
+    if(above2&&salOut.length>1) add('fail',`${nm}: above the 2nd apron after the trade — can't aggregate salaries (${salOut.length} salaried players out)`,'League',id);
+    else if(salOut.length>1&&!above2) add('info',`${nm}: aggregates ${salOut.length} salaries — allowed below the 2nd apron`,'League',id);
+    out.forEach(a=>{const i=assetInfo(a),f=assetFlag(a,i,R);
+      if(f==='untr') add('fail',`${nm}: ${i.name} isn't tradable yet (waiver claim: 20 days; new signing: 40–60 days)`,'League',id);
+      if(f==='acq'&&salOut.length>1) add('fail',`${nm}: ${i.name} was acquired by trade <40 days ago — must be traded alone, not aggregated (unless he was acquired into cap room)`,'League',id);});
+    if(stOut&&above2) add('fail',`${nm}: above the 2nd apron — can't send a player out via sign-and-trade`,'League',id);
+    if(stIn){if(aboveApron) add('fail',`${nm}: above the 1st apron after the trade — can't acquire a sign-and-trade player`,'League',id);
+      else add('warn',`${nm}: acquiring via sign-and-trade hard-caps ${nm} at the 1st apron`,'League',id);}
+    // league cash
+    if(cashOut>0){
+      if(cashOut<R.cashQ2) add('fail',`${nm}: league cash ${money(cashOut)} is below the ${money(R.cashQ2)} minimum`,'League',id);
+      if(cashOut>R.cashMax) add('warn',`${nm}: league cash ${money(cashOut)} is above the max setting (${money(R.cashMax)})`,'League',id);
+      if(above2) add('fail',`${nm}: above the 2nd apron after the trade — can't send league cash`,'League',id);
+      if(cs.bal!==''&&cs.bal!=null&&!isNaN(+cs.bal)&&cashOut>+cs.bal) add('fail',`${nm}: sends ${money(cashOut)} league cash but only has ${money(+cs.bal)}`,'League',id);
+      else if(cs.bal===''||cs.bal==null) add('check',`${nm}: confirm the league-cash balance covers ${money(cashOut)} (balance not entered)`,'Checklist',id);
+      if(!cs.to) add('fail',`${nm}: choose who receives the league cash`,'League',id);}
+    if(out.some(a=>{const i=assetInfo(a);return i.isPick&&i.pick&&i.pick.round===1;})&&!inn.length&&cashIn>0) add('fail',`${nm}: a 1st-round pick can't be sold for league cash`,'League',id);
+    // hard cap (manual)
+    const hc=st.hc[id];if(hc&&hc!=='none'&&post.tax>c[hc]) add('fail',`${nm}: hard-capped at the ${hc==='first_apron'?'1st':'2nd'} apron (${mm(c[hc])}) — post-trade ${mm(post.tax)} exceeds it`,'League',id);
+    // roster
+    if(r.rosterPost>R.rosterMax) add('fail',`${nm}: roster would be ${r.rosterPost} (max ${R.rosterMax}) — needs roster space when posting`,'Assumed',id);
+    else if(r.rosterPost<R.rosterMin) add('info',`${nm}: roster ${r.rosterPost} after the trade (in-season minimum ${R.rosterMin}; fine in the offseason/draft)`,'Assumed',id);
+    if(post.tax<c.salary_floor) add('warn',`${nm}: ${mm(c.salary_floor-post.tax)} below the salary floor after the trade — auto-signings if still short when offseason FA ends`,'League',id);
+    if(taxPost!==taxPre) add('info',`${nm}: projected luxury tax ${money(taxPre)} → ${money(taxPost)}${rep?' (repeater)':''}`,'League',id);
+    // Stepien
+    if(R.stepien){const own=new Set((t.draft_picks||[]).filter(p=>p.round===1).map(pickKey));
+      out.forEach(a=>{const i=assetInfo(a);if(i.isPick)own.delete(a.id);});inn.forEach(a=>{const i=assetInfo(a);if(i.isPick&&i.pick&&i.pick.round===1)own.add(a.id);});
+      const all=B.teams.flatMap(x=>(x.draft_picks||[]).filter(p=>p.round===1)),yrs=[...new Set(all.map(p=>p.season))].sort();
+      const has=y=>[...own].some(k=>+k.split('-')[0]===y);
+      for(let i=0;i+1<yrs.length;i++) if(!has(yrs[i])&&!has(yrs[i+1])&&(out.some(a=>assetInfo(a).isPick))){add('fail',`${nm}: would have no 1st-round pick in both ${yrs[i]} and ${yrs[i+1]} (Stepien rule)`,'Assumed',id);break;}}
+    res.push(r);});
+  if(cashSenders.length>1) add('fail',`Only one team may send league cash (${cashSenders.length} teams are sending)`,'League');
+  if(draftLive) add('warn','The creation draft is still running — the league allows no trades of any kind until it ends. Use this as a planner for now.','League');
+  if(!st.assets.length&&!cashSenders.length) add('info','Add players, picks or league cash to build a trade.','');
+  const verdict=!st.assets.length&&!cashSenders.length?'empty':ck.some(x=>x.lvl==='fail')?'fail':'pass';
+  return {res,ck,verdict,multi,R};}
+function vTrade(){
+  const st=TS.get(),c=CR(),R=TRD(),E=tradeEval(st);
+  const teamOpts=sel=>B.teams.map(t=>`<option value="${t.team_id}" ${t.team_id===sel?'selected':''}>${esc(t.name)}</option>`).join('');
+  let h=`<div class="card"><h2>Trade checker <span class="chip">${st.teams.length} teams</span></h2>
+   <p class="note small">Pick teams, tap players or picks to add them, and the checker applies this league's trade rules (salary matching, aprons, hard caps, roster, league cash). Tags show where each rule comes from: <span class="src League">League</span> pasted league rules · <span class="src Assumed">Assumed</span> standard NBA where the league text is silent · <span class="src Checklist">Checklist</span> things the data can't show.</p>
+   <div class="tteams">${st.teams.map((id,i)=>`<div class="trow"><select data-tteam="${i}" aria-label="Team ${i+1}">${teamOpts(id)}</select>${st.teams.length>2?`<button class="ghost" data-tdel="${i}" aria-label="Remove team">×</button>`:''}</div>`).join('')}</div>
+   <div class="controls" style="margin-top:8px">${st.teams.length<4?'<button class="ghost" id="taddteam">+ Add team</button>':''}<button class="ghost" id="treset">Reset</button></div></div>`;
+  // verdict
+  const V={pass:['✅ Trade passes','ok'],fail:['❌ Trade fails','bad'],empty:['Build a trade','mut']}[E.verdict];
+  const icon={pass:'✓',fail:'✗',warn:'⚠️',info:'ℹ',check:'☐'};
+  h+=`<div class="card verdict ${V[1]}" id="tverdict"><h2>${V[0]}<span class="chip">${E.ck.filter(x=>x.lvl==='fail').length} fail · ${E.ck.filter(x=>x.lvl==='warn').length} warn</span></h2>
+   <ul class="ck">${E.ck.filter(x=>x.lvl!=='check').sort((a,b)=>'fwip'.indexOf(a.lvl[0])-'fwip'.indexOf(b.lvl[0])).map(x=>`<li class="${x.lvl}"><span class="ic">${icon[x.lvl]}</span><span>${esc(x.msg)}${x.src?` <span class="src ${x.src}">${x.src}</span>`:''}</span></li>`).join('')}</ul></div>`;
+  // summary table
+  h+=`<div class="card"><h2>Salary & cap impact</h2>${table([{k:'nm',l:'Team'},{k:'outAct',l:'Out',n:1,f:mm},{k:'inAct',l:'In',n:1,f:mm},{k:'maxIn',l:'Max in',n:1,f:(v,r)=>r.mode==='cap room'?'room':r.mode==='≤100%'?'—':mm(v)},
+     {k:'pre',l:'Payroll before',n:1,f:v=>mm(v.tax)},{k:'post',l:'After',n:1,f:v=>mm(v.tax)},{k:'st',l:'Status after',f:(v,r)=>statusChip(r.post.tax)},{k:'cap',l:'Cap salary after',n:1,f:(v,r)=>mm(r.post.cap)},
+     {k:'vs',l:'vs Tax / A1 / A2',n:1,f:(v,r)=>[c.luxury_tax,c.first_apron,c.second_apron].map(x=>{const d=x-r.post.tax;return `<span class="${d<0?'neg':''}">${d<0?'+':'−'}${mm(Math.abs(d))}</span>`;}).join(' / ')},
+     {k:'tax',l:'Lux. tax',n:1,f:(v,r)=>r.taxPre===r.taxPost?mm(r.taxPost):`${mm(r.taxPre)}→${mm(r.taxPost)}`},{k:'ro',l:'Roster',n:1,f:(v,r)=>`${r.rosterPre}→${r.rosterPost}`},
+     {k:'cash',l:'League cash',n:1,f:(v,r)=>r.cashOut?'−'+mm(r.cashOut):r.cashIn?'+'+mm(r.cashIn):'—'}],E.res,{me:r=>r.id===B.myTeam.team_id})}
+   <p class="note small">"In/Out" are actual salaries; matching uses counted salary (min-salary players don't count as incoming; sign-and-trade and poison-pill rules apply). Payroll is tax salary; cap salary adds the offseason incomplete-roster charge (rookie min ${mm(rookieMin().v)}${rookieMin().src==='placeholder'?' — placeholder':''}). League cash never touches payroll.</p></div>`;
+  // per-team cards
+  E.res.forEach(r=>{const id=r.id,t=r.t,others=st.teams.filter(x=>x!==id),cs=st.cash[id]||{};
+    const inPkg=new Set(st.assets.filter(a=>a.from===id).map(a=>a.kind+':'+a.id));
+    h+=`<div class="card tteam" id="tt-${id}"><h2>${esc(t.name)} ${statusChip(r.pre.tax)}</h2>
+     <div class="note small">Payroll ${mm(r.pre.tax)} → <b>${mm(r.post.tax)}</b> · roster ${r.rosterPre} → ${r.rosterPost} · counted out ${mm(r.outCnt)} / in ${mm(r.inCnt)}</div>
+     <h3>Sends</h3>${r.out.length?r.out.map(a=>{const i=assetInfo(a),f=assetFlag(a,i,R),k=st.assets.indexOf(a);
+       return `<div class="pkg"><div class="pk1"><b>${esc(i.name)}</b> <span class="note small">${i.pos?esc(i.pos)+' · ':''}${i.isPick?'draft pick':mm(i.sal)+(i.yrs?` · ${i.yrs} yr${i.yrs>1?'s':''}`:'')}${i.custom?' · hypothetical':''}</span><button class="ghost x" data-trm="${k}" aria-label="Remove">×</button></div>
+        <div class="pk2">${others.length>1?`<select data-tto="${k}" aria-label="Send to">${others.map(o=>`<option value="${o}" ${o===a.to?'selected':''}>→ ${esc(tById(o).name.replace(/^.* /,''))}</option>`).join('')}</select>`:`<span class="note small">→ ${esc(tById(a.to).name)}</span>`}
+        ${i.isPlayer?`<select data-tflag="${k}" aria-label="Contract type"><option value="std" ${f==='std'?'selected':''}>Standard</option><option value="min" ${f==='min'?'selected':''}>Minimum contract</option><option value="st" ${f==='st'?'selected':''}>Sign-and-trade</option><option value="pp" ${f==='pp'?'selected':''}>Poison pill (extended)</option><option value="acq" ${f==='acq'?'selected':''}>Acquired by trade &lt;40 days</option><option value="untr" ${f==='untr'?'selected':''}>Not tradable yet (new signing/waivers)</option></select>`:''}</div>
+        ${f==='st'?`<div class="pk2"><label class="note small">Prev salary <input data-tnum="${k}:prev" inputmode="numeric" value="${esc(a.prev||'')}"></label><label class="note small">New salary <input data-tnum="${k}:nsal" inputmode="numeric" value="${esc(a.nsal||i.sal)}"></label></div>`:''}
+        ${f==='pp'?`<div class="pk2"><label class="note small">Avg salary incl. extension (counted incoming) <input data-tnum="${k}:ppin" inputmode="numeric" value="${esc(a.ppin||'')}"></label></div>`:''}</div>`;}).join(''):'<div class="note small">Nothing yet — tap below.</div>'}
+     <details ${st.open===id||!r.out.length?'open':''}><summary>Add players & picks</summary>
+      <div class="plist">${(t.players||[]).map(p=>`<div class="row ${inPkg.has('player:'+p.player_id)?'sel':''}" data-tadd="${id}:player:${p.player_id}"><div><div class="nm">${esc(p.name)}</div><div class="meta">${esc(p.pos)} · age ${p.age} · ${yrsLeft(p)} yr${yrsLeft(p)!==1?'s':''} left</div></div><div class="sc">${mm(sal1(p))}</div></div>`).join('')||'<div class="note small">No players on the stats-site roster yet.</div>'}</div>
+      <div class="pchips">${(t.draft_picks||[]).map(p=>`<button class="ghost ${inPkg.has('pick:'+pickKey(p))?'on':''}" data-tadd="${id}:pick:${pickKey(p)}">${esc(pickLbl(p))}</button>`).join('')}</div>
+      <div class="pk2"><input data-tcname="${id}" placeholder="Hypothetical player" style="flex:1"><input data-tcsal="${id}" inputmode="numeric" placeholder="Salary $" style="width:110px"><button class="ghost" data-tcadd="${id}">Add</button></div></details>
+     <details><summary>League cash${cs.amt?` · sending ${mm(+cs.amt)}`:''}</summary>
+      <p class="note small">League cash is a separate in-league currency, outside the cap — it never counts as salary. Balances aren't scraped, so enter one to check it.</p>
+      <div class="pk2"><label class="note small">Send $<input data-tcash="${id}:amt" inputmode="numeric" value="${esc(cs.amt||'')}"></label><select data-tcashto="${id}" aria-label="Cash to"><option value="">to…</option>${others.map(o=>`<option value="${o}" ${+cs.to===o?'selected':''}>${esc(tById(o).name.replace(/^.* /,''))}</option>`).join('')}</select></div>
+      <div class="pk2"><label class="note small">Balance $ (optional)<input data-tcash="${id}:bal" inputmode="numeric" value="${esc(cs.bal??'')}"></label></div></details>
+     <details><summary>Status & what-if</summary>
+      <div class="pk2"><label class="note small">Hard-capped at <select data-thc="${id}"><option value="none">not hard-capped</option><option value="first_apron" ${st.hc[id]==='first_apron'?'selected':''}>1st apron</option><option value="second_apron" ${st.hc[id]==='second_apron'?'selected':''}>2nd apron</option></select></label></div>
+      <div class="pk2"><label class="note small">Payroll what-if adjustment $<input data-tadj="${id}" inputmode="numeric" value="${esc(st.adj[id]||'')}"></label><button class="ghost" data-trep="${id}">${(id===B.myTeam.team_id?(st.rep[id]??SET.get('repeater',false)):st.rep[id])?'✓ ':''}Tax repeater</button></div></details></div>`;});
+  // checklist
+  const chk=E.ck.filter(x=>x.lvl==='check').map(x=>x.msg).concat([
+    'No player in the deal was claimed off waivers in the last 20 in-game days, or signed in the last 40 days (60 if signed after camp, or before camp with Bird rights and a >20% raise).',
+    'Sign-and-trade / recently extended players are flagged above (contract-type menu) — signing and extension dates aren\'t on the stats site.',
+    'Players acquired by trade in the last 40 days are flagged so they aren\'t aggregated.',
+    'Nobody is reacquiring a player they traded away or released earlier this league year.',
+    'Each team has roster space when the trade is posted; any releases go in the Waiver Wire thread (final).',
+    'Pick protections can never leave a pick conveying nothing; 2nd-round picks aren\'t sold once the rookie draft reaches round 2.',
+    'Stashed overseas rights and pick swaps aren\'t modelled — add them to the post by hand.',
+    'Post team-by-team what each side sends and receives (and from whom) before the scheduled sim.']);
+  h+=`<div class="card"><h2>Checklist <span class="src Checklist">Checklist</span></h2><ul class="ck">${chk.map(x=>`<li class="check"><span class="ic">☐</span><span>${esc(x)}</span></li>`).join('')}</ul></div>`;
+  // settings
+  h+=`<div class="card"><details><summary><b>Rule settings</b> <span class="note small">(defaults from cap_rules.json)</span></summary>
+    <p class="note small">${esc(R.raw.matching_tiers_note||'')}</p>
+    ${R.tiers.map((x,i)=>`<div class="pk2"><span class="note small" style="flex:1 1 100%">Tier ${i+1} <span class="src League">League</span></span><label class="note small">Up to $<input data-tset="tier:${i}:up_to" inputmode="numeric" value="${x.up_to??''}" placeholder="no limit" ${x.up_to==null?'disabled':''}></label><label class="note small">× <input data-tset="tier:${i}:pct" inputmode="decimal" value="${x.pct}" style="width:64px"></label><label class="note small">+ $<input data-tset="tier:${i}:plus" inputmode="numeric" value="${x.plus}"></label></div>`).join('')}
+    <div class="pk2"><label class="note small">Max players out <span class="src League">League</span><input data-tset="maxOut" inputmode="numeric" value="${R.maxOut}" style="width:60px"></label><label class="note small">League cash max $ <span class="src League">League</span><input data-tset="cashMax" inputmode="numeric" value="${R.cashMax}"></label></div>
+    <div class="pk2"><label class="note small">Roster max <span class="src Assumed">Assumed</span><input data-tset="rosterMax" inputmode="numeric" value="${R.rosterMax}" style="width:60px"></label><label class="note small">Roster min <span class="src Assumed">Assumed</span><input data-tset="rosterMin" inputmode="numeric" value="${R.rosterMin}" style="width:60px"></label></div>
+    <div class="pk2"><label class="note small">Min-contract flag ≤ $ <span class="src Assumed">Placeholder</span><input data-tset="minSal" inputmode="numeric" value="${R.minSal}"></label></div>
+    <div class="pk2"><button class="ghost" data-ttog="absorb">${R.absorb?'✓ ':''}Cap-room absorption</button><span class="src Assumed">Assumed</span><button class="ghost" data-ttog="stepien">${R.stepien?'✓ ':''}Stepien rule</button><span class="src Assumed">Assumed</span><button class="ghost" id="tsetreset">Reset settings</button></div>
+    <p class="note small">${esc(((R.raw.assumed||{}).min_salary_max||{}).label||'')}</p></details></div>`;
+  return h;}
+function tradeBind(){
+  if(S.tab!=='trade')return;const st=TS.get(),save=(s,id)=>{if(id!=null)s.open=id;TS.set(s);route(null,true);};
+  const num=v=>{const n=parseInt(String(v).replace(/[^0-9-]/g,''),10);return isNaN(n)?'':n;};
+  const fixTo=s=>{s.assets.forEach(a=>{if(!s.teams.includes(a.to)||a.to===a.from)a.to=s.teams.find(x=>x!==a.from);});Object.keys(s.cash).forEach(k=>{if(!s.teams.includes(+k))delete s.cash[k];else if(s.cash[k].to&&!s.teams.includes(+s.cash[k].to))s.cash[k].to='';});};
+  document.querySelectorAll('[data-tteam]').forEach(el=>el.addEventListener('change',()=>{const i=+el.dataset.tteam,v=+el.value;if(st.teams.includes(v)){route(null,true);return;}
+    const old=st.teams[i];st.teams[i]=v;st.assets=st.assets.filter(a=>a.from!==old);fixTo(st);save(st);}));
+  document.querySelectorAll('[data-tdel]').forEach(el=>el.addEventListener('click',()=>{const old=st.teams.splice(+el.dataset.tdel,1)[0];st.assets=st.assets.filter(a=>a.from!==old);delete st.cash[old];fixTo(st);save(st);}));
+  const at=document.getElementById('taddteam');if(at)at.addEventListener('click',()=>{const n=B.teams.find(t=>!st.teams.includes(t.team_id)&&(t.players||[]).length)||B.teams.find(t=>!st.teams.includes(t.team_id));st.teams.push(n.team_id);save(st);});
+  const rs=document.getElementById('treset');if(rs)rs.addEventListener('click',()=>{SET.set('trade',null);route(null,true);});
+  const sr=document.getElementById('tsetreset');if(sr)sr.addEventListener('click',()=>{SET.set('tradeRules',{});route(null,true);});
+  document.querySelectorAll('[data-tadd]').forEach(el=>el.addEventListener('click',()=>{const [from,kind,...rest]=el.dataset.tadd.split(':'),f=+from,id=kind==='player'?+rest[0]:rest.join(':');
+    const ix=st.assets.findIndex(a=>a.from===f&&a.kind===kind&&a.id===id);if(ix>=0)st.assets.splice(ix,1);else st.assets.push({kind,id,from:f,to:st.teams.find(x=>x!==f)});save(st,f);}));
+  document.querySelectorAll('[data-tcadd]').forEach(el=>el.addEventListener('click',()=>{const f=+el.dataset.tcadd,nm=document.querySelector(`[data-tcname="${f}"]`).value,sv=num(document.querySelector(`[data-tcsal="${f}"]`).value);
+    if(!sv)return;st.assets.push({kind:'custom',id:'c'+Date.now(),name:nm||'Hypothetical player',sal:sv,from:f,to:st.teams.find(x=>x!==f)});save(st,f);}));
+  document.querySelectorAll('[data-trm]').forEach(el=>el.addEventListener('click',()=>{st.assets.splice(+el.dataset.trm,1);save(st);}));
+  document.querySelectorAll('[data-tto]').forEach(el=>el.addEventListener('change',()=>{st.assets[+el.dataset.tto].to=+el.value;save(st);}));
+  document.querySelectorAll('[data-tflag]').forEach(el=>el.addEventListener('change',()=>{st.assets[+el.dataset.tflag].flag=el.value;save(st);}));
+  document.querySelectorAll('[data-tnum]').forEach(el=>el.addEventListener('change',()=>{const [k,f]=el.dataset.tnum.split(':');st.assets[+k][f]=num(el.value);save(st);}));
+  document.querySelectorAll('[data-tcash]').forEach(el=>el.addEventListener('change',()=>{const [id,f]=el.dataset.tcash.split(':');st.cash[id]=st.cash[id]||{};st.cash[id][f]=num(el.value);if(f==='amt'&&!st.cash[id].to&&st.teams.length===2)st.cash[id].to=st.teams.find(x=>x!==+id);save(st,+id);}));
+  document.querySelectorAll('[data-tcashto]').forEach(el=>el.addEventListener('change',()=>{const id=el.dataset.tcashto;st.cash[id]=st.cash[id]||{};st.cash[id].to=el.value?+el.value:'';save(st,+id);}));
+  document.querySelectorAll('[data-thc]').forEach(el=>el.addEventListener('change',()=>{st.hc[el.dataset.thc]=el.value;save(st);}));
+  document.querySelectorAll('[data-tadj]').forEach(el=>el.addEventListener('change',()=>{st.adj[el.dataset.tadj]=num(el.value)||0;save(st);}));
+  document.querySelectorAll('[data-trep]').forEach(el=>el.addEventListener('click',()=>{const id=+el.dataset.trep,cur=id===B.myTeam.team_id?(st.rep[id]??SET.get('repeater',false)):!!st.rep[id];st.rep[id]=!cur;save(st);}));
+  const RS=SET.get('tradeRules',{})||{},Rr=TRD();
+  document.querySelectorAll('[data-tset]').forEach(el=>el.addEventListener('change',()=>{const k=el.dataset.tset;
+    if(k.startsWith('tier:')){const [,i,f]=k.split(':');RS.tiers=RS.tiers||Rr.tiers;const v=f==='pct'?parseFloat(el.value):num(el.value);if(v===''||isNaN(v))return;RS.tiers[+i][f]=v;}
+    else{const v=num(el.value);if(v==='')return;RS[k]=v;}SET.set('tradeRules',RS);route(null,true);}));
+  document.querySelectorAll('[data-ttog]').forEach(el=>el.addEventListener('click',()=>{const k=el.dataset.ttog;RS[k]=!Rr[k];SET.set('tradeRules',RS);route(null,true);}));
 }
 
 /* ---------- events ---------- */
 function bind(){
+  tradeBind();
   document.querySelectorAll('[data-href]').forEach(el=>el.addEventListener('click',e=>{if(e.target.closest('a'))return;location.hash=el.dataset.href.replace(/^#/,'');}));
   const on=(id,ev,fn)=>{const el=document.getElementById(id);if(el)el.addEventListener(ev,fn);};
   const rerender=(keepFocus)=>{const pos=keepFocus&&document.activeElement?.id;const sel=document.activeElement?.selectionStart;route(null,true);if(pos){const el=document.getElementById(pos);if(el){el.focus();try{el.setSelectionRange(sel,sel);}catch(e){}}}};
@@ -441,7 +620,6 @@ function bind(){
   on('tuse','click',()=>{$('#tpay').value=payrollOf(B.myTeam);tcalc();});
   on('tover5','click',()=>{$('#tpay').value=CR().luxury_tax+5000000;tcalc();});
   on('trep','click',e=>{SET.set('taxRep',!SET.get('taxRep',false));e.target.textContent=(SET.get('taxRep',false)?'✓ ':'')+'Repeater';tcalc();});
-  on('fb','change',e=>{S.fb=e.target.value;rerender();});
   document.querySelectorAll('[data-jump]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();document.getElementById(a.dataset.jump)?.scrollIntoView({behavior:'smooth'});}));
   on('ppos','change',e=>{S.ppos=e.target.value;rerender();});
 }

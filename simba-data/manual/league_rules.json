@@ -1,0 +1,98 @@
+{
+ "_meta": {
+  "source": "manual — our own concise summaries of league rules the commissioner published/the user pasted (not copies of forum posts). Edit by hand; never overwritten by refreshes.",
+  "updated_at": "2026-10-17"
+ },
+ "sections": [
+  {
+   "id": "overview",
+   "title": "League basics",
+   "items": [
+    "The league mirrors the NBA's current CBA (cap, tax, aprons, exceptions, trade matching) on 2005-06 rosters.",
+    "Low-commitment format: inactive GMs and CPU-run teams are handled; regular-season depth charts are fully automated.",
+    "Assistant commissioners help with rules questions."
+   ]
+  },
+  {
+   "id": "trades",
+   "title": "Trades (summary)",
+   "items": [
+    "Salary matching applies to every team in the deal, judged on its apron status AFTER the trade.",
+    "Below both aprons after the trade: may take back up to 200% + $250K (outgoing ≤ $7.25M), outgoing + $7.5M ($7.25M–$29M), or 125% + $250K (over $29M). Thresholds rise with the cap each season.",
+    "Using that table (taking back more than 100%) hard-caps the team at the 1st apron for the season.",
+    "Above either apron after the trade: incoming salary may not exceed 100% of outgoing. Above the 2nd apron: no aggregating salaries and no sending league cash.",
+    "Minimum-salary players don't count as incoming salary. Sign-and-trade: outgoing = greater of old salary or 50% of new; the receiving team counts the full new salary. Poison pill: receiving team counts the average of the remaining salary plus extension years.",
+    "Max 5 players out per team (cash, picks and stashed players don't count). Each team must send a qualifying asset (contracted player, future pick, stashed rights, pick swap, or ≥ $110K league cash; ≥ $1.1M in multi-team deals).",
+    "League cash is a separate in-league currency, outside the cap (never counts as salary). Only one team may send it, you can't send more than you have, and teams above the 2nd apron can't send it. Per-trade maximum: Taxpayer MLE rounded down to the nearest $1M ($1M in 2005). First-round picks can never be sold for cash.",
+    "Not tradable yet: waiver claims (20 days) and newly signed players (40–60 days). Players acquired by trade can be re-traded at once but not aggregated for 40 days (unless acquired into cap room). You can't reacquire a player you traded or released this league year.",
+    "Trades are final, need roster space when posted, and must be in before the scheduled sim. No trades of any kind during the creation draft."
+   ]
+  },
+  {
+   "id": "creation",
+   "title": "Creation draft",
+   "items": [
+    "Order was set by random draw; snake format (order reverses every even round).",
+    "Pick clock: 4 hours when on the clock 8 AM–8 PM ET, otherwise 8 hours or until 12 PM ET, whichever is first.",
+    "Missing a clock puts you on auto-draft; if you come off it your windows shrink (2 h / 4 h). Three misses = auto-draft for the rest of the draft.",
+    "No trades during the creation draft. Drafted players keep their contracts from the start of the 2005-06 NBA season.",
+    "No limit on drafted salary, but teams above either apron when the draft ends are bound by the apron rules."
+   ]
+  },
+  {
+   "id": "rookie",
+   "title": "Rookie draft",
+   "items": [
+    "Draft threads are for picks only; picks must be submitted on the site (Discord doesn't count) and are final.",
+    "Clock 12 PM–8 PM ET: 4 hours in round 1, 2 hours in round 2. An expired clock automates all your remaining picks in that draft.",
+    "A pick on the clock can only be traded during its first hour."
+   ]
+  },
+  {
+   "id": "second",
+   "title": "Second-round picks & contracts",
+   "items": [
+    "Before round 2 a list shows which prospects require a guaranteed deal and which accept a two-way deal (two-way = no salary cost).",
+    "Your own 2nd-rounder gets a guaranteed contract unless you ask for two-way. Auto-picks 30–39 get guaranteed deals; auto-picks 40+ come from the two-way pool.",
+    "Guaranteed options: 1-yr rookie min, 2-yr rookie min (default), 3-yr min with team option, 4-yr min (starting at the 2-yr min) with team option.",
+    "These count against the cap and tax at their listed amounts (not as 2-year-veteran minimums)."
+   ]
+  },
+  {
+   "id": "lottery",
+   "title": "Draft lottery (3-2-1)",
+   "items": [
+    "15 teams enter: the 13 non-playoff teams plus both 8-seeds; all 15 picks are drawn.",
+    "Balls: the 3 worst records (relegation zone) get 2 each; other non-playoff teams 11th or worse in their conference get 3; 9th–10th get 2; 8-seeds get 1.",
+    "Relegation-zone teams can't fall below 12th. No #1 pick in back-to-back years; no top-5 pick three years running (restrictions follow the original owner of the pick).",
+    "The first 15 picks of round 2 go in reverse order of round 1. Ties in groupings are settled by a virtual coin flip."
+   ]
+  },
+  {
+   "id": "potential",
+   "title": "Prospect potential",
+   "items": [
+    "A drafted prospect's real potential is set only after the draft, from one of four random methods: historical potential, potential tied to their real draft slot, potential tied to their sim-league draft slot, or fully random.",
+    "The scouted potential shown pre-draft is the historical value only. Players in the base file are not affected."
+   ]
+  },
+  {
+   "id": "camp",
+   "title": "Training camp & development",
+   "items": [
+    "Development is run outside the game each offseason and depends on age, potential, playing time, archetype and random variance.",
+    "Rookies skip their first camp; G-League assignments give a guaranteed development baseline.",
+    "Potential is a guide, not a cap; minor/major/elite breakouts are possible. Skills improve with experience; quickness and jumping peak early, strength into the mid-20s; heavier players decline faster late."
+   ]
+  },
+  {
+   "id": "claims",
+   "title": "Box score claims",
+   "items": [
+    "1 point each for 50+ pts, 25+ reb, 20+ ast, 10+ stl, 10+ blk, triple-double, 5x5, and Box Score / Player / Rookie / Team of the Sim.",
+    "Spend a point as a temporary rating point for the season or a potential point at the next camp, on any player on your roster at the time except the one who earned it.",
+    "Playoffs: all regular-season claims except Team of the Sim, counting double. Summer League and Preseason (10 simmed days each) count too; their injuries carry over."
+   ]
+  }
+ ]
+}

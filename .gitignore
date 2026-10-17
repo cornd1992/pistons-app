@@ -4,3 +4,7 @@ __pycache__/
 *.pyc
 .DS_Store
 _site/
+
+# forum copies must never be published
+forum.json
+**/forum.json

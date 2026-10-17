@@ -4,7 +4,7 @@
   "season": 2005,
   "entered_at": "2026-10-17T08:34:00Z",
   "note": "Hand-maintained file. Not produced or overwritten by scrape.py/forum.py/refresh.sh; edit by hand when the league publishes new figures.",
-  "updated_at": "2026-10-17T08:40:00Z"
+  "updated_at": "2026-10-17"
  },
  "salary_cap": 49500000,
  "luxury_tax": 60143000,
@@ -188,5 +188,75 @@
     "Any team below the floor when offseason free agency ends will have players auto-signed to reach the floor, and players may be cut as needed to make room."
    ]
   }
- ]
+ ],
+ "trade": {
+  "source": "league — manual/trade_rules_full.md (pasted by user 2026-10-17); items under 'assumed' are standard NBA practice where the league text is silent",
+  "matching_tiers": [
+   {
+    "up_to": 7250000,
+    "pct": 2.0,
+    "plus": 250000,
+    "label": "$0–$7.25M: 200% + $250K"
+   },
+   {
+    "up_to": 29000000,
+    "pct": 1.0,
+    "plus": 7500000,
+    "label": "$7.25M–$29M: outgoing + $7.5M"
+   },
+   {
+    "up_to": null,
+    "pct": 1.25,
+    "plus": 250000,
+    "label": "$29M+: 125% + $250K"
+   }
+  ],
+  "matching_tiers_note": "Tier limits increase with the salary cap each season (league note 1) — update these every season.",
+  "matching_applies_below": "first_apron",
+  "table_use_hard_caps_at": "first_apron",
+  "above_apron_max_incoming_pct": 1.0,
+  "apron_status_after_trade": true,
+  "second_apron_no_aggregation": true,
+  "max_players_out": 5,
+  "sign_and_trade_outgoing_pct_of_new": 0.5,
+  "acquired_no_aggregation_days": 40,
+  "waiver_claim_untradable_days": 20,
+  "new_signing_untradable_days": [
+   40,
+   60
+  ],
+  "assumed": {
+   "cap_room_absorption": {
+    "enabled": true,
+    "label": "ASSUMED (standard NBA): a team whose cap salary is at or below the cap after the trade can absorb salary without matching."
+   },
+   "roster_max": {
+    "value": 15,
+    "label": "ASSUMED (standard NBA): 15-man roster maximum."
+   },
+   "roster_min": {
+    "value": 13,
+    "label": "ASSUMED (standard NBA): 13-man minimum in season (warning only; offseason rosters may be short)."
+   },
+   "min_salary_max": {
+    "value": 1138500,
+    "label": "PLACEHOLDER: the league's minimum-salary table isn't available; contracts at or below the NBA 2005-06 10+ year minimum ($1,138,500) are pre-flagged as minimum deals. Toggle per player."
+   },
+   "stepien": {
+    "enabled": true,
+    "label": "ASSUMED (standard NBA Stepien rule): a team can't be left without a 1st-round pick in consecutive future drafts."
+   }
+  },
+  "league_cash": {
+   "label": "League cash",
+   "note": "League cash is a separate in-league currency outside the salary cap: it never counts as salary for matching, payroll, tax or aprons. Team balances aren't on the stats site — enter them manually.",
+   "qualifying_min_two_team": 110000,
+   "qualifying_min_multi_team": 1100000,
+   "max_per_trade": 1000000,
+   "max_per_trade_note": "Editable setting (league text: Taxpayer MLE rounded down to the nearest $1M). Exceeding it is a warning, not a fail.",
+   "no_sending_above_second_apron": true,
+   "one_sender_only": true,
+   "cannot_exceed_balance": true
+  }
+ }
 }

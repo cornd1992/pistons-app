@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build step: copy scraped JSON from /workspace/simba-data into data/, slim it for the app,
+"""Build step: copy scraped JSON from simba-data/ into data/, slim it for the app,
 and save a dated snapshot (data/snapshots/<crawl time>.json) so trends accumulate across refreshes."""
 import json, os, shutil, glob, re
 APP=os.path.dirname(os.path.abspath(__file__))
@@ -25,18 +25,12 @@ bundle={"meta":{**meta,"my_team_id":MY_TEAM,"salary_cap":CAP["salary_cap"],"cap_
         "leaders":data["leaders"],"teamstats":data["teamstats"]["pages"],"injuries":data["injuries"],
         "freeagents":data["freeagents"]["free_agents"],
         "schedule":{"league":data["schedule"]["league"],"my_team":data["schedule"]["teams"].get(str(MY_TEAM))}}
-# forum (optional): rules, picks, recent posts
-fp=os.path.join(SRC,"forum.json")
-if os.path.exists(fp):
-    F=json.load(open(fp)); th={t["thread_id"]:t for t in F.get("threads",[])}
-    recent=sorted(F.get("posts",[]),key=lambda p:p.get("timestamp") or "",reverse=True)[:150]
-    bundle["forum"]={"meta":F.get("_meta"),"boards":F.get("boards"),"rules":F.get("rules"),"prospect_potential":F.get("prospect_potential"),
-        "lottery_odds":F.get("lottery_odds"),"gms":F.get("gms"),"pistons_gm":F.get("pistons_gm"),"drafts":F.get("drafts"),
-        "draft_picks":F.get("draft_picks"),"creation_draft_order":F.get("creation_draft_order"),
-        "inaccessible_threads":[t for t in F.get("threads",[]) if t.get("inaccessible")],
-        "recent_posts":[{**p,"thread_title":(th.get(p["thread_id"]) or {}).get("title"),"thread_url":(th.get(p["thread_id"]) or {}).get("url"),
-                          "board":next((b["name"] for b in F.get("boards",[]) if b["board_id"]==(th.get(p["thread_id"]) or {}).get("board_id")),None)} for p in recent]}
-    shutil.copy(fp,os.path.join(D,"forum.json"))
+# hand-kept league facts + our own rule summaries (manual/, never overwritten). Forum posts are NOT bundled or published.
+for key,fn in (("facts","league_facts.json"),("rules","league_rules.json")):
+    p=os.path.join(SRC,"manual",fn)
+    if os.path.exists(p): bundle[key]=json.load(open(p))
+stale=os.path.join(D,"forum.json")
+if os.path.exists(stale): os.remove(stale)  # never publish the forum copy
 json.dump(bundle,open(os.path.join(D,"bundle.json"),"w"),separators=(",",":"),ensure_ascii=False)
 if os.path.exists(cap_path): shutil.copy(cap_path,os.path.join(D,"cap_rules.json"))
 for f in files: shutil.copy(os.path.join(SRC,f+".json"),os.path.join(D,f+".json"))  # full copies for reference

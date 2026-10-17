@@ -65,3 +65,19 @@ details summary{cursor:pointer;min-height:44px;display:flex;align-items:center;f
 .warnline{font-size:11px;color:var(--bad);white-space:normal;max-width:220px}
 .rl{padding-left:18px;margin:0;list-style:disc}.rl li{margin:6px 0;font-size:15px}
 .tbar .capsal{position:absolute;top:38px;height:14px;background:repeating-linear-gradient(45deg,var(--red) 0 4px,transparent 4px 8px);opacity:.6}
+/* trade checker */
+.tteams{display:flex;flex-direction:column;gap:8px}.trow{display:flex;gap:8px}.trow select{flex:1;min-width:0}
+.verdict.ok{border-color:var(--good);box-shadow:inset 4px 0 0 var(--good)}.verdict.bad{border-color:var(--bad);box-shadow:inset 4px 0 0 var(--bad)}
+.ck{list-style:none;margin:0;padding:0}.ck li{display:flex;gap:8px;padding:7px 0;border-bottom:1px solid var(--line);font-size:14px;line-height:1.35}.ck li:last-child{border-bottom:0}
+.ck .ic{flex:0 0 20px;text-align:center;font-weight:700}.ck li.pass .ic{color:var(--good)}.ck li.fail .ic{color:var(--bad)}.ck li.fail{color:var(--bad)}.ck li.info .ic,.ck li.check .ic{color:var(--mut)}
+.src{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;border-radius:6px;padding:1px 6px;vertical-align:1px;white-space:nowrap}
+.src.League{background:#dbeafe;color:#1e3a8a}.src.Assumed{background:#fef3c7;color:#78350f}.src.Checklist{background:#e5e7eb;color:#374151}
+.pkg{border:1px solid var(--line);border-radius:12px;padding:8px 10px;margin:6px 0}.pk1{display:flex;align-items:center;gap:6px;flex-wrap:wrap}.pk1 .x{margin-left:auto;min-height:36px;padding:0 12px}
+.pk2{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:6px}.pk2 select{flex:1;min-width:140px}
+.pk2 input,.tteam input{min-height:40px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);padding:0 10px;font-size:16px;max-width:150px}
+.pk2 label{display:flex;flex-direction:column;gap:2px}
+.tteam details{margin-top:10px;border-top:1px solid var(--line);padding-top:8px}.tteam summary,.card summary{cursor:pointer;font-weight:600;min-height:36px;display:flex;align-items:center}
+.plist .row.sel{background:var(--hi);border-radius:8px}.pchips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.pchips button{min-height:38px;font-size:13px}.pchips button.on{background:var(--blue);color:#fff}
+.neg{color:var(--bad);font-weight:700}
+.tabbar a{font-size:10px}.tabbar svg{width:22px;height:22px}
+.ck li.warn{background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;margin:0;padding:7px 0;color:inherit;font-size:14px}.ck li.warn .ic{color:#d97706}
