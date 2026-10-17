@@ -1,0 +1,412 @@
+{
+ "_meta": {
+  "source": "https://simba.mygamesonline.org/",
+  "crawled_at": "2026-10-17T07:28:00Z",
+  "parsed_at": "2026-10-17T08:45:41Z"
+ },
+ "league_leaders": {
+  "Minutes-Per-Game": {
+   "stat": "MPG",
+   "leaders": []
+  },
+  "Points-Per-Game": {
+   "stat": "PPG",
+   "leaders": []
+  },
+  "Rebounds-Per-Game": {
+   "stat": "RPG",
+   "leaders": []
+  },
+  "Assists-Per-Game": {
+   "stat": "APG",
+   "leaders": []
+  },
+  "Blocks-Per-Game": {
+   "stat": "BPG",
+   "leaders": []
+  },
+  "Steals-Per-Game": {
+   "stat": "SPG",
+   "leaders": []
+  },
+  "FG Attempts-Per-Game": {
+   "stat": "FGAPG",
+   "leaders": []
+  },
+  "Field-Goal Percentage": {
+   "stat": "FG %",
+   "leaders": []
+  },
+  "FT Attemps-Per-Game": {
+   "stat": "FTAPG",
+   "leaders": []
+  },
+  "Freethrow Percentage": {
+   "stat": "FT %",
+   "leaders": []
+  },
+  "3P Attempts-Per-Game": {
+   "stat": "3PAPG",
+   "leaders": []
+  },
+  "3P Percentage": {
+   "stat": "3P %",
+   "leaders": []
+  },
+  "Fouls-Per-Game": {
+   "stat": "FPG",
+   "leaders": []
+  },
+  "Turnovers-Per-Game": {
+   "stat": "TOPG",
+   "leaders": []
+  }
+ },
+ "records": {
+  "playergmrecords": [
+   {
+    "category": "Points",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "FG",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "FGA",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "FT",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "FTA",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "3P",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "3PA",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "Steals",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "Assists",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "Rebounds",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "Blocks",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "Turnovers",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   }
+  ],
+  "playerssnrecords": [
+   {
+    "category": "Points per Game",
+    "record": 0.0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "Rebounds per Game",
+    "record": 0.0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "Assists per Game",
+    "record": 0.0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "Steals per Game",
+    "record": 0.0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "Blocks per Game",
+    "record": 0.0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "Turnovers per Game",
+    "record": 0.0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "Field Goal %",
+    "record": 0.0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "Free Throw %",
+    "record": 0.0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "3 Point %",
+    "record": 0.0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "Double Doubles",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   },
+   {
+    "category": "Triple Doubles",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "team": "n/a",
+    "season": 0
+   }
+  ],
+  "playercareerrecords": [
+   {
+    "category": "Games",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "season": 0
+   },
+   {
+    "category": "Points",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "season": 0
+   },
+   {
+    "category": "Rebounds",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "season": 0
+   },
+   {
+    "category": "Assists",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "season": 0
+   },
+   {
+    "category": "Steals",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "season": 0
+   },
+   {
+    "category": "Blocks",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "season": 0
+   },
+   {
+    "category": "Turnovers",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "season": 0
+   },
+   {
+    "category": "Field Goals",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "season": 0
+   },
+   {
+    "category": "Free Throws",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "season": 0
+   },
+   {
+    "category": "3 Pointers",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "season": 0
+   },
+   {
+    "category": "Double Doubles",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "season": 0
+   },
+   {
+    "category": "Triple Doubles",
+    "record": 0,
+    "player": 0,
+    "position": 0,
+    "season": 0
+   }
+  ],
+  "teamssnrecords": [
+   {
+    "category": "Points per Game",
+    "record": 0.0,
+    "team": "N/A",
+    "season": 0
+   },
+   {
+    "category": "Points Allowed per Game",
+    "record": 1000.0,
+    "team": "N/A",
+    "season": 0
+   },
+   {
+    "category": "Rebounds per Game",
+    "record": 0.0,
+    "team": "N/A",
+    "season": 0
+   },
+   {
+    "category": "Assists per Game",
+    "record": 0.0,
+    "team": "N/A",
+    "season": 0
+   },
+   {
+    "category": "Steals per Game",
+    "record": 0.0,
+    "team": "N/A",
+    "season": 0
+   },
+   {
+    "category": "Blocks per Game",
+    "record": 0.0,
+    "team": "N/A",
+    "season": 0
+   },
+   {
+    "category": "Turnovers per Game",
+    "record": 0.0,
+    "team": "N/A",
+    "season": 0
+   },
+   {
+    "category": "Field Goal %",
+    "record": 0.0,
+    "team": "N/A",
+    "season": 0
+   },
+   {
+    "category": "Free Throw %",
+    "record": 0.0,
+    "team": "N/A",
+    "season": 0
+   },
+   {
+    "category": "3 Point %",
+    "record": 0.0,
+    "team": "N/A",
+    "season": 0
+   }
+  ]
+ },
+ "awards": {
+  "Player of the Week": [],
+  "Player of the Month": [],
+  "Rookie of the Month": [],
+  "3-Point Shootout": [],
+  "Slam Dunk Contest": []
+ },
+ "past_champions": [],
+ "hall_of_fame": []
+}

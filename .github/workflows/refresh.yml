@@ -1,0 +1,91 @@
+name: Refresh league data & deploy
+
+on:
+  schedule:
+    - cron: "0 10 * * *"   # daily 10:00 UTC
+  workflow_dispatch:
+    inputs:
+      skip_scrape:
+        description: "Skip the stats-site scrape (just rebuild + deploy)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write     # commit the refreshed data/snapshot back
+  pages: write        # deploy to GitHub Pages
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # Stats site only (simba.mygamesonline.org). The forum is NOT crawled:
+      # simba-data/forum.json is a static, manually maintained snapshot, and
+      # simba-data/cap_rules.json is manual and never overwritten.
+      - name: Scrape stats site
+        id: scrape
+        if: ${{ !inputs.skip_scrape }}
+        continue-on-error: true
+        timeout-minutes: 60
+        run: |
+          python simba-data/scrape.py
+          python simba-data/validate.py
+
+      # Fallback: if the scrape failed (e.g. the stats site blocks GitHub runners),
+      # restore the committed data so the site still deploys with the last good data.
+      - name: Fall back to committed data
+        if: ${{ steps.scrape.outcome == 'failure' }}
+        run: |
+          echo "::warning::Stats-site scrape failed; deploying previously committed data."
+          git checkout -- simba-data simba-sitemap.html simba-sitemap.md 2>/dev/null || git checkout -- simba-data
+          git clean -fdq simba-data
+
+      - name: Build app data + dated snapshot
+        run: python build.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data simba-data/*.json simba-sitemap.html simba-sitemap.md sw.js
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "Data refresh $(date -u +%Y-%m-%d)${{ steps.scrape.outcome == 'failure' && ' (scrape failed; rebuilt from committed data)' || '' }}"
+            git push
+          fi
+
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp -r index.html app.js styles.css sw.js manifest.webmanifest .nojekyll icons data _site/
+          cp simba-sitemap.html simba-sitemap.md _site/ 2>/dev/null || true
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

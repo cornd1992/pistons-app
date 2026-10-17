@@ -1,0 +1,6 @@
+# raw HTML cache: rebuilt by every scrape, ~15 MB, not committed
+simba-data/raw/
+__pycache__/
+*.pyc
+.DS_Store
+_site/

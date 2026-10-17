@@ -1,0 +1,2053 @@
+{
+ "_meta": {
+  "source": "https://simba.mygamesonline.org/",
+  "crawled_at": "2026-10-17T07:28:00Z",
+  "parsed_at": "2026-10-17T08:45:41Z"
+ },
+ "pages": {
+  "tmstats/offense/apg.htm": [
+   {
+    "team": "Celtics",
+    "team_id": 1,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Heat",
+    "team_id": 2,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Nets",
+    "team_id": 3,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Knicks",
+    "team_id": 4,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Magic",
+    "team_id": 5,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "76ers",
+    "team_id": 6,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Wizards",
+    "team_id": 7,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Hawks",
+    "team_id": 8,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Hornets",
+    "team_id": 9,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Bulls",
+    "team_id": 10,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Cavaliers",
+    "team_id": 11,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Pistons",
+    "team_id": 12,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Pacers",
+    "team_id": 13,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Bucks",
+    "team_id": 14,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Raptors",
+    "team_id": 15,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Mavericks",
+    "team_id": 16,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Nuggets",
+    "team_id": 17,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Rockets",
+    "team_id": 18,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Timberwolves",
+    "team_id": 19,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Spurs",
+    "team_id": 20,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Jazz",
+    "team_id": 21,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Grizzlies",
+    "team_id": 22,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Warriors",
+    "team_id": 23,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Clippers",
+    "team_id": 24,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Lakers",
+    "team_id": 25,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Suns",
+    "team_id": 26,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Trail Blazers",
+    "team_id": 27,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Kings",
+    "team_id": 28,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "SuperSonics",
+    "team_id": 29,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  ],
+  "tmstats/offense/bpg.htm": [
+   {
+    "team": "Celtics",
+    "team_id": 1,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Heat",
+    "team_id": 2,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Nets",
+    "team_id": 3,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Knicks",
+    "team_id": 4,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Magic",
+    "team_id": 5,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "76ers",
+    "team_id": 6,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Wizards",
+    "team_id": 7,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Hawks",
+    "team_id": 8,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Hornets",
+    "team_id": 9,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Bulls",
+    "team_id": 10,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Cavaliers",
+    "team_id": 11,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Pistons",
+    "team_id": 12,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Pacers",
+    "team_id": 13,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Bucks",
+    "team_id": 14,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Raptors",
+    "team_id": 15,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Mavericks",
+    "team_id": 16,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Nuggets",
+    "team_id": 17,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Rockets",
+    "team_id": 18,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Timberwolves",
+    "team_id": 19,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Spurs",
+    "team_id": 20,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Jazz",
+    "team_id": 21,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Grizzlies",
+    "team_id": 22,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Warriors",
+    "team_id": 23,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Clippers",
+    "team_id": 24,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Lakers",
+    "team_id": 25,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Suns",
+    "team_id": 26,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Trail Blazers",
+    "team_id": 27,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Kings",
+    "team_id": 28,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "SuperSonics",
+    "team_id": 29,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  ],
+  "tmstats/offense/ppg.htm": [
+   {
+    "team": "Celtics",
+    "team_id": 1,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Heat",
+    "team_id": 2,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Nets",
+    "team_id": 3,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Knicks",
+    "team_id": 4,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Magic",
+    "team_id": 5,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "76ers",
+    "team_id": 6,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Wizards",
+    "team_id": 7,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Hawks",
+    "team_id": 8,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Hornets",
+    "team_id": 9,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Bulls",
+    "team_id": 10,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Cavaliers",
+    "team_id": 11,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Pistons",
+    "team_id": 12,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Pacers",
+    "team_id": 13,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Bucks",
+    "team_id": 14,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Raptors",
+    "team_id": 15,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Mavericks",
+    "team_id": 16,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Nuggets",
+    "team_id": 17,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Rockets",
+    "team_id": 18,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Timberwolves",
+    "team_id": 19,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Spurs",
+    "team_id": 20,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Jazz",
+    "team_id": 21,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Grizzlies",
+    "team_id": 22,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Warriors",
+    "team_id": 23,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Clippers",
+    "team_id": 24,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Lakers",
+    "team_id": 25,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Suns",
+    "team_id": 26,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Trail Blazers",
+    "team_id": 27,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Kings",
+    "team_id": 28,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "SuperSonics",
+    "team_id": 29,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  ],
+  "tmstats/offense/rpg.htm": [
+   {
+    "team": "Celtics",
+    "team_id": 1,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Heat",
+    "team_id": 2,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Nets",
+    "team_id": 3,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Knicks",
+    "team_id": 4,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Magic",
+    "team_id": 5,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "76ers",
+    "team_id": 6,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Wizards",
+    "team_id": 7,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Hawks",
+    "team_id": 8,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Hornets",
+    "team_id": 9,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Bulls",
+    "team_id": 10,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Cavaliers",
+    "team_id": 11,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Pistons",
+    "team_id": 12,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Pacers",
+    "team_id": 13,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Bucks",
+    "team_id": 14,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Raptors",
+    "team_id": 15,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Mavericks",
+    "team_id": 16,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Nuggets",
+    "team_id": 17,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Rockets",
+    "team_id": 18,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Timberwolves",
+    "team_id": 19,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Spurs",
+    "team_id": 20,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Jazz",
+    "team_id": 21,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Grizzlies",
+    "team_id": 22,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Warriors",
+    "team_id": 23,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Clippers",
+    "team_id": 24,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Lakers",
+    "team_id": 25,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Suns",
+    "team_id": 26,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Trail Blazers",
+    "team_id": 27,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Kings",
+    "team_id": 28,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "SuperSonics",
+    "team_id": 29,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  ],
+  "tmstats/offense/spg.htm": [
+   {
+    "team": "Celtics",
+    "team_id": 1,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Heat",
+    "team_id": 2,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Nets",
+    "team_id": 3,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Knicks",
+    "team_id": 4,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Magic",
+    "team_id": 5,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "76ers",
+    "team_id": 6,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Wizards",
+    "team_id": 7,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Hawks",
+    "team_id": 8,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Hornets",
+    "team_id": 9,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Bulls",
+    "team_id": 10,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Cavaliers",
+    "team_id": 11,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Pistons",
+    "team_id": 12,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Pacers",
+    "team_id": 13,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Bucks",
+    "team_id": 14,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Raptors",
+    "team_id": 15,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Mavericks",
+    "team_id": 16,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Nuggets",
+    "team_id": 17,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Rockets",
+    "team_id": 18,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Timberwolves",
+    "team_id": 19,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Spurs",
+    "team_id": 20,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Jazz",
+    "team_id": 21,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Grizzlies",
+    "team_id": 22,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Warriors",
+    "team_id": 23,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Clippers",
+    "team_id": 24,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Lakers",
+    "team_id": 25,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Suns",
+    "team_id": 26,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Trail Blazers",
+    "team_id": 27,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Kings",
+    "team_id": 28,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "SuperSonics",
+    "team_id": 29,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  ],
+  "tmstats/offense/team.htm": [
+   {
+    "team": "76ers",
+    "team_id": 6,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Bucks",
+    "team_id": 14,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Bulls",
+    "team_id": 10,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Cavaliers",
+    "team_id": 11,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Celtics",
+    "team_id": 1,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Clippers",
+    "team_id": 24,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Grizzlies",
+    "team_id": 22,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Hawks",
+    "team_id": 8,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Heat",
+    "team_id": 2,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Hornets",
+    "team_id": 9,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Jazz",
+    "team_id": 21,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Kings",
+    "team_id": 28,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Knicks",
+    "team_id": 4,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Lakers",
+    "team_id": 25,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Magic",
+    "team_id": 5,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Mavericks",
+    "team_id": 16,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Nets",
+    "team_id": 3,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Nuggets",
+    "team_id": 17,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Pacers",
+    "team_id": 13,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Pistons",
+    "team_id": 12,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Raptors",
+    "team_id": 15,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Rockets",
+    "team_id": 18,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Spurs",
+    "team_id": 20,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Suns",
+    "team_id": 26,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "SuperSonics",
+    "team_id": 29,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Timberwolves",
+    "team_id": 19,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Trail Blazers",
+    "team_id": 27,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Warriors",
+    "team_id": 23,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Wizards",
+    "team_id": 7,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  ],
+  "tmstats/offense/topg.htm": [
+   {
+    "team": "Celtics",
+    "team_id": 1,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Heat",
+    "team_id": 2,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Nets",
+    "team_id": 3,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Knicks",
+    "team_id": 4,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Magic",
+    "team_id": 5,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "76ers",
+    "team_id": 6,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Wizards",
+    "team_id": 7,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Hawks",
+    "team_id": 8,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Hornets",
+    "team_id": 9,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Bulls",
+    "team_id": 10,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Cavaliers",
+    "team_id": 11,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Pistons",
+    "team_id": 12,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Pacers",
+    "team_id": 13,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Bucks",
+    "team_id": 14,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Raptors",
+    "team_id": 15,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Mavericks",
+    "team_id": 16,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Nuggets",
+    "team_id": 17,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Rockets",
+    "team_id": 18,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Timberwolves",
+    "team_id": 19,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Spurs",
+    "team_id": 20,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Jazz",
+    "team_id": 21,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Grizzlies",
+    "team_id": 22,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Warriors",
+    "team_id": 23,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Clippers",
+    "team_id": 24,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Lakers",
+    "team_id": 25,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Suns",
+    "team_id": 26,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Trail Blazers",
+    "team_id": 27,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "Kings",
+    "team_id": 28,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   },
+   {
+    "team": "SuperSonics",
+    "team_id": 29,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  ]
+ }
+}

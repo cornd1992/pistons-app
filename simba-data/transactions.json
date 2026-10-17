@@ -1,0 +1,174 @@
+{
+ "_meta": {
+  "source": "https://simba.mygamesonline.org/",
+  "crawled_at": "2026-10-17T07:28:00Z",
+  "parsed_at": "2026-10-17T08:45:41Z"
+ },
+ "transactions": [
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bulls",
+   "action": "Draft PG Chris Paul with pick #1 of round 1.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Chris Paul",
+   "pick": 1,
+   "round": 1
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "76ers",
+   "action": "Draft SF LeBron James with pick #2 of round 1.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "LeBron James",
+   "pick": 2,
+   "round": 1
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Trail Blazers",
+   "action": "Draft C Dwight Howard with pick #3 of round 1.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Dwight Howard",
+   "pick": 3,
+   "round": 1
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pistons",
+   "action": "Draft SG Kobe Bryant with pick #4 of round 1.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Kobe Bryant",
+   "pick": 4,
+   "round": 1
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hornets",
+   "action": "Draft SF Carmelo Anthony with pick #5 of round 1.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Carmelo Anthony",
+   "pick": 5,
+   "round": 1
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pacers",
+   "action": "Draft SG Dwyane Wade with pick #6 of round 1.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Dwyane Wade",
+   "pick": 6,
+   "round": 1
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Spurs",
+   "action": "Draft PF Amar'e Stoudemire with pick #7 of round 1.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Amar'e Stoudemire",
+   "pick": 7,
+   "round": 1
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Warriors",
+   "action": "Draft PG Deron Williams with pick #8 of round 1.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Deron Williams",
+   "pick": 8,
+   "round": 1
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Magic",
+   "action": "Draft PF Kevin Garnett with pick #9 of round 1.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Kevin Garnett",
+   "pick": 9,
+   "round": 1
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Knicks",
+   "action": "Draft PF Dirk Nowitzki with pick #10 of round 1.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Dirk Nowitzki",
+   "pick": 10,
+   "round": 1
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Cavaliers",
+   "action": "Draft SG Tracy McGrady with pick #11 of round 1.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Tracy McGrady",
+   "pick": 11,
+   "round": 1
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nets",
+   "action": "Draft PG Gilbert Arenas with pick #12 of round 1.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Gilbert Arenas",
+   "pick": 12,
+   "round": 1
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Lakers",
+   "action": "Draft PF Tim Duncan with pick #13 of round 1.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Tim Duncan",
+   "pick": 13,
+   "round": 1
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Clippers",
+   "action": "Draft PF Chris Bosh with pick #14 of round 1.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Chris Bosh",
+   "pick": 14,
+   "round": 1
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Suns",
+   "action": "Draft PG Chauncey Billups with pick #15 of round 1.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Chauncey Billups",
+   "pick": 15,
+   "round": 1
+  }
+ ]
+}

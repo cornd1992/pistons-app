@@ -1,0 +1,6323 @@
+{
+ "_meta": {
+  "source": "https://simba.mygamesonline.org/",
+  "crawled_at": "2026-10-17T07:28:00Z",
+  "parsed_at": "2026-10-17T08:45:41Z"
+ },
+ "teams": [
+  {
+   "team_id": 1,
+   "name": "Boston Celtics",
+   "division": "Atlantic Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster1.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster1hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster1sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 0,
+   "cap_room": 49500000,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Celtics",
+     "original_team_id": 1
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Celtics",
+     "original_team_id": 1
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Celtics",
+     "original_team_id": 1
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Celtics",
+     "original_team_id": 1
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Celtics",
+     "original_team_id": 1
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Celtics",
+     "original_team_id": 1
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 2,
+   "name": "Miami Heat",
+   "division": "Atlantic Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster2.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster2hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster2sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 0,
+   "cap_room": 49500000,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Heat",
+     "original_team_id": 2
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Heat",
+     "original_team_id": 2
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Heat",
+     "original_team_id": 2
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Heat",
+     "original_team_id": 2
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Heat",
+     "original_team_id": 2
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Heat",
+     "original_team_id": 2
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 3,
+   "name": "New Jersey Nets",
+   "division": "Atlantic Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster3.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster3hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster3sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 10243200,
+   "cap_room": 39256800,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [
+    {
+     "player_id": 105,
+     "name": "Gilbert Arenas",
+     "pos": "PG",
+     "age": 24,
+     "height": "6'4''",
+     "height_in": 76,
+     "weight": 210,
+     "ratings": {
+      "in": "B",
+      "out": "B",
+      "hn": "C+",
+      "df": "B-",
+      "reb": "C-",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 10243200,
+      "year_2": 11096800,
+      "year_3": 11950400,
+      "year_4": 1,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 33290401,
+     "profile_url": "https://simba.mygamesonline.org/players/player105.htm"
+    }
+   ],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Nets",
+     "original_team_id": 3
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Nets",
+     "original_team_id": 3
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Nets",
+     "original_team_id": 3
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Nets",
+     "original_team_id": 3
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Nets",
+     "original_team_id": 3
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Nets",
+     "original_team_id": 3
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 4,
+   "name": "New York Knicks",
+   "division": "Atlantic Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster4.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster4hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster4sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 13843156,
+   "cap_room": 35656844,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [
+    {
+     "player_id": 462,
+     "name": "Dirk Nowitzki",
+     "pos": "PF",
+     "age": 27,
+     "height": "7'0''",
+     "height_in": 84,
+     "weight": 245,
+     "ratings": {
+      "in": "B",
+      "out": "A-",
+      "hn": "C",
+      "df": "B-",
+      "reb": "C+",
+      "pot": "B"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 13843156,
+      "year_2": 15101625,
+      "year_3": 1,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 28944782,
+     "profile_url": "https://simba.mygamesonline.org/players/player462.htm"
+    }
+   ],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Knicks",
+     "original_team_id": 4
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Knicks",
+     "original_team_id": 4
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Knicks",
+     "original_team_id": 4
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Knicks",
+     "original_team_id": 4
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Knicks",
+     "original_team_id": 4
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Knicks",
+     "original_team_id": 4
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 5,
+   "name": "Orlando Magic",
+   "division": "Atlantic Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster5.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster5hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster5sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 16000000,
+   "cap_room": 33500000,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [
+    {
+     "player_id": 265,
+     "name": "Kevin Garnett",
+     "pos": "PF",
+     "age": 29,
+     "height": "6'11''",
+     "height_in": 83,
+     "weight": 220,
+     "ratings": {
+      "in": "B+",
+      "out": "C",
+      "hn": "C+",
+      "df": "A-",
+      "reb": "B+",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 16000000,
+      "year_2": 18000000,
+      "year_3": 21000000,
+      "year_4": 22000000,
+      "year_5": 1,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 77000001,
+     "profile_url": "https://simba.mygamesonline.org/players/player265.htm"
+    }
+   ],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Magic",
+     "original_team_id": 5
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Magic",
+     "original_team_id": 5
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Magic",
+     "original_team_id": 5
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Magic",
+     "original_team_id": 5
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Magic",
+     "original_team_id": 5
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Magic",
+     "original_team_id": 5
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 6,
+   "name": "Philadelphia 76ers",
+   "division": "Atlantic Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster6.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster6hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster6sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 4621800,
+   "cap_room": 44878200,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [
+    {
+     "player_id": 349,
+     "name": "LeBron James",
+     "pos": "SF",
+     "age": 21,
+     "height": "6'8''",
+     "height_in": 80,
+     "weight": 240,
+     "ratings": {
+      "in": "A-",
+      "out": "C+",
+      "hn": "B",
+      "df": "B+",
+      "reb": "C",
+      "pot": "A"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 4621800,
+      "year_2": 2,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 4621802,
+     "profile_url": "https://simba.mygamesonline.org/players/player349.htm"
+    }
+   ],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "76ers",
+     "original_team_id": 6
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "76ers",
+     "original_team_id": 6
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "76ers",
+     "original_team_id": 6
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "76ers",
+     "original_team_id": 6
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "76ers",
+     "original_team_id": 6
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "76ers",
+     "original_team_id": 6
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 7,
+   "name": "Washington Wizards",
+   "division": "Atlantic Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster7.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster7hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster7sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 0,
+   "cap_room": 49500000,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Wizards",
+     "original_team_id": 7
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Wizards",
+     "original_team_id": 7
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Wizards",
+     "original_team_id": 7
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Wizards",
+     "original_team_id": 7
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Wizards",
+     "original_team_id": 7
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Wizards",
+     "original_team_id": 7
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 8,
+   "name": "Atlanta Hawks",
+   "division": "Central Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster8.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster8hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster8sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 0,
+   "cap_room": 49500000,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Hawks",
+     "original_team_id": 8
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Hawks",
+     "original_team_id": 8
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Hawks",
+     "original_team_id": 8
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Hawks",
+     "original_team_id": 8
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Hawks",
+     "original_team_id": 8
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Hawks",
+     "original_team_id": 8
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 9,
+   "name": "New Orleans Hornets",
+   "division": "Central Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster9.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster9hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster9sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 3713640,
+   "cap_room": 45786360,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [
+    {
+     "player_id": 102,
+     "name": "Carmelo Anthony",
+     "pos": "SF",
+     "age": 21,
+     "height": "6'8''",
+     "height_in": 80,
+     "weight": 230,
+     "ratings": {
+      "in": "A-",
+      "out": "B-",
+      "hn": "C-",
+      "df": "C",
+      "reb": "C",
+      "pot": "B"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 3713640,
+      "year_2": 2,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 3713642,
+     "profile_url": "https://simba.mygamesonline.org/players/player102.htm"
+    }
+   ],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Hornets",
+     "original_team_id": 9
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Hornets",
+     "original_team_id": 9
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Hornets",
+     "original_team_id": 9
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Hornets",
+     "original_team_id": 9
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Hornets",
+     "original_team_id": 9
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Hornets",
+     "original_team_id": 9
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 10,
+   "name": "Chicago Bulls",
+   "division": "Central Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster10.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster10hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster10sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 3144240,
+   "cap_room": 46355760,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [
+    {
+     "player_id": 483,
+     "name": "Chris Paul",
+     "pos": "PG",
+     "age": 20,
+     "height": "6'0''",
+     "height_in": 72,
+     "weight": 175,
+     "ratings": {
+      "in": "C+",
+      "out": "B-",
+      "hn": "A-",
+      "df": "B-",
+      "reb": "C-",
+      "pot": "A"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 3144240,
+      "year_2": 3380160,
+      "year_3": 2,
+      "year_4": 2,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 6524404,
+     "profile_url": "https://simba.mygamesonline.org/players/player483.htm"
+    }
+   ],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Bulls",
+     "original_team_id": 10
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Bulls",
+     "original_team_id": 10
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Bulls",
+     "original_team_id": 10
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Bulls",
+     "original_team_id": 10
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Bulls",
+     "original_team_id": 10
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Bulls",
+     "original_team_id": 10
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 11,
+   "name": "Cleveland Cavaliers",
+   "division": "Central Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster11.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster11hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster11sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 15694250,
+   "cap_room": 33805750,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [
+    {
+     "player_id": 424,
+     "name": "Tracy McGrady",
+     "pos": "SG",
+     "age": 26,
+     "height": "6'8''",
+     "height_in": 80,
+     "weight": 223,
+     "ratings": {
+      "in": "B+",
+      "out": "B-",
+      "hn": "C+",
+      "df": "C+",
+      "reb": "C",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 15694250,
+      "year_2": 16901500,
+      "year_3": 19014187,
+      "year_4": 20370437,
+      "year_5": 23239562,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 95219936,
+     "profile_url": "https://simba.mygamesonline.org/players/player424.htm"
+    }
+   ],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Cavaliers",
+     "original_team_id": 11
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Cavaliers",
+     "original_team_id": 11
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Cavaliers",
+     "original_team_id": 11
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Cavaliers",
+     "original_team_id": 11
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Cavaliers",
+     "original_team_id": 11
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Cavaliers",
+     "original_team_id": 11
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 12,
+   "name": "Detroit Pistons",
+   "division": "Central Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster12.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster12hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster12sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 15946875,
+   "cap_room": 33553125,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [
+    {
+     "player_id": 163,
+     "name": "Kobe Bryant",
+     "pos": "SG",
+     "age": 27,
+     "height": "6'6''",
+     "height_in": 78,
+     "weight": 220,
+     "ratings": {
+      "in": "A-",
+      "out": "B",
+      "hn": "C+",
+      "df": "B",
+      "reb": "C",
+      "pot": "B"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 15946875,
+      "year_2": 17718750,
+      "year_3": 19490625,
+      "year_4": 21262500,
+      "year_5": 1,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 74418751,
+     "profile_url": "https://simba.mygamesonline.org/players/player163.htm"
+    }
+   ],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Pistons",
+     "original_team_id": 12
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Pistons",
+     "original_team_id": 12
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Pistons",
+     "original_team_id": 12
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Pistons",
+     "original_team_id": 12
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Pistons",
+     "original_team_id": 12
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Pistons",
+     "original_team_id": 12
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 13,
+   "name": "Indiana Pacers",
+   "division": "Central Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster13.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster13hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster13sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 3031920,
+   "cap_room": 46468080,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [
+    {
+     "player_id": 606,
+     "name": "Dwyane Wade",
+     "pos": "SG",
+     "age": 24,
+     "height": "6'4''",
+     "height_in": 76,
+     "weight": 212,
+     "ratings": {
+      "in": "A-",
+      "out": "C",
+      "hn": "B",
+      "df": "B+",
+      "reb": "C",
+      "pot": "B"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 3031920,
+      "year_2": 2,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 3031922,
+     "profile_url": "https://simba.mygamesonline.org/players/player606.htm"
+    }
+   ],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Pacers",
+     "original_team_id": 13
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Pacers",
+     "original_team_id": 13
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Pacers",
+     "original_team_id": 13
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Pacers",
+     "original_team_id": 13
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Pacers",
+     "original_team_id": 13
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Pacers",
+     "original_team_id": 13
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 14,
+   "name": "Milwaukee Bucks",
+   "division": "Central Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster14.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster14hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster14sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 0,
+   "cap_room": 49500000,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Bucks",
+     "original_team_id": 14
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Bucks",
+     "original_team_id": 14
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Bucks",
+     "original_team_id": 14
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Bucks",
+     "original_team_id": 14
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Bucks",
+     "original_team_id": 14
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Bucks",
+     "original_team_id": 14
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 15,
+   "name": "Toronto Raptors",
+   "division": "Central Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster15.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster15hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster15sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 0,
+   "cap_room": 49500000,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Raptors",
+     "original_team_id": 15
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Raptors",
+     "original_team_id": 15
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Raptors",
+     "original_team_id": 15
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Raptors",
+     "original_team_id": 15
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Raptors",
+     "original_team_id": 15
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Raptors",
+     "original_team_id": 15
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 16,
+   "name": "Dallas Mavericks",
+   "division": "Midwest Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster16.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster16hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster16sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 0,
+   "cap_room": 49500000,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Mavericks",
+     "original_team_id": 16
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Mavericks",
+     "original_team_id": 16
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Mavericks",
+     "original_team_id": 16
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Mavericks",
+     "original_team_id": 16
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Mavericks",
+     "original_team_id": 16
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Mavericks",
+     "original_team_id": 16
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 17,
+   "name": "Denver Nuggets",
+   "division": "Midwest Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster17.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster17hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster17sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 0,
+   "cap_room": 49500000,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Nuggets",
+     "original_team_id": 17
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Nuggets",
+     "original_team_id": 17
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Nuggets",
+     "original_team_id": 17
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Nuggets",
+     "original_team_id": 17
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Nuggets",
+     "original_team_id": 17
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Nuggets",
+     "original_team_id": 17
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 18,
+   "name": "Houston Rockets",
+   "division": "Midwest Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster18.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster18hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster18sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 0,
+   "cap_room": 49500000,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Rockets",
+     "original_team_id": 18
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Rockets",
+     "original_team_id": 18
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Rockets",
+     "original_team_id": 18
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Rockets",
+     "original_team_id": 18
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Rockets",
+     "original_team_id": 18
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Rockets",
+     "original_team_id": 18
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 19,
+   "name": "Minnesota Timberwolves",
+   "division": "Midwest Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster19.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster19hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster19sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 0,
+   "cap_room": 49500000,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Timberwolves",
+     "original_team_id": 19
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Timberwolves",
+     "original_team_id": 19
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Timberwolves",
+     "original_team_id": 19
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Timberwolves",
+     "original_team_id": 19
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Timberwolves",
+     "original_team_id": 19
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Timberwolves",
+     "original_team_id": 19
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 20,
+   "name": "San Antonio Spurs",
+   "division": "Midwest Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster20.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster20hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster20sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 2589023,
+   "cap_room": 46910977,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [
+    {
+     "player_id": 567,
+     "name": "Amar'e Stoudemire",
+     "pos": "PF",
+     "age": 23,
+     "height": "6'10''",
+     "height_in": 82,
+     "weight": 245,
+     "ratings": {
+      "in": "A-",
+      "out": "C",
+      "hn": "D",
+      "df": "C+",
+      "reb": "C+",
+      "pot": "B"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 2589023,
+      "year_2": 0,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 2589023,
+     "profile_url": "https://simba.mygamesonline.org/players/player567.htm"
+    }
+   ],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Spurs",
+     "original_team_id": 20
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Spurs",
+     "original_team_id": 20
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Spurs",
+     "original_team_id": 20
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Spurs",
+     "original_team_id": 20
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Spurs",
+     "original_team_id": 20
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Spurs",
+     "original_team_id": 20
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 21,
+   "name": "Utah Jazz",
+   "division": "Midwest Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster21.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster21hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster21sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 0,
+   "cap_room": 49500000,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Jazz",
+     "original_team_id": 21
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Jazz",
+     "original_team_id": 21
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Jazz",
+     "original_team_id": 21
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Jazz",
+     "original_team_id": 21
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Jazz",
+     "original_team_id": 21
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Jazz",
+     "original_team_id": 21
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 22,
+   "name": "Memphis Grizzlies",
+   "division": "Midwest Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster22.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster22hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster22sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 0,
+   "cap_room": 49500000,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Grizzlies",
+     "original_team_id": 22
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Grizzlies",
+     "original_team_id": 22
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Grizzlies",
+     "original_team_id": 22
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Grizzlies",
+     "original_team_id": 22
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Grizzlies",
+     "original_team_id": 22
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Grizzlies",
+     "original_team_id": 22
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 23,
+   "name": "Golden State Warriors",
+   "division": "Pacific Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster23.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster23hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster23sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 3487400,
+   "cap_room": 46012600,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [
+    {
+     "player_id": 633,
+     "name": "Deron Williams",
+     "pos": "PG",
+     "age": 21,
+     "height": "6'3''",
+     "height_in": 75,
+     "weight": 205,
+     "ratings": {
+      "in": "C+",
+      "out": "C+",
+      "hn": "A-",
+      "df": "C",
+      "reb": "D+",
+      "pot": "A"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 3487400,
+      "year_2": 3749040,
+      "year_3": 2,
+      "year_4": 2,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 7236444,
+     "profile_url": "https://simba.mygamesonline.org/players/player633.htm"
+    }
+   ],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Warriors",
+     "original_team_id": 23
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Warriors",
+     "original_team_id": 23
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Warriors",
+     "original_team_id": 23
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Warriors",
+     "original_team_id": 23
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Warriors",
+     "original_team_id": 23
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Warriors",
+     "original_team_id": 23
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 24,
+   "name": "Los Angeles Clippers",
+   "division": "Pacific Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster24.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster24hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster24sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 3348000,
+   "cap_room": 46152000,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [
+    {
+     "player_id": 146,
+     "name": "Chris Bosh",
+     "pos": "PF",
+     "age": 21,
+     "height": "6'10''",
+     "height_in": 82,
+     "weight": 230,
+     "ratings": {
+      "in": "B",
+      "out": "C+",
+      "hn": "C-",
+      "df": "C+",
+      "reb": "C+",
+      "pot": "B"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 3348000,
+      "year_2": 2,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 3348002,
+     "profile_url": "https://simba.mygamesonline.org/players/player146.htm"
+    }
+   ],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Clippers",
+     "original_team_id": 24
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Clippers",
+     "original_team_id": 24
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Clippers",
+     "original_team_id": 24
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Clippers",
+     "original_team_id": 24
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Clippers",
+     "original_team_id": 24
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Clippers",
+     "original_team_id": 24
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 25,
+   "name": "Los Angeles Lakers",
+   "division": "Pacific Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster25.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster25hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster25sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 15845156,
+   "cap_room": 33654844,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [
+    {
+     "player_id": 226,
+     "name": "Tim Duncan",
+     "pos": "PF",
+     "age": 29,
+     "height": "6'11''",
+     "height_in": 83,
+     "weight": 260,
+     "ratings": {
+      "in": "B+",
+      "out": "C-",
+      "hn": "C",
+      "df": "A-",
+      "reb": "B+",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 15845156,
+      "year_2": 17429672,
+      "year_3": 19014188,
+      "year_4": 1,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 52289017,
+     "profile_url": "https://simba.mygamesonline.org/players/player226.htm"
+    }
+   ],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Lakers",
+     "original_team_id": 25
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Lakers",
+     "original_team_id": 25
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Lakers",
+     "original_team_id": 25
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Lakers",
+     "original_team_id": 25
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Lakers",
+     "original_team_id": 25
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Lakers",
+     "original_team_id": 25
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 26,
+   "name": "Phoenix Suns",
+   "division": "Pacific Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster26.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster26hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster26sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 5909800,
+   "cap_room": 43590200,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [
+    {
+     "player_id": 135,
+     "name": "Chauncey Billups",
+     "pos": "PG",
+     "age": 29,
+     "height": "6'3''",
+     "height_in": 75,
+     "weight": 202,
+     "ratings": {
+      "in": "C+",
+      "out": "B+",
+      "hn": "B+",
+      "df": "B",
+      "reb": "C-",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 5909800,
+      "year_2": 6364400,
+      "year_3": 1,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 12274201,
+     "profile_url": "https://simba.mygamesonline.org/players/player135.htm"
+    }
+   ],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Suns",
+     "original_team_id": 26
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Suns",
+     "original_team_id": 26
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Suns",
+     "original_team_id": 26
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Suns",
+     "original_team_id": 26
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Suns",
+     "original_team_id": 26
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Suns",
+     "original_team_id": 26
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 27,
+   "name": "Portland Trail Blazers",
+   "division": "Pacific Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster27.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster27hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster27sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 4493160,
+   "cap_room": 45006840,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [
+    {
+     "player_id": 323,
+     "name": "Dwight Howard",
+     "pos": "C",
+     "age": 20,
+     "height": "6'11''",
+     "height_in": 83,
+     "weight": 265,
+     "ratings": {
+      "in": "B+",
+      "out": "C-",
+      "hn": "D-",
+      "df": "B+",
+      "reb": "B+",
+      "pot": "A"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 4493160,
+      "year_2": 2,
+      "year_3": 2,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 4493164,
+     "profile_url": "https://simba.mygamesonline.org/players/player323.htm"
+    }
+   ],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Trail Blazers",
+     "original_team_id": 27
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Trail Blazers",
+     "original_team_id": 27
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Trail Blazers",
+     "original_team_id": 27
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Trail Blazers",
+     "original_team_id": 27
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Trail Blazers",
+     "original_team_id": 27
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Trail Blazers",
+     "original_team_id": 27
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 28,
+   "name": "Sacramento Kings",
+   "division": "Pacific Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster28.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster28hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster28sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 0,
+   "cap_room": 49500000,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "Kings",
+     "original_team_id": 28
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "Kings",
+     "original_team_id": 28
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "Kings",
+     "original_team_id": 28
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "Kings",
+     "original_team_id": 28
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "Kings",
+     "original_team_id": 28
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "Kings",
+     "original_team_id": 28
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  },
+  {
+   "team_id": 29,
+   "name": "Seattle SuperSonics",
+   "division": "Pacific Division",
+   "roster_url": "https://simba.mygamesonline.org/rosters/roster29.htm",
+   "history_url": "https://simba.mygamesonline.org/rosters/roster29hist.htm",
+   "schedule_url": "https://simba.mygamesonline.org/rosters/roster29sched.htm",
+   "record": {
+    "w": 0,
+    "l": 0
+   },
+   "team_salary": 0,
+   "cap_room": 49500000,
+   "yearly_stats": {
+    "points_per_game": 0.0,
+    "steals_per_game": 0.0,
+    "points_allowed_per_game": 0.0,
+    "rebounds_per_game": 0.0,
+    "assists_per_game": 0.0,
+    "blocks_per_game": 0.0,
+    "turnovers_per_game": 0.0,
+    "field_goal_pct": 0.0
+   },
+   "players": [],
+   "cut_players": [],
+   "draft_picks": [
+    {
+     "season": 2006,
+     "round": 1,
+     "original_team": "SuperSonics",
+     "original_team_id": 29
+    },
+    {
+     "season": 2007,
+     "round": 1,
+     "original_team": "SuperSonics",
+     "original_team_id": 29
+    },
+    {
+     "season": 2008,
+     "round": 1,
+     "original_team": "SuperSonics",
+     "original_team_id": 29
+    },
+    {
+     "season": 2006,
+     "round": 2,
+     "original_team": "SuperSonics",
+     "original_team_id": 29
+    },
+    {
+     "season": 2007,
+     "round": 2,
+     "original_team": "SuperSonics",
+     "original_team_id": 29
+    },
+    {
+     "season": 2008,
+     "round": 2,
+     "original_team": "SuperSonics",
+     "original_team_id": 29
+    }
+   ],
+   "injuries": [],
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
+   "team_stats": {
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0
+   }
+  }
+ ]
+}
