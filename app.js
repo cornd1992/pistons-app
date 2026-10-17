@@ -175,7 +175,7 @@ function vTeam(){
   <div class="kpis"><div class="kpi"><div class="v">${rec.w??0}-${rec.l??0}</div><div class="l">Record</div></div>
   <div class="kpi"><div class="v">${myRoster().length}</div><div class="l">Players on roster</div></div>
   <div class="kpi"><div class="v">${mm(sal)}</div><div class="l">Team salary</div></div>
-  <div class="kpi"><div class="v">${mm(t.cap_room)}</div><div class="l">Cap room (cap ${mm(cap)})</div></div></div>
+  <div class="kpi"><div class="v">${mm(t.cap_room)}</div><div class="l">Cap room as listed on stats site (excl. roster charge)</div></div></div>
   <div class="note small" style="margin-top:8px">${(sal/cap*100).toFixed(1)}% of cap used · cap room ranks <b>${ord(cr.rank)} of ${cr.n}</b> (1st = most room) · status ${statusChip(sal)}</div></div>
   <div class="card"><h2>Cap & aprons</h2>${capPanel(t)}</div>`;
   const gm=B.forum&&B.forum.pistons_gm;
