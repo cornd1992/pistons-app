@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-18T13:59:47Z",
-  "parsed_at": "2026-10-18T14:00:01Z"
+  "crawled_at": "2026-10-19T17:01:47Z",
+  "parsed_at": "2026-10-19T17:02:01Z"
  },
  "league": {
   "months": [
@@ -8893,7 +8893,648 @@
    }
   },
   "14": {
-   "team": "Milwaukee Bucks"
+   "team": "Milwaukee Bucks",
+   "regular_season": [
+    {
+     "day": 1,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 2,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 3,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 4,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 5,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 6,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 7,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 8,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 9,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 10,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 11,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 12,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 13,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 14,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 15,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 16,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 17,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 18,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 19,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 20,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 21,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 22,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 23,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 24,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 25,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 26,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 27,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 28,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 29,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 30,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 31,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 32,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 33,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 34,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 35,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 36,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 37,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 38,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 39,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 40,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 41,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 42,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 43,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 44,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 45,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 46,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 47,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 48,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 49,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 50,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 51,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 52,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 53,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 54,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 55,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 56,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 57,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 58,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 59,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 60,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 61,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 62,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 63,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 64,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 65,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 66,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 67,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 68,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 69,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 70,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 71,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 72,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 73,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 74,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 75,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 76,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 77,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 78,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 79,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 80,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 81,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 82,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 83,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 84,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 85,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 86,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 87,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 88,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 89,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 90,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 91,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 92,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 93,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 94,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 95,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 96,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 97,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 98,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 99,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 100,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 101,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 102,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 103,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 104,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 105,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 106,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 107,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 108,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 109,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 110,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 111,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 112,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 113,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 114,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 115,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 116,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 117,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 118,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 119,
+     "game": "No Game",
+     "has_game": false
+    },
+    {
+     "day": 120,
+     "game": "No Game",
+     "has_game": false
+    }
+   ],
+   "games_scheduled": 0,
+   "post_season": {
+    "Round 1": [
+     "n/a",
+     "n/a",
+     "n/a",
+     "n/a",
+     "n/a",
+     "n/a",
+     "n/a"
+    ],
+    "Round 2": [
+     "n/a",
+     "n/a",
+     "n/a",
+     "n/a",
+     "n/a",
+     "n/a",
+     "n/a"
+    ],
+    "Semi-Finals": [
+     "n/a",
+     "n/a",
+     "n/a",
+     "n/a",
+     "n/a",
+     "n/a",
+     "n/a"
+    ],
+    "Finals": [
+     "n/a",
+     "n/a",
+     "n/a",
+     "n/a",
+     "n/a",
+     "n/a",
+     "n/a"
+    ]
+   }
   },
   "15": {
    "team": "Toronto Raptors",

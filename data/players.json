@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-18T13:59:47Z",
-  "parsed_at": "2026-10-18T14:00:01Z"
+  "crawled_at": "2026-10-19T17:01:47Z",
+  "parsed_at": "2026-10-19T17:02:01Z"
  },
  "players": [
   {
@@ -4088,15 +4088,15 @@
     "play_for_winner": 53,
     "bird_years": 4,
     "salary_by_year": [
-     5400000,
-     5850000,
-     6300000,
-     6750000,
-     7200000,
+     4903000,
+     5393300,
+     5883600,
+     6448900,
+     6864200,
      0,
      0
     ],
-    "total": 31500000
+    "total": 29493000
    },
    "stats": {
     "columns": [
@@ -4609,8 +4609,8 @@
    "player_id": 133,
    "name": "Mike Bibby",
    "pos": "PG",
-   "team": "Draft",
-   "team_id": null,
+   "team": "New Orleans Hornets",
+   "team_id": 9,
    "age": 27,
    "height": "6'1''",
    "height_in": 73,
@@ -4618,8 +4618,8 @@
    "college": "Arizona",
    "hometown": "N/A",
    "experience": 7,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 5,
    "attributes": {
     "inside_scoring": "C+",
     "outside_scoring": "B",
@@ -4661,17 +4661,17 @@
     "loyalty": 19,
     "greed": 49,
     "play_for_winner": 8,
-    "bird_years": 0,
+    "bird_years": 7,
     "salary_by_year": [
-     6585036,
-     7408166,
-     0,
-     0,
+     11500000,
+     12500000,
+     13500000,
+     14500000,
      0,
      0,
      0
     ],
-    "total": 13993202
+    "total": 52000000
    },
    "stats": {
     "columns": [
@@ -4724,8 +4724,8 @@
    "player_id": 134,
    "name": "Andris Biedrins",
    "pos": "C",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Indiana Pacers",
+   "team_id": 13,
    "age": 19,
    "height": "6'11''",
    "height_in": 83,
@@ -4733,8 +4733,8 @@
    "college": "Latvia",
    "hometown": "N/A",
    "experience": 1,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 6,
    "attributes": {
     "inside_scoring": "C",
     "outside_scoring": "D+",
@@ -4778,15 +4778,15 @@
     "play_for_winner": 55,
     "bird_years": 1,
     "salary_by_year": [
-     725488,
-     798037,
-     870586,
+     1857360,
+     2,
+     2,
      0,
      0,
      0,
      0
     ],
-    "total": 2394111
+    "total": 1857364
    },
    "stats": {
     "columns": [
@@ -12084,8 +12084,8 @@
    "player_id": 201,
    "name": "Samuel Dalembert",
    "pos": "C",
-   "team": "Draft",
-   "team_id": null,
+   "team": "San Antonio Spurs",
+   "team_id": 20,
    "age": 24,
    "height": "6'11''",
    "height_in": 83,
@@ -12093,8 +12093,8 @@
    "college": "Seton Hall",
    "hometown": "N/A",
    "experience": 3,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 7,
    "attributes": {
     "inside_scoring": "C",
     "outside_scoring": "C-",
@@ -12136,17 +12136,17 @@
     "loyalty": 93,
     "greed": 26,
     "play_for_winner": 8,
-    "bird_years": 3,
+    "bird_years": 4,
     "salary_by_year": [
-     1936348,
-     0,
-     0,
-     0,
-     0,
+     8470000,
+     9464307,
+     10250000,
+     11238564,
+     12025694,
      0,
      0
     ],
-    "total": 1936348
+    "total": 51448565
    },
    "stats": {
     "columns": [
@@ -13579,8 +13579,8 @@
    "player_id": 214,
    "name": "Boris Diaw",
    "pos": "PF",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Memphis Grizzlies",
+   "team_id": 22,
    "age": 23,
    "height": "6'8''",
    "height_in": 80,
@@ -13588,8 +13588,8 @@
    "college": "France",
    "hometown": "N/A",
    "experience": 2,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 17,
    "attributes": {
     "inside_scoring": "C+",
     "outside_scoring": "C+",
@@ -13633,15 +13633,15 @@
     "play_for_winner": 65,
     "bird_years": 2,
     "salary_by_year": [
-     664922,
-     686827,
+     1174200,
+     2,
      0,
      0,
      0,
      0,
      0
     ],
-    "total": 1351749
+    "total": 1174202
    },
    "stats": {
     "columns": [
@@ -16684,8 +16684,8 @@
    "player_id": 243,
    "name": "Raymond Felton",
    "pos": "PG",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Los Angeles Clippers",
+   "team_id": 24,
    "age": 21,
    "height": "6'1''",
    "height_in": 73,
@@ -16693,8 +16693,8 @@
    "college": "North Carolina",
    "hometown": "N/A",
    "experience": 0,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 14,
    "attributes": {
     "inside_scoring": "C",
     "outside_scoring": "C+",
@@ -16738,15 +16738,15 @@
     "play_for_winner": 63,
     "bird_years": 0,
     "salary_by_year": [
-     0,
-     0,
-     0,
-     0,
+     2847360,
+     3060840,
+     2,
+     2,
      0,
      0,
      0
     ],
-    "total": 0
+    "total": 5908204
    },
    "stats": {
     "columns": [
@@ -17489,8 +17489,8 @@
    "player_id": 250,
    "name": "T.J. Ford",
    "pos": "PG",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Orlando Magic",
+   "team_id": 5,
    "age": 22,
    "height": "6'0''",
    "height_in": 72,
@@ -17498,8 +17498,8 @@
    "college": "Texas",
    "hometown": "N/A",
    "experience": 1,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 9,
    "attributes": {
     "inside_scoring": "C",
     "outside_scoring": "C+",
@@ -17541,17 +17541,17 @@
     "loyalty": 25,
     "greed": 40,
     "play_for_winner": 65,
-    "bird_years": 1,
+    "bird_years": 2,
     "salary_by_year": [
-     2268355,
-     2495191,
-     2722026,
+     2303040,
+     2,
+     0,
      0,
      0,
      0,
      0
     ],
-    "total": 7485572
+    "total": 2303042
    },
    "stats": {
     "columns": [
@@ -18409,8 +18409,8 @@
    "player_id": 258,
    "name": "Channing Frye",
    "pos": "C",
-   "team": "Draft",
-   "team_id": null,
+   "team": "New York Knicks",
+   "team_id": 4,
    "age": 22,
    "height": "6'11''",
    "height_in": 83,
@@ -18418,8 +18418,8 @@
    "college": "Arizona",
    "hometown": "N/A",
    "experience": 0,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 10,
    "attributes": {
     "inside_scoring": "C",
     "outside_scoring": "B",
@@ -18463,15 +18463,15 @@
     "play_for_winner": 54,
     "bird_years": 0,
     "salary_by_year": [
-     568804,
-     625684,
-     682565,
-     739445,
+     2162880,
+     2325000,
+     2,
+     2,
      0,
      0,
      0
     ],
-    "total": 2616498
+    "total": 4487884
    },
    "stats": {
     "columns": [
@@ -20364,8 +20364,8 @@
    "player_id": 278,
    "name": "Ben Gordon",
    "pos": "SG",
-   "team": "Draft",
-   "team_id": null,
+   "team": "New Jersey Nets",
+   "team_id": 3,
    "age": 22,
    "height": "6'3''",
    "height_in": 75,
@@ -20373,8 +20373,8 @@
    "college": "Connecticut",
    "hometown": "N/A",
    "experience": 1,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 12,
    "attributes": {
     "inside_scoring": "C+",
     "outside_scoring": "B+",
@@ -20418,15 +20418,15 @@
     "play_for_winner": 46,
     "bird_years": 1,
     "salary_by_year": [
-     2083318,
-     2214366,
-     2345414,
+     3610200,
+     2,
+     2,
      0,
      0,
      0,
      0
     ],
-    "total": 6643098
+    "total": 3610204
    },
    "stats": {
     "columns": [
@@ -21054,8 +21054,8 @@
    "player_id": 285,
    "name": "Gerald Green",
    "pos": "SG",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Miami Heat",
+   "team_id": 2,
    "age": 20,
    "height": "6'7''",
    "height_in": 79,
@@ -21063,8 +21063,8 @@
    "college": "Gulf Shores Academy HS (TX)",
    "hometown": "N/A",
    "experience": 0,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 16,
    "attributes": {
     "inside_scoring": "B-",
     "outside_scoring": "B-",
@@ -21108,15 +21108,15 @@
     "play_for_winner": 81,
     "bird_years": 0,
     "salary_by_year": [
-     855555,
-     962499,
-     1069444,
-     1176388,
+     1253040,
+     1347000,
+     2,
+     2,
      0,
      0,
      0
     ],
-    "total": 4063886
+    "total": 2600044
    },
    "stats": {
     "columns": [
@@ -24159,8 +24159,8 @@
    "player_id": 316,
    "name": "Nene Hilario",
    "pos": "C",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Seattle SuperSonics",
+   "team_id": 29,
    "age": 23,
    "height": "6'11''",
    "height_in": 83,
@@ -24168,8 +24168,8 @@
    "college": "Brazil",
    "hometown": "N/A",
    "experience": 3,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 19,
    "attributes": {
     "inside_scoring": "C+",
     "outside_scoring": "C-",
@@ -24213,7 +24213,7 @@
     "play_for_winner": 71,
     "bird_years": 3,
     "salary_by_year": [
-     2443652,
+     3039889,
      0,
      0,
      0,
@@ -24221,7 +24221,7 @@
      0,
      0
     ],
-    "total": 2443652
+    "total": 3039889
    },
    "stats": {
     "columns": [
@@ -29906,6 +29906,121 @@
    "profile_url": "https://simba.mygamesonline.org/players/player367.htm"
   },
   {
+   "player_id": 368,
+   "name": "Eddie Jones",
+   "pos": "SG",
+   "team": "Draft",
+   "team_id": null,
+   "age": 34,
+   "height": "6'6''",
+   "height_in": 78,
+   "weight": 200,
+   "college": "Temple",
+   "hometown": "N/A",
+   "experience": 11,
+   "draft_round": 0,
+   "draft_pick": 0,
+   "attributes": {
+    "inside_scoring": "C",
+    "outside_scoring": "B-",
+    "handling": "C",
+    "defense": "C+",
+    "rebounding": "C-",
+    "potential": "D"
+   },
+   "achievements": {
+    "championships": 0,
+    "player_of_the_game": 0,
+    "player_of_the_week": 0,
+    "player_of_the_month": 0,
+    "double_doubles": 0,
+    "triple_doubles": 0
+   },
+   "awards": [],
+   "season_averages": {
+    "games": 0,
+    "mpg": 0.0,
+    "ppg": 0.0,
+    "rpg": 0.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0,
+    "fg_pct": 0.0,
+    "ft_pct": 0.0,
+    "three_p_pct": 0.0
+   },
+   "career_highs": {
+    "points": 0,
+    "rebounds": 0,
+    "assists": 0,
+    "steals": 0,
+    "blocks": 0
+   },
+   "contract": {
+    "loyalty": 55,
+    "greed": 43,
+    "play_for_winner": 63,
+    "bird_years": 7,
+    "salary_by_year": [
+     835856,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "total": 835856
+   },
+   "stats": {
+    "columns": [
+     "Season",
+     "Team",
+     "Games",
+     "MPG",
+     "FG",
+     "FGA",
+     "FG %",
+     "FT",
+     "FTA",
+     "FT %",
+     "3P",
+     "3PA",
+     "3P %",
+     "RPG",
+     "APG",
+     "SPG",
+     "BPG",
+     "TOPG",
+     "DQ",
+     "PPG"
+    ],
+    "seasons": [],
+    "career": {
+     "games": 0,
+     "mpg": 0.0,
+     "fg": 0,
+     "fga": 0,
+     "fg_pct": 0.0,
+     "ft": 0,
+     "fta": 0,
+     "ft_pct": 0.0,
+     "three_p": 0,
+     "three_pa": 0,
+     "three_p_pct": 0.0,
+     "rpg": 0.0,
+     "apg": 0.0,
+     "spg": 0.0,
+     "bpg": 0.0,
+     "topg": 0.0,
+     "dq": 0,
+     "ppg": 0.0
+    }
+   },
+   "profile_url": "https://simba.mygamesonline.org/players/player368.htm"
+  },
+  {
    "player_id": 369,
    "name": "Fred Jones",
    "pos": "SG",
@@ -33359,8 +33474,8 @@
    "player_id": 401,
    "name": "Corey Maggette",
    "pos": "SF",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Los Angeles Lakers",
+   "team_id": 25,
    "age": 26,
    "height": "6'6''",
    "height_in": 78,
@@ -33368,8 +33483,8 @@
    "college": "Duke",
    "hometown": "N/A",
    "experience": 6,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 13,
    "attributes": {
     "inside_scoring": "B+",
     "outside_scoring": "B-",
@@ -33413,15 +33528,15 @@
     "play_for_winner": 18,
     "bird_years": 6,
     "salary_by_year": [
-     6276058,
-     0,
-     0,
-     0,
+     7000000,
+     7000000,
+     7000000,
+     1,
      0,
      0,
      0
     ],
-    "total": 6276058
+    "total": 21000001
    },
    "stats": {
     "columns": [
@@ -34279,8 +34394,8 @@
    "player_id": 411,
    "name": "Kenyon Martin",
    "pos": "PF",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Denver Nuggets",
+   "team_id": 17,
    "age": 28,
    "height": "6'9''",
    "height_in": 81,
@@ -34288,8 +34403,8 @@
    "college": "Cincinnati",
    "hometown": "N/A",
    "experience": 5,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 23,
    "attributes": {
     "inside_scoring": "B",
     "outside_scoring": "C-",
@@ -34331,17 +34446,17 @@
     "loyalty": 69,
     "greed": 85,
     "play_for_winner": 29,
-    "bird_years": 2,
+    "bird_years": 5,
     "salary_by_year": [
-     5105538,
-     5743730,
-     6381922,
-     7020115,
-     0,
+     10636364,
+     11818182,
+     13000000,
+     14181818,
+     15363636,
      0,
      0
     ],
-    "total": 24251305
+    "total": 65000000
    },
    "stats": {
     "columns": [
@@ -34394,8 +34509,8 @@
    "player_id": 412,
    "name": "Kevin Martin",
    "pos": "SG",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Phoenix Suns",
+   "team_id": 26,
    "age": 22,
    "height": "6'7''",
    "height_in": 79,
@@ -34403,8 +34518,8 @@
    "college": "Western Carolina",
    "hometown": "N/A",
    "experience": 1,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 15,
    "attributes": {
     "inside_scoring": "B-",
     "outside_scoring": "B-",
@@ -34448,15 +34563,15 @@
     "play_for_winner": 72,
     "bird_years": 1,
     "salary_by_year": [
-     1296304,
-     1311623,
-     1326942,
+     937440,
+     2,
+     2,
      0,
      0,
      0,
      0
     ],
-    "total": 3934869
+    "total": 937444
    },
    "stats": {
     "columns": [
@@ -36809,8 +36924,8 @@
    "player_id": 434,
    "name": "Andre Miller",
    "pos": "PG",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Sacramento Kings",
+   "team_id": 28,
    "age": 29,
    "height": "6'2''",
    "height_in": 74,
@@ -36818,8 +36933,8 @@
    "college": "Utah",
    "hometown": "N/A",
    "experience": 6,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 25,
    "attributes": {
     "inside_scoring": "C+",
     "outside_scoring": "C",
@@ -36861,17 +36976,17 @@
     "loyalty": 22,
     "greed": 52,
     "play_for_winner": 5,
-    "bird_years": 1,
+    "bird_years": 2,
     "salary_by_year": [
-     6098855,
-     0,
-     0,
-     0,
+     8100000,
+     8733333,
+     9366666,
+     10333334,
      0,
      0,
      0
     ],
-    "total": 6098855
+    "total": 36533333
    },
    "stats": {
     "columns": [
@@ -42674,8 +42789,8 @@
    "player_id": 487,
    "name": "Kendrick Perkins",
    "pos": "C",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Toronto Raptors",
+   "team_id": 15,
    "age": 21,
    "height": "6'10''",
    "height_in": 82,
@@ -42683,8 +42798,8 @@
    "college": "Clifton J. Ozen HS (TX)",
    "hometown": "N/A",
    "experience": 2,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 20,
    "attributes": {
     "inside_scoring": "C",
     "outside_scoring": "C-",
@@ -42728,15 +42843,15 @@
     "play_for_winner": 43,
     "bird_years": 2,
     "salary_by_year": [
-     725956,
-     735796,
+     936480,
+     2,
      0,
      0,
      0,
      0,
      0
     ],
-    "total": 1461752
+    "total": 936482
    },
    "stats": {
     "columns": [
@@ -44399,8 +44514,8 @@
    "player_id": 506,
    "name": "Joel Przybilla",
    "pos": "C",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Washington Wizards",
+   "team_id": 7,
    "age": 26,
    "height": "7'1''",
    "height_in": 85,
@@ -44408,8 +44523,8 @@
    "college": "Minnesota",
    "hometown": "N/A",
    "experience": 5,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 18,
    "attributes": {
     "inside_scoring": "C",
     "outside_scoring": "D+",
@@ -44451,9 +44566,9 @@
     "loyalty": 46,
     "greed": 93,
     "play_for_winner": 91,
-    "bird_years": 4,
+    "bird_years": 1,
     "salary_by_year": [
-     1135783,
+     1560000,
      0,
      0,
      0,
@@ -44461,7 +44576,7 @@
      0,
      0
     ],
-    "total": 1135783
+    "total": 1560000
    },
    "stats": {
     "columns": [
@@ -52564,8 +52679,8 @@
    "player_id": 580,
    "name": "Jason Terry",
    "pos": "SG",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Dallas Mavericks",
+   "team_id": 16,
    "age": 28,
    "height": "6'2''",
    "height_in": 74,
@@ -52573,8 +52688,8 @@
    "college": "Arizona",
    "hometown": "N/A",
    "experience": 6,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 24,
    "attributes": {
     "inside_scoring": "C+",
     "outside_scoring": "A-",
@@ -52616,9 +52731,9 @@
     "loyalty": 10,
     "greed": 40,
     "play_for_winner": 47,
-    "bird_years": 1,
+    "bird_years": 6,
     "salary_by_year": [
-     3605868,
+     6666667,
      0,
      0,
      0,
@@ -52626,7 +52741,7 @@
      0,
      0
     ],
-    "total": 3605868
+    "total": 6666667
    },
    "stats": {
     "columns": [
@@ -53653,15 +53768,15 @@
     "play_for_winner": 92,
     "bird_years": 4,
     "salary_by_year": [
-     6967069,
-     7291970,
-     7616870,
-     0,
-     0,
+     5400000,
+     5850000,
+     6300000,
+     6750000,
+     7200000,
      0,
      0
     ],
-    "total": 21875909
+    "total": 31500000
    },
    "stats": {
     "columns": [
@@ -54174,8 +54289,8 @@
    "player_id": 594,
    "name": "Hedo Turkoglu",
    "pos": "SF",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Atlanta Hawks",
+   "team_id": 8,
    "age": 26,
    "height": "6'10''",
    "height_in": 82,
@@ -54183,8 +54298,8 @@
    "college": "Turkey",
    "hometown": "N/A",
    "experience": 5,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 22,
    "attributes": {
     "inside_scoring": "C+",
     "outside_scoring": "B",
@@ -54226,17 +54341,17 @@
     "loyalty": 23,
     "greed": 85,
     "play_for_winner": 24,
-    "bird_years": 0,
+    "bird_years": 1,
     "salary_by_year": [
-     4716641,
-     5306221,
-     0,
-     0,
-     0,
+     5393300,
+     5883600,
+     6373900,
+     6864200,
+     1,
      0,
      0
     ],
-    "total": 10022862
+    "total": 24515001
    },
    "stats": {
     "columns": [
@@ -56244,8 +56359,8 @@
    "player_id": 613,
    "name": "Rasheed Wallace",
    "pos": "PF",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Golden State Warriors",
+   "team_id": 23,
    "age": 31,
    "height": "6'11''",
    "height_in": 83,
@@ -56253,8 +56368,8 @@
    "college": "North Carolina",
    "hometown": "N/A",
    "experience": 10,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 8,
    "attributes": {
     "inside_scoring": "C+",
     "outside_scoring": "B",
@@ -56296,17 +56411,17 @@
     "loyalty": 45,
     "greed": 28,
     "play_for_winner": 42,
-    "bird_years": 6,
+    "bird_years": 10,
     "salary_by_year": [
-     5322598,
-     5987923,
-     6653248,
-     7318572,
-     7983897,
+     10860000,
+     11650000,
+     12540000,
+     13930000,
+     0,
      0,
      0
     ],
-    "total": 33266238
+    "total": 48980000
    },
    "stats": {
     "columns": [
@@ -56704,8 +56819,8 @@
    "player_id": 617,
    "name": "Earl Watson",
    "pos": "PG",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Cleveland Cavaliers",
+   "team_id": 11,
    "age": 26,
    "height": "6'1''",
    "height_in": 73,
@@ -56713,8 +56828,8 @@
    "college": "UCLA",
    "hometown": "N/A",
    "experience": 4,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 11,
    "attributes": {
     "inside_scoring": "C",
     "outside_scoring": "B-",
@@ -56758,15 +56873,15 @@
     "play_for_winner": 96,
     "bird_years": 0,
     "salary_by_year": [
-     5699255,
-     0,
-     0,
-     0,
-     0,
+     5000000,
+     5400000,
+     5800000,
+     6200000,
+     6600000,
      0,
      0
     ],
-    "total": 5699255
+    "total": 29000000
    },
    "stats": {
     "columns": [
@@ -59234,8 +59349,8 @@
    "player_id": 640,
    "name": "Mo Williams",
    "pos": "PG",
-   "team": "Draft",
-   "team_id": null,
+   "team": "Minnesota Timberwolves",
+   "team_id": 19,
    "age": 23,
    "height": "6'1''",
    "height_in": 73,
@@ -59243,8 +59358,8 @@
    "college": "Alabama",
    "hometown": "N/A",
    "experience": 2,
-   "draft_round": 0,
-   "draft_pick": 0,
+   "draft_round": 3,
+   "draft_pick": 21,
    "attributes": {
     "inside_scoring": "C",
     "outside_scoring": "B+",
@@ -59286,17 +59401,17 @@
     "loyalty": 28,
     "greed": 25,
     "play_for_winner": 84,
-    "bird_years": 2,
+    "bird_years": 1,
     "salary_by_year": [
-     1163994,
-     1252254,
+     1760000,
+     1920000,
      0,
      0,
      0,
      0,
      0
     ],
-    "total": 2416248
+    "total": 3680000
    },
    "stats": {
     "columns": [

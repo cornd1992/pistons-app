@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-18T13:59:47Z",
-  "parsed_at": "2026-10-18T14:00:01Z"
+  "crawled_at": "2026-10-19T17:01:47Z",
+  "parsed_at": "2026-10-19T17:02:01Z"
  },
  "transactions": [
   {
@@ -685,6 +685,237 @@
    "player_pos": "PG",
    "player_name": "Jamaal Tinsley",
    "pick": 4,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hornets",
+   "action": "Draft PG Mike Bibby with pick #5 of round 3.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Mike Bibby",
+   "pick": 5,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pacers",
+   "action": "Draft C Andris Biedrins with pick #6 of round 3.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Andris Biedrins",
+   "pick": 6,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Spurs",
+   "action": "Draft C Samuel Dalembert with pick #7 of round 3.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Samuel Dalembert",
+   "pick": 7,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Warriors",
+   "action": "Draft PF Rasheed Wallace with pick #8 of round 3.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Rasheed Wallace",
+   "pick": 8,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Magic",
+   "action": "Draft PG T.J. Ford with pick #9 of round 3.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "T.J. Ford",
+   "pick": 9,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Knicks",
+   "action": "Draft C Channing Frye with pick #10 of round 3.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Channing Frye",
+   "pick": 10,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Cavaliers",
+   "action": "Draft PG Earl Watson with pick #11 of round 3.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Earl Watson",
+   "pick": 11,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nets",
+   "action": "Draft SG Ben Gordon with pick #12 of round 3.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Ben Gordon",
+   "pick": 12,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Lakers",
+   "action": "Draft SF Corey Maggette with pick #13 of round 3.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Corey Maggette",
+   "pick": 13,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Clippers",
+   "action": "Draft PG Raymond Felton with pick #14 of round 3.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Raymond Felton",
+   "pick": 14,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Suns",
+   "action": "Draft SG Kevin Martin with pick #15 of round 3.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Kevin Martin",
+   "pick": 15,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Heat",
+   "action": "Draft SG Gerald Green with pick #16 of round 3.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Gerald Green",
+   "pick": 16,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Grizzlies",
+   "action": "Draft PF Boris Diaw with pick #17 of round 3.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Boris Diaw",
+   "pick": 17,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Wizards",
+   "action": "Draft C Joel Przybilla with pick #18 of round 3.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Joel Przybilla",
+   "pick": 18,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "SuperSonics",
+   "action": "Draft C Nene Hilario with pick #19 of round 3.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Nene Hilario",
+   "pick": 19,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Raptors",
+   "action": "Draft C Kendrick Perkins with pick #20 of round 3.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Kendrick Perkins",
+   "pick": 20,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Timberwolves",
+   "action": "Draft PG Mo Williams with pick #21 of round 3.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Mo Williams",
+   "pick": 21,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hawks",
+   "action": "Draft SF Hedo Turkoglu with pick #22 of round 3.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Hedo Turkoglu",
+   "pick": 22,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nuggets",
+   "action": "Draft PF Kenyon Martin with pick #23 of round 3.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Kenyon Martin",
+   "pick": 23,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Mavericks",
+   "action": "Draft SG Jason Terry with pick #24 of round 3.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Jason Terry",
+   "pick": 24,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Kings",
+   "action": "Draft PG Andre Miller with pick #25 of round 3.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Andre Miller",
+   "pick": 25,
    "round": 3
   }
  ]
