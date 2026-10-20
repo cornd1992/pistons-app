@@ -53,10 +53,25 @@ async function boot(){
   const ca=B.meta.crawled_at?new Date(B.meta.crawled_at):null;
   $('#asof').textContent='Data as of '+(ca?ca.toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'unknown')+(B.facts&&B.facts._meta&&B.facts._meta.as_of?' · draft facts '+new Date(B.facts._meta.as_of).toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'')+' · simba.mygamesonline.org';
   fetch('data/version.json',{cache:'no-cache'}).then(r=>r.json()).then(v=>{const el=document.createElement('div');el.className='ver';el.textContent='Build '+v.version+' · app '+v.app;$('#asof').appendChild(el);}).catch(()=>{});
+  addPendingPicks();
   prepDraft();
   try{const idx=await (await fetch('data/snapshots/index.json',{cache:'no-cache'})).json();
     SNAPS=(await Promise.all(idx.snapshots.map(k=>fetch('data/snapshots/'+k+'.json').then(r=>r.json()).catch(()=>null)))).filter(Boolean);}catch(e){SNAPS=[];}
   addEventListener('hashchange',route);route();
+}
+// Creation-draft picks the Pistons have made (league_facts.json) that the stats site hasn't moved onto the roster yet.
+// They join the roster at their real 2005-06 salary (what the site assigns drafted players), so payroll/cap room/needs update now.
+function addPendingPicks(){
+  const t=B.myTeam,have=new Set((t.players||[]).map(p=>p.player_id));B.pending=[];
+  ((B.facts||{}).creation_draft?.picks||[]).filter(k=>k.team===t.name&&k.player_id!=null&&!have.has(k.player_id)).forEach(k=>{
+    const p=B.pById.get(k.player_id);if(!p)return;const rc=realOf(p.player_id),site=((p.contract||{}).salary_by_year||[])[0]||0;
+    const hist=(rc&&rc.salary_history||[]).filter(([s])=>s>='2005-06').map(x=>x[2]),yrs=hist.length?hist:[rc&&rc.salary_2005_06||site];
+    const sal=yrs[0]||0,salary=Object.fromEntries([1,2,3,4,5,6,7].map(y=>['year_'+y,yrs[y-1]||0]));
+    const e={player_id:p.player_id,name:p.name,pos:p.pos,age:p.age,height:p.height,height_in:p.height_in,weight:p.weight,ratings:ratingsOf(p),salary,salary_total:yrs.reduce((a,b)=>a+b,0),
+      season_stats:{},pending:{round:k.round,pick:k.pick,overall:k.overall,siteSal:site,realSal:sal,salSrc:rc&&rc.salary_2005_06?'real':'site'}};
+    (t.players=t.players||[]).push(e);B.pending.push(e);
+    if(t.team_salary!=null)t.team_salary+=sal;if(t.cap_room!=null)t.cap_room-=sal;
+    const cr=(B.caproom||[]).find(x=>x.team_id===t.team_id);if(cr&&cr!==t){if(cr.team_salary!=null)cr.team_salary+=sal;if(cr.cap_room!=null)cr.cap_room-=sal;}});
 }
 function prepDraft(){
   const N=needs(),D=deficits(),nT=B.teams.length,F=B.facts,CD=F&&F.creation_draft;
@@ -158,7 +173,7 @@ function rosterCard(r){const p=B.pById.get(r.player_id)||{},x={...p,...r,name:pr
   const bio=[['Height',x.height],['Weight',ok(x.weight)?x.weight+' lbs':null],['Age',x.age],['Exp',ok(x.experience)?(+x.experience===0?'Rookie':x.experience+' yrs'):null],['College',ok(x.college)?x.college:null],['Hometown',ok(x.hometown)?x.hometown:null]].filter(([,v])=>ok(v));
   const ini=w.map(s=>s[0]).join('').slice(0,2).toUpperCase(),season=(CR()._meta||{}).season||'';
   return `<article class="pcard"><div class="pc-top"><div class="pc-main"><a class="pc-name" href="#players/${x.player_id}"><span class="pc-first">${esc(first)}</span> <span class="pc-last">${esc(last)}</span></a>${x.jersey!=null?`<span class="pc-num">${esc(x.jersey)}</span>`:''}
-   <div class="pc-pos">${esc(POSFULL[x.pos]||x.pos||'')}<span> · ${esc(x.pos||'')}</span></div>
+   <div class="pc-pos">${esc(POSFULL[x.pos]||x.pos||'')}<span> · ${esc(x.pos||'')}</span>${r.pending?`<span class="tag pick" title="Drafted R${r.pending.round} #${r.pending.pick}; not on the stats-site roster yet">NEW R${r.pending.round}#${r.pending.pick}</span>`:''}</div>
    <table class="pc-bio">${bio.map(([k,v])=>`<tr><th>${k}</th><td>${esc(v)}</td></tr>`).join('')}</table></div>
    <div class="pc-img" aria-hidden="true"><svg viewBox="0 0 60 70"><circle cx="30" cy="22" r="13"/><path d="M4 70c0-17 12-27 26-27s26 10 26 27z"/></svg><span>${esc(ini)}</span></div></div>
    <div class="pc-rat"><div class="pc-ovr"><small>OVR</small><b>${f1(overall(x.ratings||ratingsOf(x),x.pos))}</b></div><div class="pc-gr">${RK.map(k=>`<div><small>${k==='pot'?'POT*':k.toUpperCase()}</small>${gradeCell((x.ratings||ratingsOf(x))[k])}</div>`).join('')}</div></div>
@@ -237,7 +252,7 @@ function vTeam(){
   <div class="kpi"><div class="v">${mm(sal)}</div><div class="l">Team salary</div></div>
   <div class="kpi"><div class="v">${mm(t.cap_room)}</div><div class="l">Cap room as listed on stats site (excl. roster charge)</div></div></div>
   <div class="note small" style="margin-top:8px">${(sal/cap*100).toFixed(1)}% of cap used · cap room ranks <b>${ord(cr.rank)} of ${cr.n}</b> (1st = most room) · status ${statusChip(sal)}</div></div>
-  <div class="card"><h2>Cap & aprons</h2>${capPanel(t)}</div>`;
+  <div class="card"><h2>Cap & aprons</h2>${(B.pending||[]).length?`<p class="note small">Includes ${B.pending.map(e=>`${plink(e.name,e.player_id)} (R${e.pending.round} #${e.pending.pick}, not on the stats-site roster yet) at his ${e.pending.salSrc} 2005-06 salary ${mm(e.pending.realSal)}`).join(', ')}. On the stats site's current figures (his site contract ${B.pending.map(e=>mm(e.pending.siteSal)).join(', ')}), payroll would be ${mm(payrollOf(t)-B.pending.reduce((a,e)=>a+e.pending.realSal-e.pending.siteSal,0))}.</p>`:''}${capPanel(t)}</div>`;
   const gm=B.facts&&B.facts.pistons_gm;
   if(D.myNext) h+=`<div class="callout">🏀 Creation draft is live${D.onClock?` — ${esc(D.onClock.team)} (${esc(D.onClock.gm||'?')}) on the clock at R${D.onClock.round} #${D.onClock.slot}`:''}${gm?`. GM: <b>${esc(gm)}</b>`:''}. Overall pick ${D.nextOverall} is up. Your next pick is <b>Round ${D.myNext.round}, #${D.myNext.pick}</b> (overall ${D.myNext.overall}, ${D.picksBefore} picks away). <a href="#draft">Open draft board →</a></div>`;
   h+=`<div class="card"><h2>Roster & ratings</h2>`;

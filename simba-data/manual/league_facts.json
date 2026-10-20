@@ -1,7 +1,7 @@
 {
  "_meta": {
   "source": "manual — hand-kept league facts (GM list, creation-draft order and results, lottery odds). Not forum posts. Edit by hand; never overwritten by refreshes.",
-  "as_of": "2026-10-20T08:21:00Z",
+  "as_of": "2026-10-20T16:55:00Z",
   "season": 2005
  },
  "pistons_gm": "inf",
@@ -38,10 +38,10 @@
  },
  "pistons_next_pick": {
   "draft": "creation",
-  "round": 4,
-  "pick": 26,
-  "overall": 113,
-  "note": "snake order: R4 #26 (113th overall) — projected from even-round order"
+  "round": 5,
+  "pick": 4,
+  "overall": 120,
+  "note": "snake order: R5 #4 (120th overall) — projected from odd-round order"
  },
  "creation_draft": {
   "format": "snake (order reverses in even rounds)",
@@ -571,15 +571,9 @@
    },
    {
     "round": 4,
-    "complete": false,
-    "picks_made": 24,
-    "on_the_clock": {
-     "slot": 25,
-     "team": "New Orleans Hornets",
-     "gm": "Swope",
-     "overall": 112,
-     "since": "2026-10-20T08:21:00Z"
-    },
+    "complete": true,
+    "picks_made": 29,
+    "on_the_clock": null,
     "order": [
      {
       "slot": 1,
@@ -725,6 +719,165 @@
       "slot": 29,
       "team": "Chicago Bulls",
       "gm": "Mexi"
+     }
+    ]
+   },
+   {
+    "round": 5,
+    "complete": false,
+    "picks_made": 2,
+    "on_the_clock": {
+     "slot": 3,
+     "team": "Portland Trail Blazers",
+     "gm": "snipezo",
+     "overall": 119,
+     "since": "2026-10-20T16:55:00Z"
+    },
+    "order": [
+     {
+      "slot": 1,
+      "team": "Chicago Bulls",
+      "gm": "Mexi"
+     },
+     {
+      "slot": 2,
+      "team": "Philadelphia 76ers",
+      "gm": "daulten780"
+     },
+     {
+      "slot": 3,
+      "team": "Portland Trail Blazers",
+      "gm": "snipezo"
+     },
+     {
+      "slot": 4,
+      "team": "Detroit Pistons",
+      "gm": "inf"
+     },
+     {
+      "slot": 5,
+      "team": "New Orleans Hornets",
+      "gm": "Swope"
+     },
+     {
+      "slot": 6,
+      "team": "Indiana Pacers",
+      "gm": "Beastly"
+     },
+     {
+      "slot": 7,
+      "team": "San Antonio Spurs",
+      "gm": "Giggles"
+     },
+     {
+      "slot": 8,
+      "team": "Golden State Warriors",
+      "gm": "dez"
+     },
+     {
+      "slot": 9,
+      "team": "Orlando Magic",
+      "gm": "ElJeffe"
+     },
+     {
+      "slot": 10,
+      "team": "New York Knicks",
+      "gm": "Dave"
+     },
+     {
+      "slot": 11,
+      "team": "Cleveland Cavaliers",
+      "gm": "elcheato"
+     },
+     {
+      "slot": 12,
+      "team": "New Jersey Nets",
+      "gm": "Teagz"
+     },
+     {
+      "slot": 13,
+      "team": "Los Angeles Lakers",
+      "gm": "shellystrick4L"
+     },
+     {
+      "slot": 14,
+      "team": "Los Angeles Clippers",
+      "gm": "NV"
+     },
+     {
+      "slot": 15,
+      "team": "Phoenix Suns",
+      "gm": "kdogg"
+     },
+     {
+      "slot": 16,
+      "team": "Miami Heat",
+      "gm": "LicensedBullshark"
+     },
+     {
+      "slot": 17,
+      "team": "Memphis Grizzlies",
+      "gm": "LefLop"
+     },
+     {
+      "slot": 18,
+      "team": "Washington Wizards",
+      "gm": "paulius"
+     },
+     {
+      "slot": 19,
+      "team": "Seattle SuperSonics",
+      "gm": "nickmolyvia"
+     },
+     {
+      "slot": 20,
+      "team": "Toronto Raptors",
+      "gm": "mattfaria12"
+     },
+     {
+      "slot": 21,
+      "team": "Minnesota Timberwolves",
+      "gm": "goat"
+     },
+     {
+      "slot": 22,
+      "team": "Atlanta Hawks",
+      "gm": "Will"
+     },
+     {
+      "slot": 23,
+      "team": "Denver Nuggets",
+      "gm": "raidernation"
+     },
+     {
+      "slot": 24,
+      "team": "Dallas Mavericks",
+      "gm": "JR"
+     },
+     {
+      "slot": 25,
+      "team": "Sacramento Kings",
+      "gm": "tyfteak"
+     },
+     {
+      "slot": 26,
+      "team": "Houston Rockets",
+      "gm": "TYO"
+     },
+     {
+      "slot": 27,
+      "team": "Utah Jazz",
+      "gm": "stunna"
+     },
+     {
+      "slot": 28,
+      "team": "Milwaukee Bucks",
+      "gm": "tommyt"
+     },
+     {
+      "slot": 29,
+      "team": "Boston Celtics",
+      "gm": "BironRonso"
      }
     ]
    }
@@ -1693,6 +1846,69 @@
     "team": "Indiana Pacers",
     "player": "Antonio McDyess",
     "player_id": 422,
+    "source": "user-pasted forum results 2026-10-20"
+   },
+   {
+    "round": 4,
+    "pick": 25,
+    "overall": 112,
+    "team": "New Orleans Hornets",
+    "player": "Mehmet Okur",
+    "player_id": 466,
+    "source": "user-pasted forum results 2026-10-20"
+   },
+   {
+    "round": 4,
+    "pick": 26,
+    "overall": 113,
+    "team": "Detroit Pistons",
+    "player": "Troy Murphy",
+    "player_id": 447,
+    "source": "user-pasted forum results 2026-10-20"
+   },
+   {
+    "round": 4,
+    "pick": 27,
+    "overall": 114,
+    "team": "Portland Trail Blazers",
+    "player": "Kris Humphries",
+    "player_id": 330,
+    "source": "user-pasted forum results 2026-10-20"
+   },
+   {
+    "round": 4,
+    "pick": 28,
+    "overall": 115,
+    "team": "Philadelphia 76ers",
+    "player": "Mike Miller",
+    "player_id": 436,
+    "source": "user-pasted forum results 2026-10-20"
+   },
+   {
+    "round": 4,
+    "pick": 29,
+    "overall": 116,
+    "team": "Chicago Bulls",
+    "player": "Chris Webber",
+    "player_id": 618,
+    "source": "user-pasted forum results 2026-10-20"
+   },
+   {
+    "round": 5,
+    "pick": 1,
+    "overall": 117,
+    "team": "Chicago Bulls",
+    "player": "Trevor Ariza",
+    "player_id": 106,
+    "source": "user-pasted forum results 2026-10-20"
+   },
+   {
+    "round": 5,
+    "pick": 2,
+    "overall": 118,
+    "team": "Philadelphia 76ers",
+    "player": "Nazr Mohammed",
+    "player_id": 439,
     "source": "user-pasted forum results 2026-10-20"
    }
   ]
