@@ -490,7 +490,7 @@ const ruleCard=(r,q)=>`<div class="card rule" id="rs-${r.id}"><h2>${esc(r.title)
 /* ---------- Trade checker (rules: cap_rules.json → trade; league text in manual/trade_rules_full.md) ---------- */
 const TRD=()=>{const t=CR().trade||{},o=SET.get('tradeRules',{})||{},a=t.assumed||{},lc=t.league_cash||{};
   return {tiers:(o.tiers||t.matching_tiers||[]).map(x=>({...x})),maxOut:o.maxOut??t.max_players_out??5,
-    cashMax:o.cashMax??lc.max_per_trade??1000000,cashQ2:lc.qualifying_min_two_team??110000,cashQM:lc.qualifying_min_multi_team??1100000,
+    cashMax:o.cashMax??(CR().exceptions?.taxpayer_mle?Math.floor(CR().exceptions.taxpayer_mle/1e6)*1e6:(lc.max_per_trade??1000000)),cashQ2:lc.qualifying_min_two_team??110000,cashQM:lc.qualifying_min_multi_team??1100000,
     rosterMax:o.rosterMax??(a.roster_max||{}).value??15,rosterMin:o.rosterMin??(a.roster_min||{}).value??13,
     minSal:o.minSal??(a.min_salary_max||{}).value??1138500,absorb:o.absorb??((a.cap_room_absorption||{}).enabled!==false),
     stepien:o.stepien??((a.stepien||{}).enabled!==false),aboveApronPct:t.above_apron_max_incoming_pct??1.0,stPct:t.sign_and_trade_outgoing_pct_of_new??0.5,raw:t};};
@@ -509,11 +509,13 @@ function assetInfo(a){ // resolve an asset in the package → {name,sal,isPlayer
   if(a.kind==='player'){const p=(t.players||[]).find(x=>x.player_id===a.id)||{};return {name:p.name||'?',pos:p.pos,sal:sal1(p),yrs:yrsLeft(p),isPlayer:true};}
   if(a.kind==='custom') return {name:a.name||'Hypothetical player',sal:+a.sal||0,isPlayer:true,custom:true};
   const pk=(t.draft_picks||[]).find(x=>pickKey(x)===a.id);return {name:pk?pickLbl(pk):a.id,sal:0,isPick:true,pick:pk};}
+function ppIn(a,i){const y=+a.ppy||0,tot=+a.ppt||0;return y>0&&tot>0?Math.round((i.sal+tot)/(1+y)):(+a.ppin||i.sal);} // poison pill: avg of current salary + all extension years
 function assetFlag(a,info,R){return a.flag||(info.isPlayer&&info.sal>0&&info.sal<=R.minSal?'min':'std');}
 function tradeEval(st){
   const c=CR(),R=TRD(),multi=st.teams.length>2,res=[],ck=[];
   const add=(lvl,msg,src,team)=>ck.push({lvl,msg,src,team});
   const draftLive=((B.facts||{}).creation_draft||{}).rounds?.some(r=>!r.complete);
+  const _rd=((B.facts||{}).creation_draft||{}).rounds||[],draftR2=_rd.some(r=>r.round===1&&r.complete)&&_rd.some(r=>!r.complete); // current draft has reached round 2
   const cashSenders=st.teams.filter(id=>(+((st.cash[id]||{}).amt)||0)>0);
   st.teams.forEach(id=>{
     const t=tById(id),nm=t.name.replace(/^.* /,''),out=st.assets.filter(a=>a.from===id),inn=st.assets.filter(a=>a.to===id);
@@ -521,7 +523,7 @@ function tradeEval(st){
     out.forEach(a=>{const i=assetInfo(a),f=assetFlag(a,i,R);partners.add(a.to);if(i.isPlayer){outP++;outAct+=i.sal;
       outCnt+=f==='st'?Math.max(+a.prev||0,R.stPct*(+a.nsal||i.sal)):i.sal; if(f==='st')stOut=true;}});
     inn.forEach(a=>{const i=assetInfo(a),f=assetFlag(a,i,R);partners.add(a.from);if(i.isPlayer){inP++;
-      const act=f==='st'?(+a.nsal||i.sal):i.sal;inAct+=act;inCnt+=f==='min'?0:f==='pp'?(+a.ppin||i.sal):act;if(f==='st')stIn=true;}});
+      const act=f==='st'?(+a.nsal||i.sal):i.sal;inAct+=act;inCnt+=f==='min'?0:f==='pp'?ppIn(a,i):act;if(f==='st')stIn=true;}});
     const cs=st.cash[id]||{},cashOut=+cs.amt||0;if(cashOut>0&&cs.to)partners.add(+cs.to);
     const cashIn=st.teams.filter(o=>o!==id&&+((st.cash[o]||{}).to)===id).reduce((s,o)=>s+(+st.cash[o].amt||0),0);
     st.teams.forEach(o=>{if(o!==id&&+((st.cash[o]||{}).to)===id&&(+st.cash[o].amt||0)>0)partners.add(o);});
@@ -529,7 +531,7 @@ function tradeEval(st){
     const rep=id===B.myTeam.team_id?(st.rep[id]??SET.get('repeater',false)):!!st.rep[id];
     const taxPre=luxTax(pre.tax-c.luxury_tax,rep).tax,taxPost=luxTax(post.tax-c.luxury_tax,rep).tax;
     const r={id,t,nm,out,inn,outAct,inAct,outCnt,inCnt,outP,inP,pre,post,taxPre,taxPost,cashOut,cashIn,rosterPre:(t.players||[]).length,rosterPost:(t.players||[]).length+inP-outP,mode:'',maxIn:null};
-    const aboveApron=post.tax>=c.first_apron,above2=post.tax>=c.second_apron;
+    const aboveApron=post.tax>c.first_apron,above2=post.tax>c.second_apron; // apron status is determined AFTER the trade
     // salary matching
     if(inCnt<=outCnt){r.mode='≤100%';add('pass',`${nm}: takes back ${mm(inCnt)} for ${mm(outCnt)} out (≤100%) — no matching needed, no hard cap`,'League',id);}
     else if(R.absorb&&post.cap<=c.salary_cap){r.mode='cap room';add('pass',`${nm}: absorbs ${mm(inCnt-outCnt)} into cap room (cap salary after ${mm(post.cap)} ≤ cap ${mm(c.salary_cap)})`,'Assumed',id);}
@@ -537,12 +539,12 @@ function tradeEval(st){
       add('fail',`${nm}: above the ${above2?'2nd':'1st'} apron after the trade (${mm(post.tax)}) → incoming ${mm(inCnt)} may not exceed 100% of outgoing ${mm(outCnt)}`,'League',id);}
     else{const tm=tierMax(outCnt,R.tiers);r.maxIn=tm.max;r.mode=tm.t.label||'table';
       if(inCnt<=tm.max) add('warn',`${nm}: matching table OK (${mm(inCnt)} in ≤ ${mm(tm.max)} max; ${tm.t.label||''}) — this hard-caps ${nm} at the 1st apron (${mm(c.first_apron)}) for the season`,'League',id);
-      else add('fail',`${nm}: over the cap after the trade — incoming ${mm(inCnt)} exceeds the ${mm(tm.max)} max for ${mm(outCnt)} out (${tm.t.label||''}); needs ${mm(inCnt-tm.max)} more outgoing or less incoming`,'League',id);}
+      else add('fail',`${nm}: below both aprons after the trade, so the matching table applies — incoming ${mm(inCnt)} exceeds the ${mm(tm.max)} max for ${mm(outCnt)} out (${tm.t.label||''}); needs ${mm(inCnt-tm.max)} more outgoing or less incoming`,'League',id);}
     if(inn.some(a=>assetFlag(a,assetInfo(a),R)==='min')) add('info',`${nm}: minimum-salary players are not counted as incoming salary`,'League',id);
     // player count / qualifying / receiving
     if(outP>R.maxOut) add('fail',`${nm}: sends ${outP} players (max ${R.maxOut} per team)`,'League',id);
     const qCash=multi?R.cashQM:R.cashQ2,qual=out.some(a=>{const i=assetInfo(a);return (i.isPlayer&&i.sal>0)||i.isPick;})||cashOut>=qCash;
-    if(!qual) add('fail',`${nm}: must send a qualifying asset (player under contract, future pick, stashed rights, pick swap, or ≥ ${mm(qCash)} league cash${multi?' in a multi-team deal':''})`,'League',id);
+    if(!qual) add('fail',`${nm}: must send a qualifying asset (${multi?'player under contract, future pick, stashed rights, or ≥ '+mm(qCash)+' league cash — pick swaps don\'t qualify in multi-team deals':'player under contract, future pick, stashed rights, unencumbered pick swap, or ≥ '+mm(qCash)+' league cash'})`,'League',id);
     if(!inn.length&&!cashIn) add('fail',`${nm}: receives nothing`,'League',id);
     if(multi&&partners.size<2) add('fail',`${nm}: in a multi-team trade each team must deal with at least two other teams`,'League',id);
     // aggregation & special players
@@ -558,12 +560,14 @@ function tradeEval(st){
     // league cash
     if(cashOut>0){
       if(cashOut<R.cashQ2) add('fail',`${nm}: league cash ${money(cashOut)} is below the ${money(R.cashQ2)} minimum`,'League',id);
-      if(cashOut>R.cashMax) add('warn',`${nm}: league cash ${money(cashOut)} is above the max setting (${money(R.cashMax)})`,'League',id);
+      if(cashOut>R.cashMax) add('fail',`${nm}: league cash ${money(cashOut)} is above the per-trade max ${money(R.cashMax)} (Taxpayer MLE rounded down to the nearest $1M)`,'League',id);
       if(above2) add('fail',`${nm}: above the 2nd apron after the trade — can't send league cash`,'League',id);
       if(cs.bal!==''&&cs.bal!=null&&!isNaN(+cs.bal)&&cashOut>+cs.bal) add('fail',`${nm}: sends ${money(cashOut)} league cash but only has ${money(+cs.bal)}`,'League',id);
       else if(cs.bal===''||cs.bal==null) add('check',`${nm}: confirm the league-cash balance covers ${money(cashOut)} (balance not entered)`,'Checklist',id);
       if(!cs.to) add('fail',`${nm}: choose who receives the league cash`,'League',id);}
-    if(out.some(a=>{const i=assetInfo(a);return i.isPick&&i.pick&&i.pick.round===1;})&&!inn.length&&cashIn>0) add('fail',`${nm}: a 1st-round pick can't be sold for league cash`,'League',id);
+    const soldForCash=!inn.length&&cashIn>0;
+    if(soldForCash&&out.some(a=>{const i=assetInfo(a);return i.isPick&&i.pick&&i.pick.round===1;})) add('fail',`${nm}: 1st-round picks can never be sold for league cash`,'League',id);
+    if(soldForCash&&draftR2&&out.some(a=>{const i=assetInfo(a);return i.isPick&&i.pick&&i.pick.round===2;})) add('fail',`${nm}: 2nd-round picks can't be sold while the current rookie draft is in round 2`,'League',id);
     // hard cap (manual)
     const hc=st.hc[id];if(hc&&hc!=='none'&&post.tax>c[hc]) add('fail',`${nm}: hard-capped at the ${hc==='first_apron'?'1st':'2nd'} apron (${mm(c[hc])}) — post-trade ${mm(post.tax)} exceeds it`,'League',id);
     // roster
@@ -612,7 +616,7 @@ function vTrade(){
         <div class="pk2">${others.length>1?`<select data-tto="${k}" aria-label="Send to">${others.map(o=>`<option value="${o}" ${o===a.to?'selected':''}>→ ${esc(tById(o).name.replace(/^.* /,''))}</option>`).join('')}</select>`:`<span class="note small">→ ${esc(tById(a.to).name)}</span>`}
         ${i.isPlayer?`<select data-tflag="${k}" aria-label="Contract type"><option value="std" ${f==='std'?'selected':''}>Standard</option><option value="min" ${f==='min'?'selected':''}>Minimum contract</option><option value="st" ${f==='st'?'selected':''}>Sign-and-trade</option><option value="pp" ${f==='pp'?'selected':''}>Poison pill (extended)</option><option value="acq" ${f==='acq'?'selected':''}>Acquired by trade &lt;40 days</option><option value="untr" ${f==='untr'?'selected':''}>Not tradable yet (new signing/waivers)</option></select>`:''}</div>
         ${f==='st'?`<div class="pk2"><label class="note small">Prev salary <input data-tnum="${k}:prev" inputmode="numeric" value="${esc(a.prev||'')}"></label><label class="note small">New salary <input data-tnum="${k}:nsal" inputmode="numeric" value="${esc(a.nsal||i.sal)}"></label></div>`:''}
-        ${f==='pp'?`<div class="pk2"><label class="note small">Avg salary incl. extension (counted incoming) <input data-tnum="${k}:ppin" inputmode="numeric" value="${esc(a.ppin||'')}"></label></div>`:''}</div>`;}).join(''):'<div class="note small">Nothing yet — tap below.</div>'}
+        ${f==='pp'?`<div class="pk2"><label class="note small">Extension years <input data-tnum="${k}:ppy" inputmode="numeric" value="${esc(a.ppy||'')}" style="width:60px"></label><label class="note small">Extension total $ <input data-tnum="${k}:ppt" inputmode="numeric" value="${esc(a.ppt||'')}"></label><span class="note small">Counts ${mm(i.sal)} out for this team; incoming for the receiver = (current + extension total) ÷ (1 + years) = ${mm(ppIn(a,i))}</span></div>`:''}</div>`;}).join(''):'<div class="note small">Nothing yet — tap below.</div>'}
      <details ${st.open===id||!r.out.length?'open':''}><summary>Add players & picks</summary>
       <div class="plist">${(t.players||[]).map(p=>`<div class="row ${inPkg.has('player:'+p.player_id)?'sel':''}" data-tadd="${id}:player:${p.player_id}"><div><div class="nm">${esc(p.name)}</div><div class="meta">${esc(p.pos)} · age ${p.age} · ${yrsLeft(p)} yr${yrsLeft(p)!==1?'s':''} left</div></div><div class="sc">${mm(sal1(p))}</div></div>`).join('')||'<div class="note small">No players on the stats-site roster yet.</div>'}</div>
       <div class="pchips">${(t.draft_picks||[]).map(p=>`<button class="ghost ${inPkg.has('pick:'+pickKey(p))?'on':''}" data-tadd="${id}:pick:${pickKey(p)}">${esc(pickLbl(p))}</button>`).join('')}</div>
@@ -633,6 +637,8 @@ function vTrade(){
     'Each team has roster space when the trade is posted; any releases go in the Waiver Wire thread (final).',
     'Pick protections can never leave a pick conveying nothing; 2nd-round picks aren\'t sold once the rookie draft reaches round 2.',
     'Stashed overseas rights and pick swaps aren\'t modelled — add them to the post by hand.',
+    'Multi-team deals: every pick used as a qualifying asset has protections that can\'t leave it conveying nothing.',
+    'The official Trade Machine thread is on the league forum — post the final trade there.',
     'Post team-by-team what each side sends and receives (and from whom) before the scheduled sim.']);
   h+=`<div class="card"><h2>Checklist <span class="src Checklist">Checklist</span></h2><ul class="ck">${chk.map(x=>`<li class="check"><span class="ic">☐</span><span>${esc(x)}</span></li>`).join('')}</ul></div>`;
   // settings

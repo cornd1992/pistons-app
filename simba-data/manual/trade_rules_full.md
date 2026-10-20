@@ -1,4 +1,14 @@
-# League trade rules (pasted by user 2026-10-17)
+# League trade rules — AUTHORITATIVE (official TSFBL trade rules, pasted by user 2026-10-20; first pasted 2026-10-17)
+
+This file is the source of truth for the in-app Trade Checker. Rules below are tagged **League** in the app.
+The official Trade Machine thread is on the league forum (post final trades there).
+
+## How the app applies these (tags)
+- **League** (this text): matching table + hard cap at 1st apron when the table is used; 100% matching above EITHER apron (status after the trade); minimum-salary players not counted as incoming; sign-and-trade and poison-pill counting (user enters extension years + total); untradable windows (flagged per player); 40-day no-aggregation for players acquired by trade (unless acquired into cap room); max 5 players out; hard-cap limit; two-team and multi-team qualifying assets; multi-team ≥2 partners / sends & receives ≥1; cash min $110,000, max = Taxpayer MLE rounded down to nearest $1M, balance, one sender only, no cash from teams above the 2nd apron; 1st-round picks never sold; 2nd-round picks not sold once the current draft reaches round 2.
+- **League (cap_rules_full.md, Aprons Explained)**: above the 2nd apron — no salary aggregation and no sending players out via sign-and-trade; above the 1st apron — no acquiring sign-and-trade players. Not stated in this trade text, kept because the aprons text states them.
+- **Assumed** (not in league text): cap-room absorption without matching; 15-man roster max / 13 minimum; minimum-contract salary threshold (placeholder); Stepien rule.
+- **Checklist** (can't be verified from site data): reacquiring players traded/released this league year; signing/waiver/trade dates; roster space when posting; pick protections that could convey nothing; stashed rights and pick swaps.
+
 
 Trade rules mirror real-life NBA rules.
 
