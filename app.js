@@ -146,8 +146,14 @@ function toggleDetail(tr){
 function pid(name,id){if(id!=null&&B.pById.has(+id))return +id;if(!B.pByName){B.pByName=new Map();B.players.forEach(p=>{const k=String(p.name).toLowerCase();if(!B.pByName.has(k))B.pByName.set(k,p.player_id);});}return B.pByName.get(String(name||'').toLowerCase().trim());}
 function plink(name,id){const i=pid(name,id);return i!=null?`<a class="pl" href="#players/${i}">${esc(name)}</a>`:esc(name??'—');}
 // Team page roster card (sim data only): name, position, bio table, placeholder portrait, current-season stat bar
+// proper-case a scraped string only when it arrives all lower-case (keeps UCLA, DeShawn, etc. as given)
+function properCase(v){const s=String(v??'');if(!s||s!==s.toLowerCase()||!/[a-z]/.test(s))return s;
+  return s.replace(/[a-z0-9.']+/g,w=>{if(/^(ii|iii|iv|v|vi)$/.test(w))return w.toUpperCase();if(/^(jr|sr)\.?$/.test(w))return w[0].toUpperCase()+w.slice(1);
+    if(/^(of|and|the|at|de|la)$/.test(w))return w;let o=w[0].toUpperCase()+w.slice(1);
+    o=o.replace(/^Mc([a-z])/,(m,c)=>'Mc'+c.toUpperCase()).replace(/^O'([a-z])/,(m,c)=>"O'"+c.toUpperCase()).replace(/^D'([a-z])/,(m,c)=>"D'"+c.toUpperCase());return o;})
+   .replace(/^./,c=>c.toUpperCase());}
 const POSFULL={PG:'Guard',SG:'Guard',G:'Guard',SF:'Forward',PF:'Forward',F:'Forward',C:'Center'};
-function rosterCard(r){const p=B.pById.get(r.player_id)||{},x={...p,...r},b=p.box||{},gp=b.gp||0,w=String(x.name||'').trim().split(/\s+/),first=w.length>1?w.slice(0,-1).join(' '):'',last=w[w.length-1]||'';
+function rosterCard(r){const p=B.pById.get(r.player_id)||{},x={...p,...r,name:properCase(r.name||p.name),college:properCase((r.college??p.college)),hometown:properCase(r.hometown??p.hometown)},b=p.box||{},gp=b.gp||0,w=String(x.name||'').trim().split(/\s+/),first=w.length>1?w.slice(0,-1).join(' '):'',last=w[w.length-1]||'';
   const ok=v=>v!=null&&v!==''&&v!=='N/A',d=v=>gp>0&&v!=null?f1(v):'-';
   const bio=[['Height',x.height],['Weight',ok(x.weight)?x.weight+' lbs':null],['Age',x.age],['Exp',ok(x.experience)?(+x.experience===0?'Rookie':x.experience+' yrs'):null],['College',ok(x.college)?x.college:null],['Hometown',ok(x.hometown)?x.hometown:null]].filter(([,v])=>ok(v));
   const ini=w.map(s=>s[0]).join('').slice(0,2).toUpperCase(),season=(CR()._meta||{}).season||'';
@@ -155,6 +161,7 @@ function rosterCard(r){const p=B.pById.get(r.player_id)||{},x={...p,...r},b=p.bo
    <div class="pc-pos">${esc(POSFULL[x.pos]||x.pos||'')}<span> · ${esc(x.pos||'')}</span></div>
    <table class="pc-bio">${bio.map(([k,v])=>`<tr><th>${k}</th><td>${esc(v)}</td></tr>`).join('')}</table></div>
    <div class="pc-img" aria-hidden="true"><svg viewBox="0 0 60 70"><circle cx="30" cy="22" r="13"/><path d="M4 70c0-17 12-27 26-27s26 10 26 27z"/></svg><span>${esc(ini)}</span></div></div>
+   <div class="pc-rat"><div class="pc-ovr"><small>OVR</small><b>${f1(overall(x.ratings||ratingsOf(x),x.pos))}</b></div><div class="pc-gr">${RK.map(k=>`<div><small>${k==='pot'?'POT*':k.toUpperCase()}</small>${gradeCell((x.ratings||ratingsOf(x))[k])}</div>`).join('')}</div></div>
    <div class="pc-stats">${[['Season',season||'-'],['GP',gp>0?gp:'-'],['PPG',d(b.ppg)],['APG',d(b.apg)],['RPG',d(b.rpg)]].map(([k,v])=>`<div><small>${k}</small><b>${esc(v)}</b></div>`).join('')}</div></article>`;}
 const empty=(t,s)=>`<div class="empty"><b>${esc(t)}</b>${esc(s||'')}</div>`;
 const allZero=o=>!o||Object.values(o).every(v=>v==null||v===0||v===''||(typeof v==='string'&&/^[-.0]*$/.test(v)));
@@ -235,8 +242,7 @@ function vTeam(){
   if(D.myNext) h+=`<div class="callout">🏀 Creation draft is live${D.onClock?` — ${esc(D.onClock.team)} (${esc(D.onClock.gm||'?')}) on the clock at R${D.onClock.round} #${D.onClock.slot}`:''}${gm?`. GM: <b>${esc(gm)}</b>`:''}. Overall pick ${D.nextOverall} is up. Your next pick is <b>Round ${D.myNext.round}, #${D.myNext.pick}</b> (overall ${D.myNext.overall}, ${D.picksBefore} picks away). <a href="#draft">Open draft board →</a></div>`;
   h+=`<div class="card"><h2>Roster & ratings</h2>`;
   if(!myRoster().length) h+=empty('No players yet','Draft picks will appear here.');
-  else h+=`<div class="rgrid">${myRoster().map(rosterCard).join('')}</div><details class="rtbl"><summary>Ratings table</summary>${table([{k:'name',l:'Player',f:(v,r)=>`<a href="#players/${r.player_id}">${esc(v)}</a>`},{k:'pos',l:'Pos'},{k:'age',l:'Age',n:1},{k:'height',l:'Ht'},
-    ...RK.map(k=>({k,l:k.toUpperCase(),f:(v,r)=>gradeCell(r.ratings[k])})),{k:'ovr',l:'OVR',n:1,f:(v,r)=>f1(overall(r.ratings,r.pos))}],myRoster())}</details>`;
+  else h+=`<div class="rgrid">${myRoster().map(rosterCard).join('')}</div>`;
   h+=`</div><div class="card"><h2>Contracts by year</h2>`;
   const yrs=[1,2,3,4,5,6,7];
   if(myRoster().length){
