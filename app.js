@@ -48,6 +48,7 @@ async function boot(){
   B.teamByShort=new Map();B.teams.forEach(t=>{const w=t.name.split(' ');for(let i=1;i<w.length;i++) B.teamByShort.set(w.slice(i).join(' '),t);B.teamByShort.set(t.name,t);});
   const ca=B.meta.crawled_at?new Date(B.meta.crawled_at):null;
   $('#asof').textContent='Data as of '+(ca?ca.toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'unknown')+(B.facts&&B.facts._meta&&B.facts._meta.as_of?' · draft facts '+new Date(B.facts._meta.as_of).toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'')+' · simba.mygamesonline.org';
+  fetch('data/version.json',{cache:'no-cache'}).then(r=>r.json()).then(v=>{const el=document.createElement('div');el.className='ver';el.textContent='Build '+v.version+' · app '+v.app;$('#asof').appendChild(el);}).catch(()=>{});
   prepDraft();
   try{const idx=await (await fetch('data/snapshots/index.json',{cache:'no-cache'})).json();
     SNAPS=(await Promise.all(idx.snapshots.map(k=>fetch('data/snapshots/'+k+'.json').then(r=>r.json()).catch(()=>null)))).filter(Boolean);}catch(e){SNAPS=[];}
@@ -248,7 +249,7 @@ function row(p,score,sub){return `<div class="row" data-href="#players/${p.playe
 /* ---------- League ---------- */
 function vLeague(){
   const sub=S.lsub||'standings';
-  let h=`<div class="seg" style="margin-bottom:12px">${[['standings','Standings'],['cap','Cap room'],['stats','Team stats'],['leaders','Leaders']].map(([k,l])=>`<button data-lsub="${k}" class="${k===sub?'on':''}">${l}</button>`).join('')}</div>`;
+  let h=`<div class="note small" style="margin:0 0 4px 2px;font-weight:600">View</div><div class="seg aseg" style="margin-bottom:12px">${[['standings','Standings'],['cap','Cap room'],['stats','Team stats'],['leaders','Leaders']].map(([k,l])=>`<button data-lsub="${k}" class="${k===sub?'on':''}">${l}</button>`).join('')}</div>`;
   const me=r=>r.team_id===B.myTeam.team_id;
   if(sub==='standings'){
     const zero=B.standings.divisional.every(d=>d.teams.every(t=>!t.w&&!t.l));
@@ -347,7 +348,7 @@ const ACOLS={
 const AV=(x,k)=>ACOLS[k]?.v?ACOLS[k].v(x):x[k];
 function vAnalytics(){
   const A=advCompute(),st=S.an=S.an||{q:'',team:'ALL',pos:'ALL',sort:'per',dir:-1,sub:'players',min:0};
-  let h=`<div class="seg" style="margin-bottom:12px">${[['players','Players'],['teams','Teams'],['formulas','Formulas']].map(([k,l])=>`<button data-asub="${k}" class="${st.sub===k?'on':''}">${l}</button>`).join('')}</div>`;
+  let h=`<div class="note small" style="margin:0 0 4px 2px;font-weight:600">View</div><div class="seg aseg" style="margin-bottom:12px">${[['players','Players'],['teams','Teams'],['formulas','Formulas']].map(([k,l])=>`<button data-asub="${k}" class="${st.sub===k?'on':''}">${l}</button>`).join('')}</div>`;
   if(!A.anyGames) h+=`<div class="callout"><b>No games played yet.</b> Advanced stats compute automatically from the daily scrape once the season tips off. Until then every metric shows “—”.</div>`;
   if(st.sub==='teams') return h+anTeams(A);
   if(st.sub==='formulas') return h+anFormulas(A);

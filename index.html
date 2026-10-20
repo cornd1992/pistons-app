@@ -31,6 +31,9 @@
   <a href="#players" data-tab="players" role="tab"><svg viewBox="0 0 24 24"><path d="M10 3a7 7 0 015.6 11.2l5 5-1.4 1.4-5-5A7 7 0 1110 3zm0 2a5 5 0 100 10 5 5 0 000-10z"/></svg><span>Players</span></a>
 </nav>
 <script src="app.js"></script>
-<script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('sw.js'));}</script>
+<script>if('serviceWorker' in navigator){const had=!!navigator.serviceWorker.controller;let done=false;
+navigator.serviceWorker.addEventListener('controllerchange',()=>{if(had&&!done){done=true;location.reload();}});
+addEventListener('load',()=>navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(r=>r.update()).catch(()=>{}));
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')navigator.serviceWorker.getRegistration().then(r=>r&&r.update());});}</script>
 </body>
 </html>

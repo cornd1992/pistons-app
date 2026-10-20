@@ -85,5 +85,7 @@ sw=os.path.join(APP,"sw.js")
 if os.path.exists(sw):
     import hashlib  # version also changes when the app code changes, not just the data
     hsh=hashlib.sha1(b"".join(open(os.path.join(APP,f),"rb").read() for f in ("index.html","app.js","styles.css","manifest.webmanifest",os.path.join("data","bundle.json")) if os.path.exists(os.path.join(APP,f)))).hexdigest()[:8]
+    app_h=hashlib.sha1(b"".join(open(os.path.join(APP,f),"rb").read() for f in ("index.html","app.js","styles.css"))).hexdigest()[:7]
+    json.dump({"version":f"{key[:8]}-{hsh}","app":app_h,"data":crawled},open(os.path.join(D,"version.json"),"w"))
     s=open(sw).read(); s=re.sub(r"const VERSION='[^']*'",f"const VERSION='{key}-{len(idx)}-{hsh}'",s); open(sw,"w").write(s)
 print(f"built bundle ({os.path.getsize(os.path.join(D,'bundle.json'))//1024} KB), snapshot {key}, {len(idx)} snapshots total")
