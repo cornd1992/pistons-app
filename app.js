@@ -92,8 +92,9 @@ function route(ev,keep){
   const T={team:['My Team',vTeam],draft:['Draft',vDraft],league:['League',vLeague],analytics:['Analytics',vAnalytics],players:['Players',vPlayers],rules:['League Rules',vRules],trade:['Trade Checker',vTrade]};
   const [title,fn]=T[S.tab]||T.team;$('#pageTitle').textContent=title;
   if(S.tab==='players'&&h[1]) {$('#view').innerHTML=vPlayer(+h[1]);}
+  else if(S.tab==='analytics'){S.anp=h[1]?+h[1]:null;$('#view').innerHTML=fn();}
   else $('#view').innerHTML=fn();
-  bind();if(!keep)scrollTo(0,0);
+  bind();if(!keep&&!(S.tab==='analytics'&&S.anp))scrollTo(0,0);
   if(S.tab==='rules'&&h[1]&&!keep){const id={cap:'capaprons',tax:'taxcalc'}[h[1]]||h[1];const el=document.getElementById(id);if(el)el.scrollIntoView();scrollBy(0,-90);}
 }
 
@@ -288,43 +289,121 @@ function line(points,{h=140,label=''}={}){
   const y=v=>h-20-(v-mn)/sp*(h-40);
   return `<svg viewBox="0 0 ${w} ${h}" width="100%"><polyline fill="none" stroke="var(--red)" stroke-width="2.5" points="${points.map((p,i)=>xs[i]+','+y(p.v)).join(' ')}"/>${points.map((p,i)=>`<circle cx="${xs[i]}" cy="${y(p.v)}" r="3.5" fill="var(--blue)"/><text x="${xs[i]}" y="${h-4}" font-size="9" text-anchor="middle" fill="var(--mut)">${esc(p.l)}</text>`).join('')}<text x="4" y="12" font-size="10" fill="var(--mut)">${esc(label)} ${f1(mx)} max</text></svg>`;
 }
+/* ---------- Analytics (advanced stats) ----------
+ Formulas (per-game inputs from data/bundle.json players[].box; team inputs = site team PPG / PA + sum of rostered players' box lines):
+  TS%   = PTS / (2·(FGA + 0.44·FTA))            eFG% = (FGM + 0.5·3PM) / FGA          AST/TO = AST / TOV
+  Per-36 = stat / MIN · 36
+  Game Score (Hollinger, adapted) = PTS + 0.4·FGM − 0.7·FGA − 0.4·(FTA−FTM) + 0.39·REB + STL + 0.7·AST + 0.7·BLK − TOV
+     (site has no OREB/DREB split or fouls: 0.39·REB = 0.7·ORB+0.3·DRB at a ~23% offensive-board share; PF term dropped)
+  USG%  = 100 · (FGA + 0.44·FTA + TOV) · (TmMIN/5) / (MIN · (TmFGA + 0.44·TmFTA + TmTOV)),  TmMIN = 240 per game
+  PER-lite = 15 · EFF36 / lgEFF36, EFF = PTS+REB+AST+STL+BLK − missed FG − missed FT − TOV, lgEFF36 = minute-weighted league EFF per 36
+  Win Shares (simple) = team wins · max(0,EFF·GP) / Σ teammates max(0,EFF·GP)   (credits actual wins by share of positive production)
+  Value / $1M = WS ÷ (this-year salary / 1e6);  also EFF per game per $1M
+  Team possessions/g = TmFGA + 0.44·TmFTA + TmTOV − OREB_est, OREB_est = 0.23·TmREB (no OREB on site). Pace = possessions per 48.
+  ORtg = 100·PPG/poss, DRtg = 100·PA/poss (opponent possessions assumed ≈ own), Net = ORtg − DRtg
+  Four Factors (offense only): eFG%, TOV% = TOV/poss, FT rate = FTA/FGA; ORB% and all defensive factors need opponent/OREB data the site doesn't publish.
+  Pythagorean W = GP · PF^14 / (PF^14 + PA^14)
+*/
+const sd=(a,b)=>b>0&&isFinite(a/b)?a/b:null;
+const p1=v=>v==null||!isFinite(v)?'—':(v*100).toFixed(1)+'%';
+const f2=v=>v==null||!isFinite(v)?'—':(+v).toFixed(2);
+const sgn=v=>v==null||!isFinite(v)?'—':(v>0?'+':'')+(+v).toFixed(1);
+function advCompute(){
+  if(B._adv) return B._adv;
+  const tById=new Map(B.teams.map(t=>[t.team_id,t]));
+  const pl=B.players.filter(p=>p.team_id&&tById.has(p.team_id)).map(p=>{const b=p.box||{},g=b.gp||0,mpg=b.mpg||0;
+    const reb=b.rpg||0,eff=(b.ppg||0)+reb+(b.apg||0)+(b.spg||0)+(b.bpg||0)-((b.fga||0)-(b.fgm||0))-((b.fta||0)-(b.ftm||0))-(b.topg||0);
+    const sal=(p.contract?.salary_by_year||[])[0]||0;
+    return {p,id:p.player_id,name:p.name,pos:p.pos,team_id:p.team_id,team:tById.get(p.team_id).name,b,g,mpg,eff,sal,
+      ts:sd(b.ppg,2*((b.fga||0)+0.44*(b.fta||0))),efg:sd((b.fgm||0)+0.5*(b.tpm||0),b.fga),ato:sd(b.apg,b.topg),
+      gs:g?(b.ppg||0)+0.4*(b.fgm||0)-0.7*(b.fga||0)-0.4*((b.fta||0)-(b.ftm||0))+0.39*reb+(b.spg||0)+0.7*(b.apg||0)+0.7*(b.bpg||0)-(b.topg||0):null,
+      p36:k=>mpg>0?(b[k]||0)/mpg*36:null};});
+  const teams=B.teams.map(t=>{const ro=pl.filter(x=>x.team_id===t.team_id&&x.g>0);const ts=t.team_stats||{},ys=t.yearly_stats||{},rec=t.record||{};
+    const gp=(rec.w||0)+(rec.l||0),G=Math.max(gp,...ro.map(x=>x.g),0);
+    const sum=k=>G?ro.reduce((a,x)=>a+(x.b[k]||0)*x.g,0)/G:0; // roster per-game totals (players' season totals ÷ team games)
+    const fga=sum('fga'),fta=sum('fta'),tov=sum('topg')||ts.topg||0,fgm=sum('fgm'),tpm=sum('tpm'),reb=ts.rpg||sum('rpg');
+    const pf=ts.ppg||ys.points_per_game||0,pa=ys.points_allowed_per_game||0;
+    const mins=sum('mpg'),poss0=fga+0.44*fta+tov-0.23*reb,poss=fga>0&&mins>=180&&poss0>0?poss0:null; // need ≥180 of 240 team minutes covered by roster box lines
+    const py=gp&&pf>0&&pa>0?gp*Math.pow(pf,14)/(Math.pow(pf,14)+Math.pow(pa,14)):null;
+    return {t,mins,team_id:t.team_id,team:t.name,gp,w:rec.w||0,l:rec.l||0,pf,pa,fga,fta,tov,poss,pace:poss,
+      ortg:poss&&pf?100*pf/poss:null,drtg:poss&&pa?100*pa/poss:null,efg:sd(fgm+0.5*tpm,fga),tovp:poss?tov/poss:null,ftr:sd(fta,fga),
+      pyw:py,pyl:py!=null?gp-py:null,diff:py!=null?(rec.w||0)-py:null};});
+  teams.forEach(x=>x.net=x.ortg!=null&&x.drtg!=null?x.ortg-x.drtg:null);
+  const tm=new Map(teams.map(x=>[x.team_id,x]));
+  const act=pl.filter(x=>x.g>0&&x.mpg>0),lgMin=act.reduce((a,x)=>a+x.mpg*x.g,0),lgEff36=lgMin?act.reduce((a,x)=>a+x.eff*x.g,0)/lgMin*36:0;
+  pl.forEach(x=>{const T=tm.get(x.team_id);
+    x.usg=x.g&&x.mpg&&T&&T.poss?100*((x.b.fga||0)+0.44*(x.b.fta||0)+(x.b.topg||0))*48/(x.mpg*((T.fga)+0.44*T.fta+T.tov)):null;
+    x.per=x.g&&x.mpg>0&&lgEff36>0?15*(x.eff/x.mpg*36)/lgEff36:null;});
+  teams.forEach(T=>{const ro=pl.filter(x=>x.team_id===T.team_id&&x.g>0),den=ro.reduce((a,x)=>a+Math.max(0,x.eff*x.g),0);
+    ro.forEach(x=>{x.ws=den>0?T.w*Math.max(0,x.eff*x.g)/den:0;});});
+  pl.forEach(x=>{if(x.ws==null)x.ws=x.g?0:null;const m=x.sal/1e6;x.wsm=x.g&&m>0?x.ws/m:null;x.effm=x.g&&m>0?x.eff/m:null;});
+  return B._adv={pl,teams,tm,anyGames:act.length>0,anyTeam:teams.some(x=>x.gp>0||x.pf>0),lgEff36};
+}
+const ACOLS={
+  name:{l:'Player'},team:{l:'Team'},pos:{l:'Pos'},g:{l:'GP',n:1,f:v=>v||0},mpg:{l:'MIN',n:1,f:f1},
+  ppg:{l:'PTS',n:1,f:f1,v:x=>x.b.ppg},rpg:{l:'REB',n:1,f:f1,v:x=>x.b.rpg},apg:{l:'AST',n:1,f:f1,v:x=>x.b.apg},
+  ts:{l:'TS%',n:1,f:p1},efg:{l:'eFG%',n:1,f:p1},usg:{l:'USG%',n:1,f:f1},ato:{l:'AST/TO',n:1,f:f2},gs:{l:'GmSc',n:1,f:f1},
+  per:{l:'PER*',n:1,f:f1},ws:{l:'WS*',n:1,f:f2},wsm:{l:'WS/$1M',n:1,f:f2},sal:{l:'Salary',n:1,f:v=>v?mm(v):'—'}};
+const AV=(x,k)=>ACOLS[k]?.v?ACOLS[k].v(x):x[k];
 function vAnalytics(){
-  const roster=myRoster();let h='';
-  if(!roster.length) return empty('No Pistons players yet','');
-  const pid=S.cmp||roster[0].player_id;const me=B.pById.get(pid)||roster[0];const posOnly=S.posOnly;
-  const pool=B.players.filter(p=>!posOnly||p.pos===me.pos);
-  const mr=ratingsOf(me);
-  const vals=RK.map(k=>pctile(pool.map(p=>gv(ratingsOf(p)[k])).filter(v=>v!=null),gv(mr[k])));
-  const avg=RK.map(k=>50);
-  h+=`<div class="card"><h2>Player vs league</h2><div class="controls"><select id="cmp" style="flex:1">${roster.map(p=>`<option value="${p.player_id}" ${p.player_id===me.player_id?'selected':''}>${esc(p.name)} (${p.pos})</option>`).join('')}</select>
-  <button class="ghost" id="posOnly">${posOnly?'✓ ':''}Same position only</button></div>
-  <div class="radarwrap">${radar([{v:avg,c:'#94a3b8'},{v:vals,c:'#c8102e'}],RK.map(k=>RNAME[k]))}</div>
-  <div class="legend"><span><i style="background:#c8102e"></i>${esc(me.name)}</span><span><i style="background:#94a3b8"></i>League median</span></div>
-  <h3>Rating percentiles (vs ${pool.length} ${posOnly?me.pos+'s':'league players'})</h3>
-  ${RK.map((k,i)=>`<div class="pct"><span>${RNAME[k]} ${gradeCell(mr[k])}</span><div class="bar"><i style="width:${vals[i]}%;background:${vals[i]>=75?'var(--good)':vals[i]>=40?'var(--blue)':'var(--bad)'}"></i></div><b class="n">${ord(vals[i])}</b></div>`).join('')}
-  <h3>Stat percentiles</h3>`;
-  const sa=me.season_averages||{};
-  if(allZero(sa)) h+=empty('Fills in once games are played','Per-game stat percentiles (PPG, RPG, APG, FG% …) appear after the first games.');
-  else{const keys=Object.keys(sa).filter(k=>k!=='games');const pl=B.players.filter(p=>(p.season_averages||{}).games>0);
-    h+=keys.map(k=>{const v=pctile(pl.map(p=>p.season_averages[k]),sa[k]);return `<div class="pct"><span>${k.toUpperCase()} ${f1(sa[k])}</span><div class="bar"><i style="width:${v}%"></i></div><b>${ord(v)}</b></div>`;}).join('');}
-  h+=`</div>`;
-  // team vs league
-  const ts=(B.teamstats['tmstats/offense/team.htm']||[]);const my=B.myTeam.team_stats||{};
-  h+=`<div class="card"><h2>Team vs league average</h2>`;
-  if(ts.every(r=>allZero({a:r.ppg,b:r.rpg,c:r.apg}))) h+=empty('Fills in once games are played','Team PPG/RPG/APG/SPG/BPG/TOPG vs the league average will show here.');
-  else h+=table([{k:'k',l:'Stat'},{k:'me',l:'Pistons',n:1,f:f1},{k:'lg',l:'League avg',n:1,f:f1},{k:'d',l:'Diff',n:1,f:v=>`<span style="color:${v>=0?'var(--good)':'var(--bad)'}">${v>=0?'+':''}${f1(v)}</span>`}],
-     ['ppg','rpg','apg','spg','bpg','topg'].map(k=>{const lg=ts.reduce((a,r)=>a+(r[k]||0),0)/ts.length;return {k:k.toUpperCase(),me:my[k],lg,d:(my[k]||0)-lg};}));
-  // ratings-based roster profile vs league teams
-  const teamOvr=B.teams.filter(t=>(t.players||[]).length).map(t=>({team:t.name,team_id:t.team_id,n:t.players.length,ovr:t.players.reduce((a,p)=>a+overall(p.ratings,p.pos),0)/t.players.length}));
-  h+=`<h3>Roster quality now (avg OVR of rostered players)</h3>${table([{k:'team',l:'Team'},{k:'n',l:'Players',n:1},{k:'ovr',l:'Avg OVR',n:1,f:f1}],teamOvr.sort((a,b)=>b.ovr-a.ovr),{me:r=>r.team_id===B.myTeam.team_id})}</div>`;
-  // trends
-  h+=`<div class="card"><h2>Trends across refreshes <span class="chip">${SNAPS.length} snapshot${SNAPS.length===1?'':'s'}</span></h2>`;
-  const lab=s=>new Date(s.crawled_at).toLocaleDateString(undefined,{month:'short',day:'numeric'});
-  const trendSeries=[['Wins',s=>s.my_team.record?.w],['Team PPG',s=>s.my_team.team_stats?.ppg],['Cap room ($M)',s=>(s.my_team.cap_room||0)/1e6],[`${me.name} PPG`,s=>s.players?.[me.player_id]?.season_averages?.ppg]];
-  if(SNAPS.length<2) h+=empty('Trends build over time','Each data refresh saves a dated snapshot. Charts appear after the second refresh; stat lines fill in once games are played.');
-  else trendSeries.forEach(([l,fn])=>{const pts=SNAPS.map(s=>({l:lab(s),v:+fn(s)||0}));h+=`<h3>${esc(l)}</h3>`+(pts.every(p=>p.v===0)?empty('Fills in once games are played',''):line(pts,{label:l}));});
-  h+=`<p class="note small">Snapshots: ${SNAPS.map(s=>esc(new Date(s.crawled_at).toLocaleString())).join(' · ')||'none'}</p></div>`;
+  const A=advCompute(),st=S.an=S.an||{q:'',team:'ALL',pos:'ALL',sort:'per',dir:-1,sub:'players',min:0};
+  let h=`<div class="seg" style="margin-bottom:12px">${[['players','Players'],['teams','Teams'],['formulas','Formulas']].map(([k,l])=>`<button data-asub="${k}" class="${st.sub===k?'on':''}">${l}</button>`).join('')}</div>`;
+  if(!A.anyGames) h+=`<div class="callout"><b>No games played yet.</b> Advanced stats compute automatically from the daily scrape once the season tips off. Until then every metric shows “—”.</div>`;
+  if(st.sub==='teams') return h+anTeams(A);
+  if(st.sub==='formulas') return h+anFormulas(A);
+  if(S.anp) h+=anCard(A,S.anp);
+  const q=st.q.toLowerCase();
+  let rows=A.pl.filter(x=>(!q||x.name.toLowerCase().includes(q))&&(st.team==='ALL'||x.team_id===+st.team)&&(st.pos==='ALL'||x.pos===st.pos)&&(!st.min||x.mpg>=st.min));
+  rows.sort((a,b)=>{const va=AV(a,st.sort),vb=AV(b,st.sort);if(va==null&&vb==null)return a.name.localeCompare(b.name);if(va==null)return 1;if(vb==null)return -1;return (typeof va==='string'?va.localeCompare(vb):va-vb)*st.dir;});
+  const cols=['name','team','pos','g','mpg','ppg','rpg','apg','ts','efg','usg','ato','gs','per','ws','wsm'].map(k=>({k,l:ACOLS[k].l,n:ACOLS[k].n,f:ACOLS[k].f?((v,r)=>ACOLS[k].f(AV(r,k))):(k==='name'?(v,r)=>`<b>${esc(r.name)}</b>`:k==='team'?(v,r)=>esc(r.team.split(' ').slice(-1)[0]):null)}));
+  h+=`<div class="card"><h2>Player advanced stats <span class="chip">${rows.length}</span></h2><div class="controls">
+   <input type="search" id="aq" placeholder="Search players" value="${esc(st.q)}" autocomplete="off">
+   <select id="ateam"><option value="ALL">All teams</option>${[...B.teams].sort((a,b)=>a.name.localeCompare(b.name)).map(t=>`<option value="${t.team_id}" ${+st.team===t.team_id?'selected':''}>${esc(t.name)}</option>`).join('')}</select>
+   <select id="apos">${['ALL',...POS].map(p=>`<option ${p===st.pos?'selected':''}>${p}</option>`).join('')}</select>
+   <select id="amin">${[0,10,20,30].map(m=>`<option value="${m}" ${+st.min===m?'selected':''}>${m?'≥'+m+' MPG':'Any MIN'}</option>`).join('')}</select></div>
+   <p class="note small">Tap a column to sort, tap a player for the detail card. * = estimate (see Formulas).</p>
+   ${table(cols,rows.slice(0,150).map(x=>({...x,_href:'#analytics/'+x.id})),{id:'adv',sortKey:st.sort,sortDir:st.dir,me:r=>r.team_id===B.meta.my_team_id})}
+   ${rows.length>150?'<p class="note small">Showing first 150 — refine filters.</p>':''}</div>`;
   return h;
+}
+function anCard(A,id){const x=A.pl.find(y=>y.id===id);if(!x){const p=B.pById.get(id);return p?`<div class="card"><h2>${esc(p.name)}</h2>${empty('Not on a team roster','Advanced stats cover rostered players only.')}</div>`:'';}
+  const b=x.b,k=(v,l)=>`<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`;
+  let h=`<div class="card" id="acard"><h2>${esc(x.name)} <span><span class="chip blue">${esc(x.pos)}</span><button class="ghost" id="aclose" style="min-height:36px">✕</button></span></h2><div class="note">${esc(x.team)} · ${x.sal?mm(x.sal)+' this yr':'no salary listed'} · <a href="#players/${x.id}">Profile ›</a></div>`;
+  if(!x.g) return h+empty('No games played yet','This card fills in after the first games.')+'</div>';
+  h+=`<h3>Efficiency</h3><div class="kpis">${k(p1(x.ts),'True shooting')}${k(p1(x.efg),'Effective FG%')}${k(f1(x.usg),'Usage rate*')}${k(f2(x.ato),'AST/TO')}${k(f1(x.gs),'Game Score / g')}${k(f1(x.per),'PER-lite*')}${k(f2(x.ws),'Win shares*')}${k(f2(x.wsm),'WS per $1M')}${k(f2(x.effm),'EFF per $1M')}${k(f1(x.eff),'EFF / g')}</div>`;
+  const keys=[['ppg','PTS'],['rpg','REB'],['apg','AST'],['spg','STL'],['bpg','BLK'],['topg','TO'],['fgm','FGM'],['fga','FGA'],['tpm','3PM'],['tpa','3PA'],['ftm','FTM'],['fta','FTA']];
+  h+=`<h3>Per game vs per 36 (${x.g} GP, ${f1(x.mpg)} MIN)</h3>${table([{k:'s',l:'Stat'},{k:'g',l:'Per game',n:1,f:f1},{k:'p',l:'Per 36',n:1,f:f1}],keys.map(([kk,l])=>({s:l,g:b[kk],p:x.p36(kk)})))}`;
+  if(!b.has_shooting) h+=`<p class="note small">Shooting makes/attempts not yet on the site for this player; TS%/eFG%/usage use what's available.</p>`;
+  // rolling split from snapshots: games between the two most recent snapshots with new games
+  const sn=SNAPS.map(s=>({at:s.crawled_at,b:s.players?.[x.id]?.box})).filter(s=>s.b&&s.b.gp>0);
+  if(sn.length>=2){const a=sn[sn.length-2].b,c=sn[sn.length-1].b,dg=c.gp-a.gp;
+    if(dg>0){const sp=kk=>(c[kk]*c.gp-a[kk]*a.gp)/dg;h+=`<h3>Since previous refresh (${dg} game${dg>1?'s':''})</h3>${table([{k:'s',l:'Stat'},{k:'r',l:'Recent',n:1,f:f1},{k:'s2',l:'Season',n:1,f:f1}],[['ppg','PTS'],['rpg','REB'],['apg','AST'],['mpg','MIN']].map(([kk,l])=>({s:l,r:sp(kk),s2:c[kk]})))}`;}}
+  return h+'</div>';
+}
+function anTeams(A){
+  if(!A.anyTeam) return `<div class="card"><h2>Team ratings</h2>${empty('No games played yet','Pace, offensive/defensive rating, Four Factors and Pythagorean wins appear after the first games.')}</div>`;
+  const st=S.an,me=r=>r.team_id===B.meta.my_team_id,ts=st.tsort||'net',td=st.tdir||-1;
+  const rows=[...A.teams].sort((a,b)=>{const va=a[ts],vb=b[ts];if(va==null)return 1;if(vb==null)return -1;return (typeof va==='string'?va.localeCompare(vb):va-vb)*td;});
+  const nm=(v,r)=>esc(r.team.split(' ').slice(-1)[0]);
+  let h=`<div class="card"><h2>Team ratings</h2><p class="note small">Per 100 possessions. Possessions estimated from rostered players' shooting/turnovers; opponent possessions assumed equal. “—” = roster box lines cover under 180 of 240 team minutes, so possessions can't be estimated yet.</p>
+   ${table([{k:'team',l:'Team',f:nm},{k:'w',l:'W',n:1},{k:'l',l:'L',n:1},{k:'pace',l:'Pace*',n:1,f:f1},{k:'ortg',l:'ORtg',n:1,f:f1},{k:'drtg',l:'DRtg',n:1,f:f1},{k:'net',l:'Net',n:1,f:sgn}],rows,{id:'ateams',me,sortKey:ts,sortDir:td})}</div>`;
+  h+=`<div class="card"><h2>Four Factors (offense)</h2>${table([{k:'team',l:'Team',f:nm},{k:'efg',l:'eFG%',n:1,f:p1},{k:'tovp',l:'TOV%',n:1,f:p1},{k:'ftr',l:'FTA/FGA',n:1,f:f2},{k:'orb',l:'ORB%',n:1,f:()=>'n/a'}],rows,{me})}
+   <p class="note small">ORB% and defensive factors need offensive-rebound and opponent shooting data, which the stats site doesn't publish.</p></div>`;
+  h+=`<div class="card"><h2>Pythagorean wins</h2>${table([{k:'team',l:'Team',f:nm},{k:'pf',l:'PF',n:1,f:f1},{k:'pa',l:'PA',n:1,f:f1},{k:'w',l:'W',n:1},{k:'pyw',l:'Exp W',n:1,f:f1},{k:'diff',l:'Luck',n:1,f:sgn}],[...A.teams].sort((a,b)=>(b.pyw??-1)-(a.pyw??-1)),{me})}
+   <p class="note small">Exp W = GP·PF¹⁴/(PF¹⁴+PA¹⁴). Luck = actual − expected wins.</p></div>`;
+  return h;
+}
+function anFormulas(A){
+  const L=[['TS%','PTS ÷ (2 × (FGA + 0.44 × FTA))'],['eFG%','(FGM + 0.5 × 3PM) ÷ FGA'],['AST/TO','AST ÷ TOV'],['Per 36','stat ÷ MIN × 36'],
+   ['Game Score','PTS + 0.4·FGM − 0.7·FGA − 0.4·(FTA−FTM) + 0.39·REB + STL + 0.7·AST + 0.7·BLK − TOV (Hollinger; no OREB/DREB split or fouls on site, so 0.39·REB ≈ 0.7·ORB + 0.3·DRB)'],
+   ['USG%*','100 × (FGA + 0.44·FTA + TOV) × (TmMIN/5) ÷ (MIN × (TmFGA + 0.44·TmFTA + TmTOV)); team totals = sum of rostered players'],
+   ['PER-lite*','15 × EFF36 ÷ league EFF36, where EFF = PTS+REB+AST+STL+BLK − missed FG − missed FT − TOV (league average = 15; not pace-adjusted)'],
+   ['Win Shares*','Team wins × player\'s share of team positive EFF (EFF × GP)'],['WS per $1M','WS ÷ (this season salary ÷ $1M); EFF per $1M likewise'],
+   ['Possessions*','FGA + 0.44·FTA + TOV − 0.23·REB (OREB estimated at 23% of rebounds)'],['Pace*','possessions per 48 minutes'],
+   ['ORtg / DRtg','100 × PTS scored (allowed) ÷ possessions'],['Net rating','ORtg − DRtg'],['Four Factors','eFG%, TOV% = TOV ÷ poss, FT rate = FTA ÷ FGA (ORB% unavailable)'],
+   ['Pythagorean W','GP × PF¹⁴ ÷ (PF¹⁴ + PA¹⁴)']];
+  return `<div class="card"><h2>How these are calculated</h2><ul class="ck">${L.map(([a,b])=>`<li class="info"><span class="ic">ƒ</span><span><b>${a}</b> — ${esc(b)}</span></li>`).join('')}</ul>
+  <p class="note small">* estimate. Not available from the stats site: offensive/defensive rebound split, personal fouls, opponent shooting, play-by-play/lineups, per-game box scores (rolling splits use differences between daily snapshots instead).</p></div>`;
 }
 
 /* ---------- Players ---------- */
@@ -622,6 +701,14 @@ function bind(){
   on('trep','click',e=>{SET.set('taxRep',!SET.get('taxRep',false));e.target.textContent=(SET.get('taxRep',false)?'✓ ':'')+'Repeater';tcalc();});
   document.querySelectorAll('[data-jump]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();document.getElementById(a.dataset.jump)?.scrollIntoView({behavior:'smooth'});}));
   on('ppos','change',e=>{S.ppos=e.target.value;rerender();});
+  if(S.tab==='analytics'){const A=S.an;
+    document.querySelectorAll('[data-asub]').forEach(b=>b.addEventListener('click',()=>{A.sub=b.dataset.asub;rerender();}));
+    on('aq','input',e=>{A.q=e.target.value;rerender(true);});
+    on('ateam','change',e=>{A.team=e.target.value;rerender();});on('apos','change',e=>{A.pos=e.target.value;rerender();});on('amin','change',e=>{A.min=+e.target.value;rerender();});
+    on('aclose','click',()=>{location.hash='analytics';});
+    document.querySelectorAll('table[data-id=adv] th').forEach(th=>th.addEventListener('click',()=>{const k=th.dataset.k;if(A.sort===k)A.dir*=-1;else{A.sort=k;A.dir=['name','team','pos'].includes(k)?1:-1;}rerender();}));
+    document.querySelectorAll('table[data-id=ateams] th').forEach(th=>th.addEventListener('click',()=>{const k=th.dataset.k;if(A.tsort===k)A.tdir=-(A.tdir||-1);else{A.tsort=k;A.tdir=k==='team'||k==='drtg'||k==='l'?1:-1;}rerender();}));
+    if(S.anp){const c=document.getElementById('acard');if(c)c.scrollIntoView();}}
 }
 (()=>{const b=document.getElementById('menuBtn'),m=document.getElementById('menu');if(!b)return;
   b.addEventListener('click',e=>{e.stopPropagation();m.hidden=!m.hidden;});document.addEventListener('click',()=>m.hidden=true);addEventListener('hashchange',()=>m.hidden=true);})();
