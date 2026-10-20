@@ -157,11 +157,26 @@ function fitTables(root=document){
     let n=0;while(over()&&n<order.length){hide(order[n].i,true);n++;}
     if(t.dataset.id==='draft'||t.offsetWidth>wr.clientWidth+1)t.classList.add('tfix');
     t.classList.toggle('hashid',n>0);});
+  if(root===document)restoreOpen();
 }
-function toggleDetail(tr){
-  const nx=tr.nextElementSibling;if(nx&&nx.classList.contains('dt')){nx.remove();tr.classList.remove('open');return;}
-  const tb=tr.parentElement,capx=tr.closest('table').dataset.id==='capx';
-  if(capx){tb.querySelectorAll(':scope>tr.dt').forEach(x=>x.remove());tb.querySelectorAll(':scope>tr.open').forEach(x=>x.classList.remove('open'));}
+// Open detail rows survive re-renders (re-sort, filter, resize): remembered per table, keyed by team/href or row position.
+const OPEN={};
+// a row toggles only on a real tap: a touch that moved (scroll/swipe) is not a tap
+const TOUCH={x:0,y:0,moved:false};
+addEventListener('touchstart',e=>{const t=e.touches[0];TOUCH.x=t.clientX;TOUCH.y=t.clientY;TOUCH.moved=false;},{passive:true});
+addEventListener('touchmove',e=>{const t=e.touches[0];if(Math.abs(t.clientX-TOUCH.x)>10||Math.abs(t.clientY-TOUCH.y)>10)TOUCH.moved=true;},{passive:true});
+addEventListener('scroll',()=>{if(TOUCH.x||TOUCH.y)TOUCH.moved=true;},{passive:true});
+const tblKey=t=>{const all=[...document.querySelectorAll('#view .scroll>table.tbl')].filter(x=>!x.closest('tr.dt'));return S.tab+':'+(t.dataset.id||all.indexOf(t));};
+const rowKey=tr=>tr.dataset.team?'t'+tr.dataset.team:tr.dataset.href?'h'+tr.dataset.href:tr.querySelector('a[href^="#players/"]')?'p'+tr.querySelector('a[href^="#players/"]').getAttribute('href'):'i'+[...tr.parentElement.children].filter(x=>!x.classList.contains('dt')).indexOf(tr);
+function restoreOpen(){document.querySelectorAll('#view .scroll>table.tbl').forEach(t=>{if(t.closest('tr.dt'))return;const keys=OPEN[tblKey(t)];if(!keys||!keys.size)return;
+  if(!t.classList.contains('hashid')&&t.dataset.id!=='capx')return;
+  [...(t.tBodies[0]?t.tBodies[0].children:[])].filter(tr=>!tr.classList.contains('dt')&&keys.has(rowKey(tr))&&!tr.classList.contains('open')).forEach(tr=>toggleDetail(tr,true));});}
+function toggleDetail(tr,restoring){
+  const t0=tr.closest('table'),tk=tblKey(t0),rk=rowKey(tr),set=OPEN[tk]||(OPEN[tk]=new Set());
+  const nx=tr.nextElementSibling;if(nx&&nx.classList.contains('dt')){nx.remove();tr.classList.remove('open');set.delete(rk);return;}
+  const tb=tr.parentElement,capx=t0.dataset.id==='capx';
+  if(capx){tb.querySelectorAll(':scope>tr.dt').forEach(x=>x.remove());tb.querySelectorAll(':scope>tr.open').forEach(x=>x.classList.remove('open'));set.clear();}
+  set.add(rk);
   const t=tr.closest('table'),hid=[...tr.children].filter(c=>c.classList.contains('hx'));
   const vis=[...tr.children].length-hid.length,d=document.createElement('tr');d.className='dt';
   d.innerHTML=`<td colspan="${vis}"><div class="dl">${hid.map(c=>`<span><b>${c.dataset.l}</b> ${c.innerHTML}</span>`).join('')}${tr.dataset.href?`<a href="${tr.dataset.href}">Open →</a>`:''}</div>${capx?`<div class="capx">${capCore(B.teams.find(x=>x.team_id===+tr.dataset.team))}</div>`:''}</td>`;
@@ -786,7 +801,7 @@ function bind(){
   tradeBind();
   fitTables();
   document.querySelectorAll('[data-href]:not(tr)').forEach(el=>el.addEventListener('click',e=>{if(e.target.closest('a'))return;location.hash=el.dataset.href.replace(/^#/,'');}));
-  document.querySelectorAll('.tbl tbody').forEach(tb=>tb.addEventListener('click',e=>{const tr=e.target.closest('tr');if(!tr||tr.classList.contains('dt')||e.target.closest('a'))return;
+  document.querySelectorAll('.tbl tbody').forEach(tb=>tb.addEventListener('click',e=>{if(TOUCH.moved)return;const tr=e.target.closest('tr');if(!tr||tr.classList.contains('dt')||e.target.closest('a'))return;
     if(tr.parentElement!==tb)return;const tt=tr.closest('table');if(tt.classList.contains('hashid')||tt.dataset.id==='capx'){toggleDetail(tr);return;}if(tr.dataset.href)location.hash=tr.dataset.href.replace(/^#/,'');}));
   const on=(id,ev,fn)=>{const el=document.getElementById(id);if(el)el.addEventListener(ev,fn);};
   const rerender=(keepFocus)=>{const pos=keepFocus&&document.activeElement?.id;const sel=document.activeElement?.selectionStart;route(null,true);if(pos){const el=document.getElementById(pos);if(el){el.focus();try{el.setSelectionRange(sel,sel);}catch(e){}}}};
@@ -822,5 +837,6 @@ function bind(){
 }
 (()=>{const b=document.getElementById('menuBtn'),m=document.getElementById('menu');if(!b)return;
   b.addEventListener('click',e=>{e.stopPropagation();m.hidden=!m.hidden;});document.addEventListener('click',()=>m.hidden=true);addEventListener('hashchange',()=>m.hidden=true);})();
-{let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(fitTables,120);});}
+{let rt,lw=innerWidth;addEventListener('resize',()=>{if(innerWidth===lw)return; // iOS fires height-only resizes as the URL bar collapses while scrolling
+  lw=innerWidth;clearTimeout(rt);rt=setTimeout(fitTables,150);});}
 boot();
