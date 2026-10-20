@@ -143,13 +143,14 @@ function table(cols,rows,{id='',me=null,sortKey=null,sortDir=-1}={}){
   const pr=(c,i)=>c.k===sortKey?0:c.p!=null?c.p:(i===0?0:1); // the sorted column always stays visible
   const w=c=>c.w?` style="width:${c.w}"`:'';
   return `<div class="scroll"><table class="tbl" ${id?`data-id="${id}"`:''}><thead><tr>${cols.map((c,i)=>`<th class="${c.n?'n':''}" data-k="${c.k}" data-p="${pr(c,i)}"${w(c)}>${esc(c.l)}${sortKey===c.k?(sortDir>0?' ▲':' ▼'):''}</th>`).join('')}</tr></thead><tbody>${
-    rows.map(r=>`<tr class="${me&&me(r)?'me':''}" ${r._href?`data-href="${r._href}"`:''}>${cols.map(c=>`<td class="${c.n?'n':''}" data-l="${esc(c.l)}">${c.f?c.f(r[c.k],r):esc(r[c.k]??'—')}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+    rows.map(r=>`<tr class="${me&&me(r)?'me':''}" ${r._href?`data-href="${r._href}"`:''}${r._team!=null?` data-team="${r._team}"`:''}>${cols.map(c=>`<td class="${c.n?'n':''}" data-l="${esc(c.l)}">${c.f?c.f(r[c.k],r):esc(r[c.k]??'—')}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
 }
-function fitTables(){
-  document.querySelectorAll('.scroll').forEach(wr=>{const t=wr.querySelector('table');if(!t)return;
-    t.querySelectorAll('tr.dt').forEach(x=>x.remove());t.querySelectorAll('tr.open').forEach(x=>x.classList.remove('open'));
-    t.classList.remove('tfix');const ths=[...t.querySelectorAll('thead th')];
-    const hide=(i,on)=>t.querySelectorAll(`tr>:nth-child(${i+1})`).forEach(c=>c.classList.toggle('hx',on));
+function fitTables(root=document){
+  const own=(t,sel)=>t.querySelectorAll(`:scope>thead>${sel},:scope>tbody>${sel}`); // never touch tables nested in an expanded row
+  root.querySelectorAll('.scroll').forEach(wr=>{const t=wr.querySelector(':scope>table');if(!t)return;
+    if(root===document){own(t,'tr.dt').forEach(x=>x.remove());own(t,'tr.open').forEach(x=>x.classList.remove('open'));}
+    t.classList.remove('tfix');const ths=[...t.querySelectorAll(':scope>thead>tr>th')];
+    const hide=(i,on)=>own(t,`tr>:nth-child(${i+1})`).forEach(c=>c.classList.toggle('hx',on));
     ths.forEach((_,i)=>hide(i,false));
     const order=ths.map((th,i)=>({i,p:+th.dataset.p})).filter(o=>o.p>0).sort((a,b)=>b.p-a.p||b.i-a.i);
     const over=()=>t.offsetWidth>wr.clientWidth+1||wr.clientWidth/(ths.length-n)<64;
@@ -159,10 +160,12 @@ function fitTables(){
 }
 function toggleDetail(tr){
   const nx=tr.nextElementSibling;if(nx&&nx.classList.contains('dt')){nx.remove();tr.classList.remove('open');return;}
+  const tb=tr.parentElement,capx=tr.closest('table').dataset.id==='capx';
+  if(capx){tb.querySelectorAll(':scope>tr.dt').forEach(x=>x.remove());tb.querySelectorAll(':scope>tr.open').forEach(x=>x.classList.remove('open'));}
   const t=tr.closest('table'),hid=[...tr.children].filter(c=>c.classList.contains('hx'));
   const vis=[...tr.children].length-hid.length,d=document.createElement('tr');d.className='dt';
-  d.innerHTML=`<td colspan="${vis}"><div class="dl">${hid.map(c=>`<span><b>${c.dataset.l}</b> ${c.innerHTML}</span>`).join('')}${tr.dataset.href?`<a href="${tr.dataset.href}">Open →</a>`:''}</div></td>`;
-  tr.after(d);tr.classList.add('open');
+  d.innerHTML=`<td colspan="${vis}"><div class="dl">${hid.map(c=>`<span><b>${c.dataset.l}</b> ${c.innerHTML}</span>`).join('')}${tr.dataset.href?`<a href="${tr.dataset.href}">Open →</a>`:''}</div>${capx?`<div class="capx">${capCore(B.teams.find(x=>x.team_id===+tr.dataset.team))}</div>`:''}</td>`;
+  tr.after(d);tr.classList.add('open');if(capx){d.classList.add('cxrow');fitTables(d);}
 }
 // link a player name to his page (#players/<id>); resolves by name when no id is known, plain text if unknown
 function pid(name,id){if(id!=null&&B.pById.has(+id))return +id;if(!B.pByName){B.pByName=new Map();B.players.forEach(p=>{const k=String(p.name).toLowerCase();if(!B.pByName.has(k))B.pByName.set(k,p.player_id);});}return B.pByName.get(String(name||'').toLowerCase().trim());}
@@ -232,18 +235,27 @@ function thresholdBar(pay,capSal){
   return `<div class="tbar"><div class="zones">${zones.map(([a,b,col])=>`<i style="left:${x(a)}%;width:${(x(b)-x(a)).toFixed(2)}%;background:${col}"></i>`).join('')}</div>
    <div class="pay" style="width:${x(pay)}%"></div><div class="you" style="left:${x(pay)}%"><span>DET ${mm(pay)}</span></div>${capSal&&capSal>pay?`<div class="capsal" style="left:${x(pay)}%;width:${(x(capSal)-x(pay))}%" title="incomplete roster charge"></div>`:''}
    ${LEVELS.filter(([k])=>c[k]).map(([k,l,sh],i)=>`<div class="mk ${sh==='A1'||sh==='Cap'?'up':''}" style="left:${x(c[k])}%" title="${l} ${mm(c[k])}"><span>${sh}</span></div>`).join('')}</div><div class="legend small" style="flex-wrap:wrap">${LEVELS.filter(([k])=>c[k]).map(([k,l,sh])=>`<span><b>${sh}</b> ${l} ${mm(c[k])}</span>`).join('')}</div>`;}
+// Shared cap breakdown for any team: stat boxes, threshold bar, threshold table, incomplete-roster charge, player salaries.
+// Pistons use payrollOf() as on My Team (real salary for pending picks); other teams use the stats-site salary data.
+function capCore(t,{players=true}={}){if(!t)return empty('No team data','');const c=CR(),m=capMath(t),rep=t===B.myTeam&&SET.get('repeater',false),nm=t.name.replace(/^.* /,'');
+  const rows=LEVELS.filter(([k])=>c[k]).map(([k,l])=>{const base=k==='salary_floor'||k==='luxury_tax'||k.includes('apron')?m.tax:m.cap,d=c[k]-base;
+    return {l,th:c[k],basis:k==='salary_cap'?'cap salary':'tax salary',d,txt:k==='salary_floor'?(d>0?`needs ${mm(d)}`:`${mm(-d)} above`):(d>0?`${mm(d)} under`:`${mm(-d)} over`)};});
+  const tx=luxTax(m.tax-c.luxury_tax,rep);
+  let h=`<div class="kpis"><div class="kpi"><div class="v">${mm(m.cap)}</div><div class="l">Cap salary (incl. ${mm(m.charge)} roster charge)</div></div><div class="kpi"><div class="v">${mm(m.tax)}</div><div class="l">Tax salary (no holds/charges)</div></div>
+   <div class="kpi"><div class="v">${mm(c.salary_cap-m.cap)}</div><div class="l">Cap room (on cap salary)</div></div><div class="kpi"><div class="v">${mm(tx.tax)}</div><div class="l">Projected luxury tax${rep?' (repeater)':''}</div></div></div>`;
+  h+=thresholdBar(m.tax,m.cap);
+  h+=table([{k:'l',l:'Threshold'},{k:'th',l:'Amount',n:1,f:mm},{k:'basis',l:'Measured on',p:2},{k:'txt',l:nm,n:1,f:(v,r)=>`<span style="color:${(r.l==='Floor'?r.d<=0:r.d>0)?'var(--good)':'var(--bad)'}">${esc(v)}</span>`}],rows);
+  h+=`<p class="note small"><b>Incomplete roster charge:</b> ${m.counted} player${m.counted===1?'':'s'} counted → ${m.need} × rookie minimum ${mm(m.rm.v)} = <b>${mm(m.charge)}</b> added to cap salary.</p>`;
+  if(players){const ps=[...(t.players||[])].sort((a,b)=>(b.salary?.year_1||0)-(a.salary?.year_1||0));
+    h+=ps.length?`<div class="capps">${ps.map(p=>`<span>${plink(p.name,p.player_id)} <i>${esc(p.pos||'')}</i> <b>${mm(p.salary?.year_1||0)}</b>${p.pending?' <em>(pending, real $)</em>':''}</span>`).join('')}</div>`:'<p class="note small">No players on the roster yet.</p>';}
+  return h;}
 function capPanel(t){const c=CR(),m=capMath(t),usedRoom=SET.get('usedRoom',false),rep=SET.get('repeater',false);
   const rows=LEVELS.filter(([k])=>c[k]).map(([k,l])=>{const base=k==='salary_floor'||k==='luxury_tax'||k.includes('apron')?m.tax:m.cap,d=c[k]-base;
     return {l,th:c[k],basis:k==='salary_cap'?'cap salary':'tax salary',d,txt:k==='salary_floor'?(d>0?`needs ${mm(d)}`:`${mm(-d)} above`):(d>0?`${mm(d)} under`:`${mm(-d)} over`)};});
   const ex=exceptionsFor(m.cap,m.tax,usedRoom),tx=luxTax(m.tax-c.luxury_tax,rep);
   let h='';
   if(m.floorGap>0) h+=`<div class="warn">⚠️ <b>Below the salary floor by ${mm(m.floorGap)}.</b> If the Pistons are still under ${mm(c.salary_floor)} when offseason free agency ends, the league will <b>auto-sign players</b> to reach the floor and may <b>cut players</b> to make room. Cap holds don't count toward the floor.</div>`;
-  h+=`<div class="kpis"><div class="kpi"><div class="v">${mm(m.cap)}</div><div class="l">Cap salary (incl. ${mm(m.charge)} roster charge)</div></div><div class="kpi"><div class="v">${mm(m.tax)}</div><div class="l">Tax salary (no holds/charges)</div></div>
-   <div class="kpi"><div class="v">${mm(c.salary_cap-m.cap)}</div><div class="l">Cap room (on cap salary)</div></div><div class="kpi"><div class="v">${mm(tx.tax)}</div><div class="l">Projected luxury tax${rep?' (repeater)':''}</div></div></div>`;
-  h+=thresholdBar(m.tax,m.cap);
-  h+=table([{k:'l',l:'Threshold'},{k:'th',l:'Amount',n:1,f:mm},{k:'basis',l:'Measured on'},{k:'txt',l:'Pistons',n:1,f:(v,r)=>`<span style="color:${(r.l==='Floor'?r.d<=0:r.d>0)?'var(--good)':'var(--bad)'}">${esc(v)}</span>`}],rows);
-  h+=`<h3>Incomplete roster charge (offseason)</h3><p class="note">${m.counted} player${m.counted===1?'':'s'} counted → ${m.need} × rookie minimum ${mm(m.rm.v)} = <b>${mm(m.charge)}</b> added to cap salary.</p>
-   <div class="controls"><label class="note" style="display:flex;align-items:center;gap:8px;flex:1">Rookie minimum $<input id="rmin" inputmode="numeric" style="flex:1;min-height:44px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);padding:0 10px" value="${m.rm.v}"></label></div>
+  h+=capCore(t,{players:false})+`<div class="controls"><label class="note" style="display:flex;align-items:center;gap:8px;flex:1">Rookie minimum $<input id="rmin" inputmode="numeric" style="flex:1;min-height:44px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);padding:0 10px" value="${m.rm.v}"></label></div>
    ${m.rm.src==='placeholder'?`<div class="warn small">🟨 <b>Rookie minimum is a placeholder.</b> ${esc(m.rm.label||'')}</div>`:`<p class="note small">Rookie minimum source: ${esc(m.rm.src)}.</p>`}`;
   h+=`<h3>Exceptions you can use</h3><div class="controls"><button class="ghost" id="usedRoom">${usedRoom?'✓ ':''}Used cap room this season</button></div>
    ${ex.length?ex.map(e=>`<div class="kpi" style="margin-bottom:6px"><div class="v">${esc(e.n)} · ${mm(e.v)}</div><div class="l">${esc(e.why)}</div></div>`).join(''):empty('No MLE available','Above the 2nd apron: no Taxpayer MLE.')}
@@ -347,7 +359,7 @@ function vLeague(){
     const c=capRank().sorted.map((x,i)=>{const used=x.team_salary!=null?x.team_salary:B.meta.salary_cap-x.cap_room,cr=CR();return {...x,rank:i+1,used,status:capStatus(used).k,toFloor:Math.max(0,(cr.salary_floor||0)-used),underTax:(cr.luxury_tax||0)-used,projTax:luxTax(used-(cr.luxury_tax||0),false).tax};});
     const cnt={};c.forEach(x=>cnt[x.status]=(cnt[x.status]||0)+1);
     h+=`<div class="card"><h2>League cap picture</h2><div>${Object.entries(cnt).map(([k,v])=>`<span class="chip">${esc(k)}: ${v}</span>`).join('')}</div><p class="note small">Floor ${mm(CR().salary_floor)} · Cap ${mm(CR().salary_cap)} · Tax ${mm(CR().luxury_tax)} · 1st apron ${mm(CR().first_apron)} · 2nd apron ${mm(CR().second_apron)}</p></div>`;
-    h+=`<div class="card"><h2>Cap room (cap ${mm(B.meta.salary_cap)})</h2>${table([{k:'rank',l:'#',n:1},{k:'team',l:'Team'},{k:'cap_room',l:'Room',n:1,f:mm},{k:'used',l:'Payroll',n:1,f:mm},{k:'status',l:'Status',f:(v,r)=>statusChip(r.used)},{k:'toFloor',l:'To floor',n:1,f:v=>v?mm(v):'—'},{k:'underTax',l:'Under tax',n:1,f:mm},{k:'projTax',l:'Proj. tax',n:1,f:v=>v?mm(v):'$0'}],c,{me})}<p class="note small">Projected tax uses non-repeater rates on current payroll (tax is actually assessed on salary at the final regular-season game).</p></div>`;
+    h+=`<div class="card"><h2>Cap room (cap ${mm(B.meta.salary_cap)})</h2>${table([{k:'rank',l:'#',n:1},{k:'team',l:'Team'},{k:'cap_room',l:'Room',n:1,f:mm},{k:'used',l:'Payroll',n:1,f:mm},{k:'status',l:'Status',f:(v,r)=>statusChip(r.used)},{k:'toFloor',l:'To floor',n:1,f:v=>v?mm(v):'—'},{k:'underTax',l:'Under tax',n:1,f:mm},{k:'projTax',l:'Proj. tax',n:1,f:v=>v?mm(v):'$0'}],c.map(x=>({...x,_team:x.team_id})),{me,id:'capx'})}<p class="note small">Projected tax uses non-repeater rates on current payroll (tax is actually assessed on salary at the final regular-season game).</p></div>`;
   } else if(sub==='stats'){
     const ts=(B.teamstats['tmstats/offense/team.htm']||[]).map(r=>({...r,team_id:r.team_id||B.teamByShort.get(r.team)?.team_id}));
     const z=ts.every(r=>allZero({a:r.ppg,b:r.rpg,c:r.apg}));
@@ -775,7 +787,7 @@ function bind(){
   fitTables();
   document.querySelectorAll('[data-href]:not(tr)').forEach(el=>el.addEventListener('click',e=>{if(e.target.closest('a'))return;location.hash=el.dataset.href.replace(/^#/,'');}));
   document.querySelectorAll('.tbl tbody').forEach(tb=>tb.addEventListener('click',e=>{const tr=e.target.closest('tr');if(!tr||tr.classList.contains('dt')||e.target.closest('a'))return;
-    if(tr.closest('table').classList.contains('hashid')){toggleDetail(tr);return;}if(tr.dataset.href)location.hash=tr.dataset.href.replace(/^#/,'');}));
+    if(tr.parentElement!==tb)return;const tt=tr.closest('table');if(tt.classList.contains('hashid')||tt.dataset.id==='capx'){toggleDetail(tr);return;}if(tr.dataset.href)location.hash=tr.dataset.href.replace(/^#/,'');}));
   const on=(id,ev,fn)=>{const el=document.getElementById(id);if(el)el.addEventListener(ev,fn);};
   const rerender=(keepFocus)=>{const pos=keepFocus&&document.activeElement?.id;const sel=document.activeElement?.selectionStart;route(null,true);if(pos){const el=document.getElementById(pos);if(el){el.focus();try{el.setSelectionRange(sel,sel);}catch(e){}}}};
   on('dq','input',e=>{S.draft.q=e.target.value;rerender(true);});

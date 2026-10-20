@@ -113,3 +113,9 @@ details summary{cursor:pointer;min-height:44px;display:flex;align-items:center;f
 .pc-gr{flex:1;min-width:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}
 .pc-gr>div{display:flex;align-items:center;justify-content:space-between;gap:4px;background:#f3f4f6;border-radius:4px;padding:3px 5px;min-width:0}
 .pc-gr small{font-size:9.5px;font-weight:700;color:#6b7280;letter-spacing:.04em}.pc-gr .g{min-width:22px;font-size:12px;padding:1px 2px}
+/* League > Cap room: expanded team cap breakdown */
+.tbl[data-id=capx]>tbody>tr:not(.dt){cursor:pointer}.tbl[data-id=capx]>tbody>tr.open>td{background:var(--hi)}
+.tbl tr.cxrow>td{background:var(--card);padding:8px 2px 14px;font-size:13px;border-bottom:2px solid var(--blue)}
+.capx{margin-top:4px;min-width:0}.capx .kpis{gap:6px}.capx .kpi{padding:8px}.capx .kpi .v{font-size:16px}.capx .kpi .l{font-size:11px}
+.capx .tbl{font-size:12px}.capx .tbl th{position:static}
+.capps{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;margin-top:6px}.capps i{color:var(--mut);font-style:normal}.capps em{color:var(--mut)}
