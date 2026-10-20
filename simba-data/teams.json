@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-19T17:01:47Z",
-  "parsed_at": "2026-10-19T17:02:01Z"
+  "crawled_at": "2026-10-20T14:53:36Z",
+  "parsed_at": "2026-10-20T14:53:44Z"
  },
  "teams": [
   {
@@ -16,8 +16,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 3254040,
-   "cap_room": 46245960,
+   "team_salary": 15742928,
+   "cap_room": 33757072,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -110,6 +110,88 @@
      },
      "salary_total": 1365364,
      "profile_url": "https://simba.mygamesonline.org/players/player553.htm"
+    },
+    {
+     "player_id": 517,
+     "name": "Jason Richardson",
+     "pos": "SG",
+     "age": 25,
+     "height": "6'6''",
+     "height_in": 78,
+     "weight": 225,
+     "ratings": {
+      "in": "B",
+      "out": "B-",
+      "hn": "C",
+      "df": "C",
+      "reb": "C-",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 8888888,
+      "year_2": 9999999,
+      "year_3": 11111111,
+      "year_4": 12222222,
+      "year_5": 13333333,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 55555553,
+     "profile_url": "https://simba.mygamesonline.org/players/player517.htm"
+    },
+    {
+     "player_id": 190,
+     "name": "Speedy Claxton",
+     "pos": "PG",
+     "age": 27,
+     "height": "5'11''",
+     "height_in": 71,
+     "weight": 170,
+     "ratings": {
+      "in": "C+",
+      "out": "C",
+      "hn": "B",
+      "df": "B+",
+      "reb": "D+",
+      "pot": "D"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 3600000,
+      "year_2": 0,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 3600000,
+     "profile_url": "https://simba.mygamesonline.org/players/player190.htm"
     }
    ],
    "cut_players": [],
@@ -295,8 +377,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 10868066,
-   "cap_room": 38631934,
+   "team_salary": 11729426,
+   "cap_room": 37770574,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -389,6 +471,47 @@
      },
      "salary_total": 4020124,
      "profile_url": "https://simba.mygamesonline.org/players/player465.htm"
+    },
+    {
+     "player_id": 391,
+     "name": "David Lee",
+     "pos": "PF",
+     "age": 22,
+     "height": "6'9''",
+     "height_in": 81,
+     "weight": 249,
+     "ratings": {
+      "in": "C+",
+      "out": "C-",
+      "hn": "C-",
+      "df": "C",
+      "reb": "B-",
+      "pot": "B"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 861360,
+      "year_2": 926040,
+      "year_3": 2,
+      "year_4": 2,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 1787404,
+     "profile_url": "https://simba.mygamesonline.org/players/player391.htm"
     },
     {
      "player_id": 285,
@@ -615,8 +738,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 24520067,
-   "cap_room": 24979933,
+   "team_salary": 28520067,
+   "cap_room": 20979933,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -628,6 +751,47 @@
     "field_goal_pct": 0.0
    },
    "players": [
+    {
+     "player_id": 475,
+     "name": "Zaza Pachulia",
+     "pos": "C",
+     "age": 21,
+     "height": "6'11''",
+     "height_in": 83,
+     "weight": 265,
+     "ratings": {
+      "in": "C",
+      "out": "C-",
+      "hn": "D+",
+      "df": "C+",
+      "reb": "B",
+      "pot": "B"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 4000000,
+      "year_2": 4000000,
+      "year_3": 4000000,
+      "year_4": 4000000,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 16000000,
+     "profile_url": "https://simba.mygamesonline.org/players/player475.htm"
+    },
     {
      "player_id": 511,
      "name": "Zach Randolph",
@@ -935,8 +1099,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 17303116,
-   "cap_room": 32196884,
+   "team_salary": 18313156,
+   "cap_room": 31186844,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -1070,6 +1234,47 @@
      },
      "salary_total": 1297084,
      "profile_url": "https://simba.mygamesonline.org/players/player550.htm"
+    },
+    {
+     "player_id": 624,
+     "name": "Delonte West",
+     "pos": "PG",
+     "age": 22,
+     "height": "6'4''",
+     "height_in": 76,
+     "weight": 180,
+     "ratings": {
+      "in": "C",
+      "out": "B",
+      "hn": "C",
+      "df": "B-",
+      "reb": "D+",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 1010040,
+      "year_2": 2,
+      "year_3": 2,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 1010044,
+     "profile_url": "https://simba.mygamesonline.org/players/player624.htm"
     }
    ],
    "cut_players": [],
@@ -1255,8 +1460,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 25803040,
-   "cap_room": 23696960,
+   "team_salary": 26800784,
+   "cap_room": 22699216,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -1349,6 +1554,47 @@
      },
      "salary_total": 77000001,
      "profile_url": "https://simba.mygamesonline.org/players/player265.htm"
+    },
+    {
+     "player_id": 118,
+     "name": "Matt Barnes",
+     "pos": "SF",
+     "age": 25,
+     "height": "6'7''",
+     "height_in": 79,
+     "weight": 225,
+     "ratings": {
+      "in": "C+",
+      "out": "C+",
+      "hn": "C-",
+      "df": "B+",
+      "reb": "C",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 997744,
+      "year_2": 0,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 997744,
+     "profile_url": "https://simba.mygamesonline.org/players/player118.htm"
     },
     {
      "player_id": 250,
@@ -1895,8 +2141,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 22688937,
-   "cap_room": 26811063,
+   "team_salary": 24452052,
+   "cap_room": 25047948,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -1948,6 +2194,47 @@
      },
      "salary_total": 1560000,
      "profile_url": "https://simba.mygamesonline.org/players/player506.htm"
+    },
+    {
+     "player_id": 504,
+     "name": "Tayshaun Prince",
+     "pos": "SF",
+     "age": 25,
+     "height": "6'9''",
+     "height_in": 81,
+     "weight": 215,
+     "ratings": {
+      "in": "C+",
+      "out": "B-",
+      "hn": "C",
+      "df": "B",
+      "reb": "C",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 1763115,
+      "year_2": 0,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 1763115,
+     "profile_url": "https://simba.mygamesonline.org/players/player504.htm"
     },
     {
      "player_id": 271,
@@ -2215,8 +2502,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 18576300,
-   "cap_room": 30923700,
+   "team_salary": 20426300,
+   "cap_room": 29073700,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -2268,6 +2555,47 @@
      },
      "salary_total": 68675000,
      "profile_url": "https://simba.mygamesonline.org/players/player267.htm"
+    },
+    {
+     "player_id": 220,
+     "name": "DeSagana Diop",
+     "pos": "C",
+     "age": 24,
+     "height": "7'0''",
+     "height_in": 84,
+     "weight": 280,
+     "ratings": {
+      "in": "C",
+      "out": "C-",
+      "hn": "D-",
+      "df": "B",
+      "reb": "B",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 1850000,
+      "year_2": 1998000,
+      "year_3": 2,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 3848002,
+     "profile_url": "https://simba.mygamesonline.org/players/player220.htm"
     },
     {
      "player_id": 594,
@@ -3175,8 +3503,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 32142846,
-   "cap_room": 17357154,
+   "team_salary": 39642846,
+   "cap_room": 9857154,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -3228,6 +3556,47 @@
      },
      "salary_total": 51194384,
      "profile_url": "https://simba.mygamesonline.org/players/player464.htm"
+    },
+    {
+     "player_id": 563,
+     "name": "Peja Stojakovic",
+     "pos": "SF",
+     "age": 28,
+     "height": "6'10''",
+     "height_in": 82,
+     "weight": 229,
+     "ratings": {
+      "in": "C+",
+      "out": "B+",
+      "hn": "C-",
+      "df": "C",
+      "reb": "C-",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 7500000,
+      "year_2": 1,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 7500001,
+     "profile_url": "https://simba.mygamesonline.org/players/player563.htm"
     },
     {
      "player_id": 424,
@@ -3815,8 +4184,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 16889280,
-   "cap_room": 32610720,
+   "team_salary": 22282580,
+   "cap_room": 27217420,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -3868,6 +4237,47 @@
      },
      "salary_total": 1857364,
      "profile_url": "https://simba.mygamesonline.org/players/player134.htm"
+    },
+    {
+     "player_id": 422,
+     "name": "Antonio McDyess",
+     "pos": "PF",
+     "age": 31,
+     "height": "6'9''",
+     "height_in": 81,
+     "weight": 245,
+     "ratings": {
+      "in": "C+",
+      "out": "C-",
+      "hn": "D+",
+      "df": "B-",
+      "reb": "B",
+      "pot": "D"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 5393300,
+      "year_2": 5883600,
+      "year_3": 6373900,
+      "year_4": 2,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 17650802,
+     "profile_url": "https://simba.mygamesonline.org/players/player422.htm"
     },
     {
      "player_id": 606,
@@ -4135,8 +4545,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 25436972,
-   "cap_room": 24063028,
+   "team_salary": 26880123,
+   "cap_room": 22619877,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -4148,6 +4558,47 @@
     "field_goal_pct": 0.0
    },
    "players": [
+    {
+     "player_id": 600,
+     "name": "Anderson Varejao",
+     "pos": "C",
+     "age": 23,
+     "height": "6'10''",
+     "height_in": 82,
+     "weight": 240,
+     "ratings": {
+      "in": "C",
+      "out": "C-",
+      "hn": "D+",
+      "df": "B-",
+      "reb": "B",
+      "pot": "B"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 890082,
+      "year_2": 1047632,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 1937714,
+     "profile_url": "https://simba.mygamesonline.org/players/player600.htm"
+    },
     {
      "player_id": 144,
      "name": "Carlos Boozer",
@@ -4229,6 +4680,47 @@
      },
      "salary_total": 28944782,
      "profile_url": "https://simba.mygamesonline.org/players/player491.htm"
+    },
+    {
+     "player_id": 638,
+     "name": "Lou Williams",
+     "pos": "PG",
+     "age": 19,
+     "height": "6'1''",
+     "height_in": 73,
+     "weight": 175,
+     "ratings": {
+      "in": "C+",
+      "out": "C+",
+      "hn": "C",
+      "df": "C",
+      "reb": "D",
+      "pot": "B"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 553069,
+      "year_2": 934586,
+      "year_3": 2,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 1487657,
+     "profile_url": "https://simba.mygamesonline.org/players/player638.htm"
     }
    ],
    "cut_players": [],
@@ -4414,8 +4906,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 7994480,
-   "cap_room": 41505520,
+   "team_salary": 8964080,
+   "cap_room": 40535920,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -4549,6 +5041,47 @@
      },
      "salary_total": 2058004,
      "profile_url": "https://simba.mygamesonline.org/players/player334.htm"
+    },
+    {
+     "player_id": 93,
+     "name": "Tony Allen",
+     "pos": "SG",
+     "age": 24,
+     "height": "6'4''",
+     "height_in": 76,
+     "weight": 213,
+     "ratings": {
+      "in": "C+",
+      "out": "C",
+      "hn": "C-",
+      "df": "A-",
+      "reb": "C",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 969600,
+      "year_2": 2,
+      "year_3": 2,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 969604,
+     "profile_url": "https://simba.mygamesonline.org/players/player93.htm"
     }
    ],
    "cut_players": [],
@@ -4734,8 +5267,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 30786167,
-   "cap_room": 18713833,
+   "team_salary": 39526167,
+   "cap_room": 9973833,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -4747,6 +5280,47 @@
     "field_goal_pct": 0.0
    },
    "players": [
+    {
+     "player_id": 335,
+     "name": "Zydrunas Ilgauskas",
+     "pos": "C",
+     "age": 30,
+     "height": "7'3''",
+     "height_in": 87,
+     "weight": 260,
+     "ratings": {
+      "in": "B-",
+      "out": "C-",
+      "hn": "D",
+      "df": "B",
+      "reb": "B",
+      "pot": "D"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 8740000,
+      "year_2": 9442697,
+      "year_3": 10142156,
+      "year_4": 10841615,
+      "year_5": 11541074,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 50707542,
+     "profile_url": "https://simba.mygamesonline.org/players/player335.htm"
+    },
     {
      "player_id": 152,
      "name": "Elton Brand",
@@ -5054,8 +5628,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 33484505,
-   "cap_room": 16015495,
+   "team_salary": 36984505,
+   "cap_room": 12515495,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -5067,6 +5641,47 @@
     "field_goal_pct": 0.0
    },
    "players": [
+    {
+     "player_id": 96,
+     "name": "Chris Andersen",
+     "pos": "C",
+     "age": 27,
+     "height": "6'10''",
+     "height_in": 82,
+     "weight": 228,
+     "ratings": {
+      "in": "C+",
+      "out": "C-",
+      "hn": "D",
+      "df": "B+",
+      "reb": "B-",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 3500000,
+      "year_2": 3500000,
+      "year_3": 3500000,
+      "year_4": 3500000,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 14000000,
+     "profile_url": "https://simba.mygamesonline.org/players/player96.htm"
+    },
     {
      "player_id": 411,
      "name": "Kenyon Martin",
@@ -5374,8 +5989,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 33843156,
-   "cap_room": 15656844,
+   "team_salary": 38021916,
+   "cap_room": 11478084,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -5429,6 +6044,47 @@
      "profile_url": "https://simba.mygamesonline.org/players/player470.htm"
     },
     {
+     "player_id": 324,
+     "name": "Josh Howard",
+     "pos": "SF",
+     "age": 25,
+     "height": "6'7''",
+     "height_in": 79,
+     "weight": 210,
+     "ratings": {
+      "in": "B-",
+      "out": "B-",
+      "hn": "C-",
+      "df": "C+",
+      "reb": "C",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 923880,
+      "year_2": 2,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 923882,
+     "profile_url": "https://simba.mygamesonline.org/players/player324.htm"
+    },
+    {
      "player_id": 182,
      "name": "Vince Carter",
      "pos": "SG",
@@ -5468,6 +6124,47 @@
      },
      "salary_total": 28944782,
      "profile_url": "https://simba.mygamesonline.org/players/player182.htm"
+    },
+    {
+     "player_id": 395,
+     "name": "Shaun Livingston",
+     "pos": "PG",
+     "age": 20,
+     "height": "6'7''",
+     "height_in": 79,
+     "weight": 182,
+     "ratings": {
+      "in": "C",
+      "out": "C-",
+      "hn": "C+",
+      "df": "B-",
+      "reb": "C-",
+      "pot": "B"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 3254880,
+      "year_2": 2,
+      "year_3": 2,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 3254884,
+     "profile_url": "https://simba.mygamesonline.org/players/player395.htm"
     }
    ],
    "cut_players": [],
@@ -5653,8 +6350,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 27200000,
-   "cap_room": 22300000,
+   "team_salary": 29661617,
+   "cap_room": 19838383,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -5747,6 +6444,47 @@
      },
      "salary_total": 54252001,
      "profile_url": "https://simba.mygamesonline.org/players/player469.htm"
+    },
+    {
+     "player_id": 169,
+     "name": "Caron Butler",
+     "pos": "SF",
+     "age": 25,
+     "height": "6'7''",
+     "height_in": 79,
+     "weight": 228,
+     "ratings": {
+      "in": "B-",
+      "out": "B-",
+      "hn": "C",
+      "df": "C+",
+      "reb": "C",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 2461617,
+      "year_2": 0,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 2461617,
+     "profile_url": "https://simba.mygamesonline.org/players/player169.htm"
     },
     {
      "player_id": 640,
@@ -5973,8 +6711,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 11507785,
-   "cap_room": 37992215,
+   "team_salary": 12714772,
+   "cap_room": 36785228,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -6098,16 +6836,57 @@
       "three_p_pct": 0.0
      },
      "salary": {
-      "year_1": 448762,
-      "year_2": 664209,
-      "year_3": 770610,
+      "year_1": 553069,
+      "year_2": 934586,
+      "year_3": 1097518,
       "year_4": 0,
       "year_5": 0,
       "year_6": 0,
       "year_7": 0
      },
-     "salary_total": 1883581,
+     "salary_total": 2585173,
      "profile_url": "https://simba.mygamesonline.org/players/player234.htm"
+    },
+    {
+     "player_id": 524,
+     "name": "Nate Robinson",
+     "pos": "PG",
+     "age": 21,
+     "height": "5'9''",
+     "height_in": 69,
+     "weight": 180,
+     "ratings": {
+      "in": "B-",
+      "out": "C+",
+      "hn": "C+",
+      "df": "C",
+      "reb": "D+",
+      "pot": "B"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 1102680,
+      "year_2": 1185480,
+      "year_3": 2,
+      "year_4": 2,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 2288164,
+     "profile_url": "https://simba.mygamesonline.org/players/player524.htm"
     }
    ],
    "cut_players": [],
@@ -6293,8 +7072,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 23282105,
-   "cap_room": 26217895,
+   "team_salary": 32986165,
+   "cap_room": 16513835,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -6306,6 +7085,47 @@
     "field_goal_pct": 0.0
    },
    "players": [
+    {
+     "player_id": 446,
+     "name": "Alonzo Mourning",
+     "pos": "C",
+     "age": 35,
+     "height": "6'10''",
+     "height_in": 82,
+     "weight": 261,
+     "ratings": {
+      "in": "B-",
+      "out": "C-",
+      "hn": "D-",
+      "df": "A-",
+      "reb": "B-",
+      "pot": "D"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 1579060,
+      "year_2": 0,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 1579060,
+     "profile_url": "https://simba.mygamesonline.org/players/player446.htm"
+    },
     {
      "player_id": 109,
      "name": "Ron Artest",
@@ -6346,6 +7166,47 @@
      },
      "salary_total": 22578948,
      "profile_url": "https://simba.mygamesonline.org/players/player109.htm"
+    },
+    {
+     "player_id": 295,
+     "name": "Richard Hamilton",
+     "pos": "SG",
+     "age": 27,
+     "height": "6'7''",
+     "height_in": 79,
+     "weight": 193,
+     "ratings": {
+      "in": "B-",
+      "out": "B",
+      "hn": "C",
+      "df": "C+",
+      "reb": "C-",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 8125000,
+      "year_2": 8937500,
+      "year_3": 9750000,
+      "year_4": 10562500,
+      "year_5": 1,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 37375001,
+     "profile_url": "https://simba.mygamesonline.org/players/player295.htm"
     },
     {
      "player_id": 377,
@@ -6572,8 +7433,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 7958640,
-   "cap_room": 41541360,
+   "team_salary": 9869160,
+   "cap_room": 39630840,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -6707,6 +7568,47 @@
      },
      "salary_total": 2443924,
      "profile_url": "https://simba.mygamesonline.org/players/player213.htm"
+    },
+    {
+     "player_id": 492,
+     "name": "Mickael Pietrus",
+     "pos": "SF",
+     "age": 23,
+     "height": "6'6''",
+     "height_in": 78,
+     "weight": 215,
+     "ratings": {
+      "in": "C+",
+      "out": "B-",
+      "hn": "D+",
+      "df": "B",
+      "reb": "C-",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 1910520,
+      "year_2": 2,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 1910522,
+     "profile_url": "https://simba.mygamesonline.org/players/player492.htm"
     }
    ],
    "cut_players": [],
@@ -6892,8 +7794,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 15666320,
-   "cap_room": 33833680,
+   "team_salary": 19732131,
+   "cap_room": 29767869,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -6945,6 +7847,47 @@
      },
      "salary_total": 48980000,
      "profile_url": "https://simba.mygamesonline.org/players/player613.htm"
+    },
+    {
+     "player_id": 277,
+     "name": "Drew Gooden",
+     "pos": "PF",
+     "age": 24,
+     "height": "6'9''",
+     "height_in": 81,
+     "weight": 250,
+     "ratings": {
+      "in": "C+",
+      "out": "C",
+      "hn": "D+",
+      "df": "C+",
+      "reb": "B+",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 4065811,
+      "year_2": 0,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 4065811,
+     "profile_url": "https://simba.mygamesonline.org/players/player277.htm"
     },
     {
      "player_id": 282,
@@ -7212,8 +8155,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 7708200,
-   "cap_room": 41791800,
+   "team_salary": 14665700,
+   "cap_room": 34834300,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -7306,6 +8249,47 @@
      },
      "salary_total": 3348002,
      "profile_url": "https://simba.mygamesonline.org/players/player146.htm"
+    },
+    {
+     "player_id": 300,
+     "name": "Al Harrington",
+     "pos": "PF",
+     "age": 25,
+     "height": "6'9''",
+     "height_in": 81,
+     "weight": 245,
+     "ratings": {
+      "in": "B-",
+      "out": "B",
+      "hn": "C-",
+      "df": "C",
+      "reb": "C",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 6957500,
+      "year_2": 0,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 6957500,
+     "profile_url": "https://simba.mygamesonline.org/players/player300.htm"
     },
     {
      "player_id": 243,
@@ -7532,8 +8516,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 39298281,
-   "cap_room": 10201719,
+   "team_salary": 48048281,
+   "cap_room": 1451719,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -7545,6 +8529,47 @@
     "field_goal_pct": 0.0
    },
    "players": [
+    {
+     "player_id": 435,
+     "name": "Brad Miller",
+     "pos": "C",
+     "age": 29,
+     "height": "7'0''",
+     "height_in": 84,
+     "weight": 261,
+     "ratings": {
+      "in": "C+",
+      "out": "C+",
+      "hn": "C",
+      "df": "B",
+      "reb": "C+",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 8750000,
+      "year_2": 9625000,
+      "year_3": 10500000,
+      "year_4": 11375000,
+      "year_5": 12250000,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 52500000,
+     "profile_url": "https://simba.mygamesonline.org/players/player435.htm"
+    },
     {
      "player_id": 226,
      "name": "Tim Duncan",
@@ -7852,8 +8877,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 15418669,
-   "cap_room": 34081331,
+   "team_salary": 19418669,
+   "cap_room": 30081331,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -7865,6 +8890,47 @@
     "field_goal_pct": 0.0
    },
    "players": [
+    {
+     "player_id": 312,
+     "name": "Brendan Haywood",
+     "pos": "C",
+     "age": 26,
+     "height": "7'0''",
+     "height_in": 84,
+     "weight": 263,
+     "ratings": {
+      "in": "C+",
+      "out": "C-",
+      "hn": "D-",
+      "df": "B",
+      "reb": "B",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 4000000,
+      "year_2": 4500000,
+      "year_3": 5000000,
+      "year_4": 5500000,
+      "year_5": 6000000,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 25000000,
+     "profile_url": "https://simba.mygamesonline.org/players/player312.htm"
+    },
     {
      "player_id": 393,
      "name": "Rashard Lewis",
@@ -8492,8 +9558,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 30950000,
-   "cap_room": 18550000,
+   "team_salary": 44793156,
+   "cap_room": 4706844,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -8545,6 +9611,47 @@
      },
      "salary_total": 48850000,
      "profile_url": "https://simba.mygamesonline.org/players/player176.htm"
+    },
+    {
+     "player_id": 351,
+     "name": "Antawn Jamison",
+     "pos": "PF",
+     "age": 29,
+     "height": "6'9''",
+     "height_in": 81,
+     "weight": 235,
+     "ratings": {
+      "in": "B-",
+      "out": "B-",
+      "hn": "C-",
+      "df": "C",
+      "reb": "C+",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 13843156,
+      "year_2": 15101625,
+      "year_3": 16360094,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 45304875,
+     "profile_url": "https://simba.mygamesonline.org/players/player351.htm"
     },
     {
      "player_id": 406,
@@ -8812,8 +9919,8 @@
     "w": 0,
     "l": 0
    },
-   "team_salary": 21639889,
-   "cap_room": 27860111,
+   "team_salary": 22192958,
+   "cap_room": 27307042,
    "yearly_stats": {
     "points_per_game": 0.0,
     "steals_per_game": 0.0,
@@ -8865,6 +9972,47 @@
      },
      "salary_total": 3039889,
      "profile_url": "https://simba.mygamesonline.org/players/player316.htm"
+    },
+    {
+     "player_id": 337,
+     "name": "Ersan Ilyasova",
+     "pos": "PF",
+     "age": 18,
+     "height": "6'9''",
+     "height_in": 81,
+     "weight": 235,
+     "ratings": {
+      "in": "C",
+      "out": "B-",
+      "hn": "D",
+      "df": "C",
+      "reb": "C+",
+      "pot": "B"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "tpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0
+     },
+     "salary": {
+      "year_1": 553069,
+      "year_2": 934586,
+      "year_3": 0,
+      "year_4": 0,
+      "year_5": 0,
+      "year_6": 0,
+      "year_7": 0
+     },
+     "salary_total": 1487655,
+     "profile_url": "https://simba.mygamesonline.org/players/player337.htm"
     },
     {
      "player_id": 355,

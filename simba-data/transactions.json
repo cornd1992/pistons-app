@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-19T17:01:47Z",
-  "parsed_at": "2026-10-19T17:02:01Z"
+  "crawled_at": "2026-10-20T14:53:36Z",
+  "parsed_at": "2026-10-20T14:53:44Z"
  },
  "transactions": [
   {
@@ -917,6 +917,314 @@
    "player_name": "Andre Miller",
    "pick": 25,
    "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Rockets",
+   "action": "Draft SF Josh Howard with pick #26 of round 3.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Josh Howard",
+   "pick": 26,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Jazz",
+   "action": "Draft SG Richard Hamilton with pick #27 of round 3.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Richard Hamilton",
+   "pick": 27,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bucks",
+   "action": "Draft PG Lou Williams with pick #28 of round 3.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Lou Williams",
+   "pick": 28,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Celtics",
+   "action": "Draft SG Jason Richardson with pick #29 of round 3.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Jason Richardson",
+   "pick": 29,
+   "round": 3
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Celtics",
+   "action": "Draft PG Speedy Claxton with pick #1 of round 4.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Speedy Claxton",
+   "pick": 1,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bucks",
+   "action": "Draft C Anderson Varejao with pick #2 of round 4.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Anderson Varejao",
+   "pick": 2,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Jazz",
+   "action": "Draft C Alonzo Mourning with pick #3 of round 4.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Alonzo Mourning",
+   "pick": 3,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Rockets",
+   "action": "Draft PG Shaun Livingston with pick #4 of round 4.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Shaun Livingston",
+   "pick": 4,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Kings",
+   "action": "Draft PF Antawn Jamison with pick #5 of round 4.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Antawn Jamison",
+   "pick": 5,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Mavericks",
+   "action": "Draft C Zydrunas Ilgauskas with pick #6 of round 4.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Zydrunas Ilgauskas",
+   "pick": 6,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nuggets",
+   "action": "Draft C Chris Andersen with pick #7 of round 4.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Chris Andersen",
+   "pick": 7,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hawks",
+   "action": "Draft C DeSagana Diop with pick #8 of round 4.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "DeSagana Diop",
+   "pick": 8,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Timberwolves",
+   "action": "Draft SF Caron Butler with pick #9 of round 4.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Caron Butler",
+   "pick": 9,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Raptors",
+   "action": "Draft SG Tony Allen with pick #10 of round 4.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Tony Allen",
+   "pick": 10,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "SuperSonics",
+   "action": "Draft PF Ersan Ilyasova with pick #11 of round 4.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Ersan Ilyasova",
+   "pick": 11,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Wizards",
+   "action": "Draft SF Tayshaun Prince with pick #12 of round 4.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Tayshaun Prince",
+   "pick": 12,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Grizzlies",
+   "action": "Draft SF Mickael Pietrus with pick #13 of round 4.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Mickael Pietrus",
+   "pick": 13,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Heat",
+   "action": "Draft PF David Lee with pick #14 of round 4.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "David Lee",
+   "pick": 14,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Suns",
+   "action": "Draft C Brendan Haywood with pick #15 of round 4.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Brendan Haywood",
+   "pick": 15,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Clippers",
+   "action": "Draft PF Al Harrington with pick #16 of round 4.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Al Harrington",
+   "pick": 16,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Lakers",
+   "action": "Draft C Brad Miller with pick #17 of round 4.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Brad Miller",
+   "pick": 17,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nets",
+   "action": "Draft C Zaza Pachulia with pick #18 of round 4.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Zaza Pachulia",
+   "pick": 18,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Cavaliers",
+   "action": "Draft SF Peja Stojakovic with pick #19 of round 4.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Peja Stojakovic",
+   "pick": 19,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Knicks",
+   "action": "Draft PG Delonte West with pick #20 of round 4.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Delonte West",
+   "pick": 20,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Magic",
+   "action": "Draft SF Matt Barnes with pick #21 of round 4.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Matt Barnes",
+   "pick": 21,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Warriors",
+   "action": "Draft PF Drew Gooden with pick #22 of round 4.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Drew Gooden",
+   "pick": 22,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Spurs",
+   "action": "Draft PG Nate Robinson with pick #23 of round 4.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Nate Robinson",
+   "pick": 23,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pacers",
+   "action": "Draft PF Antonio McDyess with pick #24 of round 4.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Antonio McDyess",
+   "pick": 24,
+   "round": 4
   }
  ]
 }

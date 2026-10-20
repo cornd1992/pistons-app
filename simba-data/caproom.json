@@ -1,21 +1,21 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-19T17:01:47Z",
-  "parsed_at": "2026-10-19T17:02:01Z"
+  "crawled_at": "2026-10-20T14:53:36Z",
+  "parsed_at": "2026-10-20T14:53:44Z"
  },
  "teams": [
   {
    "team": "Boston Celtics",
    "team_id": 1,
-   "cap_room": 46245960,
-   "team_salary": 3254040,
+   "cap_room": 33757072,
+   "team_salary": 15742928,
    "committed_by_year": [
-    3254040,
-    2030282,
-    4,
-    2,
-    0,
+    15742928,
+    12030281,
+    11111115,
+    12222224,
+    13333333,
     0,
     0
    ]
@@ -23,13 +23,13 @@
   {
    "team": "Miami Heat",
    "team_id": 2,
-   "cap_room": 38631934,
-   "team_salary": 10868066,
+   "cap_room": 37770574,
+   "team_salary": 11729426,
    "committed_by_year": [
-    10868066,
-    1347002,
+    11729426,
+    2273042,
+    6,
     4,
-    2,
     0,
     0,
     0
@@ -38,13 +38,13 @@
   {
    "team": "New Jersey Nets",
    "team_id": 3,
-   "cap_room": 24979933,
-   "team_salary": 24520067,
+   "cap_room": 20979933,
+   "team_salary": 28520067,
    "committed_by_year": [
-    24520067,
-    23096802,
-    25283735,
-    14666668,
+    28520067,
+    27096802,
+    29283735,
+    18666668,
     16000000,
     0,
     0
@@ -53,12 +53,12 @@
   {
    "team": "New York Knicks",
    "team_id": 4,
-   "cap_room": 32196884,
-   "team_salary": 17303116,
+   "cap_room": 31186844,
+   "team_salary": 18313156,
    "committed_by_year": [
-    17303116,
-    17426627,
-    5,
+    18313156,
+    17426629,
+    7,
     2,
     0,
     0,
@@ -68,10 +68,10 @@
   {
    "team": "Orlando Magic",
    "team_id": 5,
-   "cap_room": 23696960,
-   "team_salary": 25803040,
+   "cap_room": 22699216,
+   "team_salary": 26800784,
    "committed_by_year": [
-    25803040,
+    26800784,
     18000002,
     21000000,
     22000000,
@@ -98,10 +98,10 @@
   {
    "team": "Washington Wizards",
    "team_id": 7,
-   "cap_room": 26811063,
-   "team_salary": 22688937,
+   "cap_room": 25047948,
+   "team_salary": 24452052,
    "committed_by_year": [
-    22688937,
+    24452052,
     23324375,
     25519813,
     9905251,
@@ -113,12 +113,12 @@
   {
    "team": "Atlanta Hawks",
    "team_id": 8,
-   "cap_room": 30923700,
-   "team_salary": 18576300,
+   "cap_room": 29073700,
+   "team_salary": 20426300,
    "committed_by_year": [
-    18576300,
-    20580934,
-    22580504,
+    20426300,
+    22578934,
+    22580506,
     21970200,
     16477001,
     0,
@@ -158,11 +158,11 @@
   {
    "team": "Cleveland Cavaliers",
    "team_id": 11,
-   "cap_room": 17357154,
-   "team_salary": 32142846,
+   "cap_room": 9857154,
+   "team_salary": 39642846,
    "committed_by_year": [
-    32142846,
-    34650096,
+    39642846,
+    34650097,
     38062783,
     40719033,
     29839562,
@@ -188,13 +188,13 @@
   {
    "team": "Indiana Pacers",
    "team_id": 13,
-   "cap_room": 32610720,
-   "team_salary": 16889280,
+   "cap_room": 27217420,
+   "team_salary": 22282580,
    "committed_by_year": [
-    16889280,
-    13260004,
-    14520002,
-    15780000,
+    22282580,
+    19143604,
+    20893902,
+    15780002,
     17040000,
     0,
     0
@@ -203,12 +203,12 @@
   {
    "team": "Milwaukee Bucks",
    "team_id": 14,
-   "cap_room": 24063028,
-   "team_salary": 25436972,
+   "cap_room": 22619877,
+   "team_salary": 26880123,
    "committed_by_year": [
-    25436972,
-    26362108,
-    11260484,
+    26880123,
+    28344326,
+    11260486,
     11593817,
     1,
     0,
@@ -218,12 +218,12 @@
   {
    "team": "Toronto Raptors",
    "team_id": 15,
-   "cap_room": 41505520,
-   "team_salary": 7994480,
+   "cap_room": 40535920,
+   "team_salary": 8964080,
    "committed_by_year": [
-    7994480,
-    5525004,
-    2,
+    8964080,
+    5525006,
+    4,
     0,
     0,
     0,
@@ -233,14 +233,14 @@
   {
    "team": "Dallas Mavericks",
    "team_id": 16,
-   "cap_room": 18713833,
-   "team_salary": 30786167,
+   "cap_room": 9973833,
+   "team_salary": 39526167,
    "committed_by_year": [
-    30786167,
-    26586438,
-    29053375,
-    15080314,
-    16451250,
+    39526167,
+    36029135,
+    39195531,
+    25921929,
+    27992324,
     0,
     0
    ]
@@ -248,13 +248,13 @@
   {
    "team": "Denver Nuggets",
    "team_id": 17,
-   "cap_room": 16015495,
-   "team_salary": 33484505,
+   "cap_room": 12515495,
+   "team_salary": 36984505,
    "committed_by_year": [
-    33484505,
-    36929752,
-    40375000,
-    43820248,
+    36984505,
+    40429752,
+    43875000,
+    47320248,
     34140497,
     0,
     0
@@ -263,12 +263,12 @@
   {
    "team": "Houston Rockets",
    "team_id": 18,
-   "cap_room": 15656844,
-   "team_salary": 33843156,
+   "cap_room": 11478084,
+   "team_salary": 38021916,
    "committed_by_year": [
-    33843156,
-    35101625,
-    20000001,
+    38021916,
+    35101629,
+    20000003,
     20000000,
     20000000,
     0,
@@ -278,10 +278,10 @@
   {
    "team": "Minnesota Timberwolves",
    "team_id": 19,
-   "cap_room": 22300000,
-   "team_salary": 27200000,
+   "cap_room": 19838383,
+   "team_salary": 29661617,
    "committed_by_year": [
-    27200000,
+    29661617,
     29154000,
     29978000,
     11350001,
@@ -293,13 +293,13 @@
   {
    "team": "San Antonio Spurs",
    "team_id": 20,
-   "cap_room": 37992215,
-   "team_salary": 11507785,
+   "cap_room": 36785228,
+   "team_salary": 12714772,
    "committed_by_year": [
-    11507785,
-    10128516,
-    11020610,
-    11238564,
+    12714772,
+    11584373,
+    11347520,
+    11238566,
     12025694,
     0,
     0
@@ -308,14 +308,14 @@
   {
    "team": "Utah Jazz",
    "team_id": 21,
-   "cap_room": 26217895,
-   "team_salary": 23282105,
+   "cap_room": 16513835,
+   "team_salary": 32986165,
    "committed_by_year": [
-    23282105,
-    25610316,
-    27938526,
-    21372001,
-    0,
+    32986165,
+    34547816,
+    37688526,
+    31934501,
+    1,
     0,
     0
    ]
@@ -323,11 +323,11 @@
   {
    "team": "Memphis Grizzlies",
    "team_id": 22,
-   "cap_room": 41541360,
-   "team_salary": 7958640,
+   "cap_room": 39630840,
+   "team_salary": 9869160,
    "committed_by_year": [
-    7958640,
-    4665964,
+    9869160,
+    4665966,
     4,
     2,
     0,
@@ -338,10 +338,10 @@
   {
    "team": "Golden State Warriors",
    "team_id": 23,
-   "cap_room": 33833680,
-   "team_salary": 15666320,
+   "cap_room": 29767869,
+   "team_salary": 19732131,
    "committed_by_year": [
-    15666320,
+    19732131,
     16816840,
     12540004,
     13930004,
@@ -353,10 +353,10 @@
   {
    "team": "Los Angeles Clippers",
    "team_id": 24,
-   "cap_room": 41791800,
-   "team_salary": 7708200,
+   "cap_room": 34834300,
+   "team_salary": 14665700,
    "committed_by_year": [
-    7708200,
+    14665700,
     3060844,
     4,
     2,
@@ -368,14 +368,14 @@
   {
    "team": "Los Angeles Lakers",
    "team_id": 25,
-   "cap_room": 10201719,
-   "team_salary": 39298281,
+   "cap_room": 1451719,
+   "team_salary": 48048281,
    "committed_by_year": [
-    39298281,
-    42710922,
-    46123563,
-    21937502,
-    0,
+    48048281,
+    52335922,
+    56623563,
+    33312502,
+    12250000,
     0,
     0
    ]
@@ -383,14 +383,14 @@
   {
    "team": "Phoenix Suns",
    "team_id": 26,
-   "cap_room": 34081331,
-   "team_salary": 15418669,
+   "cap_room": 30081331,
+   "team_salary": 19418669,
    "committed_by_year": [
-    15418669,
-    15715051,
-    4,
-    0,
-    0,
+    19418669,
+    20215051,
+    5000004,
+    5500000,
+    6000000,
     0,
     0
    ]
@@ -413,12 +413,12 @@
   {
    "team": "Sacramento Kings",
    "team_id": 28,
-   "cap_room": 18550000,
-   "team_salary": 30950000,
+   "cap_room": 4706844,
+   "team_salary": 44793156,
    "committed_by_year": [
-    30950000,
-    33603333,
-    36256666,
+    44793156,
+    48704958,
+    52616760,
     21433335,
     8350000,
     0,
@@ -428,11 +428,11 @@
   {
    "team": "Seattle SuperSonics",
    "team_id": 29,
-   "cap_room": 27860111,
-   "team_salary": 21639889,
+   "cap_room": 27307042,
+   "team_salary": 22192958,
    "committed_by_year": [
-    21639889,
-    20650000,
+    22192958,
+    21584586,
     22700000,
     24750000,
     26800000,
