@@ -26,6 +26,13 @@ function ratingsOf(p){ // normalise to {in:'B+',...}
   const r={};RK.forEach(k=>{if(p[k]!=null) r[k]=p[k];});return r;
 }
 function overall(r,pos){const w=PW[pos]||PW.SF;let s=0;for(const k in w) s+=w[k]*(gv(r[k])??50);return s;}
+// Display-only 2K-style OVR: rank of the raw overall among ALL league players, mapped piecewise-linearly onto
+// 2K-like anchors (rank 1 → 96, 10 → 88, 30 → 84, median → 73, 85th pct → 63, last → 50). Value/Fit/Now keep the raw overall.
+function ovr2k(raw){if(raw==null)return null;if(!B.ovrSorted)B.ovrSorted=B.players.map(p=>overall(ratingsOf(p),p.pos)).sort((a,b)=>b-a);
+  const s=B.ovrSorted,N=s.length;let lo=0,hi=N;while(lo<hi){const m=(lo+hi)>>1;if(s[m]>raw+1e-9)lo=m+1;else hi=m;}const rank=lo+1;
+  const A=[[1,96],[10,88],[30,84],[Math.round(N/2),73],[Math.round(N*0.85),63],[N,50]];
+  for(let i=1;i<A.length;i++)if(rank<=A[i][0]){const [r0,v0]=A[i-1],[r1,v1]=A[i];return Math.round(v0+(v1-v0)*(rank-r0)/Math.max(1,r1-r0));}return 50;}
+const OVR=(r,pos)=>ovr2k(overall(r,pos));
 function value(r,pos,age){const ov=overall(r,pos);return {ov,val:ov,ageAdj:0};} // creation-draft rule: Potential ignored; age enters only via real-career data (see draftScores)
 const scaleTo=(arr)=>{const s=[...arr].filter(v=>v!=null).sort((a,b)=>a-b);if(!s.length)return()=>null;const q=p=>s[Math.min(s.length-1,Math.floor(p*(s.length-1)))],lo=q(0.10),hi=q(0.98);return v=>v==null?null:Math.round(Math.max(0,Math.min(100,(v-lo)/((hi-lo)||1)*100))*10)/10;}; // 10th pct → 0, 98th pct → 100
 const pctRank=(arr)=>{const s=[...arr].filter(v=>v!=null).sort((a,b)=>a-b);return v=>{if(v==null||!s.length)return null;let lo=0,hi=s.length;while(lo<hi){const m=(lo+hi)>>1;if(s[m]<v)lo=m+1;else hi=m;}let eq=lo;while(eq<s.length&&s[eq]===v)eq++;return Math.round(((lo+eq)/2)/s.length*1000)/10;};};
@@ -176,7 +183,7 @@ function rosterCard(r){const p=B.pById.get(r.player_id)||{},x={...p,...r,name:pr
    <div class="pc-pos">${esc(POSFULL[x.pos]||x.pos||'')}<span> · ${esc(x.pos||'')}</span>${r.pending?`<span class="tag pick" title="Drafted R${r.pending.round} #${r.pending.pick}; not on the stats-site roster yet">NEW R${r.pending.round}#${r.pending.pick}</span>`:''}</div>
    <table class="pc-bio">${bio.map(([k,v])=>`<tr><th>${k}</th><td>${esc(v)}</td></tr>`).join('')}</table></div>
    <div class="pc-img" aria-hidden="true"><svg viewBox="0 0 60 70"><circle cx="30" cy="22" r="13"/><path d="M4 70c0-17 12-27 26-27s26 10 26 27z"/></svg><span>${esc(ini)}</span></div></div>
-   <div class="pc-rat"><div class="pc-ovr"><small>OVR</small><b>${f1(overall(x.ratings||ratingsOf(x),x.pos))}</b></div><div class="pc-gr">${RK.map(k=>`<div><small>${k==='pot'?'POT*':k.toUpperCase()}</small>${gradeCell((x.ratings||ratingsOf(x))[k])}</div>`).join('')}</div></div>
+   <div class="pc-rat"><div class="pc-ovr"><small>OVR</small><b>${OVR(x.ratings||ratingsOf(x),x.pos)}</b></div><div class="pc-gr">${RK.map(k=>`<div><small>${k==='pot'?'POT*':k.toUpperCase()}</small>${gradeCell((x.ratings||ratingsOf(x))[k])}</div>`).join('')}</div></div>
    <div class="pc-stats">${[['Season',season||'-'],['GP',gp>0?gp:'-'],['PPG',d(b.ppg)],['APG',d(b.apg)],['RPG',d(b.rpg)]].map(([k,v])=>`<div><small>${k}</small><b>${esc(v)}</b></div>`).join('')}</div></article>`;}
 const empty=(t,s)=>`<div class="empty"><b>${esc(t)}</b>${esc(s||'')}</div>`;
 const allZero=o=>!o||Object.values(o).every(v=>v==null||v===0||v===''||(typeof v==='string'&&/^[-.0]*$/.test(v)));
@@ -295,11 +302,11 @@ function vDraft(){
   h+=`<div class="card"><h2>Big board <span class="chip">${rows.length} players</span></h2><div class="controls">
     <input type="search" id="dq" placeholder="Search name" value="${esc(st.q)}">
     <select id="dpos">${['ALL',...POS].map(p=>`<option ${p===st.pos?'selected':''}>${p}</option>`).join('')}</select>
-    <select id="dsort">${[['fit','Pistons fit'],['val','Value'],['ov','Now (ratings)'],['real','Real 2005+'],['realSal','Real $'],['age','Age'],['height','Height'],...RK.map(k=>[k,RNAME[k]])].map(([k,l])=>`<option value="${k}" ${k===st.sort?'selected':''}>Sort: ${l}</option>`).join('')}</select>
+    <select id="dsort">${[['fit','Pistons fit'],['val','Value'],['ov','OVR / Now (ratings)'],['real','Real 2005+'],['realSal','Real $'],['age','Age'],['height','Height'],...RK.map(k=>[k,RNAME[k]])].map(([k,l])=>`<option value="${k}" ${k===st.sort?'selected':''}>Sort: ${l}</option>`).join('')}</select>
     <button class="ghost" id="dnear">${st.onlyNear?'✓ ':''}Hide likely gone</button><button class="ghost" id="dtaken">${st.showTaken?'✓ ':''}Show taken</button></div>`;
   const gg=r=>`<div class="gg">${RK.map(k=>`<span><small>${k==='pot'?'POT*':k.toUpperCase()}</small>${gradeCell(r.r[k])}</span>`).join('')}</div>`;
   h+=table([{k:'fitRank',l:'#',n:1,p:0,w:'5%',f:(v,r)=>r.taken?'—':v},{k:'name',l:'Player',p:0,w:'19%',f:(v,r)=>`<a href="#players/${r.player_id}">${esc(v)}</a>${r.taken?`<span class="tag pick">TAKEN R${r.taken.round}#${r.taken.pick} ${esc(r.taken.team.split(' ').pop())}</span>`:r.likelyGone?'':(r.fitRank<=10?'<span class="tag">TARGET</span>':'')}<div class="note small">${esc(r.pos)} · ${r.age??'—'} · ${esc(r.height??'—')}</div>`},
-     {k:'grades',l:'Grades',p:5,w:'25%',f:(v,r)=>gg(r)},{k:'ov',l:'Now',n:1,p:3,w:'8%',f:(v,r)=>`${f1(v)}<div class="note small">${f1(r.now)} pct</div>`},{k:'real',l:'Real',n:1,p:3,w:'9%',f:(v,r)=>r.noData?'<span class="tag pick" title="No Basketball Reference match — scored on ratings only">no data</span>':`${f1(v)}<div class="note small">${f1(r.rc.near_ws)} WS* · ${r.rc.seasons_2005_on} yrs</div>`},{k:'val',l:'Value',n:1,p:2,w:'7%',f:f1},{k:'fit',l:'Fit',n:1,p:0,w:'7%',f:(v,r)=>`<b>${f1(v)}</b>`},
+     {k:'grades',l:'Grades',p:5,w:'25%',f:(v,r)=>gg(r)},{k:'ov',l:'OVR / Now',n:1,p:3,w:'8%',f:(v,r)=>`${ovr2k(v)}<div class="note small">${f1(r.now)} now</div>`},{k:'real',l:'Real',n:1,p:3,w:'9%',f:(v,r)=>r.noData?'<span class="tag pick" title="No Basketball Reference match — scored on ratings only">no data</span>':`${f1(v)}<div class="note small">${f1(r.rc.near_ws)} WS* · ${r.rc.seasons_2005_on} yrs</div>`},{k:'val',l:'Value',n:1,p:2,w:'7%',f:f1},{k:'fit',l:'Fit',n:1,p:0,w:'7%',f:(v,r)=>`<b>${f1(v)}</b>`},
      {k:'realSal',l:'Real $ / Site $',n:1,p:4,w:'10%',f:(v,r)=>(v?mm(v)+(r.rc&&r.rc.contract_end_est?`<div class="note small">thru ${esc(r.rc.contract_end_est)}</div>`:''):'<span class="note">—</span>')+`<div class="note small">site ${r.sal1?mm(r.sal1):'none'}</div>`},{k:'after',l:'DET after',n:1,p:4,w:'10%',f:(v,r)=>`${mm(v)} ${statusChip(v)}${r.warns&&r.warns.length?`<div class="warnline">⚠️ ${esc(r.warns.join('; '))}</div>`:''}`}],
      rows.slice(0,200).map(r=>({...r,_style:r.likelyGone})),{id:'draft',sortKey:key,sortDir:st.dir,me:r=>!r.taken&&r.likelyGone===false&&r.fitRank<=10});
   if(rows.length>200) h+=`<p class="note small">Showing top 200 of ${rows.length}; filter by position or search to see more.</p>`;
@@ -307,9 +314,10 @@ function vDraft(){
      D.order.map(o=>{const m=D.madeBy.get(o.overall);return {...o,_m:m,team:o.team+(o.gm?` (${o.gm})`:''),_team:o.team,rp:`R${o.round} #${o.pick}`,sel:m?`${m.player_pos} ${m.player_name}`:(o.overall===D.nextOverall?'⏱ on the clock':(o.projected?'projected':''))};}),{me:r=>r._team===B.myTeam.name})}</div>`;
   h+=`<div class="card"><details><summary>How the scores work</summary><div class="note">
    <p><b>Grades → numbers:</b> A+ 100, A 95, A- 90, B+ 85 … in 5-point steps … F- 30.</p>
-   <p><b>Overall (OVR)</b> = position-weighted average of the five skills (Inside, Outside, Handling, Defense, Rebound):<br>
+   <p><b>OVR (shown)</b> is a display-only, NBA 2K-style rating: each player's raw overall is ranked against every league player and mapped onto a 2K-like scale (league best ≈ 96, top 10 ≈ 88+, top 30 ≈ 84+, median ≈ 73, end of bench ≈ 60–65, floor 50). The scores below all use the raw overall, so the 2K number never changes any ranking.</p>
+   <p><b>Raw overall</b> = position-weighted average of the five skills (Inside, Outside, Handling, Defense, Rebound):<br>
    ${POS.map(p=>`${p}: `+Object.entries(PW[p]).map(([k,w])=>`${k} ${w*100}%`).join(', ')).join('<br>')}</p>
-   <p><b>Now</b> = OVR rescaled 0–100 across the eligible pool (10th-percentile player = 0, 98th-percentile = 100, capped).</p>
+   <p><b>Now</b> = raw overall rescaled 0–100 across the eligible pool (10th-percentile player = 0, 98th-percentile = 100, capped).</p>
    <p><b>Real</b> = real-life NBA production from 2005-06 on (Basketball Reference, hand-kept file <code>real_careers.json</code>): raw = 0.7 × 10 × near-term Win Shares + 0.3 × 4 × max(0, PER − 5), where near-term WS = 1.0·WS(05-06) + 0.8·WS(06-07) + 0.6·WS(07-08) + 0.35·WS(08-09) + 0.25·WS(09-10) and PER is minutes-weighted over 2005-10; then rescaled 0–100 the same way. Age only matters through this (older players' real production falls off quickly).</p>
    <p><b>Value</b> = 0.5 × Now + 0.5 × Real. Players with no Basketball Reference match are flagged <b>no data</b> and use Value = Now (not punished).</p>
    <p><b>Potential is ignored</b> for the creation draft (user rule); the POT column is shown for reference only.</p>
@@ -493,7 +501,7 @@ function vPlayers(){
   const list=B.players.filter(p=>(!q||p.name.toLowerCase().includes(q))&&(pos==='ALL'||p.pos===pos)).map(p=>{const r=ratingsOf(p);return {...p,r,ov:overall(r,p.pos)};}).sort((a,b)=>b.ov-a.ov);
   return `<div class="card"><h2>Find a player <span class="chip">${list.length}</span></h2><div class="controls"><input type="search" id="pq" placeholder="Search ${B.players.length} players" value="${esc(S.pq||'')}" autocomplete="off">
    <select id="ppos">${['ALL',...POS].map(p=>`<option ${p===pos?'selected':''}>${p}</option>`).join('')}</select></div>
-   <div class="plist">${list.slice(0,100).map(p=>row(p,'OVR '+f1(p.ov),(p.team==='Draft'?'Draft pool':(p.team||'—'))+(p.contract?' · '+mm(p.contract.salary_by_year?.[0])+' this yr':''))).join('')}</div>
+   <div class="plist">${list.slice(0,100).map(p=>row(p,'OVR '+ovr2k(p.ov),(p.team==='Draft'?'Draft pool':(p.team||'—'))+(p.contract?' · '+mm(p.contract.salary_by_year?.[0])+' this yr':''))).join('')}</div>
    ${list.length>100?`<p class="note small">Showing top 100 by OVR — refine the search.</p>`:''}</div>`;
 }
 function vPlayer(id){
@@ -502,7 +510,7 @@ function vPlayer(id){
   const kv=(o,fmt=x=>x)=>o&&Object.keys(o).length?`<div class="scroll"><table class="tbl">${Object.entries(o).map(([k,x])=>`<tr><td>${esc(k.replace(/_/g,' '))}</td><td class="n">${esc(fmt(x))}</td></tr>`).join('')}</table></div>`:empty('No data','');
   const c=p.contract||{};
   let h=`<button class="back" onclick="history.back()">‹ Back</button><div class="card"><h2>${esc(p.name)} <span class="chip blue">${esc(p.pos)}</span></h2>
-   <div class="kpis"><div class="kpi"><div class="v">${f1(v.ov)}</div><div class="l">Overall (OVR)</div></div><div class="kpi"><div class="v">${f1(v.val)}</div><div class="l">Value</div></div>
+   <div class="kpis"><div class="kpi"><div class="v">${ovr2k(v.ov)}</div><div class="l">Overall (OVR, 2K-style)</div></div><div class="kpi"><div class="v">${f1(v.val)}</div><div class="l">Value</div></div>
    ${bd?`<div class="kpi"><div class="v">${f1(bd.fit)}</div><div class="l">Pistons fit · #${bd.fitRank}</div></div><div class="kpi"><div class="v">#${bd.valRank}</div><div class="l">Board rank (value)${bd.likelyGone?' · likely gone':''}</div></div>`:''}</div>
    <h3>Profile</h3>${kv({team:p.team,age:p.age,height:p.height,weight:p.weight&&p.weight+' lb',college:p.college,hometown:p.hometown,experience:p.experience!=null?p.experience+' yrs':null,drafted:p.draft_round?`Round ${p.draft_round}, pick ${p.draft_pick}`:'—'})}
    <h3>Ratings</h3><div>${RK.map(k=>`<span class="chip">${RNAME[k]} ${gradeCell(r[k])}</span>`).join('')}</div>
