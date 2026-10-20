@@ -89,3 +89,4 @@ details summary{cursor:pointer;min-height:44px;display:flex;align-items:center;f
 .ver{font-size:10px;opacity:.75}
 .aseg{border:1px solid var(--blue)}.aseg button{font-weight:700}.aseg button.on{background:var(--blue);color:#fff}
 .tbl .tag{display:inline-block;max-width:100%;margin-left:0;margin-right:4px}.tbl a+.tag{margin-left:4px}
+.tbl a.pl,.nm a.pl{overflow-wrap:anywhere}

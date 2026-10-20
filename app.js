@@ -142,6 +142,9 @@ function toggleDetail(tr){
   d.innerHTML=`<td colspan="${vis}"><div class="dl">${hid.map(c=>`<span><b>${c.dataset.l}</b> ${c.innerHTML}</span>`).join('')}${tr.dataset.href?`<a href="${tr.dataset.href}">Open →</a>`:''}</div></td>`;
   tr.after(d);tr.classList.add('open');
 }
+// link a player name to his page (#players/<id>); resolves by name when no id is known, plain text if unknown
+function pid(name,id){if(id!=null&&B.pById.has(+id))return +id;if(!B.pByName){B.pByName=new Map();B.players.forEach(p=>{const k=String(p.name).toLowerCase();if(!B.pByName.has(k))B.pByName.set(k,p.player_id);});}return B.pByName.get(String(name||'').toLowerCase().trim());}
+function plink(name,id){const i=pid(name,id);return i!=null?`<a class="pl" href="#players/${i}">${esc(name)}</a>`:esc(name??'—');}
 const empty=(t,s)=>`<div class="empty"><b>${esc(t)}</b>${esc(s||'')}</div>`;
 const allZero=o=>!o||Object.values(o).every(v=>v==null||v===0||v===''||(typeof v==='string'&&/^[-.0]*$/.test(v)));
 function capRank(){const c=[...B.caproom].sort((a,b)=>b.cap_room-a.cap_room);return {rank:c.findIndex(x=>x.team_id===B.myTeam.team_id)+1,n:c.length,sorted:c};}
@@ -228,14 +231,14 @@ function vTeam(){
   if(myRoster().length){
     const rows=myRoster().map(p=>({...p,...Object.fromEntries(yrs.map(y=>['y'+y,p.salary['year_'+y]]))}));
     const tot={name:'Team total',...Object.fromEntries(yrs.map(y=>['y'+y,rows.reduce((a,r)=>a+(r['y'+y]||0),0)]))};
-    h+=table([{k:'name',l:'Player'},...yrs.map(y=>({k:'y'+y,l:'Yr '+y,n:1,f:v=>v?mm(v):'—'}))],[...rows,tot],{me:r=>r.name==='Team total'});
+    h+=table([{k:'name',l:'Player',f:(v,r)=>r.player_id?plink(v,r.player_id):esc(v)},...yrs.map(y=>({k:'y'+y,l:'Yr '+y,n:1,f:v=>v?mm(v):'—'}))],[...rows,tot],{me:r=>r.name==='Team total'});
     h+=`<h3>Cap room by year (vs ${mm(cap)} cap, flat)</h3>`+table([{k:'l',l:''},...yrs.map(y=>({k:'y'+y,l:'Yr '+y,n:1,f:v=>mm(v)}))],[{l:'Room',...Object.fromEntries(yrs.map(y=>['y'+y,cap-tot['y'+y]]))}]);
     h+=`<p class="note small">Season 2005 = Year 1. Year columns as shown on the site (a $1 entry is the site's own placeholder).</p>`;
   }
-  if((t.cut_players||[]).length) h+=`<h3>Cut players (dead money)</h3>`+table([{k:'name',l:'Player'},{k:'total',l:'Total',n:1,f:mm}],t.cut_players);
+  if((t.cut_players||[]).length) h+=`<h3>Cut players (dead money)</h3>`+table([{k:'name',l:'Player',f:(v,r)=>plink(v,r.player_id)},{k:'total',l:'Total',n:1,f:mm}],t.cut_players);
   h+=`</div><div class="card"><h2>Owned draft picks</h2>${(t.draft_picks||[]).length?table([{k:'season',l:'Season'},{k:'round',l:'Round',n:1},{k:'original_team',l:'Originally'}],[...t.draft_picks].sort((a,b)=>a.season-b.season||a.round-b.round)):empty('No future picks','')}
-  ${D.mine.length?`<h3>Creation draft (${esc(D.source)})</h3>`+D.mine.map(o=>{const m=D.madeBy.get(o.overall);return `<span class="chip ${m?'':'red'}">R${o.round} #${o.pick} (ovr ${o.overall})${m?': '+esc(m.player_name):(o.projected?' — projected':' — upcoming')}</span>`;}).join(''):''}</div>`;
-  h+=`<div class="card"><h2>Injuries</h2>${(t.injuries||[]).length?table([{k:'name',l:'Player'},{k:'injury',l:'Injury'},{k:'duration',l:'Duration'}],t.injuries):empty('No injuries','Your roster is healthy.')}</div>`;
+  ${D.mine.length?`<h3>Creation draft (${esc(D.source)})</h3>`+D.mine.map(o=>{const m=D.madeBy.get(o.overall);return `<span class="chip ${m?'':'red'}">R${o.round} #${o.pick} (ovr ${o.overall})${m?': '+plink(m.player_name,m.player_id):(o.projected?' — projected':' — upcoming')}</span>`;}).join(''):''}</div>`;
+  h+=`<div class="card"><h2>Injuries</h2>${(t.injuries||[]).length?table([{k:'name',l:'Player',f:(v,r)=>plink(v,r.player_id)},{k:'injury',l:'Injury'},{k:'duration',l:'Duration'}],t.injuries):empty('No injuries','Your roster is healthy.')}</div>`;
   h+=`<div class="card"><h2>Season stats</h2>${allZero(t.yearly_stats)?empty('Fills in once games are played','The 2005 season has not tipped off yet.'):
      table([{k:'k',l:'Stat'},{k:'v',l:'Value',n:1}],Object.entries(t.yearly_stats).map(([k,v])=>({k:k.replace(/_/g,' '),v})))}</div>`;
   return h;
@@ -268,8 +271,8 @@ function vDraft(){
      {k:'realSal',l:'Real $ / Site $',n:1,p:4,w:'10%',f:(v,r)=>(v?mm(v)+(r.rc&&r.rc.contract_end_est?`<div class="note small">thru ${esc(r.rc.contract_end_est)}</div>`:''):'<span class="note">—</span>')+`<div class="note small">site ${r.sal1?mm(r.sal1):'none'}</div>`},{k:'after',l:'DET after',n:1,p:4,w:'10%',f:(v,r)=>`${mm(v)} ${statusChip(v)}${r.warns&&r.warns.length?`<div class="warnline">⚠️ ${esc(r.warns.join('; '))}</div>`:''}`}],
      rows.slice(0,200).map(r=>({...r,_style:r.likelyGone})),{id:'draft',sortKey:key,sortDir:st.dir,me:r=>!r.taken&&r.likelyGone===false&&r.fitRank<=10});
   if(rows.length>200) h+=`<p class="note small">Showing top 200 of ${rows.length}; filter by position or search to see more.</p>`;
-  h+=`</div><div class="card"><h2>Draft order & picks made</h2>${table([{k:'overall',l:'Ovr',n:1},{k:'rp',l:'Pick'},{k:'team',l:'Team'},{k:'sel',l:'Selection'}],
-     D.order.map(o=>{const m=D.madeBy.get(o.overall);return {...o,team:o.team+(o.gm?` (${o.gm})`:''),_team:o.team,rp:`R${o.round} #${o.pick}`,sel:m?`${m.player_pos} ${m.player_name}`:(o.overall===D.nextOverall?'⏱ on the clock':(o.projected?'projected':''))};}),{me:r=>r._team===B.myTeam.name})}</div>`;
+  h+=`</div><div class="card"><h2>Draft order & picks made</h2>${table([{k:'overall',l:'Ovr',n:1},{k:'rp',l:'Pick'},{k:'team',l:'Team'},{k:'sel',l:'Selection',f:(v,r)=>r._m?`${esc(r._m.player_pos)} ${plink(r._m.player_name,r._m.player_id)}`:esc(v)}],
+     D.order.map(o=>{const m=D.madeBy.get(o.overall);return {...o,_m:m,team:o.team+(o.gm?` (${o.gm})`:''),_team:o.team,rp:`R${o.round} #${o.pick}`,sel:m?`${m.player_pos} ${m.player_name}`:(o.overall===D.nextOverall?'⏱ on the clock':(o.projected?'projected':''))};}),{me:r=>r._team===B.myTeam.name})}</div>`;
   h+=`<div class="card"><details><summary>How the scores work</summary><div class="note">
    <p><b>Grades → numbers:</b> A+ 100, A 95, A- 90, B+ 85 … in 5-point steps … F- 30.</p>
    <p><b>Overall (OVR)</b> = position-weighted average of the five skills (Inside, Outside, Handling, Defense, Rebound):<br>
@@ -279,7 +282,7 @@ function vDraft(){
    <p><b>Value</b> = 0.5 × Now + 0.5 × Real. Players with no Basketball Reference match are flagged <b>no data</b> and use Value = Now (not punished).</p>
    <p><b>Potential is ignored</b> for the creation draft (user rule); the POT column is shown for reference only.</p>
    <p><b>Pistons fit</b> = 0.55 × Value + 0.25 × Need × 100 + 0.10 × Complement + 0.10 × Value-per-$.<br>
-   Need = 1.0 if no rostered player at that position, 0.5 if one, 0.2 if two or more — computed live from the roster (now: ${myRoster().map(p=>esc(p.name)+' '+p.pos).join(', ')||'nobody'}).<br>
+   Need = 1.0 if no rostered player at that position, 0.5 if one, 0.2 if two or more — computed live from the roster (now: ${myRoster().map(p=>plink(p.name,p.player_id)+' '+p.pos).join(', ')||'nobody'}).<br>
    Complement = the player's skills weighted by the team's gaps (100 − best rostered grade in each skill), as a percentile.<br>
    Value-per-$ = Real ÷ real 2005-06 salary in $M (min $0.5M; site salary used if the real one is missing), as a percentile; neutral 50 when real data or any salary is missing.</p>
    <p><b>Real $</b> = real 2005-06 NBA salary (BBRef team salary tables / HoopsHype); "thru" = estimated last contract season from the salary history. <b>Site $</b> = the stats-site contract.</p>
@@ -289,7 +292,7 @@ function vDraft(){
 }
 function salLine(p){const rs=p.realSal?` · Real $ ${mm(p.realSal)}${p.rc&&p.rc.contract_end_est?' thru '+p.rc.contract_end_est:''}`:' · Real $ —';return rs+(p.sal1?` · Site $ ${mm(p.sal1)}`:' · Site $ none')+` → DET ${mm(p.after)} (${p.afterStatus})${p.warns.length?' ⚠️ '+p.warns.join('; '):''}`;}
 function _oldSalLine(p){return p.sal1?` · Yr1 ${mm(p.sal1)} → DET ${mm(p.after)} (${p.afterStatus})${p.warns.length?' ⚠️ '+p.warns.join('; '):''}`:' · no contract listed on site ($0)';}
-function row(p,score,sub){return `<div class="row" data-href="#players/${p.player_id}"><span class="pos">${esc(p.pos)}</span><div><div class="nm">${esc(p.name)}</div><div class="meta">${p.age} yrs · ${esc(p.height||'')} · ${RK.map(k=>k.toUpperCase()+' '+esc(p.r[k]||'—')).join(' ')}</div><div class="meta">${esc(sub)}</div></div><div class="sc">${esc(score)}</div></div>`;}
+function row(p,score,sub){return `<div class="row" data-href="#players/${p.player_id}"><span class="pos">${esc(p.pos)}</span><div><div class="nm">${plink(p.name,p.player_id)}</div><div class="meta">${p.age} yrs · ${esc(p.height||'')} · ${RK.map(k=>k.toUpperCase()+' '+esc(p.r[k]||'—')).join(' ')}</div><div class="meta">${esc(sub)}</div></div><div class="sc">${esc(score)}</div></div>`;}
 
 /* ---------- League ---------- */
 function vLeague(){
@@ -313,7 +316,7 @@ function vLeague(){
     const L=B.leaders.league_leaders;const cats=Object.keys(L);
     h+=`<div class="card"><h2>League leaders</h2><select id="lcat" style="width:100%;margin-bottom:10px">${cats.map(c=>`<option ${c===S.lcat?'selected':''}>${esc(c)}</option>`).join('')}</select>`;
     const c=L[S.lcat||cats[0]];
-    h+=(c&&c.leaders.length)?table([{k:'rank',l:'#',n:1},{k:'player',l:'Player'},{k:'pos',l:'Pos'},{k:'team',l:'Team'},{k:'value',l:c.stat,n:1}],c.leaders,{me:r=>r.team_id===B.myTeam.team_id}):empty('Fills in once games are played','League leaders are published after the first games.');
+    h+=(c&&c.leaders.length)?table([{k:'rank',l:'#',n:1},{k:'player',l:'Player',f:(v,r)=>plink(v,r.player_id)},{k:'pos',l:'Pos'},{k:'team',l:'Team'},{k:'value',l:c.stat,n:1}],c.leaders,{me:r=>r.team_id===B.myTeam.team_id}):empty('Fills in once games are played','League leaders are published after the first games.');
     h+=`</div>`;
   }
   return h;
@@ -401,7 +404,7 @@ function vAnalytics(){
   const q=st.q.toLowerCase();
   let rows=A.pl.filter(x=>(!q||x.name.toLowerCase().includes(q))&&(st.team==='ALL'||x.team_id===+st.team)&&(st.pos==='ALL'||x.pos===st.pos)&&(!st.min||x.mpg>=st.min));
   rows.sort((a,b)=>{const va=AV(a,st.sort),vb=AV(b,st.sort);if(va==null&&vb==null)return a.name.localeCompare(b.name);if(va==null)return 1;if(vb==null)return -1;return (typeof va==='string'?va.localeCompare(vb):va-vb)*st.dir;});
-  const cols=['name','team','pos','g','mpg','ppg','rpg','apg','ts','efg','usg','ato','gs','per','ws','wsm'].map(k=>({k,l:ACOLS[k].l,n:ACOLS[k].n,p:{name:0,per:0,ppg:1,rpg:1,apg:1,team:2,ts:2,mpg:2}[k]??3,f:ACOLS[k].f?((v,r)=>ACOLS[k].f(AV(r,k))):(k==='name'?(v,r)=>`<b>${esc(r.name)}</b>`:k==='team'?(v,r)=>esc(r.team.split(' ').slice(-1)[0]):null)}));
+  const cols=['name','team','pos','g','mpg','ppg','rpg','apg','ts','efg','usg','ato','gs','per','ws','wsm'].map(k=>({k,l:ACOLS[k].l,n:ACOLS[k].n,p:{name:0,per:0,ppg:1,rpg:1,apg:1,team:2,ts:2,mpg:2}[k]??3,f:ACOLS[k].f?((v,r)=>ACOLS[k].f(AV(r,k))):(k==='name'?(v,r)=>`<b>${plink(r.name,r.id)}</b>`:k==='team'?(v,r)=>esc(r.team.split(' ').slice(-1)[0]):null)}));
   h+=`<div class="card"><h2>Player advanced stats <span class="chip">${rows.length}</span></h2><div class="controls">
    <input type="search" id="aq" placeholder="Search players" value="${esc(st.q)}" autocomplete="off">
    <select id="ateam"><option value="ALL">All teams</option>${[...B.teams].sort((a,b)=>a.name.localeCompare(b.name)).map(t=>`<option value="${t.team_id}" ${+st.team===t.team_id?'selected':''}>${esc(t.name)}</option>`).join('')}</select>
@@ -412,9 +415,9 @@ function vAnalytics(){
    ${rows.length>150?'<p class="note small">Showing first 150 — refine filters.</p>':''}</div>`;
   return h;
 }
-function anCard(A,id){const x=A.pl.find(y=>y.id===id);if(!x){const p=B.pById.get(id);return p?`<div class="card"><h2>${esc(p.name)}</h2>${empty('Not on a team roster','Advanced stats cover rostered players only.')}</div>`:'';}
+function anCard(A,id){const x=A.pl.find(y=>y.id===id);if(!x){const p=B.pById.get(id);return p?`<div class="card"><h2>${plink(p.name,p.player_id)}</h2>${empty('Not on a team roster','Advanced stats cover rostered players only.')}</div>`:'';}
   const b=x.b,k=(v,l)=>`<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`;
-  let h=`<div class="card" id="acard"><h2>${esc(x.name)} <span><span class="chip blue">${esc(x.pos)}</span><button class="ghost" id="aclose" style="min-height:36px">✕</button></span></h2><div class="note">${esc(x.team)} · ${x.sal?mm(x.sal)+' this yr':'no salary listed'} · <a href="#players/${x.id}">Profile ›</a></div>`;
+  let h=`<div class="card" id="acard"><h2>${plink(x.name,x.id)} <span><span class="chip blue">${esc(x.pos)}</span><button class="ghost" id="aclose" style="min-height:36px">✕</button></span></h2><div class="note">${esc(x.team)} · ${x.sal?mm(x.sal)+' this yr':'no salary listed'} · <a href="#players/${x.id}">Profile ›</a></div>`;
   if(!x.g) return h+empty('No games played yet','This card fills in after the first games.')+'</div>';
   h+=`<h3>Efficiency</h3><div class="kpis">${k(p1(x.ts),'True shooting')}${k(p1(x.efg),'Effective FG%')}${k(f1(x.usg),'Usage rate*')}${k(f2(x.ato),'AST/TO')}${k(f1(x.gs),'Game Score / g')}${k(f1(x.per),'PER-lite*')}${k(f2(x.ws),'Win shares*')}${k(f2(x.wsm),'WS per $1M')}${k(f2(x.effm),'EFF per $1M')}${k(f1(x.eff),'EFF / g')}</div>`;
   const keys=[['ppg','PTS'],['rpg','REB'],['apg','AST'],['spg','STL'],['bpg','BLK'],['topg','TO'],['fgm','FGM'],['fga','FGA'],['tpm','3PM'],['tpa','3PA'],['ftm','FTM'],['fta','FTA']];
@@ -657,7 +660,7 @@ function vTrade(){
     h+=`<div class="card tteam" id="tt-${id}"><h2>${esc(t.name)} ${statusChip(r.pre.tax)}</h2>
      <div class="note small">Payroll ${mm(r.pre.tax)} → <b>${mm(r.post.tax)}</b> · roster ${r.rosterPre} → ${r.rosterPost} · counted out ${mm(r.outCnt)} / in ${mm(r.inCnt)}</div>
      <h3>Sends</h3>${r.out.length?r.out.map(a=>{const i=assetInfo(a),f=assetFlag(a,i,R),k=st.assets.indexOf(a);
-       return `<div class="pkg"><div class="pk1"><b>${esc(i.name)}</b> <span class="note small">${i.pos?esc(i.pos)+' · ':''}${i.isPick?'draft pick':mm(i.sal)+(i.yrs?` · ${i.yrs} yr${i.yrs>1?'s':''}`:'')}${i.custom?' · hypothetical':''}</span><button class="ghost x" data-trm="${k}" aria-label="Remove">×</button></div>
+       return `<div class="pkg"><div class="pk1"><b>${i.isPlayer&&!i.custom?plink(i.name,a.id):esc(i.name)}</b> <span class="note small">${i.pos?esc(i.pos)+' · ':''}${i.isPick?'draft pick':mm(i.sal)+(i.yrs?` · ${i.yrs} yr${i.yrs>1?'s':''}`:'')}${i.custom?' · hypothetical':''}</span><button class="ghost x" data-trm="${k}" aria-label="Remove">×</button></div>
         <div class="pk2">${others.length>1?`<select data-tto="${k}" aria-label="Send to">${others.map(o=>`<option value="${o}" ${o===a.to?'selected':''}>→ ${esc(tById(o).name.replace(/^.* /,''))}</option>`).join('')}</select>`:`<span class="note small">→ ${esc(tById(a.to).name)}</span>`}
         ${i.isPlayer?`<select data-tflag="${k}" aria-label="Contract type"><option value="std" ${f==='std'?'selected':''}>Standard</option><option value="min" ${f==='min'?'selected':''}>Minimum contract</option><option value="st" ${f==='st'?'selected':''}>Sign-and-trade</option><option value="pp" ${f==='pp'?'selected':''}>Poison pill (extended)</option><option value="acq" ${f==='acq'?'selected':''}>Acquired by trade &lt;40 days</option><option value="untr" ${f==='untr'?'selected':''}>Not tradable yet (new signing/waivers)</option></select>`:''}</div>
         ${f==='st'?`<div class="pk2"><label class="note small">Prev salary <input data-tnum="${k}:prev" inputmode="numeric" value="${esc(a.prev||'')}"></label><label class="note small">New salary <input data-tnum="${k}:nsal" inputmode="numeric" value="${esc(a.nsal||i.sal)}"></label></div>`:''}
@@ -730,6 +733,7 @@ function tradeBind(){
 function bind(){
   tradeBind();
   fitTables();
+  document.querySelectorAll('[data-href]:not(tr)').forEach(el=>el.addEventListener('click',e=>{if(e.target.closest('a'))return;location.hash=el.dataset.href.replace(/^#/,'');}));
   document.querySelectorAll('.tbl tbody').forEach(tb=>tb.addEventListener('click',e=>{const tr=e.target.closest('tr');if(!tr||tr.classList.contains('dt')||e.target.closest('a'))return;
     if(tr.closest('table').classList.contains('hashid')){toggleDetail(tr);return;}if(tr.dataset.href)location.hash=tr.dataset.href.replace(/^#/,'');}));
   const on=(id,ev,fn)=>{const el=document.getElementById(id);if(el)el.addEventListener(ev,fn);};
