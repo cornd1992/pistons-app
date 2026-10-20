@@ -1,0 +1,42 @@
+{
+ "_meta": {
+  "note": "Manual corrections merged by tools/real_careers.py on top of the Basketball Reference scrape; keyed by league player_id."
+ },
+ "466": {
+  "salary_2005_06": 8250000,
+  "contract_end_est": "2009-10",
+  "salary_source": "BBRef player salary history",
+  "name": "Mehmet Okur"
+ },
+ "447": {
+  "salary_2005_06": 7365079,
+  "contract_end_est": "2009-10",
+  "salary_note": "rising to ~$11.0M by 2009-10",
+  "salary_source": "BBRef player salary history",
+  "name": "Troy Murphy"
+ },
+ "450": {
+  "salary_2005_06": 2000000,
+  "salary_source": "HoopsHype (user-provided)",
+  "salary_url": "https://hoopshype.com/player/dikembe-mutombo/salary/",
+  "name": "Dikembe Mutombo"
+ },
+ "618": {
+  "salary_2005_06": 19125000,
+  "contract_end_est": "2007-08",
+  "salary_source": "BBRef player salary history",
+  "name": "Chris Webber"
+ },
+ "317": {
+  "salary_2005_06": 15694250,
+  "contract_end_est": "2006-07",
+  "salary_source": "BBRef player salary history",
+  "name": "Grant Hill"
+ },
+ "384": {
+  "salary_2005_06": 1010040,
+  "contract_end_est": "2007-08",
+  "salary_source": "BBRef player salary history",
+  "name": "Nenad Krstic"
+ }
+}
