@@ -60,7 +60,7 @@ async function boot(){
   const ca=B.meta.crawled_at?new Date(B.meta.crawled_at):null;
   $('#asof').textContent='Data as of '+(ca?ca.toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'unknown')+(B.facts&&B.facts._meta&&B.facts._meta.as_of?' · draft facts '+new Date(B.facts._meta.as_of).toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'')+' · simba.mygamesonline.org';
   fetch('data/version.json',{cache:'no-cache'}).then(r=>r.json()).then(v=>{const el=document.createElement('div');el.className='ver';el.textContent='Build '+v.version+' · app '+v.app;$('#asof').appendChild(el);}).catch(()=>{});
-  addPendingPicks();
+  applyRealSalaries();addPendingPicks();
   prepDraft();
   try{const idx=await (await fetch('data/snapshots/index.json',{cache:'no-cache'})).json();
     SNAPS=(await Promise.all(idx.snapshots.map(k=>fetch('data/snapshots/'+k+'.json').then(r=>r.json()).catch(()=>null)))).filter(Boolean);}catch(e){SNAPS=[];}
@@ -70,16 +70,28 @@ async function boot(){
 // They join that team's roster at their real 2005-06 salary (Basketball Reference, real_careers.json; site salary only as a
 // flagged fallback), so rosters, payroll, cap room, the trade checker and player pages update now. Deduped by player ID:
 // once the scrape lists the player on the team, the scraped entry wins and nothing is added.
+// League-wide real salaries: every player's 2005-06 salary is the real Basketball Reference figure (real_careers.json, overrides
+// merged in), falling back to the stats-site salary only when no real figure exists (tagged "site $"). Applied to year 1 of every
+// rostered contract and to team payroll/cap room as a delta, so other payroll components (dead money etc.) are kept.
+const realSalOf=id=>{const r=((B.real||{}).players||{})[id];return r&&r.salary_2005_06||null;};
+function curSal(p){const id=p.player_id,site=(p.contract?.salary_by_year||[])[0]??p.siteSal??(p.salary||{}).year_1??0,real=realSalOf(id);return {v:real||site||0,src:real?'real':'site',site};}
+const salTag=src=>src==='site'?' <span class="src Assumed" title="No real 2005-06 salary on file; using the stats-site salary">site $</span>':'';
+function applyRealSalaries(){B.salStats={real:0,site:0,siteNames:[]};
+  B.teams.forEach(t=>{(t.players||[]).forEach(x=>{const site=(x.salary||{}).year_1||0,real=realSalOf(x.player_id);x.siteSal=site;x.salSrc=real?'real':'site';
+    if(real){B.salStats.real++;const d=real-site;x.salary={...x.salary,year_1:real};if(x.salary_total!=null)x.salary_total+=d;
+      if(t.team_salary!=null)t.team_salary+=d;if(t.cap_room!=null)t.cap_room-=d;
+      const cr=(B.caproom||[]).find(c=>c.team_id===t.team_id);if(cr&&cr!==t){if(cr.team_salary!=null)cr.team_salary+=d;if(cr.cap_room!=null)cr.cap_room-=d;}}
+    else{B.salStats.site++;B.salStats.siteNames.push(x.name+' ('+t.name+')');}});});}
 function addPendingPicks(){
   B.pending=[];B.pendingAll=[];const tByName=new Map(B.teams.map(t=>[t.name,t]));
   ((B.facts||{}).creation_draft?.picks||[]).forEach(k=>{const t=tByName.get(k.team);if(!t||k.player_id==null)return;
     if((t.players||[]).some(x=>x.player_id===k.player_id))return;
-    const p=B.pById.get(k.player_id);if(!p)return;const rc=realOf(p.player_id),site=((p.contract||{}).salary_by_year||[])[0]||0,real=rc&&rc.salary_2005_06||null;
+    const p=B.pById.get(k.player_id);if(!p)return;const rc=((B.real||{}).players||{})[p.player_id],site=((p.contract||{}).salary_by_year||[])[0]||0,real=realSalOf(p.player_id);
     const hist=real?(rc.salary_history||[]).filter(([s])=>s>='2005-06').map(x=>x[2]):[],yrs=hist.length?hist:[real||site];
     const sal=yrs[0]||0,salary=Object.fromEntries([1,2,3,4,5,6,7].map(y=>['year_'+y,yrs[y-1]||0]));
     const e={player_id:p.player_id,name:p.name,pos:p.pos,age:p.age,height:p.height,height_in:p.height_in,weight:p.weight,ratings:ratingsOf(p),salary,salary_total:yrs.reduce((a,b)=>a+b,0),
       season_stats:{},pending:{round:k.round,pick:k.pick,overall:k.overall,siteSal:site,realSal:sal,salSrc:real?'real':'site'}};
-    (t.players=t.players||[]).push(e);B.pendingAll.push({...e,team:t.name});if(t===B.myTeam)B.pending.push(e);
+    e.siteSal=site;e.salSrc=real?'real':'site';B.salStats&&B.salStats[e.salSrc]++;(t.players=t.players||[]).push(e);B.pendingAll.push({...e,team:t.name});if(t===B.myTeam)B.pending.push(e);
     p.team=t.name;p.team_id=t.team_id;p.pending=e.pending; // Players list / player page / analytics see the new team
     if(t.team_salary!=null)t.team_salary+=sal;else if(t.cap_room!=null)t.cap_room-=sal;
     if(t.team_salary!=null&&t.cap_room!=null)t.cap_room-=sal;
@@ -268,7 +280,7 @@ function capCore(t,{players=true}={}){if(!t)return empty('No team data','');cons
   h+=table([{k:'l',l:'Threshold'},{k:'th',l:'Amount',n:1,f:mm},{k:'basis',l:'Measured on',p:2},{k:'txt',l:nm,n:1,f:(v,r)=>`<span style="color:${(r.l==='Floor'?r.d<=0:r.d>0)?'var(--good)':'var(--bad)'}">${esc(v)}</span>`}],rows);
   h+=`<p class="note small"><b>Incomplete roster charge:</b> ${m.counted} player${m.counted===1?'':'s'} counted → ${m.need} × rookie minimum ${mm(m.rm.v)} = <b>${mm(m.charge)}</b> added to cap salary.</p>`;
   if(players){const ps=[...(t.players||[])].sort((a,b)=>(b.salary?.year_1||0)-(a.salary?.year_1||0));
-    h+=ps.length?`<div class="capps">${ps.map(p=>`<span>${plink(p.name,p.player_id)} <i>${esc(p.pos||'')}</i> <b>${mm(p.salary?.year_1||0)}</b>${ptag(p.pending)}</span>`).join('')}</div>`:'<p class="note small">No players on the roster yet.</p>';}
+    h+=ps.length?`<div class="capps">${ps.map(p=>`<span>${plink(p.name,p.player_id)} <i>${esc(p.pos||'')}</i> <b>${mm(p.salary?.year_1||0)}</b>${p.salSrc==='site'?salTag('site'):p.siteSal!=null&&p.siteSal!==p.salary?.year_1?` <i>site ${mm(p.siteSal)}</i>`:''}${ptag(p.pending)}</span>`).join('')}</div>`:'<p class="note small">No players on the roster yet.</p>';}
   return h;}
 function capPanel(t){const c=CR(),m=capMath(t),usedRoom=SET.get('usedRoom',false),rep=SET.get('repeater',false);
   const rows=LEVELS.filter(([k])=>c[k]).map(([k,l])=>{const base=k==='salary_floor'||k==='luxury_tax'||k.includes('apron')?m.tax:m.cap,d=c[k]-base;
@@ -292,7 +304,7 @@ function vTeam(){
   <div class="kpi"><div class="v">${mm(sal)}</div><div class="l">Team salary</div></div>
   <div class="kpi"><div class="v">${mm(t.cap_room)}</div><div class="l">Cap room as listed on stats site (excl. roster charge)</div></div></div>
   <div class="note small" style="margin-top:8px">${(sal/cap*100).toFixed(1)}% of cap used · cap room ranks <b>${ord(cr.rank)} of ${cr.n}</b> (1st = most room) · status ${statusChip(sal)}</div></div>
-  <div class="card"><h2>Cap & aprons</h2>${(B.pending||[]).length?`<p class="note small">Includes ${B.pending.map(e=>`${plink(e.name,e.player_id)} (R${e.pending.round} #${e.pending.pick}, not on the stats-site roster yet) at his ${e.pending.salSrc} 2005-06 salary ${mm(e.pending.realSal)}`).join(', ')}. On the stats site's current figures (his site contract ${B.pending.map(e=>mm(e.pending.siteSal)).join(', ')}), payroll would be ${mm(payrollOf(t)-B.pending.reduce((a,e)=>a+e.pending.realSal-e.pending.siteSal,0))}.</p>`:''}${capPanel(t)}</div>`;
+  <div class="card"><h2>Cap & aprons</h2><p class="note small">All salaries are real 2005-06 figures (Basketball Reference), league-wide; site salary only where no real figure exists (tagged “site $”). The incomplete-roster charge is unchanged.${(B.pending||[]).length?` Includes ${B.pending.map(e=>`${plink(e.name,e.player_id)} (R${e.pending.round} #${e.pending.pick}, not on the stats-site roster yet, ${mm(e.pending.realSal)})`).join(', ')}.`:''}</p>${capPanel(t)}</div>`;
   const gm=B.facts&&B.facts.pistons_gm;
   if(D.myNext) h+=`<div class="callout">🏀 Creation draft is live${D.onClock?` — ${esc(D.onClock.team)} (${esc(D.onClock.gm||'?')}) on the clock at R${D.onClock.round} #${D.onClock.slot}`:''}${gm?`. GM: <b>${esc(gm)}</b>`:''}. Overall pick ${D.nextOverall} is up. Your next pick is <b>Round ${D.myNext.round}, #${D.myNext.pick}</b> (overall ${D.myNext.overall}, ${D.picksBefore} picks away). <a href="#draft">Open draft board →</a></div>`;
   h+=`<div class="card"><h2>Roster & ratings</h2>`;
@@ -305,7 +317,7 @@ function vTeam(){
     const tot={name:'Team total',...Object.fromEntries(yrs.map(y=>['y'+y,rows.reduce((a,r)=>a+(r['y'+y]||0),0)]))};
     h+=table([{k:'name',l:'Player',f:(v,r)=>r.player_id?plink(v,r.player_id):esc(v)},...yrs.map(y=>({k:'y'+y,l:'Yr '+y,n:1,f:v=>v?mm(v):'—'}))],[...rows,tot],{me:r=>r.name==='Team total'});
     h+=`<h3>Cap room by year (vs ${mm(cap)} cap, flat)</h3>`+table([{k:'l',l:''},...yrs.map(y=>({k:'y'+y,l:'Yr '+y,n:1,f:v=>mm(v)}))],[{l:'Room',...Object.fromEntries(yrs.map(y=>['y'+y,cap-tot['y'+y]]))}]);
-    h+=`<p class="note small">Season 2005 = Year 1. Year columns as shown on the site (a $1 entry is the site's own placeholder).</p>`;
+    h+=`<p class="note small">Season 2005 = Year 1. Year 1 is each player's real 2005-06 salary (Basketball Reference); later years are as shown on the site (a $1 entry is the site's own placeholder).</p>`;
   }
   if((t.cut_players||[]).length) h+=`<h3>Cut players (dead money)</h3>`+table([{k:'name',l:'Player',f:(v,r)=>plink(v,r.player_id)},{k:'total',l:'Total',n:1,f:mm}],t.cut_players);
   h+=`</div><div class="card"><h2>Owned draft picks</h2>${(t.draft_picks||[]).length?table([{k:'season',l:'Season'},{k:'round',l:'Round',n:1},{k:'original_team',l:'Originally'}],[...t.draft_picks].sort((a,b)=>a.season-b.season||a.round-b.round)):empty('No future picks','')}
@@ -358,7 +370,7 @@ function vDraft(){
    Need = 1.0 if no rostered player at that position, 0.5 if one, 0.2 if two or more — computed live from the roster (now: ${myRoster().map(p=>plink(p.name,p.player_id)+' '+p.pos).join(', ')||'nobody'}).<br>
    Complement = the player's skills weighted by the team's gaps (100 − best rostered grade in each skill), as a percentile.<br>
    Value-per-$ = Real ÷ real 2005-06 salary in $M (min $0.5M; site salary used if the real one is missing), as a percentile; neutral 50 when real data or any salary is missing.</p>
-   <p><b>Real $</b> = real 2005-06 NBA salary (BBRef team salary tables / HoopsHype); "thru" = estimated last contract season from the salary history. <b>Site $</b> = the stats-site contract.</p>
+   <p><b>Real $</b> = real 2005-06 NBA salary (BBRef team salary tables / HoopsHype); "thru" = estimated last contract season from the salary history. <b>Site $</b> = the stats-site contract. <b>All cap, payroll and trade math uses real 2005-06 salaries</b> (Basketball Reference, with manual overrides) for every player league-wide; the site salary is used only when no real figure exists, tagged “site $”.</p>
    <p>Coverage: ${Object.values((B.real||{}).players||{}).filter(x=>x.bbref_id).length} of ${Object.keys((B.real||{}).players||{}).length} league players have real-career data.</p>
    <p><b>Likely gone</b>: players ranked inside the top N by Value, where N = picks before yours. It's a projection, not a guarantee.</p></div></details></div>`;
   return h;
@@ -379,7 +391,7 @@ function vLeague(){
   } else if(sub==='cap'){
     const c=capRank().sorted.map((x,i)=>{const used=x.team_salary!=null?x.team_salary:B.meta.salary_cap-x.cap_room,cr=CR();return {...x,rank:i+1,used,status:capStatus(used).k,toFloor:Math.max(0,(cr.salary_floor||0)-used),underTax:(cr.luxury_tax||0)-used,projTax:luxTax(used-(cr.luxury_tax||0),false).tax};});
     const cnt={};c.forEach(x=>cnt[x.status]=(cnt[x.status]||0)+1);
-    h+=`<div class="card"><h2>League cap picture</h2><div>${Object.entries(cnt).map(([k,v])=>`<span class="chip">${esc(k)}: ${v}</span>`).join('')}</div><p class="note small">Floor ${mm(CR().salary_floor)} · Cap ${mm(CR().salary_cap)} · Tax ${mm(CR().luxury_tax)} · 1st apron ${mm(CR().first_apron)} · 2nd apron ${mm(CR().second_apron)}</p></div>`;
+    h+=`<div class="card"><h2>League cap picture</h2><div>${Object.entries(cnt).map(([k,v])=>`<span class="chip">${esc(k)}: ${v}</span>`).join('')}</div><p class="note small">Payrolls use every player's real 2005-06 salary (Basketball Reference; site salary only where none exists) plus pending creation-draft picks.</p><p class="note small">Floor ${mm(CR().salary_floor)} · Cap ${mm(CR().salary_cap)} · Tax ${mm(CR().luxury_tax)} · 1st apron ${mm(CR().first_apron)} · 2nd apron ${mm(CR().second_apron)}</p></div>`;
     h+=`<div class="card"><h2>Cap room (cap ${mm(B.meta.salary_cap)})</h2>${table([{k:'rank',l:'#',n:1},{k:'team',l:'Team'},{k:'cap_room',l:'Room',n:1,f:mm},{k:'used',l:'Payroll',n:1,f:mm},{k:'status',l:'Status',f:(v,r)=>statusChip(r.used)},{k:'toFloor',l:'To floor',n:1,f:v=>v?mm(v):'—'},{k:'underTax',l:'Under tax',n:1,f:mm},{k:'projTax',l:'Proj. tax',n:1,f:v=>v?mm(v):'$0'}],c.map(x=>({...x,_team:x.team_id})),{me,id:'capx'})}<p class="note small">Projected tax uses non-repeater rates on current payroll (tax is actually assessed on salary at the final regular-season game).</p></div>`;
   } else if(sub==='stats'){
     const ts=(B.teamstats['tmstats/offense/team.htm']||[]).map(r=>({...r,team_id:r.team_id||B.teamByShort.get(r.team)?.team_id}));
@@ -435,7 +447,7 @@ function advCompute(){
   const tById=new Map(B.teams.map(t=>[t.team_id,t]));
   const pl=B.players.filter(p=>p.team_id&&tById.has(p.team_id)).map(p=>{const b=p.box||{},g=b.gp||0,mpg=b.mpg||0;
     const reb=b.rpg||0,eff=(b.ppg||0)+reb+(b.apg||0)+(b.spg||0)+(b.bpg||0)-((b.fga||0)-(b.fgm||0))-((b.fta||0)-(b.ftm||0))-(b.topg||0);
-    const sal=(p.contract?.salary_by_year||[])[0]||0;
+    const sal=curSal(p).v;
     return {p,id:p.player_id,name:p.name,pos:p.pos,team_id:p.team_id,team:tById.get(p.team_id).name,b,g,mpg,eff,sal,
       ts:sd(b.ppg,2*((b.fga||0)+0.44*(b.fta||0))),efg:sd((b.fgm||0)+0.5*(b.tpm||0),b.fga),ato:sd(b.apg,b.topg),
       gs:g?(b.ppg||0)+0.4*(b.fgm||0)-0.7*(b.fga||0)-0.4*((b.fta||0)-(b.ftm||0))+0.39*reb+(b.spg||0)+0.7*(b.apg||0)+0.7*(b.bpg||0)-(b.topg||0):null,
@@ -534,7 +546,7 @@ function vPlayers(){
   const list=B.players.filter(p=>(!q||p.name.toLowerCase().includes(q))&&(pos==='ALL'||p.pos===pos)).map(p=>{const r=ratingsOf(p);return {...p,r,ov:overall(r,p.pos)};}).sort((a,b)=>b.ov-a.ov);
   return `<div class="card"><h2>Find a player <span class="chip">${list.length}</span></h2><div class="controls"><input type="search" id="pq" placeholder="Search ${B.players.length} players" value="${esc(S.pq||'')}" autocomplete="off">
    <select id="ppos">${['ALL',...POS].map(p=>`<option ${p===pos?'selected':''}>${p}</option>`).join('')}</select></div>
-   <div class="plist">${list.slice(0,100).map(p=>row(p,'OVR '+ovr2k(p.ov),(p.team==='Draft'?'Draft pool':(p.team||'—'))+(p.contract?' · '+mm(p.contract.salary_by_year?.[0])+' this yr':''))).join('')}</div>
+   <div class="plist">${list.slice(0,100).map(p=>row(p,'OVR '+ovr2k(p.ov),(p.team==='Draft'?'Draft pool':(p.team||'—'))+(p.contract||p.salary?(()=>{const c=curSal(p);return ' · '+mm(c.v)+' this yr'+(c.src==='site'?' (site $)':` · site ${mm(c.site)}`);})():''))).join('')}</div>
    ${list.length>100?`<p class="note small">Showing top 100 by OVR — refine the search.</p>`:''}</div>`;
 }
 function vPlayer(id){
@@ -547,7 +559,7 @@ function vPlayer(id){
    ${bd?`<div class="kpi"><div class="v">${f1(bd.fit)}</div><div class="l">Pistons fit · #${bd.fitRank}</div></div><div class="kpi"><div class="v">#${bd.valRank}</div><div class="l">Board rank (value)${bd.likelyGone?' · likely gone':''}</div></div>`:''}</div>
    <h3>Profile</h3>${kv({team:p.team,age:p.age,height:p.height,weight:p.weight&&p.weight+' lb',college:p.college,hometown:p.hometown,experience:p.experience!=null?p.experience+' yrs':null,drafted:p.draft_round?`Round ${p.draft_round}, pick ${p.draft_pick}`:'—'})}
    <h3>Ratings</h3><div>${RK.map(k=>`<span class="chip">${RNAME[k]} ${gradeCell(r[k])}</span>`).join('')}</div>
-   <h3>Contract</h3>${kv({loyalty:c.loyalty,greed:c.greed,'play for winner':c.play_for_winner,'bird years':c.bird_years,...Object.fromEntries((c.salary_by_year||[]).map((s,i)=>['year '+(i+1),money(s)])),total:money(c.total)})}
+   <h3>Contract</h3><div class="kpi" style="margin-bottom:8px"><div class="v">${mm(curSal(p).v)}${salTag(curSal(p).src)}</div><div class="l">2005-06 salary (${curSal(p).src==='real'?'real, Basketball Reference':'stats site — no real figure on file'}) · site $ ${mm(curSal(p).site)}</div></div>${kv({loyalty:c.loyalty,greed:c.greed,'play for winner':c.play_for_winner,'bird years':c.bird_years,...Object.fromEntries((c.salary_by_year||[]).map((s,i)=>['site year '+(i+1),money(s)])),'site total':money(c.total)})}
    <h3>Season averages</h3>${allZero(p.season_averages)?empty('Fills in once games are played',''):kv(p.season_averages)}
    <h3>Career totals</h3>${(()=>{const ca=p.stats?.career;return !ca||allZero(ca)?empty('Fills in once games are played','Season-by-season lines appear here as seasons complete.'):kv(ca);})()}
    ${(p.stats?.seasons||[]).length?'<h3>By season</h3>'+table((p.stats.columns||[]).map(c=>({k:c.toLowerCase().replace(/%/g,'_pct').replace(/3p/,'three_p').replace(/[^a-z0-9_]+/g,'_').replace(/_+/g,'_').replace(/^_|_$/g,''),l:c})),p.stats.seasons):''}
