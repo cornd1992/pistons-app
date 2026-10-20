@@ -90,3 +90,21 @@ details summary{cursor:pointer;min-height:44px;display:flex;align-items:center;f
 .aseg{border:1px solid var(--blue)}.aseg button{font-weight:700}.aseg button.on{background:var(--blue);color:#fff}
 .tbl .tag{display:inline-block;max-width:100%;margin-left:0;margin-right:4px}.tbl a+.tag{margin-left:4px}
 .tbl a.pl,.nm a.pl{overflow-wrap:anywhere}
+
+/* Team roster cards (Pistons-site style) */
+.rgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:12px}
+@media (min-width:1000px){.rgrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.pcard{background:#fff;color:#111;border-radius:6px;box-shadow:0 1px 4px #0002,0 4px 14px #00000012;overflow:hidden;display:flex;flex-direction:column;min-width:0;border-top:4px solid var(--red)}
+.pc-top{display:flex;gap:8px;padding:12px 12px 8px;flex:1;min-width:0}.pc-main{flex:1;min-width:0;position:relative}
+.pc-name{display:flex;flex-direction:column;text-decoration:none;color:var(--blue);line-height:1.05;overflow-wrap:anywhere}.pc-name:hover .pc-last{text-decoration:underline}
+.pc-first{font-size:13px;font-weight:500;color:#333}.pc-last{font-size:22px;font-weight:800;text-transform:uppercase;letter-spacing:.01em}
+.pc-num{position:absolute;top:-2px;right:0;font-size:40px;font-weight:900;color:var(--red);line-height:1}
+.pc-pos{font-variant:small-caps;text-transform:lowercase;letter-spacing:.06em;color:#6b7280;font-size:14px;font-weight:700;margin:4px 0 6px}.pc-pos span{font-variant:normal;text-transform:none;letter-spacing:0;font-weight:500;font-size:11px}
+.pc-bio{width:100%;border-collapse:collapse;font-size:11px;table-layout:fixed}.pc-bio th,.pc-bio td{padding:3px 0;border-bottom:1px solid #e5e7eb;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.pc-bio th{width:42%;color:#6b7280;font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:10px}.pc-bio td{font-weight:600}
+.pc-img{flex:0 0 78px;height:96px;align-self:flex-start;border-radius:4px;background:linear-gradient(160deg,#e8edf6,#cfd8ea);position:relative;overflow:hidden;margin-top:18px}
+.pc-img svg{position:absolute;bottom:0;left:9px;width:60px;height:70px;fill:#9aa9c7}.pc-img span{position:absolute;top:6px;right:7px;font-size:12px;font-weight:800;color:var(--blue);opacity:.8}
+.pc-stats{display:grid;grid-template-columns:1.3fr repeat(4,1fr);background:#eceef1;border-top:1px solid #dcdfe4}
+.pc-stats div{display:flex;flex-direction:column;align-items:center;padding:6px 2px;border-left:1px solid #d6d9de;min-width:0}.pc-stats div:first-child{border-left:0}
+.pc-stats small{font-size:9px;font-weight:700;color:#6b7280;letter-spacing:.05em;text-transform:uppercase}.pc-stats b{font-size:14px;color:#111}
+.rtbl{margin-top:12px}
