@@ -112,7 +112,7 @@ function prepDraft(){
   const avail=board.filter(p=>!p.taken);
   [...avail].sort((a,b)=>b.val-a.val).forEach((p,i)=>p.valRank=i+1);
   [...avail].sort((a,b)=>b.fit-a.fit).forEach((p,i)=>p.fitRank=i+1);
-  const picksBefore=myNext?myNext.overall-nextOverall:0; // picks other teams make before ours
+  const picksBefore=myNext?order.filter(o=>o.overall>=nextOverall&&o.overall<myNext.overall&&!madeBy.has(o.overall)).length:0; // picks other teams make before ours
   avail.forEach(p=>p.likelyGone=p.valRank<=picksBefore);
   B.D={N,D,made,madeBy,order,nextOverall,mine,myNext,myUpcoming,board,avail,picksBefore,source,onClock,takenCount:taken.size};
 }

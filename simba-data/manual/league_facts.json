@@ -1,7 +1,7 @@
 {
  "_meta": {
   "source": "manual — hand-kept league facts (GM list, creation-draft order and results, lottery odds). Not forum posts. Edit by hand; never overwritten by refreshes.",
-  "as_of": "2026-10-20T16:55:00Z",
+  "as_of": "2026-10-20T17:01:00Z",
   "season": 2005
  },
  "pistons_gm": "inf",
@@ -24,7 +24,7 @@
   "Dallas Mavericks": "JR",
   "Denver Nuggets": "raidernation",
   "Houston Rockets": "TYO",
-  "Minnesota Timberwolves": "goat",
+  "Minnesota Timberwolves": "Bucknut",
   "San Antonio Spurs": "Giggles",
   "Utah Jazz": "stunna",
   "Memphis Grizzlies": "LefLop",
@@ -38,10 +38,10 @@
  },
  "pistons_next_pick": {
   "draft": "creation",
-  "round": 5,
-  "pick": 4,
-  "overall": 120,
-  "note": "snake order: R5 #4 (120th overall) — projected from odd-round order"
+  "round": 6,
+  "pick": 26,
+  "overall": 171,
+  "note": "snake order: R6 #26 (171st overall) — projected from even-round order"
  },
  "creation_draft": {
   "format": "snake (order reverses in even rounds)",
@@ -219,7 +219,7 @@
      {
       "slot": 21,
       "team": "Minnesota Timberwolves",
-      "gm": "goat"
+      "gm": "Bucknut"
      },
      {
       "slot": 22,
@@ -312,7 +312,7 @@
      {
       "slot": 9,
       "team": "Minnesota Timberwolves",
-      "gm": "goat"
+      "gm": "Bucknut"
      },
      {
       "slot": 10,
@@ -525,7 +525,7 @@
      {
       "slot": 21,
       "team": "Minnesota Timberwolves",
-      "gm": "goat"
+      "gm": "Bucknut"
      },
      {
       "slot": 22,
@@ -618,7 +618,7 @@
      {
       "slot": 9,
       "team": "Minnesota Timberwolves",
-      "gm": "goat"
+      "gm": "Bucknut"
      },
      {
       "slot": 10,
@@ -725,13 +725,13 @@
    {
     "round": 5,
     "complete": false,
-    "picks_made": 2,
+    "picks_made": 4,
     "on_the_clock": {
-     "slot": 3,
-     "team": "Portland Trail Blazers",
-     "gm": "snipezo",
-     "overall": 119,
-     "since": "2026-10-20T16:55:00Z"
+     "slot": 5,
+     "team": "New Orleans Hornets",
+     "gm": "Swope",
+     "overall": 121,
+     "since": "2026-10-20T17:01:00Z"
     },
     "order": [
      {
@@ -837,7 +837,7 @@
      {
       "slot": 21,
       "team": "Minnesota Timberwolves",
-      "gm": "goat"
+      "gm": "Bucknut"
      },
      {
       "slot": 22,
@@ -1910,6 +1910,24 @@
     "player": "Nazr Mohammed",
     "player_id": 439,
     "source": "user-pasted forum results 2026-10-20"
+   },
+   {
+    "round": 5,
+    "pick": 3,
+    "overall": 119,
+    "team": "Portland Trail Blazers",
+    "player": "Raja Bell",
+    "player_id": 131,
+    "source": "user-pasted forum results 2026-10-20"
+   },
+   {
+    "round": 5,
+    "pick": 4,
+    "overall": 120,
+    "team": "Detroit Pistons",
+    "player": "Jeff Foster",
+    "player_id": 252,
+    "source": "user 2026-10-20"
    }
   ]
  },
