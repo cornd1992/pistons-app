@@ -116,8 +116,31 @@ function route(ev,keep){
 /* ---------- helpers ---------- */
 function gradeCell(g){const v=gv(g);if(v==null)return '<span class="g">—</span>';const h=Math.round((v-30)/70*120);return `<span class="g" style="background:hsl(${h} 70% 45% / .22);color:hsl(${h} 70% 35%)">${esc(g)}</span>`;}
 function table(cols,rows,{id='',me=null,sortKey=null,sortDir=-1}={}){
-  return `<div class="scroll"><table class="tbl" ${id?`data-id="${id}"`:''}><thead><tr>${cols.map(c=>`<th class="${c.n?'n':''}" data-k="${c.k}">${esc(c.l)}${sortKey===c.k?(sortDir>0?' ▲':' ▼'):''}</th>`).join('')}</tr></thead><tbody>${
-    rows.map(r=>`<tr class="${me&&me(r)?'me':''}" ${r._href?`data-href="${r._href}"`:''}>${cols.map(c=>`<td class="${c.n?'n':''}">${c.f?c.f(r[c.k],r):esc(r[c.k]??'—')}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+  // Fit-to-width table: columns carry a hide priority (data-p, higher hides first; 0 = never) that fitTables() uses on narrow screens;
+  // hidden cells stay in the DOM and a tap on the row shows them in a detail line beneath it.
+  const pr=(c,i)=>c.k===sortKey?0:c.p!=null?c.p:(i===0?0:1); // the sorted column always stays visible
+  const w=c=>c.w?` style="width:${c.w}"`:'';
+  return `<div class="scroll"><table class="tbl" ${id?`data-id="${id}"`:''}><thead><tr>${cols.map((c,i)=>`<th class="${c.n?'n':''}" data-k="${c.k}" data-p="${pr(c,i)}"${w(c)}>${esc(c.l)}${sortKey===c.k?(sortDir>0?' ▲':' ▼'):''}</th>`).join('')}</tr></thead><tbody>${
+    rows.map(r=>`<tr class="${me&&me(r)?'me':''}" ${r._href?`data-href="${r._href}"`:''}>${cols.map(c=>`<td class="${c.n?'n':''}" data-l="${esc(c.l)}">${c.f?c.f(r[c.k],r):esc(r[c.k]??'—')}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+}
+function fitTables(){
+  document.querySelectorAll('.scroll').forEach(wr=>{const t=wr.querySelector('table');if(!t)return;
+    t.querySelectorAll('tr.dt').forEach(x=>x.remove());t.querySelectorAll('tr.open').forEach(x=>x.classList.remove('open'));
+    t.classList.remove('tfix');const ths=[...t.querySelectorAll('thead th')];
+    const hide=(i,on)=>t.querySelectorAll(`tr>:nth-child(${i+1})`).forEach(c=>c.classList.toggle('hx',on));
+    ths.forEach((_,i)=>hide(i,false));
+    const order=ths.map((th,i)=>({i,p:+th.dataset.p})).filter(o=>o.p>0).sort((a,b)=>b.p-a.p||b.i-a.i);
+    const over=()=>t.offsetWidth>wr.clientWidth+1||wr.clientWidth/(ths.length-n)<64;
+    let n=0;while(over()&&n<order.length){hide(order[n].i,true);n++;}
+    if(t.dataset.id==='draft'||t.offsetWidth>wr.clientWidth+1)t.classList.add('tfix');
+    t.classList.toggle('hashid',n>0);});
+}
+function toggleDetail(tr){
+  const nx=tr.nextElementSibling;if(nx&&nx.classList.contains('dt')){nx.remove();tr.classList.remove('open');return;}
+  const t=tr.closest('table'),hid=[...tr.children].filter(c=>c.classList.contains('hx'));
+  const vis=[...tr.children].length-hid.length,d=document.createElement('tr');d.className='dt';
+  d.innerHTML=`<td colspan="${vis}"><div class="dl">${hid.map(c=>`<span><b>${c.dataset.l}</b> ${c.innerHTML}</span>`).join('')}${tr.dataset.href?`<a href="${tr.dataset.href}">Open →</a>`:''}</div></td>`;
+  tr.after(d);tr.classList.add('open');
 }
 const empty=(t,s)=>`<div class="empty"><b>${esc(t)}</b>${esc(s||'')}</div>`;
 const allZero=o=>!o||Object.values(o).every(v=>v==null||v===0||v===''||(typeof v==='string'&&/^[-.0]*$/.test(v)));
@@ -239,8 +262,10 @@ function vDraft(){
     <select id="dpos">${['ALL',...POS].map(p=>`<option ${p===st.pos?'selected':''}>${p}</option>`).join('')}</select>
     <select id="dsort">${[['fit','Pistons fit'],['val','Value'],['ov','Now (ratings)'],['real','Real 2005+'],['realSal','Real $'],['age','Age'],['height','Height'],...RK.map(k=>[k,RNAME[k]])].map(([k,l])=>`<option value="${k}" ${k===st.sort?'selected':''}>Sort: ${l}</option>`).join('')}</select>
     <button class="ghost" id="dnear">${st.onlyNear?'✓ ':''}Hide likely gone</button><button class="ghost" id="dtaken">${st.showTaken?'✓ ':''}Show taken</button></div>`;
-  h+=table([{k:'fitRank',l:'#',n:1,f:(v,r)=>r.taken?'—':v},{k:'name',l:'Player',f:(v,r)=>`<a href="#players/${r.player_id}">${esc(v)}</a>${r.taken?`<span class="tag pick">TAKEN R${r.taken.round}#${r.taken.pick} ${esc(r.taken.team.split(' ').pop())}</span>`:r.likelyGone?'':(r.fitRank<=10?'<span class="tag">TARGET</span>':'')}`},{k:'pos',l:'Pos'},{k:'age',l:'Age',n:1},{k:'height',l:'Ht'},
-     ...RK.map(k=>({k,l:k==='pot'?'POT (ignored)':k.toUpperCase(),f:(v,r)=>gradeCell(r.r[k])})),{k:'ov',l:'Now',n:1,f:(v,r)=>`${f1(v)}<div class="note small">${f1(r.now)} pct</div>`},{k:'real',l:'Real',n:1,f:(v,r)=>r.noData?'<span class="tag pick" title="No Basketball Reference match — scored on ratings only">no data</span>':`${f1(v)}<div class="note small">${f1(r.rc.near_ws)} WS* · ${r.rc.seasons_2005_on} yrs</div>`},{k:'val',l:'Value',n:1,f:f1},{k:'fit',l:'Fit',n:1,f:(v,r)=>`<b>${f1(v)}</b>`},{k:'realSal',l:'Real $',n:1,f:(v,r)=>v?mm(v)+(r.rc&&r.rc.contract_end_est?`<div class="note small">thru ${esc(r.rc.contract_end_est)}</div>`:''):'<span class="note">—</span>'},{k:'sal1',l:'Site $',n:1,f:v=>v?mm(v):'<span class="note">none</span>'},{k:'after',l:'DET after',n:1,f:(v,r)=>`${mm(v)} ${statusChip(v)}${r.warns&&r.warns.length?`<div class="warnline">⚠️ ${esc(r.warns.join('; '))}</div>`:''}`}],
+  const gg=r=>`<div class="gg">${RK.map(k=>`<span><small>${k==='pot'?'POT*':k.toUpperCase()}</small>${gradeCell(r.r[k])}</span>`).join('')}</div>`;
+  h+=table([{k:'fitRank',l:'#',n:1,p:0,w:'5%',f:(v,r)=>r.taken?'—':v},{k:'name',l:'Player',p:0,w:'19%',f:(v,r)=>`<a href="#players/${r.player_id}">${esc(v)}</a>${r.taken?`<span class="tag pick">TAKEN R${r.taken.round}#${r.taken.pick} ${esc(r.taken.team.split(' ').pop())}</span>`:r.likelyGone?'':(r.fitRank<=10?'<span class="tag">TARGET</span>':'')}<div class="note small">${esc(r.pos)} · ${r.age??'—'} · ${esc(r.height??'—')}</div>`},
+     {k:'grades',l:'Grades',p:5,w:'25%',f:(v,r)=>gg(r)},{k:'ov',l:'Now',n:1,p:3,w:'8%',f:(v,r)=>`${f1(v)}<div class="note small">${f1(r.now)} pct</div>`},{k:'real',l:'Real',n:1,p:3,w:'9%',f:(v,r)=>r.noData?'<span class="tag pick" title="No Basketball Reference match — scored on ratings only">no data</span>':`${f1(v)}<div class="note small">${f1(r.rc.near_ws)} WS* · ${r.rc.seasons_2005_on} yrs</div>`},{k:'val',l:'Value',n:1,p:2,w:'7%',f:f1},{k:'fit',l:'Fit',n:1,p:0,w:'7%',f:(v,r)=>`<b>${f1(v)}</b>`},
+     {k:'realSal',l:'Real $ / Site $',n:1,p:4,w:'10%',f:(v,r)=>(v?mm(v)+(r.rc&&r.rc.contract_end_est?`<div class="note small">thru ${esc(r.rc.contract_end_est)}</div>`:''):'<span class="note">—</span>')+`<div class="note small">site ${r.sal1?mm(r.sal1):'none'}</div>`},{k:'after',l:'DET after',n:1,p:4,w:'10%',f:(v,r)=>`${mm(v)} ${statusChip(v)}${r.warns&&r.warns.length?`<div class="warnline">⚠️ ${esc(r.warns.join('; '))}</div>`:''}`}],
      rows.slice(0,200).map(r=>({...r,_style:r.likelyGone})),{id:'draft',sortKey:key,sortDir:st.dir,me:r=>!r.taken&&r.likelyGone===false&&r.fitRank<=10});
   if(rows.length>200) h+=`<p class="note small">Showing top 200 of ${rows.length}; filter by position or search to see more.</p>`;
   h+=`</div><div class="card"><h2>Draft order & picks made</h2>${table([{k:'overall',l:'Ovr',n:1},{k:'rp',l:'Pick'},{k:'team',l:'Team'},{k:'sel',l:'Selection'}],
@@ -376,7 +401,7 @@ function vAnalytics(){
   const q=st.q.toLowerCase();
   let rows=A.pl.filter(x=>(!q||x.name.toLowerCase().includes(q))&&(st.team==='ALL'||x.team_id===+st.team)&&(st.pos==='ALL'||x.pos===st.pos)&&(!st.min||x.mpg>=st.min));
   rows.sort((a,b)=>{const va=AV(a,st.sort),vb=AV(b,st.sort);if(va==null&&vb==null)return a.name.localeCompare(b.name);if(va==null)return 1;if(vb==null)return -1;return (typeof va==='string'?va.localeCompare(vb):va-vb)*st.dir;});
-  const cols=['name','team','pos','g','mpg','ppg','rpg','apg','ts','efg','usg','ato','gs','per','ws','wsm'].map(k=>({k,l:ACOLS[k].l,n:ACOLS[k].n,f:ACOLS[k].f?((v,r)=>ACOLS[k].f(AV(r,k))):(k==='name'?(v,r)=>`<b>${esc(r.name)}</b>`:k==='team'?(v,r)=>esc(r.team.split(' ').slice(-1)[0]):null)}));
+  const cols=['name','team','pos','g','mpg','ppg','rpg','apg','ts','efg','usg','ato','gs','per','ws','wsm'].map(k=>({k,l:ACOLS[k].l,n:ACOLS[k].n,p:{name:0,per:0,ppg:1,rpg:1,apg:1,team:2,ts:2,mpg:2}[k]??3,f:ACOLS[k].f?((v,r)=>ACOLS[k].f(AV(r,k))):(k==='name'?(v,r)=>`<b>${esc(r.name)}</b>`:k==='team'?(v,r)=>esc(r.team.split(' ').slice(-1)[0]):null)}));
   h+=`<div class="card"><h2>Player advanced stats <span class="chip">${rows.length}</span></h2><div class="controls">
    <input type="search" id="aq" placeholder="Search players" value="${esc(st.q)}" autocomplete="off">
    <select id="ateam"><option value="ALL">All teams</option>${[...B.teams].sort((a,b)=>a.name.localeCompare(b.name)).map(t=>`<option value="${t.team_id}" ${+st.team===t.team_id?'selected':''}>${esc(t.name)}</option>`).join('')}</select>
@@ -704,7 +729,9 @@ function tradeBind(){
 /* ---------- events ---------- */
 function bind(){
   tradeBind();
-  document.querySelectorAll('[data-href]').forEach(el=>el.addEventListener('click',e=>{if(e.target.closest('a'))return;location.hash=el.dataset.href.replace(/^#/,'');}));
+  fitTables();
+  document.querySelectorAll('.tbl tbody').forEach(tb=>tb.addEventListener('click',e=>{const tr=e.target.closest('tr');if(!tr||tr.classList.contains('dt')||e.target.closest('a'))return;
+    if(tr.closest('table').classList.contains('hashid')){toggleDetail(tr);return;}if(tr.dataset.href)location.hash=tr.dataset.href.replace(/^#/,'');}));
   const on=(id,ev,fn)=>{const el=document.getElementById(id);if(el)el.addEventListener(ev,fn);};
   const rerender=(keepFocus)=>{const pos=keepFocus&&document.activeElement?.id;const sel=document.activeElement?.selectionStart;route(null,true);if(pos){const el=document.getElementById(pos);if(el){el.focus();try{el.setSelectionRange(sel,sel);}catch(e){}}}};
   on('dq','input',e=>{S.draft.q=e.target.value;rerender(true);});
@@ -712,7 +739,7 @@ function bind(){
   on('dsort','change',e=>{S.draft.sort=e.target.value;S.draft.dir=['age'].includes(e.target.value)?1:-1;rerender();});
   on('dnear','click',()=>{S.draft.onlyNear=!S.draft.onlyNear;rerender();});
   on('dtaken','click',()=>{S.draft.showTaken=!S.draft.showTaken;rerender();});
-  document.querySelectorAll('table[data-id=draft] th').forEach(th=>th.addEventListener('click',()=>{const k=th.dataset.k==='fitRank'?'fit':th.dataset.k;if(S.draft.sort===k)S.draft.dir*=-1;else{S.draft.sort=k;S.draft.dir=['name','pos','age'].includes(k)?1:-1;}rerender();}));
+  document.querySelectorAll('table[data-id=draft] th').forEach(th=>th.addEventListener('click',()=>{if(th.dataset.k==='grades')return;const k=th.dataset.k==='fitRank'?'fit':th.dataset.k;if(S.draft.sort===k)S.draft.dir*=-1;else{S.draft.sort=k;S.draft.dir=['name','pos','age'].includes(k)?1:-1;}rerender();}));
   document.querySelectorAll('[data-lsub]').forEach(b=>b.addEventListener('click',()=>{S.lsub=b.dataset.lsub;rerender();}));
   on('lcat','change',e=>{S.lcat=e.target.value;rerender();});
   on('cmp','change',e=>{S.cmp=+e.target.value;rerender();});
@@ -739,4 +766,5 @@ function bind(){
 }
 (()=>{const b=document.getElementById('menuBtn'),m=document.getElementById('menu');if(!b)return;
   b.addEventListener('click',e=>{e.stopPropagation();m.hidden=!m.hidden;});document.addEventListener('click',()=>m.hidden=true);addEventListener('hashchange',()=>m.hidden=true);})();
+{let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(fitTables,120);});}
 boot();

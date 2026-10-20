@@ -17,19 +17,23 @@ main{padding:12px 12px calc(var(--tab) + env(safe-area-inset-bottom) + 40px);max
 .kpis{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
 .kpi{background:var(--chip);border-radius:12px;padding:10px}.kpi .v{font-size:20px;font-weight:700}.kpi .l{font-size:12px;color:var(--mut)}
 .bar{height:10px;border-radius:6px;background:var(--line);overflow:hidden;margin-top:6px}.bar>i{display:block;height:100%;background:var(--red)}
-.tbl{width:100%;border-collapse:collapse;font-size:14px}.tbl th,.tbl td{padding:9px 6px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
-.tbl th{font-size:12px;color:var(--mut);position:sticky;top:0;background:var(--card);cursor:pointer;user-select:none}
+.tbl{width:100%;max-width:100%;border-collapse:collapse;font-size:clamp(12px,3.2vw,14px)}.tbl th,.tbl td{padding:clamp(6px,1.6vw,9px) clamp(3px,1vw,6px);border-bottom:1px solid var(--line);text-align:left;white-space:normal;overflow-wrap:break-word;vertical-align:top}
+.tbl th{font-size:clamp(10px,2.8vw,12px);vertical-align:bottom;color:var(--mut);position:sticky;top:0;background:var(--card);cursor:pointer;user-select:none}
 .tbl td.n,.tbl th.n{text-align:right;font-variant-numeric:tabular-nums}
 .tbl tr.me td{background:var(--hi);font-weight:600}
-.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 -14px;padding:0 14px}
+.scroll{max-width:100%}
+.tbl .hx{display:none}.tbl.tfix{table-layout:fixed}.tbl.tfix td,.tbl.tfix th{overflow-wrap:anywhere}
+.tbl.hashid tbody tr:not(.dt){cursor:pointer}.tbl.hashid tbody tr:not(.dt)>td:first-child{box-shadow:inset 3px 0 0 var(--line)}.tbl tr.open>td{border-bottom:0}
+.tbl tr.dt>td{background:var(--chip);font-size:12px;padding:6px 8px}.dl{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline}.dl>span{display:inline-flex;gap:4px;align-items:baseline;flex-wrap:wrap}.dl b{color:var(--mut);font-weight:600}.dl .note{display:inline}
+.gg{display:flex;flex-wrap:wrap;gap:2px 4px}.gg>span{display:inline-flex;flex-direction:column;align-items:center;font-size:9px;color:var(--mut);line-height:1.1}.gg .g{min-width:26px;font-size:12px;padding:1px 3px}
 .g{display:inline-block;min-width:30px;text-align:center;border-radius:6px;padding:2px 4px;font-weight:700;font-size:13px}
 .chip{display:inline-block;background:var(--chip);border-radius:999px;padding:3px 10px;font-size:12px;margin:2px 4px 2px 0}
 .chip.red{background:var(--red);color:#fff}.chip.blue{background:var(--blue);color:#fff}
 .controls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
 select,input[type=search],button{font:inherit;min-height:44px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg);padding:0 12px}
-input[type=search]{flex:1;min-width:160px}
+input[type=search]{flex:1;min-width:140px;max-width:100%}select{max-width:100%}
 button{background:var(--blue);color:#fff;border:0;font-weight:600}button.ghost{background:var(--chip);color:var(--fg)}
-.seg{display:flex;background:var(--chip);border-radius:10px;padding:3px;gap:3px;overflow-x:auto}.seg button{flex:1;min-height:38px;background:transparent;color:var(--fg);white-space:nowrap}.seg button.on{background:var(--card);box-shadow:0 1px 3px #0003}
+.seg{display:flex;flex-wrap:wrap;background:var(--chip);border-radius:10px;padding:3px;gap:3px}.seg button{flex:1;min-height:38px;background:transparent;color:var(--fg);white-space:nowrap}.seg button.on{background:var(--card);box-shadow:0 1px 3px #0003}
 .empty{padding:22px 12px;text-align:center;color:var(--mut);font-size:14px;border:1px dashed var(--line);border-radius:12px}
 .empty b{display:block;color:var(--fg);margin-bottom:4px;font-size:15px}
 .plist .row{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);min-height:56px;cursor:pointer}
@@ -84,3 +88,4 @@ details summary{cursor:pointer;min-height:44px;display:flex;align-items:center;f
 
 .ver{font-size:10px;opacity:.75}
 .aseg{border:1px solid var(--blue)}.aseg button{font-weight:700}.aseg button.on{background:var(--blue);color:#fff}
+.tbl .tag{display:inline-block;max-width:100%;margin-left:0;margin-right:4px}.tbl a+.tag{margin-left:4px}
