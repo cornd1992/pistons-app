@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-20T14:53:36Z",
-  "parsed_at": "2026-10-20T14:53:44Z"
+  "crawled_at": "2026-10-21T15:04:56Z",
+  "parsed_at": "2026-10-21T15:05:07Z"
  },
  "transactions": [
   {
@@ -1225,6 +1225,270 @@
    "player_name": "Antonio McDyess",
    "pick": 24,
    "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hornets",
+   "action": "Draft C Mehmet Okur with pick #25 of round 4.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Mehmet Okur",
+   "pick": 25,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pistons",
+   "action": "Draft PF Troy Murphy with pick #26 of round 4.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Troy Murphy",
+   "pick": 26,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Trail Blazers",
+   "action": "Draft PF Kris Humphries with pick #27 of round 4.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Kris Humphries",
+   "pick": 27,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "76ers",
+   "action": "Draft SF Mike Miller with pick #28 of round 4.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Mike Miller",
+   "pick": 28,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bulls",
+   "action": "Draft PF Chris Webber with pick #29 of round 4.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Chris Webber",
+   "pick": 29,
+   "round": 4
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bulls",
+   "action": "Draft SF Trevor Ariza with pick #1 of round 5.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Trevor Ariza",
+   "pick": 1,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "76ers",
+   "action": "Draft C Nazr Mohammed with pick #2 of round 5.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Nazr Mohammed",
+   "pick": 2,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Trail Blazers",
+   "action": "Draft SG Raja Bell with pick #3 of round 5.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Raja Bell",
+   "pick": 3,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pistons",
+   "action": "Draft C Jeff Foster with pick #4 of round 5.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Jeff Foster",
+   "pick": 4,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hornets",
+   "action": "Draft C Erick Dampier with pick #5 of round 5.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Erick Dampier",
+   "pick": 5,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pacers",
+   "action": "Draft C Dikembe Mutombo with pick #6 of round 5.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Dikembe Mutombo",
+   "pick": 6,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Spurs",
+   "action": "Draft PF Amir Johnson with pick #7 of round 5.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Amir Johnson",
+   "pick": 7,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Warriors",
+   "action": "Draft SG Jamal Crawford with pick #8 of round 5.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Jamal Crawford",
+   "pick": 8,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Magic",
+   "action": "Draft SG Leandro Barbosa with pick #9 of round 5.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Leandro Barbosa",
+   "pick": 9,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Knicks",
+   "action": "Draft SF Marvin Williams with pick #10 of round 5.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Marvin Williams",
+   "pick": 10,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Cavaliers",
+   "action": "Draft C Greg Ostertag with pick #11 of round 5.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Greg Ostertag",
+   "pick": 11,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nets",
+   "action": "Draft SF Bruce Bowen with pick #12 of round 5.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Bruce Bowen",
+   "pick": 12,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Lakers",
+   "action": "Draft PG Jason Williams with pick #13 of round 5.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Jason Williams",
+   "pick": 13,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Clippers",
+   "action": "Draft PG Jarrett Jack with pick #14 of round 5.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Jarrett Jack",
+   "pick": 14,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Suns",
+   "action": "Draft PF Udonis Haslem with pick #15 of round 5.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Udonis Haslem",
+   "pick": 15,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Heat",
+   "action": "Draft SG Kyle Korver with pick #16 of round 5.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Kyle Korver",
+   "pick": 16,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Grizzlies",
+   "action": "Draft PG Beno Udrih with pick #17 of round 5.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Beno Udrih",
+   "pick": 17,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Wizards",
+   "action": "Draft PF Andray Blatche with pick #18 of round 5.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Andray Blatche",
+   "pick": 18,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "SuperSonics",
+   "action": "Draft SF C.J. Miles with pick #19 of round 5.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "C.J. Miles",
+   "pick": 19,
+   "round": 5
   }
  ]
 }
