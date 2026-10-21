@@ -74,8 +74,6 @@ jobs:
           mkdir -p _site
           cp -r index.html app.js styles.css sw.js manifest.webmanifest .nojekyll icons data _site/
           cp simba-sitemap.html simba-sitemap.md _site/ 2>/dev/null || true
-          # SIMULATED-data preview at /preview/ (fake 20-game season; never touches data/)
-          python tools/sim_preview.py && cp -r preview _site/preview
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
