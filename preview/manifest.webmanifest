@@ -1,0 +1,16 @@
+{
+  "name": "Pistons Front Office",
+  "short_name": "Pistons GM",
+  "description": "Detroit Pistons team management for the Fast Break Basketball league (simba.mygamesonline.org)",
+  "start_url": "./index.html#team",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b1220",
+  "theme_color": "#1d428a",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
