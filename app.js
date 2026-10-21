@@ -144,7 +144,7 @@ function prepDraft(){
 function route(ev,keep){
   const h=(location.hash||'#team').slice(1).split('/');S.tab=h[0]||'team';
   document.querySelectorAll('.tabbar a').forEach(a=>a.classList.toggle('on',a.dataset.tab===S.tab));
-  const T={team:['My Team',vTeam],draft:['Draft',vDraft],league:['League',vLeague],analytics:['Analytics',vAnalytics],players:['Players',vPlayers],rules:['League Rules',vRules],trade:['Trade Checker',vTrade]};
+  const T={team:['My Team',vTeam],draft:['Draft',vDraft],league:['League',vLeague],analytics:['Analytics',vAnalytics],players:['Players',vPlayers],rules:['League Rules',vRules],trade:['Trade Checker',vTrade],finder:['Trade Finder',vFinder],capplan:['Cap Planning',vCapPlan],fa:['Free Agents',vFA]};
   const [title,fn]=T[S.tab]||T.team;$('#pageTitle').textContent=title;
   if(S.tab==='players'&&h[1]) {$('#view').innerHTML=vPlayer(+h[1]);}
   else if(S.tab==='analytics'){S.anp=h[1]?+h[1]:null;$('#view').innerHTML=fn();}
@@ -482,13 +482,14 @@ const ACOLS={
 const AV=(x,k)=>ACOLS[k]?.v?ACOLS[k].v(x):x[k];
 function vAnalytics(){
   const A=advCompute(),st=S.an=S.an||{q:'',team:'ALL',pos:'ALL',sort:'per',dir:-1,sub:'players',min:0};
-  let h=`<div class="note small" style="margin:0 0 4px 2px;font-weight:600">View</div><div class="seg aseg" style="margin-bottom:12px">${[['players','Players'],['teams','Teams'],['rotation','Rotation'],['trends','Trends'],['compare','Compare'],['formulas','Formulas']].map(([k,l])=>`<button data-asub="${k}" class="${st.sub===k?'on':''}">${l}</button>`).join('')}</div>`;
+  let h=`<div class="note small" style="margin:0 0 4px 2px;font-weight:600">View</div><div class="seg aseg" style="margin-bottom:12px">${[['players','Players'],['teams','Teams'],['rotation','Rotation'],['trends','Trends'],['compare','Compare'],['hotcold','Hot & Cold'],['formulas','Formulas']].map(([k,l])=>`<button data-asub="${k}" class="${st.sub===k?'on':''}">${l}</button>`).join('')}</div>`;
   if(!A.anyGames) h+=`<div class="callout"><b>No games played yet.</b> Advanced stats compute automatically from the daily scrape once the season tips off. Until then every metric shows “—”.</div>`;
   if(st.sub==='teams') return h+anTeams(A);
   if(st.sub==='formulas') return h+anFormulas(A);
   if(st.sub==='rotation') return h+anRotation(A);
   if(st.sub==='trends') return h+anTrends(A);
   if(st.sub==='compare') return h+anCompare(A);
+  if(st.sub==='hotcold') return h+anHotCold(A);
   if(S.anp) h+=anCard(A,S.anp);
   const q=st.q.toLowerCase();
   let rows=A.pl.filter(x=>(!q||x.name.toLowerCase().includes(q))&&(st.team==='ALL'||x.team_id===+st.team)&&(st.pos==='ALL'||x.pos===st.pos)&&(!st.min||x.mpg>=st.min));
@@ -590,6 +591,90 @@ function anCompare(A){
   h+=`<table class="cmpt"><thead><tr><th></th><th>${hd[0]}</th><th>${hd[1]}</th></tr></thead><tbody>${rows.map(r=>`<tr><th>${esc(r.l)}</th><td>${r.a??'—'}</td><td>${r.b??'—'}</td></tr>`).join('')}</tbody></table>`;
   if(!any) h+=NOG('','Season stats, TS%, usage and PER appear here once either player has played.');
   h+=`<h3>Grades</h3>${radar([{v:RK.filter(k=>k!=='pot').map(k=>gv(P[0].r[k])),c:'var(--red)'},{v:RK.filter(k=>k!=='pot').map(k=>gv(P[1].r[k])),c:'var(--blue)'}],RK.filter(k=>k!=='pot').map(k=>RNAME[k]),260)}<p class="note small"><span style="color:var(--red)">■</span> ${esc(properCase(P[0].p.name||''))} &nbsp; <span style="color:var(--blue)">■</span> ${esc(properCase(P[1].p.name||''))}. Potential is not shown or used.</p></div>`;
+  return h;
+}
+
+/* ---------- Detroit player value (shared by Trade Finder / FA tracker): no potential ---------- */
+function PV(){ if(B._pv) return B._pv;
+  const all=B.players.filter(p=>p.name),ovs=all.map(p=>overall(ratingsOf(p),p.pos)),raws=all.map(p=>realRaw(realOf(p.player_id)));
+  const pN=scaleTo(ovs),pR=scaleTo(raws.filter(v=>v!=null)),N=needs(),m=new Map();
+  all.forEach((p,i)=>{const r=ratingsOf(p),now=pN(ovs[i]),real=raws[i]==null?null:pR(raws[i]),val=real==null?now:0.5*now+0.5*real,big=p.pos==='PF'||p.pos==='C',ek=big?'df':'out',eg=r[ek],en=gv(eg)!=null?(gv(eg)-30)/70*100:50;
+    m.set(p.player_id,{val,now,real,en,ek,eg:eg||'—',ovr:OVR(r,p.pos),r,need:(N.need[p.pos]??0.5)});});
+  return B._pv=m;}
+const pvOf=id=>PV().get(id)||{val:40,en:50,ek:'out',eg:'—',ovr:null,need:.5};
+const detFit=id=>{const v=pvOf(id);return 0.7*(0.7*v.val+0.3*v.need*100)+0.3*v.en;};
+function rosterQ(list,det){ // roster strength: best-first weighted sum (+ positional coverage)
+  const w=[1,.9,.8,.7,.6,.45,.35,.25,.15,.1,.05,.05,.05,.05,.05];
+  const v=list.map(x=>{const q=pvOf(x.player_id);return det?0.7*q.val+0.3*q.en:q.val;}).sort((a,b)=>b-a);
+  const cov=new Set(list.map(x=>x.pos)).size;return v.reduce((a,x,i)=>a+x*(w[i]||0),0)+4*cov;}
+function vFinder(){
+  const c=CR(),my=B.myTeam,mine=(my.players||[]);
+  if(!B._finder){const out=[],q0=rosterQ(mine,true);
+    const combos=a=>{const r=a.map(x=>[x]);for(let i=0;i<a.length;i++)for(let j=i+1;j<a.length;j++)r.push([a[i],a[j]]);return r;};
+    B.teams.filter(t=>t.team_id!==my.team_id&&(t.players||[]).length).forEach(t=>{const th=t.players,oq0=rosterQ(th,false);
+      combos(mine).forEach(send=>combos(th).forEach(get=>{if(send.length+get.length>3)return;
+        const st={teams:[my.team_id,t.team_id],assets:[...send.map(p=>({kind:'player',id:p.player_id,from:my.team_id,to:t.team_id})),...get.map(p=>({kind:'player',id:p.player_id,from:t.team_id,to:my.team_id}))],cash:{},bal:{},adj:{},hc:{},rep:{}};
+        const E=tradeEval(st);if(E.verdict!=='pass')return;const D=E.res.find(r=>r.id===my.team_id),O=E.res.find(r=>r.id===t.team_id);
+        if(D.post.tax>=c.first_apron)return;
+        const ids=new Set(send.map(p=>p.player_id)),gids=new Set(get.map(p=>p.player_id));
+        const dq=rosterQ([...mine.filter(p=>!ids.has(p.player_id)),...get],true)-q0,oq=rosterQ([...th.filter(p=>!gids.has(p.player_id)),...send],false)-oq0;
+        if(dq<=0.5||oq<-6)return;
+        out.push({t,send,get,dq,oq,score:dq-0.8*Math.max(0,-oq)-0.15*Math.max(0,oq-dq),D,O,st,hc:D.mode&&!/100%|cap room/.test(D.mode)});}));});
+    out.sort((a,b)=>b.score-a.score);B._finder=out;}
+  const L=B._finder,pl=p=>{const v=pvOf(p.player_id);return `${plink(p.name,p.player_id)} <small>${esc(p.pos)} · ${p.age??'—'} · ${mm((p.salary||{}).year_1||0)} · OVR ${v.ovr??'—'} · ${v.ek==='df'?'Defense':'Outside'} ${esc(v.eg)}</small>`;};
+  const draftLive=((B.facts||{}).creation_draft||{}).rounds?.some(r=>!r.complete);
+  let h=`<div class="card"><h2>Trade finder <span class="chip">${L.length} legal ideas</span></h2><p class="note small">Scans every 1-for-1, 2-for-1 and 1-for-2 player deal with each team through the same League rules as the Trade Checker (salary-matching tiers, 100% matching above an apron, max 5 out, hard cap at the 1st apron when the table is used). Kept only if Detroit stays under the 1st apron (${mm(c.first_apron)}) and improves. Detroit value = Value (0.5 Now + 0.5 Real, no potential) with the Detroit emphasis (Outside for PG/SG/SF, Defense for PF/C) plus positional coverage; partner value uses plain Value. Ranked by Detroit gain, penalising deals that hurt the partner (unlikely to be accepted) or are lopsided.</p>${draftLive?'<div class="callout">The creation draft is still running: the league allows no trades until it ends. Treat these as ideas to revisit.</div>':''}</div>`;
+  if(!L.length) return h+`<div class="card">${empty('No qualifying trades right now','No legal deal both improves Detroit and stays under the 1st apron with a roughly fair return.')}</div>`;
+  h+=L.slice(0,25).map((x,i)=>`<div class="card tf"><h3>#${i+1} with ${esc(x.t.name)} <span class="chip ${x.dq>0?'':'red'}">DET +${f1(x.dq)}</span> <span class="chip">${esc(x.t.name.split(' ').pop())} ${sgn(x.oq)}</span></h3>
+    <div class="tfr"><b>Detroit sends</b>${x.send.map(p=>`<div>${pl(p)}</div>`).join('')}</div><div class="tfr"><b>Detroit gets</b>${x.get.map(p=>`<div>${pl(p)}</div>`).join('')}</div>
+    <p class="note small">DET payroll ${mm(x.D.pre.tax)} → ${mm(x.D.post.tax)} (${capStatus(x.D.post.tax).k}) · matching: ${esc(x.D.mode)}${x.hc?' · uses the table → Detroit hard-capped at the 1st apron':''}</p>
+    <button class="ghost" data-tfopen="${i}">Open in Trade checker</button></div>`).join('');
+  return h;
+}
+/* ---------- Contract & cap planning ---------- */
+function salYears(x){ // 5 seasons for a roster entry. Year 1 = real 2005-06 salary; later years = site contract years scaled by real÷site year 1
+  const s=x.salary||{},y1=s.year_1||0,site1=x.siteSal||y1,k=x.pending?1:site1>10?Math.min(3,y1/site1):1; // pending picks already carry real salary history
+  return [1,2,3,4,5].map(y=>{if(y===1)return {v:y1};const v=s['year_'+y]||0;return v>0&&v<=10?{v:0,opt:true}:{v:Math.round(v*k)};});}
+const SEAS=['2005-06','2006-07','2007-08','2008-09','2009-10'];
+function vCapPlan(){
+  const c=CR(),thr=[['salary_floor','Floor'],['salary_cap','Cap'],['luxury_tax','Tax'],['first_apron','1st apron'],['second_apron','2nd apron']];
+  const proj=t=>{const per=(t.players||[]).map(x=>({x,y:salYears(x)}));return {per,tot:SEAS.map((_,i)=>per.reduce((a,p)=>a+p.y[i].v,0))};};
+  const my=B.myTeam,P=proj(my);
+  let h=`<div class="card"><h2>Pistons payroll by season</h2><div class="kpis">${SEAS.map((s,i)=>`<div class="kpi"><div class="v">${mm(P.tot[i])}</div><div class="l">${s}<br>${esc(capStatus(P.tot[i]).k)}</div></div>`).join('')}</div>
+   ${table([{k:'name',l:'Player',f:(v,r)=>plink(v,r.id)},...SEAS.map((s,i)=>({k:'y'+i,l:s.slice(2),n:1,p:i>2?3:i?2:0,f:v=>v==null?'—':v==='opt'?'opt':v?f1(v/1e6):'—'}))],
+     P.per.map(p=>({name:p.x.name,id:p.x.player_id,...Object.fromEntries(p.y.map((y,i)=>['y'+i,y.opt?'opt':y.v]))})).sort((a,b)=>b.y0-a.y0))}
+   <p class="note small">$ millions. Thresholds held flat at 2005-06 levels: ${thr.map(([k,l])=>`${l} ${mm(c[k])}`).join(' · ')}.</p>
+   ${line(SEAS.map((s,i)=>({l:s.slice(2),v:P.tot[i]/1e6})),{label:'Payroll $M'})}</div>`;
+  const rows=B.teams.map(t=>{const p=proj(t);return {team:t.name,_team:t.team_id,team_id:t.team_id,...Object.fromEntries(p.tot.map((v,i)=>['y'+i,v]))};}).sort((a,b)=>b.y0-a.y0);
+  h+=`<div class="card"><h2>League payroll outlook</h2>${table([{k:'team',l:'Team',f:v=>esc(v.split(' ').pop())},...SEAS.map((s,i)=>({k:'y'+i,l:s.slice(2),n:1,p:i>2?3:i?2:0,f:v=>`<span class="${v>c.first_apron?'bad':v<c.salary_floor?'note':''}">${f1(v/1e6)}</span>`}))],rows,{me:r=>r.team_id===my.team_id})}
+   <p class="note small">Red = above the 1st apron; grey = under the floor.</p></div>`;
+  h+=`<div class="card"><h2>Assumptions</h2><ul class="rl"><li>Rosters as of today, including pending creation-draft picks; no re-signings, extensions, options exercised, or future signings.</li><li>2005-06 uses each player's real 2005-06 salary (site salary where none exists). Later seasons: for rostered players, the stats-site contract's remaining years scaled by real÷site 2005-06 (capped at 3×) so the level matches real salaries while length and raises follow the site contract; for pending draft picks, the real Basketball Reference salary history (0 once it ends).</li><li>Site contract cells with a placeholder value (≤ $10) are shown as “opt” and counted as $0 — treat them as options/unguaranteed years.</li><li>Cap, tax, apron and floor are held at 2005-06 values; the league hasn't published future cap figures.</li></ul></div>`;
+  return h;
+}
+/* ---------- Free agents & waivers ---------- */
+function vFA(){
+  const H=B.fa_history||{first_seen:{},waived:[]},last=H.last_crawl,fa=(B.freeagents||[]).map(r=>{const id=r.player_id,p=B.pById.get(id)||r;const v=pvOf(id);
+    return {...p,...r,id,name:r.name||p.name,pos:r.pos||p.pos,v,fit:detFit(id),isNew:!!(H.first_seen[id]&&H.first_seen[id]===last&&H.prev_crawl)};}).sort((a,b)=>b.fit-a.fit);
+  let h=`<div class="card"><h2>Free agents <span class="chip">${fa.length}</span></h2><p class="note small">From the stats site's free-agent list (fa/fa-pos.htm), refreshed daily. Ranked by Detroit fit (Value + Detroit emphasis + positional need; no potential). <span class="tag">NEW</span> = first seen in the latest refresh${H.prev_crawl?'':' (needs one more refresh before anything can be flagged)'}.</p>`;
+  h+=fa.length?`<div class="plist">${fa.slice(0,150).map(p=>row({...p,player_id:p.id,r:p.v.r,age:p.age??'—'},`Fit ${f1(p.fit)}`,`OVR ${p.v.ovr??'—'} · ${p.v.ek==='df'?'Defense':'Outside'} ${p.v.eg} · Value ${f1(p.v.val)}${(()=>{const s=curSal(p);return s.v?' · '+mm(s.v):'';})()}`).replace('</div><div class="meta">',p.isNew?'<span class="tag">NEW</span></div><div class="meta">':'</div><div class="meta">')).join('')}</div>`:empty('No free agents listed','The stats site\u2019s free-agent page is empty right now (normal during the creation draft).');
+  h+=`</div><div class="card"><h2>Waived / released</h2>${(H.waived||[]).length?table([{k:'name',l:'Player',f:(v,r)=>r.player_id?plink(v,r.player_id):esc(v)},{k:'team',l:'By'},{k:'seen',l:'Seen',f:v=>esc(String(v||'').slice(0,10))}],H.waived.slice().reverse()):empty('No waivers or releases yet','Picked up from the stats site\u2019s transactions page when a release/waive appears. The forum Waiver Wire threads (login-only) are not scraped.')}</div>`;
+  return h;
+}
+/* ---------- Hot & Cold ---------- */
+function anHotCold(A){
+  let h=`<div class="card"><h2>Hot & cold</h2>`;
+  if(!A.anyGames) return h+NOG('','Last-5 and last-10 vs season deltas, with buy-low / sell-high flags, appear once games are played.')+'</div>';
+  const ser=id=>(SNAPS||[]).map(s=>s.players?.[id]?.box).filter(b=>b&&b.gp>0).map(b=>({gp:b.gp,b}));
+  const eff=b=>(b.ppg||0)+(b.rpg||0)+(b.apg||0)+(b.spg||0)+(b.bpg||0)-((b.fga||0)-(b.fgm||0))-((b.fta||0)-(b.ftm||0))-(b.topg||0);
+  const rows=A.pl.filter(x=>x.g>=5&&x.mpg>=12).map(x=>{const s=ser(x.id),r=n=>rollWin(s,y=>eff(y.b),n),l5=r(5),l10=r(10),pts5=rollWin(s,y=>y.b.ppg,5);
+    const d5=l5?l5.v-x.eff:null,d10=l10?l10.v-x.eff:null,v=pvOf(x.id).val;
+    const flag=d10!=null&&d10<=-3&&v>=60?'Buy low':d5!=null&&d5>=3&&v<55?'Sell high':'';
+    return {...x,l5:l5?.v,l10:l10?.v,d5,d10,pts5:pts5?.v,flag,team_id:x.team_id};}).filter(x=>x.d5!=null||x.d10!=null);
+  if(!rows.length) return h+NOG('','Needs at least two refreshes with new games so recent windows can be separated from the season line.')+'</div>';
+  const col=[{k:'name',l:'Player',f:(v,r)=>`${plink(v,r.id)}${r.flag?` <span class="tag${r.flag==='Buy low'?'':' pick'}">${r.flag}</span>`:''}<div class="note small">${esc(r.pos)} · ${esc(r.team.split(' ').pop())}</div>`},{k:'eff',l:'EFF',n:1,f:f1},{k:'l5',l:'L5',n:1,f:f1},{k:'d5',l:'Δ5',n:1,f:sgn},{k:'d10',l:'Δ10',n:1,f:sgn,p:2}];
+  const hot=[...rows].sort((a,b)=>(b.d5??b.d10)-(a.d5??a.d10)).slice(0,15),cold=[...rows].sort((a,b)=>(a.d10??a.d5)-(b.d10??b.d5)).slice(0,15);
+  h+=`<h3>Hot (last 5 vs season EFF)</h3>${table(col,hot,{me:r=>r.team_id===B.meta.my_team_id})}<h3>Cold (last 10 vs season EFF)</h3>${table(col,cold,{me:r=>r.team_id===B.meta.my_team_id})}
+   <p class="note small">EFF = PTS+REB+AST+STL+BLK − missed shots − TOV per game. Windows are rebuilt from daily snapshot differences (no game logs on the stats site). Buy low = Value ≥ 60 but down ≥ 3 EFF over the last 10; Sell high = Value < 55 but up ≥ 3 EFF over the last 5.</p></div>`;
   return h;
 }
 function anFormulas(A){
@@ -909,6 +994,7 @@ function bind(){
   on('trep','click',e=>{SET.set('taxRep',!SET.get('taxRep',false));e.target.textContent=(SET.get('taxRep',false)?'✓ ':'')+'Repeater';tcalc();});
   document.querySelectorAll('[data-jump]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();document.getElementById(a.dataset.jump)?.scrollIntoView({behavior:'smooth'});}));
   on('ppos','change',e=>{S.ppos=e.target.value;rerender();});
+  document.querySelectorAll('[data-tfopen]').forEach(b=>b.addEventListener('click',()=>{const x=B._finder[+b.dataset.tfopen];TS.set({...TS.get(),teams:x.st.teams,assets:x.st.assets,cash:{},bal:{},adj:{},hc:{},rep:{},open:null});location.hash='trade';}));
   if(S.tab==='analytics'){const A=S.an;
     document.querySelectorAll('[data-asub]').forEach(b=>b.addEventListener('click',()=>{A.sub=b.dataset.asub;rerender();}));
     on('aq','input',e=>{A.q=e.target.value;rerender(true);});

@@ -125,3 +125,4 @@ details summary{cursor:pointer;min-height:44px;display:flex;align-items:center;f
 .mbn{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.mbt{background:var(--line);border-radius:4px;height:10px;overflow:hidden}.mbf{display:block;height:100%;background:var(--blue)}.mbf.st{background:var(--red)}.mbv{text-align:right;font-variant-numeric:tabular-nums}
 .controls.cmp select{flex:1 1 140px;min-width:0;max-width:100%}
 .cmpt{width:100%;table-layout:fixed;border-collapse:collapse;font-size:13px}.cmpt th,.cmpt td{padding:6px 4px;border-bottom:1px solid var(--line);text-align:center;overflow-wrap:anywhere}.cmpt tbody th{text-align:left;width:30%;font-weight:600}.cmpt thead th{width:35%}
+.tf h3{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.tfr{margin:6px 0;overflow-wrap:anywhere}.tfr small{color:var(--mut)}.bad{color:var(--bad);font-weight:700}

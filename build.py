@@ -64,6 +64,22 @@ for key,fn in (("facts","league_facts.json"),("rules","league_rules.json"),("rea
     if os.path.exists(p): bundle[key]=json.load(open(p))
 stale=os.path.join(D,"forum.json")
 if os.path.exists(stale): os.remove(stale)  # never publish the forum copy
+# ---- free-agent / waiver history (kept in data/fa_history.json so "new since last refresh" survives rebuilds) ----
+fh_p=os.path.join(D,"fa_history.json")
+fh=json.load(open(fh_p)) if os.path.exists(fh_p) else {"first_seen":{},"waived":[],"last_crawl":None,"prev_crawl":None}
+_cr=meta.get("crawled_at") or meta.get("parsed_at")
+if fh.get("last_crawl")!=_cr:
+    fh["prev_crawl"]=fh.get("last_crawl"); fh["last_crawl"]=_cr
+    for r in bundle.get("freeagents") or []:
+        k=str(r.get("player_id") or r.get("name"))
+        fh["first_seen"].setdefault(k,_cr)
+    seen={(w.get("name"),w.get("action")) for w in fh["waived"]}
+    for t in bundle.get("transactions") or []:
+        act=str(t.get("action",""))
+        if re.search(r"\b(waive|release|cut)",act,re.I) and (t.get("player_name"),act) not in seen:
+            fh["waived"].append({"name":t.get("player_name") or act,"player_id":t.get("player_id"),"team":t.get("team"),"action":act,"seen":_cr})
+json.dump(fh,open(fh_p,"w"),separators=(",",":"))
+bundle["fa_history"]=fh
 json.dump(bundle,open(os.path.join(D,"bundle.json"),"w"),separators=(",",":"),ensure_ascii=False)
 if os.path.exists(cap_path): shutil.copy(cap_path,os.path.join(D,"cap_rules.json"))
 for f in files: shutil.copy(os.path.join(SRC,f+".json"),os.path.join(D,f+".json"))  # full copies for reference
