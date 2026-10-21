@@ -1,7 +1,7 @@
 {
  "_meta": {
   "source": "manual — hand-kept league facts (GM list, creation-draft order and results, lottery odds). Not forum posts. Edit by hand; never overwritten by refreshes.",
-  "as_of": "2026-10-20T17:01:00Z",
+  "as_of": "2026-10-21T05:59:08Z",
   "season": 2005
  },
  "pistons_gm": "inf",
@@ -725,13 +725,13 @@
    {
     "round": 5,
     "complete": false,
-    "picks_made": 4,
+    "picks_made": 13,
     "on_the_clock": {
-     "slot": 5,
-     "team": "New Orleans Hornets",
-     "gm": "Swope",
-     "overall": 121,
-     "since": "2026-10-20T17:01:00Z"
+     "slot": 14,
+     "team": "Los Angeles Clippers",
+     "gm": "NV",
+     "overall": 130,
+     "since": "2026-10-21T05:59:08Z"
     },
     "order": [
      {
@@ -1928,6 +1928,87 @@
     "player": "Jeff Foster",
     "player_id": 252,
     "source": "user 2026-10-20"
+   },
+   {
+    "round": 5,
+    "pick": 5,
+    "overall": 121,
+    "team": "New Orleans Hornets",
+    "player": "Erick Dampier",
+    "player_id": 202,
+    "source": "user-pasted forum results 2026-10-21"
+   },
+   {
+    "round": 5,
+    "pick": 6,
+    "overall": 122,
+    "team": "Indiana Pacers",
+    "player": "Dikembe Mutombo",
+    "player_id": 450,
+    "source": "user-pasted forum results 2026-10-21"
+   },
+   {
+    "round": 5,
+    "pick": 7,
+    "overall": 123,
+    "team": "San Antonio Spurs",
+    "player": "Amir Johnson",
+    "player_id": 359,
+    "source": "user-pasted forum results 2026-10-21"
+   },
+   {
+    "round": 5,
+    "pick": 8,
+    "overall": 124,
+    "team": "Golden State Warriors",
+    "player": "Jamal Crawford",
+    "player_id": 198,
+    "source": "user-pasted forum results 2026-10-21"
+   },
+   {
+    "round": 5,
+    "pick": 9,
+    "overall": 125,
+    "team": "Orlando Magic",
+    "player": "Leandro Barbosa",
+    "player_id": 117,
+    "source": "user-pasted forum results 2026-10-21"
+   },
+   {
+    "round": 5,
+    "pick": 10,
+    "overall": 126,
+    "team": "New York Knicks",
+    "player": "Marvin Williams",
+    "player_id": 639,
+    "source": "user-pasted forum results 2026-10-21"
+   },
+   {
+    "round": 5,
+    "pick": 11,
+    "overall": 127,
+    "team": "Cleveland Cavaliers",
+    "player": "Greg Ostertag",
+    "player_id": 471,
+    "source": "user-pasted forum results 2026-10-21"
+   },
+   {
+    "round": 5,
+    "pick": 12,
+    "overall": 128,
+    "team": "New Jersey Nets",
+    "player": "Bruce Bowen",
+    "player_id": 147,
+    "source": "user-pasted forum results 2026-10-21"
+   },
+   {
+    "round": 5,
+    "pick": 13,
+    "overall": 129,
+    "team": "Los Angeles Lakers",
+    "player": "Jason Williams",
+    "player_id": 636,
+    "source": "user-pasted forum results 2026-10-21"
    }
   ]
  },
