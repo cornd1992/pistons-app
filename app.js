@@ -477,20 +477,23 @@ function advCompute(){
 const ACOLS={
   name:{l:'Player'},team:{l:'Team'},pos:{l:'Pos'},g:{l:'GP',n:1,f:v=>v||0},mpg:{l:'MIN',n:1,f:f1},
   ppg:{l:'PTS',n:1,f:f1,v:x=>x.b.ppg},rpg:{l:'REB',n:1,f:f1,v:x=>x.b.rpg},apg:{l:'AST',n:1,f:f1,v:x=>x.b.apg},
-  ts:{l:'TS%',n:1,f:p1},efg:{l:'eFG%',n:1,f:p1},usg:{l:'USG%',n:1,f:f1},ato:{l:'AST/TO',n:1,f:f2},gs:{l:'GmSc',n:1,f:f1},
+  ts:{l:'TS%',n:1,f:p1},efg:{l:'eFG%',n:1,f:p1},usg:{l:'USG%',n:1,f:f1},ato:{l:'AST/TO',n:1,f:f2},pts36:{l:'PTS/36',n:1,f:f1,v:x=>x.p36('ppg')},reb36:{l:'REB/36',n:1,f:f1,v:x=>x.p36('rpg')},ast36:{l:'AST/36',n:1,f:f1,v:x=>x.p36('apg')},gs:{l:'GmSc',n:1,f:f1},
   per:{l:'PER*',n:1,f:f1},ws:{l:'WS*',n:1,f:f2},wsm:{l:'WS/$1M',n:1,f:f2},sal:{l:'Salary',n:1,f:v=>v?mm(v):'—'}};
 const AV=(x,k)=>ACOLS[k]?.v?ACOLS[k].v(x):x[k];
 function vAnalytics(){
   const A=advCompute(),st=S.an=S.an||{q:'',team:'ALL',pos:'ALL',sort:'per',dir:-1,sub:'players',min:0};
-  let h=`<div class="note small" style="margin:0 0 4px 2px;font-weight:600">View</div><div class="seg aseg" style="margin-bottom:12px">${[['players','Players'],['teams','Teams'],['formulas','Formulas']].map(([k,l])=>`<button data-asub="${k}" class="${st.sub===k?'on':''}">${l}</button>`).join('')}</div>`;
+  let h=`<div class="note small" style="margin:0 0 4px 2px;font-weight:600">View</div><div class="seg aseg" style="margin-bottom:12px">${[['players','Players'],['teams','Teams'],['rotation','Rotation'],['trends','Trends'],['compare','Compare'],['formulas','Formulas']].map(([k,l])=>`<button data-asub="${k}" class="${st.sub===k?'on':''}">${l}</button>`).join('')}</div>`;
   if(!A.anyGames) h+=`<div class="callout"><b>No games played yet.</b> Advanced stats compute automatically from the daily scrape once the season tips off. Until then every metric shows “—”.</div>`;
   if(st.sub==='teams') return h+anTeams(A);
   if(st.sub==='formulas') return h+anFormulas(A);
+  if(st.sub==='rotation') return h+anRotation(A);
+  if(st.sub==='trends') return h+anTrends(A);
+  if(st.sub==='compare') return h+anCompare(A);
   if(S.anp) h+=anCard(A,S.anp);
   const q=st.q.toLowerCase();
   let rows=A.pl.filter(x=>(!q||x.name.toLowerCase().includes(q))&&(st.team==='ALL'||x.team_id===+st.team)&&(st.pos==='ALL'||x.pos===st.pos)&&(!st.min||x.mpg>=st.min));
   rows.sort((a,b)=>{const va=AV(a,st.sort),vb=AV(b,st.sort);if(va==null&&vb==null)return a.name.localeCompare(b.name);if(va==null)return 1;if(vb==null)return -1;return (typeof va==='string'?va.localeCompare(vb):va-vb)*st.dir;});
-  const cols=['name','team','pos','g','mpg','ppg','rpg','apg','ts','efg','usg','ato','gs','per','ws','wsm'].map(k=>({k,l:ACOLS[k].l,n:ACOLS[k].n,p:{name:0,per:0,ppg:1,rpg:1,apg:1,team:2,ts:2,mpg:2}[k]??3,f:ACOLS[k].f?((v,r)=>ACOLS[k].f(AV(r,k))):(k==='name'?(v,r)=>`<b>${plink(r.name,r.id)}</b>`:k==='team'?(v,r)=>esc(r.team.split(' ').slice(-1)[0]):null)}));
+  const cols=['name','team','pos','g','mpg','ppg','rpg','apg','ts','efg','usg','ato','pts36','reb36','ast36','gs','per','ws','wsm'].map(k=>({k,l:ACOLS[k].l,n:ACOLS[k].n,p:{name:0,per:0,ppg:1,rpg:1,apg:1,team:2,ts:2,mpg:2,pts36:4,reb36:5,ast36:5}[k]??3,f:ACOLS[k].f?((v,r)=>ACOLS[k].f(AV(r,k))):(k==='name'?(v,r)=>`<b>${plink(r.name,r.id)}</b>`:k==='team'?(v,r)=>esc(r.team.split(' ').slice(-1)[0]):null)}));
   h+=`<div class="card"><h2>Player advanced stats <span class="chip">${rows.length}</span></h2><div class="controls">
    <input type="search" id="aq" placeholder="Search players" value="${esc(st.q)}" autocomplete="off">
    <select id="ateam"><option value="ALL">All teams</option>${[...B.teams].sort((a,b)=>a.name.localeCompare(b.name)).map(t=>`<option value="${t.team_id}" ${+st.team===t.team_id?'selected':''}>${esc(t.name)}</option>`).join('')}</select>
@@ -528,6 +531,67 @@ function anTeams(A){
    <p class="note small">Exp W = GP·PF¹⁴/(PF¹⁴+PA¹⁴). Luck = actual − expected wins.</p></div>`;
   return h;
 }
+
+const NOG=(t,s)=>empty('Available once games are played',s||t);
+function anRotation(A){
+  const my=B.meta.my_team_id,ro=A.pl.filter(x=>x.team_id===my).sort((a,b)=>(b.mpg||0)-(a.mpg||0)||a.name.localeCompare(b.name));
+  let h=`<div class="card"><h2>Pistons rotation</h2>`;
+  if(!ro.some(x=>x.g>0)) return h+NOG('','Minutes distribution and starters vs bench production fill in from the stats site once the Pistons have played.')+`<p class="note small">Roster: ${ro.map(x=>plink(x.name,x.id)).join(', ')||'—'}</p></div>`;
+  const tot=ro.reduce((a,x)=>a+(x.mpg||0),0)||1;
+  h+=`<p class="note small">Minutes per game by player (share of the 240 team minutes). Starters = top 5 by minutes (the stats site doesn't list starts).</p><div class="mbars">${ro.map((x,i)=>`<div class="mb"><span class="mbn">${i<5?'<b>':''}${plink(x.name,x.id)}${i<5?'</b>':''} <small>${esc(x.pos)}</small></span><span class="mbt"><span class="mbf${i<5?' st':''}" style="width:${Math.min(100,(x.mpg||0)/48*100).toFixed(1)}%"></span></span><span class="mbv">${f1(x.mpg)}</span></div>`).join('')}</div>`;
+  const grp=(L,l)=>{const s=k=>L.reduce((a,x)=>a+(x.b[k]||0),0),min=s('mpg');return {grp:l,n:L.length,min,share:min/Math.max(240,tot),pts:s('ppg'),reb:s('rpg'),ast:s('apg'),eff:L.reduce((a,x)=>a+(x.eff||0),0),p36:min?s('ppg')/min*36:null};};
+  const st=ro.slice(0,5),bn=ro.slice(5);
+  h+=`<h3>Starters vs bench</h3>${table([{k:'grp',l:'Group'},{k:'min',l:'MIN',n:1,f:f1},{k:'share',l:'MIN%',n:1,f:p1},{k:'pts',l:'PTS',n:1,f:f1},{k:'reb',l:'REB',n:1,f:f1},{k:'ast',l:'AST',n:1,f:f1},{k:'p36',l:'PTS/36',n:1,f:f1}],[grp(st,'Starters'),grp(bn,'Bench')])}
+   <p class="note small">On-court combinations (two-, three- and five-man lineups) need play-by-play or per-game box scores, which the stats site doesn't publish; this view uses season minutes instead.</p></div>`;
+  return h;
+}
+function snapSeries(){ // per refresh: Pistons record, PF, PA and each player's cumulative box line
+  const my=String(B.meta.my_team_id);
+  return (SNAPS||[]).map(s=>{const m=s.my_team||{},r=m.record||{},y=m.yearly_stats||{};return {at:s.crawled_at,gp:(r.w||0)+(r.l||0),w:r.w||0,l:r.l||0,pf:y.points_per_game||0,pa:y.points_allowed_per_game||0,players:s.players||{}};})
+    .filter(x=>x.gp>0).filter((x,i,a)=>i===0||x.gp!==a[i-1].gp);
+}
+function rollWin(series,get,n){ // average over the last ~n games from cumulative per-game values (snapshot differences)
+  if(series.length<2) return null;const c=series[series.length-1];const tgt=c.gp-n;let a=null;
+  for(let i=series.length-2;i>=0;i--){if(series[i].gp<=tgt){a=series[i];break;}}
+  if(!a) a={gp:0};const ca=get(c),aa=a.gp?get(a):0;if(ca==null)return null;const dg=c.gp-a.gp;return dg>0?{v:(ca*c.gp-(aa||0)*a.gp)/dg,g:dg}:null;
+}
+function anTrends(A){
+  const S2=snapSeries();let h=`<div class="card"><h2>Pistons trends</h2>`;
+  if(!S2.length) return h+NOG('','Rolling last-5/last-10 averages and the rating chart build from the daily snapshots once games are played.')+'</div>';
+  const lbl=x=>new Date(x.at).toLocaleDateString(undefined,{month:'numeric',day:'numeric'});
+  const ser=S2.map((x,i)=>{const p=S2[i-1],dg=p?x.gp-p.gp:x.gp,pf=p?(x.pf*x.gp-p.pf*p.gp)/dg:x.pf,pa=p?(x.pa*x.gp-p.pa*p.gp)/dg:x.pa;return {l:lbl(x),v:pf-pa,pct:x.w/x.gp};});
+  h+=`<h3>Point differential per game, by refresh</h3>${S2.length>1?line(ser,{label:'Margin'}):'<p class="note small">Chart appears after a second refresh with new games.</p>'}`;
+  if(S2.length>1) h+=`<h3>Win % over time</h3>${line(ser.map(x=>({l:x.l,v:x.pct*100})),{label:'Win %'})}`;
+  const tr=[5,10].map(n=>{const pf=rollWin(S2,x=>x.pf,n),pa=rollWin(S2,x=>x.pa,n);return {w:`Last ${n}`,g:pf?pf.g:null,pf:pf?.v,pa:pa?.v,d:pf&&pa?pf.v-pa.v:null};});
+  const c=S2[S2.length-1];tr.push({w:'Season',g:c.gp,pf:c.pf,pa:c.pa,d:c.pf-c.pa});
+  h+=`<h3>Rolling team averages</h3>${table([{k:'w',l:'Window'},{k:'g',l:'GP',n:1,f:v=>v??'—'},{k:'pf',l:'PF',n:1,f:f1},{k:'pa',l:'PA',n:1,f:f1},{k:'d',l:'Diff',n:1,f:sgn}],tr)}`;
+  const my=B.meta.my_team_id,ro=A.pl.filter(x=>x.team_id===my&&x.g>0).sort((a,b)=>b.b.ppg-a.b.ppg);
+  const ps=id=>(SNAPS||[]).map(s=>({at:s.crawled_at,b:s.players?.[id]?.box})).filter(s=>s.b&&s.b.gp>0).map(s=>({gp:s.b.gp,b:s.b}));
+  const pr=ro.map(x=>{const sr=ps(x.id),r=n=>rollWin(sr,s=>s.b.ppg,n);const l5=r(5),l10=r(10);return {name:x.name,id:x.id,s:x.b.ppg,l5:l5?.v,l10:l10?.v,spark:sr.length>1?spark(sr.map(s=>s.b.ppg)):''};});
+  h+=`<h3>Player scoring: last 5 / last 10</h3>${pr.length?table([{k:'name',l:'Player',f:(v,r)=>plink(v,r.id)},{k:'l5',l:'L5',n:1,f:f1},{k:'l10',l:'L10',n:1,f:f1},{k:'s',l:'Season',n:1,f:f1},{k:'spark',l:'Trend',f:v=>v||'—'}],pr):NOG()}
+   <p class="note small">The stats site has no game logs, so “last N” windows are rebuilt from daily snapshot differences and cover the nearest refresh boundary at or before N games ago (GP column shows the actual span).</p></div>`;
+  return h;
+}
+function spark(v,w=70,h=20){if(v.length<2)return '';const mn=Math.min(...v),mx=Math.max(...v),sp=mx-mn||1;return `<svg viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" aria-label="trend"><polyline fill="none" stroke="var(--red)" stroke-width="1.8" points="${v.map((y,i)=>(i*(w-4)/(v.length-1)+2).toFixed(1)+','+(h-2-(y-mn)/sp*(h-4)).toFixed(1)).join(' ')}"/></svg>`;}
+function anCompare(A){
+  const st=S.an,all=[...B.players].filter(p=>p.name).sort((a,b)=>a.name.localeCompare(b.name));
+  const mine=(B.myTeam.players||[]).map(p=>p.player_id);
+  if(!st.c1) st.c1=mine[0]||all[0].player_id;if(!st.c2) st.c2=mine[1]||all[1].player_id;
+  const opt=sel=>all.map(p=>`<option value="${p.player_id}" ${p.player_id===sel?'selected':''}>${esc(properCase(p.name))} (${esc(p.pos)}, ${esc(p.team==='Draft'?'Draft pool':String(p.team||'').split(' ').pop())})</option>`).join('');
+  const one=id=>{const p=B.pById.get(id)||{},r=ratingsOf(p),x=A.pl.find(y=>y.id===id);return {p,r,x,ovr:OVR(r,p.pos)};};
+  const P=[one(+st.c1),one(+st.c2)];
+  let h=`<div class="card"><h2>Player comparison</h2><div class="controls cmp"><select id="cmp1">${opt(+st.c1)}</select><select id="cmp2">${opt(+st.c2)}</select></div>`;
+  const hd=P.map(o=>`${plink(o.p.name,o.p.player_id)}<div class="note small">${esc(o.p.pos||'')} · ${o.p.age??'—'} · ${esc(o.p.team==='Draft'?'Draft pool':o.p.team||'—')}</div>`);
+  const row=(l,a,b,better)=>({l,a,b,_w:better});
+  const G=k=>[P[0].r[k],P[1].r[k]];
+  const rows=[{l:'2K OVR',a:P[0].ovr,b:P[1].ovr},...RK.filter(k=>k!=='pot').map(k=>({l:RNAME[k],a:gradeCell(P[0].r[k]),b:gradeCell(P[1].r[k]),_raw:true}))];
+  const any=P.some(o=>o.x&&o.x.g>0);
+  if(any) [['GP',o=>o.x?.g],['MIN',o=>o.x?.mpg],['PTS',o=>o.x?.b.ppg],['REB',o=>o.x?.b.rpg],['AST',o=>o.x?.b.apg],['STL',o=>o.x?.b.spg],['BLK',o=>o.x?.b.bpg],['TS%',o=>o.x?.ts,p1],['eFG%',o=>o.x?.efg,p1],['USG%*',o=>o.x?.usg],['AST/TO',o=>o.x?.ato,f2],['PTS/36',o=>o.x?.p36('ppg')],['PER*',o=>o.x?.per]].forEach(([l,g,fm])=>{const fx=fm||f1;rows.push({l,a:fx(g(P[0])),b:fx(g(P[1]))});});
+  h+=`<table class="cmpt"><thead><tr><th></th><th>${hd[0]}</th><th>${hd[1]}</th></tr></thead><tbody>${rows.map(r=>`<tr><th>${esc(r.l)}</th><td>${r.a??'—'}</td><td>${r.b??'—'}</td></tr>`).join('')}</tbody></table>`;
+  if(!any) h+=NOG('','Season stats, TS%, usage and PER appear here once either player has played.');
+  h+=`<h3>Grades</h3>${radar([{v:RK.filter(k=>k!=='pot').map(k=>gv(P[0].r[k])),c:'var(--red)'},{v:RK.filter(k=>k!=='pot').map(k=>gv(P[1].r[k])),c:'var(--blue)'}],RK.filter(k=>k!=='pot').map(k=>RNAME[k]),260)}<p class="note small"><span style="color:var(--red)">■</span> ${esc(properCase(P[0].p.name||''))} &nbsp; <span style="color:var(--blue)">■</span> ${esc(properCase(P[1].p.name||''))}. Potential is not shown or used.</p></div>`;
+  return h;
+}
 function anFormulas(A){
   const L=[['TS%','PTS ÷ (2 × (FGA + 0.44 × FTA))'],['eFG%','(FGM + 0.5 × 3PM) ÷ FGA'],['AST/TO','AST ÷ TOV'],['Per 36','stat ÷ MIN × 36'],
    ['Game Score','PTS + 0.4·FGM − 0.7·FGA − 0.4·(FTA−FTM) + 0.39·REB + STL + 0.7·AST + 0.7·BLK − TOV (Hollinger; no OREB/DREB split or fouls on site, so 0.39·REB ≈ 0.7·ORB + 0.3·DRB)'],
@@ -538,7 +602,7 @@ function anFormulas(A){
    ['ORtg / DRtg','100 × PTS scored (allowed) ÷ possessions'],['Net rating','ORtg − DRtg'],['Four Factors','eFG%, TOV% = TOV ÷ poss, FT rate = FTA ÷ FGA (ORB% unavailable)'],
    ['Pythagorean W','GP × PF¹⁴ ÷ (PF¹⁴ + PA¹⁴)']];
   return `<div class="card"><h2>How these are calculated</h2><ul class="ck">${L.map(([a,b])=>`<li class="info"><span class="ic">ƒ</span><span><b>${a}</b> — ${esc(b)}</span></li>`).join('')}</ul>
-  <p class="note small">* estimate. Not available from the stats site: offensive/defensive rebound split, personal fouls, opponent shooting, play-by-play/lineups, per-game box scores (rolling splits use differences between daily snapshots instead).</p></div>`;
+  <p class="note small">* estimate. Not available from the stats site: offensive/defensive rebound split, personal fouls, opponent shooting, play-by-play/lineups, per-game box scores or starts (rolling last-5/10 windows use differences between daily snapshots; starters = top 5 by minutes; no on-court lineup data).</p></div>`;
 }
 
 /* ---------- Players ---------- */
@@ -850,6 +914,7 @@ function bind(){
     on('aq','input',e=>{A.q=e.target.value;rerender(true);});
     on('ateam','change',e=>{A.team=e.target.value;rerender();});on('apos','change',e=>{A.pos=e.target.value;rerender();});on('amin','change',e=>{A.min=+e.target.value;rerender();});
     on('aclose','click',()=>{location.hash='analytics';});
+    on('cmp1','change',e=>{A.c1=+e.target.value;rerender();});on('cmp2','change',e=>{A.c2=+e.target.value;rerender();});
     document.querySelectorAll('table[data-id=adv] th').forEach(th=>th.addEventListener('click',()=>{const k=th.dataset.k;if(A.sort===k)A.dir*=-1;else{A.sort=k;A.dir=['name','team','pos'].includes(k)?1:-1;}rerender();}));
     document.querySelectorAll('table[data-id=ateams] th').forEach(th=>th.addEventListener('click',()=>{const k=th.dataset.k;if(A.tsort===k)A.tdir=-(A.tdir||-1);else{A.tsort=k;A.tdir=k==='team'||k==='drtg'||k==='l'?1:-1;}rerender();}));
     if(S.anp){const c=document.getElementById('acard');if(c)c.scrollIntoView();}}

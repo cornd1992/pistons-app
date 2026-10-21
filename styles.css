@@ -120,3 +120,8 @@ details summary{cursor:pointer;min-height:44px;display:flex;align-items:center;f
 .capx{margin-top:4px;min-width:0}.capx .kpis{gap:6px}.capx .kpi{padding:8px}.capx .kpi .v{font-size:16px}.capx .kpi .l{font-size:11px}
 .capx .tbl{font-size:12px}.capx .tbl th{position:static}
 .capps{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;margin-top:6px}.capps i{color:var(--mut);font-style:normal}.capps em{color:var(--mut)}
+
+.mbars{display:grid;gap:6px;margin:8px 0}.mb{display:grid;grid-template-columns:minmax(0,42%) 1fr 38px;gap:8px;align-items:center;font-size:13px}
+.mbn{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.mbt{background:var(--line);border-radius:4px;height:10px;overflow:hidden}.mbf{display:block;height:100%;background:var(--blue)}.mbf.st{background:var(--red)}.mbv{text-align:right;font-variant-numeric:tabular-nums}
+.controls.cmp select{flex:1 1 140px;min-width:0;max-width:100%}
+.cmpt{width:100%;table-layout:fixed;border-collapse:collapse;font-size:13px}.cmpt th,.cmpt td{padding:6px 4px;border-bottom:1px solid var(--line);text-align:center;overflow-wrap:anywhere}.cmpt tbody th{text-align:left;width:30%;font-weight:600}.cmpt thead th{width:35%}
