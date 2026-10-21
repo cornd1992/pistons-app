@@ -48,6 +48,7 @@ details summary{cursor:pointer;min-height:44px;display:flex;align-items:center;f
 .back{background:var(--chip);color:var(--fg);margin-bottom:10px}
 .tag{font-size:11px;font-weight:700;color:#fff;background:var(--good);border-radius:6px;padding:1px 6px;margin-left:6px}
 .tag.pick{background:var(--red)}
+.tag.emph{background:var(--accent,#1d428a);margin-left:4px}
 
 .brand{position:relative}.menubtn{margin-left:auto;background:#ffffff22;color:#fff;font-size:22px;min-width:44px;min-height:44px;border-radius:12px;padding:0}
 .menu{position:absolute;right:12px;top:calc(100% - 4px);background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:0 8px 30px #0005;min-width:220px;overflow:hidden;z-index:9}
