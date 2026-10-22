@@ -60,7 +60,7 @@ async function boot(){
   const ca=B.meta.crawled_at?new Date(B.meta.crawled_at):null;
   $('#asof').textContent='Data as of '+(ca?ca.toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'unknown')+(B.facts&&B.facts._meta&&B.facts._meta.as_of?' · draft facts '+new Date(B.facts._meta.as_of).toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'')+' · simba.mygamesonline.org';
   fetch('data/version.json',{cache:'no-cache'}).then(r=>r.json()).then(v=>{const el=document.createElement('div');el.className='ver';el.textContent='Build '+v.version+' · app '+v.app;$('#asof').appendChild(el);}).catch(()=>{});
-  applyRealSalaries();addPendingPicks();
+  applyRealSalaries();addPendingPicks();syncPayrolls();
   prepDraft();
   try{const idx=await (await fetch('data/snapshots/index.json',{cache:'no-cache'})).json();
     SNAPS=(await Promise.all(idx.snapshots.map(k=>fetch('data/snapshots/'+k+'.json').then(r=>r.json()).catch(()=>null)))).filter(Boolean);}catch(e){SNAPS=[];}
@@ -82,6 +82,11 @@ function applyRealSalaries(){B.salStats={real:0,site:0,siteNames:[]};
       if(t.team_salary!=null)t.team_salary+=d;if(t.cap_room!=null)t.cap_room-=d;
       const cr=(B.caproom||[]).find(c=>c.team_id===t.team_id);if(cr&&cr!==t){if(cr.team_salary!=null)cr.team_salary+=d;if(cr.cap_room!=null)cr.cap_room-=d;}}
     else{B.salStats.site++;B.salStats.siteNames.push(x.name+' ('+t.name+')');}});});}
+function syncPayrolls(){ // single source of truth: payroll = sum of roster year-1 salaries (real 2005-06 where known); never trust site cap_room/team_salary (site already counts its own draft picks -> double count)
+  const cap=CR().salary_cap||B.meta.salary_cap||0;B.payrollCheck=[];
+  B.teams.forEach(t=>{const sum=(t.players||[]).reduce((a,x)=>a+((x.salary||{}).year_1||0),0);
+    const siteSal=t.team_salary!=null?t.team_salary:(t.cap_room!=null?cap-t.cap_room:null);if(siteSal!=null&&Math.abs(siteSal-sum)>1)B.payrollCheck.push({team:t.name,site:siteSal,sum});
+    t.team_salary=sum;t.cap_room=cap-sum;const cr=(B.caproom||[]).find(c=>c.team_id===t.team_id);if(cr&&cr!==t){cr.team_salary=sum;cr.cap_room=cap-sum;}});}
 function addPendingPicks(){
   B.pending=[];B.pendingAll=[];const tByName=new Map(B.teams.map(t=>[t.name,t]));
   ((B.facts||{}).creation_draft?.picks||[]).forEach(k=>{const t=tByName.get(k.team);if(!t||k.player_id==null)return;
