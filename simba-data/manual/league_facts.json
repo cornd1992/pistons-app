@@ -1,7 +1,7 @@
 {
  "_meta": {
   "source": "manual — hand-kept league facts (GM list, creation-draft order and results, lottery odds). Not forum posts. Edit by hand; never overwritten by refreshes.",
-  "as_of": "2026-10-22T16:59:30Z",
+  "as_of": "2026-10-22T16:59:51Z",
   "season": 2005
  },
  "pistons_gm": "inf",
@@ -878,15 +878,13 @@
    {
     "round": 6,
     "complete": false,
-    "picks_made": 0,
-    "projected": true,
-    "order_note": "Projected snake order (reverse of round 5); not yet confirmed by the league.",
+    "picks_made": 19,
     "on_the_clock": {
-     "slot": 1,
-     "team": "Boston Celtics",
-     "gm": "BironRonso",
-     "overall": 146,
-     "since": "2026-10-22T16:59:30Z"
+     "slot": 20,
+     "team": "New York Knicks",
+     "gm": "Dave",
+     "overall": 165,
+     "since": "2026-10-22T16:59:51Z"
     },
     "order": [
      {
@@ -2307,6 +2305,177 @@
     "team": "Boston Celtics",
     "player": "Darius Miles",
     "player_id": 432,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 1,
+    "overall": 146,
+    "team": "Boston Celtics",
+    "player": "Wally Szczerbiak",
+    "player_id": 574,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 2,
+    "overall": 147,
+    "team": "Milwaukee Bucks",
+    "player": "Eddy Curry",
+    "player_id": 200,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 3,
+    "overall": 148,
+    "team": "Utah Jazz",
+    "player": "Robert Horry",
+    "player_id": 321,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 4,
+    "overall": 149,
+    "team": "Houston Rockets",
+    "player": "Steve Francis",
+    "player_id": 256,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 5,
+    "overall": 150,
+    "team": "Sacramento Kings",
+    "player": "Andres Nocioni",
+    "player_id": 460,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 6,
+    "overall": 151,
+    "team": "Dallas Mavericks",
+    "player": "Ronny Turiaf",
+    "player_id": 593,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 7,
+    "overall": 152,
+    "team": "Denver Nuggets",
+    "player": "James Posey",
+    "player_id": 497,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 8,
+    "overall": 153,
+    "team": "Atlanta Hawks",
+    "player": "Dan Gadzuric",
+    "player_id": 259,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 9,
+    "overall": 154,
+    "team": "Minnesota Timberwolves",
+    "player": "Etan Thomas",
+    "player_id": 582,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 10,
+    "overall": 155,
+    "team": "Toronto Raptors",
+    "player": "Brevin Knight",
+    "player_id": 381,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 11,
+    "overall": 156,
+    "team": "Seattle SuperSonics",
+    "player": "Charlie Villanueva",
+    "player_id": 602,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 12,
+    "overall": 157,
+    "team": "Washington Wizards",
+    "player": "Mike James",
+    "player_id": 350,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 13,
+    "overall": 158,
+    "team": "Memphis Grizzlies",
+    "player": "Linas Kleiza",
+    "player_id": 379,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 14,
+    "overall": 159,
+    "team": "Miami Heat",
+    "player": "Sam Cassell",
+    "player_id": 183,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 15,
+    "overall": 160,
+    "team": "Phoenix Suns",
+    "player": "Luke Ridnour",
+    "player_id": 519,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 16,
+    "overall": 161,
+    "team": "Los Angeles Clippers",
+    "player": "Jerry Stackhouse",
+    "player_id": 561,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 17,
+    "overall": 162,
+    "team": "Los Angeles Lakers",
+    "player": "Chuck Hayes",
+    "player_id": 310,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 18,
+    "overall": 163,
+    "team": "New Jersey Nets",
+    "player": "Anthony Carter",
+    "player_id": 181,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 19,
+    "overall": 164,
+    "team": "Cleveland Cavaliers",
+    "player": "Chris Mihm",
+    "player_id": 429,
     "source": "user-pasted forum results 2026-10-22"
    }
   ]
