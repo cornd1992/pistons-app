@@ -1,7 +1,7 @@
 {
  "_meta": {
   "source": "manual — hand-kept league facts (GM list, creation-draft order and results, lottery odds). Not forum posts. Edit by hand; never overwritten by refreshes.",
-  "as_of": "2026-10-21T05:59:08Z",
+  "as_of": "2026-10-22T16:59:30Z",
   "season": 2005
  },
  "pistons_gm": "inf",
@@ -22,7 +22,7 @@
   "Milwaukee Bucks": "tommyt",
   "Toronto Raptors": "mattfaria12",
   "Dallas Mavericks": "JR",
-  "Denver Nuggets": "raidernation",
+  "Denver Nuggets": "Glock Bowers",
   "Houston Rockets": "TYO",
   "Minnesota Timberwolves": "Bucknut",
   "San Antonio Spurs": "Giggles",
@@ -229,7 +229,7 @@
      {
       "slot": 23,
       "team": "Denver Nuggets",
-      "gm": "raidernation"
+      "gm": "Glock Bowers"
      },
      {
       "slot": 24,
@@ -302,7 +302,7 @@
      {
       "slot": 7,
       "team": "Denver Nuggets",
-      "gm": "raidernation"
+      "gm": "Glock Bowers"
      },
      {
       "slot": 8,
@@ -535,7 +535,7 @@
      {
       "slot": 23,
       "team": "Denver Nuggets",
-      "gm": "raidernation"
+      "gm": "Glock Bowers"
      },
      {
       "slot": 24,
@@ -608,7 +608,7 @@
      {
       "slot": 7,
       "team": "Denver Nuggets",
-      "gm": "raidernation"
+      "gm": "Glock Bowers"
      },
      {
       "slot": 8,
@@ -724,15 +724,9 @@
    },
    {
     "round": 5,
-    "complete": false,
-    "picks_made": 13,
-    "on_the_clock": {
-     "slot": 14,
-     "team": "Los Angeles Clippers",
-     "gm": "NV",
-     "overall": 130,
-     "since": "2026-10-21T05:59:08Z"
-    },
+    "complete": true,
+    "picks_made": 29,
+    "on_the_clock": null,
     "order": [
      {
       "slot": 1,
@@ -847,7 +841,7 @@
      {
       "slot": 23,
       "team": "Denver Nuggets",
-      "gm": "raidernation"
+      "gm": "Glock Bowers"
      },
      {
       "slot": 24,
@@ -878,6 +872,167 @@
       "slot": 29,
       "team": "Boston Celtics",
       "gm": "BironRonso"
+     }
+    ]
+   },
+   {
+    "round": 6,
+    "complete": false,
+    "picks_made": 0,
+    "projected": true,
+    "order_note": "Projected snake order (reverse of round 5); not yet confirmed by the league.",
+    "on_the_clock": {
+     "slot": 1,
+     "team": "Boston Celtics",
+     "gm": "BironRonso",
+     "overall": 146,
+     "since": "2026-10-22T16:59:30Z"
+    },
+    "order": [
+     {
+      "slot": 1,
+      "team": "Boston Celtics",
+      "gm": "BironRonso"
+     },
+     {
+      "slot": 2,
+      "team": "Milwaukee Bucks",
+      "gm": "tommyt"
+     },
+     {
+      "slot": 3,
+      "team": "Utah Jazz",
+      "gm": "stunna"
+     },
+     {
+      "slot": 4,
+      "team": "Houston Rockets",
+      "gm": "TYO"
+     },
+     {
+      "slot": 5,
+      "team": "Sacramento Kings",
+      "gm": "tyfteak"
+     },
+     {
+      "slot": 6,
+      "team": "Dallas Mavericks",
+      "gm": "JR"
+     },
+     {
+      "slot": 7,
+      "team": "Denver Nuggets",
+      "gm": "Glock Bowers"
+     },
+     {
+      "slot": 8,
+      "team": "Atlanta Hawks",
+      "gm": "Will"
+     },
+     {
+      "slot": 9,
+      "team": "Minnesota Timberwolves",
+      "gm": "Bucknut"
+     },
+     {
+      "slot": 10,
+      "team": "Toronto Raptors",
+      "gm": "mattfaria12"
+     },
+     {
+      "slot": 11,
+      "team": "Seattle SuperSonics",
+      "gm": "nickmolyvia"
+     },
+     {
+      "slot": 12,
+      "team": "Washington Wizards",
+      "gm": "paulius"
+     },
+     {
+      "slot": 13,
+      "team": "Memphis Grizzlies",
+      "gm": "LefLop"
+     },
+     {
+      "slot": 14,
+      "team": "Miami Heat",
+      "gm": "LicensedBullshark"
+     },
+     {
+      "slot": 15,
+      "team": "Phoenix Suns",
+      "gm": "kdogg"
+     },
+     {
+      "slot": 16,
+      "team": "Los Angeles Clippers",
+      "gm": "NV"
+     },
+     {
+      "slot": 17,
+      "team": "Los Angeles Lakers",
+      "gm": "shellystrick4L"
+     },
+     {
+      "slot": 18,
+      "team": "New Jersey Nets",
+      "gm": "Teagz"
+     },
+     {
+      "slot": 19,
+      "team": "Cleveland Cavaliers",
+      "gm": "elcheato"
+     },
+     {
+      "slot": 20,
+      "team": "New York Knicks",
+      "gm": "Dave"
+     },
+     {
+      "slot": 21,
+      "team": "Orlando Magic",
+      "gm": "ElJeffe"
+     },
+     {
+      "slot": 22,
+      "team": "Golden State Warriors",
+      "gm": "dez"
+     },
+     {
+      "slot": 23,
+      "team": "San Antonio Spurs",
+      "gm": "Giggles"
+     },
+     {
+      "slot": 24,
+      "team": "Indiana Pacers",
+      "gm": "Beastly"
+     },
+     {
+      "slot": 25,
+      "team": "New Orleans Hornets",
+      "gm": "Swope"
+     },
+     {
+      "slot": 26,
+      "team": "Detroit Pistons",
+      "gm": "inf"
+     },
+     {
+      "slot": 27,
+      "team": "Portland Trail Blazers",
+      "gm": "snipezo"
+     },
+     {
+      "slot": 28,
+      "team": "Philadelphia 76ers",
+      "gm": "daulten780"
+     },
+     {
+      "slot": 29,
+      "team": "Chicago Bulls",
+      "gm": "Mexi"
      }
     ]
    }
@@ -2009,6 +2164,150 @@
     "player": "Jason Williams",
     "player_id": 636,
     "source": "user-pasted forum results 2026-10-21"
+   },
+   {
+    "round": 5,
+    "pick": 14,
+    "overall": 130,
+    "team": "Los Angeles Clippers",
+    "player": "Jarrett Jack",
+    "player_id": 340,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 5,
+    "pick": 15,
+    "overall": 131,
+    "team": "Phoenix Suns",
+    "player": "Udonis Haslem",
+    "player_id": 308,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 5,
+    "pick": 16,
+    "overall": 132,
+    "team": "Miami Heat",
+    "player": "Kyle Korver",
+    "player_id": 383,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 5,
+    "pick": 17,
+    "overall": 133,
+    "team": "Memphis Grizzlies",
+    "player": "Beno Udrih",
+    "player_id": 596,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 5,
+    "pick": 18,
+    "overall": 134,
+    "team": "Washington Wizards",
+    "player": "Andray Blatche",
+    "player_id": 137,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 5,
+    "pick": 19,
+    "overall": 135,
+    "team": "Seattle SuperSonics",
+    "player": "C.J. Miles",
+    "player_id": 431,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 5,
+    "pick": 20,
+    "overall": 136,
+    "team": "Toronto Raptors",
+    "player": "Grant Hill",
+    "player_id": 317,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 5,
+    "pick": 21,
+    "overall": 137,
+    "team": "Minnesota Timberwolves",
+    "player": "Bobby Simmons",
+    "player_id": 543,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 5,
+    "pick": 22,
+    "overall": 138,
+    "team": "Atlanta Hawks",
+    "player": "Carlos Arroyo",
+    "player_id": 108,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 5,
+    "pick": 23,
+    "overall": 139,
+    "team": "Denver Nuggets",
+    "player": "Rafer Alston",
+    "player_id": 95,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 5,
+    "pick": 24,
+    "overall": 140,
+    "team": "Dallas Mavericks",
+    "player": "Stephon Marbury",
+    "player_id": 405,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 5,
+    "pick": 25,
+    "overall": 141,
+    "team": "Sacramento Kings",
+    "player": "Rashad McCants",
+    "player_id": 419,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 5,
+    "pick": 26,
+    "overall": 142,
+    "team": "Houston Rockets",
+    "player": "Stromile Swift",
+    "player_id": 573,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 5,
+    "pick": 27,
+    "overall": 143,
+    "team": "Utah Jazz",
+    "player": "Reggie Evans",
+    "player_id": 239,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 5,
+    "pick": 28,
+    "overall": 144,
+    "team": "Milwaukee Bucks",
+    "player": "Ricky Davis",
+    "player_id": 210,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 5,
+    "pick": 29,
+    "overall": 145,
+    "team": "Boston Celtics",
+    "player": "Darius Miles",
+    "player_id": 432,
+    "source": "user-pasted forum results 2026-10-22"
    }
   ]
  },
