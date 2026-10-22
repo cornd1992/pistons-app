@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-21T15:04:56Z",
-  "parsed_at": "2026-10-21T15:05:07Z"
+  "crawled_at": "2026-10-22T15:04:56Z",
+  "parsed_at": "2026-10-22T15:05:05Z"
  },
  "transactions": [
   {
@@ -1489,6 +1489,204 @@
    "player_name": "C.J. Miles",
    "pick": 19,
    "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Raptors",
+   "action": "Draft SF Grant Hill with pick #20 of round 5.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Grant Hill",
+   "pick": 20,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Timberwolves",
+   "action": "Draft SF Bobby Simmons with pick #21 of round 5.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Bobby Simmons",
+   "pick": 21,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hawks",
+   "action": "Draft PG Carlos Arroyo with pick #22 of round 5.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Carlos Arroyo",
+   "pick": 22,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nuggets",
+   "action": "Draft PG Rafer Alston with pick #23 of round 5.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Rafer Alston",
+   "pick": 23,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Mavericks",
+   "action": "Draft PG Stephon Marbury with pick #24 of round 5.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Stephon Marbury",
+   "pick": 24,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Kings",
+   "action": "Draft SG Rashad McCants with pick #25 of round 5.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Rashad McCants",
+   "pick": 25,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Rockets",
+   "action": "Draft PF Stromile Swift with pick #26 of round 5.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Stromile Swift",
+   "pick": 26,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Jazz",
+   "action": "Draft PF Reggie Evans with pick #27 of round 5.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Reggie Evans",
+   "pick": 27,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bucks",
+   "action": "Draft SG Ricky Davis with pick #28 of round 5.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Ricky Davis",
+   "pick": 28,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Celtics",
+   "action": "Draft SF Darius Miles with pick #29 of round 5.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Darius Miles",
+   "pick": 29,
+   "round": 5
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Celtics",
+   "action": "Draft SF Wally Szczerbiak with pick #1 of round 6.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Wally Szczerbiak",
+   "pick": 1,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bucks",
+   "action": "Draft C Eddy Curry with pick #2 of round 6.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Eddy Curry",
+   "pick": 2,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Jazz",
+   "action": "Draft PF Robert Horry with pick #3 of round 6.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Robert Horry",
+   "pick": 3,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Rockets",
+   "action": "Draft PG Steve Francis with pick #4 of round 6.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Steve Francis",
+   "pick": 4,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Kings",
+   "action": "Draft SF Andres Nocioni with pick #5 of round 6.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Andres Nocioni",
+   "pick": 5,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Mavericks",
+   "action": "Draft C Ronny Turiaf with pick #6 of round 6.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Ronny Turiaf",
+   "pick": 6,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nuggets",
+   "action": "Draft SF James Posey with pick #7 of round 6.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "James Posey",
+   "pick": 7,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hawks",
+   "action": "Draft C Dan Gadzuric with pick #8 of round 6.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Dan Gadzuric",
+   "pick": 8,
+   "round": 6
   }
  ]
 }

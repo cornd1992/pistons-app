@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-21T15:04:56Z",
-  "parsed_at": "2026-10-21T15:05:07Z"
+  "crawled_at": "2026-10-22T15:04:56Z",
+  "parsed_at": "2026-10-22T15:05:05Z"
  },
  "eligible_players": [
   {
@@ -216,21 +216,6 @@
    "height_in": 84
   },
   {
-   "name": "Eddy Curry",
-   "player_id": 200,
-   "pos": "C",
-   "height": "6'11''",
-   "weight": 285,
-   "age": 23,
-   "in": "B",
-   "out": "D+",
-   "hn": "F+",
-   "df": "C",
-   "reb": "C",
-   "pot": "C",
-   "height_in": 83
-  },
-  {
    "name": "Dale Davis",
    "player_id": 208,
    "pos": "C",
@@ -349,21 +334,6 @@
    "reb": "C+",
    "pot": "D",
    "height_in": 82
-  },
-  {
-   "name": "Dan Gadzuric",
-   "player_id": 259,
-   "pos": "C",
-   "height": "6'11''",
-   "weight": 240,
-   "age": 27,
-   "in": "C+",
-   "out": "D+",
-   "hn": "D-",
-   "df": "B-",
-   "reb": "B-",
-   "pot": "C",
-   "height_in": 83
   },
   {
    "name": "Zendon Hamilton",
@@ -1026,21 +996,6 @@
    "height_in": 86
   },
   {
-   "name": "Ronny Turiaf",
-   "player_id": 593,
-   "pos": "C",
-   "height": "6'10''",
-   "weight": 249,
-   "age": 23,
-   "in": "C",
-   "out": "C-",
-   "hn": "D+",
-   "df": "B",
-   "reb": "C",
-   "pot": "B",
-   "height_in": 82
-  },
-  {
    "name": "Jake Voskuhl",
    "player_id": 603,
    "pos": "C",
@@ -1431,21 +1386,6 @@
    "height_in": 81
   },
   {
-   "name": "Reggie Evans",
-   "player_id": 239,
-   "pos": "PF",
-   "height": "6'8''",
-   "weight": 245,
-   "age": 25,
-   "in": "C",
-   "out": "D+",
-   "hn": "D-",
-   "df": "C",
-   "reb": "A-",
-   "pot": "C",
-   "height_in": 80
-  },
-  {
    "name": "Marcus Fizer",
    "player_id": 247,
    "pos": "PF",
@@ -1624,21 +1564,6 @@
    "reb": "C+",
    "pot": "D",
    "height_in": 81
-  },
-  {
-   "name": "Robert Horry",
-   "player_id": 321,
-   "pos": "PF",
-   "height": "6'10''",
-   "weight": 240,
-   "age": 35,
-   "in": "C",
-   "out": "B-",
-   "hn": "D+",
-   "df": "B",
-   "reb": "C+",
-   "pot": "D",
-   "height_in": 82
   },
   {
    "name": "Juwan Howard",
@@ -2119,21 +2044,6 @@
    "reb": "B-",
    "pot": "F",
    "height_in": 80
-  },
-  {
-   "name": "Stromile Swift",
-   "player_id": 573,
-   "pos": "PF",
-   "height": "6'9''",
-   "weight": 228,
-   "age": 26,
-   "in": "B-",
-   "out": "C-",
-   "hn": "D-",
-   "df": "C+",
-   "reb": "C+",
-   "pot": "D",
-   "height_in": 81
   },
   {
    "name": "Maurice Taylor",
@@ -2766,21 +2676,6 @@
    "height_in": 80
   },
   {
-   "name": "Grant Hill",
-   "player_id": 317,
-   "pos": "SF",
-   "height": "6'8''",
-   "weight": 225,
-   "age": 33,
-   "in": "B-",
-   "out": "C",
-   "hn": "C",
-   "df": "B",
-   "reb": "C",
-   "pot": "D",
-   "height_in": 80
-  },
-  {
    "name": "Randy Holcomb",
    "player_id": 320,
    "pos": "SF",
@@ -3036,21 +2931,6 @@
    "height_in": 77
   },
   {
-   "name": "Darius Miles",
-   "player_id": 432,
-   "pos": "SF",
-   "height": "6'9''",
-   "weight": 210,
-   "age": 24,
-   "in": "B-",
-   "out": "D+",
-   "hn": "C-",
-   "df": "B-",
-   "reb": "C",
-   "pot": "D",
-   "height_in": 81
-  },
-  {
    "name": "Sergei Monia",
    "player_id": 441,
    "pos": "SF",
@@ -3141,21 +3021,6 @@
    "height_in": 79
   },
   {
-   "name": "Andres Nocioni",
-   "player_id": 460,
-   "pos": "SF",
-   "height": "6'7''",
-   "weight": 225,
-   "age": 26,
-   "in": "C+",
-   "out": "B",
-   "hn": "D+",
-   "df": "C+",
-   "reb": "C",
-   "pot": "C",
-   "height_in": 79
-  },
-  {
    "name": "Travis Outlaw",
    "player_id": 473,
    "pos": "SF",
@@ -3184,21 +3049,6 @@
    "reb": "C",
    "pot": "D",
    "height_in": 77
-  },
-  {
-   "name": "James Posey",
-   "player_id": 497,
-   "pos": "SF",
-   "height": "6'8''",
-   "weight": 217,
-   "age": 29,
-   "in": "C",
-   "out": "B",
-   "hn": "C-",
-   "df": "B-",
-   "reb": "C",
-   "pot": "D",
-   "height_in": 80
   },
   {
    "name": "Justin Reed",
@@ -3276,21 +3126,6 @@
    "height_in": 81
   },
   {
-   "name": "Bobby Simmons",
-   "player_id": 543,
-   "pos": "SF",
-   "height": "6'6''",
-   "weight": 228,
-   "age": 25,
-   "in": "C+",
-   "out": "B+",
-   "hn": "C-",
-   "df": "C+",
-   "reb": "C",
-   "pot": "C",
-   "height_in": 78
-  },
-  {
    "name": "Theron Smith",
    "player_id": 554,
    "pos": "SF",
@@ -3319,21 +3154,6 @@
    "reb": "C",
    "pot": "D",
    "height_in": 78
-  },
-  {
-   "name": "Wally Szczerbiak",
-   "player_id": 574,
-   "pos": "SF",
-   "height": "6'7''",
-   "weight": 244,
-   "age": 28,
-   "in": "C+",
-   "out": "B+",
-   "hn": "C-",
-   "df": "C",
-   "reb": "C-",
-   "pot": "D",
-   "height_in": 79
   },
   {
    "name": "Tim Thomas",
@@ -3726,21 +3546,6 @@
    "height_in": 78
   },
   {
-   "name": "Ricky Davis",
-   "player_id": 210,
-   "pos": "SG",
-   "height": "6'7''",
-   "weight": 195,
-   "age": 26,
-   "in": "C+",
-   "out": "B-",
-   "hn": "C",
-   "df": "C",
-   "reb": "D+",
-   "pot": "C",
-   "height_in": 79
-  },
-  {
    "name": "Juan Dixon",
    "player_id": 221,
    "pos": "SG",
@@ -4114,21 +3919,6 @@
    "reb": "D+",
    "pot": "C",
    "height_in": 77
-  },
-  {
-   "name": "Rashad McCants",
-   "player_id": 419,
-   "pos": "SG",
-   "height": "6'4''",
-   "weight": 207,
-   "age": 21,
-   "in": "C+",
-   "out": "B-",
-   "hn": "C-",
-   "df": "C",
-   "reb": "D+",
-   "pot": "C",
-   "height_in": 76
   },
   {
    "name": "Aaron McKie",
@@ -4656,21 +4446,6 @@
    "height_in": 75
   },
   {
-   "name": "Rafer Alston",
-   "player_id": 95,
-   "pos": "PG",
-   "height": "6'2''",
-   "weight": 175,
-   "age": 29,
-   "in": "C",
-   "out": "B-",
-   "hn": "B-",
-   "df": "B-",
-   "reb": "D+",
-   "pot": "D",
-   "height_in": 74
-  },
-  {
    "name": "Darrell Armstrong",
    "player_id": 107,
    "pos": "PG",
@@ -4684,21 +4459,6 @@
    "reb": "C-",
    "pot": "F",
    "height_in": 73
-  },
-  {
-   "name": "Carlos Arroyo",
-   "player_id": 108,
-   "pos": "PG",
-   "height": "6'2''",
-   "weight": 202,
-   "age": 26,
-   "in": "C",
-   "out": "C+",
-   "hn": "B",
-   "df": "C+",
-   "reb": "D+",
-   "pot": "C",
-   "height_in": 74
   },
   {
    "name": "Chucky Atkins",
@@ -5106,21 +4866,6 @@
    "height_in": 74
   },
   {
-   "name": "Steve Francis",
-   "player_id": 256,
-   "pos": "PG",
-   "height": "6'3''",
-   "weight": 200,
-   "age": 28,
-   "in": "B-",
-   "out": "C",
-   "hn": "C+",
-   "df": "C+",
-   "reb": "C-",
-   "pot": "D",
-   "height_in": 75
-  },
-  {
    "name": "Eddie Gill",
    "player_id": 270,
    "pos": "PG",
@@ -5464,21 +5209,6 @@
    "reb": "D-",
    "pot": "D",
    "height_in": 72
-  },
-  {
-   "name": "Stephon Marbury",
-   "player_id": 405,
-   "pos": "PG",
-   "height": "6'2''",
-   "weight": 205,
-   "age": 28,
-   "in": "C+",
-   "out": "B-",
-   "hn": "B-",
-   "df": "C",
-   "reb": "D",
-   "pot": "D",
-   "height_in": 74
   },
   {
    "name": "Darrick Martin",

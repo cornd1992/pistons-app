@@ -1,14 +1,14 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-21T15:04:56Z",
-  "parsed_at": "2026-10-21T15:05:07Z"
+  "crawled_at": "2026-10-22T15:04:56Z",
+  "parsed_at": "2026-10-22T15:05:05Z"
  },
  "teams": [
   {
    "team": "Boston Celtics",
    "team_id": 1,
-   "cap_room": 33757072,
+   "cap_room": 16507072,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -113,7 +113,7 @@
   {
    "team": "Atlanta Hawks",
    "team_id": 8,
-   "cap_room": 29073700,
+   "cap_room": 20323700,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -203,7 +203,7 @@
   {
    "team": "Milwaukee Bucks",
    "team_id": 14,
-   "cap_room": 22746228,
+   "cap_room": 9446428,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -218,7 +218,7 @@
   {
    "team": "Toronto Raptors",
    "team_id": 15,
-   "cap_room": 40535920,
+   "cap_room": 24841670,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -233,7 +233,7 @@
   {
    "team": "Dallas Mavericks",
    "team_id": 16,
-   "cap_room": 9973833,
+   "cap_room": -6886717,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -248,7 +248,7 @@
   {
    "team": "Denver Nuggets",
    "team_id": 17,
-   "cap_room": 12515495,
+   "cap_room": 2765095,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -263,7 +263,7 @@
   {
    "team": "Houston Rockets",
    "team_id": 18,
-   "cap_room": 11478084,
+   "cap_room": -7221916,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -278,7 +278,7 @@
   {
    "team": "Minnesota Timberwolves",
    "team_id": 19,
-   "cap_room": 19838383,
+   "cap_room": 11838383,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -308,7 +308,7 @@
   {
    "team": "Utah Jazz",
    "team_id": 21,
-   "cap_room": 16513835,
+   "cap_room": 12413835,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -413,7 +413,7 @@
   {
    "team": "Sacramento Kings",
    "team_id": 28,
-   "cap_room": 4706844,
+   "cap_room": 393444,
    "team_salary": null,
    "committed_by_year": [
     0,

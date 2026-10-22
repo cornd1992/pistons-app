@@ -420,11 +420,6 @@
    "ct": "text/html; charset=UTF-8",
    "title": "C Jason Collins - Draft"
   },
-  "https://simba.mygamesonline.org/players/player200.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "C Eddy Curry - Draft"
-  },
   "https://simba.mygamesonline.org/players/player208.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -464,11 +459,6 @@
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "C Adonal Foyle - Draft"
-  },
-  "https://simba.mygamesonline.org/players/player259.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "C Dan Gadzuric - Draft"
   },
   "https://simba.mygamesonline.org/players/player296.htm": {
    "status": 200,
@@ -690,11 +680,6 @@
    "ct": "text/html; charset=UTF-8",
    "title": "C Jake Tsakalidis - Draft"
   },
-  "https://simba.mygamesonline.org/players/player593.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "C Ronny Turiaf - Draft"
-  },
   "https://simba.mygamesonline.org/players/player603.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -825,11 +810,6 @@
    "ct": "text/html; charset=UTF-8",
    "title": "PF Corsley Edwards - Draft"
   },
-  "https://simba.mygamesonline.org/players/player239.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "PF Reggie Evans - Draft"
-  },
   "https://simba.mygamesonline.org/players/player247.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -889,11 +869,6 @@
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "PF Alan Henderson - Draft"
-  },
-  "https://simba.mygamesonline.org/players/player321.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "PF Robert Horry - Draft"
   },
   "https://simba.mygamesonline.org/players/player325.htm": {
    "status": 200,
@@ -1054,11 +1029,6 @@
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "PF Michael Sweetney - Draft"
-  },
-  "https://simba.mygamesonline.org/players/player573.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "PF Stromile Swift - Draft"
   },
   "https://simba.mygamesonline.org/players/player578.htm": {
    "status": 200,
@@ -1270,11 +1240,6 @@
    "ct": "text/html; charset=UTF-8",
    "title": "SF Jarvis Hayes - Draft"
   },
-  "https://simba.mygamesonline.org/players/player317.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "SF Grant Hill - Draft"
-  },
   "https://simba.mygamesonline.org/players/player320.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -1360,11 +1325,6 @@
    "ct": "text/html; charset=UTF-8",
    "title": "SF Desmond Mason - Draft"
   },
-  "https://simba.mygamesonline.org/players/player432.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "SF Darius Miles - Draft"
-  },
   "https://simba.mygamesonline.org/players/player441.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -1395,11 +1355,6 @@
    "ct": "text/html; charset=UTF-8",
    "title": "SF Ira Newble - Draft"
   },
-  "https://simba.mygamesonline.org/players/player460.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "SF Andres Nocioni - Draft"
-  },
   "https://simba.mygamesonline.org/players/player473.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -1409,11 +1364,6 @@
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "SF Ruben Patterson - Draft"
-  },
-  "https://simba.mygamesonline.org/players/player497.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "SF James Posey - Draft"
   },
   "https://simba.mygamesonline.org/players/player515.htm": {
    "status": 200,
@@ -1440,11 +1390,6 @@
    "ct": "text/html; charset=UTF-8",
    "title": "SF Ansu Sesay - Draft"
   },
-  "https://simba.mygamesonline.org/players/player543.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "SF Bobby Simmons - Draft"
-  },
   "https://simba.mygamesonline.org/players/player554.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -1454,11 +1399,6 @@
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "SF Awvee Storey - Draft"
-  },
-  "https://simba.mygamesonline.org/players/player574.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "SF Wally Szczerbiak - Draft"
   },
   "https://simba.mygamesonline.org/players/player587.htm": {
    "status": 200,
@@ -1590,11 +1530,6 @@
    "ct": "text/html; charset=UTF-8",
    "title": "SG Marquis Daniels - Draft"
   },
-  "https://simba.mygamesonline.org/players/player210.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "SG Ricky Davis - Draft"
-  },
   "https://simba.mygamesonline.org/players/player221.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -1719,11 +1654,6 @@
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "SG Roger Mason Jr. - Draft"
-  },
-  "https://simba.mygamesonline.org/players/player419.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "SG Rashad McCants - Draft"
   },
   "https://simba.mygamesonline.org/players/player426.htm": {
    "status": 200,
@@ -1900,20 +1830,10 @@
    "ct": "text/html; charset=UTF-8",
    "title": "SG Bracey Wright - Draft"
   },
-  "https://simba.mygamesonline.org/players/player95.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "PG Rafer Alston - Draft"
-  },
   "https://simba.mygamesonline.org/players/player107.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "PG Darrell Armstrong - Draft"
-  },
-  "https://simba.mygamesonline.org/players/player108.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "PG Carlos Arroyo - Draft"
   },
   "https://simba.mygamesonline.org/players/player110.htm": {
    "status": 200,
@@ -2050,11 +1970,6 @@
    "ct": "text/html; charset=UTF-8",
    "title": "PG Luis Flores - Draft"
   },
-  "https://simba.mygamesonline.org/players/player256.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "PG Steve Francis - Draft"
-  },
   "https://simba.mygamesonline.org/players/player270.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -2169,11 +2084,6 @@
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "PG Tyronn Lue - Draft"
-  },
-  "https://simba.mygamesonline.org/players/player405.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "PG Stephon Marbury - Draft"
   },
   "https://simba.mygamesonline.org/players/player410.htm": {
    "status": 200,
@@ -2389,6 +2299,16 @@
    "ct": "text/html; charset=UTF-8",
    "title": "PF Josh Smith - Celtics"
   },
+  "https://simba.mygamesonline.org/players/player574.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "SF Wally Szczerbiak - Celtics"
+  },
+  "https://simba.mygamesonline.org/players/player432.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "SF Darius Miles - Celtics"
+  },
   "https://simba.mygamesonline.org/players/player517.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -2432,7 +2352,7 @@
   "https://simba.mygamesonline.org/players/player383.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
-   "title": "SG Kyle Korver - Draft"
+   "title": "SG Kyle Korver - Heat"
   },
   "https://simba.mygamesonline.org/rosters/roster3hist.htm": {
    "status": 200,
@@ -2592,7 +2512,7 @@
   "https://simba.mygamesonline.org/players/player137.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
-   "title": "PF Andray Blatche - Draft"
+   "title": "PF Andray Blatche - Wizards"
   },
   "https://simba.mygamesonline.org/players/player504.htm": {
    "status": 200,
@@ -2629,10 +2549,20 @@
    "ct": "text/html; charset=UTF-8",
    "title": "C DeSagana Diop - Hawks"
   },
+  "https://simba.mygamesonline.org/players/player259.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "C Dan Gadzuric - Hawks"
+  },
   "https://simba.mygamesonline.org/players/player594.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "SF Hedo Turkoglu - Hawks"
+  },
+  "https://simba.mygamesonline.org/players/player108.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "PG Carlos Arroyo - Hawks"
   },
   "https://simba.mygamesonline.org/players/player175.htm": {
    "status": 200,
@@ -2824,6 +2754,11 @@
    "ct": "text/html; charset=UTF-8",
    "title": "Schedule"
   },
+  "https://simba.mygamesonline.org/players/player200.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "C Eddy Curry - Bucks"
+  },
   "https://simba.mygamesonline.org/players/player600.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -2838,6 +2773,11 @@
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "SF Paul Pierce - Bucks"
+  },
+  "https://simba.mygamesonline.org/players/player210.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "SG Ricky Davis - Bucks"
   },
   "https://simba.mygamesonline.org/players/player638.htm": {
    "status": 200,
@@ -2864,6 +2804,11 @@
    "ct": "text/html; charset=UTF-8",
    "title": "SF Gerald Wallace - Raptors"
   },
+  "https://simba.mygamesonline.org/players/player317.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "SF Grant Hill - Raptors"
+  },
   "https://simba.mygamesonline.org/players/player334.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -2889,6 +2834,11 @@
    "ct": "text/html; charset=UTF-8",
    "title": "C Zydrunas Ilgauskas - Mavericks"
   },
+  "https://simba.mygamesonline.org/players/player593.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "C Ronny Turiaf - Mavericks"
+  },
   "https://simba.mygamesonline.org/players/player152.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -2903,6 +2853,11 @@
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "SG Jason Terry - Mavericks"
+  },
+  "https://simba.mygamesonline.org/players/player405.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "PG Stephon Marbury - Mavericks"
   },
   "https://simba.mygamesonline.org/rosters/roster17hist.htm": {
    "status": 200,
@@ -2924,6 +2879,11 @@
    "ct": "text/html; charset=UTF-8",
    "title": "PF Kenyon Martin - Nuggets"
   },
+  "https://simba.mygamesonline.org/players/player497.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "SF James Posey - Nuggets"
+  },
   "https://simba.mygamesonline.org/players/player92.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -2933,6 +2893,11 @@
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "PG Steve Nash - Nuggets"
+  },
+  "https://simba.mygamesonline.org/players/player95.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "PG Rafer Alston - Nuggets"
   },
   "https://simba.mygamesonline.org/rosters/roster18hist.htm": {
    "status": 200,
@@ -2949,14 +2914,25 @@
    "ct": "text/html; charset=UTF-8",
    "title": "C Shaquille O'Neal - Rockets"
   },
+  "https://simba.mygamesonline.org/players/player573.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "PF Stromile Swift - Rockets"
+  },
   "https://simba.mygamesonline.org/players/player324.htm": {
-   "status": 404,
-   "ct": "text/html; charset=iso-8859-1"
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "SF Josh Howard - Rockets"
   },
   "https://simba.mygamesonline.org/players/player182.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "SG Vince Carter - Rockets"
+  },
+  "https://simba.mygamesonline.org/players/player256.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "PG Steve Francis - Rockets"
   },
   "https://simba.mygamesonline.org/players/player395.htm": {
    "status": 200,
@@ -2987,6 +2963,11 @@
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "SF Caron Butler - Timberwolves"
+  },
+  "https://simba.mygamesonline.org/players/player543.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "SF Bobby Simmons - Timberwolves"
   },
   "https://simba.mygamesonline.org/players/player640.htm": {
    "status": 200,
@@ -3043,6 +3024,16 @@
    "ct": "text/html; charset=UTF-8",
    "title": "C Alonzo Mourning - Jazz"
   },
+  "https://simba.mygamesonline.org/players/player321.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "PF Robert Horry - Jazz"
+  },
+  "https://simba.mygamesonline.org/players/player239.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "PF Reggie Evans - Jazz"
+  },
   "https://simba.mygamesonline.org/players/player109.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -3091,7 +3082,7 @@
   "https://simba.mygamesonline.org/players/player596.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
-   "title": "PG Beno Udrih - Draft"
+   "title": "PG Beno Udrih - Grizzlies"
   },
   "https://simba.mygamesonline.org/rosters/roster23hist.htm": {
    "status": 200,
@@ -3293,6 +3284,16 @@
    "ct": "text/html; charset=UTF-8",
    "title": "SF Shawn Marion - Kings"
   },
+  "https://simba.mygamesonline.org/players/player460.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "SF Andres Nocioni - Kings"
+  },
+  "https://simba.mygamesonline.org/players/player419.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "SG Rashad McCants - Kings"
+  },
   "https://simba.mygamesonline.org/players/player434.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -3326,7 +3327,7 @@
   "https://simba.mygamesonline.org/players/player431.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
-   "title": "SF C.J. Miles - Draft"
+   "title": "SF C.J. Miles - SuperSonics"
   },
   "https://simba.mygamesonline.org/players/player481.htm": {
    "status": 200,
@@ -3403,11 +3404,6 @@
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
-  "https://simba.mygamesonline.org/players/player200stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
   "https://simba.mygamesonline.org/players/player208stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -3444,11 +3440,6 @@
    "title": "Player Statistics"
   },
   "https://simba.mygamesonline.org/players/player254stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
-  "https://simba.mygamesonline.org/players/player259stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -3673,11 +3664,6 @@
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
-  "https://simba.mygamesonline.org/players/player593stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
   "https://simba.mygamesonline.org/players/player603stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -3808,11 +3794,6 @@
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
-  "https://simba.mygamesonline.org/players/player239stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
   "https://simba.mygamesonline.org/players/player247stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -3869,11 +3850,6 @@
    "title": "Player Statistics"
   },
   "https://simba.mygamesonline.org/players/player314stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
-  "https://simba.mygamesonline.org/players/player321stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -4034,11 +4010,6 @@
    "title": "Player Statistics"
   },
   "https://simba.mygamesonline.org/players/player571stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
-  "https://simba.mygamesonline.org/players/player573stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -4253,11 +4224,6 @@
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
-  "https://simba.mygamesonline.org/players/player317stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
   "https://simba.mygamesonline.org/players/player320stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -4343,11 +4309,6 @@
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
-  "https://simba.mygamesonline.org/players/player432stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
   "https://simba.mygamesonline.org/players/player441stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -4378,22 +4339,12 @@
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
-  "https://simba.mygamesonline.org/players/player460stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
   "https://simba.mygamesonline.org/players/player473stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
   "https://simba.mygamesonline.org/players/player482stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
-  "https://simba.mygamesonline.org/players/player497stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -4423,22 +4374,12 @@
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
-  "https://simba.mygamesonline.org/players/player543stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
   "https://simba.mygamesonline.org/players/player554stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
   "https://simba.mygamesonline.org/players/player564stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
-  "https://simba.mygamesonline.org/players/player574stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -4573,11 +4514,6 @@
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
-  "https://simba.mygamesonline.org/players/player210stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
   "https://simba.mygamesonline.org/players/player221stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -4699,11 +4635,6 @@
    "title": "Player Statistics"
   },
   "https://simba.mygamesonline.org/players/player415stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
-  "https://simba.mygamesonline.org/players/player419stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -4883,17 +4814,7 @@
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
-  "https://simba.mygamesonline.org/players/player95stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
   "https://simba.mygamesonline.org/players/player107stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
-  "https://simba.mygamesonline.org/players/player108stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -5033,11 +4954,6 @@
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
-  "https://simba.mygamesonline.org/players/player256stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
   "https://simba.mygamesonline.org/players/player270stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -5149,11 +5065,6 @@
    "title": "Player Statistics"
   },
   "https://simba.mygamesonline.org/players/player398stats.htm": {
-   "status": 200,
-   "ct": "text/html; charset=UTF-8",
-   "title": "Player Statistics"
-  },
-  "https://simba.mygamesonline.org/players/player405stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -5299,6 +5210,16 @@
    "title": "Player Statistics"
   },
   "https://simba.mygamesonline.org/players/player553stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
+  "https://simba.mygamesonline.org/players/player574stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
+  "https://simba.mygamesonline.org/players/player432stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -5473,7 +5394,17 @@
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
+  "https://simba.mygamesonline.org/players/player259stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
   "https://simba.mygamesonline.org/players/player594stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
+  "https://simba.mygamesonline.org/players/player108stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -5608,6 +5539,11 @@
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
+  "https://simba.mygamesonline.org/players/player200stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
   "https://simba.mygamesonline.org/players/player600stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -5619,6 +5555,11 @@
    "title": "Player Statistics"
   },
   "https://simba.mygamesonline.org/players/player491stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
+  "https://simba.mygamesonline.org/players/player210stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -5638,6 +5579,11 @@
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
+  "https://simba.mygamesonline.org/players/player317stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
   "https://simba.mygamesonline.org/players/player334stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
@@ -5649,6 +5595,11 @@
    "title": "Player Statistics"
   },
   "https://simba.mygamesonline.org/players/player335stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
+  "https://simba.mygamesonline.org/players/player593stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -5668,12 +5619,22 @@
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
+  "https://simba.mygamesonline.org/players/player405stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
   "https://simba.mygamesonline.org/players/player96stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
   "https://simba.mygamesonline.org/players/player411stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
+  "https://simba.mygamesonline.org/players/player497stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -5688,12 +5649,32 @@
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
+  "https://simba.mygamesonline.org/players/player95stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
   "https://simba.mygamesonline.org/players/player470stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
+  "https://simba.mygamesonline.org/players/player573stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
+  "https://simba.mygamesonline.org/players/player324stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
   "https://simba.mygamesonline.org/players/player182stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
+  "https://simba.mygamesonline.org/players/player256stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -5714,6 +5695,11 @@
    "title": "Player Statistics"
   },
   "https://simba.mygamesonline.org/players/player169stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
+  "https://simba.mygamesonline.org/players/player543stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -5749,6 +5735,16 @@
    "title": "Player Statistics"
   },
   "https://simba.mygamesonline.org/players/player446stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
+  "https://simba.mygamesonline.org/players/player321stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
+  "https://simba.mygamesonline.org/players/player239stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -5924,11 +5920,20 @@
    "title": "Player Statistics"
   },
   "https://simba.mygamesonline.org/players/player351stats.htm": {
+   "status": 404,
+   "ct": "text/html; charset=iso-8859-1"
+  },
+  "https://simba.mygamesonline.org/players/player406stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
   },
-  "https://simba.mygamesonline.org/players/player406stats.htm": {
+  "https://simba.mygamesonline.org/players/player460stats.htm": {
+   "status": 200,
+   "ct": "text/html; charset=UTF-8",
+   "title": "Player Statistics"
+  },
+  "https://simba.mygamesonline.org/players/player419stats.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
    "title": "Player Statistics"
@@ -6987,19 +6992,6 @@
    "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
-  "https://simba.mygamesonline.org/players/player200.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
   "https://simba.mygamesonline.org/players/player208.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
@@ -7092,19 +7084,6 @@
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
   "https://simba.mygamesonline.org/players/player254.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
-  "https://simba.mygamesonline.org/players/player259.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
@@ -7689,19 +7668,6 @@
    "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
-  "https://simba.mygamesonline.org/players/player593.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
   "https://simba.mygamesonline.org/players/player603.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
@@ -8040,19 +8006,6 @@
    "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
-  "https://simba.mygamesonline.org/players/player239.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
   "https://simba.mygamesonline.org/players/player247.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
@@ -8197,19 +8150,6 @@
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
   "https://simba.mygamesonline.org/players/player314.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
-  "https://simba.mygamesonline.org/players/player321.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
@@ -8626,19 +8566,6 @@
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
   "https://simba.mygamesonline.org/players/player571.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
-  "https://simba.mygamesonline.org/players/player573.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
@@ -9197,19 +9124,6 @@
    "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
-  "https://simba.mygamesonline.org/players/player317.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
   "https://simba.mygamesonline.org/players/player320.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
@@ -9431,19 +9345,6 @@
    "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
-  "https://simba.mygamesonline.org/players/player432.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
   "https://simba.mygamesonline.org/players/player441.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
@@ -9522,19 +9423,6 @@
    "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
-  "https://simba.mygamesonline.org/players/player460.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
   "https://simba.mygamesonline.org/players/player473.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
@@ -9549,19 +9437,6 @@
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
   "https://simba.mygamesonline.org/players/player482.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
-  "https://simba.mygamesonline.org/players/player497.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
@@ -9639,19 +9514,6 @@
    "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
-  "https://simba.mygamesonline.org/players/player543.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
   "https://simba.mygamesonline.org/players/player554.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
@@ -9666,19 +9528,6 @@
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
   "https://simba.mygamesonline.org/players/player564.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
-  "https://simba.mygamesonline.org/players/player574.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
@@ -10029,19 +9878,6 @@
    "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
-  "https://simba.mygamesonline.org/players/player210.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
   "https://simba.mygamesonline.org/players/player221.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
@@ -10355,19 +10191,6 @@
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
   "https://simba.mygamesonline.org/players/player415.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
-  "https://simba.mygamesonline.org/players/player419.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
@@ -10835,33 +10658,7 @@
    "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
-  "https://simba.mygamesonline.org/players/player95.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
   "https://simba.mygamesonline.org/players/player107.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
-  "https://simba.mygamesonline.org/players/player108.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
@@ -11225,19 +11022,6 @@
    "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
-  "https://simba.mygamesonline.org/players/player256.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
   "https://simba.mygamesonline.org/players/player270.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
@@ -11525,19 +11309,6 @@
    "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
   ],
   "https://simba.mygamesonline.org/players/player398.htm": [
-   "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-ht.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-in.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-name.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-out.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pos.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-pot.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-reb.htm",
-   "https://simba.mygamesonline.org/draft/draftplayers-wt.htm"
-  ],
-  "https://simba.mygamesonline.org/players/player405.htm": [
    "https://simba.mygamesonline.org/draft/draftplayers-age.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-df.htm",
    "https://simba.mygamesonline.org/draft/draftplayers-hn.htm",
@@ -12074,6 +11845,12 @@
   "https://simba.mygamesonline.org/players/player553.htm": [
    "https://simba.mygamesonline.org/rosters/roster1.htm"
   ],
+  "https://simba.mygamesonline.org/players/player574.htm": [
+   "https://simba.mygamesonline.org/rosters/roster1.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player432.htm": [
+   "https://simba.mygamesonline.org/rosters/roster1.htm"
+  ],
   "https://simba.mygamesonline.org/players/player517.htm": [
    "https://simba.mygamesonline.org/rosters/roster1.htm"
   ],
@@ -12246,7 +12023,13 @@
   "https://simba.mygamesonline.org/players/player220.htm": [
    "https://simba.mygamesonline.org/rosters/roster8.htm"
   ],
+  "https://simba.mygamesonline.org/players/player259.htm": [
+   "https://simba.mygamesonline.org/rosters/roster8.htm"
+  ],
   "https://simba.mygamesonline.org/players/player594.htm": [
+   "https://simba.mygamesonline.org/rosters/roster8.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player108.htm": [
    "https://simba.mygamesonline.org/rosters/roster8.htm"
   ],
   "https://simba.mygamesonline.org/players/player175.htm": [
@@ -12387,6 +12170,9 @@
    "https://simba.mygamesonline.org/rosters/roster14hist.htm",
    "https://simba.mygamesonline.org/rosters/roster14sched.htm"
   ],
+  "https://simba.mygamesonline.org/players/player200.htm": [
+   "https://simba.mygamesonline.org/rosters/roster14.htm"
+  ],
   "https://simba.mygamesonline.org/players/player600.htm": [
    "https://simba.mygamesonline.org/rosters/roster14.htm"
   ],
@@ -12394,6 +12180,9 @@
    "https://simba.mygamesonline.org/rosters/roster14.htm"
   ],
   "https://simba.mygamesonline.org/players/player491.htm": [
+   "https://simba.mygamesonline.org/rosters/roster14.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player210.htm": [
    "https://simba.mygamesonline.org/rosters/roster14.htm"
   ],
   "https://simba.mygamesonline.org/players/player638.htm": [
@@ -12415,6 +12204,9 @@
   "https://simba.mygamesonline.org/players/player612.htm": [
    "https://simba.mygamesonline.org/rosters/roster15.htm"
   ],
+  "https://simba.mygamesonline.org/players/player317.htm": [
+   "https://simba.mygamesonline.org/rosters/roster15.htm"
+  ],
   "https://simba.mygamesonline.org/players/player334.htm": [
    "https://simba.mygamesonline.org/rosters/roster15.htm"
   ],
@@ -12434,6 +12226,9 @@
   "https://simba.mygamesonline.org/players/player335.htm": [
    "https://simba.mygamesonline.org/rosters/roster16.htm"
   ],
+  "https://simba.mygamesonline.org/players/player593.htm": [
+   "https://simba.mygamesonline.org/rosters/roster16.htm"
+  ],
   "https://simba.mygamesonline.org/players/player152.htm": [
    "https://simba.mygamesonline.org/rosters/roster16.htm"
   ],
@@ -12441,6 +12236,9 @@
    "https://simba.mygamesonline.org/rosters/roster16.htm"
   ],
   "https://simba.mygamesonline.org/players/player580.htm": [
+   "https://simba.mygamesonline.org/rosters/roster16.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player405.htm": [
    "https://simba.mygamesonline.org/rosters/roster16.htm"
   ],
   "https://simba.mygamesonline.org/rosters/roster17hist.htm": [
@@ -12459,10 +12257,16 @@
   "https://simba.mygamesonline.org/players/player411.htm": [
    "https://simba.mygamesonline.org/rosters/roster17.htm"
   ],
+  "https://simba.mygamesonline.org/players/player497.htm": [
+   "https://simba.mygamesonline.org/rosters/roster17.htm"
+  ],
   "https://simba.mygamesonline.org/players/player92.htm": [
    "https://simba.mygamesonline.org/rosters/roster17.htm"
   ],
   "https://simba.mygamesonline.org/players/player454.htm": [
+   "https://simba.mygamesonline.org/rosters/roster17.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player95.htm": [
    "https://simba.mygamesonline.org/rosters/roster17.htm"
   ],
   "https://simba.mygamesonline.org/rosters/roster18hist.htm": [
@@ -12478,10 +12282,16 @@
   "https://simba.mygamesonline.org/players/player470.htm": [
    "https://simba.mygamesonline.org/rosters/roster18.htm"
   ],
+  "https://simba.mygamesonline.org/players/player573.htm": [
+   "https://simba.mygamesonline.org/rosters/roster18.htm"
+  ],
   "https://simba.mygamesonline.org/players/player324.htm": [
    "https://simba.mygamesonline.org/rosters/roster18.htm"
   ],
   "https://simba.mygamesonline.org/players/player182.htm": [
+   "https://simba.mygamesonline.org/rosters/roster18.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player256.htm": [
    "https://simba.mygamesonline.org/rosters/roster18.htm"
   ],
   "https://simba.mygamesonline.org/players/player395.htm": [
@@ -12504,6 +12314,9 @@
    "https://simba.mygamesonline.org/rosters/roster19.htm"
   ],
   "https://simba.mygamesonline.org/players/player169.htm": [
+   "https://simba.mygamesonline.org/rosters/roster19.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player543.htm": [
    "https://simba.mygamesonline.org/rosters/roster19.htm"
   ],
   "https://simba.mygamesonline.org/players/player640.htm": [
@@ -12545,6 +12358,12 @@
    "https://simba.mygamesonline.org/rosters/roster21sched.htm"
   ],
   "https://simba.mygamesonline.org/players/player446.htm": [
+   "https://simba.mygamesonline.org/rosters/roster21.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player321.htm": [
+   "https://simba.mygamesonline.org/rosters/roster21.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player239.htm": [
    "https://simba.mygamesonline.org/rosters/roster21.htm"
   ],
   "https://simba.mygamesonline.org/players/player109.htm": [
@@ -12725,6 +12544,12 @@
   "https://simba.mygamesonline.org/players/player406.htm": [
    "https://simba.mygamesonline.org/rosters/roster28.htm"
   ],
+  "https://simba.mygamesonline.org/players/player460.htm": [
+   "https://simba.mygamesonline.org/rosters/roster28.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player419.htm": [
+   "https://simba.mygamesonline.org/rosters/roster28.htm"
+  ],
   "https://simba.mygamesonline.org/players/player434.htm": [
    "https://simba.mygamesonline.org/rosters/roster28.htm"
   ],
@@ -12795,9 +12620,6 @@
   "https://simba.mygamesonline.org/players/player193stats.htm": [
    "https://simba.mygamesonline.org/players/player193.htm"
   ],
-  "https://simba.mygamesonline.org/players/player200stats.htm": [
-   "https://simba.mygamesonline.org/players/player200.htm"
-  ],
   "https://simba.mygamesonline.org/players/player208stats.htm": [
    "https://simba.mygamesonline.org/players/player208.htm"
   ],
@@ -12821,9 +12643,6 @@
   ],
   "https://simba.mygamesonline.org/players/player254stats.htm": [
    "https://simba.mygamesonline.org/players/player254.htm"
-  ],
-  "https://simba.mygamesonline.org/players/player259stats.htm": [
-   "https://simba.mygamesonline.org/players/player259.htm"
   ],
   "https://simba.mygamesonline.org/players/player296stats.htm": [
    "https://simba.mygamesonline.org/players/player296.htm"
@@ -12957,9 +12776,6 @@
   "https://simba.mygamesonline.org/players/player591stats.htm": [
    "https://simba.mygamesonline.org/players/player591.htm"
   ],
-  "https://simba.mygamesonline.org/players/player593stats.htm": [
-   "https://simba.mygamesonline.org/players/player593.htm"
-  ],
   "https://simba.mygamesonline.org/players/player603stats.htm": [
    "https://simba.mygamesonline.org/players/player603.htm"
   ],
@@ -13038,9 +12854,6 @@
   "https://simba.mygamesonline.org/players/player230stats.htm": [
    "https://simba.mygamesonline.org/players/player230.htm"
   ],
-  "https://simba.mygamesonline.org/players/player239stats.htm": [
-   "https://simba.mygamesonline.org/players/player239.htm"
-  ],
   "https://simba.mygamesonline.org/players/player247stats.htm": [
    "https://simba.mygamesonline.org/players/player247.htm"
   ],
@@ -13076,9 +12889,6 @@
   ],
   "https://simba.mygamesonline.org/players/player314stats.htm": [
    "https://simba.mygamesonline.org/players/player314.htm"
-  ],
-  "https://simba.mygamesonline.org/players/player321stats.htm": [
-   "https://simba.mygamesonline.org/players/player321.htm"
   ],
   "https://simba.mygamesonline.org/players/player325stats.htm": [
    "https://simba.mygamesonline.org/players/player325.htm"
@@ -13175,9 +12985,6 @@
   ],
   "https://simba.mygamesonline.org/players/player571stats.htm": [
    "https://simba.mygamesonline.org/players/player571.htm"
-  ],
-  "https://simba.mygamesonline.org/players/player573stats.htm": [
-   "https://simba.mygamesonline.org/players/player573.htm"
   ],
   "https://simba.mygamesonline.org/players/player578stats.htm": [
    "https://simba.mygamesonline.org/players/player578.htm"
@@ -13305,9 +13112,6 @@
   "https://simba.mygamesonline.org/players/player311stats.htm": [
    "https://simba.mygamesonline.org/players/player311.htm"
   ],
-  "https://simba.mygamesonline.org/players/player317stats.htm": [
-   "https://simba.mygamesonline.org/players/player317.htm"
-  ],
   "https://simba.mygamesonline.org/players/player320stats.htm": [
    "https://simba.mygamesonline.org/players/player320.htm"
   ],
@@ -13359,9 +13163,6 @@
   "https://simba.mygamesonline.org/players/player414stats.htm": [
    "https://simba.mygamesonline.org/players/player414.htm"
   ],
-  "https://simba.mygamesonline.org/players/player432stats.htm": [
-   "https://simba.mygamesonline.org/players/player432.htm"
-  ],
   "https://simba.mygamesonline.org/players/player441stats.htm": [
    "https://simba.mygamesonline.org/players/player441.htm"
   ],
@@ -13380,17 +13181,11 @@
   "https://simba.mygamesonline.org/players/player459stats.htm": [
    "https://simba.mygamesonline.org/players/player459.htm"
   ],
-  "https://simba.mygamesonline.org/players/player460stats.htm": [
-   "https://simba.mygamesonline.org/players/player460.htm"
-  ],
   "https://simba.mygamesonline.org/players/player473stats.htm": [
    "https://simba.mygamesonline.org/players/player473.htm"
   ],
   "https://simba.mygamesonline.org/players/player482stats.htm": [
    "https://simba.mygamesonline.org/players/player482.htm"
-  ],
-  "https://simba.mygamesonline.org/players/player497stats.htm": [
-   "https://simba.mygamesonline.org/players/player497.htm"
   ],
   "https://simba.mygamesonline.org/players/player515stats.htm": [
    "https://simba.mygamesonline.org/players/player515.htm"
@@ -13407,17 +13202,11 @@
   "https://simba.mygamesonline.org/players/player539stats.htm": [
    "https://simba.mygamesonline.org/players/player539.htm"
   ],
-  "https://simba.mygamesonline.org/players/player543stats.htm": [
-   "https://simba.mygamesonline.org/players/player543.htm"
-  ],
   "https://simba.mygamesonline.org/players/player554stats.htm": [
    "https://simba.mygamesonline.org/players/player554.htm"
   ],
   "https://simba.mygamesonline.org/players/player564stats.htm": [
    "https://simba.mygamesonline.org/players/player564.htm"
-  ],
-  "https://simba.mygamesonline.org/players/player574stats.htm": [
-   "https://simba.mygamesonline.org/players/player574.htm"
   ],
   "https://simba.mygamesonline.org/players/player587stats.htm": [
    "https://simba.mygamesonline.org/players/player587.htm"
@@ -13497,9 +13286,6 @@
   "https://simba.mygamesonline.org/players/player205stats.htm": [
    "https://simba.mygamesonline.org/players/player205.htm"
   ],
-  "https://simba.mygamesonline.org/players/player210stats.htm": [
-   "https://simba.mygamesonline.org/players/player210.htm"
-  ],
   "https://simba.mygamesonline.org/players/player221stats.htm": [
    "https://simba.mygamesonline.org/players/player221.htm"
   ],
@@ -13574,9 +13360,6 @@
   ],
   "https://simba.mygamesonline.org/players/player415stats.htm": [
    "https://simba.mygamesonline.org/players/player415.htm"
-  ],
-  "https://simba.mygamesonline.org/players/player419stats.htm": [
-   "https://simba.mygamesonline.org/players/player419.htm"
   ],
   "https://simba.mygamesonline.org/players/player426stats.htm": [
    "https://simba.mygamesonline.org/players/player426.htm"
@@ -13683,14 +13466,8 @@
   "https://simba.mygamesonline.org/players/player646stats.htm": [
    "https://simba.mygamesonline.org/players/player646.htm"
   ],
-  "https://simba.mygamesonline.org/players/player95stats.htm": [
-   "https://simba.mygamesonline.org/players/player95.htm"
-  ],
   "https://simba.mygamesonline.org/players/player107stats.htm": [
    "https://simba.mygamesonline.org/players/player107.htm"
-  ],
-  "https://simba.mygamesonline.org/players/player108stats.htm": [
-   "https://simba.mygamesonline.org/players/player108.htm"
   ],
   "https://simba.mygamesonline.org/players/player110stats.htm": [
    "https://simba.mygamesonline.org/players/player110.htm"
@@ -13773,9 +13550,6 @@
   "https://simba.mygamesonline.org/players/player248stats.htm": [
    "https://simba.mygamesonline.org/players/player248.htm"
   ],
-  "https://simba.mygamesonline.org/players/player256stats.htm": [
-   "https://simba.mygamesonline.org/players/player256.htm"
-  ],
   "https://simba.mygamesonline.org/players/player270stats.htm": [
    "https://simba.mygamesonline.org/players/player270.htm"
   ],
@@ -13844,9 +13618,6 @@
   ],
   "https://simba.mygamesonline.org/players/player398stats.htm": [
    "https://simba.mygamesonline.org/players/player398.htm"
-  ],
-  "https://simba.mygamesonline.org/players/player405stats.htm": [
-   "https://simba.mygamesonline.org/players/player405.htm"
   ],
   "https://simba.mygamesonline.org/players/player410stats.htm": [
    "https://simba.mygamesonline.org/players/player410.htm"
@@ -13934,6 +13705,12 @@
   ],
   "https://simba.mygamesonline.org/players/player553stats.htm": [
    "https://simba.mygamesonline.org/players/player553.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player574stats.htm": [
+   "https://simba.mygamesonline.org/players/player574.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player432stats.htm": [
+   "https://simba.mygamesonline.org/players/player432.htm"
   ],
   "https://simba.mygamesonline.org/players/player517stats.htm": [
    "https://simba.mygamesonline.org/players/player517.htm"
@@ -14037,8 +13814,14 @@
   "https://simba.mygamesonline.org/players/player220stats.htm": [
    "https://simba.mygamesonline.org/players/player220.htm"
   ],
+  "https://simba.mygamesonline.org/players/player259stats.htm": [
+   "https://simba.mygamesonline.org/players/player259.htm"
+  ],
   "https://simba.mygamesonline.org/players/player594stats.htm": [
    "https://simba.mygamesonline.org/players/player594.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player108stats.htm": [
+   "https://simba.mygamesonline.org/players/player108.htm"
   ],
   "https://simba.mygamesonline.org/players/player175stats.htm": [
    "https://simba.mygamesonline.org/players/player175.htm"
@@ -14118,6 +13901,9 @@
   "https://simba.mygamesonline.org/players/player514stats.htm": [
    "https://simba.mygamesonline.org/players/player514.htm"
   ],
+  "https://simba.mygamesonline.org/players/player200stats.htm": [
+   "https://simba.mygamesonline.org/players/player200.htm"
+  ],
   "https://simba.mygamesonline.org/players/player600stats.htm": [
    "https://simba.mygamesonline.org/players/player600.htm"
   ],
@@ -14126,6 +13912,9 @@
   ],
   "https://simba.mygamesonline.org/players/player491stats.htm": [
    "https://simba.mygamesonline.org/players/player491.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player210stats.htm": [
+   "https://simba.mygamesonline.org/players/player210.htm"
   ],
   "https://simba.mygamesonline.org/players/player638stats.htm": [
    "https://simba.mygamesonline.org/players/player638.htm"
@@ -14136,6 +13925,9 @@
   "https://simba.mygamesonline.org/players/player612stats.htm": [
    "https://simba.mygamesonline.org/players/player612.htm"
   ],
+  "https://simba.mygamesonline.org/players/player317stats.htm": [
+   "https://simba.mygamesonline.org/players/player317.htm"
+  ],
   "https://simba.mygamesonline.org/players/player334stats.htm": [
    "https://simba.mygamesonline.org/players/player334.htm"
   ],
@@ -14144,6 +13936,9 @@
   ],
   "https://simba.mygamesonline.org/players/player335stats.htm": [
    "https://simba.mygamesonline.org/players/player335.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player593stats.htm": [
+   "https://simba.mygamesonline.org/players/player593.htm"
   ],
   "https://simba.mygamesonline.org/players/player152stats.htm": [
    "https://simba.mygamesonline.org/players/player152.htm"
@@ -14154,11 +13949,17 @@
   "https://simba.mygamesonline.org/players/player580stats.htm": [
    "https://simba.mygamesonline.org/players/player580.htm"
   ],
+  "https://simba.mygamesonline.org/players/player405stats.htm": [
+   "https://simba.mygamesonline.org/players/player405.htm"
+  ],
   "https://simba.mygamesonline.org/players/player96stats.htm": [
    "https://simba.mygamesonline.org/players/player96.htm"
   ],
   "https://simba.mygamesonline.org/players/player411stats.htm": [
    "https://simba.mygamesonline.org/players/player411.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player497stats.htm": [
+   "https://simba.mygamesonline.org/players/player497.htm"
   ],
   "https://simba.mygamesonline.org/players/player92stats.htm": [
    "https://simba.mygamesonline.org/players/player92.htm"
@@ -14166,11 +13967,23 @@
   "https://simba.mygamesonline.org/players/player454stats.htm": [
    "https://simba.mygamesonline.org/players/player454.htm"
   ],
+  "https://simba.mygamesonline.org/players/player95stats.htm": [
+   "https://simba.mygamesonline.org/players/player95.htm"
+  ],
   "https://simba.mygamesonline.org/players/player470stats.htm": [
    "https://simba.mygamesonline.org/players/player470.htm"
   ],
+  "https://simba.mygamesonline.org/players/player573stats.htm": [
+   "https://simba.mygamesonline.org/players/player573.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player324stats.htm": [
+   "https://simba.mygamesonline.org/players/player324.htm"
+  ],
   "https://simba.mygamesonline.org/players/player182stats.htm": [
    "https://simba.mygamesonline.org/players/player182.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player256stats.htm": [
+   "https://simba.mygamesonline.org/players/player256.htm"
   ],
   "https://simba.mygamesonline.org/players/player395stats.htm": [
    "https://simba.mygamesonline.org/players/player395.htm"
@@ -14183,6 +13996,9 @@
   ],
   "https://simba.mygamesonline.org/players/player169stats.htm": [
    "https://simba.mygamesonline.org/players/player169.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player543stats.htm": [
+   "https://simba.mygamesonline.org/players/player543.htm"
   ],
   "https://simba.mygamesonline.org/players/player640stats.htm": [
    "https://simba.mygamesonline.org/players/player640.htm"
@@ -14204,6 +14020,12 @@
   ],
   "https://simba.mygamesonline.org/players/player446stats.htm": [
    "https://simba.mygamesonline.org/players/player446.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player321stats.htm": [
+   "https://simba.mygamesonline.org/players/player321.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player239stats.htm": [
+   "https://simba.mygamesonline.org/players/player239.htm"
   ],
   "https://simba.mygamesonline.org/players/player109stats.htm": [
    "https://simba.mygamesonline.org/players/player109.htm"
@@ -14313,6 +14135,12 @@
   "https://simba.mygamesonline.org/players/player406stats.htm": [
    "https://simba.mygamesonline.org/players/player406.htm"
   ],
+  "https://simba.mygamesonline.org/players/player460stats.htm": [
+   "https://simba.mygamesonline.org/players/player460.htm"
+  ],
+  "https://simba.mygamesonline.org/players/player419stats.htm": [
+   "https://simba.mygamesonline.org/players/player419.htm"
+  ],
   "https://simba.mygamesonline.org/players/player434stats.htm": [
    "https://simba.mygamesonline.org/players/player434.htm"
   ],
@@ -14333,7 +14161,7 @@
   ]
  },
  "unvisited": [],
- "elapsed_s": 1196.0,
- "requests": 1193,
- "crawled_at": "2026-10-21T15:04:56Z"
+ "elapsed_s": 1195.4,
+ "requests": 1194,
+ "crawled_at": "2026-10-22T15:04:56Z"
 }
