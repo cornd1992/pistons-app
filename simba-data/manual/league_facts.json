@@ -38,10 +38,10 @@
  },
  "pistons_next_pick": {
   "draft": "creation",
-  "round": 6,
-  "pick": 26,
-  "overall": 171,
-  "note": "snake order: R6 #26 (171st overall) — projected from even-round order"
+  "round": 7,
+  "pick": 4,
+  "overall": 174,
+  "note": "snake order: R7 #4 (174th overall) — odd-round order; Chicago, Philadelphia, Portland pick first"
  },
  "creation_draft": {
   "format": "snake (order reverses in even rounds)",
@@ -2480,12 +2480,93 @@
    },
    {
     "round": 6,
+    "pick": 20,
+    "overall": 165,
+    "team": "New York Knicks",
+    "player": "Ruben Patterson",
+    "player_id": 482,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 21,
+    "overall": 166,
+    "team": "Orlando Magic",
+    "player": "Larry Hughes",
+    "player_id": 328,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 22,
+    "overall": 167,
+    "team": "Golden State Warriors",
+    "player": "Morris Peterson",
+    "player_id": 488,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 23,
+    "overall": 168,
+    "team": "San Antonio Spurs",
+    "player": "Mike Dunleavy Jr.",
+    "player_id": 227,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 24,
+    "overall": 169,
+    "team": "Indiana Pacers",
+    "player": "Eddie House",
+    "player_id": 322,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 25,
+    "overall": 170,
+    "team": "New Orleans Hornets",
+    "player": "Chris Duhon",
+    "player_id": 225,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
     "pick": 26,
     "overall": 171,
     "team": "Detroit Pistons",
     "player": "Cuttino Mobley",
     "player_id": 438,
     "source": "user 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 27,
+    "overall": 172,
+    "team": "Portland Trail Blazers",
+    "player": "Steve Blake",
+    "player_id": 136,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 28,
+    "overall": 173,
+    "team": "Philadelphia 76ers",
+    "player": "Adonal Foyle",
+    "player_id": 254,
+    "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 6,
+    "pick": 29,
+    "overall": 174,
+    "team": "Chicago Bulls",
+    "player": "Tim Thomas",
+    "player_id": 587,
+    "source": "user-pasted forum results 2026-10-22"
    }
   ]
  },
