@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-22T15:04:56Z",
-  "parsed_at": "2026-10-22T15:05:05Z"
+  "crawled_at": "2026-10-23T14:51:38Z",
+  "parsed_at": "2026-10-23T14:51:51Z"
  },
  "transactions": [
   {
@@ -1687,6 +1687,358 @@
    "player_name": "Dan Gadzuric",
    "pick": 8,
    "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Timberwolves",
+   "action": "Draft C Etan Thomas with pick #9 of round 6.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Etan Thomas",
+   "pick": 9,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Raptors",
+   "action": "Draft PG Brevin Knight with pick #10 of round 6.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Brevin Knight",
+   "pick": 10,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "SuperSonics",
+   "action": "Draft PF Charlie Villanueva with pick #11 of round 6.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Charlie Villanueva",
+   "pick": 11,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Wizards",
+   "action": "Draft PG Mike James with pick #12 of round 6.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Mike James",
+   "pick": 12,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Grizzlies",
+   "action": "Draft SF Linas Kleiza with pick #13 of round 6.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Linas Kleiza",
+   "pick": 13,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Heat",
+   "action": "Draft PG Sam Cassell with pick #14 of round 6.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Sam Cassell",
+   "pick": 14,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Suns",
+   "action": "Draft PG Luke Ridnour with pick #15 of round 6.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Luke Ridnour",
+   "pick": 15,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Clippers",
+   "action": "Draft SG Jerry Stackhouse with pick #16 of round 6.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Jerry Stackhouse",
+   "pick": 16,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Lakers",
+   "action": "Draft C Chuck Hayes with pick #17 of round 6.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Chuck Hayes",
+   "pick": 17,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nets",
+   "action": "Draft PG Anthony Carter with pick #18 of round 6.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Anthony Carter",
+   "pick": 18,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Cavaliers",
+   "action": "Draft C Chris Mihm with pick #19 of round 6.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Chris Mihm",
+   "pick": 19,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Knicks",
+   "action": "Draft SF Ruben Patterson with pick #20 of round 6.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Ruben Patterson",
+   "pick": 20,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Magic",
+   "action": "Draft SG Larry Hughes with pick #21 of round 6.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Larry Hughes",
+   "pick": 21,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Warriors",
+   "action": "Draft SG Morris Peterson with pick #22 of round 6.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Morris Peterson",
+   "pick": 22,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Spurs",
+   "action": "Draft SF Mike Dunleavy Jr. with pick #23 of round 6.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Mike Dunleavy Jr.",
+   "pick": 23,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pacers",
+   "action": "Draft PG Eddie House with pick #24 of round 6.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Eddie House",
+   "pick": 24,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hornets",
+   "action": "Draft PG Chris Duhon with pick #25 of round 6.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Chris Duhon",
+   "pick": 25,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pistons",
+   "action": "Draft SG Cuttino Mobley with pick #26 of round 6.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Cuttino Mobley",
+   "pick": 26,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Trail Blazers",
+   "action": "Draft PG Steve Blake with pick #27 of round 6.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Steve Blake",
+   "pick": 27,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "76ers",
+   "action": "Draft C Adonal Foyle with pick #28 of round 6.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Adonal Foyle",
+   "pick": 28,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bulls",
+   "action": "Draft SF Tim Thomas with pick #29 of round 6.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Tim Thomas",
+   "pick": 29,
+   "round": 6
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bulls",
+   "action": "Draft PG Earl Boykins with pick #1 of round 7.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Earl Boykins",
+   "pick": 1,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "76ers",
+   "action": "Draft SG Fred Jones with pick #2 of round 7.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Fred Jones",
+   "pick": 2,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Trail Blazers",
+   "action": "Draft C Darko Milicic with pick #3 of round 7.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Darko Milicic",
+   "pick": 3,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pistons",
+   "action": "Draft PF Kurt Thomas with pick #4 of round 7.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Kurt Thomas",
+   "pick": 4,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hornets",
+   "action": "Draft SF Travis Outlaw with pick #5 of round 7.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Travis Outlaw",
+   "pick": 5,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pacers",
+   "action": "Draft SG Maurice Evans with pick #6 of round 7.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Maurice Evans",
+   "pick": 6,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Spurs",
+   "action": "Draft SF Quentin Richardson with pick #7 of round 7.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Quentin Richardson",
+   "pick": 7,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Warriors",
+   "action": "Draft C Jamaal Magloire with pick #8 of round 7.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Jamaal Magloire",
+   "pick": 8,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Magic",
+   "action": "Draft PG Damon Stoudamire with pick #9 of round 7.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Damon Stoudamire",
+   "pick": 9,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Knicks",
+   "action": "Draft PF Jason Maxiell with pick #10 of round 7.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Jason Maxiell",
+   "pick": 10,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Cavaliers",
+   "action": "Draft PG Keyon Dooling with pick #11 of round 7.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Keyon Dooling",
+   "pick": 11,
+   "round": 7
   }
  ]
 }
