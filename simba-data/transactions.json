@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-23T14:51:38Z",
-  "parsed_at": "2026-10-23T14:51:51Z"
+  "crawled_at": "2026-10-24T14:02:51Z",
+  "parsed_at": "2026-10-24T14:03:05Z"
  },
  "transactions": [
   {
@@ -2039,6 +2039,292 @@
    "player_name": "Keyon Dooling",
    "pick": 11,
    "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nets",
+   "action": "Draft C Scot Pollard with pick #12 of round 7.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Scot Pollard",
+   "pick": 12,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Lakers",
+   "action": "Draft SF Dorell Wright with pick #13 of round 7.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Dorell Wright",
+   "pick": 13,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Clippers",
+   "action": "Draft PF Eddie Griffin with pick #14 of round 7.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Eddie Griffin",
+   "pick": 14,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Suns",
+   "action": "Draft SF Carlos Delfino with pick #15 of round 7.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Carlos Delfino",
+   "pick": 15,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Heat",
+   "action": "Draft SG Anfernee Hardaway with pick #16 of round 7.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Anfernee Hardaway",
+   "pick": 16,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Grizzlies",
+   "action": "Draft C Nenad Krstic with pick #17 of round 7.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Nenad Krstic",
+   "pick": 17,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Wizards",
+   "action": "Draft SF Devean George with pick #18 of round 7.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Devean George",
+   "pick": 18,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "SuperSonics",
+   "action": "Draft SF Martell Webster with pick #19 of round 7.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Martell Webster",
+   "pick": 19,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Raptors",
+   "action": "Draft PF Brian Skinner with pick #20 of round 7.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Brian Skinner",
+   "pick": 20,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Timberwolves",
+   "action": "Draft PG Jason Hart with pick #21 of round 7.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Jason Hart",
+   "pick": 21,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hawks",
+   "action": "Draft PF Vladimir Radmanovic with pick #22 of round 7.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Vladimir Radmanovic",
+   "pick": 22,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nuggets",
+   "action": "Draft SF Jason Kapono with pick #23 of round 7.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Jason Kapono",
+   "pick": 23,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Mavericks",
+   "action": "Draft PG Derek Fisher with pick #24 of round 7.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Derek Fisher",
+   "pick": 24,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Kings",
+   "action": "Draft C Fabricio Oberto with pick #25 of round 7.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Fabricio Oberto",
+   "pick": 25,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Rockets",
+   "action": "Draft SG John Salmons with pick #26 of round 7.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "John Salmons",
+   "pick": 26,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Jazz",
+   "action": "Draft SG DeShawn Stevenson with pick #27 of round 7.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "DeShawn Stevenson",
+   "pick": 27,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bucks",
+   "action": "Draft PF Shareef Abdur-Rahim with pick #28 of round 7.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Shareef Abdur-Rahim",
+   "pick": 28,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Celtics",
+   "action": "Draft PF Hakim Warrick with pick #29 of round 7.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Hakim Warrick",
+   "pick": 29,
+   "round": 7
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Celtics",
+   "action": "Draft PG Will Bynum with pick #1 of round 8.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Will Bynum",
+   "pick": 1,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bucks",
+   "action": "Draft PG Sebastian Telfair with pick #2 of round 8.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Sebastian Telfair",
+   "pick": 2,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Jazz",
+   "action": "Draft C Dale Davis with pick #3 of round 8.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Dale Davis",
+   "pick": 3,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Rockets",
+   "action": "Draft PF Chris Wilcox with pick #4 of round 8.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Chris Wilcox",
+   "pick": 4,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Kings",
+   "action": "Draft PG Bobby Jackson with pick #5 of round 8.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Bobby Jackson",
+   "pick": 5,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Mavericks",
+   "action": "Draft SG Ronald Murray with pick #6 of round 8.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Ronald Murray",
+   "pick": 6,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nuggets",
+   "action": "Draft SF Luke Walton with pick #7 of round 8.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Luke Walton",
+   "pick": 7,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hawks",
+   "action": "Draft SG Sasha Vujacic with pick #8 of round 8.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Sasha Vujacic",
+   "pick": 8,
+   "round": 8
   }
  ]
 }
