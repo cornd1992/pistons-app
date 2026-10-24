@@ -1027,6 +1027,317 @@
       "gm": "Mexi"
      }
     ]
+   },
+   {
+    "round": 7,
+    "complete": true,
+    "picks_made": 29,
+    "on_the_clock": null,
+    "order": [
+     {
+      "slot": 1,
+      "team": "Chicago Bulls",
+      "gm": "Mexi"
+     },
+     {
+      "slot": 2,
+      "team": "Philadelphia 76ers",
+      "gm": "daulten780"
+     },
+     {
+      "slot": 3,
+      "team": "Portland Trail Blazers",
+      "gm": "snipezo"
+     },
+     {
+      "slot": 4,
+      "team": "Detroit Pistons",
+      "gm": "inf"
+     },
+     {
+      "slot": 5,
+      "team": "New Orleans Hornets",
+      "gm": "Swope"
+     },
+     {
+      "slot": 6,
+      "team": "Indiana Pacers",
+      "gm": "Beastly"
+     },
+     {
+      "slot": 7,
+      "team": "San Antonio Spurs",
+      "gm": "Giggles"
+     },
+     {
+      "slot": 8,
+      "team": "Golden State Warriors",
+      "gm": "dez"
+     },
+     {
+      "slot": 9,
+      "team": "Orlando Magic",
+      "gm": "ElJeffe"
+     },
+     {
+      "slot": 10,
+      "team": "New York Knicks",
+      "gm": "Dave"
+     },
+     {
+      "slot": 11,
+      "team": "Cleveland Cavaliers",
+      "gm": "elcheato"
+     },
+     {
+      "slot": 12,
+      "team": "New Jersey Nets",
+      "gm": "Teagz"
+     },
+     {
+      "slot": 13,
+      "team": "Los Angeles Lakers",
+      "gm": "shellystrick4L"
+     },
+     {
+      "slot": 14,
+      "team": "Los Angeles Clippers",
+      "gm": "NV"
+     },
+     {
+      "slot": 15,
+      "team": "Phoenix Suns",
+      "gm": "kdogg"
+     },
+     {
+      "slot": 16,
+      "team": "Miami Heat",
+      "gm": "LicensedBullshark"
+     },
+     {
+      "slot": 17,
+      "team": "Memphis Grizzlies",
+      "gm": "LefLop"
+     },
+     {
+      "slot": 18,
+      "team": "Washington Wizards",
+      "gm": "paulius"
+     },
+     {
+      "slot": 19,
+      "team": "Seattle SuperSonics",
+      "gm": "nickmolyvia"
+     },
+     {
+      "slot": 20,
+      "team": "Toronto Raptors",
+      "gm": "mattfaria12"
+     },
+     {
+      "slot": 21,
+      "team": "Minnesota Timberwolves",
+      "gm": "Bucknut"
+     },
+     {
+      "slot": 22,
+      "team": "Atlanta Hawks",
+      "gm": "Will"
+     },
+     {
+      "slot": 23,
+      "team": "Denver Nuggets",
+      "gm": "Glock Bowers"
+     },
+     {
+      "slot": 24,
+      "team": "Dallas Mavericks",
+      "gm": "JR"
+     },
+     {
+      "slot": 25,
+      "team": "Sacramento Kings",
+      "gm": "tyfteak"
+     },
+     {
+      "slot": 26,
+      "team": "Houston Rockets",
+      "gm": "TYO"
+     },
+     {
+      "slot": 27,
+      "team": "Utah Jazz",
+      "gm": "stunna"
+     },
+     {
+      "slot": 28,
+      "team": "Milwaukee Bucks",
+      "gm": "tommyt"
+     },
+     {
+      "slot": 29,
+      "team": "Boston Celtics",
+      "gm": "BironRonso"
+     }
+    ]
+   },
+   {
+    "round": 8,
+    "complete": false,
+    "picks_made": 15,
+    "on_the_clock": {
+     "slot": 16,
+     "team": "Los Angeles Clippers",
+     "gm": "NV",
+     "overall": 219
+    },
+    "order": [
+     {
+      "slot": 1,
+      "team": "Boston Celtics",
+      "gm": "BironRonso"
+     },
+     {
+      "slot": 2,
+      "team": "Milwaukee Bucks",
+      "gm": "tommyt"
+     },
+     {
+      "slot": 3,
+      "team": "Utah Jazz",
+      "gm": "stunna"
+     },
+     {
+      "slot": 4,
+      "team": "Houston Rockets",
+      "gm": "TYO"
+     },
+     {
+      "slot": 5,
+      "team": "Sacramento Kings",
+      "gm": "tyfteak"
+     },
+     {
+      "slot": 6,
+      "team": "Dallas Mavericks",
+      "gm": "JR"
+     },
+     {
+      "slot": 7,
+      "team": "Denver Nuggets",
+      "gm": "Glock Bowers"
+     },
+     {
+      "slot": 8,
+      "team": "Atlanta Hawks",
+      "gm": "Will"
+     },
+     {
+      "slot": 9,
+      "team": "Minnesota Timberwolves",
+      "gm": "Bucknut"
+     },
+     {
+      "slot": 10,
+      "team": "Toronto Raptors",
+      "gm": "mattfaria12"
+     },
+     {
+      "slot": 11,
+      "team": "Seattle SuperSonics",
+      "gm": "nickmolyvia"
+     },
+     {
+      "slot": 12,
+      "team": "Washington Wizards",
+      "gm": "paulius"
+     },
+     {
+      "slot": 13,
+      "team": "Memphis Grizzlies",
+      "gm": "LefLop"
+     },
+     {
+      "slot": 14,
+      "team": "Miami Heat",
+      "gm": "LicensedBullshark"
+     },
+     {
+      "slot": 15,
+      "team": "Phoenix Suns",
+      "gm": "kdogg"
+     },
+     {
+      "slot": 16,
+      "team": "Los Angeles Clippers",
+      "gm": "NV"
+     },
+     {
+      "slot": 17,
+      "team": "Los Angeles Lakers",
+      "gm": "shellystrick4L"
+     },
+     {
+      "slot": 18,
+      "team": "New Jersey Nets",
+      "gm": "Teagz"
+     },
+     {
+      "slot": 19,
+      "team": "Cleveland Cavaliers",
+      "gm": "elcheato"
+     },
+     {
+      "slot": 20,
+      "team": "New York Knicks",
+      "gm": "Dave"
+     },
+     {
+      "slot": 21,
+      "team": "Orlando Magic",
+      "gm": "ElJeffe"
+     },
+     {
+      "slot": 22,
+      "team": "Golden State Warriors",
+      "gm": "dez"
+     },
+     {
+      "slot": 23,
+      "team": "San Antonio Spurs",
+      "gm": "Giggles"
+     },
+     {
+      "slot": 24,
+      "team": "Indiana Pacers",
+      "gm": "Beastly"
+     },
+     {
+      "slot": 25,
+      "team": "New Orleans Hornets",
+      "gm": "Swope"
+     },
+     {
+      "slot": 26,
+      "team": "Detroit Pistons",
+      "gm": "inf"
+     },
+     {
+      "slot": 27,
+      "team": "Portland Trail Blazers",
+      "gm": "snipezo"
+     },
+     {
+      "slot": 28,
+      "team": "Philadelphia 76ers",
+      "gm": "daulten780"
+     },
+     {
+      "slot": 29,
+      "team": "Chicago Bulls",
+      "gm": "Mexi"
+     }
+    ]
    }
   ],
   "picks": [
@@ -2561,6 +2872,339 @@
     "player": "Tim Thomas",
     "player_id": 587,
     "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 7,
+    "pick": 1,
+    "overall": 175,
+    "team": "Chicago Bulls",
+    "player": "Earl Boykins",
+    "player_id": 149,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 2,
+    "overall": 176,
+    "team": "Philadelphia 76ers",
+    "player": "Fred Jones",
+    "player_id": 369,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 3,
+    "overall": 177,
+    "team": "Portland Trail Blazers",
+    "player": "Darko Milicic",
+    "player_id": 433,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 4,
+    "overall": 178,
+    "team": "Detroit Pistons",
+    "player": "Kurt Thomas",
+    "player_id": 586,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 5,
+    "overall": 179,
+    "team": "New Orleans Hornets",
+    "player": "Travis Outlaw",
+    "player_id": 473,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 6,
+    "overall": 180,
+    "team": "Indiana Pacers",
+    "player": "Maurice Evans",
+    "player_id": 238,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 7,
+    "overall": 181,
+    "team": "San Antonio Spurs",
+    "player": "Quentin Richardson",
+    "player_id": 518,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 8,
+    "overall": 182,
+    "team": "Golden State Warriors",
+    "player": "Jamaal Magloire",
+    "player_id": 402,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 9,
+    "overall": 183,
+    "team": "Orlando Magic",
+    "player": "Damon Stoudamire",
+    "player_id": 565,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 10,
+    "overall": 184,
+    "team": "New York Knicks",
+    "player": "Jason Maxiell",
+    "player_id": 416,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 11,
+    "overall": 185,
+    "team": "Cleveland Cavaliers",
+    "player": "Keyon Dooling",
+    "player_id": 223,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 12,
+    "overall": 186,
+    "team": "New Jersey Nets",
+    "player": "Scot Pollard",
+    "player_id": 496,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 13,
+    "overall": 187,
+    "team": "Los Angeles Lakers",
+    "player": "Dorell Wright",
+    "player_id": 647,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 14,
+    "overall": 188,
+    "team": "Los Angeles Clippers",
+    "player": "Eddie Griffin",
+    "player_id": 290,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 15,
+    "overall": 189,
+    "team": "Phoenix Suns",
+    "player": "Carlos Delfino",
+    "player_id": 211,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 16,
+    "overall": 190,
+    "team": "Miami Heat",
+    "player": "Anfernee Hardaway",
+    "player_id": 298,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 17,
+    "overall": 191,
+    "team": "Memphis Grizzlies",
+    "player": "Nenad Krstic",
+    "player_id": 384,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 18,
+    "overall": 192,
+    "team": "Washington Wizards",
+    "player": "Devean George",
+    "player_id": 269,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 19,
+    "overall": 193,
+    "team": "Seattle SuperSonics",
+    "player": "Martell Webster",
+    "player_id": 619,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 20,
+    "overall": 194,
+    "team": "Toronto Raptors",
+    "player": "Brian Skinner",
+    "player_id": 545,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 21,
+    "overall": 195,
+    "team": "Minnesota Timberwolves",
+    "player": "Jason Hart",
+    "player_id": 306,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 22,
+    "overall": 196,
+    "team": "Atlanta Hawks",
+    "player": "Vladimir Radmanovic",
+    "player_id": 507,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 23,
+    "overall": 197,
+    "team": "Denver Nuggets",
+    "player": "Jason Kapono",
+    "player_id": 374,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 24,
+    "overall": 198,
+    "team": "Dallas Mavericks",
+    "player": "Derek Fisher",
+    "player_id": 245,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 25,
+    "overall": 199,
+    "team": "Sacramento Kings",
+    "player": "Fabricio Oberto",
+    "player_id": 463,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 26,
+    "overall": 200,
+    "team": "Houston Rockets",
+    "player": "John Salmons",
+    "player_id": 531,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 27,
+    "overall": 201,
+    "team": "Utah Jazz",
+    "player": "DeShawn Stevenson",
+    "player_id": 562,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 28,
+    "overall": 202,
+    "team": "Milwaukee Bucks",
+    "player": "Shareef Abdur-Rahim",
+    "player_id": 89,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 7,
+    "pick": 29,
+    "overall": 203,
+    "team": "Boston Celtics",
+    "player": "Hakim Warrick",
+    "player_id": 616,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 1,
+    "overall": 204,
+    "team": "Boston Celtics",
+    "player": "Will Bynum",
+    "player_id": 173,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 2,
+    "overall": 205,
+    "team": "Milwaukee Bucks",
+    "player": "Sebastian Telfair",
+    "player_id": 579,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 3,
+    "overall": 206,
+    "team": "Utah Jazz",
+    "player": "Dale Davis",
+    "player_id": 208,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 4,
+    "overall": 207,
+    "team": "Houston Rockets",
+    "player": "Chris Wilcox",
+    "player_id": 628,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 5,
+    "overall": 208,
+    "team": "Sacramento Kings",
+    "player": "Bobby Jackson",
+    "player_id": 341,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 6,
+    "overall": 209,
+    "team": "Dallas Mavericks",
+    "player": "Ronald Murray",
+    "player_id": 449,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 7,
+    "overall": 210,
+    "team": "Denver Nuggets",
+    "player": "Luke Walton",
+    "player_id": 615,
+    "source": "stats site transactions 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 8,
+    "overall": 211,
+    "team": "Atlanta Hawks",
+    "player": "Sasha Vujacic",
+    "player_id": 605,
+    "source": "stats site transactions 2026-10-24"
    },
    {
     "round": 8,
