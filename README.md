@@ -30,6 +30,6 @@ python3 -m http.server 8765   # then open http://127.0.0.1:8765/
 If the Actions scrape fails (e.g. the site blocks GitHub runners), the workflow restores the committed data and still deploys.
 
 The rookie minimum salary isn't published in any accessible league source; the app uses an editable,
-clearly labelled placeholder ($398,762) on My Team — set the real value in `simba-data/cap_rules.json` → `rookie_minimum`.
+league figure $407,425 (derived from the site's incomplete-roster charge, Oct 24 2026) in `simba-data/cap_rules.json` → `rookie_minimum`.
 
 No forum posts are published; the forum is never crawled. (Older commits still contain a `forum.json` in git history.)
