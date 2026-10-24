@@ -1184,12 +1184,12 @@
    {
     "round": 8,
     "complete": false,
-    "picks_made": 15,
+    "picks_made": 22,
     "on_the_clock": {
-     "slot": 16,
-     "team": "Los Angeles Clippers",
-     "gm": "NV",
-     "overall": 219
+     "slot": 23,
+     "team": "San Antonio Spurs",
+     "gm": "Giggles",
+     "overall": 226
     },
     "order": [
      {
@@ -3267,6 +3267,69 @@
     "team": "Phoenix Suns",
     "player": "Rasho Nesterovic",
     "player_id": 458,
+    "source": "user 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 16,
+    "overall": 219,
+    "team": "Los Angeles Clippers",
+    "player": "James Jones",
+    "player_id": 370,
+    "source": "user 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 17,
+    "overall": 220,
+    "team": "Los Angeles Lakers",
+    "player": "Brandon Bass",
+    "player_id": 124,
+    "source": "user 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 18,
+    "overall": 221,
+    "team": "New Jersey Nets",
+    "player": "Rasual Butler",
+    "player_id": 171,
+    "source": "user 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 19,
+    "overall": 222,
+    "team": "Cleveland Cavaliers",
+    "player": "Willie Green",
+    "player_id": 286,
+    "source": "user 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 20,
+    "overall": 223,
+    "team": "New York Knicks",
+    "player": "Anthony Johnson",
+    "player_id": 360,
+    "source": "user 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 21,
+    "overall": 224,
+    "team": "Orlando Magic",
+    "player": "Ime Udoka",
+    "player_id": 595,
+    "source": "user 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 22,
+    "overall": 225,
+    "team": "Golden State Warriors",
+    "player": "Jannero Pargo",
+    "player_id": 478,
     "source": "user 2026-10-24"
    }
   ]
