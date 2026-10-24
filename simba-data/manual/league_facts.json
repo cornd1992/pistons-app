@@ -38,10 +38,10 @@
  },
  "pistons_next_pick": {
   "draft": "creation",
-  "round": 7,
-  "pick": 4,
-  "overall": 178,
-  "note": "odd-round order: R7 #4 (178th overall); Chicago, Philadelphia, Portland pick first"
+  "round": 8,
+  "pick": 26,
+  "overall": 229,
+  "note": "R8 #26 (229th overall)"
  },
  "creation_draft": {
   "format": "snake (order reverses in even rounds)",
@@ -2561,6 +2561,69 @@
     "player": "Tim Thomas",
     "player_id": 587,
     "source": "user-pasted forum results 2026-10-22"
+   },
+   {
+    "round": 8,
+    "pick": 9,
+    "overall": 212,
+    "team": "Minnesota Timberwolves",
+    "player": "Francisco Garcia",
+    "player_id": 264,
+    "source": "user 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 10,
+    "overall": 213,
+    "team": "Toronto Raptors",
+    "player": "Lorenzen Wright",
+    "player_id": 648,
+    "source": "user 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 11,
+    "overall": 214,
+    "team": "Seattle SuperSonics",
+    "player": "Jason Collins",
+    "player_id": 193,
+    "source": "user 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 12,
+    "overall": 215,
+    "team": "Washington Wizards",
+    "player": "Kelvin Cato",
+    "player_id": 184,
+    "source": "user 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 13,
+    "overall": 216,
+    "team": "Memphis Grizzlies",
+    "player": "Sasha Pavlovic",
+    "player_id": 484,
+    "source": "user 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 14,
+    "overall": 217,
+    "team": "Miami Heat",
+    "player": "Ronnie Price",
+    "player_id": 502,
+    "source": "user 2026-10-24"
+   },
+   {
+    "round": 8,
+    "pick": 15,
+    "overall": 218,
+    "team": "Phoenix Suns",
+    "player": "Rasho Nesterovic",
+    "player_id": 458,
+    "source": "user 2026-10-24"
    }
   ]
  },
