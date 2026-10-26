@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-25T14:20:08Z",
-  "parsed_at": "2026-10-25T14:20:22Z"
+  "crawled_at": "2026-10-26T16:41:41Z",
+  "parsed_at": "2026-10-26T16:41:56Z"
  },
  "teams": [
   {
@@ -2542,7 +2542,129 @@
    "cut_players": [],
    "draft_picks": [],
    "injuries": [],
-   "history": null,
+   "history": {
+    "team_information": {
+     "championships": 0,
+     "years_in_playoffs": 0,
+     "win_rating": 50
+    },
+    "franchise_player_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FGA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FG",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FTA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "FT",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3PA",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "player": "N/A",
+      "season": 0
+     }
+    ],
+    "franchise_team_records": [
+     {
+      "category": "Points",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Points Allowed",
+      "record": 1000,
+      "season": 0
+     },
+     {
+      "category": "Rebounds",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Assists",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Steals",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Blocks",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "Turnovers",
+      "record": 0,
+      "season": 0
+     },
+     {
+      "category": "3P",
+      "record": 0,
+      "season": 0
+     }
+    ]
+   },
    "team_stats": {
     "ppg": 0.0,
     "rpg": 0.0,

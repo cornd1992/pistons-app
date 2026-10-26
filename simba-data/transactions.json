@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-25T14:20:08Z",
-  "parsed_at": "2026-10-25T14:20:22Z"
+  "crawled_at": "2026-10-26T16:41:41Z",
+  "parsed_at": "2026-10-26T16:41:56Z"
  },
  "transactions": [
   {
@@ -2325,6 +2325,424 @@
    "player_name": "Sasha Vujacic",
    "pick": 8,
    "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Timberwolves",
+   "action": "Draft SF Francisco Garcia with pick #9 of round 8.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Francisco Garcia",
+   "pick": 9,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Raptors",
+   "action": "Draft C Lorenzen Wright with pick #10 of round 8.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Lorenzen Wright",
+   "pick": 10,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "SuperSonics",
+   "action": "Draft C Jason Collins with pick #11 of round 8.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Jason Collins",
+   "pick": 11,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Wizards",
+   "action": "Draft C Kelvin Cato with pick #12 of round 8.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Kelvin Cato",
+   "pick": 12,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Grizzlies",
+   "action": "Draft SG Sasha Pavlovic with pick #13 of round 8.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Sasha Pavlovic",
+   "pick": 13,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Heat",
+   "action": "Draft PG Ronnie Price with pick #14 of round 8.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Ronnie Price",
+   "pick": 14,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Suns",
+   "action": "Draft C Rasho Nesterovic with pick #15 of round 8.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Rasho Nesterovic",
+   "pick": 15,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Clippers",
+   "action": "Draft SF James Jones with pick #16 of round 8.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "James Jones",
+   "pick": 16,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Lakers",
+   "action": "Draft PF Brandon Bass with pick #17 of round 8.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Brandon Bass",
+   "pick": 17,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nets",
+   "action": "Draft SF Rasual Butler with pick #18 of round 8.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Rasual Butler",
+   "pick": 18,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Cavaliers",
+   "action": "Draft SG Willie Green with pick #19 of round 8.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Willie Green",
+   "pick": 19,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Knicks",
+   "action": "Draft PG Anthony Johnson with pick #20 of round 8.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Anthony Johnson",
+   "pick": 20,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Magic",
+   "action": "Draft SF Ime Udoka with pick #21 of round 8.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Ime Udoka",
+   "pick": 21,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Warriors",
+   "action": "Draft PG Jannero Pargo with pick #22 of round 8.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Jannero Pargo",
+   "pick": 22,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Spurs",
+   "action": "Draft SG Luther Head with pick #23 of round 8.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Luther Head",
+   "pick": 23,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pacers",
+   "action": "Draft SG Devin Brown with pick #24 of round 8.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Devin Brown",
+   "pick": 24,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hornets",
+   "action": "Draft PF Michael Ruffin with pick #25 of round 8.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Michael Ruffin",
+   "pick": 25,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pistons",
+   "action": "Draft PG Smush Parker with pick #26 of round 8.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Smush Parker",
+   "pick": 26,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Trail Blazers",
+   "action": "Draft SG Bonzi Wells with pick #27 of round 8.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Bonzi Wells",
+   "pick": 27,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "76ers",
+   "action": "Draft PG Chucky Atkins with pick #28 of round 8.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Chucky Atkins",
+   "pick": 28,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bulls",
+   "action": "Draft PF Nick Collison with pick #29 of round 8.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Nick Collison",
+   "pick": 29,
+   "round": 8
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bulls",
+   "action": "Draft PF Ike Diogu with pick #1 of round 9.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Ike Diogu",
+   "pick": 1,
+   "round": 9
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "76ers",
+   "action": "Draft PF Keith Van Horn with pick #2 of round 9.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Keith Van Horn",
+   "pick": 2,
+   "round": 9
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Trail Blazers",
+   "action": "Draft C Francisco Elson with pick #3 of round 9.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Francisco Elson",
+   "pick": 3,
+   "round": 9
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pistons",
+   "action": "Draft PF Matt Bonner with pick #4 of round 9.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Matt Bonner",
+   "pick": 4,
+   "round": 9
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hornets",
+   "action": "Draft SG Marquis Daniels with pick #5 of round 9.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Marquis Daniels",
+   "pick": 5,
+   "round": 9
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pacers",
+   "action": "Draft PG Marcus Banks with pick #6 of round 9.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Marcus Banks",
+   "pick": 6,
+   "round": 9
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Spurs",
+   "action": "Draft SF Yaroslav Korolev with pick #7 of round 9.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Yaroslav Korolev",
+   "pick": 7,
+   "round": 9
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Warriors",
+   "action": "Draft C Steven Hunter with pick #8 of round 9.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Steven Hunter",
+   "pick": 8,
+   "round": 9
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Magic",
+   "action": "Draft C Calvin Booth with pick #9 of round 9.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Calvin Booth",
+   "pick": 9,
+   "round": 9
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Knicks",
+   "action": "Draft SG Brent Barry with pick #10 of round 9.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Brent Barry",
+   "pick": 10,
+   "round": 9
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Cavaliers",
+   "action": "Draft SG Dajuan Wagner with pick #11 of round 9.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Dajuan Wagner",
+   "pick": 11,
+   "round": 9
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nets",
+   "action": "Draft SG Anthony Parker with pick #12 of round 9.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Anthony Parker",
+   "pick": 12,
+   "round": 9
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Lakers",
+   "action": "Draft PG Tyronn Lue with pick #13 of round 9.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Tyronn Lue",
+   "pick": 13,
+   "round": 9
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Clippers",
+   "action": "Draft PF Joe Smith with pick #14 of round 9.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Joe Smith",
+   "pick": 14,
+   "round": 9
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Suns",
+   "action": "Draft PF James Singleton with pick #15 of round 9.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "James Singleton",
+   "pick": 15,
+   "round": 9
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Heat",
+   "action": "Draft SG Quinton Ross with pick #16 of round 9.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Quinton Ross",
+   "pick": 16,
+   "round": 9
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Grizzlies",
+   "action": "Draft PG Sarunas Jasikevicius with pick #17 of round 9.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Sarunas Jasikevicius",
+   "pick": 17,
+   "round": 9
   }
  ]
 }
