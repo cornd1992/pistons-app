@@ -1,0 +1,2599 @@
+{
+ "source": "HoopsHype 2005-06 player salaries, https://hoopshype.com/salaries/players/2005-2006/ (web.archive.org snapshot; live site returns 402)",
+ "hoopshype_rows": 479,
+ "league_players": 527,
+ "matched": 460,
+ "players": {
+  "89": {
+   "name": "Shareef Abdur-Rahim",
+   "hoopshype_name": "Shareef Abdur-Rahim",
+   "salary_2005_06": 5000000
+  },
+  "90": {
+   "name": "Alex Acker",
+   "hoopshype_name": "Alex Acker",
+   "salary_2005_06": 398762
+  },
+  "91": {
+   "name": "Malik Allen",
+   "hoopshype_name": "Malik Allen",
+   "salary_2005_06": 1670000
+  },
+  "92": {
+   "name": "Ray Allen",
+   "hoopshype_name": "Ray Allen",
+   "salary_2005_06": 13223140
+  },
+  "93": {
+   "name": "Tony Allen",
+   "hoopshype_name": "Tony Allen",
+   "salary_2005_06": 969696
+  },
+  "95": {
+   "name": "Rafer Alston",
+   "hoopshype_name": "Rafer Alston",
+   "salary_2005_06": 3850000
+  },
+  "96": {
+   "name": "Chris Andersen",
+   "hoopshype_name": "Chris Andersen",
+   "salary_2005_06": 3500000
+  },
+  "98": {
+   "name": "Alan Anderson",
+   "hoopshype_name": "Alan Anderson",
+   "salary_2005_06": 398762
+  },
+  "99": {
+   "name": "Derek Anderson",
+   "hoopshype_name": "Derek Anderson",
+   "salary_2005_06": 10763000
+  },
+  "100": {
+   "name": "Shandon Anderson",
+   "hoopshype_name": "Shandon Anderson",
+   "salary_2005_06": 8935000
+  },
+  "101": {
+   "name": "Martynas Andriuskevicius",
+   "hoopshype_name": "Martynas Andriuskevicius",
+   "salary_2005_06": 398762
+  },
+  "102": {
+   "name": "Carmelo Anthony",
+   "hoopshype_name": "Carmelo Anthony",
+   "salary_2005_06": 3713640
+  },
+  "104": {
+   "name": "Rafael Araujo",
+   "hoopshype_name": "Rafael Araujo",
+   "salary_2005_06": 2238960
+  },
+  "105": {
+   "name": "Gilbert Arenas",
+   "hoopshype_name": "Gilbert Arenas",
+   "salary_2005_06": 10243200
+  },
+  "106": {
+   "name": "Trevor Ariza",
+   "hoopshype_name": "Trevor Ariza",
+   "salary_2005_06": 682051
+  },
+  "107": {
+   "name": "Darrell Armstrong",
+   "hoopshype_name": "Darrell Armstrong",
+   "salary_2005_06": 1138500
+  },
+  "108": {
+   "name": "Carlos Arroyo",
+   "hoopshype_name": "Carlos Arroyo",
+   "salary_2005_06": 4000000
+  },
+  "109": {
+   "name": "Ron Artest",
+   "hoopshype_name": "Metta World Peace",
+   "salary_2005_06": 6842105
+  },
+  "110": {
+   "name": "Chucky Atkins",
+   "hoopshype_name": "Chucky Atkins",
+   "salary_2005_06": 4500000
+  },
+  "111": {
+   "name": "Stacey Augmon",
+   "hoopshype_name": "Stacey Augmon",
+   "salary_2005_06": 1138500
+  },
+  "114": {
+   "name": "Vin Baker",
+   "hoopshype_name": "Vin Baker",
+   "salary_2005_06": 9183333
+  },
+  "115": {
+   "name": "Marcus Banks",
+   "hoopshype_name": "Marcus Banks",
+   "salary_2005_06": 1724280
+  },
+  "116": {
+   "name": "Sean Banks",
+   "hoopshype_name": "Sean Banks",
+   "salary_2005_06": 150751
+  },
+  "117": {
+   "name": "Leandro Barbosa",
+   "hoopshype_name": "Leandro Barbosa",
+   "salary_2005_06": 930600
+  },
+  "118": {
+   "name": "Matt Barnes",
+   "hoopshype_name": "Matt Barnes",
+   "salary_2005_06": 683862
+  },
+  "120": {
+   "name": "Earl Barron",
+   "hoopshype_name": "Earl Barron",
+   "salary_2005_06": 398762
+  },
+  "121": {
+   "name": "Brent Barry",
+   "hoopshype_name": "Brent Barry",
+   "salary_2005_06": 4691390
+  },
+  "122": {
+   "name": "Jon Barry",
+   "hoopshype_name": "Jon Barry",
+   "salary_2005_06": 1800000
+  },
+  "123": {
+   "name": "Eddie Basden",
+   "hoopshype_name": "Eddie Basden",
+   "salary_2005_06": 398762
+  },
+  "124": {
+   "name": "Brandon Bass",
+   "hoopshype_name": "Brandon Bass",
+   "salary_2005_06": 398762
+  },
+  "126": {
+   "name": "Esteban Batista",
+   "hoopshype_name": "Esteban Batista",
+   "salary_2005_06": 398762
+  },
+  "127": {
+   "name": "Tony Battie",
+   "hoopshype_name": "Tony Battie",
+   "salary_2005_06": 5200000
+  },
+  "128": {
+   "name": "Shane Battier",
+   "hoopshype_name": "Shane Battier",
+   "salary_2005_06": 4903000
+  },
+  "129": {
+   "name": "Lonny Baxter",
+   "hoopshype_name": "Lonny Baxter",
+   "salary_2005_06": 745248
+  },
+  "130": {
+   "name": "Charlie Bell",
+   "hoopshype_name": "Charlie Bell",
+   "salary_2005_06": 641748
+  },
+  "131": {
+   "name": "Raja Bell",
+   "hoopshype_name": "Raja Bell",
+   "salary_2005_06": 4250000
+  },
+  "132": {
+   "name": "Jonathan Bender",
+   "hoopshype_name": "Jonathan Bender",
+   "salary_2005_06": 7175000
+  },
+  "133": {
+   "name": "Mike Bibby",
+   "hoopshype_name": "Mike Bibby",
+   "salary_2005_06": 11500000
+  },
+  "134": {
+   "name": "Andris Biedrins",
+   "hoopshype_name": "Andris Biedrins",
+   "salary_2005_06": 1857360
+  },
+  "135": {
+   "name": "Chauncey Billups",
+   "hoopshype_name": "Chauncey Billups",
+   "salary_2005_06": 5909800
+  },
+  "136": {
+   "name": "Steve Blake",
+   "hoopshype_name": "Steve Blake",
+   "salary_2005_06": 1000000
+  },
+  "137": {
+   "name": "Andray Blatche",
+   "hoopshype_name": "Andray Blatche",
+   "salary_2005_06": 398762
+  },
+  "138": {
+   "name": "Mark Blount",
+   "hoopshype_name": "Mark Blount",
+   "salary_2005_06": 5515875
+  },
+  "140": {
+   "name": "Keith Bogans",
+   "hoopshype_name": "Keith Bogans",
+   "salary_2005_06": 869373
+  },
+  "141": {
+   "name": "Andrew Bogut",
+   "hoopshype_name": "Andrew Bogut",
+   "salary_2005_06": 4340520
+  },
+  "142": {
+   "name": "Matt Bonner",
+   "hoopshype_name": "Matt Bonner",
+   "salary_2005_06": 2000000
+  },
+  "143": {
+   "name": "Calvin Booth",
+   "hoopshype_name": "Calvin Booth",
+   "salary_2005_06": 7255098
+  },
+  "144": {
+   "name": "Carlos Boozer",
+   "hoopshype_name": "Carlos Boozer",
+   "salary_2005_06": 11593816
+  },
+  "145": {
+   "name": "Curtis Borchardt",
+   "hoopshype_name": "Curtis Borchardt",
+   "salary_2005_06": 1969993
+  },
+  "146": {
+   "name": "Chris Bosh",
+   "hoopshype_name": "Chris Bosh",
+   "salary_2005_06": 3348000
+  },
+  "147": {
+   "name": "Bruce Bowen",
+   "hoopshype_name": "Bruce Bowen",
+   "salary_2005_06": 3375000
+  },
+  "148": {
+   "name": "Ryan Bowen",
+   "hoopshype_name": "Ryan Bowen",
+   "salary_2005_06": 900498
+  },
+  "149": {
+   "name": "Earl Boykins",
+   "hoopshype_name": "Earl Boykins",
+   "salary_2005_06": 2750000
+  },
+  "150": {
+   "name": "Michael Bradley",
+   "hoopshype_name": "Michael Bradley",
+   "salary_2005_06": 819550
+  },
+  "152": {
+   "name": "Elton Brand",
+   "hoopshype_name": "Elton Brand",
+   "salary_2005_06": 13152000
+  },
+  "154": {
+   "name": "Primoz Brezec",
+   "hoopshype_name": "Primoz Brezec",
+   "salary_2005_06": 2750000
+  },
+  "157": {
+   "name": "Devin Brown",
+   "hoopshype_name": "Devin Brown",
+   "salary_2005_06": 2500000
+  },
+  "159": {
+   "name": "Kwame Brown",
+   "hoopshype_name": "Kwame Brown",
+   "salary_2005_06": 7500000
+  },
+  "160": {
+   "name": "P.J. Brown",
+   "hoopshype_name": "PJ Brown",
+   "salary_2005_06": 8000000
+  },
+  "162": {
+   "name": "Rick Brunson",
+   "hoopshype_name": "Rick Brunson",
+   "salary_2005_06": 1029873
+  },
+  "163": {
+   "name": "Kobe Bryant",
+   "hoopshype_name": "Kobe Bryant",
+   "salary_2005_06": 15946875
+  },
+  "164": {
+   "name": "Greg Buckner",
+   "hoopshype_name": "Greg Buckner",
+   "salary_2005_06": 3595926
+  },
+  "166": {
+   "name": "Pat Burke",
+   "hoopshype_name": "Pat Burke",
+   "salary_2005_06": 750000
+  },
+  "167": {
+   "name": "Antonio Burks",
+   "hoopshype_name": "Antonio Burks",
+   "salary_2005_06": 641748
+  },
+  "168": {
+   "name": "Kevin Burleson",
+   "hoopshype_name": "Kevin Burleson",
+   "salary_2005_06": 398762
+  },
+  "169": {
+   "name": "Caron Butler",
+   "hoopshype_name": "Caron Butler",
+   "salary_2005_06": 2461617
+  },
+  "170": {
+   "name": "Jackie Butler",
+   "hoopshype_name": "Jackie Butler",
+   "salary_2005_06": 398762
+  },
+  "171": {
+   "name": "Rasual Butler",
+   "hoopshype_name": "Rasual Butler",
+   "salary_2005_06": 1300000
+  },
+  "172": {
+   "name": "Andrew Bynum",
+   "hoopshype_name": "Andrew Bynum",
+   "salary_2005_06": 1888680
+  },
+  "174": {
+   "name": "Zarko Cabarkapa",
+   "hoopshype_name": "Zarko Cabarkapa",
+   "salary_2005_06": 1404360
+  },
+  "175": {
+   "name": "Jose Calderon",
+   "hoopshype_name": "Jose Calderon",
+   "salary_2005_06": 2190000
+  },
+  "176": {
+   "name": "Marcus Camby",
+   "hoopshype_name": "Marcus Camby",
+   "salary_2005_06": 9150000
+  },
+  "177": {
+   "name": "Brian Cardinal",
+   "hoopshype_name": "Brian Cardinal",
+   "salary_2005_06": 5393300
+  },
+  "180": {
+   "name": "Matt Carroll",
+   "hoopshype_name": "Matt Carroll",
+   "salary_2005_06": 1100000
+  },
+  "181": {
+   "name": "Anthony Carter",
+   "hoopshype_name": "Anthony Carter",
+   "salary_2005_06": 900498
+  },
+  "182": {
+   "name": "Vince Carter",
+   "hoopshype_name": "Vince Carter",
+   "salary_2005_06": 13843156
+  },
+  "183": {
+   "name": "Sam Cassell",
+   "hoopshype_name": "Sam Cassell",
+   "salary_2005_06": 6875000
+  },
+  "184": {
+   "name": "Kelvin Cato",
+   "hoopshype_name": "Kelvin Cato",
+   "salary_2005_06": 8640000
+  },
+  "185": {
+   "name": "Lionel Chalmers",
+   "hoopshype_name": "Lionel Chalmers",
+   "salary_2005_06": 682050
+  },
+  "186": {
+   "name": "Tyson Chandler",
+   "hoopshype_name": "Tyson Chandler",
+   "salary_2005_06": 9000000
+  },
+  "187": {
+   "name": "Calbert Cheaney",
+   "hoopshype_name": "Calbert Cheaney",
+   "salary_2005_06": 1760000
+  },
+  "188": {
+   "name": "Josh Childress",
+   "hoopshype_name": "Josh Childress",
+   "salary_2005_06": 2677200
+  },
+  "189": {
+   "name": "Doug Christie",
+   "hoopshype_name": "Doug Christie",
+   "salary_2005_06": 9775000
+  },
+  "190": {
+   "name": "Speedy Claxton",
+   "hoopshype_name": "Speedy Claxton",
+   "salary_2005_06": 3600000
+  },
+  "191": {
+   "name": "Mateen Cleaves",
+   "hoopshype_name": "Mateen Cleaves",
+   "salary_2005_06": 305784
+  },
+  "192": {
+   "name": "Jarron Collins",
+   "hoopshype_name": "Jarron Collins",
+   "salary_2005_06": 1700000
+  },
+  "193": {
+   "name": "Jason Collins",
+   "hoopshype_name": "Jason Collins",
+   "salary_2005_06": 5500000
+  },
+  "194": {
+   "name": "Nick Collison",
+   "hoopshype_name": "Nick Collison",
+   "salary_2005_06": 1815000
+  },
+  "196": {
+   "name": "Brian Cook",
+   "hoopshype_name": "Brian Cook",
+   "salary_2005_06": 1038960
+  },
+  "198": {
+   "name": "Jamal Crawford",
+   "hoopshype_name": "Jamal Crawford",
+   "salary_2005_06": 6480000
+  },
+  "199": {
+   "name": "Austin Croshere",
+   "hoopshype_name": "Austin Croshere",
+   "salary_2005_06": 7900000
+  },
+  "200": {
+   "name": "Eddy Curry",
+   "hoopshype_name": "Eddy Curry",
+   "salary_2005_06": 7390000
+  },
+  "201": {
+   "name": "Samuel Dalembert",
+   "hoopshype_name": "Samuel Dalembert",
+   "salary_2005_06": 8470000
+  },
+  "202": {
+   "name": "Erick Dampier",
+   "hoopshype_name": "Erick Dampier",
+   "salary_2005_06": 8662500
+  },
+  "203": {
+   "name": "Antonio Daniels",
+   "hoopshype_name": "Antonio Daniels",
+   "salary_2005_06": 5000000
+  },
+  "205": {
+   "name": "Marquis Daniels",
+   "hoopshype_name": "Marquis Daniels",
+   "salary_2005_06": 5393300
+  },
+  "206": {
+   "name": "Antonio Davis",
+   "hoopshype_name": "Antonio Davis",
+   "salary_2005_06": 13925000
+  },
+  "207": {
+   "name": "Baron Davis",
+   "hoopshype_name": "Baron Davis",
+   "salary_2005_06": 13700000
+  },
+  "208": {
+   "name": "Dale Davis",
+   "hoopshype_name": "Dale Davis",
+   "salary_2005_06": 3500000
+  },
+  "209": {
+   "name": "Josh Davis",
+   "hoopshype_name": "Josh Davis",
+   "salary_2005_06": 193003
+  },
+  "210": {
+   "name": "Ricky Davis",
+   "hoopshype_name": "Ricky Davis",
+   "salary_2005_06": 5909800
+  },
+  "211": {
+   "name": "Carlos Delfino",
+   "hoopshype_name": "Carlos Delfino",
+   "salary_2005_06": 969696
+  },
+  "212": {
+   "name": "Tony Delk",
+   "hoopshype_name": "Tony Delk",
+   "salary_2005_06": 3375000
+  },
+  "213": {
+   "name": "Luol Deng",
+   "hoopshype_name": "Luol Deng",
+   "salary_2005_06": 2443920
+  },
+  "214": {
+   "name": "Boris Diaw",
+   "hoopshype_name": "Boris Diaw",
+   "salary_2005_06": 1174200
+  },
+  "216": {
+   "name": "Dan Dickau",
+   "hoopshype_name": "Dan Dickau",
+   "salary_2005_06": 2250000
+  },
+  "217": {
+   "name": "Kaniel Dickens",
+   "hoopshype_name": "Kaniel Dickens",
+   "salary_2005_06": 31305
+  },
+  "218": {
+   "name": "Travis Diener",
+   "hoopshype_name": "Travis Diener",
+   "salary_2005_06": 398762
+  },
+  "219": {
+   "name": "Ike Diogu",
+   "hoopshype_name": "Ike Diogu",
+   "salary_2005_06": 1988160
+  },
+  "220": {
+   "name": "DeSagana Diop",
+   "hoopshype_name": "DeSagana Diop",
+   "salary_2005_06": 1850000
+  },
+  "221": {
+   "name": "Juan Dixon",
+   "hoopshype_name": "Juan Dixon",
+   "salary_2005_06": 2500000
+  },
+  "222": {
+   "name": "Michael Doleac",
+   "hoopshype_name": "Michael Doleac",
+   "salary_2005_06": 2640000
+  },
+  "223": {
+   "name": "Keyon Dooling",
+   "hoopshype_name": "Keyon Dooling",
+   "salary_2005_06": 3100000
+  },
+  "225": {
+   "name": "Chris Duhon",
+   "hoopshype_name": "Chris Duhon",
+   "salary_2005_06": 2800000
+  },
+  "226": {
+   "name": "Tim Duncan",
+   "hoopshype_name": "Tim Duncan",
+   "salary_2005_06": 15845156
+  },
+  "227": {
+   "name": "Mike Dunleavy Jr.",
+   "hoopshype_name": "Mike Dunleavy",
+   "salary_2005_06": 4506261
+  },
+  "228": {
+   "name": "Ronald Dupree",
+   "hoopshype_name": "Ronald Dupree",
+   "salary_2005_06": 719373
+  },
+  "229": {
+   "name": "Ndudi Ebi",
+   "hoopshype_name": "Ndudi Ebi",
+   "salary_2005_06": 964320
+  },
+  "231": {
+   "name": "John Edwards",
+   "hoopshype_name": "John Edwards",
+   "salary_2005_06": 1000000
+  },
+  "232": {
+   "name": "Howard Eisley",
+   "hoopshype_name": "Howard Eisley",
+   "salary_2005_06": 5926984
+  },
+  "234": {
+   "name": "Monta Ellis",
+   "hoopshype_name": "Monta Ellis",
+   "salary_2005_06": 448762
+  },
+  "235": {
+   "name": "Francisco Elson",
+   "hoopshype_name": "Francisco Elson",
+   "salary_2005_06": 719373
+  },
+  "236": {
+   "name": "Melvin Ely",
+   "hoopshype_name": "Melvin Ely",
+   "salary_2005_06": 2401027
+  },
+  "237": {
+   "name": "Andre Emmett",
+   "hoopshype_name": "Andre Emmett",
+   "salary_2005_06": 641748
+  },
+  "238": {
+   "name": "Maurice Evans",
+   "hoopshype_name": "Maurice Evans",
+   "salary_2005_06": 1500000
+  },
+  "239": {
+   "name": "Reggie Evans",
+   "hoopshype_name": "Reggie Evans",
+   "salary_2005_06": 1100000
+  },
+  "240": {
+   "name": "Daniel Ewing",
+   "hoopshype_name": "Daniel Ewing",
+   "salary_2005_06": 450000
+  },
+  "243": {
+   "name": "Raymond Felton",
+   "hoopshype_name": "Raymond Felton",
+   "salary_2005_06": 2847360
+  },
+  "244": {
+   "name": "Michael Finley",
+   "hoopshype_name": "Michael Finley",
+   "salary_2005_06": 18612500
+  },
+  "245": {
+   "name": "Derek Fisher",
+   "hoopshype_name": "Derek Fisher",
+   "salary_2005_06": 5393300
+  },
+  "246": {
+   "name": "Gerald Fitch",
+   "hoopshype_name": "Gerald Fitch",
+   "salary_2005_06": 359858
+  },
+  "249": {
+   "name": "Sharrod Ford",
+   "hoopshype_name": "Sharrod Ford",
+   "salary_2005_06": 116711
+  },
+  "250": {
+   "name": "T.J. Ford",
+   "hoopshype_name": "TJ Ford",
+   "salary_2005_06": 2303040
+  },
+  "251": {
+   "name": "Danny Fortson",
+   "hoopshype_name": "Danny Fortson",
+   "salary_2005_06": 6207670
+  },
+  "252": {
+   "name": "Jeff Foster",
+   "hoopshype_name": "Jeff Foster",
+   "salary_2005_06": 5000000
+  },
+  "254": {
+   "name": "Adonal Foyle",
+   "hoopshype_name": "Adonal Foyle",
+   "salary_2005_06": 7312500
+  },
+  "255": {
+   "name": "Richie Frahm",
+   "hoopshype_name": "Richie Frahm",
+   "salary_2005_06": 719373
+  },
+  "256": {
+   "name": "Steve Francis",
+   "hoopshype_name": "Steve Francis",
+   "salary_2005_06": 13700000
+  },
+  "258": {
+   "name": "Channing Frye",
+   "hoopshype_name": "Channing Frye",
+   "salary_2005_06": 2162880
+  },
+  "259": {
+   "name": "Dan Gadzuric",
+   "hoopshype_name": "Dan Gadzuric",
+   "salary_2005_06": 4750000
+  },
+  "260": {
+   "name": "Deng Gai",
+   "hoopshype_name": "Deng Gai",
+   "salary_2005_06": 92396
+  },
+  "261": {
+   "name": "Reece Gaines",
+   "hoopshype_name": "Reece Gaines",
+   "salary_2005_06": 1556160
+  },
+  "264": {
+   "name": "Francisco Garcia",
+   "hoopshype_name": "Francisco Garcia",
+   "salary_2005_06": 1016400
+  },
+  "265": {
+   "name": "Kevin Garnett",
+   "hoopshype_name": "Kevin Garnett",
+   "salary_2005_06": 18000000
+  },
+  "266": {
+   "name": "Pat Garrity",
+   "hoopshype_name": "Pat Garrity",
+   "salary_2005_06": 3231250
+  },
+  "267": {
+   "name": "Pau Gasol",
+   "hoopshype_name": "Pau Gasol",
+   "salary_2005_06": 10993000
+  },
+  "269": {
+   "name": "Devean George",
+   "hoopshype_name": "Devean George",
+   "salary_2005_06": 5000600
+  },
+  "270": {
+   "name": "Eddie Gill",
+   "hoopshype_name": "Eddie Gill",
+   "salary_2005_06": 819551
+  },
+  "271": {
+   "name": "Manu Ginobili",
+   "hoopshype_name": "Manu Ginobili",
+   "salary_2005_06": 7428937
+  },
+  "272": {
+   "name": "Gordan Giricek",
+   "hoopshype_name": "Gordan Giricek",
+   "salary_2005_06": 4000000
+  },
+  "273": {
+   "name": "Dion Glover",
+   "hoopshype_name": "Dion Glover",
+   "salary_2005_06": 163085
+  },
+  "275": {
+   "name": "Anthony Goldwire",
+   "hoopshype_name": "Anthony Goldwire",
+   "salary_2005_06": 74652
+  },
+  "276": {
+   "name": "Ryan Gomes",
+   "hoopshype_name": "Ryan Gomes",
+   "salary_2005_06": 428762
+  },
+  "277": {
+   "name": "Drew Gooden",
+   "hoopshype_name": "Drew Gooden",
+   "salary_2005_06": 4065811
+  },
+  "278": {
+   "name": "Ben Gordon",
+   "hoopshype_name": "Ben Gordon",
+   "salary_2005_06": 3610200
+  },
+  "280": {
+   "name": "Joey Graham",
+   "hoopshype_name": "Joey Graham",
+   "salary_2005_06": 1388400
+  },
+  "281": {
+   "name": "Stephen Graham",
+   "hoopshype_name": "Stephen Graham",
+   "salary_2005_06": 48630
+  },
+  "282": {
+   "name": "Danny Granger",
+   "hoopshype_name": "Danny Granger",
+   "salary_2005_06": 1318920
+  },
+  "283": {
+   "name": "Brian Grant",
+   "hoopshype_name": "Brian Grant",
+   "salary_2005_06": 16006220
+  },
+  "284": {
+   "name": "Devin Green",
+   "hoopshype_name": "Devin Green",
+   "salary_2005_06": 398762
+  },
+  "285": {
+   "name": "Gerald Green",
+   "hoopshype_name": "Gerald Green",
+   "salary_2005_06": 1253040
+  },
+  "287": {
+   "name": "Orien Greene",
+   "hoopshype_name": "Orien Greene",
+   "salary_2005_06": 398762
+  },
+  "289": {
+   "name": "Adrian Griffin",
+   "hoopshype_name": "Adrian Griffin",
+   "salary_2005_06": 768718
+  },
+  "290": {
+   "name": "Eddie Griffin",
+   "hoopshype_name": "Eddie Griffin",
+   "salary_2005_06": 2500000
+  },
+  "295": {
+   "name": "Richard Hamilton",
+   "hoopshype_name": "Richard Hamilton",
+   "salary_2005_06": 8625000
+  },
+  "296": {
+   "name": "Zendon Hamilton",
+   "hoopshype_name": "Zendon Hamilton",
+   "salary_2005_06": 329138
+  },
+  "297": {
+   "name": "Ben Handlogten",
+   "hoopshype_name": "Ben Handlogten",
+   "salary_2005_06": 35091
+  },
+  "298": {
+   "name": "Anfernee Hardaway",
+   "hoopshype_name": "Anfernee Hardaway",
+   "salary_2005_06": 15750000
+  },
+  "299": {
+   "name": "Matt Harpring",
+   "hoopshype_name": "Matt Harpring",
+   "salary_2005_06": 5020000
+  },
+  "300": {
+   "name": "Al Harrington",
+   "hoopshype_name": "Al Harrington",
+   "salary_2005_06": 6957500
+  },
+  "302": {
+   "name": "Othella Harrington",
+   "hoopshype_name": "Othella Harrington",
+   "salary_2005_06": 3500000
+  },
+  "303": {
+   "name": "Devin Harris",
+   "hoopshype_name": "Devin Harris",
+   "salary_2005_06": 2947440
+  },
+  "305": {
+   "name": "David Harrison",
+   "hoopshype_name": "David Harrison",
+   "salary_2005_06": 898200
+  },
+  "306": {
+   "name": "Jason Hart",
+   "hoopshype_name": "Jason Hart",
+   "salary_2005_06": 1540000
+  },
+  "308": {
+   "name": "Udonis Haslem",
+   "hoopshype_name": "Udonis Haslem",
+   "salary_2005_06": 5000000
+  },
+  "309": {
+   "name": "Trenton Hassell",
+   "hoopshype_name": "Trenton Hassell",
+   "salary_2005_06": 4350000
+  },
+  "311": {
+   "name": "Jarvis Hayes",
+   "hoopshype_name": "Jarvis Hayes",
+   "salary_2005_06": 2011080
+  },
+  "312": {
+   "name": "Brendan Haywood",
+   "hoopshype_name": "Brendan Haywood",
+   "salary_2005_06": 4000000
+  },
+  "313": {
+   "name": "Luther Head",
+   "hoopshype_name": "Luther Head",
+   "salary_2005_06": 975600
+  },
+  "314": {
+   "name": "Alan Henderson",
+   "hoopshype_name": "Alan Henderson",
+   "salary_2005_06": 1138500
+  },
+  "316": {
+   "name": "Nene Hilario",
+   "hoopshype_name": "Nen\u00ea",
+   "salary_2005_06": 3039889
+  },
+  "317": {
+   "name": "Grant Hill",
+   "hoopshype_name": "Grant Hill",
+   "salary_2005_06": 15694250
+  },
+  "318": {
+   "name": "Kirk Hinrich",
+   "hoopshype_name": "Kirk Hinrich",
+   "salary_2005_06": 2513880
+  },
+  "319": {
+   "name": "Julius Hodge",
+   "hoopshype_name": "Julius Hodge",
+   "salary_2005_06": 1148760
+  },
+  "320": {
+   "name": "Randy Holcomb",
+   "hoopshype_name": "Randy Holcomb",
+   "salary_2005_06": 52033
+  },
+  "321": {
+   "name": "Robert Horry",
+   "hoopshype_name": "Robert Horry",
+   "salary_2005_06": 3000000
+  },
+  "322": {
+   "name": "Eddie House",
+   "hoopshype_name": "Eddie House",
+   "salary_2005_06": 835810
+  },
+  "323": {
+   "name": "Dwight Howard",
+   "hoopshype_name": "Dwight Howard",
+   "salary_2005_06": 4493160
+  },
+  "324": {
+   "name": "Josh Howard",
+   "hoopshype_name": "Josh Howard",
+   "salary_2005_06": 923880
+  },
+  "325": {
+   "name": "Juwan Howard",
+   "hoopshype_name": "Juwan Howard",
+   "salary_2005_06": 5900400
+  },
+  "326": {
+   "name": "Troy Hudson",
+   "hoopshype_name": "Troy Hudson",
+   "salary_2005_06": 5253000
+  },
+  "328": {
+   "name": "Larry Hughes",
+   "hoopshype_name": "Larry Hughes",
+   "salary_2005_06": 10344900
+  },
+  "330": {
+   "name": "Kris Humphries",
+   "hoopshype_name": "Kris Humphries",
+   "salary_2005_06": 1592400
+  },
+  "332": {
+   "name": "Lindsey Hunter",
+   "hoopshype_name": "Lindsey Hunter",
+   "salary_2005_06": 1760000
+  },
+  "333": {
+   "name": "Steven Hunter",
+   "hoopshype_name": "Steven Hunter",
+   "salary_2005_06": 2800000
+  },
+  "334": {
+   "name": "Andre Iguodala",
+   "hoopshype_name": "Andre Iguodala",
+   "salary_2005_06": 2058000
+  },
+  "335": {
+   "name": "Zydrunas Ilgauskas",
+   "hoopshype_name": "Zydrunas Ilgauskas",
+   "salary_2005_06": 8740000
+  },
+  "337": {
+   "name": "Ersan Ilyasova",
+   "hoopshype_name": "Ersan Ilyasova",
+   "salary_2005_06": 398762
+  },
+  "338": {
+   "name": "Allen Iverson",
+   "hoopshype_name": "Allen Iverson",
+   "salary_2005_06": 16453125
+  },
+  "339": {
+   "name": "Royal Ivey",
+   "hoopshype_name": "Royal Ivey",
+   "salary_2005_06": 641748
+  },
+  "340": {
+   "name": "Jarrett Jack",
+   "hoopshype_name": "Jarrett Jack",
+   "salary_2005_06": 1058640
+  },
+  "341": {
+   "name": "Bobby Jackson",
+   "hoopshype_name": "Bobby Jackson",
+   "salary_2005_06": 3375000
+  },
+  "342": {
+   "name": "Jermaine Jackson",
+   "hoopshype_name": "Jermaine Jackson",
+   "salary_2005_06": 1355067
+  },
+  "343": {
+   "name": "Jim Jackson",
+   "hoopshype_name": "Jim Jackson",
+   "salary_2005_06": 2640000
+  },
+  "344": {
+   "name": "Luke Jackson",
+   "hoopshype_name": "Luke Jackson",
+   "salary_2005_06": 1955160
+  },
+  "345": {
+   "name": "Marc Jackson",
+   "hoopshype_name": "Marc Jackson",
+   "salary_2005_06": 4550000
+  },
+  "346": {
+   "name": "Stephen Jackson",
+   "hoopshype_name": "Stephen Jackson",
+   "salary_2005_06": 5610000
+  },
+  "348": {
+   "name": "Jerome James",
+   "hoopshype_name": "Jerome James",
+   "salary_2005_06": 5000000
+  },
+  "349": {
+   "name": "LeBron James",
+   "hoopshype_name": "LeBron James",
+   "salary_2005_06": 4621800
+  },
+  "350": {
+   "name": "Mike James",
+   "hoopshype_name": "Mike James",
+   "salary_2005_06": 3410000
+  },
+  "351": {
+   "name": "Antawn Jamison",
+   "hoopshype_name": "Antawn Jamison",
+   "salary_2005_06": 13843156
+  },
+  "352": {
+   "name": "Marko Jaric",
+   "hoopshype_name": "Marko Jaric",
+   "salary_2005_06": 5000000
+  },
+  "353": {
+   "name": "Sarunas Jasikevicius",
+   "hoopshype_name": "Sarunas Jasikevicius",
+   "salary_2005_06": 4000000
+  },
+  "354": {
+   "name": "Al Jefferson",
+   "hoopshype_name": "Al Jefferson",
+   "salary_2005_06": 1512840
+  },
+  "355": {
+   "name": "Richard Jefferson",
+   "hoopshype_name": "Richard Jefferson",
+   "salary_2005_06": 10200000
+  },
+  "356": {
+   "name": "Jared Jeffries",
+   "hoopshype_name": "Jared Jeffries",
+   "salary_2005_06": 2433824
+  },
+  "359": {
+   "name": "Amir Johnson",
+   "hoopshype_name": "Amir Johnson",
+   "salary_2005_06": 398762
+  },
+  "360": {
+   "name": "Anthony Johnson",
+   "hoopshype_name": "Anthony Johnson",
+   "salary_2005_06": 2420000
+  },
+  "361": {
+   "name": "DerMarr Johnson",
+   "hoopshype_name": "DerMarr Johnson",
+   "salary_2005_06": 835810
+  },
+  "362": {
+   "name": "Ervin Johnson",
+   "hoopshype_name": "Ervin Johnson",
+   "salary_2005_06": 1138500
+  },
+  "363": {
+   "name": "Joe Johnson",
+   "hoopshype_name": "Joe Johnson",
+   "salary_2005_06": 12000000
+  },
+  "364": {
+   "name": "Linton Johnson III",
+   "hoopshype_name": "Linton Johnson",
+   "salary_2005_06": 719373
+  },
+  "365": {
+   "name": "Dahntay Jones",
+   "hoopshype_name": "Dahntay Jones",
+   "salary_2005_06": 1223160
+  },
+  "366": {
+   "name": "Damon Jones",
+   "hoopshype_name": "Damon Jones",
+   "salary_2005_06": 3590000
+  },
+  "367": {
+   "name": "Dwayne Jones",
+   "hoopshype_name": "Dwayne Jones",
+   "salary_2005_06": 398762
+  },
+  "368": {
+   "name": "Eddie Jones",
+   "hoopshype_name": "Eddie Jones",
+   "salary_2005_06": 14576250
+  },
+  "369": {
+   "name": "Fred Jones",
+   "hoopshype_name": "Fred Jones",
+   "salary_2005_06": 2328843
+  },
+  "370": {
+   "name": "James Jones",
+   "hoopshype_name": "James Jones",
+   "salary_2005_06": 2400000
+  },
+  "371": {
+   "name": "Jumaine Jones",
+   "hoopshype_name": "Jumaine Jones",
+   "salary_2005_06": 1875000
+  },
+  "373": {
+   "name": "Chris Kaman",
+   "hoopshype_name": "Chris Kaman",
+   "salary_2005_06": 2753760
+  },
+  "374": {
+   "name": "Jason Kapono",
+   "hoopshype_name": "Jason Kapono",
+   "salary_2005_06": 1100000
+  },
+  "375": {
+   "name": "Mario Kasun",
+   "hoopshype_name": "Mario Kasun",
+   "salary_2005_06": 682050
+  },
+  "376": {
+   "name": "Viktor Khryapa",
+   "hoopshype_name": "Viktor Khryapa",
+   "salary_2005_06": 1095960
+  },
+  "377": {
+   "name": "Jason Kidd",
+   "hoopshype_name": "Jason Kidd",
+   "salary_2005_06": 16440000
+  },
+  "378": {
+   "name": "Andrei Kirilenko",
+   "hoopshype_name": "Andrei Kirilenko",
+   "salary_2005_06": 10983000
+  },
+  "379": {
+   "name": "Linas Kleiza",
+   "hoopshype_name": "Linas Kleiza",
+   "salary_2005_06": 879360
+  },
+  "381": {
+   "name": "Brevin Knight",
+   "hoopshype_name": "Brevin Knight",
+   "salary_2005_06": 4600000
+  },
+  "382": {
+   "name": "Yaroslav Korolev",
+   "hoopshype_name": "Yaroslav Korolev",
+   "salary_2005_06": 1704480
+  },
+  "383": {
+   "name": "Kyle Korver",
+   "hoopshype_name": "Kyle Korver",
+   "salary_2005_06": 3630363
+  },
+  "384": {
+   "name": "Nenad Krstic",
+   "hoopshype_name": "Nenad Krstic",
+   "salary_2005_06": 1010040
+  },
+  "385": {
+   "name": "Toni Kukoc",
+   "hoopshype_name": "Toni Kukoc",
+   "salary_2005_06": 2000000
+  },
+  "386": {
+   "name": "Ibrahim Kutluay",
+   "hoopshype_name": "Ibo Kutluay",
+   "salary_2005_06": 1760000
+  },
+  "387": {
+   "name": "Raef LaFrentz",
+   "hoopshype_name": "Raef LaFrentz",
+   "salary_2005_06": 10623288
+  },
+  "388": {
+   "name": "Maciej Lampe",
+   "hoopshype_name": "Maciej Lampe",
+   "salary_2005_06": 900000
+  },
+  "391": {
+   "name": "David Lee",
+   "hoopshype_name": "David Lee",
+   "salary_2005_06": 861360
+  },
+  "392": {
+   "name": "Voshon Lenard",
+   "hoopshype_name": "Voshon Lenard",
+   "salary_2005_06": 3520000
+  },
+  "393": {
+   "name": "Rashard Lewis",
+   "hoopshype_name": "Rashard Lewis",
+   "salary_2005_06": 8571429
+  },
+  "395": {
+   "name": "Shaun Livingston",
+   "hoopshype_name": "Shaun Livingston",
+   "salary_2005_06": 3254880
+  },
+  "396": {
+   "name": "Raul Lopez",
+   "hoopshype_name": "Raul Lopez",
+   "salary_2005_06": 1744313
+  },
+  "397": {
+   "name": "John Lucas III",
+   "hoopshype_name": "John Lucas",
+   "salary_2005_06": 34041
+  },
+  "398": {
+   "name": "Tyronn Lue",
+   "hoopshype_name": "Tyronn Lue",
+   "salary_2005_06": 3500000
+  },
+  "399": {
+   "name": "Arvydas Macijauskas",
+   "hoopshype_name": "Arvydas Macijauskas",
+   "salary_2005_06": 2500000
+  },
+  "400": {
+   "name": "Mark Madsen",
+   "hoopshype_name": "Mark Madsen",
+   "salary_2005_06": 2000000
+  },
+  "401": {
+   "name": "Corey Maggette",
+   "hoopshype_name": "Corey Maggette",
+   "salary_2005_06": 7000000
+  },
+  "402": {
+   "name": "Jamaal Magloire",
+   "hoopshype_name": "Jamaal Magloire",
+   "salary_2005_06": 8533333
+  },
+  "405": {
+   "name": "Stephon Marbury",
+   "hoopshype_name": "Stephon Marbury",
+   "salary_2005_06": 16453125
+  },
+  "406": {
+   "name": "Shawn Marion",
+   "hoopshype_name": "Shawn Marion",
+   "salary_2005_06": 13700000
+  },
+  "407": {
+   "name": "Sean Marks",
+   "hoopshype_name": "Sean Marks",
+   "salary_2005_06": 835810
+  },
+  "408": {
+   "name": "Donyell Marshall",
+   "hoopshype_name": "Donyell Marshall",
+   "salary_2005_06": 4799108
+  },
+  "409": {
+   "name": "Rawle Marshall",
+   "hoopshype_name": "Rawle Marshall",
+   "salary_2005_06": 398762
+  },
+  "410": {
+   "name": "Darrick Martin",
+   "hoopshype_name": "Darrick Martin",
+   "salary_2005_06": 946646
+  },
+  "411": {
+   "name": "Kenyon Martin",
+   "hoopshype_name": "Kenyon Martin",
+   "salary_2005_06": 10636364
+  },
+  "412": {
+   "name": "Kevin Martin",
+   "hoopshype_name": "Kevin Martin",
+   "salary_2005_06": 937440
+  },
+  "413": {
+   "name": "Jamal Mashburn",
+   "hoopshype_name": "Jamal Mashburn",
+   "salary_2005_06": 10075000
+  },
+  "414": {
+   "name": "Desmond Mason",
+   "hoopshype_name": "Desmond Mason",
+   "salary_2005_06": 7333333
+  },
+  "416": {
+   "name": "Jason Maxiell",
+   "hoopshype_name": "Jason Maxiell",
+   "salary_2005_06": 905640
+  },
+  "417": {
+   "name": "Sean May",
+   "hoopshype_name": "Sean May",
+   "salary_2005_06": 1619280
+  },
+  "418": {
+   "name": "D.J. Mbenga",
+   "hoopshype_name": "Didier Ilunga-Mbenga",
+   "salary_2005_06": 880000
+  },
+  "419": {
+   "name": "Rashad McCants",
+   "hoopshype_name": "Rashad McCants",
+   "salary_2005_06": 1538400
+  },
+  "420": {
+   "name": "Walter McCarty",
+   "hoopshype_name": "Walter McCarty",
+   "salary_2005_06": 1035000
+  },
+  "422": {
+   "name": "Antonio McDyess",
+   "hoopshype_name": "Antonio McDyess",
+   "salary_2005_06": 5393300
+  },
+  "424": {
+   "name": "Tracy McGrady",
+   "hoopshype_name": "Tracy McGrady",
+   "salary_2005_06": 15694250
+  },
+  "425": {
+   "name": "Jeff McInnis",
+   "hoopshype_name": "Jeff McInnis",
+   "salary_2005_06": 3400000
+  },
+  "426": {
+   "name": "Aaron McKie",
+   "hoopshype_name": "Aaron McKie",
+   "salary_2005_06": 8500000
+  },
+  "427": {
+   "name": "Keith McLeod",
+   "hoopshype_name": "Keith McLeod",
+   "salary_2005_06": 1250000
+  },
+  "428": {
+   "name": "Slava Medvedenko",
+   "hoopshype_name": "Stanislav Medvedenko",
+   "salary_2005_06": 3000000
+  },
+  "429": {
+   "name": "Chris Mihm",
+   "hoopshype_name": "Chris Mihm",
+   "salary_2005_06": 3792817
+  },
+  "430": {
+   "name": "Aaron Miles",
+   "hoopshype_name": "Aaron Miles",
+   "salary_2005_06": 155614
+  },
+  "431": {
+   "name": "C.J. Miles",
+   "hoopshype_name": "CJ Miles",
+   "salary_2005_06": 398762
+  },
+  "432": {
+   "name": "Darius Miles",
+   "hoopshype_name": "Darius Miles",
+   "salary_2005_06": 7250000
+  },
+  "433": {
+   "name": "Darko Milicic",
+   "hoopshype_name": "Darko Milicic",
+   "salary_2005_06": 4135200
+  },
+  "434": {
+   "name": "Andre Miller",
+   "hoopshype_name": "Andre Miller",
+   "salary_2005_06": 8100000
+  },
+  "435": {
+   "name": "Brad Miller",
+   "hoopshype_name": "Brad Miller",
+   "salary_2005_06": 8750000
+  },
+  "436": {
+   "name": "Mike Miller",
+   "hoopshype_name": "Mike Miller",
+   "salary_2005_06": 6750000
+  },
+  "437": {
+   "name": "Yao Ming",
+   "hoopshype_name": "Yao Ming",
+   "salary_2005_06": 5594906
+  },
+  "438": {
+   "name": "Cuttino Mobley",
+   "hoopshype_name": "Cuttino Mobley",
+   "salary_2005_06": 7200000
+  },
+  "439": {
+   "name": "Nazr Mohammed",
+   "hoopshype_name": "Nazr Mohammed",
+   "salary_2005_06": 5500000
+  },
+  "441": {
+   "name": "Sergei Monia",
+   "hoopshype_name": "Sergey Monya",
+   "salary_2005_06": 1016400
+  },
+  "443": {
+   "name": "Mikki Moore",
+   "hoopshype_name": "Mikki Moore",
+   "salary_2005_06": 1020000
+  },
+  "445": {
+   "name": "Terence Morris",
+   "hoopshype_name": "Terence Morris",
+   "salary_2005_06": 835810
+  },
+  "446": {
+   "name": "Alonzo Mourning",
+   "hoopshype_name": "Alonzo Mourning",
+   "salary_2005_06": 5138500
+  },
+  "447": {
+   "name": "Troy Murphy",
+   "hoopshype_name": "Troy Murphy",
+   "salary_2005_06": 7365079
+  },
+  "448": {
+   "name": "Lamond Murray",
+   "hoopshype_name": "Lamond Murray",
+   "salary_2005_06": 6388500
+  },
+  "449": {
+   "name": "Ronald Murray",
+   "hoopshype_name": "Ronald Murray",
+   "salary_2005_06": 895248
+  },
+  "450": {
+   "name": "Dikembe Mutombo",
+   "hoopshype_name": "Dikembe Mutombo",
+   "salary_2005_06": 2000000
+  },
+  "451": {
+   "name": "Bostjan Nachbar",
+   "hoopshype_name": "Bostjan Nachbar",
+   "salary_2005_06": 2500000
+  },
+  "452": {
+   "name": "Lee Nailon",
+   "hoopshype_name": "Lee Nailon",
+   "salary_2005_06": 835810
+  },
+  "453": {
+   "name": "Eduardo Najera",
+   "hoopshype_name": "Eduardo Najera",
+   "salary_2005_06": 4190476
+  },
+  "454": {
+   "name": "Steve Nash",
+   "hoopshype_name": "Steve Nash",
+   "salary_2005_06": 9625000
+  },
+  "456": {
+   "name": "Boniface N'Dong",
+   "hoopshype_name": "Boniface N'Dong",
+   "salary_2005_06": 398762
+  },
+  "457": {
+   "name": "Jameer Nelson",
+   "hoopshype_name": "Jameer Nelson",
+   "salary_2005_06": 1189200
+  },
+  "458": {
+   "name": "Rasho Nesterovic",
+   "hoopshype_name": "Radoslav Nesterovic",
+   "salary_2005_06": 6720000
+  },
+  "459": {
+   "name": "Ira Newble",
+   "hoopshype_name": "Ira Newble",
+   "salary_2005_06": 2950200
+  },
+  "460": {
+   "name": "Andres Nocioni",
+   "hoopshype_name": "Andres Nocioni",
+   "salary_2005_06": 2775000
+  },
+  "461": {
+   "name": "Moochie Norris",
+   "hoopshype_name": "Moochie Norris",
+   "salary_2005_06": 4200000
+  },
+  "462": {
+   "name": "Dirk Nowitzki",
+   "hoopshype_name": "Dirk Nowitzki",
+   "salary_2005_06": 13843156
+  },
+  "463": {
+   "name": "Fabricio Oberto",
+   "hoopshype_name": "Fabricio Oberto",
+   "salary_2005_06": 2325000
+  },
+  "464": {
+   "name": "Lamar Odom",
+   "hoopshype_name": "Lamar Odom",
+   "salary_2005_06": 11465333
+  },
+  "465": {
+   "name": "Emeka Okafor",
+   "hoopshype_name": "Emeka Okafor",
+   "salary_2005_06": 4020120
+  },
+  "466": {
+   "name": "Mehmet Okur",
+   "hoopshype_name": "Mehmet Okur",
+   "salary_2005_06": 8250000
+  },
+  "467": {
+   "name": "Kevin Ollie",
+   "hoopshype_name": "Kevin Ollie",
+   "salary_2005_06": 2950200
+  },
+  "468": {
+   "name": "Michael Olowokandi",
+   "hoopshype_name": "Michael Olowokandi",
+   "salary_2005_06": 5900400
+  },
+  "469": {
+   "name": "Jermaine O'Neal",
+   "hoopshype_name": "Jermaine O'Neal",
+   "salary_2005_06": 16440000
+  },
+  "470": {
+   "name": "Shaquille O'Neal",
+   "hoopshype_name": "Shaquille O'Neal",
+   "salary_2005_06": 20000000
+  },
+  "471": {
+   "name": "Greg Ostertag",
+   "hoopshype_name": "Greg Ostertag",
+   "salary_2005_06": 4400000
+  },
+  "472": {
+   "name": "Bo Outlaw",
+   "hoopshype_name": "Bo Outlaw",
+   "salary_2005_06": 1138500
+  },
+  "473": {
+   "name": "Travis Outlaw",
+   "hoopshype_name": "Travis Outlaw",
+   "salary_2005_06": 1082160
+  },
+  "474": {
+   "name": "Andre Owens",
+   "hoopshype_name": "Andre Owens",
+   "salary_2005_06": 398762
+  },
+  "475": {
+   "name": "Zaza Pachulia",
+   "hoopshype_name": "Zaza Pachulia",
+   "salary_2005_06": 4000000
+  },
+  "476": {
+   "name": "Scott Padgett",
+   "hoopshype_name": "Scott Padgett",
+   "salary_2005_06": 1670000
+  },
+  "477": {
+   "name": "Milt Palacio",
+   "hoopshype_name": "Milt Palacio",
+   "salary_2005_06": 1400000
+  },
+  "478": {
+   "name": "Jannero Pargo",
+   "hoopshype_name": "Jannero Pargo",
+   "salary_2005_06": 895248
+  },
+  "480": {
+   "name": "Smush Parker",
+   "hoopshype_name": "Smush Parker",
+   "salary_2005_06": 745248
+  },
+  "481": {
+   "name": "Tony Parker",
+   "hoopshype_name": "Tony Parker",
+   "salary_2005_06": 8400000
+  },
+  "482": {
+   "name": "Ruben Patterson",
+   "hoopshype_name": "Ruben Patterson",
+   "salary_2005_06": 6353200
+  },
+  "483": {
+   "name": "Chris Paul",
+   "hoopshype_name": "Chris Paul",
+   "salary_2005_06": 3144240
+  },
+  "484": {
+   "name": "Sasha Pavlovic",
+   "hoopshype_name": "Aleksandar Pavlovic",
+   "salary_2005_06": 1274160
+  },
+  "485": {
+   "name": "Gary Payton",
+   "hoopshype_name": "Gary Payton",
+   "salary_2005_06": 1138500
+  },
+  "487": {
+   "name": "Kendrick Perkins",
+   "hoopshype_name": "Kendrick Perkins",
+   "salary_2005_06": 936480
+  },
+  "488": {
+   "name": "Morris Peterson",
+   "hoopshype_name": "Morris Peterson",
+   "salary_2005_06": 4550000
+  },
+  "489": {
+   "name": "Johan Petro",
+   "hoopshype_name": "Johan Petro",
+   "salary_2005_06": 936600
+  },
+  "490": {
+   "name": "Eric Piatkowski",
+   "hoopshype_name": "Eric Piatkowski",
+   "salary_2005_06": 3000000
+  },
+  "491": {
+   "name": "Paul Pierce",
+   "hoopshype_name": "Paul Pierce",
+   "salary_2005_06": 13843156
+  },
+  "492": {
+   "name": "Mickael Pietrus",
+   "hoopshype_name": "Mickael Pietrus",
+   "salary_2005_06": 1910520
+  },
+  "494": {
+   "name": "Zoran Planinic",
+   "hoopshype_name": "Zoran Planinic",
+   "salary_2005_06": 1127280
+  },
+  "495": {
+   "name": "Pavel Podkolzin",
+   "hoopshype_name": "Pavel Podkolzin",
+   "salary_2005_06": 1141560
+  },
+  "496": {
+   "name": "Scot Pollard",
+   "hoopshype_name": "Scot Pollard",
+   "salary_2005_06": 6274937
+  },
+  "497": {
+   "name": "James Posey",
+   "hoopshype_name": "James Posey",
+   "salary_2005_06": 5900400
+  },
+  "498": {
+   "name": "Vitaly Potapenko",
+   "hoopshype_name": "Vitaly Potapenko",
+   "salary_2005_06": 3320000
+  },
+  "499": {
+   "name": "Josh Powell",
+   "hoopshype_name": "Josh Powell",
+   "salary_2005_06": 398762
+  },
+  "502": {
+   "name": "Ronnie Price",
+   "hoopshype_name": "Ronnie Price",
+   "salary_2005_06": 398762
+  },
+  "504": {
+   "name": "Tayshaun Prince",
+   "hoopshype_name": "Tayshaun Prince",
+   "salary_2005_06": 1763115
+  },
+  "505": {
+   "name": "Laron Profit",
+   "hoopshype_name": "Laron Profit",
+   "salary_2005_06": 745248
+  },
+  "506": {
+   "name": "Joel Przybilla",
+   "hoopshype_name": "Joel Przybilla",
+   "salary_2005_06": 1560000
+  },
+  "507": {
+   "name": "Vladimir Radmanovic",
+   "hoopshype_name": "Vladimir Radmanovic",
+   "salary_2005_06": 3166155
+  },
+  "509": {
+   "name": "Peter John Ramos",
+   "hoopshype_name": "Peter John Ramos",
+   "salary_2005_06": 660000
+  },
+  "510": {
+   "name": "Shavlik Randolph",
+   "hoopshype_name": "Shavlik Randolph",
+   "salary_2005_06": 398762
+  },
+  "511": {
+   "name": "Zach Randolph",
+   "hoopshype_name": "Zach Randolph",
+   "salary_2005_06": 10666667
+  },
+  "512": {
+   "name": "Theo Ratliff",
+   "hoopshype_name": "Theo Ratliff",
+   "salary_2005_06": 11666666
+  },
+  "513": {
+   "name": "Zeljko Rebraca",
+   "hoopshype_name": "Zeljko Rebraca",
+   "salary_2005_06": 3000000
+  },
+  "514": {
+   "name": "Michael Redd",
+   "hoopshype_name": "Michael Redd",
+   "salary_2005_06": 12000000
+  },
+  "515": {
+   "name": "Justin Reed",
+   "hoopshype_name": "Justin Reed",
+   "salary_2005_06": 641748
+  },
+  "516": {
+   "name": "Jared Reiner",
+   "hoopshype_name": "Jared Reiner",
+   "salary_2005_06": 242612
+  },
+  "517": {
+   "name": "Jason Richardson",
+   "hoopshype_name": "Jason Richardson",
+   "salary_2005_06": 8888888
+  },
+  "518": {
+   "name": "Quentin Richardson",
+   "hoopshype_name": "Quentin Richardson",
+   "salary_2005_06": 6940000
+  },
+  "519": {
+   "name": "Luke Ridnour",
+   "hoopshype_name": "Luke Ridnour",
+   "salary_2005_06": 1638000
+  },
+  "520": {
+   "name": "Anthony Roberson",
+   "hoopshype_name": "Anthony Roberson",
+   "salary_2005_06": 398762
+  },
+  "521": {
+   "name": "Lawrence Roberts",
+   "hoopshype_name": "Lawrence Roberts",
+   "salary_2005_06": 398762
+  },
+  "522": {
+   "name": "Bernard Robinson",
+   "hoopshype_name": "Bernard Robinson",
+   "salary_2005_06": 641748
+  },
+  "523": {
+   "name": "Clifford Robinson",
+   "hoopshype_name": "Clifford Robinson",
+   "salary_2005_06": 2500000
+  },
+  "524": {
+   "name": "Nate Robinson",
+   "hoopshype_name": "Nate Robinson",
+   "salary_2005_06": 1102680
+  },
+  "525": {
+   "name": "Jalen Rose",
+   "hoopshype_name": "Jalen Rose",
+   "salary_2005_06": 15694250
+  },
+  "526": {
+   "name": "Malik Rose",
+   "hoopshype_name": "Malik Rose",
+   "salary_2005_06": 6008750
+  },
+  "527": {
+   "name": "Quinton Ross",
+   "hoopshype_name": "Quinton Ross",
+   "salary_2005_06": 700000
+  },
+  "528": {
+   "name": "Michael Ruffin",
+   "hoopshype_name": "Michael Ruffin",
+   "salary_2005_06": 1670000
+  },
+  "529": {
+   "name": "Kareem Rush",
+   "hoopshype_name": "Kareem Rush",
+   "salary_2005_06": 3000000
+  },
+  "530": {
+   "name": "Bryon Russell",
+   "hoopshype_name": "Bryon Russell",
+   "salary_2005_06": 1138500
+  },
+  "531": {
+   "name": "John Salmons",
+   "hoopshype_name": "John Salmons",
+   "salary_2005_06": 1669001
+  },
+  "532": {
+   "name": "Jamal Sampson",
+   "hoopshype_name": "Jamal Sampson",
+   "salary_2005_06": 719373
+  },
+  "533": {
+   "name": "Melvin Sanders",
+   "hoopshype_name": "Melvin Sanders",
+   "salary_2005_06": 24315
+  },
+  "535": {
+   "name": "Brian Scalabrine",
+   "hoopshype_name": "Brian Scalabrine",
+   "salary_2005_06": 2586207
+  },
+  "536": {
+   "name": "Alex Scales",
+   "hoopshype_name": "Alex Scales",
+   "salary_2005_06": 24315
+  },
+  "540": {
+   "name": "Ha Seung-Jin",
+   "hoopshype_name": "Ha Seung-Jin",
+   "salary_2005_06": 641748
+  },
+  "542": {
+   "name": "Wayne Simien",
+   "hoopshype_name": "Wayne Simien",
+   "salary_2005_06": 867720
+  },
+  "543": {
+   "name": "Bobby Simmons",
+   "hoopshype_name": "Bobby Simmons",
+   "salary_2005_06": 8000000
+  },
+  "544": {
+   "name": "James Singleton",
+   "hoopshype_name": "James Singleton",
+   "salary_2005_06": 625000
+  },
+  "545": {
+   "name": "Brian Skinner",
+   "hoopshype_name": "Brian Skinner",
+   "salary_2005_06": 4950000
+  },
+  "548": {
+   "name": "Charles Smith",
+   "hoopshype_name": "Charles Smith",
+   "salary_2005_06": 771123
+  },
+  "549": {
+   "name": "Donta Smith",
+   "hoopshype_name": "Donta Smith",
+   "salary_2005_06": 641748
+  },
+  "550": {
+   "name": "J.R. Smith",
+   "hoopshype_name": "JR Smith",
+   "salary_2005_06": 1297080
+  },
+  "552": {
+   "name": "Joe Smith",
+   "hoopshype_name": "Joe Smith",
+   "salary_2005_06": 6353200
+  },
+  "553": {
+   "name": "Josh Smith",
+   "hoopshype_name": "Josh Smith",
+   "salary_2005_06": 1365360
+  },
+  "555": {
+   "name": "Eric Snow",
+   "hoopshype_name": "Eric Snow",
+   "salary_2005_06": 5484375
+  },
+  "556": {
+   "name": "Kirk Snyder",
+   "hoopshype_name": "Kirk Snyder",
+   "salary_2005_06": 1437240
+  },
+  "558": {
+   "name": "Darius Songaila",
+   "hoopshype_name": "Darius Songaila",
+   "salary_2005_06": 2200000
+  },
+  "559": {
+   "name": "Pape Sow",
+   "hoopshype_name": "Pape Sow",
+   "salary_2005_06": 641748
+  },
+  "561": {
+   "name": "Jerry Stackhouse",
+   "hoopshype_name": "Jerry Stackhouse",
+   "salary_2005_06": 8367187
+  },
+  "562": {
+   "name": "DeShawn Stevenson",
+   "hoopshype_name": "DeShawn Stevenson",
+   "salary_2005_06": 2750000
+  },
+  "563": {
+   "name": "Peja Stojakovic",
+   "hoopshype_name": "Predrag Stojakovic",
+   "salary_2005_06": 7500000
+  },
+  "564": {
+   "name": "Awvee Storey",
+   "hoopshype_name": "Awvee Storey",
+   "salary_2005_06": 641748
+  },
+  "565": {
+   "name": "Damon Stoudamire",
+   "hoopshype_name": "Damon Stoudamire",
+   "salary_2005_06": 3750000
+  },
+  "566": {
+   "name": "Salim Stoudamire",
+   "hoopshype_name": "Salim Stoudamire",
+   "salary_2005_06": 675000
+  },
+  "567": {
+   "name": "Amar'e Stoudemire",
+   "hoopshype_name": "Amare Stoudemire",
+   "salary_2005_06": 2589023
+  },
+  "570": {
+   "name": "Bob Sura",
+   "hoopshype_name": "Bob Sura",
+   "salary_2005_06": 3520000
+  },
+  "571": {
+   "name": "Michael Sweetney",
+   "hoopshype_name": "Mike Sweetney",
+   "salary_2005_06": 2116920
+  },
+  "572": {
+   "name": "Robert Swift",
+   "hoopshype_name": "Robert Swift",
+   "salary_2005_06": 1764480
+  },
+  "573": {
+   "name": "Stromile Swift",
+   "hoopshype_name": "Stromile Swift",
+   "salary_2005_06": 5000000
+  },
+  "574": {
+   "name": "Wally Szczerbiak",
+   "hoopshype_name": "Wally Szczerbiak",
+   "salary_2005_06": 10000000
+  },
+  "576": {
+   "name": "Chris Taft",
+   "hoopshype_name": "Chris Taft",
+   "salary_2005_06": 423762
+  },
+  "577": {
+   "name": "Donell Taylor",
+   "hoopshype_name": "Donell Taylor",
+   "salary_2005_06": 398762
+  },
+  "578": {
+   "name": "Maurice Taylor",
+   "hoopshype_name": "Maurice Taylor",
+   "salary_2005_06": 9100000
+  },
+  "579": {
+   "name": "Sebastian Telfair",
+   "hoopshype_name": "Sebastian Telfair",
+   "salary_2005_06": 1676280
+  },
+  "580": {
+   "name": "Jason Terry",
+   "hoopshype_name": "Jason Terry",
+   "salary_2005_06": 6666667
+  },
+  "582": {
+   "name": "Etan Thomas",
+   "hoopshype_name": "Etan Thomas",
+   "salary_2005_06": 5393300
+  },
+  "583": {
+   "name": "James Thomas",
+   "hoopshype_name": "James Thomas",
+   "salary_2005_06": 148698
+  },
+  "584": {
+   "name": "John Thomas",
+   "hoopshype_name": "John Thomas",
+   "salary_2005_06": 282118
+  },
+  "585": {
+   "name": "Kenny Thomas",
+   "hoopshype_name": "Kenny Thomas",
+   "salary_2005_06": 6500000
+  },
+  "586": {
+   "name": "Kurt Thomas",
+   "hoopshype_name": "Kurt Thomas",
+   "salary_2005_06": 6620062
+  },
+  "587": {
+   "name": "Tim Thomas",
+   "hoopshype_name": "Tim Thomas",
+   "salary_2005_06": 13975000
+  },
+  "588": {
+   "name": "Dijon Thompson",
+   "hoopshype_name": "Dijon Thompson",
+   "salary_2005_06": 398762
+  },
+  "589": {
+   "name": "Jamaal Tinsley",
+   "hoopshype_name": "Jamaal Tinsley",
+   "salary_2005_06": 5400000
+  },
+  "591": {
+   "name": "Jake Tsakalidis",
+   "hoopshype_name": "Iakovos Tsakalidis",
+   "salary_2005_06": 2900000
+  },
+  "592": {
+   "name": "Nikoloz Tskitishvili",
+   "hoopshype_name": "Nikoloz Tskitishvili",
+   "salary_2005_06": 745248
+  },
+  "594": {
+   "name": "Hedo Turkoglu",
+   "hoopshype_name": "Hidayet Turkoglu",
+   "salary_2005_06": 5393300
+  },
+  "596": {
+   "name": "Beno Udrih",
+   "hoopshype_name": "Beno Udrih",
+   "salary_2005_06": 904800
+  },
+  "598": {
+   "name": "Nick Van Exel",
+   "hoopshype_name": "Nick Van Exel",
+   "salary_2005_06": 1138500
+  },
+  "599": {
+   "name": "Keith Van Horn",
+   "hoopshype_name": "Keith Van Horn",
+   "salary_2005_06": 15694250
+  },
+  "600": {
+   "name": "Anderson Varejao",
+   "hoopshype_name": "Anderson Varejao",
+   "salary_2005_06": 866800
+  },
+  "601": {
+   "name": "Jacque Vaughn",
+   "hoopshype_name": "Jacque Vaughn",
+   "salary_2005_06": 1094550
+  },
+  "602": {
+   "name": "Charlie Villanueva",
+   "hoopshype_name": "Charlie Villanueva",
+   "salary_2005_06": 2360880
+  },
+  "603": {
+   "name": "Jake Voskuhl",
+   "hoopshype_name": "Jake Voskuhl",
+   "salary_2005_06": 1937500
+  },
+  "604": {
+   "name": "Jackson Vroman",
+   "hoopshype_name": "Jackson Vroman",
+   "salary_2005_06": 682051
+  },
+  "605": {
+   "name": "Sasha Vujacic",
+   "hoopshype_name": "Sasha Vujacic",
+   "salary_2005_06": 910440
+  },
+  "606": {
+   "name": "Dwyane Wade",
+   "hoopshype_name": "Dwyane Wade",
+   "salary_2005_06": 3031920
+  },
+  "607": {
+   "name": "Von Wafer",
+   "hoopshype_name": "Von Wafer",
+   "salary_2005_06": 398762
+  },
+  "609": {
+   "name": "Antoine Walker",
+   "hoopshype_name": "Antoine Walker",
+   "salary_2005_06": 6880000
+  },
+  "610": {
+   "name": "Samaki Walker",
+   "hoopshype_name": "Samaki Walker",
+   "salary_2005_06": 364223
+  },
+  "611": {
+   "name": "Ben Wallace",
+   "hoopshype_name": "Ben Wallace",
+   "salary_2005_06": 7500000
+  },
+  "612": {
+   "name": "Gerald Wallace",
+   "hoopshype_name": "Gerald Wallace",
+   "salary_2005_06": 5000000
+  },
+  "613": {
+   "name": "Rasheed Wallace",
+   "hoopshype_name": "Rasheed Wallace",
+   "salary_2005_06": 10860000
+  },
+  "614": {
+   "name": "Matt Walsh",
+   "hoopshype_name": "Matt Walsh",
+   "salary_2005_06": 38904
+  },
+  "615": {
+   "name": "Luke Walton",
+   "hoopshype_name": "Luke Walton",
+   "salary_2005_06": 1250000
+  },
+  "616": {
+   "name": "Hakim Warrick",
+   "hoopshype_name": "Hakim Warrick",
+   "salary_2005_06": 1196520
+  },
+  "617": {
+   "name": "Earl Watson",
+   "hoopshype_name": "Earl Watson",
+   "salary_2005_06": 5000000
+  },
+  "618": {
+   "name": "Chris Webber",
+   "hoopshype_name": "Chris Webber",
+   "salary_2005_06": 19125000
+  },
+  "619": {
+   "name": "Martell Webster",
+   "hoopshype_name": "Martell Webster",
+   "salary_2005_06": 2586120
+  },
+  "620": {
+   "name": "Bonzi Wells",
+   "hoopshype_name": "Bonzi Wells",
+   "salary_2005_06": 8000000
+  },
+  "621": {
+   "name": "Jiri Welsch",
+   "hoopshype_name": "Jiri Welsch",
+   "salary_2005_06": 2177114
+  },
+  "622": {
+   "name": "David Wesley",
+   "hoopshype_name": "David Wesley",
+   "salary_2005_06": 5070000
+  },
+  "623": {
+   "name": "David West",
+   "hoopshype_name": "David West",
+   "salary_2005_06": 1334160
+  },
+  "624": {
+   "name": "Delonte West",
+   "hoopshype_name": "Delonte West",
+   "salary_2005_06": 1010040
+  },
+  "625": {
+   "name": "Robert Whaley",
+   "hoopshype_name": "Robert Whaley",
+   "salary_2005_06": 398762
+  },
+  "628": {
+   "name": "Chris Wilcox",
+   "hoopshype_name": "Chris Wilcox",
+   "salary_2005_06": 2812239
+  },
+  "629": {
+   "name": "Damien Wilkins",
+   "hoopshype_name": "Damien Wilkins",
+   "salary_2005_06": 2500000
+  },
+  "630": {
+   "name": "Mike Wilks",
+   "hoopshype_name": "Mike Wilks",
+   "salary_2005_06": 745248
+  },
+  "631": {
+   "name": "Aaron Williams",
+   "hoopshype_name": "Aaron Williams",
+   "salary_2005_06": 3375000
+  },
+  "632": {
+   "name": "Alvin Williams",
+   "hoopshype_name": "Alvin Williams",
+   "salary_2005_06": 6300000
+  },
+  "633": {
+   "name": "Deron Williams",
+   "hoopshype_name": "Deron Williams",
+   "salary_2005_06": 3487400
+  },
+  "634": {
+   "name": "Eric Williams",
+   "hoopshype_name": "Eric Williams",
+   "salary_2005_06": 3938000
+  },
+  "636": {
+   "name": "Jason Williams",
+   "hoopshype_name": "Jason Williams",
+   "salary_2005_06": 7562500
+  },
+  "638": {
+   "name": "Lou Williams",
+   "hoopshype_name": "Louis Williams",
+   "salary_2005_06": 450000
+  },
+  "639": {
+   "name": "Marvin Williams",
+   "hoopshype_name": "Marvin Williams",
+   "salary_2005_06": 3883560
+  },
+  "640": {
+   "name": "Mo Williams",
+   "hoopshype_name": "Maurice Williams",
+   "salary_2005_06": 1760000
+  },
+  "642": {
+   "name": "Corliss Williamson",
+   "hoopshype_name": "Corliss Williamson",
+   "salary_2005_06": 6000000
+  },
+  "643": {
+   "name": "Loren Woods",
+   "hoopshype_name": "Loren Woods",
+   "salary_2005_06": 780000
+  },
+  "644": {
+   "name": "Qyntel Woods",
+   "hoopshype_name": "Qyntel Woods",
+   "salary_2005_06": 599834
+  },
+  "645": {
+   "name": "Antoine Wright",
+   "hoopshype_name": "Antoine Wright",
+   "salary_2005_06": 1461360
+  },
+  "646": {
+   "name": "Bracey Wright",
+   "hoopshype_name": "Bracey Wright",
+   "salary_2005_06": 398762
+  },
+  "647": {
+   "name": "Dorell Wright",
+   "hoopshype_name": "Dorell Wright",
+   "salary_2005_06": 1238640
+  },
+  "648": {
+   "name": "Lorenzen Wright",
+   "hoopshype_name": "Lorenzen Wright",
+   "salary_2005_06": 7700000
+  }
+ },
+ "unmatched_league_players": [
+  {
+   "player_id": 113,
+   "name": "Maurice Baker"
+  },
+  {
+   "player_id": 119,
+   "name": "Andre Barrett"
+  },
+  {
+   "player_id": 125,
+   "name": "Maceo Baston"
+  },
+  {
+   "player_id": 139,
+   "name": "Tony Bobbitt"
+  },
+  {
+   "player_id": 151,
+   "name": "Torraye Braggs"
+  },
+  {
+   "player_id": 153,
+   "name": "Jamison Brewer"
+  },
+  {
+   "player_id": 156,
+   "name": "Damone Brown"
+  },
+  {
+   "player_id": 158,
+   "name": "Kedrick Brown"
+  },
+  {
+   "player_id": 161,
+   "name": "Tierre Brown"
+  },
+  {
+   "player_id": 165,
+   "name": "Rodney Buford"
+  },
+  {
+   "player_id": 173,
+   "name": "Will Bynum"
+  },
+  {
+   "player_id": 178,
+   "name": "Geno Carlisle"
+  },
+  {
+   "player_id": 197,
+   "name": "Omar Cook"
+  },
+  {
+   "player_id": 204,
+   "name": "Erik Daniels"
+  },
+  {
+   "player_id": 224,
+   "name": "Predrag Drobnjak"
+  },
+  {
+   "player_id": 230,
+   "name": "Corsley Edwards"
+  },
+  {
+   "player_id": 233,
+   "name": "Obinna Ekezie"
+  },
+  {
+   "player_id": 242,
+   "name": "Noel Felix"
+  },
+  {
+   "player_id": 247,
+   "name": "Marcus Fizer"
+  },
+  {
+   "player_id": 248,
+   "name": "Luis Flores"
+  },
+  {
+   "player_id": 253,
+   "name": "Tremaine Fowlkes"
+  },
+  {
+   "player_id": 257,
+   "name": "Matt Freije"
+  },
+  {
+   "player_id": 263,
+   "name": "Alex Garcia"
+  },
+  {
+   "player_id": 286,
+   "name": "Willie Green"
+  },
+  {
+   "player_id": 291,
+   "name": "Anthony Grundy"
+  },
+  {
+   "player_id": 293,
+   "name": "Marcus Haislip"
+  },
+  {
+   "player_id": 294,
+   "name": "Darvin Ham"
+  },
+  {
+   "player_id": 301,
+   "name": "Junior Harrington"
+  },
+  {
+   "player_id": 307,
+   "name": "Donnell Harvey"
+  },
+  {
+   "player_id": 310,
+   "name": "Chuck Hayes"
+  },
+  {
+   "player_id": 329,
+   "name": "Ryan Humphrey"
+  },
+  {
+   "player_id": 331,
+   "name": "Brandon Hunter"
+  },
+  {
+   "player_id": 347,
+   "name": "Casey Jacobsen"
+  },
+  {
+   "player_id": 357,
+   "name": "Horace Jenkins"
+  },
+  {
+   "player_id": 358,
+   "name": "Britton Johnsen"
+  },
+  {
+   "player_id": 372,
+   "name": "Mark Jones"
+  },
+  {
+   "player_id": 380,
+   "name": "Brandin Knight"
+  },
+  {
+   "player_id": 394,
+   "name": "Randy Livingston"
+  },
+  {
+   "player_id": 415,
+   "name": "Roger Mason Jr."
+  },
+  {
+   "player_id": 421,
+   "name": "Jelani McCoy"
+  },
+  {
+   "player_id": 440,
+   "name": "Jerome Moiso"
+  },
+  {
+   "player_id": 455,
+   "name": "Mamadou N'Diaye"
+  },
+  {
+   "player_id": 479,
+   "name": "Anthony Parker"
+  },
+  {
+   "player_id": 486,
+   "name": "Kirk Penney"
+  },
+  {
+   "player_id": 508,
+   "name": "Aleksandar Radojevic"
+  },
+  {
+   "player_id": 534,
+   "name": "Daniel Santiago"
+  },
+  {
+   "player_id": 537,
+   "name": "Luke Schenscher"
+  },
+  {
+   "player_id": 539,
+   "name": "Ansu Sesay"
+  },
+  {
+   "player_id": 541,
+   "name": "Paul Shirley"
+  },
+  {
+   "player_id": 546,
+   "name": "Tamar Slay"
+  },
+  {
+   "player_id": 551,
+   "name": "Jabari Smith"
+  },
+  {
+   "player_id": 554,
+   "name": "Theron Smith"
+  },
+  {
+   "player_id": 557,
+   "name": "Will Solomon"
+  },
+  {
+   "player_id": 568,
+   "name": "Erick Strickland"
+  },
+  {
+   "player_id": 569,
+   "name": "Bruno Sundov"
+  },
+  {
+   "player_id": 575,
+   "name": "Yuta Tabuse"
+  },
+  {
+   "player_id": 581,
+   "name": "Billy Thomas"
+  },
+  {
+   "player_id": 590,
+   "name": "Robert Traylor"
+  },
+  {
+   "player_id": 593,
+   "name": "Ronny Turiaf"
+  },
+  {
+   "player_id": 595,
+   "name": "Ime Udoka"
+  },
+  {
+   "player_id": 608,
+   "name": "Dajuan Wagner"
+  },
+  {
+   "player_id": 626,
+   "name": "Jahidi White"
+  },
+  {
+   "player_id": 627,
+   "name": "Rodney White"
+  },
+  {
+   "player_id": 635,
+   "name": "Frank Williams"
+  },
+  {
+   "player_id": 641,
+   "name": "Shammond Williams"
+  },
+  {
+   "player_id": 649,
+   "name": "Wang Zhizhi"
+  },
+  {
+   "player_id": 650,
+   "name": "Derrick Zimmerman"
+  }
+ ],
+ "unmatched_hoopshype": [
+  "Allan Houston",
+  "Jerome Williams",
+  "Clarence Weatherspoon",
+  "Todd MacCulloch",
+  "Reggie Miller",
+  "Eddie Robinson",
+  "Shawn Bradley",
+  "Evan Eschmeyer",
+  "Tariq Abdul-Wahad",
+  "George Lynch",
+  "Derrick Coleman",
+  "Vlade Divac",
+  "Charlie Ward",
+  "Ron Mercer",
+  "Wesley Person",
+  "Fred Hoiberg",
+  "Jason Collier",
+  "Troy Bell",
+  "Romain Sato"
+ ]
+}

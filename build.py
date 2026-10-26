@@ -59,7 +59,7 @@ bundle={"meta":{**meta,"my_team_id":MY_TEAM,"salary_cap":CAP["salary_cap"],"cap_
         "freeagents":data["freeagents"]["free_agents"],
         "schedule":{"league":data["schedule"]["league"],"my_team":data["schedule"]["teams"].get(str(MY_TEAM))}}
 # hand-kept league facts + our own rule summaries (manual/, never overwritten). Forum posts are NOT bundled or published.
-for key,fn in (("facts","league_facts.json"),("rules","league_rules.json"),("real","real_careers.json")):
+for key,fn in (("facts","league_facts.json"),("rules","league_rules.json"),("real","real_careers.json"),("hh","hoopshype_2005_06.json")):
     p=os.path.join(SRC,"manual",fn)
     if os.path.exists(p): bundle[key]=json.load(open(p))
 stale=os.path.join(D,"forum.json")
