@@ -38,10 +38,10 @@
  },
  "pistons_next_pick": {
   "draft": "creation",
-  "round": 9,
-  "pick": 4,
-  "overall": 236,
-  "note": "R9 #4 (236th overall)"
+  "round": 10,
+  "pick": 26,
+  "overall": 287,
+  "note": "R10 #26 (287th overall)"
  },
  "creation_draft": {
   "format": "snake (order reverses in even rounds)",
@@ -1337,12 +1337,12 @@
    {
     "round": 9,
     "complete": false,
-    "picks_made": 0,
+    "picks_made": 15,
     "on_the_clock": {
-     "slot": 1,
-     "team": "Chicago Bulls",
-     "gm": "Mexi",
-     "overall": 233
+     "slot": 16,
+     "team": "Miami Heat",
+     "gm": "LicensedBullshark",
+     "overall": 248
     },
     "order": [
      {
@@ -3546,6 +3546,141 @@
     "team": "Chicago Bulls",
     "player": "Nick Collison",
     "player_id": 194,
+    "source": "user 2026-10-26"
+   },
+   {
+    "round": 9,
+    "pick": 1,
+    "overall": 233,
+    "team": "Chicago Bulls",
+    "player": "Ike Diogu",
+    "player_id": 219,
+    "source": "user 2026-10-26"
+   },
+   {
+    "round": 9,
+    "pick": 2,
+    "overall": 234,
+    "team": "Philadelphia 76ers",
+    "player": "Keith Van Horn",
+    "player_id": 599,
+    "source": "user 2026-10-26"
+   },
+   {
+    "round": 9,
+    "pick": 3,
+    "overall": 235,
+    "team": "Portland Trail Blazers",
+    "player": "Francisco Elson",
+    "player_id": 235,
+    "source": "user 2026-10-26"
+   },
+   {
+    "round": 9,
+    "pick": 4,
+    "overall": 236,
+    "team": "Detroit Pistons",
+    "player": "Matt Bonner",
+    "player_id": 142,
+    "source": "user 2026-10-26"
+   },
+   {
+    "round": 9,
+    "pick": 5,
+    "overall": 237,
+    "team": "New Orleans Hornets",
+    "player": "Marquis Daniels",
+    "player_id": 205,
+    "source": "user 2026-10-26"
+   },
+   {
+    "round": 9,
+    "pick": 6,
+    "overall": 238,
+    "team": "Indiana Pacers",
+    "player": "Marcus Banks",
+    "player_id": 115,
+    "source": "user 2026-10-26"
+   },
+   {
+    "round": 9,
+    "pick": 7,
+    "overall": 239,
+    "team": "San Antonio Spurs",
+    "player": "Yaroslav Korolev",
+    "player_id": 382,
+    "source": "user 2026-10-26"
+   },
+   {
+    "round": 9,
+    "pick": 8,
+    "overall": 240,
+    "team": "Golden State Warriors",
+    "player": "Steven Hunter",
+    "player_id": 333,
+    "source": "user 2026-10-26"
+   },
+   {
+    "round": 9,
+    "pick": 9,
+    "overall": 241,
+    "team": "Orlando Magic",
+    "player": "Calvin Booth",
+    "player_id": 143,
+    "source": "user 2026-10-26"
+   },
+   {
+    "round": 9,
+    "pick": 10,
+    "overall": 242,
+    "team": "New York Knicks",
+    "player": "Brent Barry",
+    "player_id": 121,
+    "source": "user 2026-10-26"
+   },
+   {
+    "round": 9,
+    "pick": 11,
+    "overall": 243,
+    "team": "Cleveland Cavaliers",
+    "player": "DaJuan Wagner",
+    "player_id": 608,
+    "source": "user 2026-10-26"
+   },
+   {
+    "round": 9,
+    "pick": 12,
+    "overall": 244,
+    "team": "New Jersey Nets",
+    "player": "Anthony Parker",
+    "player_id": 479,
+    "source": "user 2026-10-26"
+   },
+   {
+    "round": 9,
+    "pick": 13,
+    "overall": 245,
+    "team": "Los Angeles Lakers",
+    "player": "Tyronn Lue",
+    "player_id": 398,
+    "source": "user 2026-10-26"
+   },
+   {
+    "round": 9,
+    "pick": 14,
+    "overall": 246,
+    "team": "Los Angeles Clippers",
+    "player": "Joe Smith",
+    "player_id": 552,
+    "source": "user 2026-10-26"
+   },
+   {
+    "round": 9,
+    "pick": 15,
+    "overall": 247,
+    "team": "Phoenix Suns",
+    "player": "James Singleton",
+    "player_id": 544,
     "source": "user 2026-10-26"
    }
   ]
