@@ -1489,14 +1489,9 @@
    },
    {
     "round": 10,
-    "complete": false,
-    "picks_made": 23,
-    "on_the_clock": {
-     "slot": 23,
-     "team": "San Antonio Spurs",
-     "gm": "Giggles",
-     "overall": 284
-    },
+    "complete": true,
+    "picks_made": 29,
+    "on_the_clock": null,
     "order": [
      {
       "slot": 1,
@@ -1643,8 +1638,165 @@
       "team": "Chicago Bulls",
       "gm": "Mexi"
      }
-    ],
-    "note": "#23-25 (SAS, IND, NOH) not yet reported; #26 made"
+    ]
+   },
+   {
+    "round": 11,
+    "complete": false,
+    "picks_made": 0,
+    "on_the_clock": {
+     "slot": 1,
+     "team": "Chicago Bulls",
+     "gm": "Mexi",
+     "overall": 291
+    },
+    "order": [
+     {
+      "slot": 1,
+      "team": "Chicago Bulls",
+      "gm": "Mexi"
+     },
+     {
+      "slot": 2,
+      "team": "Philadelphia 76ers",
+      "gm": "daulten780"
+     },
+     {
+      "slot": 3,
+      "team": "Portland Trail Blazers",
+      "gm": "snipezo"
+     },
+     {
+      "slot": 4,
+      "team": "Detroit Pistons",
+      "gm": "inf"
+     },
+     {
+      "slot": 5,
+      "team": "New Orleans Hornets",
+      "gm": "Swope"
+     },
+     {
+      "slot": 6,
+      "team": "Indiana Pacers",
+      "gm": "Beastly"
+     },
+     {
+      "slot": 7,
+      "team": "San Antonio Spurs",
+      "gm": "Giggles"
+     },
+     {
+      "slot": 8,
+      "team": "Golden State Warriors",
+      "gm": "dez"
+     },
+     {
+      "slot": 9,
+      "team": "Orlando Magic",
+      "gm": "ElJeffe"
+     },
+     {
+      "slot": 10,
+      "team": "New York Knicks",
+      "gm": "Dave"
+     },
+     {
+      "slot": 11,
+      "team": "Cleveland Cavaliers",
+      "gm": "elcheato"
+     },
+     {
+      "slot": 12,
+      "team": "New Jersey Nets",
+      "gm": "Teagz"
+     },
+     {
+      "slot": 13,
+      "team": "Los Angeles Lakers",
+      "gm": "shellystrick4L"
+     },
+     {
+      "slot": 14,
+      "team": "Los Angeles Clippers",
+      "gm": "NV"
+     },
+     {
+      "slot": 15,
+      "team": "Phoenix Suns",
+      "gm": "kdogg"
+     },
+     {
+      "slot": 16,
+      "team": "Miami Heat",
+      "gm": "LicensedBullshark"
+     },
+     {
+      "slot": 17,
+      "team": "Memphis Grizzlies",
+      "gm": "LefLop"
+     },
+     {
+      "slot": 18,
+      "team": "Washington Wizards",
+      "gm": "paulius"
+     },
+     {
+      "slot": 19,
+      "team": "Seattle SuperSonics",
+      "gm": "nickmolyvia"
+     },
+     {
+      "slot": 20,
+      "team": "Toronto Raptors",
+      "gm": "mattfaria12"
+     },
+     {
+      "slot": 21,
+      "team": "Minnesota Timberwolves",
+      "gm": "Bucknut"
+     },
+     {
+      "slot": 22,
+      "team": "Atlanta Hawks",
+      "gm": "Will"
+     },
+     {
+      "slot": 23,
+      "team": "Denver Nuggets",
+      "gm": "Glock Bowers"
+     },
+     {
+      "slot": 24,
+      "team": "Dallas Mavericks",
+      "gm": "JR"
+     },
+     {
+      "slot": 25,
+      "team": "Sacramento Kings",
+      "gm": "tyfteak"
+     },
+     {
+      "slot": 26,
+      "team": "Houston Rockets",
+      "gm": "TYO"
+     },
+     {
+      "slot": 27,
+      "team": "Utah Jazz",
+      "gm": "stunna"
+     },
+     {
+      "slot": 28,
+      "team": "Milwaukee Bucks",
+      "gm": "tommyt"
+     },
+     {
+      "slot": 29,
+      "team": "Boston Celtics",
+      "gm": "BironRonso"
+     }
+    ]
    }
   ],
   "picks": [
@@ -4163,12 +4315,66 @@
    },
    {
     "round": 10,
+    "pick": 23,
+    "overall": 284,
+    "team": "San Antonio Spurs",
+    "player": "Kwame Brown",
+    "player_id": 159,
+    "source": "user paste 2026-10-28"
+   },
+   {
+    "round": 10,
+    "pick": 24,
+    "overall": 285,
+    "team": "Indiana Pacers",
+    "player": "Sean Marks",
+    "player_id": 407,
+    "source": "user paste 2026-10-28"
+   },
+   {
+    "round": 10,
+    "pick": 25,
+    "overall": 286,
+    "team": "New Orleans Hornets",
+    "player": "Samaki Walker",
+    "player_id": 610,
+    "source": "user paste 2026-10-28"
+   },
+   {
+    "round": 10,
     "pick": 26,
     "overall": 287,
     "team": "Detroit Pistons",
     "player": "Matt Carroll",
     "player_id": 180,
     "source": "user 2026-10-28"
+   },
+   {
+    "round": 10,
+    "pick": 27,
+    "overall": 288,
+    "team": "Portland Trail Blazers",
+    "player": "Roger Mason Jr.",
+    "player_id": 415,
+    "source": "user paste 2026-10-28"
+   },
+   {
+    "round": 10,
+    "pick": 28,
+    "overall": 289,
+    "team": "Philadelphia 76ers",
+    "player": "Shavlik Randolph",
+    "player_id": 510,
+    "source": "user paste 2026-10-28"
+   },
+   {
+    "round": 10,
+    "pick": 29,
+    "overall": 290,
+    "team": "Chicago Bulls",
+    "player": "Ryan Gomes",
+    "player_id": 276,
+    "source": "user paste 2026-10-28"
    }
   ]
  },
