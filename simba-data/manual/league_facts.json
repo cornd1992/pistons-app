@@ -1643,12 +1643,12 @@
    {
     "round": 11,
     "complete": false,
-    "picks_made": 0,
+    "picks_made": 1,
     "on_the_clock": {
-     "slot": 1,
-     "team": "Chicago Bulls",
-     "gm": "Mexi",
-     "overall": 291
+     "slot": 2,
+     "team": "Philadelphia 76ers",
+     "gm": "daulten780",
+     "overall": 292
     },
     "order": [
      {
@@ -4375,6 +4375,15 @@
     "player": "Ryan Gomes",
     "player_id": 276,
     "source": "user paste 2026-10-28"
+   },
+   {
+    "round": 11,
+    "pick": 1,
+    "overall": 291,
+    "team": "Chicago Bulls",
+    "player": "David Harrison",
+    "player_id": 305,
+    "source": "user 2026-10-28"
    }
   ]
  },
