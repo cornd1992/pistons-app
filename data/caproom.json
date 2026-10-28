@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-27T15:56:10Z",
-  "parsed_at": "2026-10-27T15:56:24Z"
+  "crawled_at": "2026-10-28T16:40:26Z",
+  "parsed_at": "2026-10-28T16:40:40Z"
  },
  "teams": [
   {
@@ -23,7 +23,7 @@
   {
    "team": "Miami Heat",
    "team_id": 2,
-   "cap_room": 11176785,
+   "cap_room": 10013551,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -38,7 +38,7 @@
   {
    "team": "New Jersey Nets",
    "team_id": 3,
-   "cap_room": 4959936,
+   "cap_room": 3973783,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -53,7 +53,7 @@
   {
    "team": "New York Knicks",
    "team_id": 4,
-   "cap_room": 12933054,
+   "cap_room": 12171616,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -68,7 +68,7 @@
   {
    "team": "Orlando Magic",
    "team_id": 5,
-   "cap_room": 4360710,
+   "cap_room": -1846960,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -83,7 +83,7 @@
   {
    "team": "Philadelphia 76ers",
    "team_id": 6,
-   "cap_room": -1055433,
+   "cap_room": -6715858,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -98,7 +98,7 @@
   {
    "team": "Washington Wizards",
    "team_id": 7,
-   "cap_room": 5919923,
+   "cap_room": 4249923,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -128,7 +128,7 @@
   {
    "team": "New Orleans Hornets",
    "team_id": 9,
-   "cap_room": -5571600,
+   "cap_room": -6629084,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -143,7 +143,7 @@
   {
    "team": "Chicago Bulls",
    "team_id": 10,
-   "cap_room": 319349,
+   "cap_room": -1007613,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -158,7 +158,7 @@
   {
    "team": "Cleveland Cavaliers",
    "team_id": 11,
-   "cap_room": -5522748,
+   "cap_room": -7699862,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -173,7 +173,7 @@
   {
    "team": "Detroit Pistons",
    "team_id": 12,
-   "cap_room": -6437264,
+   "cap_room": -7537264,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -188,7 +188,7 @@
   {
    "team": "Indiana Pacers",
    "team_id": 13,
-   "cap_room": 18639173,
+   "cap_room": 17785206,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -218,7 +218,7 @@
   {
    "team": "Toronto Raptors",
    "team_id": 15,
-   "cap_room": 6428436,
+   "cap_room": 3528436,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -278,7 +278,7 @@
   {
    "team": "Minnesota Timberwolves",
    "team_id": 19,
-   "cap_room": 3100809,
+   "cap_room": 2231436,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -293,7 +293,7 @@
   {
    "team": "San Antonio Spurs",
    "team_id": 20,
-   "cap_room": 22360769,
+   "cap_room": 14860769,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -323,7 +323,7 @@
   {
    "team": "Memphis Grizzlies",
    "team_id": 22,
-   "cap_room": 31562480,
+   "cap_room": 26562480,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -338,7 +338,7 @@
   {
    "team": "Golden State Warriors",
    "team_id": 23,
-   "cap_room": 6509288,
+   "cap_room": -824045,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -353,7 +353,7 @@
   {
    "team": "Los Angeles Clippers",
    "team_id": 24,
-   "cap_room": 14155273,
+   "cap_room": 12992039,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -368,7 +368,7 @@
   {
    "team": "Los Angeles Lakers",
    "team_id": 25,
-   "cap_room": -11664271,
+   "cap_room": -26240521,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -383,7 +383,7 @@
   {
    "team": "Phoenix Suns",
    "team_id": 26,
-   "cap_room": 15128731,
+   "cap_room": 7953731,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -398,7 +398,7 @@
   {
    "team": "Portland Trail Blazers",
    "team_id": 27,
-   "cap_room": 19202040,
+   "cap_room": 16217040,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -428,7 +428,7 @@
   {
    "team": "Seattle SuperSonics",
    "team_id": 29,
-   "cap_room": 15092862,
+   "cap_room": 13929628,
    "team_salary": null,
    "committed_by_year": [
     0,

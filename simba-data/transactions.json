@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-27T15:56:10Z",
-  "parsed_at": "2026-10-27T15:56:24Z"
+  "crawled_at": "2026-10-28T16:40:26Z",
+  "parsed_at": "2026-10-28T16:40:40Z"
  },
  "transactions": [
   {
@@ -2963,6 +2963,270 @@
    "player_name": "Michael Olowokandi",
    "pick": 8,
    "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Timberwolves",
+   "action": "Draft SG Keith Bogans with pick #9 of round 10.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Keith Bogans",
+   "pick": 9,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Raptors",
+   "action": "Draft C Jake Tsakalidis with pick #10 of round 10.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Jake Tsakalidis",
+   "pick": 10,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "SuperSonics",
+   "action": "Draft PG Gary Payton with pick #11 of round 10.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Gary Payton",
+   "pick": 11,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Wizards",
+   "action": "Draft SG Greg Buckner with pick #12 of round 10.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Greg Buckner",
+   "pick": 12,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Grizzlies",
+   "action": "Draft SG Marko Jaric with pick #13 of round 10.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Marko Jaric",
+   "pick": 13,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Heat",
+   "action": "Draft SF Bryon Russell with pick #14 of round 10.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Bryon Russell",
+   "pick": 14,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Suns",
+   "action": "Draft SF Jonathan Bender with pick #15 of round 10.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Jonathan Bender",
+   "pick": 15,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Clippers",
+   "action": "Draft SF Lamond Murray with pick #16 of round 10.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Lamond Murray",
+   "pick": 16,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Lakers",
+   "action": "Draft SG Eddie Jones with pick #17 of round 10.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Eddie Jones",
+   "pick": 17,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nets",
+   "action": "Draft C Jahidi White with pick #18 of round 10.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Jahidi White",
+   "pick": 18,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Cavaliers",
+   "action": "Draft SF Jiri Welsch with pick #19 of round 10.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Jiri Welsch",
+   "pick": 19,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Knicks",
+   "action": "Draft C Jamal Sampson with pick #20 of round 10.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Jamal Sampson",
+   "pick": 20,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Magic",
+   "action": "Draft PF Danny Fortson with pick #21 of round 10.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Danny Fortson",
+   "pick": 21,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Warriors",
+   "action": "Draft SF Desmond Mason with pick #22 of round 10.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Desmond Mason",
+   "pick": 22,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Spurs",
+   "action": "Draft C Kwame Brown with pick #23 of round 10.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Kwame Brown",
+   "pick": 23,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pacers",
+   "action": "Draft PF Sean Marks with pick #24 of round 10.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Sean Marks",
+   "pick": 24,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hornets",
+   "action": "Draft PF Samaki Walker with pick #25 of round 10.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Samaki Walker",
+   "pick": 25,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pistons",
+   "action": "Draft SG Matt Carroll with pick #26 of round 10.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Matt Carroll",
+   "pick": 26,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Trail Blazers",
+   "action": "Draft SG Roger Mason Jr. with pick #27 of round 10.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Roger Mason Jr.",
+   "pick": 27,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "76ers",
+   "action": "Draft PF Shavlik Randolph with pick #28 of round 10.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Shavlik Randolph",
+   "pick": 28,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bulls",
+   "action": "Draft SF Ryan Gomes with pick #29 of round 10.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Ryan Gomes",
+   "pick": 29,
+   "round": 10
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bulls",
+   "action": "Draft C David Harrison with pick #1 of round 11.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "David Harrison",
+   "pick": 1,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "76ers",
+   "action": "Draft PG Troy Hudson with pick #2 of round 11.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Troy Hudson",
+   "pick": 2,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Trail Blazers",
+   "action": "Draft PG Dan Dickau with pick #3 of round 11.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Dan Dickau",
+   "pick": 3,
+   "round": 11
   }
  ]
 }
