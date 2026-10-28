@@ -38,10 +38,10 @@
  },
  "pistons_next_pick": {
   "draft": "creation",
-  "round": 10,
-  "pick": 26,
-  "overall": 287,
-  "note": "R10 #26 (287th overall)"
+  "round": 11,
+  "pick": 4,
+  "overall": 294,
+  "note": "R11 #4 (294th overall)"
  },
  "creation_draft": {
   "format": "snake (order reverses in even rounds)",
@@ -1490,7 +1490,7 @@
    {
     "round": 10,
     "complete": false,
-    "picks_made": 22,
+    "picks_made": 23,
     "on_the_clock": {
      "slot": 23,
      "team": "San Antonio Spurs",
@@ -1643,7 +1643,8 @@
       "team": "Chicago Bulls",
       "gm": "Mexi"
      }
-    ]
+    ],
+    "note": "#23-25 (SAS, IND, NOH) not yet reported; #26 made"
    }
   ],
   "picks": [
@@ -4159,6 +4160,15 @@
     "player": "Desmond Mason",
     "player_id": 414,
     "source": "user paste 2026-10-27"
+   },
+   {
+    "round": 10,
+    "pick": 26,
+    "overall": 287,
+    "team": "Detroit Pistons",
+    "player": "Matt Carroll",
+    "player_id": 180,
+    "source": "user 2026-10-28"
    }
   ]
  },
