@@ -1643,12 +1643,12 @@
    {
     "round": 11,
     "complete": false,
-    "picks_made": 1,
+    "picks_made": 3,
     "on_the_clock": {
-     "slot": 2,
-     "team": "Philadelphia 76ers",
-     "gm": "daulten780",
-     "overall": 292
+     "slot": 4,
+     "team": "Detroit Pistons",
+     "gm": "inf",
+     "overall": 294
     },
     "order": [
      {
@@ -4384,6 +4384,24 @@
     "player": "David Harrison",
     "player_id": 305,
     "source": "user 2026-10-28"
+   },
+   {
+    "round": 11,
+    "pick": 2,
+    "overall": 292,
+    "team": "Philadelphia 76ers",
+    "player": "Troy Hudson",
+    "player_id": 326,
+    "source": "user 2026-10-29"
+   },
+   {
+    "round": 11,
+    "pick": 3,
+    "overall": 293,
+    "team": "Portland Trail Blazers",
+    "player": "Dan Dickau",
+    "player_id": 216,
+    "source": "user 2026-10-29"
    }
   ]
  },
