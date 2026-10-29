@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-28T16:40:26Z",
-  "parsed_at": "2026-10-28T16:40:40Z"
+  "crawled_at": "2026-10-29T16:50:18Z",
+  "parsed_at": "2026-10-29T16:50:33Z"
  },
  "transactions": [
   {
@@ -3226,6 +3226,226 @@
    "player_pos": "PG",
    "player_name": "Dan Dickau",
    "pick": 3,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pistons",
+   "action": "Draft SF Rodney White with pick #4 of round 11.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Rodney White",
+   "pick": 4,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hornets",
+   "action": "Draft SG Casey Jacobsen with pick #5 of round 11.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Casey Jacobsen",
+   "pick": 5,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pacers",
+   "action": "Draft PF Antonio Davis with pick #6 of round 11.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Antonio Davis",
+   "pick": 6,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Spurs",
+   "action": "Draft C Martynas Andriuskevicius with pick #7 of round 11.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Martynas Andriuskevicius",
+   "pick": 7,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Warriors",
+   "action": "Draft SF Jumaine Jones with pick #8 of round 11.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Jumaine Jones",
+   "pick": 8,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Magic",
+   "action": "Draft C D.J. Mbenga with pick #9 of round 11.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "D.J. Mbenga",
+   "pick": 9,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Knicks",
+   "action": "Draft SF Matt Harpring with pick #10 of round 11.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Matt Harpring",
+   "pick": 10,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Cavaliers",
+   "action": "Draft PF Antoine Walker with pick #11 of round 11.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Antoine Walker",
+   "pick": 11,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nets",
+   "action": "Draft PG Lindsey Hunter with pick #12 of round 11.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Lindsey Hunter",
+   "pick": 12,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Lakers",
+   "action": "Draft PF Josh Powell with pick #13 of round 11.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Josh Powell",
+   "pick": 13,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Clippers",
+   "action": "Draft PG Tony Delk with pick #14 of round 11.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Tony Delk",
+   "pick": 14,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Suns",
+   "action": "Draft SG Charlie Bell with pick #15 of round 11.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Charlie Bell",
+   "pick": 15,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Heat",
+   "action": "Draft PF Aaron Williams with pick #16 of round 11.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Aaron Williams",
+   "pick": 16,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Grizzlies",
+   "action": "Draft PG Zoran Planinic with pick #17 of round 11.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Zoran Planinic",
+   "pick": 17,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Wizards",
+   "action": "Draft PF Darius Songaila with pick #18 of round 11.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Darius Songaila",
+   "pick": 18,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "SuperSonics",
+   "action": "Draft SG Juan Dixon with pick #19 of round 11.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Juan Dixon",
+   "pick": 19,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Raptors",
+   "action": "Draft PG Royal Ivey with pick #20 of round 11.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Royal Ivey",
+   "pick": 20,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Timberwolves",
+   "action": "Draft PG Shammond Williams with pick #21 of round 11.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Shammond Williams",
+   "pick": 21,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hawks",
+   "action": "Draft PG Raul Lopez with pick #22 of round 11.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Raul Lopez",
+   "pick": 22,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nuggets",
+   "action": "Draft C Dwayne Jones with pick #23 of round 11.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Dwayne Jones",
+   "pick": 23,
    "round": 11
   }
  ]
