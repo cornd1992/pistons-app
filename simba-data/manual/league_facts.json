@@ -1796,12 +1796,12 @@
    {
     "round": 12,
     "complete": false,
-    "picks_made": 0,
+    "picks_made": 23,
     "on_the_clock": {
-     "slot": 1,
-     "team": "Boston Celtics",
-     "gm": "BironRonso",
-     "overall": 320
+     "slot": 24,
+     "team": "Indiana Pacers",
+     "gm": "Beastly",
+     "overall": 343
     },
     "order": [
      {
@@ -4788,6 +4788,213 @@
     "team": "Boston Celtics",
     "player": "Austin Croshere",
     "player_id": 199,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 1,
+    "overall": 320,
+    "team": "Boston Celtics",
+    "player": "Kirk Snyder",
+    "player_id": 556,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 2,
+    "overall": 321,
+    "team": "Milwaukee Bucks",
+    "player": "John Lucas III",
+    "player_id": 397,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 3,
+    "overall": 322,
+    "team": "Utah Jazz",
+    "player": "Von Wafer",
+    "player_id": 607,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 4,
+    "overall": 323,
+    "team": "Houston Rockets",
+    "player": "Bostjan Nachbar",
+    "player_id": 451,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 5,
+    "overall": 324,
+    "team": "Sacramento Kings",
+    "player": "Michael Sweetney",
+    "player_id": 571,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 6,
+    "overall": 325,
+    "team": "Dallas Mavericks",
+    "player": "Robert Swift",
+    "player_id": 572,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 7,
+    "overall": 326,
+    "team": "Denver Nuggets",
+    "player": "Walter McCarty",
+    "player_id": 420,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 8,
+    "overall": 327,
+    "team": "Atlanta Hawks",
+    "player": "Toni Kukoc",
+    "player_id": 385,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 9,
+    "overall": 328,
+    "team": "Minnesota Timberwolves",
+    "player": "Johan Petro",
+    "player_id": 489,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 10,
+    "overall": 329,
+    "team": "Toronto Raptors",
+    "player": "Adrian Griffin",
+    "player_id": 289,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 11,
+    "overall": 330,
+    "team": "Seattle SuperSonics",
+    "player": "Donyell Marshall",
+    "player_id": 408,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 12,
+    "overall": 331,
+    "team": "Washington Wizards",
+    "player": "Arvydas Macijauskas",
+    "player_id": 399,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 13,
+    "overall": 332,
+    "team": "Memphis Grizzlies",
+    "player": "Primoz Brezec",
+    "player_id": 154,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 14,
+    "overall": 333,
+    "team": "Miami Heat",
+    "player": "Eric Piatkowski",
+    "player_id": 490,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 15,
+    "overall": 334,
+    "team": "Phoenix Suns",
+    "player": "Eddie Gill",
+    "player_id": 270,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 16,
+    "overall": 335,
+    "team": "Los Angeles Clippers",
+    "player": "David Wesley",
+    "player_id": 622,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 17,
+    "overall": 336,
+    "team": "Los Angeles Lakers",
+    "player": "Damien Wilkins",
+    "player_id": 629,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 18,
+    "overall": 337,
+    "team": "New Jersey Nets",
+    "player": "Jared Jeffries",
+    "player_id": 356,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 19,
+    "overall": 338,
+    "team": "Cleveland Cavaliers",
+    "player": "Howard Eisley",
+    "player_id": 232,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 20,
+    "overall": 339,
+    "team": "New York Knicks",
+    "player": "Slava Medvedenko",
+    "player_id": 428,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 21,
+    "overall": 340,
+    "team": "Orlando Magic",
+    "player": "Antonio Daniels",
+    "player_id": 203,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 22,
+    "overall": 341,
+    "team": "Golden State Warriors",
+    "player": "Omar Cook",
+    "player_id": 197,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 12,
+    "pick": 23,
+    "overall": 342,
+    "team": "San Antonio Spurs",
+    "player": "Travis Diener",
+    "player_id": 218,
     "source": "user 2026-10-30"
    }
   ]
