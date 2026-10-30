@@ -1,5 +1,5 @@
 // Offline cache. VERSION is bumped by build.py on every build (data + app-code hash).
-const VERSION='20261029T1650-15-24d84e36';
+const VERSION='20261030T1641-16-093c2fa1';
 const CACHE='pistons-'+VERSION;
 const SHELL=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./data/bundle.json','./data/snapshots/index.json','./data/version.json',
  './icons/icon-192.png','./icons/icon-512.png','./icons/apple-touch-icon.png','./icons/favicon-32.png'];

@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-29T16:50:18Z",
-  "parsed_at": "2026-10-29T16:50:33Z"
+  "crawled_at": "2026-10-30T16:41:55Z",
+  "parsed_at": "2026-10-30T16:42:10Z"
  },
  "transactions": [
   {
@@ -3447,6 +3447,171 @@
    "player_name": "Dwayne Jones",
    "pick": 23,
    "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Mavericks",
+   "action": "Draft PG Salim Stoudamire with pick #24 of round 11.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Salim Stoudamire",
+   "pick": 24,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Kings",
+   "action": "Draft PG Damon Jones with pick #25 of round 11.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Damon Jones",
+   "pick": 25,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Rockets",
+   "action": "Draft C Curtis Borchardt with pick #26 of round 11.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Curtis Borchardt",
+   "pick": 26,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Jazz",
+   "action": "Draft PF Marcus Fizer with pick #27 of round 11.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Marcus Fizer",
+   "pick": 27,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bucks",
+   "action": "Draft SG Kareem Rush with pick #28 of round 11.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Kareem Rush",
+   "pick": 28,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Celtics",
+   "action": "Draft PF Austin Croshere with pick #29 of round 11.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Austin Croshere",
+   "pick": 29,
+   "round": 11
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Celtics",
+   "action": "Draft SG Kirk Snyder with pick #1 of round 12.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Kirk Snyder",
+   "pick": 1,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bucks",
+   "action": "Draft PG John Lucas III with pick #2 of round 12.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "John Lucas III",
+   "pick": 2,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Jazz",
+   "action": "Draft SG Von Wafer with pick #3 of round 12.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Von Wafer",
+   "pick": 3,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Rockets",
+   "action": "Draft SF Bostjan Nachbar with pick #4 of round 12.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Bostjan Nachbar",
+   "pick": 4,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Kings",
+   "action": "Draft PF Michael Sweetney with pick #5 of round 12.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Michael Sweetney",
+   "pick": 5,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Mavericks",
+   "action": "Draft C Robert Swift with pick #6 of round 12.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Robert Swift",
+   "pick": 6,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nuggets",
+   "action": "Draft PF Walter McCarty with pick #7 of round 12.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Walter McCarty",
+   "pick": 7,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hawks",
+   "action": "Draft SF Toni Kukoc with pick #8 of round 12.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Toni Kukoc",
+   "pick": 8,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Timberwolves",
+   "action": "Draft C Johan Petro with pick #9 of round 12.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Johan Petro",
+   "pick": 9,
+   "round": 12
   }
  ]
 }
