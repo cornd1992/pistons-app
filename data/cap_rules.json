@@ -4,13 +4,13 @@
   "season": 2005,
   "entered_at": "2026-10-17T08:34:00Z",
   "note": "Hand-maintained file. Not produced or overwritten by scrape.py/forum.py/refresh.sh; edit by hand when the league publishes new figures.",
-  "updated_at": "2026-10-24",
-  "thresholds_source": "Derived 2026-10-24 from the league stats site's Detroit Pistons roster page (user screenshot): Team Salary $53,192,016 + Below Tax $3,275,984 / Below 1st Apron $5,841,984 / Below 2nd Apron $9,643,984 = tax $56,468,000, 1st apron $59,034,000, 2nd apron $62,836,000 (measured from team salary, excluding cap holds — yields round thousands). Rookie minimum $407,425 = Incomplete Roster Charge $2,037,125 / 5 (12 − 7 players). Cap $49.5M confirmed: salary + holds − cap = $5,729,141 over. Previous 60,143,000/62,709,000/66,511,000 and 398,762 placeholder were wrong."
+  "updated_at": "2026-10-30",
+  "thresholds_source": "league site 2026-10-30 (user screenshot of Detroit Pistons roster page): Team Salary $57,772,264 + Below Tax $1,582,862 / Below 1st Apron $4,148,862 / Below 2nd Apron $7,950,862 = tax $59,355,126, 1st apron $61,921,126, 2nd apron $65,723,126 (measured on team salary, holds excluded). Cap unchanged at $49,500,000: salary $57,772,264 + 1 incomplete-roster hold $407,425 − $49,500,000 = $8,679,689 over, matching Cap Room −$8,679,689. PREVIOUS: Derived 2026-10-24 from the league stats site's Detroit Pistons roster page (user screenshot): Team Salary $53,192,016 + Below Tax $3,275,984 / Below 1st Apron $5,841,984 / Below 2nd Apron $9,643,984 = tax $56,468,000, 1st apron $59,034,000, 2nd apron $62,836,000 (measured from team salary, excluding cap holds — yields round thousands). Rookie minimum $407,425 = Incomplete Roster Charge $2,037,125 / 5 (12 − 7 players). Cap $49.5M confirmed: salary + holds − cap = $5,729,141 over. Previous 60,143,000/62,709,000/66,511,000 and 398,762 placeholder were wrong."
  },
  "salary_cap": 49500000,
- "luxury_tax": 56468000,
- "first_apron": 59034000,
- "second_apron": 62836000,
+ "luxury_tax": 59355126,
+ "first_apron": 61921126,
+ "second_apron": 65723126,
  "salary_floor": 44550000,
  "exceptions": {
   "non_taxpayer_mle": 4514000,
@@ -135,7 +135,7 @@
    "title": "Luxury tax",
    "items": [
     "Computed on team salary (tax salary) as of the final regular-season game; cap holds and exceptions are excluded.",
-    "Tax line: $56,468,000 ($6,968,000 above the cap; measured on team salary, cap holds excluded).",
+    "Tax line: $59,355,126 ($9,855,126 above the cap; measured on team salary, cap holds excluded).",
     "Rates rise in $1,820,000 brackets (see table); every further bracket adds $0.50 per $1.",
     "Repeater: a team that paid tax in at least 3 of the previous 4 seasons pays repeater rates.",
     "About 50% of tax collected is split evenly among non-taxpaying teams; paid at season end.",
@@ -144,7 +144,7 @@
   },
   {
    "id": "apron1",
-   "title": "1st apron ($59,034,000) restrictions",
+   "title": "1st apron ($61,921,126) restrictions",
    "items": [
     "No acquiring players via sign-and-trade.",
     "No Bi-Annual Exception.",
@@ -157,7 +157,7 @@
   },
   {
    "id": "apron2",
-   "title": "2nd apron ($62,836,000) restrictions",
+   "title": "2nd apron ($65,723,126) restrictions",
    "items": [
     "All 1st-apron restrictions, plus:",
     "No Taxpayer MLE.",
