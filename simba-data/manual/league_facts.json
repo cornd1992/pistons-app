@@ -1642,14 +1642,9 @@
    },
    {
     "round": 11,
-    "complete": false,
-    "picks_made": 23,
-    "on_the_clock": {
-     "slot": 24,
-     "team": "Dallas Mavericks",
-     "gm": "JR",
-     "overall": 314
-    },
+    "complete": true,
+    "picks_made": 29,
+    "on_the_clock": null,
     "order": [
      {
       "slot": 1,
@@ -1795,6 +1790,164 @@
       "slot": 29,
       "team": "Boston Celtics",
       "gm": "BironRonso"
+     }
+    ]
+   },
+   {
+    "round": 12,
+    "complete": false,
+    "picks_made": 0,
+    "on_the_clock": {
+     "slot": 1,
+     "team": "Boston Celtics",
+     "gm": "BironRonso",
+     "overall": 320
+    },
+    "order": [
+     {
+      "slot": 1,
+      "team": "Boston Celtics",
+      "gm": "BironRonso"
+     },
+     {
+      "slot": 2,
+      "team": "Milwaukee Bucks",
+      "gm": "tommyt"
+     },
+     {
+      "slot": 3,
+      "team": "Utah Jazz",
+      "gm": "stunna"
+     },
+     {
+      "slot": 4,
+      "team": "Houston Rockets",
+      "gm": "TYO"
+     },
+     {
+      "slot": 5,
+      "team": "Sacramento Kings",
+      "gm": "tyfteak"
+     },
+     {
+      "slot": 6,
+      "team": "Dallas Mavericks",
+      "gm": "JR"
+     },
+     {
+      "slot": 7,
+      "team": "Denver Nuggets",
+      "gm": "Glock Bowers"
+     },
+     {
+      "slot": 8,
+      "team": "Atlanta Hawks",
+      "gm": "Will"
+     },
+     {
+      "slot": 9,
+      "team": "Minnesota Timberwolves",
+      "gm": "Bucknut"
+     },
+     {
+      "slot": 10,
+      "team": "Toronto Raptors",
+      "gm": "mattfaria12"
+     },
+     {
+      "slot": 11,
+      "team": "Seattle SuperSonics",
+      "gm": "nickmolyvia"
+     },
+     {
+      "slot": 12,
+      "team": "Washington Wizards",
+      "gm": "paulius"
+     },
+     {
+      "slot": 13,
+      "team": "Memphis Grizzlies",
+      "gm": "LefLop"
+     },
+     {
+      "slot": 14,
+      "team": "Miami Heat",
+      "gm": "LicensedBullshark"
+     },
+     {
+      "slot": 15,
+      "team": "Phoenix Suns",
+      "gm": "kdogg"
+     },
+     {
+      "slot": 16,
+      "team": "Los Angeles Clippers",
+      "gm": "NV"
+     },
+     {
+      "slot": 17,
+      "team": "Los Angeles Lakers",
+      "gm": "shellystrick4L"
+     },
+     {
+      "slot": 18,
+      "team": "New Jersey Nets",
+      "gm": "Teagz"
+     },
+     {
+      "slot": 19,
+      "team": "Cleveland Cavaliers",
+      "gm": "elcheato"
+     },
+     {
+      "slot": 20,
+      "team": "New York Knicks",
+      "gm": "Dave"
+     },
+     {
+      "slot": 21,
+      "team": "Orlando Magic",
+      "gm": "ElJeffe"
+     },
+     {
+      "slot": 22,
+      "team": "Golden State Warriors",
+      "gm": "dez"
+     },
+     {
+      "slot": 23,
+      "team": "San Antonio Spurs",
+      "gm": "Giggles"
+     },
+     {
+      "slot": 24,
+      "team": "Indiana Pacers",
+      "gm": "Beastly"
+     },
+     {
+      "slot": 25,
+      "team": "New Orleans Hornets",
+      "gm": "Swope"
+     },
+     {
+      "slot": 26,
+      "team": "Detroit Pistons",
+      "gm": "inf"
+     },
+     {
+      "slot": 27,
+      "team": "Portland Trail Blazers",
+      "gm": "snipezo"
+     },
+     {
+      "slot": 28,
+      "team": "Philadelphia 76ers",
+      "gm": "daulten780"
+     },
+     {
+      "slot": 29,
+      "team": "Chicago Bulls",
+      "gm": "Mexi"
      }
     ]
    }
@@ -4582,6 +4735,60 @@
     "player": "Dwayne Jones",
     "player_id": 367,
     "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 24,
+    "overall": 314,
+    "team": "Dallas Mavericks",
+    "player": "Salim Stoudamire",
+    "player_id": 566,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 25,
+    "overall": 315,
+    "team": "Sacramento Kings",
+    "player": "Damon Jones",
+    "player_id": 366,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 26,
+    "overall": 316,
+    "team": "Houston Rockets",
+    "player": "Curtis Borchardt",
+    "player_id": 145,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 27,
+    "overall": 317,
+    "team": "Utah Jazz",
+    "player": "Marcus Fizer",
+    "player_id": 247,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 28,
+    "overall": 318,
+    "team": "Milwaukee Bucks",
+    "player": "Kareem Rush",
+    "player_id": 529,
+    "source": "user 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 29,
+    "overall": 319,
+    "team": "Boston Celtics",
+    "player": "Austin Croshere",
+    "player_id": 199,
+    "source": "user 2026-10-30"
    }
   ]
  },
