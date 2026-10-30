@@ -38,10 +38,10 @@
  },
  "pistons_next_pick": {
   "draft": "creation",
-  "round": 11,
-  "pick": 4,
-  "overall": 294,
-  "note": "R11 #4 (294th overall)"
+  "round": 12,
+  "pick": 26,
+  "overall": 345,
+  "note": "R12 #26 (345th overall)"
  },
  "creation_draft": {
   "format": "snake (order reverses in even rounds)",
@@ -1643,12 +1643,12 @@
    {
     "round": 11,
     "complete": false,
-    "picks_made": 3,
+    "picks_made": 23,
     "on_the_clock": {
-     "slot": 4,
-     "team": "Detroit Pistons",
-     "gm": "inf",
-     "overall": 294
+     "slot": 24,
+     "team": "Dallas Mavericks",
+     "gm": "JR",
+     "overall": 314
     },
     "order": [
      {
@@ -4402,6 +4402,186 @@
     "player": "Dan Dickau",
     "player_id": 216,
     "source": "user 2026-10-29"
+   },
+   {
+    "round": 11,
+    "pick": 4,
+    "overall": 294,
+    "team": "Detroit Pistons",
+    "player": "Rodney White",
+    "player_id": 627,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 5,
+    "overall": 295,
+    "team": "New Orleans Hornets",
+    "player": "Casey Jacobsen",
+    "player_id": 347,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 6,
+    "overall": 296,
+    "team": "Indiana Pacers",
+    "player": "Antonio Davis",
+    "player_id": 206,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 7,
+    "overall": 297,
+    "team": "San Antonio Spurs",
+    "player": "Martynas Andriuskevicius",
+    "player_id": 101,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 8,
+    "overall": 298,
+    "team": "Golden State Warriors",
+    "player": "Jumaine Jones",
+    "player_id": 371,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 9,
+    "overall": 299,
+    "team": "Orlando Magic",
+    "player": "D.J. Mbenga",
+    "player_id": 418,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 10,
+    "overall": 300,
+    "team": "New York Knicks",
+    "player": "Matt Harpring",
+    "player_id": 299,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 11,
+    "overall": 301,
+    "team": "Cleveland Cavaliers",
+    "player": "Antoine Walker",
+    "player_id": 609,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 12,
+    "overall": 302,
+    "team": "New Jersey Nets",
+    "player": "Lindsey Hunter",
+    "player_id": 332,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 13,
+    "overall": 303,
+    "team": "Los Angeles Lakers",
+    "player": "Josh Powell",
+    "player_id": 499,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 14,
+    "overall": 304,
+    "team": "Los Angeles Clippers",
+    "player": "Tony Delk",
+    "player_id": 212,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 15,
+    "overall": 305,
+    "team": "Phoenix Suns",
+    "player": "Charlie Bell",
+    "player_id": 130,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 16,
+    "overall": 306,
+    "team": "Miami Heat",
+    "player": "Aaron Williams",
+    "player_id": 631,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 17,
+    "overall": 307,
+    "team": "Memphis Grizzlies",
+    "player": "Zoran Planinic",
+    "player_id": 494,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 18,
+    "overall": 308,
+    "team": "Washington Wizards",
+    "player": "Darius Songaila",
+    "player_id": 558,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 19,
+    "overall": 309,
+    "team": "Seattle SuperSonics",
+    "player": "Juan Dixon",
+    "player_id": 221,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 20,
+    "overall": 310,
+    "team": "Toronto Raptors",
+    "player": "Royal Ivey",
+    "player_id": 339,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 21,
+    "overall": 311,
+    "team": "Minnesota Timberwolves",
+    "player": "Shammond Williams",
+    "player_id": 641,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 22,
+    "overall": 312,
+    "team": "Atlanta Hawks",
+    "player": "Raul Lopez",
+    "player_id": 396,
+    "source": "league site 2026-10-30"
+   },
+   {
+    "round": 11,
+    "pick": 23,
+    "overall": 313,
+    "team": "Denver Nuggets",
+    "player": "Dwayne Jones",
+    "player_id": 367,
+    "source": "league site 2026-10-30"
    }
   ]
  },
