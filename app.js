@@ -85,11 +85,14 @@ function syncPayrolls(){ // single source of truth: payroll = sum of roster year
   B.teams.forEach(t=>{const sum=(t.players||[]).reduce((a,x)=>a+((x.salary||{}).year_1||0),0);
     const siteSal=t.team_salary!=null?t.team_salary:(t.cap_room!=null?cap-t.cap_room:null);if(siteSal!=null&&Math.abs(siteSal-sum)>1)B.payrollCheck.push({team:t.name,site:siteSal,sum});
     t.team_salary=sum;t.cap_room=cap-sum;const cr=(B.caproom||[]).find(c=>c.team_id===t.team_id);if(cr&&cr!==t){cr.team_salary=sum;cr.cap_room=cap-sum;}});}
+const OPT={1:'Player option',2:'Team option',3:'Mutual option'}; // site legend: $1/$2/$3 in a contract year
+const optOf=v=>OPT[v]||null,optBadge=v=>`<span class="opt">${OPT[v]}</span>`;
+const optsOf=p=>Object.entries(p.opts||{}).map(([k,v])=>`Yr ${k.slice(5)}: ${OPT[v]}`);
 function buildSiteRosters(){ // rosters + multi-year salaries straight from the league site (players.json team_id + contract.salary_by_year)
   const tById=new Map(B.teams.map(t=>[t.team_id,t]));B.teams.forEach(t=>{t.players=[];});
-  B.players.forEach(p=>{const t=tById.get(p.team_id)||B.teamByShort.get(p.team);if(!t)return;if(p.team_id==null)p.team_id=t.team_id;const yrs=((p.contract||{}).salary_by_year||[]).map(v=>v>1000?v:0);
+  B.players.forEach(p=>{const t=tById.get(p.team_id)||B.teamByShort.get(p.team);if(!t)return;if(p.team_id==null)p.team_id=t.team_id;const raw=(p.contract||{}).salary_by_year||[],yrs=raw.map(v=>v>1000?v:0),opts={};raw.forEach((v,i)=>{if(OPT[v])opts['year_'+(i+1)]=v;});
     const salary=Object.fromEntries([1,2,3,4,5,6,7].map(y=>['year_'+y,yrs[y-1]||0]));
-    t.players.push({player_id:p.player_id,name:p.name,pos:p.pos,age:p.age,height:p.height,height_in:p.height_in,weight:p.weight,ratings:ratingsOf(p),salary,salary_total:yrs.reduce((a,b)=>a+b,0),season_stats:p.season_averages||{}});});}
+    t.players.push({player_id:p.player_id,name:p.name,pos:p.pos,age:p.age,height:p.height,height_in:p.height_in,weight:p.weight,ratings:ratingsOf(p),salary,salary_total:yrs.reduce((a,b)=>a+b,0),opts,season_stats:p.season_averages||{}});});}
 function addPendingPicks(){
   B.pending=[];B.pendingAll=[];const tByName=new Map(B.teams.map(t=>[t.name,t]));
   ((B.facts||{}).creation_draft?.picks||[]).forEach(k=>{const t=tByName.get(k.team);if(!t||k.player_id==null)return;
@@ -323,7 +326,8 @@ function vTeam(){
   if(myRoster().length){
     const rows=myRoster().map(p=>({...p,...Object.fromEntries(yrs.map(y=>['y'+y,p.salary['year_'+y]]))}));
     const tot={name:'Team total',...Object.fromEntries(yrs.map(y=>['y'+y,rows.reduce((a,r)=>a+(r['y'+y]||0),0)]))};
-    h+=table([{k:'name',l:'Player',f:(v,r)=>r.player_id?plink(v,r.player_id):esc(v)},...yrs.map(y=>({k:'y'+y,l:'Yr '+y,n:1,f:v=>v?mm(v):'—'}))],[...rows,tot],{me:r=>r.name==='Team total'});
+    h+=table([{k:'name',l:'Player',f:(v,r)=>r.player_id?plink(v,r.player_id):esc(v)},...yrs.map(y=>({k:'y'+y,l:'Yr '+y,n:1,f:(v,r)=>(r.opts||{})['year_'+y]?optBadge(r.opts['year_'+y]):v?mm(v):'—'}))],[...rows,tot],{me:r=>r.name==='Team total'});
+    h+=`<p class="note small">Option years (site $1/$2/$3) show as Player/Team/Mutual option badges and are not counted in team totals.</p>`;
     h+=`<h3>Cap room by year (vs ${mm(cap)} cap, flat)</h3>`+table([{k:'l',l:''},...yrs.map(y=>({k:'y'+y,l:'Yr '+y,n:1,f:v=>mm(v)}))],[{l:'Room',...Object.fromEntries(yrs.map(y=>['y'+y,cap-tot['y'+y]]))}]);
     h+=`<p class="note small">Season 2005 = Year 1. Year 1 is each player's stats-site salary; later years are as shown on the site (a $1 entry is the site's own placeholder).</p>`;
   }
@@ -666,7 +670,7 @@ function vPlayer(id){
    ${bd?`<div class="kpi"><div class="v">${f1(bd.fit)}</div><div class="l">Pistons fit · #${bd.fitRank}</div></div><div class="kpi"><div class="v">#${bd.valRank}</div><div class="l">Board rank (value)${bd.likelyGone?' · likely gone':''}</div></div>`:''}</div>
    <h3>Profile</h3>${kv({team:p.team,age:p.age,height:p.height,weight:p.weight&&p.weight+' lb',college:p.college,hometown:p.hometown,experience:p.experience!=null?p.experience+' yrs':null,drafted:p.draft_round?`Round ${p.draft_round}, pick ${p.draft_pick}`:'—'})}
    <h3>Ratings</h3><div>${RK.map(k=>`<span class="chip">${RNAME[k]} ${gradeCell(r[k])}</span>`).join('')}</div>
-   <h3>Contract</h3><div class="kpi" style="margin-bottom:8px"><div class="v">${mm(curSal(p).v)}${salTag(curSal(p).src)}</div><div class="l">2005-06 salary (${curSal(p).src==='hh'?'HoopsHype, Basketball Reference':'stats site — no real figure on file'}) · site $ ${mm(curSal(p).site)}</div></div>${kv({loyalty:c.loyalty,greed:c.greed,'play for winner':c.play_for_winner,'bird years':c.bird_years,...Object.fromEntries((c.salary_by_year||[]).map((s,i)=>['site year '+(i+1),money(s)])),'site total':money(c.total)})}
+   <h3>Contract</h3><div class="kpi" style="margin-bottom:8px"><div class="v">${mm(curSal(p).v)}${salTag(curSal(p).src)}</div><div class="l">2005-06 salary (${curSal(p).src==='hh'?'HoopsHype, Basketball Reference':'stats site — no real figure on file'}) · site $ ${mm(curSal(p).site)}</div></div>${kv({loyalty:c.loyalty,greed:c.greed,'play for winner':c.play_for_winner,'bird years':c.bird_years,...Object.fromEntries((c.salary_by_year||[]).map((s,i)=>['year '+(i+1),optOf(s)||money(s)])),'guaranteed total':money((c.salary_by_year||[]).reduce((a,v)=>a+(v>1000?v:0),0))+((c.salary_by_year||[]).some(optOf)?' + options':'')}).replace(/<td class="n">((?:Player|Team|Mutual) option)<\/td>/g,'<td class="n"><span class="opt">$1</span></td>')}
    <h3>Season averages</h3>${allZero(p.season_averages)?empty('Fills in once games are played',''):kv(p.season_averages)}
    <h3>Career totals</h3>${(()=>{const ca=p.stats?.career;return !ca||allZero(ca)?empty('Fills in once games are played','Season-by-season lines appear here as seasons complete.'):kv(ca);})()}
    ${(p.stats?.seasons||[]).length?'<h3>By season</h3>'+table((p.stats.columns||[]).map(c=>({k:c.toLowerCase().replace(/%/g,'_pct').replace(/3p/,'three_p').replace(/[^a-z0-9_]+/g,'_').replace(/_+/g,'_').replace(/^_|_$/g,''),l:c})),p.stats.seasons):''}
@@ -746,7 +750,7 @@ const pickKey=p=>`${p.season}-${p.round}-${p.original_team_id}`;
 const pickLbl=p=>`${p.season} R${p.round}${p.original_team?` (${p.original_team})`:''}`;
 function assetInfo(a){ // resolve an asset in the package → {name,sal,isPlayer,isPick,pick}
   const t=tById(a.from);
-  if(a.kind==='player'){const p=(t.players||[]).find(x=>x.player_id===a.id)||{};return {name:p.name||'?',pos:p.pos,sal:sal1(p),yrs:yrsLeft(p),isPlayer:true};}
+  if(a.kind==='player'){const p=(t.players||[]).find(x=>x.player_id===a.id)||{};return {name:p.name||'?',pos:p.pos,sal:sal1(p),yrs:yrsLeft(p),opts:optsOf(p),isPlayer:true};}
   if(a.kind==='custom') return {name:a.name||'Hypothetical player',sal:+a.sal||0,isPlayer:true,custom:true};
   const pk=(t.draft_picks||[]).find(x=>pickKey(x)===a.id);return {name:pk?pickLbl(pk):a.id,sal:0,isPick:true,pick:pk};}
 function ppIn(a,i){const y=+a.ppy||0,tot=+a.ppt||0;return y>0&&tot>0?Math.round((i.sal+tot)/(1+y)):(+a.ppin||i.sal);} // poison pill: avg of current salary + all extension years
@@ -852,7 +856,7 @@ function vTrade(){
     h+=`<div class="card tteam" id="tt-${id}"><h2>${esc(t.name)} ${statusChip(r.pre.tax)}</h2>
      <div class="note small">Payroll ${mm(r.pre.tax)} → <b>${mm(r.post.tax)}</b> · roster ${r.rosterPre} → ${r.rosterPost} · counted out ${mm(r.outCnt)} / in ${mm(r.inCnt)}</div>
      <h3>Sends</h3>${r.out.length?r.out.map(a=>{const i=assetInfo(a),f=assetFlag(a,i,R),k=st.assets.indexOf(a);
-       return `<div class="pkg"><div class="pk1"><b>${i.isPlayer&&!i.custom?plink(i.name,a.id):esc(i.name)}</b> <span class="note small">${i.pos?esc(i.pos)+' · ':''}${i.isPick?'draft pick':mm(i.sal)+(i.yrs?` · ${i.yrs} yr${i.yrs>1?'s':''}`:'')}${i.custom?' · hypothetical':''}</span><button class="ghost x" data-trm="${k}" aria-label="Remove">×</button></div>
+       return `<div class="pkg"><div class="pk1"><b>${i.isPlayer&&!i.custom?plink(i.name,a.id):esc(i.name)}</b> <span class="note small">${i.pos?esc(i.pos)+' · ':''}${i.isPick?'draft pick':mm(i.sal)+(i.yrs?` · ${i.yrs} yr${i.yrs>1?'s':''}`:'')+((i.opts||[]).length?' · '+i.opts.map(o=>`<span class="opt">${esc(o)}</span>`).join(' '):'')}${i.custom?' · hypothetical':''}</span><button class="ghost x" data-trm="${k}" aria-label="Remove">×</button></div>
         <div class="pk2">${others.length>1?`<select data-tto="${k}" aria-label="Send to">${others.map(o=>`<option value="${o}" ${o===a.to?'selected':''}>→ ${esc(tById(o).name.replace(/^.* /,''))}</option>`).join('')}</select>`:`<span class="note small">→ ${esc(tById(a.to).name)}</span>`}
         ${i.isPlayer?`<select data-tflag="${k}" aria-label="Contract type"><option value="std" ${f==='std'?'selected':''}>Standard</option><option value="min" ${f==='min'?'selected':''}>Minimum contract</option><option value="st" ${f==='st'?'selected':''}>Sign-and-trade</option><option value="pp" ${f==='pp'?'selected':''}>Poison pill (extended)</option><option value="acq" ${f==='acq'?'selected':''}>Acquired by trade &lt;40 days</option><option value="untr" ${f==='untr'?'selected':''}>Not tradable yet (new signing/waivers)</option></select>`:''}</div>
         ${f==='st'?`<div class="pk2"><label class="note small">Prev salary <input data-tnum="${k}:prev" inputmode="numeric" value="${esc(a.prev||'')}"></label><label class="note small">New salary <input data-tnum="${k}:nsal" inputmode="numeric" value="${esc(a.nsal||i.sal)}"></label></div>`:''}
