@@ -60,7 +60,7 @@ async function boot(){
   const ca=B.meta.crawled_at?new Date(B.meta.crawled_at):null;
   $('#asof').textContent='Data as of '+(ca?ca.toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'unknown')+' · simba.mygamesonline.org';
   fetch('data/version.json',{cache:'no-cache'}).then(r=>r.json()).then(v=>{const el=document.createElement('div');el.className='ver';el.textContent='Build '+v.version+' · app '+v.app;$('#asof').appendChild(el);}).catch(()=>{});
-  B.pending=[];applyRealSalaries();syncPayrolls();
+  B.pending=[];B.pendingAll=[];buildSiteRosters();applyRealSalaries();syncPayrolls();
   try{const idx=await (await fetch('data/snapshots/index.json',{cache:'no-cache'})).json();
     SNAPS=(await Promise.all(idx.snapshots.map(k=>fetch('data/snapshots/'+k+'.json').then(r=>r.json()).catch(()=>null)))).filter(Boolean);}catch(e){SNAPS=[];}
   addEventListener('hashchange',route);route();
@@ -85,6 +85,11 @@ function syncPayrolls(){ // single source of truth: payroll = sum of roster year
   B.teams.forEach(t=>{const sum=(t.players||[]).reduce((a,x)=>a+((x.salary||{}).year_1||0),0);
     const siteSal=t.team_salary!=null?t.team_salary:(t.cap_room!=null?cap-t.cap_room:null);if(siteSal!=null&&Math.abs(siteSal-sum)>1)B.payrollCheck.push({team:t.name,site:siteSal,sum});
     t.team_salary=sum;t.cap_room=cap-sum;const cr=(B.caproom||[]).find(c=>c.team_id===t.team_id);if(cr&&cr!==t){cr.team_salary=sum;cr.cap_room=cap-sum;}});}
+function buildSiteRosters(){ // rosters + multi-year salaries straight from the league site (players.json team_id + contract.salary_by_year)
+  const tById=new Map(B.teams.map(t=>[t.team_id,t]));B.teams.forEach(t=>{t.players=[];});
+  B.players.forEach(p=>{const t=tById.get(p.team_id)||B.teamByShort.get(p.team);if(!t)return;if(p.team_id==null)p.team_id=t.team_id;const yrs=((p.contract||{}).salary_by_year||[]).map(v=>v>1000?v:0);
+    const salary=Object.fromEntries([1,2,3,4,5,6,7].map(y=>['year_'+y,yrs[y-1]||0]));
+    t.players.push({player_id:p.player_id,name:p.name,pos:p.pos,age:p.age,height:p.height,height_in:p.height_in,weight:p.weight,ratings:ratingsOf(p),salary,salary_total:yrs.reduce((a,b)=>a+b,0),season_stats:p.season_averages||{}});});}
 function addPendingPicks(){
   B.pending=[];B.pendingAll=[];const tByName=new Map(B.teams.map(t=>[t.name,t]));
   ((B.facts||{}).creation_draft?.picks||[]).forEach(k=>{const t=tByName.get(k.team);if(!t||k.player_id==null)return;
