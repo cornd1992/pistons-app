@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-10-31T15:52:26Z",
-  "parsed_at": "2026-10-31T15:52:36Z"
+  "crawled_at": "2026-10-31T17:41:22Z",
+  "parsed_at": "2026-10-31T17:41:39Z"
  },
  "transactions": [
   {
@@ -3611,6 +3611,226 @@
    "player_pos": "C",
    "player_name": "Johan Petro",
    "pick": 9,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Raptors",
+   "action": "Draft SG Adrian Griffin with pick #10 of round 12.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Adrian Griffin",
+   "pick": 10,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "SuperSonics",
+   "action": "Draft PF Donyell Marshall with pick #11 of round 12.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Donyell Marshall",
+   "pick": 11,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Wizards",
+   "action": "Draft SG Arvydas Macijauskas with pick #12 of round 12.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Arvydas Macijauskas",
+   "pick": 12,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Grizzlies",
+   "action": "Draft C Primoz Brezec with pick #13 of round 12.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Primoz Brezec",
+   "pick": 13,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Heat",
+   "action": "Draft SG Eric Piatkowski with pick #14 of round 12.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Eric Piatkowski",
+   "pick": 14,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Suns",
+   "action": "Draft PG Eddie Gill with pick #15 of round 12.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Eddie Gill",
+   "pick": 15,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Clippers",
+   "action": "Draft SG David Wesley with pick #16 of round 12.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "David Wesley",
+   "pick": 16,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Lakers",
+   "action": "Draft SF Damien Wilkins with pick #17 of round 12.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Damien Wilkins",
+   "pick": 17,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Nets",
+   "action": "Draft PF Jared Jeffries with pick #18 of round 12.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Jared Jeffries",
+   "pick": 18,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Cavaliers",
+   "action": "Draft PG Howard Eisley with pick #19 of round 12.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Howard Eisley",
+   "pick": 19,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Knicks",
+   "action": "Draft PF Slava Medvedenko with pick #20 of round 12.",
+   "type": "draft",
+   "player_pos": "PF",
+   "player_name": "Slava Medvedenko",
+   "pick": 20,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Magic",
+   "action": "Draft PG Antonio Daniels with pick #21 of round 12.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Antonio Daniels",
+   "pick": 21,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Warriors",
+   "action": "Draft PG Omar Cook with pick #22 of round 12.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Omar Cook",
+   "pick": 22,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Spurs",
+   "action": "Draft PG Travis Diener with pick #23 of round 12.",
+   "type": "draft",
+   "player_pos": "PG",
+   "player_name": "Travis Diener",
+   "pick": 23,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pacers",
+   "action": "Draft SF Alan Anderson with pick #24 of round 12.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Alan Anderson",
+   "pick": 24,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Hornets",
+   "action": "Draft C Wang Zhizhi with pick #25 of round 12.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Wang Zhizhi",
+   "pick": 25,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Pistons",
+   "action": "Draft C Mikki Moore with pick #26 of round 12.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Mikki Moore",
+   "pick": 26,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Trail Blazers",
+   "action": "Draft SF Jalen Rose with pick #27 of round 12.",
+   "type": "draft",
+   "player_pos": "SF",
+   "player_name": "Jalen Rose",
+   "pick": 27,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "76ers",
+   "action": "Draft SG Antoine Wright with pick #28 of round 12.",
+   "type": "draft",
+   "player_pos": "SG",
+   "player_name": "Antoine Wright",
+   "pick": 28,
+   "round": 12
+  },
+  {
+   "season": 2005,
+   "day": -5,
+   "team": "Bulls",
+   "action": "Draft C Jackie Butler with pick #29 of round 12.",
+   "type": "draft",
+   "player_pos": "C",
+   "player_name": "Jackie Butler",
+   "pick": 29,
    "round": 12
   }
  ]
