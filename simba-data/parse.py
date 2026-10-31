@@ -8,7 +8,7 @@ def soup(rel, parser="html.parser"):
     return BeautifulSoup(open(p,encoding="utf-8",errors="replace").read(),parser) if os.path.exists(p) else None
 def txt(el): return re.sub(r"\s+"," ",el.get_text(" ",strip=True)).strip() if el else ""
 def cells(tr): return tr.find_all(["td","th"],recursive=False)
-def leaf_tables(s): return [t for t in s.find_all("table") if not t.find("table")]
+def leaf_tables(s): return [t for t in s.find_all("table") if not t.find("table")] if s is not None else []
 def num(v):
     """'$1,234' -> 1234, '.512' -> 0.512, '12' -> 12, else original string (None for '')."""
     if v is None: return None

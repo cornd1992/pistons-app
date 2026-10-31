@@ -58,10 +58,9 @@ async function boot(){
   B.pById=new Map(B.players.map(p=>[p.player_id,p]));
   B.teamByShort=new Map();B.teams.forEach(t=>{const w=t.name.split(' ');for(let i=1;i<w.length;i++) B.teamByShort.set(w.slice(i).join(' '),t);B.teamByShort.set(t.name,t);});
   const ca=B.meta.crawled_at?new Date(B.meta.crawled_at):null;
-  $('#asof').textContent='Data as of '+(ca?ca.toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'unknown')+(B.facts&&B.facts._meta&&B.facts._meta.as_of?' · draft facts '+new Date(B.facts._meta.as_of).toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'')+' · simba.mygamesonline.org';
+  $('#asof').textContent='Data as of '+(ca?ca.toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'unknown')+' · simba.mygamesonline.org';
   fetch('data/version.json',{cache:'no-cache'}).then(r=>r.json()).then(v=>{const el=document.createElement('div');el.className='ver';el.textContent='Build '+v.version+' · app '+v.app;$('#asof').appendChild(el);}).catch(()=>{});
-  applyRealSalaries();addPendingPicks();syncPayrolls();
-  prepDraft();
+  B.pending=[];applyRealSalaries();syncPayrolls();
   try{const idx=await (await fetch('data/snapshots/index.json',{cache:'no-cache'})).json();
     SNAPS=(await Promise.all(idx.snapshots.map(k=>fetch('data/snapshots/'+k+'.json').then(r=>r.json()).catch(()=>null)))).filter(Boolean);}catch(e){SNAPS=[];}
   addEventListener('hashchange',route);route();
@@ -73,10 +72,10 @@ async function boot(){
 // League-wide real salaries: every player's 2005-06 salary is the real Basketball Reference figure (real_careers.json, overrides
 // merged in), falling back to the stats-site salary only when no real figure exists (tagged "site $"). Applied to year 1 of every
 // rostered contract and to team payroll/cap room as a delta, so other payroll components (dead money etc.) are kept.
-const hhSalOf=id=>{const r=((B.hh||{}).players||{})[id];return r&&r.salary_2005_06||null;}; // HoopsHype 2005-06 salary: primary contract figure for everyone
+const hhSalOf=id=>null; // HoopsHype no longer used: payroll = league-site contracts
 const realSalOf=id=>{const r=((B.real||{}).players||{})[id];return r&&r.salary_2005_06||null;};
-function curSal(p){const id=p.player_id,site=(p.contract?.salary_by_year||[])[0]??p.siteSal??(p.salary||{}).year_1??0,hh=hhSalOf(id);return {v:hh||site||0,src:hh?'hh':'site',site};} // HoopsHype first; league-site salary only as fallback
-const salTag=src=>src!=='hh'&&src!=='real'?' <span class="src Assumed" title="No HoopsHype 2005-06 salary matched; using the league-site salary">site $</span>':'';
+function curSal(p){const id=p.player_id,site=(p.contract?.salary_by_year||[])[0]??p.siteSal??(p.salary||{}).year_1??0,hh=hhSalOf(id);return {v:hh||site||0,src:hh?'hh':'site',site};} 
+const salTag=src=>'';
 function applyRealSalaries(){B.salStats={real:0,site:0,siteNames:[]};
   B.teams.forEach(t=>{(t.players||[]).forEach(x=>{const site=(x.salary||{}).year_1||0,hh=hhSalOf(x.player_id);x.siteSal=site;x.salSrc=hh?'hh':'site';
     if(hh){B.salStats.real++;const d=hh-site;x.salary={...x.salary,year_1:hh};if(x.salary_total!=null)x.salary_total+=d;}
@@ -148,7 +147,7 @@ function prepDraft(){
 function route(ev,keep){
   const h=(location.hash||'#team').slice(1).split('/');S.tab=h[0]||'team';
   document.querySelectorAll('.tabbar a').forEach(a=>a.classList.toggle('on',a.dataset.tab===S.tab));
-  const T={team:['My Team',vTeam],draft:['Draft',vDraft],league:['League',vLeague],analytics:['Analytics',vAnalytics],players:['Players',vPlayers],rules:['League Rules',vRules],trade:['Trade Checker',vTrade],finder:['Trade Finder',vFinder],capplan:['Cap Planning',vCapPlan],fa:['Free Agents',vFA]};
+  const T={team:['My Team',vTeam],league:['League',vLeague],analytics:['Analytics',vAnalytics],players:['Players',vPlayers],rules:['League Rules',vRules],trade:['Trade Checker',vTrade],finder:['Trade Finder',vFinder],capplan:['Cap Planning',vCapPlan],fa:['Free Agents',vFA]};
   const [title,fn]=T[S.tab]||T.team;$('#pageTitle').textContent=title;
   if(S.tab==='players'&&h[1]) {$('#view').innerHTML=vPlayer(+h[1]);}
   else if(S.tab==='analytics'){S.anp=h[1]?+h[1]:null;$('#view').innerHTML=fn();}
@@ -301,7 +300,7 @@ function capPanel(t){const c=CR(),m=capMath(t),usedRoom=SET.get('usedRoom',false
   return h;}
 /* ---------- My Team ---------- */
 function vTeam(){
-  const t=B.myTeam,cap=B.meta.salary_cap,cr=capRank(),D=B.D;
+  const t=B.myTeam,cap=B.meta.salary_cap,cr=capRank();
   const rec=t.record||{};const sal=t.team_salary||0;
   let h=`<div class="card"><h2>${esc(t.name)} <span class="chip">${esc(t.division||'')}</span></h2>
   <div class="kpis"><div class="kpi"><div class="v">${rec.w??0}-${rec.l??0}</div><div class="l">Record</div></div>
@@ -309,11 +308,10 @@ function vTeam(){
   <div class="kpi"><div class="v">${mm(sal)}</div><div class="l">Team salary</div></div>
   <div class="kpi"><div class="v">${mm(CR().salary_cap-capMath(t).cap)}</div><div class="l">Cap room (incl. ${mm(capMath(t).holds)} cap holds, as on the stats site)</div></div></div>
   <div class="note small" style="margin-top:8px">${(sal/cap*100).toFixed(1)}% of cap used · cap room ranks <b>${ord(cr.rank)} of ${cr.n}</b> (1st = most room) · status ${statusChip(sal)}</div></div>
-  <div class="card"><h2>Cap & aprons</h2><p class="note small">Salaries are the league stats site's figures (real 2005-06 salary only where the site has none). Cap holds = the site's incomplete-roster charge (rookie min × players under 12); they count toward cap room only — tax and aprons are measured on team salary, as on the site.${(B.pending||[]).length?` Includes ${B.pending.map(e=>`${plink(e.name,e.player_id)} (R${e.pending.round} #${e.pending.pick}, not on the stats-site roster yet, ${mm(e.pending.realSal)})`).join(', ')}.`:''}</p>${capPanel(t)}</div>`;
+  <div class="card"><h2>Cap & aprons</h2><p class="note small">Salaries are the league stats site's figures (multi-year contracts from the site). Cap holds = the site's incomplete-roster charge (rookie min × players under 12); they count toward cap room only — tax and aprons are measured on team salary, as on the site.${(B.pending||[]).length?` Includes ${B.pending.map(e=>`${plink(e.name,e.player_id)} (R${e.pending.round} #${e.pending.pick}, not on the stats-site roster yet, ${mm(e.pending.realSal)})`).join(', ')}.`:''}</p>${capPanel(t)}</div>`;
   const gm=B.facts&&B.facts.pistons_gm;
-  if(D.myNext) h+=`<div class="callout">🏀 Creation draft is live${D.onClock?` — ${esc(D.onClock.team)} (${esc(D.onClock.gm||'?')}) on the clock at R${D.onClock.round} #${D.onClock.slot}`:''}${gm?`. GM: <b>${esc(gm)}</b>`:''}. Overall pick ${D.nextOverall} is up. Your next pick is <b>Round ${D.myNext.round}, #${D.myNext.pick}</b> (overall ${D.myNext.overall}, ${D.picksBefore} picks away). <a href="#draft">Open draft board →</a></div>`;
   h+=`<div class="card"><h2>Roster & ratings</h2>`;
-  if(!myRoster().length) h+=empty('No players yet','Draft picks will appear here.');
+  if(!myRoster().length) h+=empty('No players yet','Roster data will appear after the next refresh.');
   else h+=`<div class="rgrid">${myRoster().map(rosterCard).join('')}</div>`;
   h+=`</div><div class="card"><h2>Contracts by year</h2>`;
   const yrs=[1,2,3,4,5,6,7];
@@ -326,64 +324,14 @@ function vTeam(){
   }
   if((t.cut_players||[]).length) h+=`<h3>Cut players (dead money)</h3>`+table([{k:'name',l:'Player',f:(v,r)=>plink(v,r.player_id)},{k:'total',l:'Total',n:1,f:mm}],t.cut_players);
   h+=`</div><div class="card"><h2>Owned draft picks</h2>${(t.draft_picks||[]).length?table([{k:'season',l:'Season'},{k:'round',l:'Round',n:1},{k:'original_team',l:'Originally'}],[...t.draft_picks].sort((a,b)=>a.season-b.season||a.round-b.round)):empty('No future picks','')}
-  ${D.mine.length?`<h3>Creation draft (${esc(D.source)})</h3>`+D.mine.map(o=>{const m=D.madeBy.get(o.overall);return `<span class="chip ${m?'':'red'}">R${o.round} #${o.pick} (ovr ${o.overall})${m?': '+plink(m.player_name,m.player_id):(o.projected?' — projected':' — upcoming')}</span>`;}).join(''):''}</div>`;
+  </div>`;
   h+=`<div class="card"><h2>Injuries</h2>${(t.injuries||[]).length?table([{k:'name',l:'Player',f:(v,r)=>plink(v,r.player_id)},{k:'injury',l:'Injury'},{k:'duration',l:'Duration'}],t.injuries):empty('No injuries','Your roster is healthy.')}</div>`;
   h+=`<div class="card"><h2>Season stats</h2>${allZero(t.yearly_stats)?empty('Fills in once games are played','The 2005 season has not tipped off yet.'):
      table([{k:'k',l:'Stat'},{k:'v',l:'Value',n:1}],Object.entries(t.yearly_stats).map(([k,v])=>({k:k.replace(/_/g,' '),v})))}</div>`;
   return h;
 }
 
-/* ---------- Draft ---------- */
-function vDraft(){
-  const D=B.D,st=S.draft;
-  let rows=D.board.filter(p=>(st.showTaken||!p.taken)&&(st.pos==='ALL'||p.pos===st.pos)&&(!st.q||p.name.toLowerCase().includes(st.q.toLowerCase()))&&(!st.onlyNear||!p.likelyGone));
-  const key=st.sort;rows.sort((a,b)=>{let x=a[key],y=b[key];if(RK.includes(key)){x=gv(a.r[key]);y=gv(b.r[key]);}if(key==='height')x=a.height_in,y=b.height_in;
-    if(typeof x==='string')return st.dir*x.localeCompare(y);return st.dir*((x??-1)-(y??-1));});
-  const near=D.avail.filter(p=>!p.likelyGone).sort((a,b)=>b.fit-a.fit).slice(0,5);
-  const oc=D.onClock,ago=t=>{if(!t)return'';const m=Math.round((Date.now()-new Date(t))/6e4);return m<60?m+' min ago':m<1440?Math.round(m/60)+' h ago':Math.round(m/1440)+' d ago';};
-  let h=`<div class="card"><h2>Draft room <span class="chip red">On the clock: #${D.nextOverall}</span></h2>`;
-  if(oc) h+=`<div class="callout">⏱ <b>${esc(oc.team)}</b> (${esc(oc.gm||'?')}) — Round ${oc.round}, pick ${oc.slot} (overall ${oc.overall}), on the clock since ${ago(oc.since)}.</div>`;
-  h+=D.myNext?`<div class="callout">Your next pick: <b>Round ${D.myNext.round}, #${D.myNext.pick}</b> (overall ${D.myNext.overall}${D.myNext.projected?', projected from the snake order':''}) — <b>${D.picksBefore} picks away</b>.${D.myUpcoming[1]?` After that: R${D.myUpcoming[1].round} #${D.myUpcoming[1].pick} (overall ${D.myUpcoming[1].overall}).`:''} The top ${D.picksBefore} available players by Value are flagged “likely gone”.</div>`:'<div class="callout">You have no remaining picks in this draft.</div>';
-  {const pay=payrollOf(B.myTeam),c=CR(),mx=Math.max(...D.avail.map(p=>p.sal1||0));
-   h+=`<p class="note small">💰 Pistons payroll ${mm(pay)} (${capStatus(pay).k}): ${mm(c.salary_cap-capMath(B.myTeam).cap)} cap room (incl. ${mm(capMath(B.myTeam).holds)} cap holds), ${mm(c.luxury_tax-pay)} under the tax, ${mm(c.first_apron-pay)} under the 1st apron. Priciest available prospect: ${mm(mx)} in year 1, so no single pick crosses a threshold right now; rows show ⚠️ when one would (cap, tax, 1st/2nd apron and hard-cap consequences). Each row shows the prospect's year-1 salary and where the Pistons' payroll lands after adding him. Per league rules, creation-draft salary is unlimited, but teams over an apron when the draft ends face apron rules.</p>`;}
-  h+=`<p class="note small">Picks source: <b>${esc(D.source)}</b> (${D.made.length} made; ${D.board.filter(p=>p.taken).length} of them were still listed as eligible on the stats site and are now marked taken)${D.source!=='stats site'?' — the league draft log runs ahead of the stats site, which still lists '+B.transactions.filter(t=>t.type==='draft').length+' picks':''}.</p>`;
-  h+=`<h3>Best available at your pick (by Pistons fit)</h3><div class="plist">${near.map((p,i)=>row(p,`Fit ${f1(p.fit)}`,`${p.emK==='df'?'Defense':'Outside'} ${p.emG} · Value ${f1(p.val)} · Now ${f1(p.now)} · Real ${p.noData?'no data':f1(p.real)} · #${p.valRank} on board${salLine(p)}`)).join('')}</div>`;
-  h+=`<p class="note small">Need now: ${POS.map(p=>`${p} ${D.N.need[p]===1?'●':D.N.need[p]===.5?'◐':'○'}`).join(' · ')} (● = nobody on roster). Biggest skill gaps: ${Object.entries(D.D).sort((a,b)=>b[1]-a[1]).slice(0,3).map(([k])=>RNAME[k]).join(', ')}.</p></div>`;
-  h+=`<div class="card"><h2>Big board <span class="chip">${rows.length} players</span></h2><div class="controls">
-    <input type="search" id="dq" placeholder="Search name" value="${esc(st.q)}">
-    <select id="dpos">${['ALL',...POS].map(p=>`<option ${p===st.pos?'selected':''}>${p}</option>`).join('')}</select>
-    <select id="dsort">${[['fit','Pistons fit'],['val','Value'],['ov','OVR / Now (ratings)'],['real','Real 2005+'],['realSal','Real $'],['age','Age'],['height','Height'],...RK.map(k=>[k,RNAME[k]])].map(([k,l])=>`<option value="${k}" ${k===st.sort?'selected':''}>Sort: ${l}</option>`).join('')}</select>
-    <button class="ghost" id="dnear">${st.onlyNear?'✓ ':''}Hide likely gone</button><button class="ghost" id="dtaken">${st.showTaken?'✓ ':''}Show taken</button></div>`;
-  const gg=r=>`<div class="gg">${RK.map(k=>`<span><small>${k==='pot'?'POT*':k.toUpperCase()}</small>${gradeCell(r.r[k])}</span>`).join('')}</div>`;
-  h+=table([{k:'fitRank',l:'#',n:1,p:0,w:'5%',f:(v,r)=>r.taken?'—':v},{k:'name',l:'Player',p:0,w:'19%',f:(v,r)=>`<a href="#players/${r.player_id}">${esc(v)}</a>${r.taken?`<span class="tag pick">TAKEN R${r.taken.round}#${r.taken.pick} ${esc(r.taken.team.split(' ').pop())}</span>`:r.likelyGone?'':(r.fitRank<=10?'<span class="tag">TARGET</span>':'')}<div class="note small">${esc(r.pos)} · ${r.age??'—'} · ${esc(r.height??'—')} · <span class="tag emph" title="Detroit emphasis: ${r.emK==='df'?'Defense for bigs':'Outside for perimeter'}">${r.emK==='df'?'Defense':'Outside'} ${esc(r.emG)}</span></div>`},
-     {k:'grades',l:'Grades',p:5,w:'25%',f:(v,r)=>gg(r)},{k:'ov',l:'OVR / Now',n:1,p:3,w:'8%',f:(v,r)=>`${ovr2k(v)}<div class="note small">${f1(r.now)} now</div>`},{k:'real',l:'Real',n:1,p:3,w:'9%',f:(v,r)=>r.noData?'<span class="tag pick" title="No Basketball Reference match — scored on ratings only">no data</span>':`${f1(v)}<div class="note small">${f1(r.rc.near_ws)} WS* · ${r.rc.seasons_2005_on} yrs</div>`},{k:'val',l:'Value',n:1,p:2,w:'7%',f:f1},{k:'fit',l:'Fit',n:1,p:0,w:'7%',f:(v,r)=>`<b>${f1(v)}</b>`},
-     {k:'realSal',l:'Real $ / Site $',n:1,p:4,w:'10%',f:(v,r)=>(v?mm(v)+(r.rc&&r.rc.contract_end_est?`<div class="note small">thru ${esc(r.rc.contract_end_est)}</div>`:''):'<span class="note">—</span>')+`<div class="note small">site ${r.sal1?mm(r.sal1):'none'}</div>`},{k:'after',l:'DET after',n:1,p:4,w:'10%',f:(v,r)=>`${mm(v)} ${statusChip(v)}${r.warns&&r.warns.length?`<div class="warnline">⚠️ ${esc(r.warns.join('; '))}</div>`:''}`}],
-     rows.slice(0,200).map(r=>({...r,_style:r.likelyGone})),{id:'draft',sortKey:key,sortDir:st.dir,me:r=>!r.taken&&r.likelyGone===false&&r.fitRank<=10});
-  if(rows.length>200) h+=`<p class="note small">Showing top 200 of ${rows.length}; filter by position or search to see more.</p>`;
-  h+=`</div><div class="card"><h2>Draft order & picks made</h2>${table([{k:'overall',l:'Ovr',n:1},{k:'rp',l:'Pick'},{k:'team',l:'Team'},{k:'sel',l:'Selection',f:(v,r)=>r._m?`${esc(r._m.player_pos)} ${plink(r._m.player_name,r._m.player_id)}`:esc(v)}],
-     D.order.map(o=>{const m=D.madeBy.get(o.overall);return {...o,_m:m,team:o.team+(o.gm?` (${o.gm})`:''),_team:o.team,rp:`R${o.round} #${o.pick}`,sel:m?`${m.player_pos} ${m.player_name}`:(o.overall===D.nextOverall?'⏱ on the clock':(o.projected?'projected':''))};}),{me:r=>r._team===B.myTeam.name})}</div>`;
-  h+=`<div class="card"><details><summary>How the scores work</summary><div class="note">
-   <p><b>Grades → numbers:</b> A+ 100, A 95, A- 90, B+ 85 … in 5-point steps … F- 30.</p>
-   <p><b>OVR (shown)</b> is a display-only, NBA 2K-style rating: each player's raw overall is ranked against every league player and mapped onto a 2K-like scale (league best ≈ 96, top 10 ≈ 88+, top 30 ≈ 84+, median ≈ 73, end of bench ≈ 60–65, floor 50). The scores below all use the raw overall, so the 2K number never changes any ranking.</p>
-   <p><b>Raw overall</b> = position-weighted average of the five skills (Inside, Outside, Handling, Defense, Rebound):<br>
-   ${POS.map(p=>`${p}: `+Object.entries(PW[p]).map(([k,w])=>`${k} ${w*100}%`).join(', ')).join('<br>')}</p>
-   <p><b>Now</b> = raw overall rescaled 0–100 across the eligible pool (10th-percentile player = 0, 98th-percentile = 100, capped).</p>
-   <p><b>Real</b> = real-life NBA production from 2005-06 on (Basketball Reference, hand-kept file <code>real_careers.json</code>): raw = 0.7 × 10 × near-term Win Shares + 0.3 × 4 × max(0, PER − 5), where near-term WS = 1.0·WS(05-06) + 0.8·WS(06-07) + 0.6·WS(07-08) + 0.35·WS(08-09) + 0.25·WS(09-10) and PER is minutes-weighted over 2005-10; then rescaled 0–100 the same way. Age only matters through this (older players' real production falls off quickly).</p>
-   <p><b>Value</b> = 0.5 × Now + 0.5 × Real. Players with no Basketball Reference match are flagged <b>no data</b> and use Value = Now (not punished).</p>
-   <p><b>Potential is ignored</b> for the creation draft (user rule); the POT column is shown for reference only.</p>
-   <p><b>Pistons fit</b> = 0.7 × Base + 0.3 × Emphasis, where Base = 0.55 × Value + 0.25 × Need × 100 + 0.10 × Complement + 0.10 × Value-per-$, and Emphasis is Detroit's preferred grade rescaled 0–100 (F- 0 … A+ 100): <b>Outside</b> for PG/SG/SF, <b>Defense</b> for PF/C. Shown as the Outside/Defense tag on each row.<br>
-   Need = 1.0 if no rostered player at that position, 0.5 if one, 0.2 if two or more — computed live from the roster (now: ${myRoster().map(p=>plink(p.name,p.player_id)+' '+p.pos).join(', ')||'nobody'}).<br>
-   Complement = the player's skills weighted by the team's gaps (100 − best rostered grade in each skill), as a percentile.<br>
-   Value-per-$ = Real ÷ real 2005-06 salary in $M (min $0.5M; site salary used if the real one is missing), as a percentile; neutral 50 when real data or any salary is missing.</p>
-   <p><b>Real $</b> = real 2005-06 NBA salary (BBRef team salary tables / HoopsHype); "thru" = estimated last contract season from the salary history. <b>Site $</b> = the stats-site contract. <b>All cap, payroll and trade math uses real 2005-06 salaries</b> (Basketball Reference, with manual overrides) for every player league-wide; the site salary is used only when no real figure exists, tagged “site $”.</p>
-   <p>Coverage: ${Object.values((B.real||{}).players||{}).filter(x=>x.bbref_id).length} of ${Object.keys((B.real||{}).players||{}).length} league players have real-career data.</p>
-   <p><b>Likely gone</b>: players ranked inside the top N by Value, where N = picks before yours. It's a projection, not a guarantee.</p></div></details></div>`;
-  return h;
-}
-function salLine(p){const rs=p.realSal?` · Real $ ${mm(p.realSal)}${p.rc&&p.rc.contract_end_est?' thru '+p.rc.contract_end_est:''}`:' · Real $ —';return rs+(p.sal1?` · Site $ ${mm(p.sal1)}`:' · Site $ none')+` → DET ${mm(p.after)} (${p.afterStatus})${p.warns.length?' ⚠️ '+p.warns.join('; '):''}`;}
-function _oldSalLine(p){return p.sal1?` · Yr1 ${mm(p.sal1)} → DET ${mm(p.after)} (${p.afterStatus})${p.warns.length?' ⚠️ '+p.warns.join('; '):''}`:' · no contract listed on site ($0)';}
 function row(p,score,sub){return `<div class="row" data-href="#players/${p.player_id}"><span class="pos">${esc(p.pos)}</span><div><div class="nm">${plink(p.name,p.player_id)}${ptag(p.pending)}</div><div class="meta">${p.age} yrs · ${esc(p.height||'')} · ${RK.map(k=>k.toUpperCase()+' '+esc(p.r[k]||'—')).join(' ')}</div><div class="meta">${esc(sub)}</div></div><div class="sc">${esc(score)}</div></div>`;}
-
 /* ---------- League ---------- */
 function vLeague(){
   const sub=S.lsub||'standings';
@@ -705,7 +653,7 @@ function vPlayers(){
 }
 function vPlayer(id){
   const p=B.pById.get(id);if(!p) return empty('Player not found','');
-  const r=ratingsOf(p),v=value(r,p.pos,p.age),bd=B.D.board.find(x=>x.player_id===id);
+  const r=ratingsOf(p),v=value(r,p.pos,p.age),bd=null;
   const kv=(o,fmt=x=>x)=>o&&Object.keys(o).length?`<div class="scroll"><table class="tbl">${Object.entries(o).map(([k,x])=>`<tr><td>${esc(k.replace(/_/g,' '))}</td><td class="n">${esc(fmt(x))}</td></tr>`).join('')}</table></div>`:empty('No data','');
   const c=p.contract||{};
   let h=`<button class="back" onclick="history.back()">‹ Back</button><div class="card"><h2>${esc(p.name)} <span class="chip blue">${esc(p.pos)}</span>${ptag(p.pending)}</h2>

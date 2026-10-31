@@ -59,9 +59,11 @@ bundle={"meta":{**meta,"my_team_id":MY_TEAM,"salary_cap":CAP["salary_cap"],"cap_
         "freeagents":data["freeagents"]["free_agents"],
         "schedule":{"league":data["schedule"]["league"],"my_team":data["schedule"]["teams"].get(str(MY_TEAM))}}
 # hand-kept league facts + our own rule summaries (manual/, never overwritten). Forum posts are NOT bundled or published.
-for key,fn in (("facts","league_facts.json"),("rules","league_rules.json"),("real","real_careers.json"),("hh","hoopshype_2005_06.json")):
+for key,fn in (("facts","league_facts.json"),("rules","league_rules.json"),("real","real_careers.json")):  # HoopsHype file kept in repo but no longer bundled (payroll = site contracts)
     p=os.path.join(SRC,"manual",fn)
     if os.path.exists(p): bundle[key]=json.load(open(p))
+if "facts" in bundle:  # creation draft is over: keep GM list / lottery odds only, never the hand draft log
+    for k in ("creation_draft","pistons_next_pick","rounds"): bundle["facts"].pop(k,None)
 stale=os.path.join(D,"forum.json")
 if os.path.exists(stale): os.remove(stale)  # never publish the forum copy
 # ---- free-agent / waiver history (kept in data/fa_history.json so "new since last refresh" survives rebuilds) ----
