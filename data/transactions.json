@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-01T16:51:10Z",
-  "parsed_at": "2026-11-01T16:51:27Z"
+  "crawled_at": "2026-11-02T20:15:54Z",
+  "parsed_at": "2026-11-02T20:16:12Z"
  },
  "transactions": [
   {
@@ -3832,6 +3832,41 @@
    "player_name": "Jackie Butler",
    "pick": 29,
    "round": 12
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Cavaliers",
+   "action": "Cut PF Antoine Walker",
+   "type": "cut"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Lakers",
+   "action": "Cut SG Eddie Jones",
+   "type": "cut"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Hornets",
+   "action": "Cut SG Marquis Daniels",
+   "type": "cut"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Rockets",
+   "action": "Cut PG Steve Francis",
+   "type": "cut"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Mavericks",
+   "action": "Cut PG Stephon Marbury",
+   "type": "cut"
   }
  ]
 }

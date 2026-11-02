@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-01T16:51:10Z",
-  "parsed_at": "2026-11-01T16:51:27Z"
+  "crawled_at": "2026-11-02T20:15:54Z",
+  "parsed_at": "2026-11-02T20:16:12Z"
  },
  "teams": [
   {
@@ -23,7 +23,7 @@
   {
    "team": "Miami Heat",
    "team_id": 2,
-   "cap_room": 3638551,
+   "cap_room": 3231126,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -53,7 +53,7 @@
   {
    "team": "New York Knicks",
    "team_id": 4,
-   "cap_room": 4151616,
+   "cap_room": 3277536,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -113,7 +113,7 @@
   {
    "team": "Atlanta Hawks",
    "team_id": 8,
-   "cap_room": 2602392,
+   "cap_room": -307608,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -128,7 +128,7 @@
   {
    "team": "New Orleans Hornets",
    "team_id": 9,
-   "cap_room": -8244489,
+   "cap_room": -8651914,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -173,7 +173,7 @@
   {
    "team": "Detroit Pistons",
    "team_id": 12,
-   "cap_room": -9345138,
+   "cap_room": -9752563,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -248,7 +248,7 @@
   {
    "team": "Denver Nuggets",
    "team_id": 17,
-   "cap_room": -3913048,
+   "cap_room": -4320473,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -263,7 +263,7 @@
   {
    "team": "Houston Rockets",
    "team_id": 18,
-   "cap_room": -22596309,
+   "cap_room": -24320730,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -293,7 +293,7 @@
   {
    "team": "San Antonio Spurs",
    "team_id": 20,
-   "cap_room": 14045919,
+   "cap_room": 3422631,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -323,7 +323,7 @@
   {
    "team": "Memphis Grizzlies",
    "team_id": 22,
-   "cap_room": 22685200,
+   "cap_room": 4610200,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -353,7 +353,7 @@
   {
    "team": "Los Angeles Clippers",
    "team_id": 24,
-   "cap_room": 4547039,
+   "cap_room": 2747039,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -383,7 +383,7 @@
   {
    "team": "Phoenix Suns",
    "team_id": 26,
-   "cap_room": 6478490,
+   "cap_room": 3138490,
    "team_salary": null,
    "committed_by_year": [
     0,
@@ -428,7 +428,7 @@
   {
    "team": "Seattle SuperSonics",
    "team_id": 29,
-   "cap_room": 4615920,
+   "cap_room": -4484080,
    "team_salary": null,
    "committed_by_year": [
     0,

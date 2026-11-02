@@ -1,10 +1,42 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-01T16:51:10Z",
-  "parsed_at": "2026-11-01T16:51:27Z"
+  "crawled_at": "2026-11-02T20:15:54Z",
+  "parsed_at": "2026-11-02T20:16:12Z"
  },
  "free_agents": [
+  {
+   "name": "Lance Allred",
+   "player_id": 94,
+   "pos": "C",
+   "height": "6'11''",
+   "weight": 250,
+   "age": 24,
+   "in": "C",
+   "out": "C-",
+   "hn": "D-",
+   "df": "D+",
+   "reb": "C",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 83
+  },
+  {
+   "name": "Pero Antic",
+   "player_id": 103,
+   "pos": "C",
+   "height": "6'11''",
+   "weight": 260,
+   "age": 23,
+   "in": "C",
+   "out": "C",
+   "hn": "D",
+   "df": "C-",
+   "reb": "C",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 83
+  },
   {
    "name": "Rafael Araujo",
    "player_id": 104,
@@ -134,6 +166,38 @@
    "height_in": 81
   },
   {
+   "name": "Andreas Glyniadakis",
+   "player_id": 274,
+   "pos": "C",
+   "height": "7'1''",
+   "weight": 280,
+   "age": 24,
+   "in": "C",
+   "out": "D+",
+   "hn": "F+",
+   "df": "C-",
+   "reb": "C",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 85
+  },
+  {
+   "name": "Hamed Haddadi",
+   "player_id": 292,
+   "pos": "C",
+   "height": "7'2''",
+   "weight": 254,
+   "age": 20,
+   "in": "C",
+   "out": "D+",
+   "hn": "D+",
+   "df": "C",
+   "reb": "B-",
+   "pot": "C",
+   "last_team": "N/A",
+   "height_in": 86
+  },
+  {
    "name": "Zendon Hamilton",
    "player_id": 296,
    "pos": "C",
@@ -164,6 +228,22 @@
    "pot": "F",
    "last_team": "N/A",
    "height_in": 82
+  },
+  {
+   "name": "Mile Ilic",
+   "player_id": 336,
+   "pos": "C",
+   "height": "7'1''",
+   "weight": 230,
+   "age": 21,
+   "in": "C",
+   "out": "D-",
+   "hn": "D-",
+   "df": "C",
+   "reb": "C",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 85
   },
   {
    "name": "Marc Jackson",
@@ -230,22 +310,6 @@
    "height_in": 84
   },
   {
-   "name": "Raef LaFrentz",
-   "player_id": 387,
-   "pos": "C",
-   "height": "6'11''",
-   "weight": 240,
-   "age": 29,
-   "in": "C",
-   "out": "B-",
-   "hn": "D+",
-   "df": "C+",
-   "reb": "C",
-   "pot": "D",
-   "last_team": "N/A",
-   "height_in": 83
-  },
-  {
    "name": "Maciej Lampe",
    "player_id": 388,
    "pos": "C",
@@ -262,6 +326,22 @@
    "height_in": 83
   },
   {
+   "name": "James Lang",
+   "player_id": 389,
+   "pos": "C",
+   "height": "6'10''",
+   "weight": 285,
+   "age": 22,
+   "in": "C",
+   "out": "D",
+   "hn": "D-",
+   "df": "C",
+   "reb": "C",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 82
+  },
+  {
    "name": "Jelani McCoy",
    "player_id": 421,
    "pos": "C",
@@ -272,6 +352,22 @@
    "out": "D+",
    "hn": "F",
    "df": "C+",
+   "reb": "C",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 82
+  },
+  {
+   "name": "Randolph Morris",
+   "player_id": 444,
+   "pos": "C",
+   "height": "6'10''",
+   "weight": 266,
+   "age": 20,
+   "in": "C+",
+   "out": "C-",
+   "hn": "D",
+   "df": "C",
    "reb": "C",
    "pot": "D",
    "last_team": "N/A",
@@ -550,6 +646,22 @@
    "height_in": 82
   },
   {
+   "name": "David Andersen",
+   "player_id": 97,
+   "pos": "PF",
+   "height": "6'11''",
+   "weight": 245,
+   "age": 25,
+   "in": "C",
+   "out": "C",
+   "hn": "D",
+   "df": "C-",
+   "reb": "C",
+   "pot": "C",
+   "last_team": "N/A",
+   "height_in": 83
+  },
+  {
    "name": "Vin Baker",
    "player_id": 114,
    "pos": "PF",
@@ -646,20 +758,20 @@
    "height_in": 80
   },
   {
-   "name": "P.J. Brown",
-   "player_id": 160,
+   "name": "Andre Brown",
+   "player_id": 155,
    "pos": "PF",
-   "height": "6'11''",
-   "weight": 239,
-   "age": 36,
+   "height": "6'9''",
+   "weight": 245,
+   "age": 24,
    "in": "C",
-   "out": "C",
-   "hn": "D+",
-   "df": "C+",
-   "reb": "C+",
+   "out": "D",
+   "hn": "D-",
+   "df": "D+",
+   "reb": "C",
    "pot": "D",
    "last_team": "N/A",
-   "height_in": 83
+   "height_in": 81
   },
   {
    "name": "Zarko Cabarkapa",
@@ -774,6 +886,22 @@
    "height_in": 81
   },
   {
+   "name": "Jorge Garbajosa",
+   "player_id": 262,
+   "pos": "PF",
+   "height": "6'9''",
+   "weight": 245,
+   "age": 28,
+   "in": "C",
+   "out": "C+",
+   "hn": "D",
+   "df": "C",
+   "reb": "C",
+   "pot": "C",
+   "last_team": "N/A",
+   "height_in": 81
+  },
+  {
    "name": "Pat Garrity",
    "player_id": 266,
    "pos": "PF",
@@ -838,6 +966,22 @@
    "height_in": 81
   },
   {
+   "name": "Mike Harris",
+   "player_id": 304,
+   "pos": "PF",
+   "height": "6'6''",
+   "weight": 240,
+   "age": 22,
+   "in": "C",
+   "out": "C",
+   "hn": "D",
+   "df": "C-",
+   "reb": "C",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 78
+  },
+  {
    "name": "Donnell Harvey",
    "player_id": 307,
    "pos": "PF",
@@ -865,6 +1009,22 @@
    "hn": "D-",
    "df": "C",
    "reb": "C+",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 81
+  },
+  {
+   "name": "Walter Herrmann",
+   "player_id": 315,
+   "pos": "PF",
+   "height": "6'9''",
+   "weight": 225,
+   "age": 26,
+   "in": "C",
+   "out": "C+",
+   "hn": "D",
+   "df": "D+",
+   "reb": "C",
    "pot": "D",
    "last_team": "N/A",
    "height_in": 81
@@ -966,6 +1126,22 @@
    "height_in": 81
   },
   {
+   "name": "Ivan McFarlin",
+   "player_id": 423,
+   "pos": "PF",
+   "height": "6'8''",
+   "weight": 240,
+   "age": 23,
+   "in": "C",
+   "out": "D",
+   "hn": "D",
+   "df": "C-",
+   "reb": "C",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 80
+  },
+  {
    "name": "Jerome Moiso",
    "player_id": 440,
    "pos": "PF",
@@ -998,20 +1174,20 @@
    "height_in": 80
   },
   {
-   "name": "Scott Padgett",
-   "player_id": 476,
+   "name": "Kevinn Pinkney",
+   "player_id": 493,
    "pos": "PF",
-   "height": "6'9''",
-   "weight": 240,
-   "age": 29,
+   "height": "6'10''",
+   "weight": 245,
+   "age": 22,
    "in": "C",
-   "out": "B-",
-   "hn": "C-",
-   "df": "C",
-   "reb": "C+",
+   "out": "C",
+   "hn": "D-",
+   "df": "D+",
+   "reb": "C",
    "pot": "D",
    "last_team": "N/A",
-   "height_in": 81
+   "height_in": 82
   },
   {
    "name": "Lawrence Roberts",
@@ -1094,6 +1270,22 @@
    "height_in": 81
   },
   {
+   "name": "Uros Slokar",
+   "player_id": 547,
+   "pos": "PF",
+   "height": "6'10''",
+   "weight": 238,
+   "age": 22,
+   "in": "C",
+   "out": "C",
+   "hn": "D-",
+   "df": "C-",
+   "reb": "C",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 82
+  },
+  {
    "name": "Pape Sow",
    "player_id": 559,
    "pos": "PF",
@@ -1108,22 +1300,6 @@
    "pot": "D",
    "last_team": "N/A",
    "height_in": 82
-  },
-  {
-   "name": "Maurice Taylor",
-   "player_id": 578,
-   "pos": "PF",
-   "height": "6'9''",
-   "weight": 265,
-   "age": 29,
-   "in": "C+",
-   "out": "D+",
-   "hn": "D-",
-   "df": "C-",
-   "reb": "C",
-   "pot": "D",
-   "last_team": "N/A",
-   "height_in": 81
   },
   {
    "name": "James Thomas",
@@ -1204,6 +1380,23 @@
    "pot": "D",
    "last_team": "N/A",
    "height_in": 82
+  },
+  {
+   "name": "Antoine Walker",
+   "player_id": 609,
+   "pos": "PF",
+   "height": "6'9''",
+   "weight": 245,
+   "age": 29,
+   "in": "C+",
+   "out": "C+",
+   "hn": "C-",
+   "df": "C",
+   "reb": "C",
+   "pot": "D",
+   "last_team": "Cavaliers",
+   "team_id": 11,
+   "height_in": 81
   },
   {
    "name": "Shandon Anderson",
@@ -1334,6 +1527,22 @@
    "height_in": 80
   },
   {
+   "name": "Yakhouba Diawara",
+   "player_id": 215,
+   "pos": "SF",
+   "height": "6'7''",
+   "weight": 225,
+   "age": 23,
+   "in": "C",
+   "out": "C",
+   "hn": "D",
+   "df": "C-",
+   "reb": "C-",
+   "pot": "C",
+   "last_team": "N/A",
+   "height_in": 79
+  },
+  {
    "name": "Kaniel Dickens",
    "player_id": 217,
    "pos": "SF",
@@ -1412,6 +1621,22 @@
    "pot": "F",
    "last_team": "N/A",
    "height_in": 80
+  },
+  {
+   "name": "Mickael Gelabale",
+   "player_id": 268,
+   "pos": "SF",
+   "height": "6'7''",
+   "weight": 215,
+   "age": 22,
+   "in": "C",
+   "out": "C",
+   "hn": "D",
+   "df": "C",
+   "reb": "C-",
+   "pot": "C",
+   "last_team": "N/A",
+   "height_in": 79
   },
   {
    "name": "Joey Graham",
@@ -1558,6 +1783,22 @@
    "height_in": 81
   },
   {
+   "name": "Renaldo Major",
+   "player_id": 404,
+   "pos": "SF",
+   "height": "6'7''",
+   "weight": 200,
+   "age": 23,
+   "in": "C",
+   "out": "C",
+   "hn": "D",
+   "df": "C",
+   "reb": "D+",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 79
+  },
+  {
    "name": "Rawle Marshall",
    "player_id": 409,
    "pos": "SF",
@@ -1572,22 +1813,6 @@
    "pot": "D",
    "last_team": "N/A",
    "height_in": 79
-  },
-  {
-   "name": "Jamal Mashburn",
-   "player_id": 413,
-   "pos": "SF",
-   "height": "6'8''",
-   "weight": 247,
-   "age": 33,
-   "in": "C+",
-   "out": "C",
-   "hn": "C-",
-   "df": "C",
-   "reb": "C-",
-   "pot": "F",
-   "last_team": "N/A",
-   "height_in": 80
   },
   {
    "name": "Sergei Monia",
@@ -1652,6 +1877,38 @@
    "pot": "D",
    "last_team": "N/A",
    "height_in": 79
+  },
+  {
+   "name": "Kasib Powell",
+   "player_id": 500,
+   "pos": "SF",
+   "height": "6'7''",
+   "weight": 215,
+   "age": 24,
+   "in": "C",
+   "out": "C",
+   "hn": "D+",
+   "df": "C",
+   "reb": "C-",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 79
+  },
+  {
+   "name": "Roger Powell",
+   "player_id": 501,
+   "pos": "SF",
+   "height": "6'6''",
+   "weight": 235,
+   "age": 23,
+   "in": "C",
+   "out": "C",
+   "hn": "D",
+   "df": "C-",
+   "reb": "C",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 78
   },
   {
    "name": "Justin Reed",
@@ -1734,6 +1991,22 @@
    "height_in": 80
   },
   {
+   "name": "Jawad Williams",
+   "player_id": 637,
+   "pos": "SF",
+   "height": "6'9''",
+   "weight": 218,
+   "age": 22,
+   "in": "C",
+   "out": "C",
+   "hn": "D+",
+   "df": "C-",
+   "reb": "C-",
+   "pot": "C",
+   "last_team": "N/A",
+   "height_in": 81
+  },
+  {
    "name": "Corliss Williamson",
    "player_id": 642,
    "pos": "SF",
@@ -1778,38 +2051,6 @@
    "df": "C-",
    "reb": "D+",
    "pot": "D",
-   "last_team": "N/A",
-   "height_in": 77
-  },
-  {
-   "name": "Derek Anderson",
-   "player_id": 99,
-   "pos": "SG",
-   "height": "6'5''",
-   "weight": 195,
-   "age": 31,
-   "in": "C",
-   "out": "B-",
-   "hn": "C",
-   "df": "C",
-   "reb": "D+",
-   "pot": "D",
-   "last_team": "N/A",
-   "height_in": 77
-  },
-  {
-   "name": "Jon Barry",
-   "player_id": 122,
-   "pos": "SG",
-   "height": "6'5''",
-   "weight": 210,
-   "age": 36,
-   "in": "C",
-   "out": "B",
-   "hn": "C-",
-   "df": "C",
-   "reb": "D+",
-   "pot": "F",
    "last_team": "N/A",
    "height_in": 77
   },
@@ -1862,6 +2103,22 @@
    "height_in": 75
   },
   {
+   "name": "Juan Carlos Navarro",
+   "player_id": 179,
+   "pos": "SG",
+   "height": "6'3''",
+   "weight": 170,
+   "age": 25,
+   "in": "C",
+   "out": "C+",
+   "hn": "C-",
+   "df": "D+",
+   "reb": "D",
+   "pot": "C",
+   "last_team": "N/A",
+   "height_in": 75
+  },
+  {
    "name": "Calbert Cheaney",
    "player_id": 187,
    "pos": "SG",
@@ -1894,6 +2151,23 @@
    "height_in": 78
   },
   {
+   "name": "Marquis Daniels",
+   "player_id": 205,
+   "pos": "SG",
+   "height": "6'6''",
+   "weight": 200,
+   "age": 25,
+   "in": "C+",
+   "out": "C",
+   "hn": "C",
+   "df": "C+",
+   "reb": "C",
+   "pot": "C",
+   "last_team": "Hornets",
+   "team_id": 9,
+   "height_in": 78
+  },
+  {
    "name": "Andre Emmett",
    "player_id": 237,
    "pos": "SG",
@@ -1905,6 +2179,22 @@
    "hn": "D+",
    "df": "C-",
    "reb": "C-",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 77
+  },
+  {
+   "name": "Desmon Farmer",
+   "player_id": 241,
+   "pos": "SG",
+   "height": "6'5''",
+   "weight": 220,
+   "age": 24,
+   "in": "C",
+   "out": "C",
+   "hn": "C-",
+   "df": "C-",
+   "reb": "D+",
    "pot": "D",
    "last_team": "N/A",
    "height_in": 77
@@ -1990,6 +2280,22 @@
    "height_in": 78
   },
   {
+   "name": "Lynn Greer",
+   "player_id": 288,
+   "pos": "SG",
+   "height": "6'2''",
+   "weight": 175,
+   "age": 26,
+   "in": "C",
+   "out": "C+",
+   "hn": "C-",
+   "df": "C-",
+   "reb": "D",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 74
+  },
+  {
    "name": "Trenton Hassell",
    "player_id": 309,
    "pos": "SG",
@@ -2022,6 +2328,23 @@
    "height_in": 79
   },
   {
+   "name": "Eddie Jones",
+   "player_id": 368,
+   "pos": "SG",
+   "height": "6'6''",
+   "weight": 200,
+   "age": 34,
+   "in": "C",
+   "out": "B-",
+   "hn": "C",
+   "df": "C+",
+   "reb": "C-",
+   "pot": "D",
+   "last_team": "Lakers",
+   "team_id": 25,
+   "height_in": 78
+  },
+  {
    "name": "Ibrahim Kutluay",
    "player_id": 386,
    "pos": "SG",
@@ -2036,6 +2359,22 @@
    "pot": "F",
    "last_team": "N/A",
    "height_in": 78
+  },
+  {
+   "name": "Keith Langford",
+   "player_id": 390,
+   "pos": "SG",
+   "height": "6'4''",
+   "weight": 215,
+   "age": 22,
+   "in": "C",
+   "out": "C",
+   "hn": "C-",
+   "df": "C-",
+   "reb": "D+",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 76
   },
   {
    "name": "Aaron McKie",
@@ -2454,6 +2793,22 @@
    "height_in": 74
   },
   {
+   "name": "Will Conroy",
+   "player_id": 195,
+   "pos": "PG",
+   "height": "6'2''",
+   "weight": 195,
+   "age": 23,
+   "in": "C",
+   "out": "C",
+   "hn": "C+",
+   "df": "C-",
+   "reb": "D+",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 74
+  },
+  {
    "name": "Daniel Ewing",
    "player_id": 240,
    "pos": "PG",
@@ -2484,6 +2839,23 @@
    "pot": "F",
    "last_team": "N/A",
    "height_in": 74
+  },
+  {
+   "name": "Steve Francis",
+   "player_id": 256,
+   "pos": "PG",
+   "height": "6'3''",
+   "weight": 200,
+   "age": 28,
+   "in": "B-",
+   "out": "C",
+   "hn": "C+",
+   "df": "C+",
+   "reb": "C-",
+   "pot": "D",
+   "last_team": "Rockets",
+   "team_id": 18,
+   "height_in": 75
   },
   {
    "name": "Anthony Goldwire",
@@ -2550,6 +2922,22 @@
    "height_in": 76
   },
   {
+   "name": "Marcelo Huertas",
+   "player_id": 327,
+   "pos": "PG",
+   "height": "6'3''",
+   "weight": 200,
+   "age": 22,
+   "in": "C",
+   "out": "C",
+   "hn": "C",
+   "df": "C-",
+   "reb": "D",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 75
+  },
+  {
    "name": "Jermaine Jackson",
    "player_id": 342,
    "pos": "PG",
@@ -2612,6 +3000,23 @@
    "pot": "D",
    "last_team": "N/A",
    "height_in": 76
+  },
+  {
+   "name": "Stephon Marbury",
+   "player_id": 405,
+   "pos": "PG",
+   "height": "6'2''",
+   "weight": 205,
+   "age": 28,
+   "in": "C+",
+   "out": "B-",
+   "hn": "B-",
+   "df": "C",
+   "reb": "D",
+   "pot": "D",
+   "last_team": "Mavericks",
+   "team_id": 16,
+   "height_in": 74
   },
   {
    "name": "Darrick Martin",
@@ -2774,6 +3179,22 @@
    "height_in": 73
   },
   {
+   "name": "Vassilis Spanoulis",
+   "player_id": 560,
+   "pos": "PG",
+   "height": "6'4''",
+   "weight": 195,
+   "age": 23,
+   "in": "C",
+   "out": "C",
+   "hn": "C",
+   "df": "C-",
+   "reb": "D",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 76
+  },
+  {
    "name": "Yuta Tabuse",
    "player_id": 575,
    "pos": "PG",
@@ -2788,6 +3209,22 @@
    "pot": "F",
    "last_team": "N/A",
    "height_in": 69
+  },
+  {
+   "name": "Roko Ukic",
+   "player_id": 597,
+   "pos": "PG",
+   "height": "6'5''",
+   "weight": 183,
+   "age": 21,
+   "in": "C",
+   "out": "C",
+   "hn": "C",
+   "df": "C-",
+   "reb": "D",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 77
   },
   {
    "name": "Jacque Vaughn",
@@ -2836,22 +3273,6 @@
    "pot": "D",
    "last_team": "N/A",
    "height_in": 77
-  },
-  {
-   "name": "Frank Williams",
-   "player_id": 635,
-   "pos": "PG",
-   "height": "6'3''",
-   "weight": 212,
-   "age": 25,
-   "in": "C",
-   "out": "C+",
-   "hn": "C",
-   "df": "C",
-   "reb": "D",
-   "pot": "F",
-   "last_team": "N/A",
-   "height_in": 75
   },
   {
    "name": "Derrick Zimmerman",
