@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-02T20:15:54Z",
-  "parsed_at": "2026-11-02T20:16:12Z"
+  "crawled_at": "2026-11-03T17:48:22Z",
+  "parsed_at": "2026-11-03T17:48:41Z"
  },
  "transactions": [
   {
@@ -3867,6 +3867,20 @@
    "team": "Mavericks",
    "action": "Cut PG Stephon Marbury",
    "type": "cut"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Heat",
+   "action": "Trade C Yao Ming, SG Gerald Green, PF David Lee, SG Kyle Korver and PF Aaron Williams to the Knicks for PF Dirk Nowitzki, PF Jason Maxiell and C Jamal Sampson",
+   "type": "trade"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Knicks",
+   "action": "Trade PF Dirk Nowitzki, PF Jason Maxiell and C Jamal Sampson to the Heat for C Yao Ming, SG Gerald Green, PF David Lee, SG Kyle Korver and PF Aaron Williams",
+   "type": "trade"
   }
  ]
 }

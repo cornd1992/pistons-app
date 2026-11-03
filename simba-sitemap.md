@@ -1,9 +1,9 @@
 # Sitemap: simba.mygamesonline.org
 
-- **Crawl date:** 2026-11-02
-- **Pages found:** 1392
-- **Broken/errored links:** 1
-- **URLs fetched:** 1393
+- **Crawl date:** 2026-11-03
+- **Pages found:** 1388
+- **Broken/errored links:** 3
+- **URLs fetched:** 1391
 
 ## Crawl notes
 
@@ -11,10 +11,10 @@
 - No `/robots.txt` (404) and no `/sitemap.xml` (404).
 - Home is a frameset (`index2.htm` menu + `index1.htm`); JS `<select>` menu option values extracted as links.
 - Full crawl: every discovered same-host page was fetched.
-- Crawl took 1393.4 s, 1394 HTTP requests.
+- Crawl took 1391.5 s, 1392 HTTP requests.
 - Player pages embed a stats iframe (`playerNstats.htm`), crawled as separate pages.
 
-## Pages (1392)
+## Pages (1388)
 
 - [Main Index](https://simba.mygamesonline.org/) `/`
 - [All-Star Weekend Winners](https://simba.mygamesonline.org/allstarweekend.htm) `/allstarweekend.htm`
@@ -62,7 +62,7 @@
   - [Free Agents](https://simba.mygamesonline.org/fa/fa-wt.htm) `/fa/fa-wt.htm`
 - **hof/** (1)
   - [Hall Of Fame](https://simba.mygamesonline.org/hof/all.htm) `/hof/all.htm`
-- **players/** (1254)
+- **players/** (1250)
   - [SF Shandon Anderson - FA](https://simba.mygamesonline.org/players/player100.htm) `/players/player100.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player100stats.htm) `/players/player100stats.htm`
   - [C Martynas Andriuskevicius - Spurs](https://simba.mygamesonline.org/players/player101.htm) `/players/player101.htm`
@@ -442,7 +442,7 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player283stats.htm) `/players/player283stats.htm`
   - [SF Devin Green - FA](https://simba.mygamesonline.org/players/player284.htm) `/players/player284.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player284stats.htm) `/players/player284stats.htm`
-  - [SG Gerald Green - Heat](https://simba.mygamesonline.org/players/player285.htm) `/players/player285.htm`
+  - [SG Gerald Green - Knicks](https://simba.mygamesonline.org/players/player285.htm) `/players/player285.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player285stats.htm) `/players/player285stats.htm`
   - [SG Willie Green - Cavaliers](https://simba.mygamesonline.org/players/player286.htm) `/players/player286.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player286stats.htm) `/players/player286stats.htm`
@@ -629,7 +629,6 @@
   - [SG Fred Jones - 76ers](https://simba.mygamesonline.org/players/player369.htm) `/players/player369.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player369stats.htm) `/players/player369stats.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player36stats.htm) `/players/player36stats.htm`
-  - [PG Braden White - Draft](https://simba.mygamesonline.org/players/player37.htm) `/players/player37.htm`
   - [SF James Jones - Clippers](https://simba.mygamesonline.org/players/player370.htm) `/players/player370.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player370stats.htm) `/players/player370stats.htm`
   - [SF Jumaine Jones - Warriors](https://simba.mygamesonline.org/players/player371.htm) `/players/player371.htm`
@@ -650,7 +649,6 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player378stats.htm) `/players/player378stats.htm`
   - [SF Linas Kleiza - Grizzlies](https://simba.mygamesonline.org/players/player379.htm) `/players/player379.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player379stats.htm) `/players/player379stats.htm`
-  - [Player Statistics](https://simba.mygamesonline.org/players/player37stats.htm) `/players/player37stats.htm`
   - [PG Billy Benjamin - Draft](https://simba.mygamesonline.org/players/player38.htm) `/players/player38.htm`
   - [PG Brandin Knight - FA](https://simba.mygamesonline.org/players/player380.htm) `/players/player380.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player380stats.htm) `/players/player380stats.htm`
@@ -658,7 +656,7 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player381stats.htm) `/players/player381stats.htm`
   - [SF Yaroslav Korolev - Spurs](https://simba.mygamesonline.org/players/player382.htm) `/players/player382.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player382stats.htm) `/players/player382stats.htm`
-  - [SG Kyle Korver - Heat](https://simba.mygamesonline.org/players/player383.htm) `/players/player383.htm`
+  - [SG Kyle Korver - Knicks](https://simba.mygamesonline.org/players/player383.htm) `/players/player383.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player383stats.htm) `/players/player383stats.htm`
   - [C Nenad Krstic - Grizzlies](https://simba.mygamesonline.org/players/player384.htm) `/players/player384.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player384stats.htm) `/players/player384stats.htm`
@@ -676,7 +674,7 @@
   - [SG Eddie Davidson - Draft](https://simba.mygamesonline.org/players/player39.htm) `/players/player39.htm`
   - [SG Keith Langford - FA](https://simba.mygamesonline.org/players/player390.htm) `/players/player390.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player390stats.htm) `/players/player390stats.htm`
-  - [PF David Lee - Heat](https://simba.mygamesonline.org/players/player391.htm) `/players/player391.htm`
+  - [PF David Lee - Knicks](https://simba.mygamesonline.org/players/player391.htm) `/players/player391.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player391stats.htm) `/players/player391stats.htm`
   - [SG Voshon Lenard - SuperSonics](https://simba.mygamesonline.org/players/player392.htm) `/players/player392.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player392stats.htm) `/players/player392stats.htm`
@@ -730,7 +728,7 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player414stats.htm) `/players/player414stats.htm`
   - [SG Roger Mason Jr. - Trail Blazers](https://simba.mygamesonline.org/players/player415.htm) `/players/player415.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player415stats.htm) `/players/player415stats.htm`
-  - [PF Jason Maxiell - Knicks](https://simba.mygamesonline.org/players/player416.htm) `/players/player416.htm`
+  - [PF Jason Maxiell - Heat](https://simba.mygamesonline.org/players/player416.htm) `/players/player416.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player416stats.htm) `/players/player416stats.htm`
   - [PF Sean May - FA](https://simba.mygamesonline.org/players/player417.htm) `/players/player417.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player417stats.htm) `/players/player417stats.htm`
@@ -776,7 +774,7 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player435stats.htm) `/players/player435stats.htm`
   - [SF Mike Miller - 76ers](https://simba.mygamesonline.org/players/player436.htm) `/players/player436.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player436stats.htm) `/players/player436stats.htm`
-  - [C Yao Ming - Heat](https://simba.mygamesonline.org/players/player437.htm) `/players/player437.htm`
+  - [C Yao Ming - Knicks](https://simba.mygamesonline.org/players/player437.htm) `/players/player437.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player437stats.htm) `/players/player437stats.htm`
   - [SG Cuttino Mobley - Pistons](https://simba.mygamesonline.org/players/player438.htm) `/players/player438.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player438stats.htm) `/players/player438stats.htm`
@@ -832,7 +830,7 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player460stats.htm) `/players/player460stats.htm`
   - [PG Moochie Norris - FA](https://simba.mygamesonline.org/players/player461.htm) `/players/player461.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player461stats.htm) `/players/player461stats.htm`
-  - [PF Dirk Nowitzki - Knicks](https://simba.mygamesonline.org/players/player462.htm) `/players/player462.htm`
+  - [PF Dirk Nowitzki - Heat](https://simba.mygamesonline.org/players/player462.htm) `/players/player462.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player462stats.htm) `/players/player462stats.htm`
   - [C Fabricio Oberto - Kings](https://simba.mygamesonline.org/players/player463.htm) `/players/player463.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player463stats.htm) `/players/player463stats.htm`
@@ -898,8 +896,6 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player490stats.htm) `/players/player490stats.htm`
   - [SF Paul Pierce - Bucks](https://simba.mygamesonline.org/players/player491.htm) `/players/player491.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player491stats.htm) `/players/player491stats.htm`
-  - [SF Mickael Pietrus - Grizzlies](https://simba.mygamesonline.org/players/player492.htm) `/players/player492.htm`
-  - [Player Statistics](https://simba.mygamesonline.org/players/player492stats.htm) `/players/player492stats.htm`
   - [PF Kevinn Pinkney - FA](https://simba.mygamesonline.org/players/player493.htm) `/players/player493.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player493stats.htm) `/players/player493stats.htm`
   - [PG Zoran Planinic - Grizzlies](https://simba.mygamesonline.org/players/player494.htm) `/players/player494.htm`
@@ -986,7 +982,7 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player530stats.htm) `/players/player530stats.htm`
   - [SG John Salmons - Rockets](https://simba.mygamesonline.org/players/player531.htm) `/players/player531.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player531stats.htm) `/players/player531stats.htm`
-  - [C Jamal Sampson - Knicks](https://simba.mygamesonline.org/players/player532.htm) `/players/player532.htm`
+  - [C Jamal Sampson - Heat](https://simba.mygamesonline.org/players/player532.htm) `/players/player532.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player532stats.htm) `/players/player532stats.htm`
   - [SG Melvin Sanders - FA](https://simba.mygamesonline.org/players/player533.htm) `/players/player533.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player533stats.htm) `/players/player533stats.htm`
@@ -1204,7 +1200,7 @@
   - [SF Xavier Tower - Draft](https://simba.mygamesonline.org/players/player63.htm) `/players/player63.htm`
   - [PG Mike Wilks - FA](https://simba.mygamesonline.org/players/player630.htm) `/players/player630.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player630stats.htm) `/players/player630stats.htm`
-  - [PF Aaron Williams - Heat](https://simba.mygamesonline.org/players/player631.htm) `/players/player631.htm`
+  - [PF Aaron Williams - Knicks](https://simba.mygamesonline.org/players/player631.htm) `/players/player631.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player631stats.htm) `/players/player631stats.htm`
   - [PG Alvin Williams - FA](https://simba.mygamesonline.org/players/player632.htm) `/players/player632.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player632stats.htm) `/players/player632stats.htm`
@@ -1416,8 +1412,10 @@
     - [Team Statistics](https://simba.mygamesonline.org/tmstats/offense/team.htm) `/tmstats/offense/team.htm`
     - [Team Statistics](https://simba.mygamesonline.org/tmstats/offense/topg.htm) `/tmstats/offense/topg.htm`
 
-## Broken links (1)
+## Broken links (3)
 
 | Status | URL | Linked from |
 |---|---|---|
 | 404 | https://simba.mygamesonline.org/hof/All.htm | /hof/all.htm |
+| 404 | https://simba.mygamesonline.org/players/player37.htm | /draft/draftplayers-age.htm, /draft/draftplayers-df.htm, /draft/draftplayers-hn.htm, /draft/draftplayers-ht.htm, /draft/draftplayers-in.htm …(+6) |
+| 404 | https://simba.mygamesonline.org/players/player492.htm | /rosters/roster22.htm |

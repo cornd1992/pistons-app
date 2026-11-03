@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-02T20:15:54Z",
-  "parsed_at": "2026-11-02T20:16:12Z"
+  "crawled_at": "2026-11-03T17:48:22Z",
+  "parsed_at": "2026-11-03T17:48:41Z"
  },
  "players": [
   {
@@ -1798,144 +1798,6 @@
     }
    },
    "profile_url": "https://simba.mygamesonline.org/players/player36.htm"
-  },
-  {
-   "player_id": 37,
-   "name": "Braden White",
-   "pos": "PG",
-   "team": "Draft",
-   "team_id": null,
-   "age": 22,
-   "height": "5'9''",
-   "height_in": 69,
-   "weight": 190,
-   "college": "Kent State",
-   "hometown": "Clippers",
-   "experience": 0,
-   "draft_round": 0,
-   "draft_pick": 0,
-   "attributes": {
-    "inside_scoring": "C",
-    "outside_scoring": "C+",
-    "handling": "B-",
-    "defense": "B-",
-    "rebounding": "C-",
-    "potential": "A"
-   },
-   "achievements": {
-    "championships": 0,
-    "player_of_the_game": 0,
-    "player_of_the_week": 0,
-    "player_of_the_month": 0,
-    "double_doubles": 0,
-    "triple_doubles": 0
-   },
-   "awards": [],
-   "season_averages": {
-    "games": 0,
-    "mpg": 0.0,
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0,
-    "fg_pct": 0.0,
-    "ft_pct": 0.0,
-    "three_p_pct": 0.0
-   },
-   "career_highs": {
-    "points": 0,
-    "rebounds": 0,
-    "assists": 0,
-    "steals": 0,
-    "blocks": 0
-   },
-   "contract": {
-    "loyalty": 0,
-    "greed": 31,
-    "play_for_winner": 55,
-    "bird_years": 0,
-    "salary_by_year": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "total": 0
-   },
-   "stats": {
-    "columns": [
-     "Season",
-     "Team",
-     "Games",
-     "MPG",
-     "FG",
-     "FGA",
-     "FG %",
-     "FT",
-     "FTA",
-     "FT %",
-     "3P",
-     "3PA",
-     "3P %",
-     "RPG",
-     "APG",
-     "SPG",
-     "BPG",
-     "TOPG",
-     "DQ",
-     "PPG"
-    ],
-    "seasons": [
-     {
-      "season": "2005",
-      "team": "Draft",
-      "games": 0,
-      "mpg": 0.0,
-      "fg": 0,
-      "fga": 0,
-      "fg_pct": 0.0,
-      "ft": 0,
-      "fta": 0,
-      "ft_pct": 0.0,
-      "three_p": 0,
-      "three_pa": 0,
-      "three_p_pct": 0.0,
-      "rpg": 0.0,
-      "apg": 0.0,
-      "spg": 0.0,
-      "bpg": 0.0,
-      "topg": 0.0,
-      "dq": 0,
-      "ppg": 0.0
-     }
-    ],
-    "career": {
-     "games": 0,
-     "mpg": 0.0,
-     "fg": 0,
-     "fga": 0,
-     "fg_pct": 0.0,
-     "ft": 0,
-     "fta": 0,
-     "ft_pct": 0.0,
-     "three_p": 0,
-     "three_pa": 0,
-     "three_p_pct": 0.0,
-     "rpg": 0.0,
-     "apg": 0.0,
-     "spg": 0.0,
-     "bpg": 0.0,
-     "topg": 0.0,
-     "dq": 0,
-     "ppg": 0.0
-    }
-   },
-   "profile_url": "https://simba.mygamesonline.org/players/player37.htm"
   },
   {
    "player_id": 38,
@@ -36027,7 +35889,7 @@
    "player_id": 285,
    "name": "Gerald Green",
    "pos": "SG",
-   "team": "Heat",
+   "team": "Knicks",
    "team_id": null,
    "age": 20,
    "height": "6'7''",
@@ -36117,7 +35979,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "Heat",
+      "team": "Knicks",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -49551,7 +49413,7 @@
    "player_id": 383,
    "name": "Kyle Korver",
    "pos": "SG",
-   "team": "Heat",
+   "team": "Knicks",
    "team_id": null,
    "age": 24,
    "height": "6'7''",
@@ -49641,7 +49503,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "Heat",
+      "team": "Knicks",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -50655,7 +50517,7 @@
    "player_id": 391,
    "name": "David Lee",
    "pos": "PF",
-   "team": "Heat",
+   "team": "Knicks",
    "team_id": null,
    "age": 22,
    "height": "6'9''",
@@ -50745,7 +50607,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "Heat",
+      "team": "Knicks",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -54105,7 +53967,7 @@
    "player_id": 416,
    "name": "Jason Maxiell",
    "pos": "PF",
-   "team": "Knicks",
+   "team": "Heat",
    "team_id": null,
    "age": 22,
    "height": "6'7''",
@@ -54195,7 +54057,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "Knicks",
+      "team": "Heat",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -57003,7 +56865,7 @@
    "player_id": 437,
    "name": "Yao Ming",
    "pos": "C",
-   "team": "Heat",
+   "team": "Knicks",
    "team_id": null,
    "age": 25,
    "height": "7'6''",
@@ -57093,7 +56955,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "Heat",
+      "team": "Knicks",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -60453,7 +60315,7 @@
    "player_id": 462,
    "name": "Dirk Nowitzki",
    "pos": "PF",
-   "team": "Knicks",
+   "team": "Heat",
    "team_id": null,
    "age": 27,
    "height": "7'0''",
@@ -60543,7 +60405,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "Knicks",
+      "team": "Heat",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -64588,144 +64450,6 @@
     }
    },
    "profile_url": "https://simba.mygamesonline.org/players/player491.htm"
-  },
-  {
-   "player_id": 492,
-   "name": "Mickael Pietrus",
-   "pos": "SF",
-   "team": "Grizzlies",
-   "team_id": null,
-   "age": 23,
-   "height": "6'6''",
-   "height_in": 78,
-   "weight": 215,
-   "college": "France",
-   "hometown": "N/A",
-   "experience": 2,
-   "draft_round": 4,
-   "draft_pick": 13,
-   "attributes": {
-    "inside_scoring": "C+",
-    "outside_scoring": "B-",
-    "handling": "D+",
-    "defense": "B",
-    "rebounding": "C-",
-    "potential": "C"
-   },
-   "achievements": {
-    "championships": 0,
-    "player_of_the_game": 0,
-    "player_of_the_week": 0,
-    "player_of_the_month": 0,
-    "double_doubles": 0,
-    "triple_doubles": 0
-   },
-   "awards": [],
-   "season_averages": {
-    "games": 0,
-    "mpg": 0.0,
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0,
-    "fg_pct": 0.0,
-    "ft_pct": 0.0,
-    "three_p_pct": 0.0
-   },
-   "career_highs": {
-    "points": 0,
-    "rebounds": 0,
-    "assists": 0,
-    "steals": 0,
-    "blocks": 0
-   },
-   "contract": {
-    "loyalty": 24,
-    "greed": 73,
-    "play_for_winner": 64,
-    "bird_years": 2,
-    "salary_by_year": [
-     1910520,
-     2,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "total": 1910522
-   },
-   "stats": {
-    "columns": [
-     "Season",
-     "Team",
-     "Games",
-     "MPG",
-     "FG",
-     "FGA",
-     "FG %",
-     "FT",
-     "FTA",
-     "FT %",
-     "3P",
-     "3PA",
-     "3P %",
-     "RPG",
-     "APG",
-     "SPG",
-     "BPG",
-     "TOPG",
-     "DQ",
-     "PPG"
-    ],
-    "seasons": [
-     {
-      "season": "2005",
-      "team": "Grizzlies",
-      "games": 0,
-      "mpg": 0.0,
-      "fg": 0,
-      "fga": 0,
-      "fg_pct": 0.0,
-      "ft": 0,
-      "fta": 0,
-      "ft_pct": 0.0,
-      "three_p": 0,
-      "three_pa": 0,
-      "three_p_pct": 0.0,
-      "rpg": 0.0,
-      "apg": 0.0,
-      "spg": 0.0,
-      "bpg": 0.0,
-      "topg": 0.0,
-      "dq": 0,
-      "ppg": 0.0
-     }
-    ],
-    "career": {
-     "games": 0,
-     "mpg": 0.0,
-     "fg": 0,
-     "fga": 0,
-     "fg_pct": 0.0,
-     "ft": 0,
-     "fta": 0,
-     "ft_pct": 0.0,
-     "three_p": 0,
-     "three_pa": 0,
-     "three_p_pct": 0.0,
-     "rpg": 0.0,
-     "apg": 0.0,
-     "spg": 0.0,
-     "bpg": 0.0,
-     "topg": 0.0,
-     "dq": 0,
-     "ppg": 0.0
-    }
-   },
-   "profile_url": "https://simba.mygamesonline.org/players/player492.htm"
   },
   {
    "player_id": 493,
@@ -70113,7 +69837,7 @@
    "player_id": 532,
    "name": "Jamal Sampson",
    "pos": "C",
-   "team": "Knicks",
+   "team": "Heat",
    "team_id": null,
    "age": 22,
    "height": "6'11''",
@@ -70203,7 +69927,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "Knicks",
+      "team": "Heat",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -83775,7 +83499,7 @@
    "player_id": 631,
    "name": "Aaron Williams",
    "pos": "PF",
-   "team": "Heat",
+   "team": "Knicks",
    "team_id": null,
    "age": 34,
    "height": "6'9''",
@@ -83865,7 +83589,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "Heat",
+      "team": "Knicks",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
