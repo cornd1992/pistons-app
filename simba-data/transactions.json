@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-04T18:01:43Z",
-  "parsed_at": "2026-11-04T18:01:58Z"
+  "crawled_at": "2026-11-05T18:07:43Z",
+  "parsed_at": "2026-11-05T18:07:52Z"
  },
  "transactions": [
   {
@@ -3881,6 +3881,160 @@
    "team": "Knicks",
    "action": "Trade PF Dirk Nowitzki, PF Jason Maxiell and C Jamal Sampson to the Heat for C Yao Ming, SG Gerald Green, PF David Lee, SG Kyle Korver and PF Aaron Williams",
    "type": "trade"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Grizzlies",
+   "action": "Sign C Hamed Haddadi for $332,817 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Raptors",
+   "action": "Sign SF Corliss Williamson for $1,000,000 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Bulls",
+   "action": "Sign PF Antoine Walker for $965,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Mavericks",
+   "action": "Sign PG Luis Flores for $465,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Clippers",
+   "action": "Sign SG Eddie Jones for $1,000,000 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Warriors",
+   "action": "Sign PF Clifford Robinson for $1,000,000 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Rockets",
+   "action": "Sign SG Bob Sura for $1,000,000 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Raptors",
+   "action": "Sign PG Eric Snow for $1,000,000 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Knicks",
+   "action": "Cut PF Slava Medvedenko",
+   "type": "cut"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Knicks",
+   "action": "Sign PG Stephon Marbury for $965,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Heat",
+   "action": "Sign PG Steve Francis for $715,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Celtics",
+   "action": "Sign C Jerome James for $653,350 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Bucks",
+   "action": "Sign C Jabari Smith for $590,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Hornets",
+   "action": "Sign PG Rick Brunson for $840,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Hawks",
+   "action": "Sign C Pavel Podkolzin for $465,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Lakers",
+   "action": "Sign SG Marquis Daniels for $540,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Kings",
+   "action": "Sign PG Roko Ukic for $332,817 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Wizards",
+   "action": "Sign PG Vassilis Spanoulis for $332,817 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Pistons",
+   "action": "Sign SF Jim Jackson for $1,000,000 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Mavericks",
+   "action": "Sign SF Noel Felix for $332,817 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Nuggets",
+   "action": "Sign SG Doug Christie for $1,000,000 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Kings",
+   "action": "Sign PF Mike Harris for $332,817 over one year.",
+   "type": "sign"
   }
  ]
 }
