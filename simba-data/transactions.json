@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-05T18:07:43Z",
-  "parsed_at": "2026-11-05T18:07:52Z"
+  "crawled_at": "2026-11-06T17:23:27Z",
+  "parsed_at": "2026-11-06T17:23:41Z"
  },
  "transactions": [
   {
@@ -4034,6 +4034,286 @@
    "day": 1,
    "team": "Kings",
    "action": "Sign PF Mike Harris for $332,817 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Cavaliers",
+   "action": "Sign PF Kenny Thomas for $715,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "76ers",
+   "action": "Sign PF Robert Traylor for $778,350 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Heat",
+   "action": "Sign C Zendon Hamilton for $653,350 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Trail Blazers",
+   "action": "Sign PG Darrick Martin for $1,000,000 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Timberwolves",
+   "action": "Sign SG Donta Smith for $465,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Rockets",
+   "action": "Sign PF Marcus Haislip for $565,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Celtics",
+   "action": "Sign PG Randy Livingston for $965,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Timberwolves",
+   "action": "Sign PF Donnell Harvey for $653,350 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Cavaliers",
+   "action": "Sign PF Juwan Howard for $1,000,000 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Heat",
+   "action": "Sign PG Jamison Brewer for $590,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Wizards",
+   "action": "Sign C Predrag Drobnjak for $590,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Warriors",
+   "action": "Sign SG Trenton Hassell for $590,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Magic",
+   "action": "Sign SF Ryan Bowen for $715,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Cavaliers",
+   "action": "Sign PF Malik Rose for $965,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Nets",
+   "action": "Sign PF Alan Henderson for $1,000,000 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Hornets",
+   "action": "Sign PF Brian Cardinal for $653,350 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Hawks",
+   "action": "Sign PF Eduardo Najera for $653,350 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Nets",
+   "action": "Sign SF Eric Williams for $1,000,000 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Mavericks",
+   "action": "Sign PF Wayne Simien for $332,817 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Lakers",
+   "action": "Sign PG Moochie Norris for $840,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Bulls",
+   "action": "Sign SG Stephen Graham for $332,817 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Pacers",
+   "action": "Sign SF Joey Graham for $332,817 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Jazz",
+   "action": "Sign SF Qyntel Woods for $565,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Jazz",
+   "action": "Sign PG Will Conroy for $332,817 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Jazz",
+   "action": "Sign C Randolph Morris for $332,817 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Spurs",
+   "action": "Sign PF Sean May for $332,817 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Pacers",
+   "action": "Sign PG Jacque Vaughn for $840,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Magic",
+   "action": "Sign PF Zarko Cabarkapa for $540,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Bucks",
+   "action": "Sign SF Jawad Williams for $332,817 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "SuperSonics",
+   "action": "Sign C Marc Jackson for $653,350 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Spurs",
+   "action": "Sign SG Donell Taylor for $332,817 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Bulls",
+   "action": "Sign PG Antonio Burks for $465,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "76ers",
+   "action": "Sign SF Lee Nailon for $653,350 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "SuperSonics",
+   "action": "Sign PG Andre Barrett for $465,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Lakers",
+   "action": "Sign C Jake Voskuhl for $653,350 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Bucks",
+   "action": "Sign SG Charles Smith for $590,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Trail Blazers",
+   "action": "Sign PF Esteban Batista for $332,817 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Pacers",
+   "action": "Sign C Chris Taft for $332,817 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Trail Blazers",
+   "action": "Sign PF Pape Sow for $465,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 1,
+   "team": "Magic",
+   "action": "Sign SG Laron Profit for $565,850 over one year.",
    "type": "sign"
   }
  ]

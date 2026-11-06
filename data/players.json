@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-05T18:07:43Z",
-  "parsed_at": "2026-11-05T18:07:52Z"
+  "crawled_at": "2026-11-06T17:23:27Z",
+  "parsed_at": "2026-11-06T17:23:41Z"
  },
  "players": [
   {
@@ -13119,7 +13119,7 @@
    "player_id": 119,
    "name": "Andre Barrett",
    "pos": "PG",
-   "team": "FA",
+   "team": "SuperSonics",
    "team_id": null,
    "age": 23,
    "height": "5'10''",
@@ -13173,7 +13173,7 @@
     "play_for_winner": 37,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     655690,
      0,
      0,
      0,
@@ -13181,7 +13181,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 655690
    },
    "stats": {
     "columns": [
@@ -13209,7 +13209,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "SuperSonics",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -14085,7 +14085,7 @@
    "player_id": 126,
    "name": "Esteban Batista",
    "pos": "PF",
-   "team": "FA",
+   "team": "Trail Blazers",
    "team_id": null,
    "age": 22,
    "height": "6'10''",
@@ -14139,7 +14139,7 @@
     "play_for_winner": 27,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     407425,
      0,
      0,
      0,
@@ -14147,7 +14147,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 407425
    },
    "stats": {
     "columns": [
@@ -14175,7 +14175,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Trail Blazers",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -17121,7 +17121,7 @@
    "player_id": 148,
    "name": "Ryan Bowen",
    "pos": "SF",
-   "team": "FA",
+   "team": "Magic",
    "team_id": null,
    "age": 30,
    "height": "6'9''",
@@ -17175,7 +17175,7 @@
     "play_for_winner": 4,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     920060,
      0,
      0,
      0,
@@ -17183,7 +17183,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 920060
    },
    "stats": {
     "columns": [
@@ -17211,7 +17211,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Magic",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -17811,7 +17811,7 @@
    "player_id": 153,
    "name": "Jamison Brewer",
    "pos": "PG",
-   "team": "FA",
+   "team": "Heat",
    "team_id": null,
    "age": 25,
    "height": "6'4''",
@@ -17865,7 +17865,7 @@
     "play_for_winner": 59,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     787874,
      0,
      0,
      0,
@@ -17873,7 +17873,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 787874
    },
    "stats": {
     "columns": [
@@ -17901,7 +17901,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Heat",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -19743,7 +19743,7 @@
    "player_id": 167,
    "name": "Antonio Burks",
    "pos": "PG",
-   "team": "FA",
+   "team": "Bulls",
    "team_id": null,
    "age": 25,
    "height": "6'0''",
@@ -19795,9 +19795,9 @@
     "loyalty": 93,
     "greed": 1,
     "play_for_winner": 37,
-    "bird_years": 1,
+    "bird_years": 0,
     "salary_by_year": [
-     0,
+     655690,
      0,
      0,
      0,
@@ -19805,7 +19805,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 655690
    },
    "stats": {
     "columns": [
@@ -19833,7 +19833,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Bulls",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -20709,7 +20709,7 @@
    "player_id": 174,
    "name": "Zarko Cabarkapa",
    "pos": "PF",
-   "team": "FA",
+   "team": "Magic",
    "team_id": null,
    "age": 24,
    "height": "6'11''",
@@ -20761,9 +20761,9 @@
     "loyalty": 68,
     "greed": 59,
     "play_for_winner": 58,
-    "bird_years": 2,
+    "bird_years": 0,
     "salary_by_year": [
-     0,
+     735000,
      0,
      0,
      0,
@@ -20771,7 +20771,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 735000
    },
    "stats": {
     "columns": [
@@ -20799,7 +20799,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Magic",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -21123,7 +21123,7 @@
    "player_id": 177,
    "name": "Brian Cardinal",
    "pos": "PF",
-   "team": "FA",
+   "team": "Hornets",
    "team_id": null,
    "age": 28,
    "height": "6'8''",
@@ -21177,7 +21177,7 @@
     "play_for_winner": 31,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     2000000,
      0,
      0,
      0,
@@ -21185,7 +21185,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 2000000
    },
    "stats": {
     "columns": [
@@ -21213,7 +21213,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Hornets",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -23607,7 +23607,7 @@
    "player_id": 195,
    "name": "Will Conroy",
    "pos": "PG",
-   "team": "FA",
+   "team": "Jazz",
    "team_id": null,
    "age": 23,
    "height": "6'2''",
@@ -23661,7 +23661,7 @@
     "play_for_winner": 49,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     407425,
      0,
      0,
      0,
@@ -23669,7 +23669,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 407425
    },
    "stats": {
     "columns": [
@@ -23697,7 +23697,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Jazz",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -27609,7 +27609,7 @@
    "player_id": 224,
    "name": "Predrag Drobnjak",
    "pos": "C",
-   "team": "FA",
+   "team": "Wizards",
    "team_id": null,
    "age": 30,
    "height": "6'11''",
@@ -27663,7 +27663,7 @@
     "play_for_winner": 52,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     787874,
      0,
      0,
      0,
@@ -27671,7 +27671,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 787874
    },
    "stats": {
     "columns": [
@@ -27699,7 +27699,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Wizards",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -34920,144 +34920,6 @@
    "profile_url": "https://simba.mygamesonline.org/players/player276.htm"
   },
   {
-   "player_id": 277,
-   "name": "Drew Gooden",
-   "pos": "PF",
-   "team": "Warriors",
-   "team_id": null,
-   "age": 24,
-   "height": "6'9''",
-   "height_in": 81,
-   "weight": 250,
-   "college": "Kansas",
-   "hometown": "N/A",
-   "experience": 3,
-   "draft_round": 4,
-   "draft_pick": 22,
-   "attributes": {
-    "inside_scoring": "C+",
-    "outside_scoring": "C",
-    "handling": "D+",
-    "defense": "C+",
-    "rebounding": "B+",
-    "potential": "C"
-   },
-   "achievements": {
-    "championships": 0,
-    "player_of_the_game": 0,
-    "player_of_the_week": 0,
-    "player_of_the_month": 0,
-    "double_doubles": 0,
-    "triple_doubles": 0
-   },
-   "awards": [],
-   "season_averages": {
-    "games": 0,
-    "mpg": 0.0,
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0,
-    "fg_pct": 0.0,
-    "ft_pct": 0.0,
-    "three_p_pct": 0.0
-   },
-   "career_highs": {
-    "points": 0,
-    "rebounds": 0,
-    "assists": 0,
-    "steals": 0,
-    "blocks": 0
-   },
-   "contract": {
-    "loyalty": 9,
-    "greed": 21,
-    "play_for_winner": 53,
-    "bird_years": 3,
-    "salary_by_year": [
-     4065811,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "total": 4065811
-   },
-   "stats": {
-    "columns": [
-     "Season",
-     "Team",
-     "Games",
-     "MPG",
-     "FG",
-     "FGA",
-     "FG %",
-     "FT",
-     "FTA",
-     "FT %",
-     "3P",
-     "3PA",
-     "3P %",
-     "RPG",
-     "APG",
-     "SPG",
-     "BPG",
-     "TOPG",
-     "DQ",
-     "PPG"
-    ],
-    "seasons": [
-     {
-      "season": "2005",
-      "team": "Warriors",
-      "games": 0,
-      "mpg": 0.0,
-      "fg": 0,
-      "fga": 0,
-      "fg_pct": 0.0,
-      "ft": 0,
-      "fta": 0,
-      "ft_pct": 0.0,
-      "three_p": 0,
-      "three_pa": 0,
-      "three_p_pct": 0.0,
-      "rpg": 0.0,
-      "apg": 0.0,
-      "spg": 0.0,
-      "bpg": 0.0,
-      "topg": 0.0,
-      "dq": 0,
-      "ppg": 0.0
-     }
-    ],
-    "career": {
-     "games": 0,
-     "mpg": 0.0,
-     "fg": 0,
-     "fga": 0,
-     "fg_pct": 0.0,
-     "ft": 0,
-     "fta": 0,
-     "ft_pct": 0.0,
-     "three_p": 0,
-     "three_pa": 0,
-     "three_p_pct": 0.0,
-     "rpg": 0.0,
-     "apg": 0.0,
-     "spg": 0.0,
-     "bpg": 0.0,
-     "topg": 0.0,
-     "dq": 0,
-     "ppg": 0.0
-    }
-   },
-   "profile_url": "https://simba.mygamesonline.org/players/player277.htm"
-  },
-  {
    "player_id": 278,
    "name": "Ben Gordon",
    "pos": "SG",
@@ -35337,7 +35199,7 @@
    "player_id": 280,
    "name": "Joey Graham",
    "pos": "SF",
-   "team": "FA",
+   "team": "Pacers",
    "team_id": null,
    "age": 23,
    "height": "6'7''",
@@ -35391,7 +35253,7 @@
     "play_for_winner": 49,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     407425,
      0,
      0,
      0,
@@ -35399,7 +35261,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 407425
    },
    "stats": {
     "columns": [
@@ -35427,7 +35289,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Pacers",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -35475,7 +35337,7 @@
    "player_id": 281,
    "name": "Stephen Graham",
    "pos": "SG",
-   "team": "FA",
+   "team": "Bulls",
    "team_id": null,
    "age": 23,
    "height": "6'6''",
@@ -35529,7 +35391,7 @@
     "play_for_winner": 78,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     407425,
      0,
      0,
      0,
@@ -35537,7 +35399,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 407425
    },
    "stats": {
     "columns": [
@@ -35565,7 +35427,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Bulls",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -37131,7 +36993,7 @@
    "player_id": 293,
    "name": "Marcus Haislip",
    "pos": "PF",
-   "team": "FA",
+   "team": "Rockets",
    "team_id": null,
    "age": 25,
    "height": "6'10''",
@@ -37185,7 +37047,7 @@
     "play_for_winner": 99,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     761438,
      0,
      0,
      0,
@@ -37193,7 +37055,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 761438
    },
    "stats": {
     "columns": [
@@ -37221,7 +37083,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Rockets",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -37545,7 +37407,7 @@
    "player_id": 296,
    "name": "Zendon Hamilton",
    "pos": "C",
-   "team": "FA",
+   "team": "Heat",
    "team_id": null,
    "age": 30,
    "height": "6'11''",
@@ -37597,9 +37459,9 @@
     "loyalty": 17,
     "greed": 61,
     "play_for_winner": 76,
-    "bird_years": 7,
+    "bird_years": 0,
     "salary_by_year": [
-     0,
+     853967,
      0,
      0,
      0,
@@ -37607,7 +37469,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 853967
    },
    "stats": {
     "columns": [
@@ -37635,7 +37497,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Heat",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -39063,7 +38925,7 @@
    "player_id": 307,
    "name": "Donnell Harvey",
    "pos": "PF",
-   "team": "FA",
+   "team": "Timberwolves",
    "team_id": null,
    "age": 25,
    "height": "6'8''",
@@ -39117,7 +38979,7 @@
     "play_for_winner": 41,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     853967,
      0,
      0,
      0,
@@ -39125,7 +38987,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 853967
    },
    "stats": {
     "columns": [
@@ -39153,7 +39015,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Timberwolves",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -39339,7 +39201,7 @@
    "player_id": 309,
    "name": "Trenton Hassell",
    "pos": "SG",
-   "team": "FA",
+   "team": "Warriors",
    "team_id": null,
    "age": 26,
    "height": "6'5''",
@@ -39393,7 +39255,7 @@
     "play_for_winner": 30,
     "bird_years": 2,
     "salary_by_year": [
-     0,
+     787874,
      0,
      0,
      0,
@@ -39401,7 +39263,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 787874
    },
    "stats": {
     "columns": [
@@ -39429,7 +39291,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Warriors",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -40029,7 +39891,7 @@
    "player_id": 314,
    "name": "Alan Henderson",
    "pos": "PF",
-   "team": "FA",
+   "team": "Nets",
    "team_id": null,
    "age": 33,
    "height": "6'9''",
@@ -40083,7 +39945,7 @@
     "play_for_winner": 30,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     1163234,
      0,
      0,
      0,
@@ -40091,7 +39953,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 1163234
    },
    "stats": {
     "columns": [
@@ -40119,7 +39981,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Nets",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -41547,7 +41409,7 @@
    "player_id": 325,
    "name": "Juwan Howard",
    "pos": "PF",
-   "team": "FA",
+   "team": "Cavaliers",
    "team_id": null,
    "age": 32,
    "height": "6'9''",
@@ -41601,7 +41463,7 @@
     "play_for_winner": 36,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     1163234,
      0,
      0,
      0,
@@ -41609,7 +41471,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 1163234
    },
    "stats": {
     "columns": [
@@ -41637,7 +41499,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Cavaliers",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -44307,7 +44169,7 @@
    "player_id": 345,
    "name": "Marc Jackson",
    "pos": "C",
-   "team": "FA",
+   "team": "SuperSonics",
    "team_id": null,
    "age": 31,
    "height": "6'10''",
@@ -44359,9 +44221,9 @@
     "loyalty": 76,
     "greed": 25,
     "play_for_winner": 34,
-    "bird_years": 3,
+    "bird_years": 0,
     "salary_by_year": [
-     0,
+     853967,
      0,
      0,
      0,
@@ -44369,7 +44231,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 853967
    },
    "stats": {
     "columns": [
@@ -44397,7 +44259,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "SuperSonics",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -51069,7 +50931,7 @@
    "player_id": 394,
    "name": "Randy Livingston",
    "pos": "PG",
-   "team": "FA",
+   "team": "Celtics",
    "team_id": null,
    "age": 30,
    "height": "6'4''",
@@ -51123,7 +50985,7 @@
     "play_for_winner": 52,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     1057484,
      0,
      0,
      0,
@@ -51131,7 +50993,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 1057484
    },
    "stats": {
     "columns": [
@@ -51159,7 +51021,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Celtics",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -53277,7 +53139,7 @@
    "player_id": 410,
    "name": "Darrick Martin",
    "pos": "PG",
-   "team": "FA",
+   "team": "Trail Blazers",
    "team_id": null,
    "age": 34,
    "height": "5'11''",
@@ -53331,7 +53193,7 @@
     "play_for_winner": 64,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     1163234,
      0,
      0,
      0,
@@ -53339,7 +53201,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 1163234
    },
    "stats": {
     "columns": [
@@ -53367,7 +53229,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Trail Blazers",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -54243,7 +54105,7 @@
    "player_id": 417,
    "name": "Sean May",
    "pos": "PF",
-   "team": "FA",
+   "team": "Spurs",
    "team_id": null,
    "age": 21,
    "height": "6'9''",
@@ -54297,7 +54159,7 @@
     "play_for_winner": 10,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     407425,
      0,
      0,
      0,
@@ -54305,7 +54167,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 407425
    },
    "stats": {
     "columns": [
@@ -54333,7 +54195,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Spurs",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -57969,7 +57831,7 @@
    "player_id": 444,
    "name": "Randolph Morris",
    "pos": "C",
-   "team": "FA",
+   "team": "Jazz",
    "team_id": null,
    "age": 20,
    "height": "6'10''",
@@ -58023,7 +57885,7 @@
     "play_for_winner": 40,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     407425,
      0,
      0,
      0,
@@ -58031,7 +57893,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 407425
    },
    "stats": {
     "columns": [
@@ -58059,7 +57921,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Jazz",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -59073,7 +58935,7 @@
    "player_id": 452,
    "name": "Lee Nailon",
    "pos": "SF",
-   "team": "FA",
+   "team": "76ers",
    "team_id": null,
    "age": 30,
    "height": "6'8''",
@@ -59125,9 +58987,9 @@
     "loyalty": 5,
     "greed": 79,
     "play_for_winner": 91,
-    "bird_years": 1,
+    "bird_years": 0,
     "salary_by_year": [
-     0,
+     853967,
      0,
      0,
      0,
@@ -59135,7 +58997,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 853967
    },
    "stats": {
     "columns": [
@@ -59163,7 +59025,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "76ers",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -59211,7 +59073,7 @@
    "player_id": 453,
    "name": "Eduardo Najera",
    "pos": "PF",
-   "team": "FA",
+   "team": "Hawks",
    "team_id": null,
    "age": 29,
    "height": "6'8''",
@@ -59263,9 +59125,9 @@
     "loyalty": 20,
     "greed": 80,
     "play_for_winner": 48,
-    "bird_years": 6,
+    "bird_years": 0,
     "salary_by_year": [
-     0,
+     853967,
      0,
      0,
      0,
@@ -59273,7 +59135,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 853967
    },
    "stats": {
     "columns": [
@@ -59301,7 +59163,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Hawks",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -60315,7 +60177,7 @@
    "player_id": 461,
    "name": "Moochie Norris",
    "pos": "PG",
-   "team": "FA",
+   "team": "Lakers",
    "team_id": null,
    "age": 32,
    "height": "6'1''",
@@ -60367,9 +60229,9 @@
     "loyalty": 5,
     "greed": 4,
     "play_for_winner": 65,
-    "bird_years": 1,
+    "bird_years": 0,
     "salary_by_year": [
-     0,
+     1052247,
      0,
      0,
      0,
@@ -60377,7 +60239,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 1052247
    },
    "stats": {
     "columns": [
@@ -60405,7 +60267,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Lakers",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -66387,7 +66249,7 @@
    "player_id": 505,
    "name": "Laron Profit",
    "pos": "SG",
-   "team": "FA",
+   "team": "Magic",
    "team_id": null,
    "age": 28,
    "height": "6'5''",
@@ -66439,9 +66301,9 @@
     "loyalty": 53,
     "greed": 53,
     "play_for_winner": 0,
-    "bird_years": 3,
+    "bird_years": 0,
     "salary_by_year": [
-     0,
+     761438,
      0,
      0,
      0,
@@ -66449,7 +66311,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 761438
    },
    "stats": {
     "columns": [
@@ -66477,7 +66339,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Magic",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -69285,7 +69147,7 @@
    "player_id": 526,
    "name": "Malik Rose",
    "pos": "PF",
-   "team": "FA",
+   "team": "Cavaliers",
    "team_id": null,
    "age": 31,
    "height": "6'7''",
@@ -69337,9 +69199,9 @@
     "loyalty": 75,
     "greed": 13,
     "play_for_winner": 72,
-    "bird_years": 1,
+    "bird_years": 0,
     "salary_by_year": [
-     0,
+     1057484,
      0,
      0,
      0,
@@ -69347,7 +69209,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 1057484
    },
    "stats": {
     "columns": [
@@ -69375,7 +69237,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Cavaliers",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -71493,7 +71355,7 @@
    "player_id": 542,
    "name": "Wayne Simien",
    "pos": "PF",
-   "team": "FA",
+   "team": "Mavericks",
    "team_id": null,
    "age": 22,
    "height": "6'9''",
@@ -71547,7 +71409,7 @@
     "play_for_winner": 42,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     407425,
      0,
      0,
      0,
@@ -71555,7 +71417,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 407425
    },
    "stats": {
     "columns": [
@@ -71583,7 +71445,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Mavericks",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -72321,7 +72183,7 @@
    "player_id": 548,
    "name": "Charles Smith",
    "pos": "SG",
-   "team": "FA",
+   "team": "Bucks",
    "team_id": null,
    "age": 30,
    "height": "6'4''",
@@ -72373,9 +72235,9 @@
     "loyalty": 57,
     "greed": 34,
     "play_for_winner": 77,
-    "bird_years": 2,
+    "bird_years": 0,
     "salary_by_year": [
-     0,
+     787874,
      0,
      0,
      0,
@@ -72383,7 +72245,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 787874
    },
    "stats": {
     "columns": [
@@ -72411,7 +72273,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Bucks",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -72459,7 +72321,7 @@
    "player_id": 549,
    "name": "Donta Smith",
    "pos": "SG",
-   "team": "FA",
+   "team": "Timberwolves",
    "team_id": null,
    "age": 22,
    "height": "6'7''",
@@ -72511,9 +72373,9 @@
     "loyalty": 62,
     "greed": 90,
     "play_for_winner": 72,
-    "bird_years": 1,
+    "bird_years": 0,
     "salary_by_year": [
-     0,
+     655690,
      0,
      0,
      0,
@@ -72521,7 +72383,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 655690
    },
    "stats": {
     "columns": [
@@ -72549,7 +72411,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Timberwolves",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -73839,7 +73701,7 @@
    "player_id": 559,
    "name": "Pape Sow",
    "pos": "PF",
-   "team": "FA",
+   "team": "Trail Blazers",
    "team_id": null,
    "age": 24,
    "height": "6'10''",
@@ -73891,9 +73753,9 @@
     "loyalty": 51,
     "greed": 41,
     "play_for_winner": 74,
-    "bird_years": 1,
+    "bird_years": 0,
     "salary_by_year": [
-     0,
+     655690,
      0,
      0,
      0,
@@ -73901,7 +73763,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 655690
    },
    "stats": {
     "columns": [
@@ -73929,7 +73791,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Trail Blazers",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -76185,7 +76047,7 @@
    "player_id": 576,
    "name": "Chris Taft",
    "pos": "C",
-   "team": "FA",
+   "team": "Pacers",
    "team_id": null,
    "age": 20,
    "height": "6'10''",
@@ -76239,7 +76101,7 @@
     "play_for_winner": 11,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     407425,
      0,
      0,
      0,
@@ -76247,7 +76109,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 407425
    },
    "stats": {
     "columns": [
@@ -76275,7 +76137,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Pacers",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -76323,7 +76185,7 @@
    "player_id": 577,
    "name": "Donell Taylor",
    "pos": "SG",
-   "team": "FA",
+   "team": "Spurs",
    "team_id": null,
    "age": 23,
    "height": "6'5''",
@@ -76377,7 +76239,7 @@
     "play_for_winner": 53,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     407425,
      0,
      0,
      0,
@@ -76385,7 +76247,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 407425
    },
    "stats": {
     "columns": [
@@ -76413,7 +76275,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Spurs",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -77427,7 +77289,7 @@
    "player_id": 585,
    "name": "Kenny Thomas",
    "pos": "PF",
-   "team": "FA",
+   "team": "Cavaliers",
    "team_id": null,
    "age": 28,
    "height": "6'7''",
@@ -77479,9 +77341,9 @@
     "loyalty": 81,
     "greed": 37,
     "play_for_winner": 35,
-    "bird_years": 5,
+    "bird_years": 0,
     "salary_by_year": [
-     0,
+     920060,
      0,
      0,
      0,
@@ -77489,7 +77351,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 920060
    },
    "stats": {
     "columns": [
@@ -77517,7 +77379,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Cavaliers",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -78117,7 +77979,7 @@
    "player_id": 590,
    "name": "Robert Traylor",
    "pos": "PF",
-   "team": "FA",
+   "team": "76ers",
    "team_id": null,
    "age": 28,
    "height": "6'8''",
@@ -78171,7 +78033,7 @@
     "play_for_winner": 83,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     986153,
      0,
      0,
      0,
@@ -78179,7 +78041,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 986153
    },
    "stats": {
     "columns": [
@@ -78207,7 +78069,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "76ers",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -79635,7 +79497,7 @@
    "player_id": 601,
    "name": "Jacque Vaughn",
    "pos": "PG",
-   "team": "FA",
+   "team": "Pacers",
    "team_id": null,
    "age": 30,
    "height": "6'1''",
@@ -79689,7 +79551,7 @@
     "play_for_winner": 71,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     1052247,
      0,
      0,
      0,
@@ -79697,7 +79559,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 1052247
    },
    "stats": {
     "columns": [
@@ -79725,7 +79587,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Pacers",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -79911,7 +79773,7 @@
    "player_id": 603,
    "name": "Jake Voskuhl",
    "pos": "C",
-   "team": "FA",
+   "team": "Lakers",
    "team_id": null,
    "age": 28,
    "height": "6'11''",
@@ -79965,7 +79827,7 @@
     "play_for_winner": 86,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     853967,
      0,
      0,
      0,
@@ -79973,7 +79835,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 853967
    },
    "stats": {
     "columns": [
@@ -80001,7 +79863,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Lakers",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -84189,7 +84051,7 @@
    "player_id": 634,
    "name": "Eric Williams",
    "pos": "SF",
-   "team": "FA",
+   "team": "Nets",
    "team_id": null,
    "age": 33,
    "height": "6'8''",
@@ -84241,9 +84103,9 @@
     "loyalty": 52,
     "greed": 50,
     "play_for_winner": 76,
-    "bird_years": 1,
+    "bird_years": 0,
     "salary_by_year": [
-     0,
+     1163234,
      0,
      0,
      0,
@@ -84251,7 +84113,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 1163234
    },
    "stats": {
     "columns": [
@@ -84279,7 +84141,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Nets",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -84603,7 +84465,7 @@
    "player_id": 637,
    "name": "Jawad Williams",
    "pos": "SF",
-   "team": "FA",
+   "team": "Bucks",
    "team_id": null,
    "age": 22,
    "height": "6'9''",
@@ -84657,7 +84519,7 @@
     "play_for_winner": 80,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     407425,
      0,
      0,
      0,
@@ -84665,7 +84527,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 407425
    },
    "stats": {
     "columns": [
@@ -84693,7 +84555,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Bucks",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
@@ -85569,7 +85431,7 @@
    "player_id": 644,
    "name": "Qyntel Woods",
    "pos": "SF",
-   "team": "FA",
+   "team": "Jazz",
    "team_id": null,
    "age": 24,
    "height": "6'8''",
@@ -85623,7 +85485,7 @@
     "play_for_winner": 92,
     "bird_years": 0,
     "salary_by_year": [
-     0,
+     761438,
      0,
      0,
      0,
@@ -85631,7 +85493,7 @@
      0,
      0
     ],
-    "total": 0
+    "total": 761438
    },
    "stats": {
     "columns": [
@@ -85659,7 +85521,7 @@
     "seasons": [
      {
       "season": "2005",
-      "team": "FA",
+      "team": "Jazz",
       "games": 0,
       "mpg": 0.0,
       "fg": 0,
