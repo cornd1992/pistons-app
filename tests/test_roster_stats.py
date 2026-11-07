@@ -94,10 +94,36 @@ def test_two_games_add_and_zero_attempts_do_not_invent_shooting():
         "box_totals":{"games":1,"min":3,"fg":0,"fga":0,"ft":0,"fta":0,"three_p":0,"three_pa":0,"pts":0,"reb":1,"ast":1,"stl":0,"blk":0,"tov":0}})
     assert quiet["has_shooting"] is False and quiet["gp"]==0
 
+def _eff(g):
+    return g["pts"]+g["reb"]+g["ast"]+g["stl"]+g["blk"]-(g["fga"]-g["fg"])-(g["fta"]-g["ft"])-g["tov"]
+def test_game_log_orders_by_day_and_drops_ties():
+    teams=[{"team_id":12,"name":"Detroit Pistons"}]
+    players=[{"player_id":589,"name":"Jamaal Tinsley","team_id":12}]
+    def line(day, pts):
+        return {"day":day,"team":"Pistons","name":"Jamaal Tinsley","min":30,"pts":pts,"reb":4,"ast":7,"stl":1,"blk":0,"tov":3,"fg":5,"fga":12,"ft":1,"fta":2}
+    assert parse.attach_game_logs(players, [line(10,20), line(1,10), line(3,12)], teams)==1
+    assert [r["d"] for r in players[0]["game_log"]]==[1,3,10]
+    log=players[0]["game_log"]
+    # last 5 is unavailable: only 3 games, and a window must leave an earlier game out
+    assert len(log)<=5
+    players[0].pop("game_log")
+    assert parse.attach_game_logs(players, [line(2,10), line(2,12)], teams)==0
+    assert "game_log" not in players[0]
+    # six ordered games: last 5 is games 2..6, not the whole season
+    seq=[line(d, d) for d in range(1,7)]
+    players=[{"player_id":589,"name":"Jamaal Tinsley","team_id":12}]
+    parse.attach_game_logs(players, seq, teams)
+    log=players[0]["game_log"]
+    assert len(log)==6 and len(log)>5
+    season=sum(_eff(g) for g in log)/6
+    last=sum(_eff(g) for g in log[-5:])/5
+    assert last!=season
+
 if __name__ == "__main__":
     test_roster_table_without_id_column()
     test_box_uses_roster_line_and_does_not_invent_attempts()
     test_real_shooting_line_wins_over_roster()
     test_box_score_shooting_is_exact()
     test_two_games_add_and_zero_attempts_do_not_invent_shooting()
+    test_game_log_orders_by_day_and_drops_ties()
     print("ok")
