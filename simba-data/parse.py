@@ -55,6 +55,20 @@ def find_table(s, *must):
         i,_=header_index(t.find_all("tr"),list(must))
         if i is not None: return t
     return None
+def index_players(recs):
+    """Key roster rows by the player link. Current roster tables have no ID column."""
+    out={}
+    for p in recs or []:
+        i=p.get("player_id")
+        if i is None: i=p.get("id")
+        if i is not None: out[i]=p
+    return out
+def season_line(rec):
+    """Counting stats from a roster Player Statistics row. TPG on the site is turnovers per game."""
+    if not rec: return {}
+    st={k:v for k,v in rec.items() if k not in("id","name","pos","player_id","team_id")}
+    if "tpg" in st and "topg" not in st: st["topg"]=st.pop("tpg")
+    return st
 def kv_tables(s):
     """Leaf tables shaped 'Title' + rows of 'Label:' value -> {title:{label:value}}."""
     out={}
@@ -93,9 +107,10 @@ def short_names(teams):
             m.setdefault(" ".join(t["name"].split()[k:]),t["team_id"])
     m["76ers"]=next((t["team_id"] for t in teams.values() if "76ers" in t["name"]),None)
     return m
-def parse_roster(t):
-    s=soup(f"rosters/roster{t['team_id']}.htm"); r={}
-    if not s: return None
+def parse_roster_soup(s):
+    """Roster page: record, yearly stats, and the three player tables.
+    The live tables are Name/Pos/... with no ID column (Name, Games, MPG on Player Statistics)."""
+    r={}
     kv=kv_tables(s)
     rec=find_table(s,"W","L"); 
     if rec:
@@ -105,9 +120,12 @@ def parse_roster(t):
         for i,x in enumerate(lab):
             if x in("Team Salary:","Cap Room:"): r[slug(x[:-1])]=num(lab[i+1])
     r["yearly_stats"]={k:num(v) for k,v in kv.get("yearly_statistics",{}).items()}
-    ab={p["id"]:p for p in table_records(find_table(s,"ID","Name","In","Pot"),["ID","Name","In"])} if find_table(s,"ID","Name","In","Pot") else {}
-    st={p["id"]:p for p in table_records(find_table(s,"ID","Name","MPG"),["ID","Name","MPG"])} if find_table(s,"ID","Name","MPG") else {}
-    sa={p["id"]:p for p in table_records(find_table(s,"ID","Name","Year 1"),["ID","Name","Year 1"])} if find_table(s,"ID","Name","Year 1") else {}
+    def rows(*must):
+        t=find_table(s,*must)
+        return table_records(t,list(must)) if t else []
+    ab=index_players(rows("Name","Pot"))
+    st=index_players(rows("Name","Games","MPG"))
+    sa=index_players(rows("Name","Year 1"))
     players=[]
     for i in list(dict.fromkeys(list(ab)+list(st)+list(sa))):
         a=ab.get(i,{}); b=st.get(i,{}); c=sa.get(i,{})
@@ -115,7 +133,7 @@ def parse_roster(t):
            "pos":a.get("pos") or b.get("pos") or c.get("pos"),"age":a.get("age") or c.get("age"),
            "height":a.get("height"),"height_in":height_in(a.get("height")),"weight":a.get("weight"),
            "ratings":{k:a.get(k) for k in ("in","out","hn","df","reb","pot") if k in a},
-           "season_stats":{k:v for k,v in b.items() if k not in("id","name","pos","player_id")},
+           "season_stats":season_line(b),
            "salary":{k:v for k,v in c.items() if k.startswith("year_")},"salary_total":c.get("total"),
            "profile_url":f"{BASE}players/player{a.get('player_id') or i}.htm"}
         players.append(p)
@@ -133,8 +151,12 @@ def parse_roster(t):
                     a=cs[2*k+1].find("a",href=True)
                     dp.append({"season":num(y),"round":num(txt(cs[2*k])),"original_team":txt(cs[2*k+1]),"original_team_id":tid(a["href"]) if a else None})
     r["draft_picks"]=dp
-    inj=find_table(s,"Name","Injury","Duration"); r["injuries"]=table_records(inj,["Name","Injury"]) if inj else []
+    inj=find_table(s,"Name","Injury","Duration");     r["injuries"]=table_records(inj,["Name","Injury"]) if inj else []
     return r
+def parse_roster(t):
+    s=soup(f"rosters/roster{t['team_id']}.htm")
+    if not s: return None
+    return parse_roster_soup(s)
 def parse_team_schedule(team_id):
     """rosterNsched.htm: 'Day | Game' pairs laid out in side-by-side column blocks + Post-Season grid."""
     s=soup(f"rosters/roster{team_id}sched.htm")
@@ -370,9 +392,18 @@ def run(log=print):
             try: players.append(parse_player(f))
             except Exception as e: log(f"player parse error {f}: {e}")
     on_roster={p["player_id"]:t["team_id"] for t in teams.values() for p in t.get("players",[])}
+    roster_line={}
+    for t in teams.values():
+        for rp in t.get("players") or []:
+            if rp.get("player_id") is not None: roster_line[rp["player_id"]]=rp
     for p in players:
         if p["team_id"] is None and p["player_id"] in on_roster: p["team_id"]=on_roster[p["player_id"]]
         if p["team_id"]: p["team"]=teams[p["team_id"]]["name"]
+        # Profile Season Averages and playerNstats.htm stay 0 after tip-off. The roster
+        # Player Statistics table is the line the site updates (counting stats + percentages, no attempts).
+        st=(roster_line.get(p["player_id"]) or {}).get("season_stats") or {}
+        g=st.get("games")
+        if isinstance(g,(int,float)) and g>0: p["roster_stats"]=st
     sched={"league":parse_league_schedule(),"teams":{t["team_id"]:{"team":t["name"],**(parse_team_schedule(t["team_id"]) or {})} for t in teams.values()}}
     cap=[]
     t=find_table(soup("salaryneeds.htm"),"Team","Cap Room")

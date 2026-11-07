@@ -387,7 +387,10 @@ function line(points,{h=140,label=''}={}){
 }
 /* ---------- Analytics (advanced stats) ----------
  Formulas (per-game inputs from data/bundle.json players[].box; team inputs = site team PPG / PA + sum of rostered players' box lines):
-  TS%   = PTS / (2·(FGA + 0.44·FTA))            eFG% = (FGM + 0.5·3PM) / FGA          AST/TO = AST / TOV
+   Counting stats (GP, MIN, PTS, REB, AST, STL, BLK, TO) come from each team's roster Player Statistics table.
+   Player profile Season Averages and playerNstats.htm still print 0 after games start, and the roster table has no FGA/FTA,
+   so TS%, eFG%, usage, game score, PER and win shares stay blank instead of treating every miss as zero.
+   TS%   = PTS / (2·(FGA + 0.44·FTA))            eFG% = (FGM + 0.5·3PM) / FGA          AST/TO = AST / TOV
   Per-36 = stat / MIN · 36
   Game Score (Hollinger, adapted) = PTS + 0.4·FGM − 0.7·FGA − 0.4·(FTA−FTM) + 0.39·REB + STL + 0.7·AST + 0.7·BLK − TOV
      (site has no OREB/DREB split or fouls: 0.39·REB = 0.7·ORB+0.3·DRB at a ~23% offensive-board share; PF term dropped)
@@ -407,12 +410,12 @@ const sgn=v=>v==null||!isFinite(v)?'—':(v>0?'+':'')+(+v).toFixed(1);
 function advCompute(){
   if(B._adv) return B._adv;
   const tById=new Map(B.teams.map(t=>[t.team_id,t]));
-  const pl=B.players.filter(p=>p.team_id&&tById.has(p.team_id)).map(p=>{const b=p.box||{},g=b.gp||0,mpg=b.mpg||0;
-    const reb=b.rpg||0,eff=(b.ppg||0)+reb+(b.apg||0)+(b.spg||0)+(b.bpg||0)-((b.fga||0)-(b.fgm||0))-((b.fta||0)-(b.ftm||0))-(b.topg||0);
+  const pl=B.players.filter(p=>p.team_id&&tById.has(p.team_id)).map(p=>{const b=p.box||{},g=b.gp||0,mpg=b.mpg||0,shoot=!!b.has_shooting;
+    const reb=b.rpg||0,eff=shoot?(b.ppg||0)+reb+(b.apg||0)+(b.spg||0)+(b.bpg||0)-((b.fga||0)-(b.fgm||0))-((b.fta||0)-(b.ftm||0))-(b.topg||0):null;
     const sal=curSal(p).v;
     return {p,id:p.player_id,name:p.name,pos:p.pos,team_id:p.team_id,team:tById.get(p.team_id).name,b,g,mpg,eff,sal,
       ts:sd(b.ppg,2*((b.fga||0)+0.44*(b.fta||0))),efg:sd((b.fgm||0)+0.5*(b.tpm||0),b.fga),ato:sd(b.apg,b.topg),
-      gs:g?(b.ppg||0)+0.4*(b.fgm||0)-0.7*(b.fga||0)-0.4*((b.fta||0)-(b.ftm||0))+0.39*reb+(b.spg||0)+0.7*(b.apg||0)+0.7*(b.bpg||0)-(b.topg||0):null,
+      gs:g&&shoot?(b.ppg||0)+0.4*(b.fgm||0)-0.7*(b.fga||0)-0.4*((b.fta||0)-(b.ftm||0))+0.39*reb+(b.spg||0)+0.7*(b.apg||0)+0.7*(b.bpg||0)-(b.topg||0):null,
       p36:k=>mpg>0?(b[k]||0)/mpg*36:null};});
   const teams=B.teams.map(t=>{const ro=pl.filter(x=>x.team_id===t.team_id&&x.g>0);const ts=t.team_stats||{},ys=t.yearly_stats||{},rec=t.record||{};
     const gp=(rec.w||0)+(rec.l||0),G=Math.max(gp,...ro.map(x=>x.g),0);
@@ -426,13 +429,13 @@ function advCompute(){
       pyw:py,pyl:py!=null?gp-py:null,diff:py!=null?(rec.w||0)-py:null};});
   teams.forEach(x=>x.net=x.ortg!=null&&x.drtg!=null?x.ortg-x.drtg:null);
   const tm=new Map(teams.map(x=>[x.team_id,x]));
-  const act=pl.filter(x=>x.g>0&&x.mpg>0),lgMin=act.reduce((a,x)=>a+x.mpg*x.g,0),lgEff36=lgMin?act.reduce((a,x)=>a+x.eff*x.g,0)/lgMin*36:0;
+  const act=pl.filter(x=>x.g>0&&x.mpg>0),rated=act.filter(x=>x.eff!=null),lgMin=rated.reduce((a,x)=>a+x.mpg*x.g,0),lgEff36=lgMin?rated.reduce((a,x)=>a+x.eff*x.g,0)/lgMin*36:0;
   pl.forEach(x=>{const T=tm.get(x.team_id);
-    x.usg=x.g&&x.mpg&&T&&T.poss?100*((x.b.fga||0)+0.44*(x.b.fta||0)+(x.b.topg||0))*48/(x.mpg*((T.fga)+0.44*T.fta+T.tov)):null;
-    x.per=x.g&&x.mpg>0&&lgEff36>0?15*(x.eff/x.mpg*36)/lgEff36:null;});
-  teams.forEach(T=>{const ro=pl.filter(x=>x.team_id===T.team_id&&x.g>0),den=ro.reduce((a,x)=>a+Math.max(0,x.eff*x.g),0);
+    x.usg=x.b.has_shooting&&x.g&&x.mpg&&T&&T.poss?100*((x.b.fga||0)+0.44*(x.b.fta||0)+(x.b.topg||0))*48/(x.mpg*((T.fga)+0.44*T.fta+T.tov)):null;
+    x.per=x.eff!=null&&x.g&&x.mpg>0&&lgEff36>0?15*(x.eff/x.mpg*36)/lgEff36:null;});
+  teams.forEach(T=>{const ro=pl.filter(x=>x.team_id===T.team_id&&x.g>0&&x.eff!=null),den=ro.reduce((a,x)=>a+Math.max(0,x.eff*x.g),0);
     ro.forEach(x=>{x.ws=den>0?T.w*Math.max(0,x.eff*x.g)/den:0;});});
-  pl.forEach(x=>{if(x.ws==null)x.ws=x.g?0:null;const m=x.sal/1e6;x.wsm=x.g&&m>0?x.ws/m:null;x.effm=x.g&&m>0?x.eff/m:null;});
+  pl.forEach(x=>{if(x.ws==null)x.ws=x.g&&x.eff!=null?0:null;const m=x.sal/1e6;x.wsm=x.ws!=null&&m>0?x.ws/m:null;x.effm=x.eff!=null&&m>0?x.eff/m:null;});
   return B._adv={pl,teams,tm,anyGames:act.length>0,anyTeam:teams.some(x=>x.gp>0||x.pf>0),lgEff36};
 }
 const ACOLS={
@@ -461,7 +464,7 @@ function vAnalytics(){
    <select id="ateam"><option value="ALL">All teams</option>${[...B.teams].sort((a,b)=>a.name.localeCompare(b.name)).map(t=>`<option value="${t.team_id}" ${+st.team===t.team_id?'selected':''}>${esc(t.name)}</option>`).join('')}</select>
    <select id="apos">${['ALL',...POS].map(p=>`<option ${p===st.pos?'selected':''}>${p}</option>`).join('')}</select>
    <select id="amin">${[0,10,20,30].map(m=>`<option value="${m}" ${+st.min===m?'selected':''}>${m?'≥'+m+' MPG':'Any MIN'}</option>`).join('')}</select></div>
-   <p class="note small">Tap a column to sort, tap a player for the detail card. * = estimate (see Formulas).</p>
+   <p class="note small">Tap a column to sort, tap a player for the detail card. Counting stats are from each roster’s Player Statistics table. TS%, eFG%, usage, game score, PER and win shares need shot attempts, which player pages still publish as 0, so those columns stay blank. * = estimate (see Formulas).</p>
    ${table(cols,rows.slice(0,150).map(x=>({...x,_href:'#analytics/'+x.id})),{id:'adv',sortKey:st.sort,sortDir:st.dir,me:r=>r.team_id===B.meta.my_team_id})}
    ${rows.length>150?'<p class="note small">Showing first 150 — refine filters.</p>':''}</div>`;
   return h;
@@ -473,7 +476,7 @@ function anCard(A,id){const x=A.pl.find(y=>y.id===id);if(!x){const p=B.pById.get
   h+=`<h3>Efficiency</h3><div class="kpis">${k(p1(x.ts),'True shooting')}${k(p1(x.efg),'Effective FG%')}${k(f1(x.usg),'Usage rate*')}${k(f2(x.ato),'AST/TO')}${k(f1(x.gs),'Game Score / g')}${k(f1(x.per),'PER-lite*')}${k(f2(x.ws),'Win shares*')}${k(f2(x.wsm),'WS per $1M')}${k(f2(x.effm),'EFF per $1M')}${k(f1(x.eff),'EFF / g')}</div>`;
   const keys=[['ppg','PTS'],['rpg','REB'],['apg','AST'],['spg','STL'],['bpg','BLK'],['topg','TO'],['fgm','FGM'],['fga','FGA'],['tpm','3PM'],['tpa','3PA'],['ftm','FTM'],['fta','FTA']];
   h+=`<h3>Per game vs per 36 (${x.g} GP, ${f1(x.mpg)} MIN)</h3>${table([{k:'s',l:'Stat'},{k:'g',l:'Per game',n:1,f:f1},{k:'p',l:'Per 36',n:1,f:f1}],keys.map(([kk,l])=>({s:l,g:b[kk],p:x.p36(kk)})))}`;
-  if(!b.has_shooting) h+=`<p class="note small">Shooting makes/attempts not yet on the site for this player; TS%/eFG%/usage use what's available.</p>`;
+  if(!b.has_shooting) h+=`<p class="note small">Shot makes and attempts are still 0 on the player page, so TS%, eFG%, usage, game score, PER and win shares are blank. Roster shooting percentages: FG% ${p1(b.fg_pct)} · FT% ${p1(b.ft_pct)} · 3P% ${p1(b.three_p_pct)}.</p>`;
   // rolling split from snapshots: games between the two most recent snapshots with new games
   const sn=SNAPS.map(s=>({at:s.crawled_at,b:s.players?.[x.id]?.box})).filter(s=>s.b&&s.b.gp>0);
   if(sn.length>=2){const a=sn[sn.length-2].b,c=sn[sn.length-1].b,dg=c.gp-a.gp;
@@ -485,7 +488,7 @@ function anTeams(A){
   const st=S.an,me=r=>r.team_id===B.meta.my_team_id,ts=st.tsort||'net',td=st.tdir||-1;
   const rows=[...A.teams].sort((a,b)=>{const va=a[ts],vb=b[ts];if(va==null)return 1;if(vb==null)return -1;return (typeof va==='string'?va.localeCompare(vb):va-vb)*td;});
   const nm=(v,r)=>esc(r.team.split(' ').slice(-1)[0]);
-  let h=`<div class="card"><h2>Team ratings</h2><p class="note small">Per 100 possessions. Possessions estimated from rostered players' shooting/turnovers; opponent possessions assumed equal. “—” = roster box lines cover under 180 of 240 team minutes, so possessions can't be estimated yet.</p>
+  let h=`<div class="card"><h2>Team ratings</h2><p class="note small">Per 100 possessions, from roster shot attempts (opponent possessions assumed equal). “—” means attempts are still missing — player pages publish 0 FGA — or roster minutes cover under 180 of 240. Wins, losses and Pythagorean wins use the team record and points scored and allowed.</p>
    ${table([{k:'team',l:'Team',f:nm},{k:'w',l:'W',n:1},{k:'l',l:'L',n:1},{k:'pace',l:'Pace*',n:1,f:f1},{k:'ortg',l:'ORtg',n:1,f:f1},{k:'drtg',l:'DRtg',n:1,f:f1},{k:'net',l:'Net',n:1,f:sgn}],rows,{id:'ateams',me,sortKey:ts,sortDir:td})}</div>`;
   h+=`<div class="card"><h2>Four Factors (offense)</h2>${table([{k:'team',l:'Team',f:nm},{k:'efg',l:'eFG%',n:1,f:p1},{k:'tovp',l:'TOV%',n:1,f:p1},{k:'ftr',l:'FTA/FGA',n:1,f:f2},{k:'orb',l:'ORB%',n:1,f:()=>'n/a'}],rows,{me})}
    <p class="note small">ORB% and defensive factors need offensive-rebound and opponent shooting data, which the stats site doesn't publish.</p></div>`;
@@ -628,7 +631,7 @@ function anHotCold(A){
   const ser=id=>(SNAPS||[]).map(s=>s.players?.[id]?.box).filter(b=>b&&b.gp>0).map(b=>({gp:b.gp,b}));
   const eff=b=>(b.ppg||0)+(b.rpg||0)+(b.apg||0)+(b.spg||0)+(b.bpg||0)-((b.fga||0)-(b.fgm||0))-((b.fta||0)-(b.ftm||0))-(b.topg||0);
   const rows=A.pl.filter(x=>x.g>=5&&x.mpg>=12).map(x=>{const s=ser(x.id),r=n=>rollWin(s,y=>eff(y.b),n),l5=r(5),l10=r(10),pts5=rollWin(s,y=>y.b.ppg,5);
-    const d5=l5?l5.v-x.eff:null,d10=l10?l10.v-x.eff:null,v=pvOf(x.id).val;
+    const d5=l5&&x.eff!=null?l5.v-x.eff:null,d10=l10&&x.eff!=null?l10.v-x.eff:null,v=pvOf(x.id).val;
     const flag=d10!=null&&d10<=-3&&v>=60?'Buy low':d5!=null&&d5>=3&&v<55?'Sell high':'';
     return {...x,l5:l5?.v,l10:l10?.v,d5,d10,pts5:pts5?.v,flag,team_id:x.team_id};}).filter(x=>x.d5!=null||x.d10!=null);
   if(!rows.length) return h+NOG('','Needs at least two refreshes with new games so recent windows can be separated from the season line.')+'</div>';
@@ -648,7 +651,7 @@ function anFormulas(A){
    ['ORtg / DRtg','100 × PTS scored (allowed) ÷ possessions'],['Net rating','ORtg − DRtg'],['Four Factors','eFG%, TOV% = TOV ÷ poss, FT rate = FTA ÷ FGA (ORB% unavailable)'],
    ['Pythagorean W','GP × PF¹⁴ ÷ (PF¹⁴ + PA¹⁴)']];
   return `<div class="card"><h2>How these are calculated</h2><ul class="ck">${L.map(([a,b])=>`<li class="info"><span class="ic">ƒ</span><span><b>${a}</b> — ${esc(b)}</span></li>`).join('')}</ul>
-  <p class="note small">* estimate. Not available from the stats site: offensive/defensive rebound split, personal fouls, opponent shooting, play-by-play/lineups, per-game box scores or starts (rolling last-5/10 windows use differences between daily snapshots; starters = top 5 by minutes; no on-court lineup data).</p></div>`;
+   <p class="note small">* estimate. Counting stats and FG%/FT%/3P% are read from each team’s roster Player Statistics table, because profile averages and the stats iframe still show zeros. That table has no makes or attempts, so TS%, eFG%, usage, game score, PER, win shares, pace and ratings stay blank rather than assuming misses were zero. Also unpublished: offensive/defensive rebound split, personal fouls, opponent shooting, play-by-play/lineups, per-game box scores or starts (rolling last-5/10 windows use differences between daily snapshots; starters = top 5 by minutes; no on-court lineup data).</p></div>`;
 }
 
 /* ---------- Players ---------- */
@@ -671,7 +674,7 @@ function vPlayer(id){
    <h3>Profile</h3>${kv({team:p.team,age:p.age,height:p.height,weight:p.weight&&p.weight+' lb',college:p.college,hometown:p.hometown,experience:p.experience!=null?p.experience+' yrs':null,drafted:p.draft_round?`Round ${p.draft_round}, pick ${p.draft_pick}`:'—'})}
    <h3>Ratings</h3><div>${RK.map(k=>`<span class="chip">${RNAME[k]} ${gradeCell(r[k])}</span>`).join('')}</div>
    <h3>Contract</h3><div class="kpi" style="margin-bottom:8px"><div class="v">${mm(curSal(p).v)}${salTag(curSal(p).src)}</div><div class="l">2005-06 salary (${curSal(p).src==='hh'?'HoopsHype, Basketball Reference':'stats site — no real figure on file'}) · site $ ${mm(curSal(p).site)}</div></div>${kv({loyalty:c.loyalty,greed:c.greed,'play for winner':c.play_for_winner,'bird years':c.bird_years,...Object.fromEntries((c.salary_by_year||[]).map((s,i)=>['year '+(i+1),optOf(s)||money(s)])),'guaranteed total':money((c.salary_by_year||[]).reduce((a,v)=>a+(v>1000?v:0),0))+((c.salary_by_year||[]).some(optOf)?' + options':'')}).replace(/<td class="n">((?:Player|Team|Mutual) option)<\/td>/g,'<td class="n"><span class="opt">$1</span></td>')}
-   <h3>Season averages</h3>${allZero(p.season_averages)?empty('Fills in once games are played',''):kv(p.season_averages)}
+   <h3>Season averages</h3>${(()=>{const b=p.box||{};if(b.gp>0){const o={games:b.gp,mpg:b.mpg,ppg:b.ppg,rpg:b.rpg,apg:b.apg,spg:b.spg,bpg:b.bpg,topg:b.topg};if(!b.has_shooting){o.fg_pct=b.fg_pct;o.ft_pct=b.ft_pct;o.three_p_pct=b.three_p_pct;}return kv(o)+(b.has_shooting?'':`<p class="note small">From the team roster’s Player Statistics table. The player page on the stats site still shows 0, and it does not list shot attempts.</p>`);}return allZero(p.season_averages)?empty('Fills in once games are played',''):kv(p.season_averages);})()}
    <h3>Career totals</h3>${(()=>{const ca=p.stats?.career;return !ca||allZero(ca)?empty('Fills in once games are played','Season-by-season lines appear here as seasons complete.'):kv(ca);})()}
    ${(p.stats?.seasons||[]).length?'<h3>By season</h3>'+table((p.stats.columns||[]).map(c=>({k:c.toLowerCase().replace(/%/g,'_pct').replace(/3p/,'three_p').replace(/[^a-z0-9_]+/g,'_').replace(/_+/g,'_').replace(/^_|_$/g,''),l:c})),p.stats.seasons):''}
    <h3>Career highs</h3>${allZero(p.career_highs)?empty('Fills in once games are played',''):kv(p.career_highs)}
