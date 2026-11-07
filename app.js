@@ -472,6 +472,11 @@ function vAnalytics(){
   return h;
 }
 function shareMiss(v,fmt){return v==null||!isFinite(+v)?'Unavailable':fmt(v);}
+function detroitStamp(iso){
+  const d=new Date(iso);
+  if(!iso||isNaN(d)) return iso?String(iso):'unknown';
+  return new Intl.DateTimeFormat('en-US',{timeZone:'America/Detroit',month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}).format(d);
+}
 function shareCardModel(id){
   const A=advCompute(),x=A.pl.find(y=>y.id===+id);if(!x)return null;
   const b=x.b||{},played=x.g>0,shot=!!b.has_shooting&&played;
@@ -489,9 +494,7 @@ function shareCardModel(id){
     ['WS/$1M*',played?shareMiss(x.wsm,f2):'Unavailable'],
     ['FGA',shot?shareMiss(b.fga,f1):'Unavailable'],['FGM',shot?shareMiss(b.fgm,f1):'Unavailable'],
     ['FTA',shot?shareMiss(b.fta,f1):'Unavailable']];
-  const ca=B.meta&&B.meta.crawled_at;
-  let asof='unknown';
-  if(ca){const d=new Date(ca);asof=isNaN(d)?String(ca):d.toLocaleString('en-US',{dateStyle:'medium',timeStyle:'short'});}
+  const asof=detroitStamp(B.meta&&B.meta.crawled_at);
   const file=(String(x.name||'player').normalize('NFKD').replace(/[^A-Za-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,48)||'player')+'-analytics.png';
   return {name:x.name,team:x.team,pos:x.pos||'',gp:x.g,tiles,asof,source:'simba.mygamesonline.org',file};
 }
