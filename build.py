@@ -17,8 +17,9 @@ def box_of(p):
     The site prints FG/FGA/FT/FTA/3P/3PA as season totals (integers, MPG has decimals); if a value has a fraction it is
     treated as per-game instead. Per-game rates come from the profile 'Season Averages' block, falling back to the row.
     After tip-off those two sources still print zeros. Roster Player Statistics (roster_stats) supplies games and
-    per-game counting stats plus FG%/FT%/3P%. It does not include makes or attempts, so has_shooting stays false
-    and TS%/usage/PER are left blank rather than computed as if every shot went in."""
+    per-game counting stats plus FG%/FT%/3P%, but not makes or attempts. Game box scores (box_totals) are summed
+    exactly: FG/FGA/3P/3PA/FT/FTA and the counting line. They are not estimated from shooting percentages.
+    Without box_totals, has_shooting stays false so TS%/usage/PER are left blank rather than treating misses as zero."""
     sa=dict(p.get("season_averages") or {}); st=p.get("stats") or {}; rows=st.get("seasons") or []
     row=None
     if rows:
@@ -31,6 +32,13 @@ def box_of(p):
             for k in ("fg","fga","ft","fta","three_p","three_pa","dq"): row[k]=sum(_n(r.get(k)) for r in cur)
             for k in ("mpg","rpg","apg","spg","bpg","topg","ppg"): row[k]=sum(_n(r.get(k))*_n(r.get("games")) for r in cur)/g
     row=dict(row or {})
+    bt=p.get("box_totals") or {}
+    btg=_n(bt.get("games"))
+    if btg>0 and any(_n(bt.get(k)) for k in ("fga","fta","fg","ft","three_p","three_pa")):
+        sa={"games":btg,"mpg":_n(bt.get("min"))/btg,"ppg":_n(bt.get("pts"))/btg,"rpg":_n(bt.get("reb"))/btg,
+            "apg":_n(bt.get("ast"))/btg,"spg":_n(bt.get("stl"))/btg,"bpg":_n(bt.get("blk"))/btg,"topg":_n(bt.get("tov"))/btg}
+        row={"games":btg,"fg":_n(bt.get("fg")),"fga":_n(bt.get("fga")),"ft":_n(bt.get("ft")),"fta":_n(bt.get("fta")),
+             "three_p":_n(bt.get("three_p")),"three_pa":_n(bt.get("three_pa"))}
     rs=p.get("roster_stats") or {}
     if _n(rs.get("games"))>0 and not (_n(sa.get("games")) or _n(row.get("games"))):
         for k in ("games","mpg","ppg","rpg","apg","spg","bpg","topg"):
@@ -59,7 +67,7 @@ def main():
     # slim players: drop empty/duplicate keys to cut size
     players=[]
     for p in data["players"]["players"]:
-        q={k:v for k,v in p.items() if k!="roster_stats" and v not in (None,[],{},"")}
+        q={k:v for k,v in p.items() if k not in ("roster_stats","box_totals") and v not in (None,[],{},"")}
         q["box"]=box_of(p)
         players.append(q)
     # schedule: keep league calendar + all teams (small enough after dropping raw text)

@@ -420,9 +420,11 @@ function advCompute(){
   const teams=B.teams.map(t=>{const ro=pl.filter(x=>x.team_id===t.team_id&&x.g>0);const ts=t.team_stats||{},ys=t.yearly_stats||{},rec=t.record||{};
     const gp=(rec.w||0)+(rec.l||0),G=Math.max(gp,...ro.map(x=>x.g),0);
     const sum=k=>G?ro.reduce((a,x)=>a+(x.b[k]||0)*x.g,0)/G:0; // roster per-game totals (players' season totals ÷ team games)
-    const fga=sum('fga'),fta=sum('fta'),tov=sum('topg')||ts.topg||0,fgm=sum('fgm'),tpm=sum('tpm'),reb=ts.rpg||sum('rpg');
+    const BT=t.box_totals,bg=BT&&BT.games||0; // exact TEAM TOTALS from box scores, including players with no profile
+    const per=k=>bg?((BT[k]||0)/bg):null;
+    const fga=bg?per('fga'):sum('fga'),fta=bg?per('fta'):sum('fta'),tov=bg?per('tov'):(sum('topg')||ts.topg||0),fgm=bg?per('fg'):sum('fgm'),tpm=bg?per('three_p'):sum('tpm'),reb=bg?per('reb'):(ts.rpg||sum('rpg'));
     const pf=ts.ppg||ys.points_per_game||0,pa=ys.points_allowed_per_game||0;
-    const mins=sum('mpg'),poss0=fga+0.44*fta+tov-0.23*reb,poss=fga>0&&mins>=180&&poss0>0?poss0:null; // need ≥180 of 240 team minutes covered by roster box lines
+    const mins=sum('mpg'),poss0=fga+0.44*fta+tov-0.23*reb,poss=fga>0&&poss0>0&&(bg||mins>=180)?poss0:null; // player-summed attempts need ≥180 of 240 minutes; a box-score team total does not
     const py=gp&&pf>0&&pa>0?gp*Math.pow(pf,14)/(Math.pow(pf,14)+Math.pow(pa,14)):null;
     return {t,mins,team_id:t.team_id,team:t.name,gp,w:rec.w||0,l:rec.l||0,pf,pa,fga,fta,tov,poss,pace:poss,
       ortg:poss&&pf?100*pf/poss:null,drtg:poss&&pa?100*pa/poss:null,efg:sd(fgm+0.5*tpm,fga),tovp:poss?tov/poss:null,ftr:sd(fta,fga),
@@ -442,7 +444,7 @@ const ACOLS={
   name:{l:'Player'},team:{l:'Team'},pos:{l:'Pos'},g:{l:'GP',n:1,f:v=>v||0},mpg:{l:'MIN',n:1,f:f1},
   ppg:{l:'PTS',n:1,f:f1,v:x=>x.b.ppg},rpg:{l:'REB',n:1,f:f1,v:x=>x.b.rpg},apg:{l:'AST',n:1,f:f1,v:x=>x.b.apg},
   ts:{l:'TS%',n:1,f:p1},efg:{l:'eFG%',n:1,f:p1},usg:{l:'USG%',n:1,f:f1},ato:{l:'AST/TO',n:1,f:f2},pts36:{l:'PTS/36',n:1,f:f1,v:x=>x.p36('ppg')},reb36:{l:'REB/36',n:1,f:f1,v:x=>x.p36('rpg')},ast36:{l:'AST/36',n:1,f:f1,v:x=>x.p36('apg')},gs:{l:'GmSc',n:1,f:f1},
-  per:{l:'PER*',n:1,f:f1},ws:{l:'WS*',n:1,f:f2},wsm:{l:'WS/$1M',n:1,f:f2},sal:{l:'Salary',n:1,f:v=>v?mm(v):'—'}};
+  per:{l:'PER*',n:1,f:f1},ws:{l:'WS*',n:1,f:f2},wsm:{l:'WS/$1M*',n:1,f:f2},sal:{l:'Salary',n:1,f:v=>v?mm(v):'—'}};
 const AV=(x,k)=>ACOLS[k]?.v?ACOLS[k].v(x):x[k];
 function vAnalytics(){
   const A=advCompute(),st=S.an=S.an||{q:'',team:'ALL',pos:'ALL',sort:'per',dir:-1,sub:'players',min:0};
@@ -464,7 +466,7 @@ function vAnalytics(){
    <select id="ateam"><option value="ALL">All teams</option>${[...B.teams].sort((a,b)=>a.name.localeCompare(b.name)).map(t=>`<option value="${t.team_id}" ${+st.team===t.team_id?'selected':''}>${esc(t.name)}</option>`).join('')}</select>
    <select id="apos">${['ALL',...POS].map(p=>`<option ${p===st.pos?'selected':''}>${p}</option>`).join('')}</select>
    <select id="amin">${[0,10,20,30].map(m=>`<option value="${m}" ${+st.min===m?'selected':''}>${m?'≥'+m+' MPG':'Any MIN'}</option>`).join('')}</select></div>
-   <p class="note small">Tap a column to sort, tap a player for the detail card. Counting stats are from each roster’s Player Statistics table. TS%, eFG%, usage, game score, PER and win shares need shot attempts, which player pages still publish as 0, so those columns stay blank. * = estimate (see Formulas).</p>
+   <p class="note small">Tap a column to sort, tap a row for the hidden columns, tap a player for the detail card. Shot makes and attempts are summed from game box scores. AST/TO and per-36 need only counting stats. TS%, eFG%, usage, game score, PER and win shares stay blank only when that player has no box-score attempts. * = estimate (see Formulas).</p>
    ${table(cols,rows.slice(0,150).map(x=>({...x,_href:'#analytics/'+x.id})),{id:'adv',sortKey:st.sort,sortDir:st.dir,me:r=>r.team_id===B.meta.my_team_id})}
    ${rows.length>150?'<p class="note small">Showing first 150 — refine filters.</p>':''}</div>`;
   return h;
@@ -473,10 +475,10 @@ function anCard(A,id){const x=A.pl.find(y=>y.id===id);if(!x){const p=B.pById.get
   const b=x.b,k=(v,l)=>`<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`;
   let h=`<div class="card" id="acard"><h2>${plink(x.name,x.id)} <span><span class="chip blue">${esc(x.pos)}</span><button class="ghost" id="aclose" style="min-height:36px">✕</button></span></h2><div class="note">${esc(x.team)} · ${x.sal?mm(x.sal)+' this yr':'no salary listed'} · <a href="#players/${x.id}">Profile ›</a></div>`;
   if(!x.g) return h+empty('No games played yet','This card fills in after the first games.')+'</div>';
-  h+=`<h3>Efficiency</h3><div class="kpis">${k(p1(x.ts),'True shooting')}${k(p1(x.efg),'Effective FG%')}${k(f1(x.usg),'Usage rate*')}${k(f2(x.ato),'AST/TO')}${k(f1(x.gs),'Game Score / g')}${k(f1(x.per),'PER-lite*')}${k(f2(x.ws),'Win shares*')}${k(f2(x.wsm),'WS per $1M')}${k(f2(x.effm),'EFF per $1M')}${k(f1(x.eff),'EFF / g')}</div>`;
+  h+=`<h3>Efficiency</h3><div class="kpis">${k(p1(x.ts),'True shooting')}${k(p1(x.efg),'Effective FG%')}${k(f1(x.usg),'Usage rate*')}${k(f2(x.ato),'AST/TO')}${k(f1(x.gs),'Game Score / g')}${k(f1(x.per),'PER-lite*')}${k(f2(x.ws),'Win shares*')}${k(f2(x.wsm),'WS per $1M*')}${k(f2(x.effm),'EFF per $1M*')}${k(f1(x.eff),'EFF / g*')}</div>`;
   const keys=[['ppg','PTS'],['rpg','REB'],['apg','AST'],['spg','STL'],['bpg','BLK'],['topg','TO'],['fgm','FGM'],['fga','FGA'],['tpm','3PM'],['tpa','3PA'],['ftm','FTM'],['fta','FTA']];
   h+=`<h3>Per game vs per 36 (${x.g} GP, ${f1(x.mpg)} MIN)</h3>${table([{k:'s',l:'Stat'},{k:'g',l:'Per game',n:1,f:f1},{k:'p',l:'Per 36',n:1,f:f1}],keys.map(([kk,l])=>({s:l,g:b[kk],p:x.p36(kk)})))}`;
-  if(!b.has_shooting) h+=`<p class="note small">Shot makes and attempts are still 0 on the player page, so TS%, eFG%, usage, game score, PER and win shares are blank. Roster shooting percentages: FG% ${p1(b.fg_pct)} · FT% ${p1(b.ft_pct)} · 3P% ${p1(b.three_p_pct)}.</p>`;
+  if(!b.has_shooting) h+=`<p class="note small">No box-score shot attempts for this player, so TS%, eFG%, usage, game score, PER and win shares are blank. Roster shooting percentages, which are not makes or attempts: FG% ${p1(b.fg_pct)} · FT% ${p1(b.ft_pct)} · 3P% ${p1(b.three_p_pct)}.</p>`;
   // rolling split from snapshots: games between the two most recent snapshots with new games
   const sn=SNAPS.map(s=>({at:s.crawled_at,b:s.players?.[x.id]?.box})).filter(s=>s.b&&s.b.gp>0);
   if(sn.length>=2){const a=sn[sn.length-2].b,c=sn[sn.length-1].b,dg=c.gp-a.gp;
@@ -488,9 +490,9 @@ function anTeams(A){
   const st=S.an,me=r=>r.team_id===B.meta.my_team_id,ts=st.tsort||'net',td=st.tdir||-1;
   const rows=[...A.teams].sort((a,b)=>{const va=a[ts],vb=b[ts];if(va==null)return 1;if(vb==null)return -1;return (typeof va==='string'?va.localeCompare(vb):va-vb)*td;});
   const nm=(v,r)=>esc(r.team.split(' ').slice(-1)[0]);
-  let h=`<div class="card"><h2>Team ratings</h2><p class="note small">Per 100 possessions, from roster shot attempts (opponent possessions assumed equal). “—” means attempts are still missing — player pages publish 0 FGA — or roster minutes cover under 180 of 240. Wins, losses and Pythagorean wins use the team record and points scored and allowed.</p>
-   ${table([{k:'team',l:'Team',f:nm},{k:'w',l:'W',n:1},{k:'l',l:'L',n:1},{k:'pace',l:'Pace*',n:1,f:f1},{k:'ortg',l:'ORtg',n:1,f:f1},{k:'drtg',l:'DRtg',n:1,f:f1},{k:'net',l:'Net',n:1,f:sgn}],rows,{id:'ateams',me,sortKey:ts,sortDir:td})}</div>`;
-  h+=`<div class="card"><h2>Four Factors (offense)</h2>${table([{k:'team',l:'Team',f:nm},{k:'efg',l:'eFG%',n:1,f:p1},{k:'tovp',l:'TOV%',n:1,f:p1},{k:'ftr',l:'FTA/FGA',n:1,f:f2},{k:'orb',l:'ORB%',n:1,f:()=>'n/a'}],rows,{me})}
+  let h=`<div class="card"><h2>Team ratings</h2><p class="note small">Per 100 possessions. Shot attempts are the box-score team totals (opponent possessions assumed equal). “—” means that total is missing. Wins, losses and Pythagorean wins use the team record and points scored and allowed. Offensive rebounds are estimated at 23% of rebounds.</p>
+   ${table([{k:'team',l:'Team',f:nm},{k:'w',l:'W',n:1},{k:'l',l:'L',n:1},{k:'pace',l:'Pace*',n:1,f:f1},{k:'ortg',l:'ORtg*',n:1,f:f1},{k:'drtg',l:'DRtg*',n:1,f:f1},{k:'net',l:'Net*',n:1,f:sgn}],rows,{id:'ateams',me,sortKey:ts,sortDir:td})}</div>`;
+  h+=`<div class="card"><h2>Four Factors (offense)</h2>${table([{k:'team',l:'Team',f:nm},{k:'efg',l:'eFG%',n:1,f:p1},{k:'tovp',l:'TOV%*',n:1,f:p1},{k:'ftr',l:'FTA/FGA',n:1,f:f2},{k:'orb',l:'ORB%',n:1,f:()=>'n/a'}],rows,{me})}
    <p class="note small">ORB% and defensive factors need offensive-rebound and opponent shooting data, which the stats site doesn't publish.</p></div>`;
   h+=`<div class="card"><h2>Pythagorean wins</h2>${table([{k:'team',l:'Team',f:nm},{k:'pf',l:'PF',n:1,f:f1},{k:'pa',l:'PA',n:1,f:f1},{k:'w',l:'W',n:1},{k:'pyw',l:'Exp W',n:1,f:f1},{k:'diff',l:'Luck',n:1,f:sgn}],[...A.teams].sort((a,b)=>(b.pyw??-1)-(a.pyw??-1)),{me})}
    <p class="note small">Exp W = GP·PF¹⁴/(PF¹⁴+PA¹⁴). Luck = actual − expected wins.</p></div>`;
@@ -638,20 +640,20 @@ function anHotCold(A){
   const col=[{k:'name',l:'Player',f:(v,r)=>`${plink(v,r.id)}${r.flag?` <span class="tag${r.flag==='Buy low'?'':' pick'}">${r.flag}</span>`:''}<div class="note small">${esc(r.pos)} · ${esc(r.team.split(' ').pop())}</div>`},{k:'eff',l:'EFF',n:1,f:f1},{k:'l5',l:'L5',n:1,f:f1},{k:'d5',l:'Δ5',n:1,f:sgn},{k:'d10',l:'Δ10',n:1,f:sgn,p:2}];
   const hot=[...rows].sort((a,b)=>(b.d5??b.d10)-(a.d5??a.d10)).slice(0,15),cold=[...rows].sort((a,b)=>(a.d10??a.d5)-(b.d10??b.d5)).slice(0,15);
   h+=`<h3>Hot (last 5 vs season EFF)</h3>${table(col,hot,{me:r=>r.team_id===B.meta.my_team_id})}<h3>Cold (last 10 vs season EFF)</h3>${table(col,cold,{me:r=>r.team_id===B.meta.my_team_id})}
-   <p class="note small">EFF = PTS+REB+AST+STL+BLK − missed shots − TOV per game. Windows are rebuilt from daily snapshot differences (no game logs on the stats site). Buy low = Value ≥ 60 but down ≥ 3 EFF over the last 10; Sell high = Value < 55 but up ≥ 3 EFF over the last 5.</p></div>`;
+   <p class="note small">EFF = PTS+REB+AST+STL+BLK − missed shots − TOV per game. Last-5/10 windows use differences between daily snapshots, not the individual box scores. Buy low = Value ≥ 60 but down ≥ 3 EFF over the last 10; Sell high = Value < 55 but up ≥ 3 EFF over the last 5.</p></div>`;
   return h;
 }
 function anFormulas(A){
   const L=[['TS%','PTS ÷ (2 × (FGA + 0.44 × FTA))'],['eFG%','(FGM + 0.5 × 3PM) ÷ FGA'],['AST/TO','AST ÷ TOV'],['Per 36','stat ÷ MIN × 36'],
-   ['Game Score','PTS + 0.4·FGM − 0.7·FGA − 0.4·(FTA−FTM) + 0.39·REB + STL + 0.7·AST + 0.7·BLK − TOV (Hollinger; no OREB/DREB split or fouls on site, so 0.39·REB ≈ 0.7·ORB + 0.3·DRB)'],
-   ['USG%*','100 × (FGA + 0.44·FTA + TOV) × (TmMIN/5) ÷ (MIN × (TmFGA + 0.44·TmFTA + TmTOV)); team totals = sum of rostered players'],
-   ['PER-lite*','15 × EFF36 ÷ league EFF36, where EFF = PTS+REB+AST+STL+BLK − missed FG − missed FT − TOV (league average = 15; not pace-adjusted)'],
-   ['Win Shares*','Team wins × player\'s share of team positive EFF (EFF × GP)'],['WS per $1M','WS ÷ (this season salary ÷ $1M); EFF per $1M likewise'],
-   ['Possessions*','FGA + 0.44·FTA + TOV − 0.23·REB (OREB estimated at 23% of rebounds)'],['Pace*','possessions per 48 minutes'],
-   ['ORtg / DRtg','100 × PTS scored (allowed) ÷ possessions'],['Net rating','ORtg − DRtg'],['Four Factors','eFG%, TOV% = TOV ÷ poss, FT rate = FTA ÷ FGA (ORB% unavailable)'],
+   ['Game Score','PTS + 0.4·FGM − 0.7·FGA − 0.4·(FTA−FTM) + 0.39·REB + STL + 0.7·AST + 0.7·BLK − TOV (Hollinger; no OREB/DREB split, so 0.39·REB ≈ 0.7·ORB + 0.3·DRB. Personal fouls are on the box score and are not included.)'],
+   ['USG%*','100 × (FGA + 0.44·FTA + TOV) × (TmMIN/5) ÷ (MIN × (TmFGA + 0.44·TmFTA + TmTOV)); team FGA/FTA/TOV are the box-score team totals'],
+   ['PER-lite*','15 × EFF36 ÷ league EFF36, where EFF = PTS+REB+AST+STL+BLK − missed FG − missed FT − TOV (league average = 15; not pace-adjusted, not official PER)'],
+   ['Win Shares*','Team wins × player\'s share of team positive EFF (EFF × GP). Not Basketball-Reference win shares.'],['WS per $1M*','WS ÷ (this season salary ÷ $1M); EFF per $1M likewise'],
+   ['Possessions*','FGA + 0.44·FTA + TOV − 0.23·REB (OREB estimated at 23% of rebounds, not observed)'],['Pace*','that possession estimate per game (treated as per 48 minutes; overtime is not separated)'],
+   ['ORtg* / DRtg*','100 × PTS scored (allowed) ÷ estimated possessions. Opponent possessions are assumed equal to ours.'],['Net*','ORtg − DRtg'],['Four Factors','eFG% and FTA/FGA use counted attempts. TOV% uses estimated possessions. ORB% is unavailable.'],
    ['Pythagorean W','GP × PF¹⁴ ÷ (PF¹⁴ + PA¹⁴)']];
-  return `<div class="card"><h2>How these are calculated</h2><ul class="ck">${L.map(([a,b])=>`<li class="info"><span class="ic">ƒ</span><span><b>${a}</b> — ${esc(b)}</span></li>`).join('')}</ul>
-   <p class="note small">* estimate. Counting stats and FG%/FT%/3P% are read from each team’s roster Player Statistics table, because profile averages and the stats iframe still show zeros. That table has no makes or attempts, so TS%, eFG%, usage, game score, PER, win shares, pace and ratings stay blank rather than assuming misses were zero. Also unpublished: offensive/defensive rebound split, personal fouls, opponent shooting, play-by-play/lineups, per-game box scores or starts (rolling last-5/10 windows use differences between daily snapshots; starters = top 5 by minutes; no on-court lineup data).</p></div>`;
+  return `<div class="card"><h2>How these are calculated</h2><p class="note small">This page is the definitions only. The numbers are on Players, Teams, and Rotation.</p><ul class="ck">${L.map(([a,b])=>`<li class="info"><span class="ic">ƒ</span><span><b>${a}</b> — ${esc(b)}</span></li>`).join('')}</ul>
+   <p class="note small">* estimate, not an official PER or win-shares figure. Shot makes and attempts are counted from each game’s box score, not guessed from FG%. True shooting and eFG% use those counts. PER-lite, win shares, usage, pace, and the ratings use a simplified formula or an estimated possession count (offensive rebounds are 23% of rebounds; opponent possessions are assumed equal). They stay blank when a player has no box-score attempts, rather than treating every miss as zero. Still unpublished: the rebound split, opponent shooting, and play-by-play. Personal fouls are on the box score and are not in game score. Drew Gooden’s games are in the Warriors team total only; his player page 404s.</p></div>`;
 }
 
 /* ---------- Players ---------- */

@@ -69,6 +69,108 @@ def season_line(rec):
     st={k:v for k,v in rec.items() if k not in("id","name","pos","player_id","team_id")}
     if "tpg" in st and "topg" not in st: st["topg"]=st.pop("tpg")
     return st
+def name_key(s):
+    """Loose player-name key. Box scores print plain text (no player id) and suffixes vary."""
+    s=(s or "").lower().replace("’","'").replace("‘","'")
+    s=re.sub(r"[^a-z0-9']+"," ",s)
+    s=re.sub(r"\b(jr|sr|ii|iii|iv)\b"," ",s)
+    return re.sub(r"\s+"," ",s).strip()
+_BOX_COL={"min":"min","fg":"fg","fga":"fga","three_p":"three_p","three_pa":"three_pa","ft":"ft","fta":"fta",
+          "reb":"reb","a":"ast","pf":"pf","st":"stl","to":"tov","bl":"blk","pts":"pts"}
+def parse_box_soup(s):
+    """One game box score: per-player MIN/FG/FGA/3P/3PA/FT/FTA/REB/A/PF/ST/TO/BL/PTS. Skips TEAM TOTALS."""
+    out=[]
+    for t in leaf_tables(s):
+        rows=t.find_all("tr"); i,hs=header_index(rows,["MIN","FG","FGA","PTS"])
+        if i is None or not hs: continue
+        team=hs[0]
+        for r in rows[i+1:]:
+            vals=[txt(c) for c in cells(r)]
+            if not vals or not vals[0] or "total" in vals[0].lower() or vals[0].lower()=="percentages": continue
+            if len(vals)<2 or vals[1] not in ("PG","SG","SF","PF","C","G","F"): continue
+            rec={"team":team,"name":vals[0]}
+            for h,v in zip(hs[1:],vals[1:]):
+                k=_BOX_COL.get(slug(h))
+                if k: rec[k]=num(v) or 0
+            if any(rec.get(k) for k in ("min","pts","fga","fg","fta","ft","reb","ast","tov","stl","blk")):
+                out.append(rec)
+    return out
+def parse_box_team_totals(s):
+    """TEAM TOTALS row: exact team FG/FGA/3P/3PA/FT/FTA/REB/TO/PTS, including players missing a profile."""
+    out=[]
+    for t in leaf_tables(s):
+        rows=t.find_all("tr"); i,hs=header_index(rows,["MIN","FG","FGA","PTS"])
+        if i is None or not hs: continue
+        team=hs[0]
+        for r in rows[i+1:]:
+            vals=[txt(c) for c in cells(r)]
+            if not vals or "total" not in vals[0].lower(): continue
+            rec={"team":team}
+            for h,v in zip(hs[1:],vals[1:]):
+                k=_BOX_COL.get(slug(h))
+                if k: rec[k]=num(v) or 0
+            if rec.get("fga") or rec.get("pts"): out.append(rec)
+    return out
+def attach_team_box_totals(teams, total_lines):
+    short={}
+    for t in teams:
+        parts=t["name"].split()
+        for i in range(len(parts)):
+            short.setdefault(" ".join(parts[i:]).lower(), t)
+        if "76ers" in t["name"].lower(): short["76ers"]=t
+    acc={}
+    for rec in total_lines:
+        t=short.get((rec.get("team") or "").lower())
+        if not t: continue
+        a=acc.setdefault(t["team_id"], _fresh())
+        a["games"]+=1
+        for k in a:
+            if k=="games": continue
+            v=rec.get(k) or 0
+            if isinstance(v,(int,float)): a[k]+=v
+    for t in teams:
+        if t["team_id"] in acc: t["box_totals"]=acc[t["team_id"]]
+    return len(acc)
+def _fresh():
+    return {"games":0,"min":0,"fg":0,"fga":0,"three_p":0,"three_pa":0,"ft":0,"fta":0,"reb":0,"ast":0,"pf":0,"stl":0,"tov":0,"blk":0,"pts":0}
+def attach_box_totals(players, box_lines, teams):
+    """Sum game box scores onto players. Exact makes/attempts, not estimated from FG%.
+    Match by team nickname + name, then by a league-wide unique name. Unmatched lines are returned."""
+    by_id={t["team_id"]:t for t in teams}
+    short={}
+    for t in teams:
+        parts=t["name"].split()
+        for i in range(len(parts)):
+            short.setdefault(" ".join(parts[i:]).lower(), t["team_id"])
+        if "76ers" in t["name"].lower(): short["76ers"]=t["team_id"]
+    def team_of(p):
+        if p.get("team_id") in by_id: return p["team_id"]
+        return short.get((p.get("team") or "").lower())
+    on={}
+    for p in players:
+        tid=team_of(p)
+        if not tid: continue
+        on.setdefault((tid, name_key(p.get("name"))), p["player_id"])
+    global_name={}
+    for p in players:
+        global_name.setdefault(name_key(p.get("name")), []).append(p["player_id"])
+    totals={}; unmatched=[]
+    for rec in box_lines:
+        tid=short.get((rec.get("team") or "").lower())
+        key=name_key(rec.get("name"))
+        pid=on.get((tid, key)) if tid else None
+        if pid is None and len(global_name.get(key) or [])==1: pid=global_name[key][0]
+        if pid is None:
+            unmatched.append({"team":rec.get("team"),"name":rec.get("name")}); continue
+        t=totals.setdefault(pid, _fresh()); t["games"]+=1
+        for k in t:
+            if k=="games": continue
+            v=rec.get(k) or 0
+            if isinstance(v,(int,float)): t[k]+=v
+    for p in players:
+        if p["player_id"] in totals and (totals[p["player_id"]]["fga"] or totals[p["player_id"]]["fta"] or totals[p["player_id"]]["fg"]):
+            p["box_totals"]=totals[p["player_id"]]
+    return unmatched
 def kv_tables(s):
     """Leaf tables shaped 'Title' + rows of 'Label:' value -> {title:{label:value}}."""
     out={}
@@ -404,6 +506,19 @@ def run(log=print):
         st=(roster_line.get(p["player_id"]) or {}).get("season_stats") or {}
         g=st.get("games")
         if isinstance(g,(int,float)) and g>0: p["roster_stats"]=st
+    # Game box scores (boxes/N-M.html) have FG/FGA/3P/3PA/FT/FTA even when player profiles are still zero.
+    box_lines=[]
+    for f in sorted(glob.glob(os.path.join(RAW,"boxes","*.html"))):
+        try: box_lines.extend(parse_box_soup(BeautifulSoup(open(f,encoding="utf-8",errors="replace").read(),"html.parser")))
+        except Exception as e: log(f"box parse error {f}: {e}")
+    if box_lines:
+        missed=attach_box_totals(players, box_lines, list(teams.values()))
+        team_lines=[]
+        for f in sorted(glob.glob(os.path.join(RAW,"boxes","*.html"))):
+            try: team_lines.extend(parse_box_team_totals(BeautifulSoup(open(f,encoding="utf-8",errors="replace").read(),"html.parser")))
+            except Exception as e: log(f"box team-total error {f}: {e}")
+        nteams=attach_team_box_totals(list(teams.values()), team_lines)
+        log(f"box scores: {len(box_lines)} player-games, {sum(1 for p in players if p.get('box_totals'))} players with makes/attempts, {len(missed)} unmatched, {nteams} team totals")
     sched={"league":parse_league_schedule(),"teams":{t["team_id"]:{"team":t["name"],**(parse_team_schedule(t["team_id"]) or {})} for t in teams.values()}}
     cap=[]
     t=find_table(soup("salaryneeds.htm"),"Team","Cap Room")
