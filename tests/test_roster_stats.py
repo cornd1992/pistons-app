@@ -84,9 +84,20 @@ def test_box_score_shooting_is_exact():
     # TS% = 20 / (2 * (15 + 0.44*6)) = 20 / 35.28
     assert abs(box["ppg"] / (2 * (box["fga"] + 0.44 * box["fta"])) - 20 / 35.28) < 1e-9
 
+def test_two_games_add_and_zero_attempts_do_not_invent_shooting():
+    line={"team":"Pistons","name":"Jamaal Tinsley","min":30,"fg":5,"fga":10,"three_p":1,"three_pa":2,"ft":2,"fta":2,"reb":3,"ast":6,"pf":1,"stl":1,"tov":2,"blk":0,"pts":13}
+    players=[{"player_id":589,"name":"Jamaal Tinsley","team":"Detroit Pistons","team_id":12}]
+    teams=[{"team_id":12,"name":"Detroit Pistons"}]
+    assert parse.attach_box_totals(players,[line,dict(line)],teams)==[]
+    assert players[0]["box_totals"]["games"]==2 and players[0]["box_totals"]["fga"]==20
+    quiet=build.box_of({"season_averages":{"games":0},"stats":{"seasons":[]},
+        "box_totals":{"games":1,"min":3,"fg":0,"fga":0,"ft":0,"fta":0,"three_p":0,"three_pa":0,"pts":0,"reb":1,"ast":1,"stl":0,"blk":0,"tov":0}})
+    assert quiet["has_shooting"] is False and quiet["gp"]==0
+
 if __name__ == "__main__":
     test_roster_table_without_id_column()
     test_box_uses_roster_line_and_does_not_invent_attempts()
     test_real_shooting_line_wins_over_roster()
     test_box_score_shooting_is_exact()
+    test_two_games_add_and_zero_attempts_do_not_invent_shooting()
     print("ok")
