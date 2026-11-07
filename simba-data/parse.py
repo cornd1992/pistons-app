@@ -171,6 +171,54 @@ def attach_box_totals(players, box_lines, teams):
         if p["player_id"] in totals and (totals[p["player_id"]]["fga"] or totals[p["player_id"]]["fta"] or totals[p["player_id"]]["fg"]):
             p["box_totals"]=totals[p["player_id"]]
     return unmatched
+def _match_pid(players, teams):
+    """(short-name -> team id, (team id, name key) -> player id, unique-name fallback)."""
+    by_id={t["team_id"]:t for t in teams}
+    short={}
+    for t in teams:
+        parts=t["name"].split()
+        for i in range(len(parts)):
+            short.setdefault(" ".join(parts[i:]).lower(), t["team_id"])
+        if "76ers" in t["name"].lower(): short["76ers"]=t["team_id"]
+    def team_of(p):
+        if p.get("team_id") in by_id: return p["team_id"]
+        return short.get((p.get("team") or "").lower())
+    on={}
+    for p in players:
+        tid=team_of(p)
+        if tid: on.setdefault((tid, name_key(p.get("name"))), p["player_id"])
+    global_name={}
+    for p in players:
+        global_name.setdefault(name_key(p.get("name")), []).append(p["player_id"])
+    def pid_of(rec):
+        tid=short.get((rec.get("team") or "").lower())
+        key=name_key(rec.get("name"))
+        pid=on.get((tid, key)) if tid else None
+        if pid is None and len(global_name.get(key) or [])==1: pid=global_name[key][0]
+        return pid
+    return pid_of
+def attach_game_logs(players, dated_lines, teams):
+    """Per-game lines ordered by the schedule day on the box-score filename.
+    A player with two lines on the same day is left without a log: that order is not known."""
+    pid_of=_match_pid(players, teams)
+    logs={}
+    for rec in dated_lines:
+        day=rec.get("day")
+        if not isinstance(day,int): continue
+        pid=pid_of(rec)
+        if pid is None: continue
+        logs.setdefault(pid, []).append({"d":day,"min":rec.get("min") or 0,"pts":rec.get("pts") or 0,"reb":rec.get("reb") or 0,
+            "ast":rec.get("ast") or 0,"stl":rec.get("stl") or 0,"blk":rec.get("blk") or 0,"tov":rec.get("tov") or 0,
+            "fg":rec.get("fg") or 0,"fga":rec.get("fga") or 0,"ft":rec.get("ft") or 0,"fta":rec.get("fta") or 0})
+    kept=0
+    for p in players:
+        rows=logs.get(p["player_id"]) or []
+        days=[r["d"] for r in rows]
+        if rows and len(days)==len(set(days)):
+            p["game_log"]=sorted(rows, key=lambda r:r["d"]); kept+=1
+        else:
+            p.pop("game_log", None)
+    return kept
 def kv_tables(s):
     """Leaf tables shaped 'Title' + rows of 'Label:' value -> {title:{label:value}}."""
     out={}
@@ -507,12 +555,22 @@ def run(log=print):
         g=st.get("games")
         if isinstance(g,(int,float)) and g>0: p["roster_stats"]=st
     # Game box scores (boxes/N-M.html) have FG/FGA/3P/3PA/FT/FTA even when player profiles are still zero.
-    box_lines=[]
+    box_lines=[]; dated=[]
     for f in sorted(glob.glob(os.path.join(RAW,"boxes","*.html"))):
-        try: box_lines.extend(parse_box_soup(BeautifulSoup(open(f,encoding="utf-8",errors="replace").read(),"html.parser")))
-        except Exception as e: log(f"box parse error {f}: {e}")
+        m=re.search(r"(\d+)-\d+\.html$", os.path.basename(f))
+        try:
+            soup_b=BeautifulSoup(open(f,encoding="utf-8",errors="replace").read(),"html.parser")
+            lines=parse_box_soup(soup_b)
+        except Exception as e:
+            log(f"box parse error {f}: {e}"); continue
+        box_lines.extend(lines)
+        if m:
+            day=int(m.group(1))
+            for rec in lines: dated.append({**rec,"day":day})
     if box_lines:
         missed=attach_box_totals(players, box_lines, list(teams.values()))
+        nlogs=attach_game_logs(players, dated, list(teams.values()))
+        log(f"game logs: {nlogs} players ordered by schedule day")
         team_lines=[]
         for f in sorted(glob.glob(os.path.join(RAW,"boxes","*.html"))):
             try: team_lines.extend(parse_box_team_totals(BeautifulSoup(open(f,encoding="utf-8",errors="replace").read(),"html.parser")))

@@ -624,7 +624,7 @@ function anTrends(A){
   const ps=id=>(SNAPS||[]).map(s=>({at:s.crawled_at,b:s.players?.[id]?.box})).filter(s=>s.b&&s.b.gp>0).map(s=>({gp:s.b.gp,b:s.b}));
   const pr=ro.map(x=>{const sr=ps(x.id),r=n=>rollWin(sr,s=>s.b.ppg,n);const l5=r(5),l10=r(10);return {name:x.name,id:x.id,s:x.b.ppg,l5:l5?.v,l10:l10?.v,spark:sr.length>1?spark(sr.map(s=>s.b.ppg)):''};});
   h+=`<h3>Player scoring: last 5 / last 10</h3>${pr.length?table([{k:'name',l:'Player',f:(v,r)=>plink(v,r.id)},{k:'l5',l:'L5',n:1,f:f1},{k:'l10',l:'L10',n:1,f:f1},{k:'s',l:'Season',n:1,f:f1},{k:'spark',l:'Trend',f:v=>v||'—'}],pr):NOG()}
-   <p class="note small">The stats site has no game logs, so “last N” windows are rebuilt from daily snapshot differences and cover the nearest refresh boundary at or before N games ago (GP column shows the actual span).</p></div>`;
+   <p class="note small">This chart still uses daily snapshots. Ordered box scores are used on Hot &amp; Cold, where each game has a schedule day.</p></div>`;
   return h;
 }
 function spark(v,w=70,h=20){if(v.length<2)return '';const mn=Math.min(...v),mx=Math.max(...v),sp=mx-mn||1;return `<svg viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" aria-label="trend"><polyline fill="none" stroke="var(--red)" stroke-width="1.8" points="${v.map((y,i)=>(i*(w-4)/(v.length-1)+2).toFixed(1)+','+(h-2-(y-mn)/sp*(h-4)).toFixed(1)).join(' ')}"/></svg>`;}
@@ -715,20 +715,28 @@ function vFA(){
   return h;
 }
 /* ---------- Hot & Cold ---------- */
+function gameEff(g){return (g.pts||0)+(g.reb||0)+(g.ast||0)+(g.stl||0)+(g.blk||0)-((g.fga||0)-(g.fg||0))-((g.fta||0)-(g.ft||0))-(g.tov||0);}
+function logWindow(log,n){ // last n games only when at least one earlier game exists, so the window is not the whole season
+  if(!log||log.length<=n) return null;
+  const w=log.slice(-n),sum=w.reduce((a,g)=>a+gameEff(g),0);
+  return {v:sum/w.length,g:w.length};
+}
+function logSeason(log){if(!log||!log.length) return null;return log.reduce((a,g)=>a+gameEff(g),0)/log.length;}
 function anHotCold(A){
   let h=`<div class="card"><h2>Hot & cold</h2>`;
-  if(!A.anyGames) return h+NOG('','Last-5 and last-10 vs season deltas, with buy-low / sell-high flags, appear once games are played.')+'</div>';
-  const ser=id=>(SNAPS||[]).map(s=>s.players?.[id]?.box).filter(b=>b&&b.gp>0).map(b=>({gp:b.gp,b}));
-  const eff=b=>(b.ppg||0)+(b.rpg||0)+(b.apg||0)+(b.spg||0)+(b.bpg||0)-((b.fga||0)-(b.fgm||0))-((b.fta||0)-(b.ftm||0))-(b.topg||0);
-  const rows=A.pl.filter(x=>x.g>=5&&x.mpg>=12).map(x=>{const s=ser(x.id),r=n=>rollWin(s,y=>eff(y.b),n),l5=r(5),l10=r(10),pts5=rollWin(s,y=>y.b.ppg,5);
-    const d5=l5&&x.eff!=null?l5.v-x.eff:null,d10=l10&&x.eff!=null?l10.v-x.eff:null,v=pvOf(x.id).val;
+  const need='Last 5 needs at least 6 box-score games and 12 minutes a game, so the window is not the whole season. Last 10 needs 11 games. Games are ordered by the league schedule day on each box score. A tied day is left out rather than ordered by guess.';
+  if(!A.anyGames) return h+NOG('',need)+'</div>';
+  const rows=A.pl.filter(x=>x.g>=6&&x.mpg>=12&&(x.p.game_log||[]).length===x.g).map(x=>{
+    const log=x.p.game_log,sea=logSeason(log),l5=logWindow(log,5),l10=logWindow(log,10);
+    const d5=l5&&sea!=null?l5.v-sea:null,d10=l10&&sea!=null?l10.v-sea:null,v=pvOf(x.id).val;
     const flag=d10!=null&&d10<=-3&&v>=60?'Buy low':d5!=null&&d5>=3&&v<55?'Sell high':'';
-    return {...x,l5:l5?.v,l10:l10?.v,d5,d10,pts5:pts5?.v,flag,team_id:x.team_id};}).filter(x=>x.d5!=null||x.d10!=null);
-  if(!rows.length) return h+NOG('','Needs at least two refreshes with new games so recent windows can be separated from the season line.')+'</div>';
-  const col=[{k:'name',l:'Player',f:(v,r)=>`${plink(v,r.id)}${r.flag?` <span class="tag${r.flag==='Buy low'?'':' pick'}">${r.flag}</span>`:''}<div class="note small">${esc(r.pos)} · ${esc(r.team.split(' ').pop())}</div>`},{k:'eff',l:'EFF',n:1,f:f1},{k:'l5',l:'L5',n:1,f:f1},{k:'d5',l:'Δ5',n:1,f:sgn},{k:'d10',l:'Δ10',n:1,f:sgn,p:2}];
-  const hot=[...rows].sort((a,b)=>(b.d5??b.d10)-(a.d5??a.d10)).slice(0,15),cold=[...rows].sort((a,b)=>(a.d10??a.d5)-(b.d10??b.d5)).slice(0,15);
-  h+=`<h3>Hot (last 5 vs season EFF)</h3>${table(col,hot,{me:r=>r.team_id===B.meta.my_team_id})}<h3>Cold (last 10 vs season EFF)</h3>${table(col,cold,{me:r=>r.team_id===B.meta.my_team_id})}
-   <p class="note small">EFF = PTS+REB+AST+STL+BLK − missed shots − TOV per game. Last-5/10 windows use differences between daily snapshots, not the individual box scores. Buy low = Value ≥ 60 but down ≥ 3 EFF over the last 10; Sell high = Value < 55 but up ≥ 3 EFF over the last 5.</p></div>`;
+    return {...x,eff:sea,l5:l5?.v,l10:l10?.v,d5,d10,flag};
+  }).filter(x=>x.d5!=null||x.d10!=null);
+  if(!rows.length) return h+NOG('',need)+'</div>';
+  const col=[{k:'name',l:'Player',f:(v,r)=>`${plink(v,r.id)}${r.flag?` <span class="tag${r.flag==='Buy low'?'':' pick'}">${r.flag}</span>`:''}<div class="note small">${esc(r.pos)} · ${esc(r.team.split(' ').pop())} · ${r.g} GP</div>`},{k:'eff',l:'EFF*',n:1,f:f1},{k:'l5',l:'L5',n:1,f:f1},{k:'d5',l:'Δ5',n:1,f:sgn},{k:'l10',l:'L10',n:1,f:f1,p:2},{k:'d10',l:'Δ10',n:1,f:sgn,p:2}];
+  const hot=[...rows].filter(x=>x.d5!=null).sort((a,b)=>b.d5-a.d5).slice(0,15),cold=[...rows].filter(x=>x.d10!=null).sort((a,b)=>a.d10-b.d10).slice(0,15);
+  h+=`<h3>Hot (last 5 vs season)</h3>${hot.length?table(col,hot,{me:r=>r.team_id===B.meta.my_team_id}):'<p class="note small">Nobody with a real last-5 window yet.</p>'}<h3>Cold (last 10 vs season)</h3>${cold.length?table(col,cold,{me:r=>r.team_id===B.meta.my_team_id}):'<p class="note small">Last 10 needs 11 ordered games. Nobody is there yet.</p>'}
+   <p class="note small">EFF* = PTS+REB+AST+STL+BLK − missed shots − TOV per game, from the box scores in schedule-day order. Δ is that window minus the same player’s full box-score season. Buy low = Value ≥ 60 and last 10 down at least 3. Sell high = Value &lt; 55 and last 5 up at least 3. Not a projected streak.</p></div>`;
   return h;
 }
 function anFormulas(A){
