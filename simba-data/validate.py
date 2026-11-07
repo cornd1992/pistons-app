@@ -17,9 +17,13 @@ if ok:
         P=json.load(open(os.path.join(HERE,"players.json")))["players"]
         wins=sum(((t.get("record") or {}).get("w") or 0)+((t.get("record") or {}).get("l") or 0) for t in T)
         played=sum(1 for p in P if ((p.get("roster_stats") or {}).get("games") or 0)>0)
-        print(f"team_games={wins} roster_stat_lines={played}")
+        shot=sum(1 for p in P if ((p.get("box_totals") or {}).get("fga") or 0)>0 or ((p.get("box_totals") or {}).get("fta") or 0)>0)
+        print(f"team_games={wins} roster_stat_lines={played} box_shooting_lines={shot}")
         if wins>0 and played==0:
             print("FAILED: teams have played but no roster player stat lines were parsed")
+            ok=False
+        if wins>0 and shot==0:
+            print("FAILED: teams have played but no box-score makes/attempts were parsed")
             ok=False
     except Exception as e:
         print(f"roster stat check unreadable ({e})")

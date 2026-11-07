@@ -59,8 +59,34 @@ def test_real_shooting_line_wins_over_roster():
     assert box["has_shooting"] is True
     assert box["fga"] == 20  # 160 attempts / 8 games
 
+def test_box_score_shooting_is_exact():
+    """Game box scores publish FG/FGA. One made/attempt line must not be treated as a percentage guess."""
+    html = """<table><tr><th>Celtics</th><th>POS</th><th>MIN</th><th>FG</th><th>FGA</th><th>3P</th><th>3PA</th>
+      <th>FT</th><th>FTA</th><th>REB</th><th>A</th><th>PF</th><th>ST</th><th>TO</th><th>BL</th><th>PTS</th></tr>
+      <tr><td>Jamaal Tinsley</td><td>PG</td><td>36</td><td>7</td><td>15</td><td>2</td><td>5</td><td>4</td><td>6</td>
+      <td>4</td><td>8</td><td>2</td><td>1</td><td>3</td><td>0</td><td>20</td></tr>
+      <tr><td><b>TEAM TOTALS</b></td><td></td><td></td><td>30</td><td>80</td><td>5</td><td>15</td><td>10</td><td>12</td>
+      <td>40</td><td>20</td><td>18</td><td>8</td><td>12</td><td>4</td><td>75</td></tr>
+      </table>"""
+    lines = parse.parse_box_soup(BeautifulSoup(html, "html.parser"))
+    assert len(lines) == 1 and lines[0]["name"] == "Jamaal Tinsley"
+    assert lines[0]["fga"] == 15 and lines[0]["fg"] == 7 and lines[0]["ast"] == 8 and lines[0]["tov"] == 3
+    players = [{"player_id": 589, "name": "Jamaal Tinsley", "team": "Detroit Pistons", "team_id": 12}]
+    teams = [{"team_id": 12, "name": "Detroit Pistons"}]
+    missed = parse.attach_box_totals(players, lines, teams)
+    assert missed == []
+    bt = players[0]["box_totals"]
+    assert bt["games"] == 1 and bt["fga"] == 15 and bt["pts"] == 20
+    box = build.box_of({"season_averages": {"games": 0, "ppg": 0}, "stats": {"seasons": [{"season": "2005", "games": 0, "fg": 0, "fga": 0, "ft": 0, "fta": 0, "three_p": 0, "three_pa": 0}]},
+                        "roster_stats": {"games": 9, "ppg": 13.8, "fg_pct": 0.477}, "box_totals": bt})
+    assert box["has_shooting"] is True
+    assert box["fga"] == 15 and box["fgm"] == 7 and box["fta"] == 6 and box["ppg"] == 20
+    # TS% = 20 / (2 * (15 + 0.44*6)) = 20 / 35.28
+    assert abs(box["ppg"] / (2 * (box["fga"] + 0.44 * box["fta"])) - 20 / 35.28) < 1e-9
+
 if __name__ == "__main__":
     test_roster_table_without_id_column()
     test_box_uses_roster_line_and_does_not_invent_attempts()
     test_real_shooting_line_wins_over_roster()
+    test_box_score_shooting_is_exact()
     print("ok")
