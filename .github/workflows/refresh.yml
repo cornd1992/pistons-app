@@ -3,10 +3,6 @@ name: Refresh league data & deploy
 on:
   schedule:
     - cron: "0 10 * * *"   # daily 10:00 UTC
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/refresh.yml"   # one-shot: publish the analytics rebuild; removed immediately after
   workflow_dispatch:
     inputs:
       skip_scrape:
@@ -42,7 +38,7 @@ jobs:
       # (league facts, rule summaries) are hand-kept and never overwritten.
       - name: Scrape stats site
         id: scrape
-        if: false  # one-shot rebuild from committed roster_stats; live roster still matches. Restored after this run.
+        if: ${{ !inputs.skip_scrape }}
         continue-on-error: true
         timeout-minutes: 60
         run: |
