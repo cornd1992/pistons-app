@@ -1,9 +1,9 @@
 # Sitemap: simba.mygamesonline.org
 
-- **Crawl date:** 2026-11-06
-- **Pages found:** 1390
-- **Broken/errored links:** 2
-- **URLs fetched:** 1392
+- **Crawl date:** 2026-11-07
+- **Pages found:** 1495
+- **Broken/errored links:** 3
+- **URLs fetched:** 1498
 
 ## Crawl notes
 
@@ -11,10 +11,10 @@
 - No `/robots.txt` (404) and no `/sitemap.xml` (404).
 - Home is a frameset (`index2.htm` menu + `index1.htm`); JS `<select>` menu option values extracted as links.
 - Full crawl: every discovered same-host page was fetched.
-- Crawl took 1392.8 s, 1393 HTTP requests.
+- Crawl took 1497.3 s, 1498 HTTP requests.
 - Player pages embed a stats iframe (`playerNstats.htm`), crawled as separate pages.
 
-## Pages (1390)
+## Pages (1495)
 
 - [Main Index](https://simba.mygamesonline.org/) `/`
 - [All-Star Weekend Winners](https://simba.mygamesonline.org/allstarweekend.htm) `/allstarweekend.htm`
@@ -30,11 +30,123 @@
 - [Player Career Records](https://simba.mygamesonline.org/playercareerrecords.htm) `/playercareerrecords.htm`
 - [Player Game Records](https://simba.mygamesonline.org/playergmrecords.htm) `/playergmrecords.htm`
 - [Player Season Records](https://simba.mygamesonline.org/playerssnrecords.htm) `/playerssnrecords.htm`
-- [Playoff Standings](https://simba.mygamesonline.org/playstand.htm) `/playstand.htm`
 - [Available Cap Room](https://simba.mygamesonline.org/salaryneeds.htm) `/salaryneeds.htm`
 - [Team Season Records](https://simba.mygamesonline.org/teamssnrecords.htm) `/teamssnrecords.htm`
 - [Transactions](https://simba.mygamesonline.org/transactions.htm) `/transactions.htm`
 - [Weekly/Monthly Awards](https://simba.mygamesonline.org/wkly-mnthly.htm) `/wkly-mnthly.htm`
+- **boxes/** (112)
+  - [1-1.html](https://simba.mygamesonline.org/boxes/1-1.html) `/boxes/1-1.html`
+  - [1-10.html](https://simba.mygamesonline.org/boxes/1-10.html) `/boxes/1-10.html`
+  - [1-11.html](https://simba.mygamesonline.org/boxes/1-11.html) `/boxes/1-11.html`
+  - [1-12.html](https://simba.mygamesonline.org/boxes/1-12.html) `/boxes/1-12.html`
+  - [1-13.html](https://simba.mygamesonline.org/boxes/1-13.html) `/boxes/1-13.html`
+  - [1-14.html](https://simba.mygamesonline.org/boxes/1-14.html) `/boxes/1-14.html`
+  - [1-2.html](https://simba.mygamesonline.org/boxes/1-2.html) `/boxes/1-2.html`
+  - [1-3.html](https://simba.mygamesonline.org/boxes/1-3.html) `/boxes/1-3.html`
+  - [1-4.html](https://simba.mygamesonline.org/boxes/1-4.html) `/boxes/1-4.html`
+  - [1-5.html](https://simba.mygamesonline.org/boxes/1-5.html) `/boxes/1-5.html`
+  - [1-6.html](https://simba.mygamesonline.org/boxes/1-6.html) `/boxes/1-6.html`
+  - [1-7.html](https://simba.mygamesonline.org/boxes/1-7.html) `/boxes/1-7.html`
+  - [1-8.html](https://simba.mygamesonline.org/boxes/1-8.html) `/boxes/1-8.html`
+  - [1-9.html](https://simba.mygamesonline.org/boxes/1-9.html) `/boxes/1-9.html`
+  - [10-1.html](https://simba.mygamesonline.org/boxes/10-1.html) `/boxes/10-1.html`
+  - [10-10.html](https://simba.mygamesonline.org/boxes/10-10.html) `/boxes/10-10.html`
+  - [10-2.html](https://simba.mygamesonline.org/boxes/10-2.html) `/boxes/10-2.html`
+  - [10-3.html](https://simba.mygamesonline.org/boxes/10-3.html) `/boxes/10-3.html`
+  - [10-4.html](https://simba.mygamesonline.org/boxes/10-4.html) `/boxes/10-4.html`
+  - [10-5.html](https://simba.mygamesonline.org/boxes/10-5.html) `/boxes/10-5.html`
+  - [10-6.html](https://simba.mygamesonline.org/boxes/10-6.html) `/boxes/10-6.html`
+  - [10-7.html](https://simba.mygamesonline.org/boxes/10-7.html) `/boxes/10-7.html`
+  - [10-8.html](https://simba.mygamesonline.org/boxes/10-8.html) `/boxes/10-8.html`
+  - [10-9.html](https://simba.mygamesonline.org/boxes/10-9.html) `/boxes/10-9.html`
+  - [2-1.html](https://simba.mygamesonline.org/boxes/2-1.html) `/boxes/2-1.html`
+  - [2-10.html](https://simba.mygamesonline.org/boxes/2-10.html) `/boxes/2-10.html`
+  - [2-2.html](https://simba.mygamesonline.org/boxes/2-2.html) `/boxes/2-2.html`
+  - [2-3.html](https://simba.mygamesonline.org/boxes/2-3.html) `/boxes/2-3.html`
+  - [2-4.html](https://simba.mygamesonline.org/boxes/2-4.html) `/boxes/2-4.html`
+  - [2-5.html](https://simba.mygamesonline.org/boxes/2-5.html) `/boxes/2-5.html`
+  - [2-6.html](https://simba.mygamesonline.org/boxes/2-6.html) `/boxes/2-6.html`
+  - [2-7.html](https://simba.mygamesonline.org/boxes/2-7.html) `/boxes/2-7.html`
+  - [2-8.html](https://simba.mygamesonline.org/boxes/2-8.html) `/boxes/2-8.html`
+  - [2-9.html](https://simba.mygamesonline.org/boxes/2-9.html) `/boxes/2-9.html`
+  - [3-1.html](https://simba.mygamesonline.org/boxes/3-1.html) `/boxes/3-1.html`
+  - [3-10.html](https://simba.mygamesonline.org/boxes/3-10.html) `/boxes/3-10.html`
+  - [3-2.html](https://simba.mygamesonline.org/boxes/3-2.html) `/boxes/3-2.html`
+  - [3-3.html](https://simba.mygamesonline.org/boxes/3-3.html) `/boxes/3-3.html`
+  - [3-4.html](https://simba.mygamesonline.org/boxes/3-4.html) `/boxes/3-4.html`
+  - [3-5.html](https://simba.mygamesonline.org/boxes/3-5.html) `/boxes/3-5.html`
+  - [3-6.html](https://simba.mygamesonline.org/boxes/3-6.html) `/boxes/3-6.html`
+  - [3-7.html](https://simba.mygamesonline.org/boxes/3-7.html) `/boxes/3-7.html`
+  - [3-8.html](https://simba.mygamesonline.org/boxes/3-8.html) `/boxes/3-8.html`
+  - [3-9.html](https://simba.mygamesonline.org/boxes/3-9.html) `/boxes/3-9.html`
+  - [4-1.html](https://simba.mygamesonline.org/boxes/4-1.html) `/boxes/4-1.html`
+  - [4-2.html](https://simba.mygamesonline.org/boxes/4-2.html) `/boxes/4-2.html`
+  - [4-3.html](https://simba.mygamesonline.org/boxes/4-3.html) `/boxes/4-3.html`
+  - [4-4.html](https://simba.mygamesonline.org/boxes/4-4.html) `/boxes/4-4.html`
+  - [4-5.html](https://simba.mygamesonline.org/boxes/4-5.html) `/boxes/4-5.html`
+  - [4-6.html](https://simba.mygamesonline.org/boxes/4-6.html) `/boxes/4-6.html`
+  - [4-7.html](https://simba.mygamesonline.org/boxes/4-7.html) `/boxes/4-7.html`
+  - [4-8.html](https://simba.mygamesonline.org/boxes/4-8.html) `/boxes/4-8.html`
+  - [5-1.html](https://simba.mygamesonline.org/boxes/5-1.html) `/boxes/5-1.html`
+  - [5-2.html](https://simba.mygamesonline.org/boxes/5-2.html) `/boxes/5-2.html`
+  - [5-3.html](https://simba.mygamesonline.org/boxes/5-3.html) `/boxes/5-3.html`
+  - [5-4.html](https://simba.mygamesonline.org/boxes/5-4.html) `/boxes/5-4.html`
+  - [5-5.html](https://simba.mygamesonline.org/boxes/5-5.html) `/boxes/5-5.html`
+  - [5-6.html](https://simba.mygamesonline.org/boxes/5-6.html) `/boxes/5-6.html`
+  - [5-7.html](https://simba.mygamesonline.org/boxes/5-7.html) `/boxes/5-7.html`
+  - [5-8.html](https://simba.mygamesonline.org/boxes/5-8.html) `/boxes/5-8.html`
+  - [5-9.html](https://simba.mygamesonline.org/boxes/5-9.html) `/boxes/5-9.html`
+  - [6-1.html](https://simba.mygamesonline.org/boxes/6-1.html) `/boxes/6-1.html`
+  - [6-10.html](https://simba.mygamesonline.org/boxes/6-10.html) `/boxes/6-10.html`
+  - [6-2.html](https://simba.mygamesonline.org/boxes/6-2.html) `/boxes/6-2.html`
+  - [6-3.html](https://simba.mygamesonline.org/boxes/6-3.html) `/boxes/6-3.html`
+  - [6-4.html](https://simba.mygamesonline.org/boxes/6-4.html) `/boxes/6-4.html`
+  - [6-5.html](https://simba.mygamesonline.org/boxes/6-5.html) `/boxes/6-5.html`
+  - [6-6.html](https://simba.mygamesonline.org/boxes/6-6.html) `/boxes/6-6.html`
+  - [6-7.html](https://simba.mygamesonline.org/boxes/6-7.html) `/boxes/6-7.html`
+  - [6-8.html](https://simba.mygamesonline.org/boxes/6-8.html) `/boxes/6-8.html`
+  - [6-9.html](https://simba.mygamesonline.org/boxes/6-9.html) `/boxes/6-9.html`
+  - [7-1.html](https://simba.mygamesonline.org/boxes/7-1.html) `/boxes/7-1.html`
+  - [7-10.html](https://simba.mygamesonline.org/boxes/7-10.html) `/boxes/7-10.html`
+  - [7-2.html](https://simba.mygamesonline.org/boxes/7-2.html) `/boxes/7-2.html`
+  - [7-3.html](https://simba.mygamesonline.org/boxes/7-3.html) `/boxes/7-3.html`
+  - [7-4.html](https://simba.mygamesonline.org/boxes/7-4.html) `/boxes/7-4.html`
+  - [7-5.html](https://simba.mygamesonline.org/boxes/7-5.html) `/boxes/7-5.html`
+  - [7-6.html](https://simba.mygamesonline.org/boxes/7-6.html) `/boxes/7-6.html`
+  - [7-7.html](https://simba.mygamesonline.org/boxes/7-7.html) `/boxes/7-7.html`
+  - [7-8.html](https://simba.mygamesonline.org/boxes/7-8.html) `/boxes/7-8.html`
+  - [7-9.html](https://simba.mygamesonline.org/boxes/7-9.html) `/boxes/7-9.html`
+  - [8-1.html](https://simba.mygamesonline.org/boxes/8-1.html) `/boxes/8-1.html`
+  - [8-10.html](https://simba.mygamesonline.org/boxes/8-10.html) `/boxes/8-10.html`
+  - [8-11.html](https://simba.mygamesonline.org/boxes/8-11.html) `/boxes/8-11.html`
+  - [8-2.html](https://simba.mygamesonline.org/boxes/8-2.html) `/boxes/8-2.html`
+  - [8-3.html](https://simba.mygamesonline.org/boxes/8-3.html) `/boxes/8-3.html`
+  - [8-4.html](https://simba.mygamesonline.org/boxes/8-4.html) `/boxes/8-4.html`
+  - [8-5.html](https://simba.mygamesonline.org/boxes/8-5.html) `/boxes/8-5.html`
+  - [8-6.html](https://simba.mygamesonline.org/boxes/8-6.html) `/boxes/8-6.html`
+  - [8-7.html](https://simba.mygamesonline.org/boxes/8-7.html) `/boxes/8-7.html`
+  - [8-8.html](https://simba.mygamesonline.org/boxes/8-8.html) `/boxes/8-8.html`
+  - [8-9.html](https://simba.mygamesonline.org/boxes/8-9.html) `/boxes/8-9.html`
+  - [9-1.html](https://simba.mygamesonline.org/boxes/9-1.html) `/boxes/9-1.html`
+  - [9-10.html](https://simba.mygamesonline.org/boxes/9-10.html) `/boxes/9-10.html`
+  - [9-2.html](https://simba.mygamesonline.org/boxes/9-2.html) `/boxes/9-2.html`
+  - [9-3.html](https://simba.mygamesonline.org/boxes/9-3.html) `/boxes/9-3.html`
+  - [9-4.html](https://simba.mygamesonline.org/boxes/9-4.html) `/boxes/9-4.html`
+  - [9-5.html](https://simba.mygamesonline.org/boxes/9-5.html) `/boxes/9-5.html`
+  - [9-6.html](https://simba.mygamesonline.org/boxes/9-6.html) `/boxes/9-6.html`
+  - [9-7.html](https://simba.mygamesonline.org/boxes/9-7.html) `/boxes/9-7.html`
+  - [9-8.html](https://simba.mygamesonline.org/boxes/9-8.html) `/boxes/9-8.html`
+  - [9-9.html](https://simba.mygamesonline.org/boxes/9-9.html) `/boxes/9-9.html`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day1.htm) `/boxes/day1.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day10.htm) `/boxes/day10.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day2.htm) `/boxes/day2.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day3.htm) `/boxes/day3.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day4.htm) `/boxes/day4.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day5.htm) `/boxes/day5.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day6.htm) `/boxes/day6.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day7.htm) `/boxes/day7.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day8.htm) `/boxes/day8.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day9.htm) `/boxes/day9.htm`
 - **draft/** (11)
   - [Draft Eligible Players](https://simba.mygamesonline.org/draft/draftplayers-age.htm) `/draft/draftplayers-age.htm`
   - [Draft Eligible Players](https://simba.mygamesonline.org/draft/draftplayers-df.htm) `/draft/draftplayers-df.htm`
@@ -62,7 +174,7 @@
   - [Free Agents](https://simba.mygamesonline.org/fa/fa-wt.htm) `/fa/fa-wt.htm`
 - **hof/** (1)
   - [Hall Of Fame](https://simba.mygamesonline.org/hof/all.htm) `/hof/all.htm`
-- **players/** (1252)
+- **players/** (1246)
   - [SF Shandon Anderson - FA](https://simba.mygamesonline.org/players/player100.htm) `/players/player100.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player100stats.htm) `/players/player100stats.htm`
   - [C Martynas Andriuskevicius - Spurs](https://simba.mygamesonline.org/players/player101.htm) `/players/player101.htm`
@@ -231,8 +343,6 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player182stats.htm) `/players/player182stats.htm`
   - [PG Sam Cassell - Heat](https://simba.mygamesonline.org/players/player183.htm) `/players/player183.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player183stats.htm) `/players/player183stats.htm`
-  - [C Kelvin Cato - Wizards](https://simba.mygamesonline.org/players/player184.htm) `/players/player184.htm`
-  - [Player Statistics](https://simba.mygamesonline.org/players/player184stats.htm) `/players/player184stats.htm`
   - [PG Lionel Chalmers - FA](https://simba.mygamesonline.org/players/player185.htm) `/players/player185.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player185stats.htm) `/players/player185stats.htm`
   - [C Tyson Chandler - Timberwolves](https://simba.mygamesonline.org/players/player186.htm) `/players/player186.htm`
@@ -584,8 +694,6 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player349stats.htm) `/players/player349stats.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player34stats.htm) `/players/player34stats.htm`
   - [PG Kareem Stepania - Draft](https://simba.mygamesonline.org/players/player35.htm) `/players/player35.htm`
-  - [PG Mike James - Wizards](https://simba.mygamesonline.org/players/player350.htm) `/players/player350.htm`
-  - [Player Statistics](https://simba.mygamesonline.org/players/player350stats.htm) `/players/player350stats.htm`
   - [PF Antawn Jamison - Kings](https://simba.mygamesonline.org/players/player351.htm) `/players/player351.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player351stats.htm) `/players/player351stats.htm`
   - [SG Marko Jaric - Grizzlies](https://simba.mygamesonline.org/players/player352.htm) `/players/player352.htm`
@@ -926,8 +1034,6 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player504stats.htm) `/players/player504stats.htm`
   - [SG Laron Profit - Magic](https://simba.mygamesonline.org/players/player505.htm) `/players/player505.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player505stats.htm) `/players/player505stats.htm`
-  - [C Joel Przybilla - Wizards](https://simba.mygamesonline.org/players/player506.htm) `/players/player506.htm`
-  - [Player Statistics](https://simba.mygamesonline.org/players/player506stats.htm) `/players/player506stats.htm`
   - [PF Vladimir Radmanovic - Hawks](https://simba.mygamesonline.org/players/player507.htm) `/players/player507.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player507stats.htm) `/players/player507stats.htm`
   - [C Aleksandar Radojevic - FA](https://simba.mygamesonline.org/players/player508.htm) `/players/player508.htm`
@@ -1414,9 +1520,10 @@
     - [Team Statistics](https://simba.mygamesonline.org/tmstats/offense/team.htm) `/tmstats/offense/team.htm`
     - [Team Statistics](https://simba.mygamesonline.org/tmstats/offense/topg.htm) `/tmstats/offense/topg.htm`
 
-## Broken links (2)
+## Broken links (3)
 
 | Status | URL | Linked from |
 |---|---|---|
 | 404 | https://simba.mygamesonline.org/hof/All.htm | /hof/all.htm |
-| 404 | https://simba.mygamesonline.org/players/player277.htm | /rosters/roster23.htm |
+| 404 | https://simba.mygamesonline.org/players/player277.htm | /boxes/day1.htm, /boxes/day5.htm, /boxes/day7.htm, /boxes/day8.htm, /boxes/day9.htm …(+2) |
+| 404 | https://simba.mygamesonline.org/playstand.htm | /divstand.htm |

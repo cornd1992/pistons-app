@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-06T17:23:27Z",
-  "parsed_at": "2026-11-06T17:23:41Z"
+  "crawled_at": "2026-11-07T01:33:38Z",
+  "parsed_at": "2026-11-07T01:33:47Z"
  },
  "teams": [
   {
@@ -13,23 +13,29 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster1hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster1sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 4,
+    "l": 6
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 83.2,
+    "steals_per_game": 8.6,
+    "points_allowed_per_game": 88.7,
+    "rebounds_per_game": 46.0,
+    "assists_per_game": 20.8,
+    "blocks_per_game": 4.8,
+    "turnovers_per_game": 15.5,
+    "field_goal_pct": 0.446
    },
    "players": [],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [],
+   "injuries": [
+    {
+     "name": "Andrew Bynum",
+     "injury": "Severe Migraines",
+     "duration": 5
+    }
+   ],
    "history": {
     "team_information": {
      "championships": 0,
@@ -39,127 +45,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 24,
+      "player": "Josh Smith",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 23,
+      "player": "Jason Richardson",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 10,
+      "player": "Jason Richardson",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 12,
+      "player": "Josh Smith",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Josh Smith",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Jason Richardson",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Jason Richardson",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Speedy Claxton",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 10,
+      "player": "Speedy Claxton",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 15,
+      "player": "Jerome James",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Jerome James",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Josh Smith",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 98,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 74,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 55,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 28,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 13,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 9,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 21,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 6,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 83.2,
+    "rpg": 46.0,
+    "apg": 20.8,
+    "spg": 8.6,
+    "bpg": 4.8,
+    "topg": 15.5
    }
   },
   {
@@ -170,18 +176,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster2hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster2sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 3,
+    "l": 3
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 80.8,
+    "steals_per_game": 7.7,
+    "points_allowed_per_game": 73.7,
+    "rebounds_per_game": 48.8,
+    "assists_per_game": 20.5,
+    "blocks_per_game": 3.3,
+    "turnovers_per_game": 17.0,
+    "field_goal_pct": 0.447
    },
    "players": [],
    "cut_players": [],
@@ -196,127 +202,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 29,
+      "player": "Steve Francis",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 21,
+      "player": "Steve Francis",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 12,
+      "player": "Steve Francis",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Steve Francis",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Zendon Hamilton",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Sam Cassell",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Sam Cassell",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Jason Maxiell",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 12,
+      "player": "Steve Francis",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 13,
+      "player": "Jason Maxiell",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 2,
+      "player": "Jamal Sampson",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Jason Maxiell",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 101,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 65,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 58,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 31,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 13,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 6,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 25,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 7,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 80.8,
+    "rpg": 48.8,
+    "apg": 20.5,
+    "spg": 7.7,
+    "bpg": 3.3,
+    "topg": 17.0
    }
   },
   {
@@ -327,23 +333,34 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster3hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster3sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 4,
+    "l": 3
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 94.1,
+    "steals_per_game": 8.0,
+    "points_allowed_per_game": 92.3,
+    "rebounds_per_game": 45.7,
+    "assists_per_game": 24.3,
+    "blocks_per_game": 3.1,
+    "turnovers_per_game": 14.1,
+    "field_goal_pct": 0.481
    },
    "players": [],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [],
+   "injuries": [
+    {
+     "name": "Anthony Carter",
+     "injury": "Fractured Arm",
+     "duration": 29
+    },
+    {
+     "name": "Rasual Butler",
+     "injury": "Concussion",
+     "duration": 3
+    }
+   ],
    "history": {
     "team_information": {
      "championships": 0,
@@ -353,127 +370,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 40,
+      "player": "Gilbert Arenas",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 25,
+      "player": "Gilbert Arenas",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 18,
+      "player": "Gilbert Arenas",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 12,
+      "player": "Zach Randolph",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 11,
+      "player": "Zach Randolph",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Gilbert Arenas",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Anthony Parker",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Gilbert Arenas",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 14,
+      "player": "Gilbert Arenas",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 18,
+      "player": "Jahidi White",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Jahidi White",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Jahidi White",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 115,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 72,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 56,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 30,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 10,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 6,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 18,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 6,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 94.1,
+    "rpg": 45.7,
+    "apg": 24.3,
+    "spg": 8.0,
+    "bpg": 3.1,
+    "topg": 14.1
    }
   },
   {
@@ -484,18 +501,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster4hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster4sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 4,
+    "l": 4
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 90.1,
+    "steals_per_game": 6.4,
+    "points_allowed_per_game": 85.9,
+    "rebounds_per_game": 46.5,
+    "assists_per_game": 24.9,
+    "blocks_per_game": 4.6,
+    "turnovers_per_game": 16.5,
+    "field_goal_pct": 0.482
    },
    "players": [],
    "cut_players": [],
@@ -510,127 +527,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 36,
+      "player": "Yao Ming",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 28,
+      "player": "Yao Ming",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 14,
+      "player": "Yao Ming",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 10,
+      "player": "Yao Ming",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Yao Ming",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Delonte West",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Delonte West",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Kyle Korver",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 11,
+      "player": "Stephon Marbury",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 15,
+      "player": "Yao Ming",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Yao Ming",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Yao Ming",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 111,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 73,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 59,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 32,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 9,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 8,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 25,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 9,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 90.1,
+    "rpg": 46.5,
+    "apg": 24.9,
+    "spg": 6.4,
+    "bpg": 4.6,
+    "topg": 16.5
    }
   },
   {
@@ -641,18 +658,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster5hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster5sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 5,
+    "l": 1
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 92.3,
+    "steals_per_game": 10.3,
+    "points_allowed_per_game": 80.7,
+    "rebounds_per_game": 53.3,
+    "assists_per_game": 22.7,
+    "blocks_per_game": 6.0,
+    "turnovers_per_game": 15.7,
+    "field_goal_pct": 0.437
    },
    "players": [],
    "cut_players": [],
@@ -667,127 +684,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 33,
+      "player": "Kevin Garnett",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 28,
+      "player": "Kevin Garnett",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 12,
+      "player": "Kevin Garnett",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 16,
+      "player": "Kevin Garnett",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 15,
+      "player": "Kevin Garnett",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Larry Hughes",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Larry Hughes",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Matt Barnes",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 10,
+      "player": "T.J. Ford",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 17,
+      "player": "Kevin Garnett",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Kevin Garnett",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Kevin Garnett",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 108,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 70,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 58,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 26,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 16,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 11,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 19,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 5,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 92.3,
+    "rpg": 53.3,
+    "apg": 22.7,
+    "spg": 10.3,
+    "bpg": 6.0,
+    "topg": 15.7
    }
   },
   {
@@ -798,18 +815,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster6hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster6sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 4,
+    "l": 2
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 93.7,
+    "steals_per_game": 11.2,
+    "points_allowed_per_game": 89.0,
+    "rebounds_per_game": 47.8,
+    "assists_per_game": 23.0,
+    "blocks_per_game": 4.3,
+    "turnovers_per_game": 17.3,
+    "field_goal_pct": 0.464
    },
    "players": [],
    "cut_players": [],
@@ -824,127 +841,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 31,
+      "player": "Mike Miller",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 24,
+      "player": "LeBron James",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 13,
+      "player": "LeBron James",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "LeBron James",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "LeBron James",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "LeBron James",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Mike Miller",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Kirk Hinrich",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 11,
+      "player": "Kirk Hinrich",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 19,
+      "player": "Nazr Mohammed",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Nazr Mohammed",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "LeBron James",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 105,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 68,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 55,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 28,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 18,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 7,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 21,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 5,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 93.7,
+    "rpg": 47.8,
+    "apg": 23.0,
+    "spg": 11.2,
+    "bpg": 4.3,
+    "topg": 17.3
    }
   },
   {
@@ -955,18 +972,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster7hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster7sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 2,
+    "l": 6
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 76.9,
+    "steals_per_game": 8.6,
+    "points_allowed_per_game": 91.5,
+    "rebounds_per_game": 42.0,
+    "assists_per_game": 18.1,
+    "blocks_per_game": 2.8,
+    "turnovers_per_game": 14.6,
+    "field_goal_pct": 0.405
    },
    "players": [],
    "cut_players": [],
@@ -981,127 +998,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 25,
+      "player": "Andray Blatche",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 22,
+      "player": "Andray Blatche",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 10,
+      "player": "Andray Blatche",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 13,
+      "player": "Andray Blatche",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Andray Blatche",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Devean George",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 2,
+      "player": "Greg Buckner",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Keith McLeod",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Malik Allen",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 16,
+      "player": "Malik Allen",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Malik Allen",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Keith McLeod",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 89,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 77,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 48,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 23,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 12,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 6,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 19,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 4,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 76.9,
+    "rpg": 42.0,
+    "apg": 18.1,
+    "spg": 8.6,
+    "bpg": 2.8,
+    "topg": 14.6
    }
   },
   {
@@ -1112,18 +1129,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster8hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster8sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 5,
+    "l": 1
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 96.2,
+    "steals_per_game": 7.3,
+    "points_allowed_per_game": 90.0,
+    "rebounds_per_game": 44.2,
+    "assists_per_game": 25.2,
+    "blocks_per_game": 5.2,
+    "turnovers_per_game": 14.8,
+    "field_goal_pct": 0.487
    },
    "players": [],
    "cut_players": [],
@@ -1138,127 +1155,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 33,
+      "player": "Hedo Turkoglu",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 22,
+      "player": "Hedo Turkoglu",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 13,
+      "player": "Hedo Turkoglu",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 9,
+      "player": "Dan Gadzuric",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Pau Gasol",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Hedo Turkoglu",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Hedo Turkoglu",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Gordan Giricek",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 10,
+      "player": "Jose Calderon",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 13,
+      "player": "Pau Gasol",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "DeSagana Diop",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Carlos Arroyo",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 107,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 71,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 50,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 31,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 10,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 8,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 19,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 8,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 96.2,
+    "rpg": 44.2,
+    "apg": 25.2,
+    "spg": 7.3,
+    "bpg": 5.2,
+    "topg": 14.8
    }
   },
   {
@@ -1269,18 +1286,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster9hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster9sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 5,
+    "l": 3
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 97.0,
+    "steals_per_game": 8.6,
+    "points_allowed_per_game": 94.4,
+    "rebounds_per_game": 46.9,
+    "assists_per_game": 25.4,
+    "blocks_per_game": 4.0,
+    "turnovers_per_game": 12.6,
+    "field_goal_pct": 0.47
    },
    "players": [],
    "cut_players": [],
@@ -1295,127 +1312,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 40,
+      "player": "Carmelo Anthony",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 32,
+      "player": "Carmelo Anthony",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 18,
+      "player": "Carmelo Anthony",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Carmelo Anthony",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Carmelo Anthony",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Carmelo Anthony",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Mike Bibby",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Erick Dampier",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 14,
+      "player": "Mike Bibby",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 18,
+      "player": "Erick Dampier",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Travis Outlaw",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Chris Duhon",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 113,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 63,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 58,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 31,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 12,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 7,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 19,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 7,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 97.0,
+    "rpg": 46.9,
+    "apg": 25.4,
+    "spg": 8.6,
+    "bpg": 4.0,
+    "topg": 12.6
    }
   },
   {
@@ -1426,18 +1443,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster10hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster10sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 4,
+    "l": 3
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 85.9,
+    "steals_per_game": 9.3,
+    "points_allowed_per_game": 88.7,
+    "rebounds_per_game": 50.7,
+    "assists_per_game": 19.1,
+    "blocks_per_game": 3.6,
+    "turnovers_per_game": 17.3,
+    "field_goal_pct": 0.424
    },
    "players": [],
    "cut_players": [],
@@ -1452,127 +1469,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 27,
+      "player": "Antoine Walker",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 19,
+      "player": "Antoine Walker",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 12,
+      "player": "Antoine Walker",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 12,
+      "player": "Chris Webber",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Chris Webber",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Antoine Walker",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Antoine Walker",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Chris Webber",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Chris Paul",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 15,
+      "player": "Chris Webber",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Chris Kaman",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Chris Paul",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 104,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 74,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 67,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 23,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 11,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 6,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 22,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 7,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 85.9,
+    "rpg": 50.7,
+    "apg": 19.1,
+    "spg": 9.3,
+    "bpg": 3.6,
+    "topg": 17.3
    }
   },
   {
@@ -1583,18 +1600,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster11hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster11sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 5,
+    "l": 1
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 97.5,
+    "steals_per_game": 7.7,
+    "points_allowed_per_game": 87.7,
+    "rebounds_per_game": 47.2,
+    "assists_per_game": 26.0,
+    "blocks_per_game": 3.7,
+    "turnovers_per_game": 12.7,
+    "field_goal_pct": 0.488
    },
    "players": [],
    "cut_players": [],
@@ -1609,127 +1626,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 38,
+      "player": "Tracy McGrady",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 28,
+      "player": "Tracy McGrady",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 18,
+      "player": "Tracy McGrady",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Tracy McGrady",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Tracy McGrady",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Tracy McGrady",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 2,
+      "player": "Keyon Dooling",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Keyon Dooling",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 10,
+      "player": "Earl Watson",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 16,
+      "player": "Lamar Odom",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 2,
+      "player": "Lamar Odom",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Lamar Odom",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 112,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 68,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 57,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 35,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 10,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 6,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 16,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 4,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 97.5,
+    "rpg": 47.2,
+    "apg": 26.0,
+    "spg": 7.7,
+    "bpg": 3.7,
+    "topg": 12.7
    }
   },
   {
@@ -1740,18 +1757,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster12hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster12sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 4,
+    "l": 5
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 78.9,
+    "steals_per_game": 7.4,
+    "points_allowed_per_game": 82.6,
+    "rebounds_per_game": 43.1,
+    "assists_per_game": 21.4,
+    "blocks_per_game": 3.4,
+    "turnovers_per_game": 13.1,
+    "field_goal_pct": 0.422
    },
    "players": [],
    "cut_players": [],
@@ -1766,127 +1783,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 28,
+      "player": "Troy Murphy",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 24,
+      "player": "Troy Murphy",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 11,
+      "player": "Troy Murphy",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 9,
+      "player": "Kurt Thomas",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Kurt Thomas",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Jamaal Tinsley",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Jamaal Tinsley",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Jamaal Tinsley",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 11,
+      "player": "Jamaal Tinsley",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 15,
+      "player": "Kurt Thomas",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Kurt Thomas",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Cuttino Mobley",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 95,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 63,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 47,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 26,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 12,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 8,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 20,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 7,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 78.9,
+    "rpg": 43.1,
+    "apg": 21.4,
+    "spg": 7.4,
+    "bpg": 3.4,
+    "topg": 13.1
    }
   },
   {
@@ -1897,18 +1914,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster13hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster13sched.htm",
    "record": {
-    "w": 0,
+    "w": 3,
     "l": 0
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 86.7,
+    "steals_per_game": 10.0,
+    "points_allowed_per_game": 78.0,
+    "rebounds_per_game": 49.0,
+    "assists_per_game": 22.7,
+    "blocks_per_game": 5.0,
+    "turnovers_per_game": 16.3,
+    "field_goal_pct": 0.454
    },
    "players": [],
    "cut_players": [],
@@ -1923,127 +1940,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 28,
+      "player": "Dwyane Wade",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 22,
+      "player": "Dwyane Wade",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 13,
+      "player": "Dwyane Wade",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 12,
+      "player": "Dwyane Wade",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Dwyane Wade",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Michael Redd",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Michael Redd",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Sean Marks",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 9,
+      "player": "Dwyane Wade",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 14,
+      "player": "Antonio McDyess",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Andris Biedrins",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Sean Marks",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 95,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 72,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 52,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 24,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 12,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 7,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 19,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 5,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 86.7,
+    "rpg": 49.0,
+    "apg": 22.7,
+    "spg": 10.0,
+    "bpg": 5.0,
+    "topg": 16.3
    }
   },
   {
@@ -2054,18 +2071,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster14hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster14sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 2,
+    "l": 4
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 88.5,
+    "steals_per_game": 7.3,
+    "points_allowed_per_game": 90.7,
+    "rebounds_per_game": 46.0,
+    "assists_per_game": 21.5,
+    "blocks_per_game": 1.8,
+    "turnovers_per_game": 13.7,
+    "field_goal_pct": 0.446
    },
    "players": [],
    "cut_players": [],
@@ -2080,127 +2097,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 31,
+      "player": "Paul Pierce",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 22,
+      "player": "Paul Pierce",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 10,
+      "player": "Paul Pierce",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 14,
+      "player": "Carlos Boozer",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 11,
+      "player": "Carlos Boozer",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Paul Pierce",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Paul Pierce",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Sebastian Telfair",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Paul Pierce",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 15,
+      "player": "Carlos Boozer",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 2,
+      "player": "Eddy Curry",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Ricky Davis",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 102,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 78,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 54,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 30,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 14,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 3,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 16,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 7,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 88.5,
+    "rpg": 46.0,
+    "apg": 21.5,
+    "spg": 7.3,
+    "bpg": 1.8,
+    "topg": 13.7
    }
   },
   {
@@ -2212,17 +2229,17 @@
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster15sched.htm",
    "record": {
     "w": 0,
-    "l": 0
+    "l": 5
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 81.6,
+    "steals_per_game": 9.8,
+    "points_allowed_per_game": 94.8,
+    "rebounds_per_game": 47.2,
+    "assists_per_game": 22.8,
+    "blocks_per_game": 6.4,
+    "turnovers_per_game": 16.6,
+    "field_goal_pct": 0.414
    },
    "players": [],
    "cut_players": [],
@@ -2237,127 +2254,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 26,
+      "player": "Gerald Wallace",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 19,
+      "player": "Gerald Wallace",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 10,
+      "player": "Gerald Wallace",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 11,
+      "player": "Gerald Wallace",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Lorenzen Wright",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Andre Iguodala",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 2,
+      "player": "Andre Iguodala",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Brevin Knight",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 11,
+      "player": "Brevin Knight",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 16,
+      "player": "Gerald Wallace",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Gerald Wallace",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Brevin Knight",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 90,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 86,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 60,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 26,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 12,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 10,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 20,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 2,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 81.6,
+    "rpg": 47.2,
+    "apg": 22.8,
+    "spg": 9.8,
+    "bpg": 6.4,
+    "topg": 16.6
    }
   },
   {
@@ -2368,18 +2385,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster16hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster16sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 4,
+    "l": 3
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 84.6,
+    "steals_per_game": 7.9,
+    "points_allowed_per_game": 73.7,
+    "rebounds_per_game": 47.7,
+    "assists_per_game": 22.1,
+    "blocks_per_game": 7.7,
+    "turnovers_per_game": 13.4,
+    "field_goal_pct": 0.443
    },
    "players": [],
    "cut_players": [],
@@ -2394,127 +2411,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 31,
+      "player": "Elton Brand",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 26,
+      "player": "Elton Brand",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 13,
+      "player": "Elton Brand",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 12,
+      "player": "Elton Brand",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 11,
+      "player": "Elton Brand",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Jason Terry",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Andrei Kirilenko",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Jason Terry",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Jason Terry",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 15,
+      "player": "Zydrunas Ilgauskas",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Elton Brand",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Derek Fisher",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 104,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 52,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 54,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 30,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 15,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 12,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 23,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 6,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 84.6,
+    "rpg": 47.7,
+    "apg": 22.1,
+    "spg": 7.9,
+    "bpg": 7.7,
+    "topg": 13.4
    }
   },
   {
@@ -2525,23 +2542,29 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster17hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster17sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 4,
+    "l": 3
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 91.6,
+    "steals_per_game": 9.3,
+    "points_allowed_per_game": 88.1,
+    "rebounds_per_game": 47.1,
+    "assists_per_game": 22.4,
+    "blocks_per_game": 4.9,
+    "turnovers_per_game": 13.9,
+    "field_goal_pct": 0.439
    },
    "players": [],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [],
+   "injuries": [
+    {
+     "name": "Steve Nash",
+     "injury": "Sprained Ankle",
+     "duration": 1
+    }
+   ],
    "history": {
     "team_information": {
      "championships": 0,
@@ -2551,127 +2574,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 43,
+      "player": "Ray Allen",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 27,
+      "player": "Ray Allen",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 16,
+      "player": "Ray Allen",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 14,
+      "player": "Kenyon Martin",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 10,
+      "player": "Kenyon Martin",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Steve Nash",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Ray Allen",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Ray Allen",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 16,
+      "player": "Steve Nash",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 13,
+      "player": "Chris Andersen",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Chris Andersen",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Steve Nash",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 103,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 67,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 56,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 28,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 14,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 8,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 18,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 8,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 91.6,
+    "rpg": 47.1,
+    "apg": 22.4,
+    "spg": 9.3,
+    "bpg": 4.9,
+    "topg": 13.9
    }
   },
   {
@@ -2682,18 +2705,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster18hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster18sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 1,
+    "l": 7
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 78.4,
+    "steals_per_game": 7.3,
+    "points_allowed_per_game": 95.1,
+    "rebounds_per_game": 44.6,
+    "assists_per_game": 19.9,
+    "blocks_per_game": 3.9,
+    "turnovers_per_game": 15.5,
+    "field_goal_pct": 0.406
    },
    "players": [],
    "cut_players": [],
@@ -2708,127 +2731,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 29,
+      "player": "Josh Howard",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 28,
+      "player": "Josh Howard",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 12,
+      "player": "Josh Howard",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Josh Howard",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "John Salmons",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 9,
+      "player": "John Salmons",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Josh Howard",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Shaun Livingston",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Shaun Livingston",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 13,
+      "player": "Josh Howard",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Stromile Swift",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Chris Wilcox",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 85,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 74,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 51,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 22,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 10,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 5,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 19,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 8,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 78.4,
+    "rpg": 44.6,
+    "apg": 19.9,
+    "spg": 7.3,
+    "bpg": 3.9,
+    "topg": 15.5
    }
   },
   {
@@ -2839,23 +2862,29 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster19hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster19sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 2,
+    "l": 6
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 85.1,
+    "steals_per_game": 9.8,
+    "points_allowed_per_game": 88.3,
+    "rebounds_per_game": 48.3,
+    "assists_per_game": 17.6,
+    "blocks_per_game": 5.8,
+    "turnovers_per_game": 17.1,
+    "field_goal_pct": 0.416
    },
    "players": [],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [],
+   "injuries": [
+    {
+     "name": "Jermaine O'Neal",
+     "injury": "Groin Pull",
+     "duration": 5
+    }
+   ],
    "history": {
     "team_information": {
      "championships": 0,
@@ -2865,127 +2894,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 25,
+      "player": "Jermaine O'Neal",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 19,
+      "player": "Tyson Chandler",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Caron Butler",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 12,
+      "player": "Jermaine O'Neal",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 11,
+      "player": "Jermaine O'Neal",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Mo Williams",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Caron Butler",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Jermaine O'Neal",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Mo Williams",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 16,
+      "player": "Etan Thomas",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Jermaine O'Neal",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Mo Williams",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 102,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 75,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 53,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 26,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 11,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 8,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 19,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 5,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 85.1,
+    "rpg": 48.3,
+    "apg": 17.6,
+    "spg": 9.8,
+    "bpg": 5.8,
+    "topg": 17.1
    }
   },
   {
@@ -2996,18 +3025,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster20hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster20sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 4,
+    "l": 4
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 91.8,
+    "steals_per_game": 7.1,
+    "points_allowed_per_game": 90.9,
+    "rebounds_per_game": 49.9,
+    "assists_per_game": 17.5,
+    "blocks_per_game": 3.8,
+    "turnovers_per_game": 16.4,
+    "field_goal_pct": 0.447
    },
    "players": [],
    "cut_players": [],
@@ -3022,127 +3051,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 31,
+      "player": "Amar'e Stoudemire",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 21,
+      "player": "Amar'e Stoudemire",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 11,
+      "player": "Amar'e Stoudemire",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 14,
+      "player": "Amar'e Stoudemire",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 10,
+      "player": "Amar'e Stoudemire",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Monta Ellis",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Monta Ellis",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Amar'e Stoudemire",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Nate Robinson",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 14,
+      "player": "Amar'e Stoudemire",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Samuel Dalembert",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Amar'e Stoudemire",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 99,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 84,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 56,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 22,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 13,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 5,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 19,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 6,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 91.8,
+    "rpg": 49.9,
+    "apg": 17.5,
+    "spg": 7.1,
+    "bpg": 3.8,
+    "topg": 16.4
    }
   },
   {
@@ -3153,23 +3182,29 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster21hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster21sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 4,
+    "l": 3
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 82.4,
+    "steals_per_game": 9.9,
+    "points_allowed_per_game": 82.3,
+    "rebounds_per_game": 43.7,
+    "assists_per_game": 23.6,
+    "blocks_per_game": 4.1,
+    "turnovers_per_game": 12.1,
+    "field_goal_pct": 0.435
    },
    "players": [],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [],
+   "injuries": [
+    {
+     "name": "Alonzo Mourning",
+     "injury": "Bruised Jaw",
+     "duration": 6
+    }
+   ],
    "history": {
     "team_information": {
      "championships": 0,
@@ -3179,127 +3214,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 28,
+      "player": "Ron Artest",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 26,
+      "player": "Ron Artest",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 13,
+      "player": "Ron Artest",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 9,
+      "player": "Ron Artest",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Ron Artest",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Jason Kidd",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Jason Kidd",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Alonzo Mourning",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 14,
+      "player": "Jason Kidd",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 11,
+      "player": "Reggie Evans",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Robert Horry",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Ron Artest",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 102,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 70,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 48,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 30,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 14,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 8,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 15,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 8,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 82.4,
+    "rpg": 43.7,
+    "apg": 23.6,
+    "spg": 9.9,
+    "bpg": 4.1,
+    "topg": 12.1
    }
   },
   {
@@ -3310,18 +3345,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster22hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster22sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 1,
+    "l": 5
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 79.8,
+    "steals_per_game": 8.5,
+    "points_allowed_per_game": 82.5,
+    "rebounds_per_game": 47.0,
+    "assists_per_game": 19.5,
+    "blocks_per_game": 4.0,
+    "turnovers_per_game": 17.7,
+    "field_goal_pct": 0.42
    },
    "players": [],
    "cut_players": [],
@@ -3336,127 +3371,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 29,
+      "player": "Luol Deng",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 20,
+      "player": "Luol Deng",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 12,
+      "player": "Luol Deng",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 10,
+      "player": "Andrew Bogut",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 9,
+      "player": "Andrew Bogut",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Beno Udrih",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 2,
+      "player": "Luol Deng",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Luol Deng",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Marko Jaric",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 14,
+      "player": "Andrew Bogut",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Hamed Haddadi",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Marko Jaric",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 90,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 71,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 50,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 25,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 10,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 8,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 28,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 5,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 79.8,
+    "rpg": 47.0,
+    "apg": 19.5,
+    "spg": 8.5,
+    "bpg": 4.0,
+    "topg": 17.7
    }
   },
   {
@@ -3467,18 +3502,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster23hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster23sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 2,
+    "l": 5
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 90.9,
+    "steals_per_game": 7.4,
+    "points_allowed_per_game": 100.9,
+    "rebounds_per_game": 48.3,
+    "assists_per_game": 17.9,
+    "blocks_per_game": 4.1,
+    "turnovers_per_game": 15.3,
+    "field_goal_pct": 0.432
    },
    "players": [],
    "cut_players": [],
@@ -3493,127 +3528,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 25,
+      "player": "Rasheed Wallace",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 20,
+      "player": "Rasheed Wallace",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 10,
+      "player": "Rasheed Wallace",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 10,
+      "player": "Rasheed Wallace",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Rasheed Wallace",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Danny Granger",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Jamal Crawford",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Danny Granger",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Deron Williams",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 13,
+      "player": "Drew Gooden",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Danny Granger",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Deron Williams",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 97,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 80,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 53,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 22,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 11,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 6,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 20,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 7,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 90.9,
+    "rpg": 48.3,
+    "apg": 17.9,
+    "spg": 7.4,
+    "bpg": 4.1,
+    "topg": 15.3
    }
   },
   {
@@ -3624,18 +3659,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster24hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster24sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 4,
+    "l": 4
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 91.6,
+    "steals_per_game": 8.0,
+    "points_allowed_per_game": 91.4,
+    "rebounds_per_game": 48.5,
+    "assists_per_game": 17.4,
+    "blocks_per_game": 5.1,
+    "turnovers_per_game": 15.4,
+    "field_goal_pct": 0.451
    },
    "players": [],
    "cut_players": [],
@@ -3650,127 +3685,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 37,
+      "player": "Chris Bosh",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 27,
+      "player": "Chris Bosh",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 15,
+      "player": "Chris Bosh",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 12,
+      "player": "Chris Bosh",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 10,
+      "player": "Chris Bosh",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Raymond Felton",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 2,
+      "player": "Tony Delk",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Chris Bosh",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 11,
+      "player": "Raymond Felton",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 16,
+      "player": "Chris Bosh",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Eddie Griffin",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Chris Bosh",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 115,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 80,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 61,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 21,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 11,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 9,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 19,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 4,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 91.6,
+    "rpg": 48.5,
+    "apg": 17.4,
+    "spg": 8.0,
+    "bpg": 5.1,
+    "topg": 15.4
    }
   },
   {
@@ -3781,18 +3816,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster25hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster25sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 7,
+    "l": 3
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 100.4,
+    "steals_per_game": 9.9,
+    "points_allowed_per_game": 87.5,
+    "rebounds_per_game": 49.7,
+    "assists_per_game": 20.8,
+    "blocks_per_game": 4.6,
+    "turnovers_per_game": 14.1,
+    "field_goal_pct": 0.473
    },
    "players": [],
    "cut_players": [],
@@ -3807,127 +3842,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 38,
+      "player": "Allen Iverson",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 25,
+      "player": "Allen Iverson",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 14,
+      "player": "Allen Iverson",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 14,
+      "player": "Tim Duncan",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 10,
+      "player": "Allen Iverson",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Allen Iverson",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Allen Iverson",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Allen Iverson",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 13,
+      "player": "Allen Iverson",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 17,
+      "player": "Tim Duncan",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Tim Duncan",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Allen Iverson",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 116,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 75,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 62,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 29,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 16,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 10,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 19,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 7,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 100.4,
+    "rpg": 49.7,
+    "apg": 20.8,
+    "spg": 9.9,
+    "bpg": 4.6,
+    "topg": 14.1
    }
   },
   {
@@ -3938,23 +3973,29 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster26hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster26sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 4,
+    "l": 2
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 85.5,
+    "steals_per_game": 8.5,
+    "points_allowed_per_game": 85.3,
+    "rebounds_per_game": 45.7,
+    "assists_per_game": 20.7,
+    "blocks_per_game": 3.2,
+    "turnovers_per_game": 14.8,
+    "field_goal_pct": 0.451
    },
    "players": [],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [],
+   "injuries": [
+    {
+     "name": "Rashard Lewis",
+     "injury": "Broken Nose",
+     "duration": 1
+    }
+   ],
    "history": {
     "team_information": {
      "championships": 0,
@@ -3964,127 +4005,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 25,
+      "player": "Kevin Martin",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 18,
+      "player": "Chauncey Billups",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 9,
+      "player": "Rashard Lewis",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Chauncey Billups",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Kevin Martin",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Kevin Martin",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 2,
+      "player": "Rashard Lewis",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Chauncey Billups",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 11,
+      "player": "Chauncey Billups",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 13,
+      "player": "Brendan Haywood",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Brendan Haywood",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Kevin Martin",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 105,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 69,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 50,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 26,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 14,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 5,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 17,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 4,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 85.5,
+    "rpg": 45.7,
+    "apg": 20.7,
+    "spg": 8.5,
+    "bpg": 3.2,
+    "topg": 14.8
    }
   },
   {
@@ -4095,23 +4136,34 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster27hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster27sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 3,
+    "l": 5
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 84.9,
+    "steals_per_game": 8.1,
+    "points_allowed_per_game": 90.6,
+    "rebounds_per_game": 50.1,
+    "assists_per_game": 18.8,
+    "blocks_per_game": 5.5,
+    "turnovers_per_game": 15.8,
+    "field_goal_pct": 0.435
    },
    "players": [],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [],
+   "injuries": [
+    {
+     "name": "Francisco Elson",
+     "injury": "Pinched Nerve",
+     "duration": 9
+    },
+    {
+     "name": "Raja Bell",
+     "injury": "Broken Finger",
+     "duration": 2
+    }
+   ],
    "history": {
     "team_information": {
      "championships": 0,
@@ -4121,127 +4173,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 27,
+      "player": "Dwight Howard",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 26,
+      "player": "Dwight Howard",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 13,
+      "player": "Bonzi Wells",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 11,
+      "player": "Dwight Howard",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Jameer Nelson",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Steve Blake",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Steve Blake",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Bonzi Wells",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 12,
+      "player": "Jameer Nelson",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 18,
+      "player": "Dwight Howard",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Dwight Howard",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 6,
+      "player": "Jameer Nelson",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 104,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 71,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 66,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 25,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 12,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 9,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 23,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 5,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 84.9,
+    "rpg": 50.1,
+    "apg": 18.8,
+    "spg": 8.1,
+    "bpg": 5.5,
+    "topg": 15.8
    }
   },
   {
@@ -4252,18 +4304,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster28hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster28sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 6,
+    "l": 1
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 95.1,
+    "steals_per_game": 10.0,
+    "points_allowed_per_game": 82.7,
+    "rebounds_per_game": 49.9,
+    "assists_per_game": 21.9,
+    "blocks_per_game": 6.3,
+    "turnovers_per_game": 13.1,
+    "field_goal_pct": 0.452
    },
    "players": [],
    "cut_players": [],
@@ -4278,127 +4330,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 37,
+      "player": "Shawn Marion",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 31,
+      "player": "Shawn Marion",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 15,
+      "player": "Shawn Marion",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 13,
+      "player": "Antawn Jamison",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 7,
+      "player": "Shawn Marion",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Shawn Marion",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Antawn Jamison",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Bobby Jackson",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 9,
+      "player": "Andre Miller",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 16,
+      "player": "Marcus Camby",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Marcus Camby",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 9,
+      "player": "Shawn Marion",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 105,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 69,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 56,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 28,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 13,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 9,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 24,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 7,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 95.1,
+    "rpg": 49.9,
+    "apg": 21.9,
+    "spg": 10.0,
+    "bpg": 6.3,
+    "topg": 13.1
    }
   },
   {
@@ -4409,18 +4461,18 @@
    "history_url": "https://simba.mygamesonline.org/rosters/roster29hist.htm",
    "schedule_url": "https://simba.mygamesonline.org/rosters/roster29sched.htm",
    "record": {
-    "w": 0,
-    "l": 0
+    "w": 2,
+    "l": 4
    },
    "yearly_stats": {
-    "points_per_game": 0.0,
-    "steals_per_game": 0.0,
-    "points_allowed_per_game": 0.0,
-    "rebounds_per_game": 0.0,
-    "assists_per_game": 0.0,
-    "blocks_per_game": 0.0,
-    "turnovers_per_game": 0.0,
-    "field_goal_pct": 0.0
+    "points_per_game": 85.5,
+    "steals_per_game": 8.2,
+    "points_allowed_per_game": 96.0,
+    "rebounds_per_game": 47.8,
+    "assists_per_game": 19.8,
+    "blocks_per_game": 3.5,
+    "turnovers_per_game": 15.3,
+    "field_goal_pct": 0.409
    },
    "players": [],
    "cut_players": [],
@@ -4435,127 +4487,127 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 38,
+      "player": "Richard Jefferson",
+      "season": 2005
      },
      {
       "category": "FGA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 28,
+      "player": "Tony Parker",
+      "season": 2005
      },
      {
       "category": "FG",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 16,
+      "player": "Richard Jefferson",
+      "season": 2005
      },
      {
       "category": "FTA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 12,
+      "player": "Tony Parker",
+      "season": 2005
      },
      {
       "category": "FT",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 8,
+      "player": "Tony Parker",
+      "season": 2005
      },
      {
       "category": "3PA",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 5,
+      "player": "Richard Jefferson",
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 2,
+      "player": "Richard Jefferson",
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 4,
+      "player": "Tony Parker",
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 11,
+      "player": "Tony Parker",
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 12,
+      "player": "Nene Hilario",
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 3,
+      "player": "Donyell Marshall",
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "player": "N/A",
-      "season": 0
+      "record": 9,
+      "player": "Tony Parker",
+      "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 0,
-      "season": 0
+      "record": 99,
+      "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 1000,
-      "season": 0
+      "record": 73,
+      "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 0,
-      "season": 0
+      "record": 56,
+      "season": 2005
      },
      {
       "category": "Assists",
-      "record": 0,
-      "season": 0
+      "record": 26,
+      "season": 2005
      },
      {
       "category": "Steals",
-      "record": 0,
-      "season": 0
+      "record": 14,
+      "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 0,
-      "season": 0
+      "record": 6,
+      "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 0,
-      "season": 0
+      "record": 20,
+      "season": 2005
      },
      {
       "category": "3P",
-      "record": 0,
-      "season": 0
+      "record": 5,
+      "season": 2005
      }
     ]
    },
    "team_stats": {
-    "ppg": 0.0,
-    "rpg": 0.0,
-    "apg": 0.0,
-    "spg": 0.0,
-    "bpg": 0.0,
-    "topg": 0.0
+    "ppg": 85.5,
+    "rpg": 47.8,
+    "apg": 19.8,
+    "spg": 8.2,
+    "bpg": 3.5,
+    "topg": 15.3
    }
   }
  ]
