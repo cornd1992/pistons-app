@@ -471,9 +471,94 @@ function vAnalytics(){
    ${rows.length>150?'<p class="note small">Showing first 150 — refine filters.</p>':''}</div>`;
   return h;
 }
+function shareMiss(v,fmt){return v==null||!isFinite(+v)?'Unavailable':fmt(v);}
+function shareCardModel(id){
+  const A=advCompute(),x=A.pl.find(y=>y.id===+id);if(!x)return null;
+  const b=x.b||{},played=x.g>0,shot=!!b.has_shooting&&played;
+  const rate=(v,fmt)=>played?shareMiss(v,fmt):'Unavailable';
+  const tiles=[
+    ['GP',x.g==null?'Unavailable':String(Math.round(x.g))],
+    ['MIN',rate(x.mpg,f1)],['PTS',rate(b.ppg,f1)],['REB',rate(b.rpg,f1)],['AST',rate(b.apg,f1)],
+    ['STL',rate(b.spg,f1)],['BLK',rate(b.bpg,f1)],['TO',rate(b.topg,f1)],
+    ['TS%',shot?shareMiss(x.ts,p1):'Unavailable'],['eFG%',shot?shareMiss(x.efg,p1):'Unavailable'],
+    ['USG%*',shot?shareMiss(x.usg,f1):'Unavailable'],['AST/TO',played?shareMiss(x.ato,f2):'Unavailable'],
+    ['PTS/36',played&&x.mpg>0?shareMiss(x.p36('ppg'),f1):'Unavailable'],
+    ['GmSc',shot?shareMiss(x.gs,f1):'Unavailable'],
+    ['PER-lite*',played?shareMiss(x.per,f1):'Unavailable'],
+    ['Win shares*',played?shareMiss(x.ws,f2):'Unavailable'],
+    ['WS/$1M*',played?shareMiss(x.wsm,f2):'Unavailable'],
+    ['FGA',shot?shareMiss(b.fga,f1):'Unavailable'],['FGM',shot?shareMiss(b.fgm,f1):'Unavailable'],
+    ['FTA',shot?shareMiss(b.fta,f1):'Unavailable']];
+  const ca=B.meta&&B.meta.crawled_at;
+  let asof='unknown';
+  if(ca){const d=new Date(ca);asof=isNaN(d)?String(ca):d.toLocaleString('en-US',{dateStyle:'medium',timeStyle:'short'});}
+  const file=(String(x.name||'player').normalize('NFKD').replace(/[^A-Za-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,48)||'player')+'-analytics.png';
+  return {name:x.name,team:x.team,pos:x.pos||'',gp:x.g,tiles,asof,source:'simba.mygamesonline.org',file};
+}
+function paintShareCanvas(m){
+  const W=1080,pad=48,gap=16,cols=2,tileH=132,head=300,foot=150;
+  const rows=Math.ceil(m.tiles.length/cols);
+  const H=head+rows*(tileH+gap)+foot;
+  const c=document.createElement('canvas');c.width=W;c.height=H;
+  const g=c.getContext('2d');
+  g.fillStyle='#0b0c10';g.fillRect(0,0,W,H);
+  const glow=g.createRadialGradient(0,0,40,0,0,640);glow.addColorStop(0,'rgba(200,16,46,.45)');glow.addColorStop(1,'rgba(200,16,46,0)');
+  g.fillStyle=glow;g.fillRect(0,0,W,420);
+  g.fillStyle='#c8102e';g.beginPath();g.arc(pad+36,88,36,0,Math.PI*2);g.fill();
+  g.fillStyle='#fff';g.font='800 22px system-ui,sans-serif';g.textAlign='center';g.fillText('DET',pad+36,96);
+  g.textAlign='left';
+  let ns=64;g.font='800 '+ns+'px system-ui,sans-serif';
+  while(ns>34&&g.measureText(m.name).width>W-pad*2){ns-=2;g.font='800 '+ns+'px system-ui,sans-serif';}
+  g.fillText(m.name,pad,200);
+  g.font='600 28px system-ui,sans-serif';g.fillStyle='#c5ccd8';
+  g.fillText([m.pos,m.team,m.gp==null?'':'GP '+Math.round(m.gp)].filter(Boolean).join('  ·  '),pad,250);
+  const pal=[['#3a1220','#1a1c24'],['#1c2d52','#151820'],['#3a2a12','#18160f'],['#143226','#121814']];
+  const tw=(W-pad*2-gap)/cols;
+  m.tiles.forEach((t,i)=>{
+    const col=i%cols,row=(i/cols)|0,x=pad+col*(tw+gap),y=head+row*(tileH+gap);
+    const gr=g.createLinearGradient(x,y,x,y+tileH);gr.addColorStop(0,pal[i%4][0]);gr.addColorStop(1,pal[i%4][1]);
+    g.fillStyle=gr;roundRect(g,x,y,tw,tileH,22);g.fill();
+    g.strokeStyle='rgba(255,255,255,.12)';g.lineWidth=2;roundRect(g,x,y,tw,tileH,22);g.stroke();
+    g.fillStyle='#fff';
+    let vs=42;g.font='800 '+vs+'px system-ui,sans-serif';
+    while(vs>22&&g.measureText(String(t[1])).width>tw-44){vs-=2;g.font='800 '+vs+'px system-ui,sans-serif';}
+    g.fillText(String(t[1]),x+22,y+62);
+    g.fillStyle='#d5dbe6';g.font='700 20px system-ui,sans-serif';g.fillText(t[0],x+22,y+100);
+  });
+  g.fillStyle='#9aa3b5';g.font='500 22px system-ui,sans-serif';
+  const fy=H-88;
+  g.fillText('Data as of '+m.asof,pad,fy);
+  g.fillText('Source: '+m.source+' box scores · * = estimate, not official PER or win shares',pad,fy+34);
+  return c;
+}
+function roundRect(g,x,y,w,h,r){g.beginPath();g.moveTo(x+r,y);g.arcTo(x+w,y,x+w,y+h,r);g.arcTo(x+w,y+h,x,y+h,r);g.arcTo(x,y+h,x,y,r);g.arcTo(x,y,x+w,y,r);g.closePath();}
+function shareFileName(m){return m.file;}
+function showSharePreview(url,name){
+  const old=document.getElementById('shareprev');if(old)old.remove();
+  const d=document.createElement('div');d.className='shareprev';d.id='shareprev';
+  d.innerHTML=`<div class="sheet" role="dialog" aria-label="Save analytics image"><img alt="Analytics card" src="${url}"><p class="note">Long-press the image to save it on iPhone, or download the PNG.</p><div class="rowbtns"><a id="sharedl" download="${esc(name)}">Download PNG</a><button type="button" class="ghost" id="sharex">Close</button></div></div>`;
+  document.body.appendChild(d);
+  d.querySelector('#sharedl').href=url;
+  d.querySelector('#sharex').onclick=()=>{URL.revokeObjectURL(url);d.remove();};
+  d.addEventListener('click',e=>{if(e.target===d){URL.revokeObjectURL(url);d.remove();}});
+}
+async function saveAnalyticsImage(id){
+  const m=shareCardModel(id);if(!m)return;
+  const canvas=paintShareCanvas(m);
+  const blob=await new Promise(res=>canvas.toBlob(res,'image/png'));
+  if(!blob)return;
+  const file=new File([blob],m.file,{type:'image/png'});
+  if(navigator.share&&navigator.canShare&&navigator.canShare({files:[file]})){
+    try{await navigator.share({files:[file],title:m.name+' analytics'});return;}
+    catch(e){if(e&&e.name==='AbortError')return;}
+  }
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');a.href=url;a.download=m.file;document.body.appendChild(a);a.click();a.remove();
+  showSharePreview(url,m.file);
+}
 function anCard(A,id){const x=A.pl.find(y=>y.id===id);if(!x){const p=B.pById.get(id);return p?`<div class="card"><h2>${plink(p.name,p.player_id)}</h2>${empty('Not on a team roster','Advanced stats cover rostered players only.')}</div>`:'';}
   const b=x.b,k=(v,l)=>`<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`;
-  let h=`<div class="card" id="acard"><h2>${plink(x.name,x.id)} <span><span class="chip blue">${esc(x.pos)}</span><button class="ghost" id="aclose" style="min-height:36px">✕</button></span></h2><div class="note">${esc(x.team)} · ${x.sal?mm(x.sal)+' this yr':'no salary listed'} · <a href="#players/${x.id}">Profile ›</a></div>`;
+  let h=`<div class="card" id="acard"><h2>${plink(x.name,x.id)} <span><span class="chip blue">${esc(x.pos)}</span><button class="ghost" id="aclose" style="min-height:36px">✕</button></span></h2><div class="note">${esc(x.team)} · ${x.sal?mm(x.sal)+' this yr':'no salary listed'} · <a href="#players/${x.id}">Profile ›</a></div><button type="button" class="sharebtn" id="ashare" data-id="${x.id}">Save / Share image</button>`;
   if(!x.g) return h+empty('No games played yet','This card fills in after the first games.')+'</div>';
   h+=`<h3>Efficiency</h3><div class="kpis">${k(p1(x.ts),'True shooting')}${k(p1(x.efg),'Effective FG%')}${k(f1(x.usg),'Usage rate*')}${k(f2(x.ato),'AST/TO')}${k(f1(x.gs),'Game Score / g')}${k(f1(x.per),'PER-lite*')}${k(f2(x.ws),'Win shares*')}${k(f2(x.wsm),'WS per $1M*')}${k(f2(x.effm),'EFF per $1M*')}${k(f1(x.eff),'EFF / g*')}</div>`;
   const keys=[['ppg','PTS'],['rpg','REB'],['apg','AST'],['spg','STL'],['bpg','BLK'],['topg','TO'],['fgm','FGM'],['fga','FGA'],['tpm','3PM'],['tpa','3PA'],['ftm','FTM'],['fta','FTA']];
@@ -966,6 +1051,7 @@ function bind(){
     on('aq','input',e=>{A.q=e.target.value;rerender(true);});
     on('ateam','change',e=>{A.team=e.target.value;rerender();});on('apos','change',e=>{A.pos=e.target.value;rerender();});on('amin','change',e=>{A.min=+e.target.value;rerender();});
     on('aclose','click',()=>{location.hash='analytics';});
+    on('ashare','click',e=>{saveAnalyticsImage(+e.currentTarget.dataset.id);});
     on('cmp1','change',e=>{A.c1=+e.target.value;rerender();});on('cmp2','change',e=>{A.c2=+e.target.value;rerender();});
     document.querySelectorAll('table[data-id=adv] th').forEach(th=>th.addEventListener('click',()=>{const k=th.dataset.k;if(A.sort===k)A.dir*=-1;else{A.sort=k;A.dir=['name','team','pos'].includes(k)?1:-1;}rerender();}));
     document.querySelectorAll('table[data-id=ateams] th').forEach(th=>th.addEventListener('click',()=>{const k=th.dataset.k;if(A.tsort===k)A.tdir=-(A.tdir||-1);else{A.tsort=k;A.tdir=k==='team'||k==='drtg'||k==='l'?1:-1;}rerender();}));
