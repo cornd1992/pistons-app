@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-07T16:22:45Z",
-  "parsed_at": "2026-11-07T16:22:57Z"
+  "crawled_at": "2026-11-08T16:51:46Z",
+  "parsed_at": "2026-11-08T16:51:59Z"
  },
  "league_ir": [
   {
@@ -601,6 +601,7 @@
   "1": [
    {
     "name": "Andrew Bynum",
+    "player_id": 172,
     "injury": "Severe Migraines",
     "duration": 5
    }
@@ -608,11 +609,13 @@
   "3": [
    {
     "name": "Anthony Carter",
+    "player_id": 181,
     "injury": "Fractured Arm",
     "duration": 29
    },
    {
     "name": "Rasual Butler",
+    "player_id": 171,
     "injury": "Concussion",
     "duration": 3
    }
@@ -620,6 +623,7 @@
   "17": [
    {
     "name": "Steve Nash",
+    "player_id": 454,
     "injury": "Sprained Ankle",
     "duration": 1
    }
@@ -627,6 +631,7 @@
   "19": [
    {
     "name": "Jermaine O'Neal",
+    "player_id": 469,
     "injury": "Groin Pull",
     "duration": 5
    }
@@ -634,6 +639,7 @@
   "21": [
    {
     "name": "Alonzo Mourning",
+    "player_id": 446,
     "injury": "Bruised Jaw",
     "duration": 6
    }
@@ -641,6 +647,7 @@
   "26": [
    {
     "name": "Rashard Lewis",
+    "player_id": 393,
     "injury": "Broken Nose",
     "duration": 1
    }
@@ -648,11 +655,13 @@
   "27": [
    {
     "name": "Francisco Elson",
+    "player_id": 235,
     "injury": "Pinched Nerve",
     "duration": 9
    },
    {
     "name": "Raja Bell",
+    "player_id": 131,
     "injury": "Broken Finger",
     "duration": 2
    }

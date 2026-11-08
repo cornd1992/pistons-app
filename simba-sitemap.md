@@ -1,6 +1,6 @@
 # Sitemap: simba.mygamesonline.org
 
-- **Crawl date:** 2026-11-07
+- **Crawl date:** 2026-11-08
 - **Pages found:** 1495
 - **Broken/errored links:** 3
 - **URLs fetched:** 1498
@@ -35,108 +35,108 @@
 - [Transactions](https://simba.mygamesonline.org/transactions.htm) `/transactions.htm`
 - [Weekly/Monthly Awards](https://simba.mygamesonline.org/wkly-mnthly.htm) `/wkly-mnthly.htm`
 - **boxes/** (112)
-  - [1-1.html](https://simba.mygamesonline.org/boxes/1-1.html) `/boxes/1-1.html`
-  - [1-10.html](https://simba.mygamesonline.org/boxes/1-10.html) `/boxes/1-10.html`
-  - [1-11.html](https://simba.mygamesonline.org/boxes/1-11.html) `/boxes/1-11.html`
-  - [1-12.html](https://simba.mygamesonline.org/boxes/1-12.html) `/boxes/1-12.html`
-  - [1-13.html](https://simba.mygamesonline.org/boxes/1-13.html) `/boxes/1-13.html`
-  - [1-14.html](https://simba.mygamesonline.org/boxes/1-14.html) `/boxes/1-14.html`
-  - [1-2.html](https://simba.mygamesonline.org/boxes/1-2.html) `/boxes/1-2.html`
-  - [1-3.html](https://simba.mygamesonline.org/boxes/1-3.html) `/boxes/1-3.html`
-  - [1-4.html](https://simba.mygamesonline.org/boxes/1-4.html) `/boxes/1-4.html`
-  - [1-5.html](https://simba.mygamesonline.org/boxes/1-5.html) `/boxes/1-5.html`
-  - [1-6.html](https://simba.mygamesonline.org/boxes/1-6.html) `/boxes/1-6.html`
-  - [1-7.html](https://simba.mygamesonline.org/boxes/1-7.html) `/boxes/1-7.html`
-  - [1-8.html](https://simba.mygamesonline.org/boxes/1-8.html) `/boxes/1-8.html`
-  - [1-9.html](https://simba.mygamesonline.org/boxes/1-9.html) `/boxes/1-9.html`
-  - [10-1.html](https://simba.mygamesonline.org/boxes/10-1.html) `/boxes/10-1.html`
-  - [10-10.html](https://simba.mygamesonline.org/boxes/10-10.html) `/boxes/10-10.html`
-  - [10-2.html](https://simba.mygamesonline.org/boxes/10-2.html) `/boxes/10-2.html`
-  - [10-3.html](https://simba.mygamesonline.org/boxes/10-3.html) `/boxes/10-3.html`
-  - [10-4.html](https://simba.mygamesonline.org/boxes/10-4.html) `/boxes/10-4.html`
-  - [10-5.html](https://simba.mygamesonline.org/boxes/10-5.html) `/boxes/10-5.html`
-  - [10-6.html](https://simba.mygamesonline.org/boxes/10-6.html) `/boxes/10-6.html`
-  - [10-7.html](https://simba.mygamesonline.org/boxes/10-7.html) `/boxes/10-7.html`
-  - [10-8.html](https://simba.mygamesonline.org/boxes/10-8.html) `/boxes/10-8.html`
-  - [10-9.html](https://simba.mygamesonline.org/boxes/10-9.html) `/boxes/10-9.html`
-  - [2-1.html](https://simba.mygamesonline.org/boxes/2-1.html) `/boxes/2-1.html`
-  - [2-10.html](https://simba.mygamesonline.org/boxes/2-10.html) `/boxes/2-10.html`
-  - [2-2.html](https://simba.mygamesonline.org/boxes/2-2.html) `/boxes/2-2.html`
-  - [2-3.html](https://simba.mygamesonline.org/boxes/2-3.html) `/boxes/2-3.html`
-  - [2-4.html](https://simba.mygamesonline.org/boxes/2-4.html) `/boxes/2-4.html`
-  - [2-5.html](https://simba.mygamesonline.org/boxes/2-5.html) `/boxes/2-5.html`
-  - [2-6.html](https://simba.mygamesonline.org/boxes/2-6.html) `/boxes/2-6.html`
-  - [2-7.html](https://simba.mygamesonline.org/boxes/2-7.html) `/boxes/2-7.html`
-  - [2-8.html](https://simba.mygamesonline.org/boxes/2-8.html) `/boxes/2-8.html`
-  - [2-9.html](https://simba.mygamesonline.org/boxes/2-9.html) `/boxes/2-9.html`
-  - [3-1.html](https://simba.mygamesonline.org/boxes/3-1.html) `/boxes/3-1.html`
-  - [3-10.html](https://simba.mygamesonline.org/boxes/3-10.html) `/boxes/3-10.html`
-  - [3-2.html](https://simba.mygamesonline.org/boxes/3-2.html) `/boxes/3-2.html`
-  - [3-3.html](https://simba.mygamesonline.org/boxes/3-3.html) `/boxes/3-3.html`
-  - [3-4.html](https://simba.mygamesonline.org/boxes/3-4.html) `/boxes/3-4.html`
-  - [3-5.html](https://simba.mygamesonline.org/boxes/3-5.html) `/boxes/3-5.html`
-  - [3-6.html](https://simba.mygamesonline.org/boxes/3-6.html) `/boxes/3-6.html`
-  - [3-7.html](https://simba.mygamesonline.org/boxes/3-7.html) `/boxes/3-7.html`
-  - [3-8.html](https://simba.mygamesonline.org/boxes/3-8.html) `/boxes/3-8.html`
-  - [3-9.html](https://simba.mygamesonline.org/boxes/3-9.html) `/boxes/3-9.html`
-  - [4-1.html](https://simba.mygamesonline.org/boxes/4-1.html) `/boxes/4-1.html`
-  - [4-2.html](https://simba.mygamesonline.org/boxes/4-2.html) `/boxes/4-2.html`
-  - [4-3.html](https://simba.mygamesonline.org/boxes/4-3.html) `/boxes/4-3.html`
-  - [4-4.html](https://simba.mygamesonline.org/boxes/4-4.html) `/boxes/4-4.html`
-  - [4-5.html](https://simba.mygamesonline.org/boxes/4-5.html) `/boxes/4-5.html`
-  - [4-6.html](https://simba.mygamesonline.org/boxes/4-6.html) `/boxes/4-6.html`
-  - [4-7.html](https://simba.mygamesonline.org/boxes/4-7.html) `/boxes/4-7.html`
-  - [4-8.html](https://simba.mygamesonline.org/boxes/4-8.html) `/boxes/4-8.html`
-  - [5-1.html](https://simba.mygamesonline.org/boxes/5-1.html) `/boxes/5-1.html`
-  - [5-2.html](https://simba.mygamesonline.org/boxes/5-2.html) `/boxes/5-2.html`
-  - [5-3.html](https://simba.mygamesonline.org/boxes/5-3.html) `/boxes/5-3.html`
-  - [5-4.html](https://simba.mygamesonline.org/boxes/5-4.html) `/boxes/5-4.html`
-  - [5-5.html](https://simba.mygamesonline.org/boxes/5-5.html) `/boxes/5-5.html`
-  - [5-6.html](https://simba.mygamesonline.org/boxes/5-6.html) `/boxes/5-6.html`
-  - [5-7.html](https://simba.mygamesonline.org/boxes/5-7.html) `/boxes/5-7.html`
-  - [5-8.html](https://simba.mygamesonline.org/boxes/5-8.html) `/boxes/5-8.html`
-  - [5-9.html](https://simba.mygamesonline.org/boxes/5-9.html) `/boxes/5-9.html`
-  - [6-1.html](https://simba.mygamesonline.org/boxes/6-1.html) `/boxes/6-1.html`
-  - [6-10.html](https://simba.mygamesonline.org/boxes/6-10.html) `/boxes/6-10.html`
-  - [6-2.html](https://simba.mygamesonline.org/boxes/6-2.html) `/boxes/6-2.html`
-  - [6-3.html](https://simba.mygamesonline.org/boxes/6-3.html) `/boxes/6-3.html`
-  - [6-4.html](https://simba.mygamesonline.org/boxes/6-4.html) `/boxes/6-4.html`
-  - [6-5.html](https://simba.mygamesonline.org/boxes/6-5.html) `/boxes/6-5.html`
-  - [6-6.html](https://simba.mygamesonline.org/boxes/6-6.html) `/boxes/6-6.html`
-  - [6-7.html](https://simba.mygamesonline.org/boxes/6-7.html) `/boxes/6-7.html`
-  - [6-8.html](https://simba.mygamesonline.org/boxes/6-8.html) `/boxes/6-8.html`
-  - [6-9.html](https://simba.mygamesonline.org/boxes/6-9.html) `/boxes/6-9.html`
-  - [7-1.html](https://simba.mygamesonline.org/boxes/7-1.html) `/boxes/7-1.html`
-  - [7-10.html](https://simba.mygamesonline.org/boxes/7-10.html) `/boxes/7-10.html`
-  - [7-2.html](https://simba.mygamesonline.org/boxes/7-2.html) `/boxes/7-2.html`
-  - [7-3.html](https://simba.mygamesonline.org/boxes/7-3.html) `/boxes/7-3.html`
-  - [7-4.html](https://simba.mygamesonline.org/boxes/7-4.html) `/boxes/7-4.html`
-  - [7-5.html](https://simba.mygamesonline.org/boxes/7-5.html) `/boxes/7-5.html`
-  - [7-6.html](https://simba.mygamesonline.org/boxes/7-6.html) `/boxes/7-6.html`
-  - [7-7.html](https://simba.mygamesonline.org/boxes/7-7.html) `/boxes/7-7.html`
-  - [7-8.html](https://simba.mygamesonline.org/boxes/7-8.html) `/boxes/7-8.html`
-  - [7-9.html](https://simba.mygamesonline.org/boxes/7-9.html) `/boxes/7-9.html`
-  - [8-1.html](https://simba.mygamesonline.org/boxes/8-1.html) `/boxes/8-1.html`
-  - [8-10.html](https://simba.mygamesonline.org/boxes/8-10.html) `/boxes/8-10.html`
-  - [8-11.html](https://simba.mygamesonline.org/boxes/8-11.html) `/boxes/8-11.html`
-  - [8-2.html](https://simba.mygamesonline.org/boxes/8-2.html) `/boxes/8-2.html`
-  - [8-3.html](https://simba.mygamesonline.org/boxes/8-3.html) `/boxes/8-3.html`
-  - [8-4.html](https://simba.mygamesonline.org/boxes/8-4.html) `/boxes/8-4.html`
-  - [8-5.html](https://simba.mygamesonline.org/boxes/8-5.html) `/boxes/8-5.html`
-  - [8-6.html](https://simba.mygamesonline.org/boxes/8-6.html) `/boxes/8-6.html`
-  - [8-7.html](https://simba.mygamesonline.org/boxes/8-7.html) `/boxes/8-7.html`
-  - [8-8.html](https://simba.mygamesonline.org/boxes/8-8.html) `/boxes/8-8.html`
-  - [8-9.html](https://simba.mygamesonline.org/boxes/8-9.html) `/boxes/8-9.html`
-  - [9-1.html](https://simba.mygamesonline.org/boxes/9-1.html) `/boxes/9-1.html`
-  - [9-10.html](https://simba.mygamesonline.org/boxes/9-10.html) `/boxes/9-10.html`
-  - [9-2.html](https://simba.mygamesonline.org/boxes/9-2.html) `/boxes/9-2.html`
-  - [9-3.html](https://simba.mygamesonline.org/boxes/9-3.html) `/boxes/9-3.html`
-  - [9-4.html](https://simba.mygamesonline.org/boxes/9-4.html) `/boxes/9-4.html`
-  - [9-5.html](https://simba.mygamesonline.org/boxes/9-5.html) `/boxes/9-5.html`
-  - [9-6.html](https://simba.mygamesonline.org/boxes/9-6.html) `/boxes/9-6.html`
-  - [9-7.html](https://simba.mygamesonline.org/boxes/9-7.html) `/boxes/9-7.html`
-  - [9-8.html](https://simba.mygamesonline.org/boxes/9-8.html) `/boxes/9-8.html`
-  - [9-9.html](https://simba.mygamesonline.org/boxes/9-9.html) `/boxes/9-9.html`
+  - [Day 1: Spurs vs. Celtics](https://simba.mygamesonline.org/boxes/1-1.html) `/boxes/1-1.html`
+  - [Day 1: Jazz vs. Suns](https://simba.mygamesonline.org/boxes/1-10.html) `/boxes/1-10.html`
+  - [Day 1: Pacers vs. Pistons](https://simba.mygamesonline.org/boxes/1-11.html) `/boxes/1-11.html`
+  - [Day 1: Rockets vs. Nets](https://simba.mygamesonline.org/boxes/1-12.html) `/boxes/1-12.html`
+  - [Day 1: Mavericks vs. Nuggets](https://simba.mygamesonline.org/boxes/1-13.html) `/boxes/1-13.html`
+  - [Day 1: Hornets vs. Knicks](https://simba.mygamesonline.org/boxes/1-14.html) `/boxes/1-14.html`
+  - [Day 1: Raptors vs. Bulls](https://simba.mygamesonline.org/boxes/1-2.html) `/boxes/1-2.html`
+  - [Day 1: Hawks vs. Heat](https://simba.mygamesonline.org/boxes/1-3.html) `/boxes/1-3.html`
+  - [Day 1: Timberwolves vs. Magic](https://simba.mygamesonline.org/boxes/1-4.html) `/boxes/1-4.html`
+  - [Day 1: Grizzlies vs. SuperSonics](https://simba.mygamesonline.org/boxes/1-5.html) `/boxes/1-5.html`
+  - [Day 1: Lakers vs. Wizards](https://simba.mygamesonline.org/boxes/1-6.html) `/boxes/1-6.html`
+  - [Day 1: Clippers vs. Bucks](https://simba.mygamesonline.org/boxes/1-7.html) `/boxes/1-7.html`
+  - [Day 1: 76ers vs. Trail Blazers](https://simba.mygamesonline.org/boxes/1-8.html) `/boxes/1-8.html`
+  - [Day 1: Warriors vs. Kings](https://simba.mygamesonline.org/boxes/1-9.html) `/boxes/1-9.html`
+  - [Day 10: Spurs vs. Bulls](https://simba.mygamesonline.org/boxes/10-1.html) `/boxes/10-1.html`
+  - [Day 10: Wizards vs. Heat](https://simba.mygamesonline.org/boxes/10-10.html) `/boxes/10-10.html`
+  - [Day 10: Hornets vs. Bucks](https://simba.mygamesonline.org/boxes/10-2.html) `/boxes/10-2.html`
+  - [Day 10: Cavaliers vs. Rockets](https://simba.mygamesonline.org/boxes/10-3.html) `/boxes/10-3.html`
+  - [Day 10: Celtics vs. Nuggets](https://simba.mygamesonline.org/boxes/10-4.html) `/boxes/10-4.html`
+  - [Day 10: Raptors vs. Kings](https://simba.mygamesonline.org/boxes/10-5.html) `/boxes/10-5.html`
+  - [Day 10: Nets vs. Mavericks](https://simba.mygamesonline.org/boxes/10-6.html) `/boxes/10-6.html`
+  - [Day 10: 76ers vs. Jazz](https://simba.mygamesonline.org/boxes/10-7.html) `/boxes/10-7.html`
+  - [Day 10: Pistons vs. Suns](https://simba.mygamesonline.org/boxes/10-8.html) `/boxes/10-8.html`
+  - [Day 10: Lakers vs. Timberwolves](https://simba.mygamesonline.org/boxes/10-9.html) `/boxes/10-9.html`
+  - [Day 2: Warriors vs. Hawks](https://simba.mygamesonline.org/boxes/2-1.html) `/boxes/2-1.html`
+  - [Day 2: Suns vs. Grizzlies](https://simba.mygamesonline.org/boxes/2-10.html) `/boxes/2-10.html`
+  - [Day 2: Mavericks vs. SuperSonics](https://simba.mygamesonline.org/boxes/2-2.html) `/boxes/2-2.html`
+  - [Day 2: Clippers vs. Spurs](https://simba.mygamesonline.org/boxes/2-3.html) `/boxes/2-3.html`
+  - [Day 2: Lakers vs. Kings](https://simba.mygamesonline.org/boxes/2-4.html) `/boxes/2-4.html`
+  - [Day 2: Trail Blazers vs. Knicks](https://simba.mygamesonline.org/boxes/2-5.html) `/boxes/2-5.html`
+  - [Day 2: Pistons vs. Pacers](https://simba.mygamesonline.org/boxes/2-6.html) `/boxes/2-6.html`
+  - [Day 2: Celtics vs. 76ers](https://simba.mygamesonline.org/boxes/2-7.html) `/boxes/2-7.html`
+  - [Day 2: Bucks vs. Wizards](https://simba.mygamesonline.org/boxes/2-8.html) `/boxes/2-8.html`
+  - [Day 2: Nuggets vs. Hornets](https://simba.mygamesonline.org/boxes/2-9.html) `/boxes/2-9.html`
+  - [Day 3: Nets vs. Hawks](https://simba.mygamesonline.org/boxes/3-1.html) `/boxes/3-1.html`
+  - [Day 3: Bucks vs. Knicks](https://simba.mygamesonline.org/boxes/3-10.html) `/boxes/3-10.html`
+  - [Day 3: Wizards vs. Mavericks](https://simba.mygamesonline.org/boxes/3-2.html) `/boxes/3-2.html`
+  - [Day 3: Bulls vs. Cavaliers](https://simba.mygamesonline.org/boxes/3-3.html) `/boxes/3-3.html`
+  - [Day 3: Pistons vs. Heat](https://simba.mygamesonline.org/boxes/3-4.html) `/boxes/3-4.html`
+  - [Day 3: Jazz vs. Spurs](https://simba.mygamesonline.org/boxes/3-5.html) `/boxes/3-5.html`
+  - [Day 3: Timberwolves vs. Rockets](https://simba.mygamesonline.org/boxes/3-6.html) `/boxes/3-6.html`
+  - [Day 3: Magic vs. Raptors](https://simba.mygamesonline.org/boxes/3-7.html) `/boxes/3-7.html`
+  - [Day 3: Celtics vs. Hornets](https://simba.mygamesonline.org/boxes/3-8.html) `/boxes/3-8.html`
+  - [Day 3: SuperSonics vs. Lakers](https://simba.mygamesonline.org/boxes/3-9.html) `/boxes/3-9.html`
+  - [Day 4: Clippers vs. Kings](https://simba.mygamesonline.org/boxes/4-1.html) `/boxes/4-1.html`
+  - [Day 4: Pistons vs. Wizards](https://simba.mygamesonline.org/boxes/4-2.html) `/boxes/4-2.html`
+  - [Day 4: Lakers vs. Trail Blazers](https://simba.mygamesonline.org/boxes/4-3.html) `/boxes/4-3.html`
+  - [Day 4: Knicks vs. Hawks](https://simba.mygamesonline.org/boxes/4-4.html) `/boxes/4-4.html`
+  - [Day 4: Suns vs. Timberwolves](https://simba.mygamesonline.org/boxes/4-5.html) `/boxes/4-5.html`
+  - [Day 4: Nets vs. Celtics](https://simba.mygamesonline.org/boxes/4-6.html) `/boxes/4-6.html`
+  - [Day 4: Bulls vs. Mavericks](https://simba.mygamesonline.org/boxes/4-7.html) `/boxes/4-7.html`
+  - [Day 4: Cavaliers vs. SuperSonics](https://simba.mygamesonline.org/boxes/4-8.html) `/boxes/4-8.html`
+  - [Day 5: Magic vs. Mavericks](https://simba.mygamesonline.org/boxes/5-1.html) `/boxes/5-1.html`
+  - [Day 5: Hornets vs. Nets](https://simba.mygamesonline.org/boxes/5-2.html) `/boxes/5-2.html`
+  - [Day 5: Cavaliers vs. 76ers](https://simba.mygamesonline.org/boxes/5-3.html) `/boxes/5-3.html`
+  - [Day 5: Trail Blazers vs. Pistons](https://simba.mygamesonline.org/boxes/5-4.html) `/boxes/5-4.html`
+  - [Day 5: Celtics vs. Spurs](https://simba.mygamesonline.org/boxes/5-5.html) `/boxes/5-5.html`
+  - [Day 5: Clippers vs. Warriors](https://simba.mygamesonline.org/boxes/5-6.html) `/boxes/5-6.html`
+  - [Day 5: Grizzlies vs. Timberwolves](https://simba.mygamesonline.org/boxes/5-7.html) `/boxes/5-7.html`
+  - [Day 5: Heat vs. Nuggets](https://simba.mygamesonline.org/boxes/5-8.html) `/boxes/5-8.html`
+  - [Day 5: Rockets vs. Lakers](https://simba.mygamesonline.org/boxes/5-9.html) `/boxes/5-9.html`
+  - [Day 6: Warriors vs. Pistons](https://simba.mygamesonline.org/boxes/6-1.html) `/boxes/6-1.html`
+  - [Day 6: Lakers vs. Nets](https://simba.mygamesonline.org/boxes/6-10.html) `/boxes/6-10.html`
+  - [Day 6: Spurs vs. Rockets](https://simba.mygamesonline.org/boxes/6-2.html) `/boxes/6-2.html`
+  - [Day 6: Grizzlies vs. Celtics](https://simba.mygamesonline.org/boxes/6-3.html) `/boxes/6-3.html`
+  - [Day 6: Magic vs. Bulls](https://simba.mygamesonline.org/boxes/6-4.html) `/boxes/6-4.html`
+  - [Day 6: Knicks vs. Wizards](https://simba.mygamesonline.org/boxes/6-5.html) `/boxes/6-5.html`
+  - [Day 6: Hawks vs. Bucks](https://simba.mygamesonline.org/boxes/6-6.html) `/boxes/6-6.html`
+  - [Day 6: 76ers vs. Raptors](https://simba.mygamesonline.org/boxes/6-7.html) `/boxes/6-7.html`
+  - [Day 6: Trail Blazers vs. Nuggets](https://simba.mygamesonline.org/boxes/6-8.html) `/boxes/6-8.html`
+  - [Day 6: Jazz vs. Clippers](https://simba.mygamesonline.org/boxes/6-9.html) `/boxes/6-9.html`
+  - [Day 7: Pistons vs. Clippers](https://simba.mygamesonline.org/boxes/7-1.html) `/boxes/7-1.html`
+  - [Day 7: SuperSonics vs. Suns](https://simba.mygamesonline.org/boxes/7-10.html) `/boxes/7-10.html`
+  - [Day 7: Trail Blazers vs. Mavericks](https://simba.mygamesonline.org/boxes/7-2.html) `/boxes/7-2.html`
+  - [Day 7: Rockets vs. Lakers](https://simba.mygamesonline.org/boxes/7-3.html) `/boxes/7-3.html`
+  - [Day 7: Nets vs. Nuggets](https://simba.mygamesonline.org/boxes/7-4.html) `/boxes/7-4.html`
+  - [Day 7: Warriors vs. Timberwolves](https://simba.mygamesonline.org/boxes/7-5.html) `/boxes/7-5.html`
+  - [Day 7: Cavaliers vs. Hornets](https://simba.mygamesonline.org/boxes/7-6.html) `/boxes/7-6.html`
+  - [Day 7: Raptors vs. Knicks](https://simba.mygamesonline.org/boxes/7-7.html) `/boxes/7-7.html`
+  - [Day 7: Magic vs. Celtics](https://simba.mygamesonline.org/boxes/7-8.html) `/boxes/7-8.html`
+  - [Day 7: Kings vs. Jazz](https://simba.mygamesonline.org/boxes/7-9.html) `/boxes/7-9.html`
+  - [Day 8: Rockets vs. Hawks](https://simba.mygamesonline.org/boxes/8-1.html) `/boxes/8-1.html`
+  - [Day 8: Trail Blazers vs. SuperSonics](https://simba.mygamesonline.org/boxes/8-10.html) `/boxes/8-10.html`
+  - [Day 8: Lakers vs. Warriors](https://simba.mygamesonline.org/boxes/8-11.html) `/boxes/8-11.html`
+  - [Day 8: Heat vs. Wizards](https://simba.mygamesonline.org/boxes/8-2.html) `/boxes/8-2.html`
+  - [Day 8: Pistons vs. Jazz](https://simba.mygamesonline.org/boxes/8-3.html) `/boxes/8-3.html`
+  - [Day 8: Timberwolves vs. Bulls](https://simba.mygamesonline.org/boxes/8-4.html) `/boxes/8-4.html`
+  - [Day 8: Pacers vs. Clippers](https://simba.mygamesonline.org/boxes/8-5.html) `/boxes/8-5.html`
+  - [Day 8: Knicks vs. Magic](https://simba.mygamesonline.org/boxes/8-6.html) `/boxes/8-6.html`
+  - [Day 8: Grizzlies vs. Hornets](https://simba.mygamesonline.org/boxes/8-7.html) `/boxes/8-7.html`
+  - [Day 8: Bucks vs. Spurs](https://simba.mygamesonline.org/boxes/8-8.html) `/boxes/8-8.html`
+  - [Day 8: Kings vs. Celtics](https://simba.mygamesonline.org/boxes/8-9.html) `/boxes/8-9.html`
+  - [Day 9: Knicks vs. Wizards](https://simba.mygamesonline.org/boxes/9-1.html) `/boxes/9-1.html`
+  - [Day 9: Bulls vs. 76ers](https://simba.mygamesonline.org/boxes/9-10.html) `/boxes/9-10.html`
+  - [Day 9: Kings vs. Heat](https://simba.mygamesonline.org/boxes/9-2.html) `/boxes/9-2.html`
+  - [Day 9: Jazz vs. Celtics](https://simba.mygamesonline.org/boxes/9-3.html) `/boxes/9-3.html`
+  - [Day 9: Rockets vs. Cavaliers](https://simba.mygamesonline.org/boxes/9-4.html) `/boxes/9-4.html`
+  - [Day 9: Trail Blazers vs. Suns](https://simba.mygamesonline.org/boxes/9-5.html) `/boxes/9-5.html`
+  - [Day 9: Grizzlies vs. Clippers](https://simba.mygamesonline.org/boxes/9-6.html) `/boxes/9-6.html`
+  - [Day 9: Spurs vs. Hornets](https://simba.mygamesonline.org/boxes/9-7.html) `/boxes/9-7.html`
+  - [Day 9: Nuggets vs. Warriors](https://simba.mygamesonline.org/boxes/9-8.html) `/boxes/9-8.html`
+  - [Day 9: Timberwolves vs. Lakers](https://simba.mygamesonline.org/boxes/9-9.html) `/boxes/9-9.html`
   - [Daily Schedule](https://simba.mygamesonline.org/boxes/day1.htm) `/boxes/day1.htm`
   - [Daily Schedule](https://simba.mygamesonline.org/boxes/day10.htm) `/boxes/day10.htm`
   - [Daily Schedule](https://simba.mygamesonline.org/boxes/day2.htm) `/boxes/day2.htm`
