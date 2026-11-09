@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-08T16:51:46Z",
-  "parsed_at": "2026-11-08T16:51:59Z"
+  "crawled_at": "2026-11-09T20:42:16Z",
+  "parsed_at": "2026-11-09T20:42:35Z"
  },
  "teams": [
   {
@@ -14975,81 +14975,81 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 25,
+      "record": 34,
       "player": "Jermaine O'Neal",
       "season": 2005
      },
      {
       "category": "FGA",
-      "record": 19,
-      "player": "Tyson Chandler",
+      "record": 25,
+      "player": "Jermaine O'Neal",
       "season": 2005
      },
      {
       "category": "FG",
-      "record": 8,
-      "player": "Caron Butler",
+      "record": 14,
+      "player": "Mo Williams",
       "season": 2005
      },
      {
       "category": "FTA",
-      "record": 12,
+      "record": 14,
       "player": "Jermaine O'Neal",
       "season": 2005
      },
      {
       "category": "FT",
-      "record": 11,
+      "record": 12,
       "player": "Jermaine O'Neal",
       "season": 2005
      },
      {
       "category": "3PA",
-      "record": 8,
-      "player": "Mo Williams",
-      "season": 2005
-     },
-     {
-      "category": "3P",
-      "record": 3,
+      "record": 7,
       "player": "Caron Butler",
       "season": 2005
      },
      {
-      "category": "Steals",
+      "category": "3P",
       "record": 4,
-      "player": "Jermaine O'Neal",
+      "player": "Mo Williams",
+      "season": 2005
+     },
+     {
+      "category": "Steals",
+      "record": 5,
+      "player": "Jason Hart",
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 7,
+      "record": 10,
       "player": "Mo Williams",
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 16,
-      "player": "Etan Thomas",
+      "record": 17,
+      "player": "Jermaine O'Neal",
       "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 5,
+      "record": 4,
       "player": "Jermaine O'Neal",
       "season": 2005
      },
      {
       "category": "Turnovers",
       "record": 6,
-      "player": "Mo Williams",
+      "player": "Jermaine O'Neal",
       "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 102,
+      "record": 125,
       "season": 2005
      },
      {
@@ -15059,17 +15059,17 @@
      },
      {
       "category": "Rebounds",
-      "record": 53,
+      "record": 71,
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 26,
+      "record": 35,
       "season": 2005
      },
      {
       "category": "Steals",
-      "record": 11,
+      "record": 16,
       "season": 2005
      },
      {
@@ -15079,12 +15079,12 @@
      },
      {
       "category": "Turnovers",
-      "record": 19,
+      "record": 24,
       "season": 2005
      },
      {
       "category": "3P",
-      "record": 5,
+      "record": 8,
       "season": 2005
      }
     ]
@@ -15787,68 +15787,68 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 31,
+      "record": 35,
       "player": "Amar'e Stoudemire",
       "season": 2005
      },
      {
       "category": "FGA",
-      "record": 21,
+      "record": 29,
       "player": "Amar'e Stoudemire",
       "season": 2005
      },
      {
       "category": "FG",
-      "record": 11,
+      "record": 12,
       "player": "Amar'e Stoudemire",
       "season": 2005
      },
      {
       "category": "FTA",
-      "record": 14,
+      "record": 18,
       "player": "Amar'e Stoudemire",
       "season": 2005
      },
      {
       "category": "FT",
-      "record": 10,
+      "record": 13,
       "player": "Amar'e Stoudemire",
       "season": 2005
      },
      {
       "category": "3PA",
-      "record": 8,
+      "record": 6,
       "player": "Monta Ellis",
       "season": 2005
      },
      {
       "category": "3P",
-      "record": 3,
-      "player": "Monta Ellis",
+      "record": 4,
+      "player": "Nate Robinson",
       "season": 2005
      },
      {
       "category": "Steals",
-      "record": 3,
-      "player": "Amar'e Stoudemire",
+      "record": 4,
+      "player": "Monta Ellis",
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 6,
+      "record": 7,
       "player": "Nate Robinson",
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 14,
+      "record": 15,
       "player": "Amar'e Stoudemire",
       "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 3,
-      "player": "Samuel Dalembert",
+      "record": 4,
+      "player": "Amar'e Stoudemire",
       "season": 2005
      },
      {
@@ -15861,42 +15861,42 @@
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 99,
+      "record": 112,
       "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 84,
+      "record": 78,
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 56,
+      "record": 58,
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 22,
+      "record": 26,
       "season": 2005
      },
      {
       "category": "Steals",
-      "record": 13,
+      "record": 16,
       "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 5,
+      "record": 8,
       "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 19,
+      "record": 27,
       "season": 2005
      },
      {
       "category": "3P",
-      "record": 6,
+      "record": 5,
       "season": 2005
      }
     ]
@@ -16606,50 +16606,50 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 28,
+      "record": 33,
       "player": "Ron Artest",
       "season": 2005
      },
      {
       "category": "FGA",
-      "record": 26,
+      "record": 28,
       "player": "Ron Artest",
       "season": 2005
      },
      {
       "category": "FG",
-      "record": 13,
+      "record": 16,
       "player": "Ron Artest",
       "season": 2005
      },
      {
       "category": "FTA",
-      "record": 9,
+      "record": 12,
       "player": "Ron Artest",
       "season": 2005
      },
      {
       "category": "FT",
-      "record": 5,
+      "record": 9,
       "player": "Ron Artest",
       "season": 2005
      },
      {
       "category": "3PA",
-      "record": 5,
-      "player": "Jason Kidd",
+      "record": 9,
+      "player": "Ron Artest",
       "season": 2005
      },
      {
       "category": "3P",
-      "record": 4,
+      "record": 3,
       "player": "Jason Kidd",
       "season": 2005
      },
      {
       "category": "Steals",
       "record": 4,
-      "player": "Alonzo Mourning",
+      "player": "Ron Artest",
       "season": 2005
      },
      {
@@ -16660,8 +16660,8 @@
      },
      {
       "category": "Rebounds",
-      "record": 11,
-      "player": "Reggie Evans",
+      "record": 13,
+      "player": "Alonzo Mourning",
       "season": 2005
      },
      {
@@ -16673,49 +16673,49 @@
      {
       "category": "Turnovers",
       "record": 6,
-      "player": "Ron Artest",
+      "player": "Richard Hamilton",
       "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 102,
+      "record": 108,
       "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 70,
+      "record": 62,
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 48,
+      "record": 55,
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 30,
+      "record": 31,
       "season": 2005
      },
      {
       "category": "Steals",
-      "record": 14,
-      "season": 2005
-     },
-     {
-      "category": "Blocks",
-      "record": 8,
-      "season": 2005
-     },
-     {
-      "category": "Turnovers",
       "record": 15,
       "season": 2005
      },
      {
+      "category": "Blocks",
+      "record": 7,
+      "season": 2005
+     },
+     {
+      "category": "Turnovers",
+      "record": 22,
+      "season": 2005
+     },
+     {
       "category": "3P",
-      "record": 8,
+      "record": 7,
       "season": 2005
      }
     ]
@@ -17418,96 +17418,96 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 29,
+      "record": 28,
       "player": "Luol Deng",
       "season": 2005
      },
      {
       "category": "FGA",
-      "record": 20,
+      "record": 21,
       "player": "Luol Deng",
       "season": 2005
      },
      {
       "category": "FG",
-      "record": 12,
+      "record": 11,
       "player": "Luol Deng",
       "season": 2005
      },
      {
       "category": "FTA",
-      "record": 10,
-      "player": "Andrew Bogut",
+      "record": 8,
+      "player": "Luol Deng",
       "season": 2005
      },
      {
       "category": "FT",
-      "record": 9,
-      "player": "Andrew Bogut",
+      "record": 7,
+      "player": "Mickael Pietrus",
       "season": 2005
      },
      {
       "category": "3PA",
-      "record": 3,
-      "player": "Beno Udrih",
+      "record": 5,
+      "player": "Luol Deng",
       "season": 2005
      },
      {
       "category": "3P",
-      "record": 2,
-      "player": "Luol Deng",
+      "record": 4,
+      "player": "Beno Udrih",
       "season": 2005
      },
      {
       "category": "Steals",
       "record": 4,
-      "player": "Luol Deng",
+      "player": "Beno Udrih",
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 8,
-      "player": "Marko Jaric",
+      "record": 11,
+      "player": "Beno Udrih",
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 14,
+      "record": 19,
       "player": "Andrew Bogut",
       "season": 2005
      },
      {
       "category": "Blocks",
       "record": 3,
-      "player": "Hamed Haddadi",
+      "player": "Andrew Bogut",
       "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 8,
-      "player": "Marko Jaric",
+      "record": 7,
+      "player": "Beno Udrih",
       "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 90,
+      "record": 99,
       "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 71,
+      "record": 74,
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 50,
+      "record": 57,
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 25,
+      "record": 26,
       "season": 2005
      },
      {
@@ -17517,17 +17517,17 @@
      },
      {
       "category": "Blocks",
-      "record": 8,
+      "record": 6,
       "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 28,
+      "record": 22,
       "season": 2005
      },
      {
       "category": "3P",
-      "record": 5,
+      "record": 7,
       "season": 2005
      }
     ]
@@ -18189,73 +18189,73 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 25,
+      "record": 35,
       "player": "Rasheed Wallace",
       "season": 2005
      },
      {
       "category": "FGA",
-      "record": 20,
+      "record": 26,
       "player": "Rasheed Wallace",
       "season": 2005
      },
      {
       "category": "FG",
-      "record": 10,
+      "record": 13,
       "player": "Rasheed Wallace",
       "season": 2005
      },
      {
       "category": "FTA",
-      "record": 10,
+      "record": 11,
       "player": "Rasheed Wallace",
       "season": 2005
      },
      {
       "category": "FT",
-      "record": 8,
+      "record": 9,
       "player": "Rasheed Wallace",
       "season": 2005
      },
      {
       "category": "3PA",
-      "record": 7,
-      "player": "Danny Granger",
+      "record": 9,
+      "player": "Jamal Crawford",
       "season": 2005
      },
      {
       "category": "3P",
-      "record": 3,
+      "record": 5,
       "player": "Jamal Crawford",
       "season": 2005
      },
      {
       "category": "Steals",
-      "record": 3,
-      "player": "Danny Granger",
+      "record": 5,
+      "player": "Jamal Crawford",
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 7,
+      "record": 12,
       "player": "Deron Williams",
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 13,
+      "record": 19,
       "player": "Drew Gooden",
       "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 3,
-      "player": "Danny Granger",
+      "record": 5,
+      "player": "Rasheed Wallace",
       "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 7,
+      "record": 6,
       "player": "Deron Williams",
       "season": 2005
      }
@@ -18263,42 +18263,42 @@
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 97,
+      "record": 111,
       "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 80,
+      "record": 76,
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 53,
+      "record": 65,
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 22,
+      "record": 28,
       "season": 2005
      },
      {
       "category": "Steals",
-      "record": 11,
+      "record": 13,
       "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 6,
+      "record": 8,
       "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 20,
+      "record": 23,
       "season": 2005
      },
      {
       "category": "3P",
-      "record": 7,
+      "record": 9,
       "season": 2005
      }
     ]
@@ -18960,19 +18960,19 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 37,
+      "record": 38,
       "player": "Chris Bosh",
       "season": 2005
      },
      {
       "category": "FGA",
-      "record": 27,
+      "record": 26,
       "player": "Chris Bosh",
       "season": 2005
      },
      {
       "category": "FG",
-      "record": 15,
+      "record": 14,
       "player": "Chris Bosh",
       "season": 2005
      },
@@ -18990,43 +18990,43 @@
      },
      {
       "category": "3PA",
-      "record": 6,
-      "player": "Raymond Felton",
+      "record": 7,
+      "player": "Al Harrington",
       "season": 2005
      },
      {
       "category": "3P",
-      "record": 2,
-      "player": "Tony Delk",
+      "record": 3,
+      "player": "Raymond Felton",
       "season": 2005
      },
      {
       "category": "Steals",
       "record": 4,
-      "player": "Chris Bosh",
+      "player": "Al Jefferson",
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 11,
+      "record": 12,
       "player": "Raymond Felton",
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 16,
+      "record": 15,
       "player": "Chris Bosh",
       "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 3,
+      "record": 4,
       "player": "Eddie Griffin",
       "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 6,
+      "record": 8,
       "player": "Chris Bosh",
       "season": 2005
      }
@@ -19034,27 +19034,27 @@
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 115,
+      "record": 117,
       "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 80,
+      "record": 75,
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 61,
+      "record": 58,
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 21,
+      "record": 27,
       "season": 2005
      },
      {
       "category": "Steals",
-      "record": 11,
+      "record": 13,
       "season": 2005
      },
      {
@@ -19069,7 +19069,7 @@
      },
      {
       "category": "3P",
-      "record": 4,
+      "record": 7,
       "season": 2005
      }
     ]
@@ -19731,19 +19731,19 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 38,
+      "record": 37,
       "player": "Allen Iverson",
       "season": 2005
      },
      {
       "category": "FGA",
-      "record": 25,
+      "record": 27,
       "player": "Allen Iverson",
       "season": 2005
      },
      {
       "category": "FG",
-      "record": 14,
+      "record": 13,
       "player": "Allen Iverson",
       "season": 2005
      },
@@ -19755,20 +19755,20 @@
      },
      {
       "category": "FT",
-      "record": 10,
-      "player": "Allen Iverson",
+      "record": 9,
+      "player": "Tim Duncan",
       "season": 2005
      },
      {
       "category": "3PA",
-      "record": 7,
+      "record": 8,
       "player": "Allen Iverson",
       "season": 2005
      },
      {
       "category": "3P",
-      "record": 3,
-      "player": "Allen Iverson",
+      "record": 4,
+      "player": "Tyronn Lue",
       "season": 2005
      },
      {
@@ -19779,25 +19779,25 @@
      },
      {
       "category": "Assists",
-      "record": 13,
+      "record": 17,
       "player": "Allen Iverson",
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 17,
-      "player": "Tim Duncan",
+      "record": 19,
+      "player": "Brad Miller",
       "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 7,
+      "record": 3,
       "player": "Tim Duncan",
       "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 6,
+      "record": 5,
       "player": "Allen Iverson",
       "season": 2005
      }
@@ -19805,42 +19805,42 @@
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 116,
+      "record": 118,
       "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 75,
+      "record": 68,
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 62,
+      "record": 66,
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 29,
+      "record": 34,
       "season": 2005
      },
      {
       "category": "Steals",
-      "record": 16,
+      "record": 13,
       "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 10,
+      "record": 7,
       "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 19,
+      "record": 20,
       "season": 2005
      },
      {
       "category": "3P",
-      "record": 7,
+      "record": 9,
       "season": 2005
      }
     ]
@@ -20509,43 +20509,43 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 25,
-      "player": "Kevin Martin",
+      "record": 28,
+      "player": "Rashard Lewis",
       "season": 2005
      },
      {
       "category": "FGA",
-      "record": 18,
-      "player": "Chauncey Billups",
+      "record": 21,
+      "player": "Rashard Lewis",
       "season": 2005
      },
      {
       "category": "FG",
-      "record": 9,
+      "record": 12,
       "player": "Rashard Lewis",
       "season": 2005
      },
      {
       "category": "FTA",
-      "record": 8,
+      "record": 11,
       "player": "Chauncey Billups",
       "season": 2005
      },
      {
       "category": "FT",
-      "record": 6,
-      "player": "Kevin Martin",
+      "record": 9,
+      "player": "James Singleton",
       "season": 2005
      },
      {
       "category": "3PA",
-      "record": 6,
-      "player": "Kevin Martin",
+      "record": 8,
+      "player": "Rashard Lewis",
       "season": 2005
      },
      {
       "category": "3P",
-      "record": 2,
+      "record": 3,
       "player": "Rashard Lewis",
       "season": 2005
      },
@@ -20557,26 +20557,26 @@
      },
      {
       "category": "Assists",
-      "record": 11,
+      "record": 16,
       "player": "Chauncey Billups",
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 13,
+      "record": 18,
       "player": "Brendan Haywood",
       "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 3,
-      "player": "Brendan Haywood",
+      "record": 5,
+      "player": "Rasho Nesterovic",
       "season": 2005
      },
      {
       "category": "Turnovers",
       "record": 6,
-      "player": "Kevin Martin",
+      "player": "Rashard Lewis",
       "season": 2005
      }
     ],
@@ -20588,37 +20588,37 @@
      },
      {
       "category": "Points Allowed",
-      "record": 69,
+      "record": 73,
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 50,
+      "record": 54,
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 26,
+      "record": 32,
       "season": 2005
      },
      {
       "category": "Steals",
-      "record": 14,
+      "record": 12,
       "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 5,
+      "record": 7,
       "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 17,
+      "record": 22,
       "season": 2005
      },
      {
       "category": "3P",
-      "record": 4,
+      "record": 9,
       "season": 2005
      }
     ]
@@ -21334,106 +21334,106 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 27,
+      "record": 40,
       "player": "Dwight Howard",
       "season": 2005
      },
      {
       "category": "FGA",
-      "record": 26,
+      "record": 29,
       "player": "Dwight Howard",
       "season": 2005
      },
      {
       "category": "FG",
-      "record": 13,
-      "player": "Bonzi Wells",
+      "record": 16,
+      "player": "Jameer Nelson",
       "season": 2005
      },
      {
       "category": "FTA",
-      "record": 11,
-      "player": "Dwight Howard",
-      "season": 2005
-     },
-     {
-      "category": "FT",
-      "record": 8,
-      "player": "Jameer Nelson",
-      "season": 2005
-     },
-     {
-      "category": "3PA",
-      "record": 6,
-      "player": "Steve Blake",
-      "season": 2005
-     },
-     {
-      "category": "3P",
-      "record": 3,
-      "player": "Steve Blake",
-      "season": 2005
-     },
-     {
-      "category": "Steals",
-      "record": 4,
-      "player": "Bonzi Wells",
-      "season": 2005
-     },
-     {
-      "category": "Assists",
-      "record": 12,
-      "player": "Jameer Nelson",
-      "season": 2005
-     },
-     {
-      "category": "Rebounds",
       "record": 18,
       "player": "Dwight Howard",
       "season": 2005
      },
      {
-      "category": "Blocks",
-      "record": 5,
+      "category": "FT",
+      "record": 10,
       "player": "Dwight Howard",
       "season": 2005
      },
      {
-      "category": "Turnovers",
-      "record": 6,
+      "category": "3PA",
+      "record": 7,
       "player": "Jameer Nelson",
+      "season": 2005
+     },
+     {
+      "category": "3P",
+      "record": 4,
+      "player": "Jameer Nelson",
+      "season": 2005
+     },
+     {
+      "category": "Steals",
+      "record": 4,
+      "player": "Darko Milicic",
+      "season": 2005
+     },
+     {
+      "category": "Assists",
+      "record": 14,
+      "player": "Jameer Nelson",
+      "season": 2005
+     },
+     {
+      "category": "Rebounds",
+      "record": 15,
+      "player": "Dwight Howard",
+      "season": 2005
+     },
+     {
+      "category": "Blocks",
+      "record": 4,
+      "player": "Darko Milicic",
+      "season": 2005
+     },
+     {
+      "category": "Turnovers",
+      "record": 8,
+      "player": "Dwight Howard",
       "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 104,
+      "record": 124,
       "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 71,
+      "record": 77,
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 66,
+      "record": 58,
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 25,
+      "record": 32,
       "season": 2005
      },
      {
       "category": "Steals",
-      "record": 12,
+      "record": 14,
       "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 9,
+      "record": 7,
       "season": 2005
      },
      {
@@ -21443,7 +21443,7 @@
      },
      {
       "category": "3P",
-      "record": 5,
+      "record": 8,
       "season": 2005
      }
     ]
@@ -22105,55 +22105,55 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 37,
-      "player": "Shawn Marion",
+      "record": 33,
+      "player": "Antawn Jamison",
       "season": 2005
      },
      {
       "category": "FGA",
-      "record": 31,
+      "record": 25,
       "player": "Shawn Marion",
       "season": 2005
      },
      {
       "category": "FG",
-      "record": 15,
-      "player": "Shawn Marion",
-      "season": 2005
-     },
-     {
-      "category": "FTA",
       "record": 13,
       "player": "Antawn Jamison",
       "season": 2005
      },
      {
+      "category": "FTA",
+      "record": 15,
+      "player": "Shawn Marion",
+      "season": 2005
+     },
+     {
       "category": "FT",
-      "record": 7,
+      "record": 11,
       "player": "Shawn Marion",
       "season": 2005
      },
      {
       "category": "3PA",
-      "record": 8,
-      "player": "Shawn Marion",
+      "record": 4,
+      "player": "Andre Miller",
       "season": 2005
      },
      {
       "category": "3P",
       "record": 3,
-      "player": "Antawn Jamison",
+      "player": "Andres Nocioni",
       "season": 2005
      },
      {
       "category": "Steals",
-      "record": 4,
-      "player": "Bobby Jackson",
+      "record": 5,
+      "player": "Andres Nocioni",
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 9,
+      "record": 11,
       "player": "Andre Miller",
       "season": 2005
      },
@@ -22165,51 +22165,51 @@
      },
      {
       "category": "Blocks",
-      "record": 5,
+      "record": 6,
       "player": "Marcus Camby",
       "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 9,
-      "player": "Shawn Marion",
+      "record": 5,
+      "player": "Marcus Camby",
       "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 105,
+      "record": 121,
       "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 69,
+      "record": 59,
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 56,
+      "record": 59,
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 28,
+      "record": 35,
       "season": 2005
      },
      {
       "category": "Steals",
-      "record": 13,
+      "record": 15,
       "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 9,
+      "record": 10,
       "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 24,
+      "record": 21,
       "season": 2005
      },
      {
@@ -22917,26 +22917,26 @@
     "franchise_player_records": [
      {
       "category": "Points",
-      "record": 38,
+      "record": 30,
       "player": "Richard Jefferson",
       "season": 2005
      },
      {
       "category": "FGA",
-      "record": 28,
-      "player": "Tony Parker",
+      "record": 26,
+      "player": "Richard Jefferson",
       "season": 2005
      },
      {
       "category": "FG",
-      "record": 16,
+      "record": 12,
       "player": "Richard Jefferson",
       "season": 2005
      },
      {
       "category": "FTA",
       "record": 12,
-      "player": "Tony Parker",
+      "player": "Richard Jefferson",
       "season": 2005
      },
      {
@@ -22947,86 +22947,86 @@
      },
      {
       "category": "3PA",
-      "record": 5,
+      "record": 8,
       "player": "Richard Jefferson",
       "season": 2005
      },
      {
       "category": "3P",
-      "record": 2,
+      "record": 3,
       "player": "Richard Jefferson",
       "season": 2005
      },
      {
       "category": "Steals",
-      "record": 4,
+      "record": 5,
       "player": "Tony Parker",
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 11,
+      "record": 10,
       "player": "Tony Parker",
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 12,
+      "record": 16,
       "player": "Nene Hilario",
       "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 3,
-      "player": "Donyell Marshall",
+      "record": 4,
+      "player": "Nene Hilario",
       "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 9,
-      "player": "Tony Parker",
+      "record": 6,
+      "player": "Richard Jefferson",
       "season": 2005
      }
     ],
     "franchise_team_records": [
      {
       "category": "Points",
-      "record": 99,
+      "record": 106,
       "season": 2005
      },
      {
       "category": "Points Allowed",
-      "record": 73,
+      "record": 69,
       "season": 2005
      },
      {
       "category": "Rebounds",
-      "record": 56,
+      "record": 55,
       "season": 2005
      },
      {
       "category": "Assists",
-      "record": 26,
+      "record": 25,
       "season": 2005
      },
      {
       "category": "Steals",
-      "record": 14,
+      "record": 12,
       "season": 2005
      },
      {
       "category": "Blocks",
-      "record": 6,
+      "record": 7,
       "season": 2005
      },
      {
       "category": "Turnovers",
-      "record": 20,
+      "record": 23,
       "season": 2005
      },
      {
       "category": "3P",
-      "record": 5,
+      "record": 9,
       "season": 2005
      }
     ]
