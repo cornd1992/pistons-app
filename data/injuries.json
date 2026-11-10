@@ -1,55 +1,79 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-09T20:42:16Z",
-  "parsed_at": "2026-11-09T20:42:35Z"
+  "crawled_at": "2026-11-10T17:49:02Z",
+  "parsed_at": "2026-11-10T17:49:27Z"
  },
  "league_ir": [
+  {
+   "name": "Shawn Marion",
+   "player_id": 406,
+   "team": "Kings",
+   "team_id": 28,
+   "injury": "Broken Skull",
+   "duration": 54
+  },
+  {
+   "name": "David West",
+   "player_id": 623,
+   "team": "76ers",
+   "team_id": 6,
+   "injury": "Patella Tendinitis",
+   "duration": 53
+  },
+  {
+   "name": "David Harrison",
+   "player_id": 305,
+   "team": "Bulls",
+   "team_id": 10,
+   "injury": "Fractured Jaw",
+   "duration": 15
+  },
   {
    "name": "Anthony Carter",
    "player_id": 181,
    "team": "Nets",
    "team_id": 3,
    "injury": "Fractured Arm",
-   "duration": 29
-  },
-  {
-   "name": "Francisco Elson",
-   "player_id": 235,
-   "team": "Trail Blazers",
-   "team_id": 27,
-   "injury": "Pinched Nerve",
    "duration": 9
-  },
-  {
-   "name": "Jermaine O'Neal",
-   "player_id": 469,
-   "team": "Timberwolves",
-   "team_id": 19,
-   "injury": "Groin Pull",
-   "duration": 5
   },
   {
    "name": "Raja Bell",
    "player_id": 131,
    "team": "Trail Blazers",
    "team_id": 27,
+   "injury": "Bruised Hip",
+   "duration": 7
+  },
+  {
+   "name": "Anthony Parker",
+   "player_id": 479,
+   "team": "Nets",
+   "team_id": 3,
    "injury": "Broken Finger",
+   "duration": 4
+  },
+  {
+   "name": "Marcus Camby",
+   "player_id": 176,
+   "team": "Kings",
+   "team_id": 28,
+   "injury": "Broken Finger",
+   "duration": 3
+  },
+  {
+   "name": "Austin Croshere",
+   "player_id": 199,
+   "team": "Celtics",
+   "team_id": 1,
+   "injury": "Dislocated Finger",
    "duration": 2
   },
   {
-   "name": "Rashard Lewis",
-   "player_id": 393,
-   "team": "Suns",
-   "team_id": 26,
-   "injury": "Broken Nose",
-   "duration": 1
-  },
-  {
-   "name": "Steve Nash",
-   "player_id": 454,
-   "team": "Nuggets",
-   "team_id": 17,
+   "name": "Willie Green",
+   "player_id": 286,
+   "team": "Cavaliers",
+   "team_id": 11,
    "injury": "Sprained Ankle",
    "duration": 1
   },
@@ -70,11 +94,11 @@
    "duration": 0
   },
   {
-   "name": "Brent Barry",
-   "player_id": 121,
-   "team": "Knicks",
-   "team_id": 4,
-   "injury": "Migraine",
+   "name": "Jon Barry",
+   "player_id": 122,
+   "team": "Clippers",
+   "team_id": 24,
+   "injury": "None",
    "duration": 0
   },
   {
@@ -82,6 +106,22 @@
    "player_id": 124,
    "team": "Lakers",
    "team_id": 25,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Esteban Batista",
+   "player_id": 126,
+   "team": "Trail Blazers",
+   "team_id": 27,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Jonathan Bender",
+   "player_id": 132,
+   "team": "Suns",
+   "team_id": 26,
    "injury": "None",
    "duration": 0
   },
@@ -102,14 +142,6 @@
    "duration": 0
   },
   {
-   "name": "Kobe Bryant",
-   "player_id": 163,
-   "team": "Pistons",
-   "team_id": 12,
-   "injury": "Migraine",
-   "duration": 0
-  },
-  {
    "name": "Zarko Cabarkapa",
    "player_id": 174,
    "team": "Magic",
@@ -118,11 +150,11 @@
    "duration": 0
   },
   {
-   "name": "Vince Carter",
-   "player_id": 182,
-   "team": "Rockets",
-   "team_id": 18,
-   "injury": "Migraine",
+   "name": "Juan Carlos Navarro",
+   "player_id": 179,
+   "team": "Lakers",
+   "team_id": 25,
+   "injury": "None",
    "duration": 0
   },
   {
@@ -150,18 +182,10 @@
    "duration": 0
   },
   {
-   "name": "Baron Davis",
-   "player_id": 207,
+   "name": "Predrag Drobnjak",
+   "player_id": 224,
    "team": "Wizards",
    "team_id": 7,
-   "injury": "Migraine",
-   "duration": 0
-  },
-  {
-   "name": "Ike Diogu",
-   "player_id": 219,
-   "team": "Bulls",
-   "team_id": 10,
    "injury": "None",
    "duration": 0
   },
@@ -190,14 +214,6 @@
    "duration": 0
   },
   {
-   "name": "Manu Ginobili",
-   "player_id": 271,
-   "team": "Wizards",
-   "team_id": 7,
-   "injury": "Migraine",
-   "duration": 0
-  },
-  {
    "name": "Ryan Gomes",
    "player_id": 276,
    "team": "Bulls",
@@ -222,18 +238,18 @@
    "duration": 0
   },
   {
-   "name": "Orien Greene",
-   "player_id": 287,
-   "team": "Timberwolves",
-   "team_id": 19,
-   "injury": "None",
-   "duration": 0
-  },
-  {
    "name": "Adrian Griffin",
    "player_id": 289,
    "team": "Raptors",
    "team_id": 15,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Marcus Haislip",
+   "player_id": 293,
+   "team": "Rockets",
+   "team_id": 18,
    "injury": "None",
    "duration": 0
   },
@@ -246,10 +262,18 @@
    "duration": 0
   },
   {
-   "name": "Mike Harris",
-   "player_id": 304,
-   "team": "Kings",
-   "team_id": 28,
+   "name": "Matt Harpring",
+   "player_id": 299,
+   "team": "Knicks",
+   "team_id": 4,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Donnell Harvey",
+   "player_id": 307,
+   "team": "Timberwolves",
+   "team_id": 19,
    "injury": "None",
    "duration": 0
   },
@@ -262,6 +286,14 @@
    "duration": 0
   },
   {
+   "name": "Jim Jackson",
+   "player_id": 343,
+   "team": "Pistons",
+   "team_id": 12,
+   "injury": "None",
+   "duration": 0
+  },
+  {
    "name": "Marc Jackson",
    "player_id": 345,
    "team": "SuperSonics",
@@ -270,42 +302,11 @@
    "duration": 0
   },
   {
-   "name": "Stephen Jackson",
-   "player_id": 346,
-   "team": "Pistons",
-   "team_id": 12,
-   "injury": "Migraine",
-   "duration": 0
-  },
-  {
    "name": "Casey Jacobsen",
    "player_id": 347,
    "team": "Hornets",
    "team_id": 9,
    "injury": "None",
-   "duration": 0
-  },
-  {
-   "name": "Jared Jeffries",
-   "player_id": 356,
-   "team": "Nets",
-   "team_id": 3,
-   "injury": "None",
-   "duration": 0
-  },
-  {
-   "name": "Anthony Johnson (Knicks)",
-   "player_id": 360,
-   "team": "",
-   "injury": "Migraine",
-   "duration": 0
-  },
-  {
-   "name": "Eddie Jones",
-   "player_id": 368,
-   "team": "Clippers",
-   "team_id": 24,
-   "injury": "Migraine",
    "duration": 0
   },
   {
@@ -333,6 +334,14 @@
    "duration": 0
   },
   {
+   "name": "Arvydas Macijauskas",
+   "player_id": 399,
+   "team": "Wizards",
+   "team_id": 7,
+   "injury": "None",
+   "duration": 0
+  },
+  {
    "name": "Jamal Mashburn",
    "player_id": 413,
    "team": "Grizzlies",
@@ -349,18 +358,34 @@
    "duration": 0
   },
   {
-   "name": "Rashad McCants",
-   "player_id": 419,
-   "team": "Kings",
-   "team_id": 28,
-   "injury": "None",
-   "duration": 0
-  },
-  {
    "name": "Walter McCarty",
    "player_id": 420,
    "team": "Nuggets",
    "team_id": 17,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Mikki Moore",
+   "player_id": 443,
+   "team": "Pistons",
+   "team_id": 12,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Lamond Murray",
+   "player_id": 448,
+   "team": "Clippers",
+   "team_id": 24,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Bostjan Nachbar",
+   "player_id": 451,
+   "team": "Rockets",
+   "team_id": 18,
    "injury": "None",
    "duration": 0
   },
@@ -378,30 +403,6 @@
    "team": "Hawks",
    "team_id": 8,
    "injury": "None",
-   "duration": 0
-  },
-  {
-   "name": "Dirk Nowitzki",
-   "player_id": 462,
-   "team": "Heat",
-   "team_id": 2,
-   "injury": "Migraine",
-   "duration": 0
-  },
-  {
-   "name": "Emeka Okafor",
-   "player_id": 465,
-   "team": "Heat",
-   "team_id": 2,
-   "injury": "Migraine",
-   "duration": 0
-  },
-  {
-   "name": "Shaquille O'Neal",
-   "player_id": 470,
-   "team": "Rockets",
-   "team_id": 18,
-   "injury": "Migraine",
    "duration": 0
   },
   {
@@ -425,7 +426,7 @@
    "player_id": 482,
    "team": "Knicks",
    "team_id": 4,
-   "injury": "Migraine",
+   "injury": "None",
    "duration": 0
   },
   {
@@ -453,18 +454,18 @@
    "duration": 0
   },
   {
-   "name": "Tayshaun Prince",
-   "player_id": 504,
-   "team": "Wizards",
-   "team_id": 7,
-   "injury": "Migraine",
-   "duration": 0
-  },
-  {
    "name": "Malik Rose",
    "player_id": 526,
    "team": "Cavaliers",
    "team_id": 11,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Quinton Ross",
+   "player_id": 527,
+   "team": "Heat",
+   "team_id": 2,
    "injury": "None",
    "duration": 0
   },
@@ -485,27 +486,11 @@
    "duration": 0
   },
   {
-   "name": "Kirk Snyder",
-   "player_id": 556,
-   "team": "Celtics",
-   "team_id": 1,
-   "injury": "None",
-   "duration": 0
-  },
-  {
    "name": "Pape Sow",
    "player_id": 559,
    "team": "Trail Blazers",
    "team_id": 27,
    "injury": "None",
-   "duration": 0
-  },
-  {
-   "name": "Jerry Stackhouse",
-   "player_id": 561,
-   "team": "Clippers",
-   "team_id": 24,
-   "injury": "Migraine",
    "duration": 0
   },
   {
@@ -533,14 +518,6 @@
    "duration": 0
   },
   {
-   "name": "Dajuan Wagner",
-   "player_id": 608,
-   "team": "Cavaliers",
-   "team_id": 11,
-   "injury": "None",
-   "duration": 0
-  },
-  {
    "name": "Hakim Warrick",
    "player_id": 616,
    "team": "Celtics",
@@ -553,6 +530,14 @@
    "player_id": 619,
    "team": "SuperSonics",
    "team_id": 29,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Mike Wilks",
+   "player_id": 630,
+   "team": "Pistons",
+   "team_id": 12,
    "injury": "None",
    "duration": 0
   },
@@ -581,14 +566,6 @@
    "duration": 0
   },
   {
-   "name": "Antoine Wright",
-   "player_id": 645,
-   "team": "76ers",
-   "team_id": 6,
-   "injury": "None",
-   "duration": 0
-  },
-  {
    "name": "Wang Zhizhi",
    "player_id": 649,
    "team": "Hornets",
@@ -600,70 +577,61 @@
  "by_team": {
   "1": [
    {
-    "name": "Andrew Bynum",
-    "player_id": 172,
-    "injury": "Severe Migraines",
-    "duration": 5
+    "name": "Austin Croshere",
+    "injury": "Dislocated Finger",
+    "duration": 2
    }
   ],
   "3": [
    {
     "name": "Anthony Carter",
-    "player_id": 181,
     "injury": "Fractured Arm",
-    "duration": 29
+    "duration": 9
    },
    {
-    "name": "Rasual Butler",
-    "player_id": 171,
-    "injury": "Concussion",
-    "duration": 3
+    "name": "Anthony Parker",
+    "injury": "Broken Finger",
+    "duration": 4
    }
   ],
-  "17": [
+  "6": [
    {
-    "name": "Steve Nash",
-    "player_id": 454,
+    "name": "David West",
+    "injury": "Patella Tendinitis",
+    "duration": 53
+   }
+  ],
+  "10": [
+   {
+    "name": "David Harrison",
+    "injury": "Fractured Jaw",
+    "duration": 15
+   }
+  ],
+  "11": [
+   {
+    "name": "Willie Green",
     "injury": "Sprained Ankle",
-    "duration": 1
-   }
-  ],
-  "19": [
-   {
-    "name": "Jermaine O'Neal",
-    "player_id": 469,
-    "injury": "Groin Pull",
-    "duration": 5
-   }
-  ],
-  "21": [
-   {
-    "name": "Alonzo Mourning",
-    "player_id": 446,
-    "injury": "Bruised Jaw",
-    "duration": 6
-   }
-  ],
-  "26": [
-   {
-    "name": "Rashard Lewis",
-    "player_id": 393,
-    "injury": "Broken Nose",
     "duration": 1
    }
   ],
   "27": [
    {
-    "name": "Francisco Elson",
-    "player_id": 235,
-    "injury": "Pinched Nerve",
-    "duration": 9
+    "name": "Raja Bell",
+    "injury": "Bruised Hip",
+    "duration": 7
+   }
+  ],
+  "28": [
+   {
+    "name": "Shawn Marion",
+    "injury": "Broken Skull",
+    "duration": 54
    },
    {
-    "name": "Raja Bell",
-    "player_id": 131,
+    "name": "Marcus Camby",
     "injury": "Broken Finger",
-    "duration": 2
+    "duration": 3
    }
   ]
  }

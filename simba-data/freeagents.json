@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-09T20:42:16Z",
-  "parsed_at": "2026-11-09T20:42:35Z"
+  "crawled_at": "2026-11-10T17:49:02Z",
+  "parsed_at": "2026-11-10T17:49:27Z"
  },
  "free_agents": [
   {
@@ -33,7 +33,7 @@
    "hn": "D",
    "df": "C-",
    "reb": "C",
-   "pot": "D",
+   "pot": "C",
    "last_team": "N/A",
    "height_in": 83
   },
@@ -753,7 +753,7 @@
    "hn": "D",
    "df": "D+",
    "reb": "C",
-   "pot": "D",
+   "pot": "C",
    "last_team": "N/A",
    "height_in": 81
   },
@@ -1543,22 +1543,6 @@
    "height_in": 75
   },
   {
-   "name": "Juan Carlos Navarro",
-   "player_id": 179,
-   "pos": "SG",
-   "height": "6'3''",
-   "weight": 170,
-   "age": 25,
-   "in": "C",
-   "out": "C+",
-   "hn": "C-",
-   "df": "D+",
-   "reb": "D",
-   "pot": "C",
-   "last_team": "N/A",
-   "height_in": 75
-  },
-  {
    "name": "Calbert Cheaney",
    "player_id": 187,
    "pos": "SG",
@@ -1682,7 +1666,7 @@
    "hn": "C-",
    "df": "C-",
    "reb": "D",
-   "pot": "D",
+   "pot": "C",
    "last_team": "N/A",
    "height_in": 74
   },
@@ -2277,22 +2261,6 @@
    "pot": "F",
    "last_team": "N/A",
    "height_in": 69
-  },
-  {
-   "name": "Mike Wilks",
-   "player_id": 630,
-   "pos": "PG",
-   "height": "5'10''",
-   "weight": 180,
-   "age": 26,
-   "in": "C",
-   "out": "C",
-   "hn": "C",
-   "df": "C",
-   "reb": "D+",
-   "pot": "D",
-   "last_team": "N/A",
-   "height_in": 70
   },
   {
    "name": "Alvin Williams",
