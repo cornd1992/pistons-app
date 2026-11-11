@@ -1,14 +1,14 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-10T17:49:02Z",
-  "parsed_at": "2026-11-10T17:49:27Z"
+  "crawled_at": "2026-11-11T18:03:29Z",
+  "parsed_at": "2026-11-11T18:03:59Z"
  },
  "teams": [
   {
    "team": "Boston Celtics",
    "team_id": 1,
-   "cap_room": 99323359,
+   "cap_room": 99323350,
    "team_salary": null,
    "committed_by_year": [
     50176651,
@@ -23,7 +23,7 @@
   {
    "team": "Miami Heat",
    "team_id": 2,
-   "cap_room": 96285721,
+   "cap_room": 96285722,
    "team_salary": null,
    "committed_by_year": [
     53214279,
@@ -38,7 +38,7 @@
   {
    "team": "New Jersey Nets",
    "team_id": 3,
-   "cap_room": 99264434,
+   "cap_room": 97453491,
    "team_salary": null,
    "committed_by_year": [
     52046509,
@@ -98,13 +98,13 @@
   {
    "team": "Washington Wizards",
    "team_id": 7,
-   "cap_room": 98354624,
+   "cap_room": 95494374,
    "team_salary": null,
    "committed_by_year": [
-    51145376,
-    25824381,
-    28019813,
-    9905251,
+    53921013,
+    34974380,
+    38059813,
+    23835251,
     10730688,
     0,
     0
@@ -176,7 +176,7 @@
    "cap_room": 88518353,
    "team_salary": null,
    "committed_by_year": [
-    60981647,
+    60415797,
     61895458,
     55476975,
     59679484,
@@ -251,7 +251,7 @@
    "cap_room": 94516283,
    "team_salary": null,
    "committed_by_year": [
-    54983707,
+    54983708,
     48569701,
     48425000,
     52220248,
@@ -278,7 +278,7 @@
   {
    "team": "Minnesota Timberwolves",
    "team_id": 19,
-   "cap_room": 98865119,
+   "cap_room": 98299269,
    "team_salary": null,
    "committed_by_year": [
     50634881,
@@ -338,13 +338,13 @@
   {
    "team": "Golden State Warriors",
    "team_id": 23,
-   "cap_room": 94614847,
+   "cap_room": 96509247,
    "team_salary": null,
    "committed_by_year": [
-    54885153,
-    48061211,
-    23708004,
-    26042004,
+    52990753,
+    38911212,
+    13668004,
+    12112004,
     9360001,
     0,
     0
@@ -413,7 +413,7 @@
   {
    "team": "Sacramento Kings",
    "team_id": 28,
-   "cap_room": 85121634,
+   "cap_room": 85121635,
    "team_salary": null,
    "committed_by_year": [
     64378366,
