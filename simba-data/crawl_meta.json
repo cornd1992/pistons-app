@@ -508,7 +508,7 @@
   "https://simba.mygamesonline.org/players/player399.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
-   "title": "SG Arvydas Macijauskas - Wizards"
+   "title": "SG Arvydas Macijauskas - Warriors"
   },
   "https://simba.mygamesonline.org/players/player413.htm": {
    "status": 200,
@@ -1208,7 +1208,7 @@
   "https://simba.mygamesonline.org/players/player613.htm": {
    "status": 200,
    "ct": "text/html; charset=UTF-8",
-   "title": "PF Rasheed Wallace - Warriors"
+   "title": "PF Rasheed Wallace - Wizards"
   },
   "https://simba.mygamesonline.org/players/player612.htm": {
    "status": 200,
@@ -21715,7 +21715,7 @@
   ]
  },
  "unvisited": [],
- "elapsed_s": 1837.3,
+ "elapsed_s": 1837.2,
  "requests": 1838,
- "crawled_at": "2026-11-11T18:03:29Z"
+ "crawled_at": "2026-11-12T18:18:14Z"
 }

@@ -1,6 +1,6 @@
 # Sitemap: simba.mygamesonline.org
 
-- **Crawl date:** 2026-11-11
+- **Crawl date:** 2026-11-12
 - **Pages found:** 1836
 - **Broken/errored links:** 2
 - **URLs fetched:** 1838
@@ -11,7 +11,7 @@
 - No `/robots.txt` (404) and no `/sitemap.xml` (404).
 - Home is a frameset (`index2.htm` menu + `index1.htm`); JS `<select>` menu option values extracted as links.
 - Full crawl: every discovered same-host page was fetched.
-- Crawl took 1837.3 s, 1838 HTTP requests.
+- Crawl took 1837.2 s, 1838 HTTP requests.
 - Player pages embed a stats iframe (`playerNstats.htm`), crawled as separate pages.
 
 ## Pages (1836)
@@ -1138,7 +1138,7 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player397stats.htm) `/players/player397stats.htm`
   - [PG Tyronn Lue - Lakers](https://simba.mygamesonline.org/players/player398.htm) `/players/player398.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player398stats.htm) `/players/player398stats.htm`
-  - [SG Arvydas Macijauskas - Wizards](https://simba.mygamesonline.org/players/player399.htm) `/players/player399.htm`
+  - [SG Arvydas Macijauskas - Warriors](https://simba.mygamesonline.org/players/player399.htm) `/players/player399.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player399stats.htm) `/players/player399stats.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player39stats.htm) `/players/player39stats.htm`
   - [SG Jim Summitt - Draft](https://simba.mygamesonline.org/players/player40.htm) `/players/player40.htm`
@@ -1610,7 +1610,7 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player611stats.htm) `/players/player611stats.htm`
   - [SF Gerald Wallace - Raptors](https://simba.mygamesonline.org/players/player612.htm) `/players/player612.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player612stats.htm) `/players/player612stats.htm`
-  - [PF Rasheed Wallace - Warriors](https://simba.mygamesonline.org/players/player613.htm) `/players/player613.htm`
+  - [PF Rasheed Wallace - Wizards](https://simba.mygamesonline.org/players/player613.htm) `/players/player613.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player613stats.htm) `/players/player613stats.htm`
   - [SG Matt Walsh - FA](https://simba.mygamesonline.org/players/player614.htm) `/players/player614.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player614stats.htm) `/players/player614stats.htm`
