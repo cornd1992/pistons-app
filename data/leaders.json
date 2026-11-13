@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-12T18:18:14Z",
-  "parsed_at": "2026-11-12T18:18:52Z"
+  "crawled_at": "2026-11-13T17:56:23Z",
+  "parsed_at": "2026-11-13T17:56:56Z"
  },
  "league_leaders": {
   "Minutes-Per-Game": {
@@ -1675,84 +1675,6 @@
   ]
  },
  "awards": {
-  "Player of the Week": [
-   {
-    "week": "1",
-    "player": "Elton Brand",
-    "pos": "PF",
-    "team": "Mavericks"
-   },
-   {
-    "week": "2",
-    "player": "Tim Duncan",
-    "pos": "PF",
-    "team": "Lakers"
-   },
-   {
-    "week": "3",
-    "player": "Yao Ming",
-    "pos": "C",
-    "team": "Knicks"
-   },
-   {
-    "week": "4",
-    "player": "Dirk Nowitzki",
-    "pos": "PF",
-    "team": "Heat"
-   },
-   {
-    "week": "5",
-    "player": "Chauncey Billups",
-    "pos": "PG",
-    "team": "Suns"
-   },
-   {
-    "week": "6",
-    "player": "Baron Davis",
-    "pos": "PG",
-    "team": "Wizards"
-   },
-   {
-    "week": "7",
-    "player": "Chris Bosh",
-    "pos": "PF",
-    "team": "Clippers"
-   },
-   {
-    "week": "8",
-    "player": "Kobe Bryant",
-    "pos": "SG",
-    "team": "Pistons"
-   }
-  ],
-  "Player of the Month": [
-   {
-    "month": "1",
-    "player": "Allen Iverson",
-    "pos": "SG",
-    "team": "Lakers"
-   },
-   {
-    "month": "2",
-    "player": "Kevin Garnett",
-    "pos": "PF",
-    "team": "Magic"
-   }
-  ],
-  "Rookie of the Month": [
-   {
-    "month": "1",
-    "player": "Chris Paul",
-    "pos": "PG",
-    "team": "Bulls"
-   },
-   {
-    "month": "2",
-    "player": "Raymond Felton",
-    "pos": "PG",
-    "team": "Clippers"
-   }
-  ],
   "3-Point Shootout": [],
   "Slam Dunk Contest": []
  },
