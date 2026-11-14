@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-13T17:56:23Z",
-  "parsed_at": "2026-11-13T17:56:56Z"
+  "crawled_at": "2026-11-14T16:47:58Z",
+  "parsed_at": "2026-11-14T16:48:59Z"
  },
  "transactions": [
   {
@@ -6456,6 +6456,510 @@
    "day": 41,
    "team": "Nuggets",
    "action": "Place SG Doug Christie on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 41,
+   "team": "Clippers",
+   "action": "Trade SG David Wesley to the Knicks for SG Brent Barry",
+   "type": "trade"
+  },
+  {
+   "season": 2005,
+   "day": 41,
+   "team": "Knicks",
+   "action": "Trade SG Brent Barry to the Clippers for SG David Wesley",
+   "type": "trade"
+  },
+  {
+   "season": 2005,
+   "day": 42,
+   "team": "Suns",
+   "action": "Place C Brendan Haywood on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 42,
+   "team": "Suns",
+   "action": "Activate PG Eddie Gill from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 42,
+   "team": "Suns",
+   "action": "Place SF Jonathan Bender on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 42,
+   "team": "Spurs",
+   "action": "Activate SF Mike Dunleavy Jr. from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 42,
+   "team": "Spurs",
+   "action": "Place SG Donell Taylor on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 42,
+   "team": "Heat",
+   "action": "Activate PG Steve Francis from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 42,
+   "team": "Heat",
+   "action": "Place SG Quinton Ross on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 43,
+   "team": "76ers",
+   "action": "Activate SF Lee Nailon from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 43,
+   "team": "76ers",
+   "action": "Place SF Mike Miller on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 43,
+   "team": "Bucks",
+   "action": "Activate SG Kareem Rush from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 43,
+   "team": "Bucks",
+   "action": "Place SF Josh Childress on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 44,
+   "team": "Kings",
+   "action": "Activate PG Roko Ukic from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 44,
+   "team": "Kings",
+   "action": "Place C Marcus Camby on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 44,
+   "team": "Mavericks",
+   "action": "Activate PG Luis Flores from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 44,
+   "team": "Mavericks",
+   "action": "Place SG Jason Terry on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 44,
+   "team": "Clippers",
+   "action": "Activate SG Eddie Jones from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 44,
+   "team": "Clippers",
+   "action": "Place SG Jon Barry on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 45,
+   "team": "Celtics",
+   "action": "Activate SG Kirk Snyder from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 45,
+   "team": "Celtics",
+   "action": "Place SF Wally Szczerbiak on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 45,
+   "team": "Wizards",
+   "action": "Activate SG Manu Ginobili from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 45,
+   "team": "Wizards",
+   "action": "Place SF Shandon Anderson on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 46,
+   "team": "Jazz",
+   "action": "Activate PF Reggie Evans from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 46,
+   "team": "Jazz",
+   "action": "Place PF Marcus Fizer on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 47,
+   "team": "Lakers",
+   "action": "Activate C Chuck Hayes from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 47,
+   "team": "Lakers",
+   "action": "Place PF Brandon Bass on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 48,
+   "team": "Grizzlies",
+   "action": "Activate SF Linas Kleiza from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 48,
+   "team": "Grizzlies",
+   "action": "Place C Nenad Krstic on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 48,
+   "team": "Suns",
+   "action": "Activate C Brendan Haywood from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 48,
+   "team": "Knicks",
+   "action": "Activate PG Anthony Johnson from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 48,
+   "team": "Knicks",
+   "action": "Place PF Aaron Williams on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 49,
+   "team": "Celtics",
+   "action": "Sign PG Will Solomon for $465,850 over one year.",
+   "type": "sign"
+  },
+  {
+   "season": 2005,
+   "day": 49,
+   "team": "Celtics",
+   "action": "Place PG Will Bynum on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 49,
+   "team": "Clippers",
+   "action": "Activate SG Jon Barry from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 49,
+   "team": "Clippers",
+   "action": "Place SG Jerry Stackhouse on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 50,
+   "team": "Celtics",
+   "action": "Activate SF Wally Szczerbiak from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 50,
+   "team": "Celtics",
+   "action": "Place SG Kirk Snyder on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 51,
+   "team": "Mavericks",
+   "action": "Activate SG Jason Terry from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 51,
+   "team": "Mavericks",
+   "action": "Place PG Luis Flores on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 52,
+   "team": "Grizzlies",
+   "action": "Activate SF Jamal Mashburn from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 52,
+   "team": "Grizzlies",
+   "action": "Place C Andrew Bogut on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 52,
+   "team": "Kings",
+   "action": "Activate C Marcus Camby from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 52,
+   "team": "Kings",
+   "action": "Place PG Roko Ukic on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 52,
+   "team": "Cavaliers",
+   "action": "Activate PF Malik Rose from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 52,
+   "team": "Cavaliers",
+   "action": "Place PG Keyon Dooling on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 53,
+   "team": "Timberwolves",
+   "action": "Activate PF Donnell Harvey from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 53,
+   "team": "Timberwolves",
+   "action": "Place SF Bobby Simmons on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 53,
+   "team": "Kings",
+   "action": "Place PG Damon Jones on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 53,
+   "team": "Kings",
+   "action": "Activate PG Roko Ukic from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 55,
+   "team": "SuperSonics",
+   "action": "Activate C Marc Jackson from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 55,
+   "team": "SuperSonics",
+   "action": "Place SG Juan Dixon on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 55,
+   "team": "Warriors",
+   "action": "Activate SG Trenton Hassell from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 55,
+   "team": "Warriors",
+   "action": "Place SG Morris Peterson on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 55,
+   "team": "Bulls",
+   "action": "Activate PF Ike Diogu from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 55,
+   "team": "Bulls",
+   "action": "Place PF Nick Collison on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 56,
+   "team": "Timberwolves",
+   "action": "Activate SF Bobby Simmons from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 56,
+   "team": "Timberwolves",
+   "action": "Place PF Donnell Harvey on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 57,
+   "team": "SuperSonics",
+   "action": "Activate SG Juan Dixon from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 57,
+   "team": "SuperSonics",
+   "action": "Place C Marc Jackson on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 58,
+   "team": "Pacers",
+   "action": "Activate C Chris Taft from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 58,
+   "team": "Pacers",
+   "action": "Place PF Sean Marks on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 59,
+   "team": "Nuggets",
+   "action": "Activate SG Doug Christie from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 59,
+   "team": "Nuggets",
+   "action": "Place PG Steve Nash on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 59,
+   "team": "Trail Blazers",
+   "action": "Activate PF Esteban Batista from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 59,
+   "team": "Trail Blazers",
+   "action": "Place C Francisco Elson on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 59,
+   "team": "Grizzlies",
+   "action": "Activate C Andrew Bogut from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 59,
+   "team": "Grizzlies",
+   "action": "Place SF Jamal Mashburn on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 60,
+   "team": "76ers",
+   "action": "Activate SF Mike Miller from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 60,
+   "team": "76ers",
+   "action": "Place PF Keith Van Horn on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 60,
+   "team": "Pacers",
+   "action": "Activate PF Sean Marks from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 60,
+   "team": "Pacers",
+   "action": "Place C Chris Taft on Injured Reserve.",
    "type": "place"
   }
  ]

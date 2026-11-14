@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-13T17:56:23Z",
-  "parsed_at": "2026-11-13T17:56:56Z"
+  "crawled_at": "2026-11-14T16:47:58Z",
+  "parsed_at": "2026-11-14T16:48:59Z"
  },
  "free_agents": [
   {
@@ -2197,22 +2197,6 @@
    "pot": "C",
    "last_team": "N/A",
    "height_in": 74
-  },
-  {
-   "name": "Will Solomon",
-   "player_id": 557,
-   "pos": "PG",
-   "height": "6'1''",
-   "weight": 185,
-   "age": 27,
-   "in": "C",
-   "out": "C+",
-   "hn": "C",
-   "df": "C",
-   "reb": "D",
-   "pot": "D",
-   "last_team": "N/A",
-   "height_in": 73
   },
   {
    "name": "Yuta Tabuse",
