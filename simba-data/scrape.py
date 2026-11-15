@@ -17,6 +17,7 @@ def main():
     t0=time.time()
     if "--parse" not in sys.argv:
         fetch.crawl(use_cache="--cache" in sys.argv, rate=1.0, workers=3, log=lambda m: print(m, flush=True))
+        fetch.ensure([fetch.BASE+p for p in fetch.KNOWN_LEAGUE_PAGES], log=lambda m: print(m, flush=True))
     parse.run()
     sitemap.main()
     print(f"total {time.time()-t0:.0f}s")

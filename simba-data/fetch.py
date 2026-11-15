@@ -84,5 +84,24 @@ def crawl(use_cache=False, rate=1.0, workers=3, maxpages=5000, log=print):
     json.dump(meta,open(os.path.join(HERE,"crawl_meta.json"),"w"),indent=1)
     log(f"crawl done: {len(pages)} pages, {nfetch} HTTP requests, {meta['elapsed_s']}s")
     return meta
+def ensure(urls, rate=1.0, log=print):
+    """Fetch league pages the menu may have renamed. Never follows a forum host.
+    Skips a file already cached as a real HTML page; refetches a saved 404."""
+    rl=RateLimiter(rate); n=0
+    for u in urls:
+        if "proboards" in u.lower(): continue
+        if not u.startswith("http"): u=BASE+u.lstrip("./")
+        u=norm(u)
+        if not u: continue
+        rp=rawpath(u)
+        if os.path.exists(rp):
+            head=open(rp,encoding="utf-8",errors="replace").read(400).lower()
+            if "404 not found" not in head and "not found" not in head:
+                continue
+        log(f"ensure {u}")
+        fetch_one(u, rl, use_cache=False); n+=1
+    return n
+# Pages the stats-site menu has pointed at. The crawl follows the live menu; these names are the fallback.
+KNOWN_LEAGUE_PAGES=("salaryneeds-new.htm","salaryneeds.htm","monthly-awards.htm","wkly-mnthly.htm")
 if __name__=="__main__":
     crawl(use_cache="--cache" in sys.argv, log=lambda m: print(m,flush=True))

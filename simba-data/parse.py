@@ -478,6 +478,111 @@ def parse_transactions():
         else:
             a=(r.get("action") or "").split()[0].lower() if r.get("action") else None; r["type"]=a
     return recs
+def is_real_page(s):
+    if s is None: return False
+    title=txt(s.title).lower() if s.title else ""
+    if "404" in title or "not found" in title: return False
+    return s.find("table") is not None
+def menu_hrefs_from(s):
+    """Option values and links in the stats-site menu. Forum hosts are never followed."""
+    out=[]
+    if s is None: return out
+    for el in s.find_all(["option","a"]):
+        v=(el.get("value") or el.get("href") or "").strip()
+        if not v or "proboards" in v.lower(): continue
+        if v.lower().startswith(("javascript:","mailto:","#","http://","https://")): continue
+        rel=v.split("?")[0].split("#")[0].lstrip("./")
+        if rel and rel.lower() not in ("na",""): out.append(rel)
+    return out
+def menu_hrefs():
+    found=[]
+    for rel in ("index2.htm","index.htm","index.html"):
+        found.extend(menu_hrefs_from(soup(rel)))
+    return found
+def resolve_pages(needles, fallbacks):
+    """Cached pages for a menu item: index link first, then the known old and new names.
+    A 404 body does not count. Order is preserved and duplicates dropped."""
+    cands=[]
+    for href in menu_hrefs():
+        low=href.lower()
+        if any(n in low for n in needles) and href not in cands: cands.append(href)
+    for fb in fallbacks:
+        if fb not in cands: cands.append(fb)
+    out=[]
+    for rel in cands:
+        s=soup(rel)
+        if is_real_page(s): out.append((rel,s))
+    return out
+def parse_cap_soup(s, teams):
+    """Available Cap Room table. committed_by_year is the roster's site salaries, not the page's room figure."""
+    if not is_real_page(s): return []
+    t=find_table(s,"Team","Cap Room")
+    if t is None:
+        for cand in leaf_tables(s):
+            i,hs=header_index(cand.find_all("tr"),["Team"])
+            if i is not None and any("cap" in (h or "").lower() for h in hs):
+                t=cand; break
+    rows=table_records(t,["Team"]) if t else []
+    out=[]
+    for r in rows:
+        name=r.get("team")
+        if not name: continue
+        tm=next((x for x in teams if x.get("name")==name),{})
+        room=r.get("cap_room")
+        if room is None:
+            room=next((v for k,v in r.items() if "cap" in k and k!="team"), None)
+        years=[]
+        for i in range(1,8):
+            total=0
+            for p in tm.get("players") or []:
+                v=(p.get("salary") or {}).get(f"year_{i}") or 0
+                if isinstance(v,(int,float)): total+=v
+            years.append(int(total) if total==int(total) else total)
+        out.append({"team":name,"team_id":tm.get("team_id") or r.get("team_id"),"cap_room":room,
+                    "team_salary":tm.get("team_salary"),"committed_by_year":years})
+    return out
+def _award_title(table, rows):
+    if rows and txt(rows[0]).rstrip().endswith(":"):
+        return txt(rows[0]).rstrip(":"), 1
+    prev=table.find_previous(["p","b"])
+    title=txt(prev).rstrip(":") if prev else ""
+    return title or "Awards", None
+def parse_award_soup(s):
+    """Weekly/monthly award tables. Old pages put the title in row 0; the new page puts it in a heading above the table."""
+    aw={}
+    if not is_real_page(s): return aw
+    for t in leaf_tables(s):
+        rows=t.find_all("tr")
+        if len(rows)<2: continue
+        title, header_at=_award_title(t, rows)
+        if header_at==1:
+            hs=[txt(c).rstrip(":").lower() for c in cells(rows[1])]
+            body=rows[2:]
+        else:
+            i,hs0=header_index(rows,["Player"])
+            if i is None: continue
+            hs=[h.rstrip(":").lower() for h in hs0]
+            if not any("week" in h or "month" in h for h in hs): continue
+            body=rows[i+1:]
+        recs=[]
+        for r in body:
+            cs=cells(r); vals=[txt(c) for c in cs]
+            if not any(vals): continue
+            rec={}
+            for h,c,v in zip(hs,cs,vals):
+                if not h: continue
+                rec[h]=v
+            player=(rec.get("player") or "").replace("\xa0"," ").strip()
+            if not player: continue
+            rec["player"]=player
+            a=r.find("a",href=lambda h:h and "player" in h)
+            b=r.find("a",href=lambda h:h and "roster" in h)
+            if a and pid(a["href"]) is not None: rec["player_id"]=pid(a["href"])
+            if b and tid(b["href"]) is not None: rec["team_id"]=tid(b["href"])
+            recs.append(rec)
+        if recs and (title not in aw or len(recs)>len(aw[title])):
+            aw[title]=recs
+    return aw
 def parse_leaders():
     s=soup("leagueleaders.htm","lxml"); out={}  # lxml copes with the page's malformed <tr><u><b><td> markup
     for t in s.find_all("table"):
@@ -501,12 +606,9 @@ def parse_leaders():
             rows=t.find_all("tr"); hs=[txt(c) for c in cells(rows[0])]
             rec[rel[:-4]]=[{"category":txt(cells(r)[0]).rstrip(":"),**{slug(h):num(txt(c)) for h,c in zip(hs[1:],cells(r)[1:])}} for r in rows[1:]]
     aw={}
-    s=soup("wkly-mnthly.htm")
-    for t in leaf_tables(s):
-        rows=t.find_all("tr")
-        if len(rows)>=2 and txt(rows[0]).endswith(":"):
-            hs=[txt(c).rstrip(":").lower() for c in cells(rows[1])]
-            aw[txt(rows[0]).rstrip(":")]=[dict(zip(hs,[txt(c) for c in cells(r)])) for r in rows[2:] if any(txt(c) for c in cells(r))]
+    for rel,s in resolve_pages(("award","wkly","mnthly","monthly"),("monthly-awards.htm","wkly-mnthly.htm")):
+        for k,v in parse_award_soup(s).items():
+            if k not in aw or len(v)>len(aw[k]): aw[k]=v
     s=soup("allstarweekend.htm")
     for t in leaf_tables(s) if s else []:
         rows=t.find_all("tr")
@@ -578,12 +680,9 @@ def run(log=print):
         nteams=attach_team_box_totals(list(teams.values()), team_lines)
         log(f"box scores: {len(box_lines)} player-games, {sum(1 for p in players if p.get('box_totals'))} players with makes/attempts, {len(missed)} unmatched, {nteams} team totals")
     sched={"league":parse_league_schedule(),"teams":{t["team_id"]:{"team":t["name"],**(parse_team_schedule(t["team_id"]) or {})} for t in teams.values()}}
-    cap=[]
-    t=find_table(soup("salaryneeds.htm"),"Team","Cap Room")
-    for r in table_records(t,["Team","Cap Room"]) if t else []:
-        tm=next((x for x in teams.values() if x["name"]==r["team"]),{})
-        cap.append({"team":r["team"],"team_id":tm.get("team_id"),"cap_room":r.get("cap_room"),"team_salary":tm.get("team_salary"),
-                    "committed_by_year":[sum((p["salary"].get(f"year_{i}") or 0) for p in tm.get("players",[])) for i in range(1,8)]})
+    cap_pages=resolve_pages(("salaryneed",),("salaryneeds-new.htm","salaryneeds.htm"))
+    cap=parse_cap_soup(cap_pages[0][1], list(teams.values())) if cap_pages else []
+    if cap_pages: log(f"cap room from {cap_pages[0][0]}: {len(cap)} teams")
     inj={"league_ir":parse_list_page("ir.htm",["Name","Team","Injury"]),"by_team":{t["team_id"]:t.get("injuries",[]) for t in teams.values() if t.get("injuries")}}
     files={"teams.json":{"teams":list(teams.values())},"players.json":{"players":players},"standings.json":parse_standings(teams),
            "schedule.json":sched,"freeagents.json":{"free_agents":parse_free_agents()},"draft.json":parse_draft(),"injuries.json":inj,
