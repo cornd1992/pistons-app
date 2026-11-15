@@ -28,5 +28,25 @@ if ok:
     except Exception as e:
         print(f"roster stat check unreadable ({e})")
         ok=False
+if ok:
+    try:
+        cap=json.load(open(os.path.join(HERE,"caproom.json")))["teams"]
+        leaders=json.load(open(os.path.join(HERE,"leaders.json")))
+        awards=leaders.get("awards") or {}
+        named=sum(1 for rows in awards.values() for r in rows if str(r.get("player") or "").strip())
+        det=next((t for t in cap if t.get("team_id")==12 or t.get("team")=="Detroit Pistons"), None)
+        print(f"caproom_teams={len(cap)} award_winners={named}")
+        if len(cap)<20 or det is None or det.get("cap_room") is None or len(det.get("committed_by_year") or [])!=7:
+            print("FAILED: cap room page did not populate a team list (check salaryneeds-new.htm / salaryneeds.htm)")
+            ok=False
+        elif not any(sum(x.get("committed_by_year") or [])>0 for x in cap):
+            print("FAILED: cap room committed_by_year is empty for every team")
+            ok=False
+        if named==0:
+            print("FAILED: awards list is empty (check monthly-awards.htm / wkly-mnthly.htm)")
+            ok=False
+    except Exception as e:
+        print(f"cap/awards check unreadable ({e})")
+        ok=False
 print("OK" if ok else "FAILED sanity check")
 sys.exit(0 if ok else 1)
