@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-16T20:29:40Z",
-  "parsed_at": "2026-11-16T20:30:20Z"
+  "crawled_at": "2026-11-17T19:29:17Z",
+  "parsed_at": "2026-11-17T19:30:32Z"
  },
  "league": {
   "months": [
@@ -266,83 +266,83 @@
     "days": [
      {
       "day": 61,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day61.htm"
      },
      {
       "day": 62,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day62.htm"
      },
      {
       "day": 63,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day63.htm"
      },
      {
       "day": 64,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day64.htm"
      },
      {
       "day": 65,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day65.htm"
      },
      {
       "day": 66,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day66.htm"
      },
      {
       "day": 67,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day67.htm"
      },
      {
       "day": 68,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day68.htm"
      },
      {
       "day": 69,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day69.htm"
      },
      {
       "day": 70,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day70.htm"
      },
      {
       "day": 71,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day71.htm"
      },
      {
       "day": 72,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day72.htm"
      },
      {
       "day": 73,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day73.htm"
      },
      {
       "day": 74,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day74.htm"
      },
      {
       "day": 75,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day75.htm"
      },
      {
       "day": 76,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day76.htm"
      },
      {
       "day": 77,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day77.htm"
      },
      {
       "day": 78,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day78.htm"
      },
      {
       "day": 79,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day79.htm"
      },
      {
       "day": 80,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day80.htm"
      }
     ]
    },
@@ -1095,13 +1095,14 @@
     },
     {
      "day": 61,
-     "game": "76ers @ Celtics",
+     "game": "CELTICS 90, 76ers 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Celtics",
+     "opponent": "CELTICS 90, 76ers 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-9.html"
     },
     {
      "day": 62,
@@ -1120,13 +1121,14 @@
     },
     {
      "day": 65,
-     "game": "Mavericks @ Celtics",
+     "game": "Mavericks 90, CELTICS 73",
      "has_game": true,
      "home_away": null,
-     "opponent": "Mavericks @ Celtics",
+     "opponent": "Mavericks 90, CELTICS 73",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-1.html"
     },
     {
      "day": 66,
@@ -1145,13 +1147,14 @@
     },
     {
      "day": 69,
-     "game": "Pistons @ Celtics",
+     "game": "Pistons 83, CELTICS 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pistons @ Celtics",
+     "opponent": "Pistons 83, CELTICS 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-9.html"
     },
     {
      "day": 70,
@@ -1160,13 +1163,14 @@
     },
     {
      "day": 71,
-     "game": "Celtics @ Bulls",
+     "game": "BULLS 100, Celtics 86",
      "has_game": true,
      "home_away": null,
-     "opponent": "Celtics @ Bulls",
+     "opponent": "BULLS 100, Celtics 86",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-4.html"
     },
     {
      "day": 72,
@@ -1175,43 +1179,47 @@
     },
     {
      "day": 73,
-     "game": "Nets @ Celtics",
+     "game": "CELTICS 94, Nets 79",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Celtics",
+     "opponent": "CELTICS 94, Nets 79",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-9.html"
     },
     {
      "day": 74,
-     "game": "SuperSonics @ Celtics",
+     "game": "CELTICS 112, SuperSonics 98",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Celtics",
+     "opponent": "CELTICS 112, SuperSonics 98",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-2.html"
     },
     {
      "day": 75,
-     "game": "Bulls @ Celtics",
+     "game": "Bulls 88, CELTICS 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bulls @ Celtics",
+     "opponent": "Bulls 88, CELTICS 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-3.html"
     },
     {
      "day": 76,
-     "game": "Pacers @ Celtics",
+     "game": "Pacers 116, CELTICS 89",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pacers @ Celtics",
+     "opponent": "Pacers 116, CELTICS 89",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-3.html"
     },
     {
      "day": 77,
@@ -1220,23 +1228,25 @@
     },
     {
      "day": 78,
-     "game": "Celtics @ Raptors",
+     "game": "Celtics 91, RAPTORS 90",
      "has_game": true,
      "home_away": null,
-     "opponent": "Celtics @ Raptors",
+     "opponent": "Celtics 91, RAPTORS 90",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/78-3.html"
     },
     {
      "day": 79,
-     "game": "Celtics @ Cavaliers",
+     "game": "Celtics 124, CAVALIERS 102",
      "has_game": true,
      "home_away": null,
-     "opponent": "Celtics @ Cavaliers",
+     "opponent": "Celtics 124, CAVALIERS 102",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-4.html"
     },
     {
      "day": 80,
@@ -2182,13 +2192,14 @@
     },
     {
      "day": 61,
-     "game": "Heat @ Bucks",
+     "game": "Heat 104, BUCKS 98",
      "has_game": true,
      "home_away": null,
-     "opponent": "Heat @ Bucks",
+     "opponent": "Heat 104, BUCKS 98",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-5.html"
     },
     {
      "day": 62,
@@ -2197,13 +2208,14 @@
     },
     {
      "day": 63,
-     "game": "Timberwolves @ Heat",
+     "game": "HEAT 107, Timberwolves 105",
      "has_game": true,
      "home_away": null,
-     "opponent": "Timberwolves @ Heat",
+     "opponent": "HEAT 107, Timberwolves 105",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-1.html"
     },
     {
      "day": 64,
@@ -2212,13 +2224,14 @@
     },
     {
      "day": 65,
-     "game": "Spurs @ Heat",
+     "game": "HEAT 87, Spurs 64",
      "has_game": true,
      "home_away": null,
-     "opponent": "Spurs @ Heat",
+     "opponent": "HEAT 87, Spurs 64",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-10.html"
     },
     {
      "day": 66,
@@ -2232,53 +2245,58 @@
     },
     {
      "day": 68,
-     "game": "76ers @ Heat",
+     "game": "76ers 92, HEAT 82",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Heat",
+     "opponent": "76ers 92, HEAT 82",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/68-4.html"
     },
     {
      "day": 69,
-     "game": "Nets @ Heat",
+     "game": "HEAT 96, Nets 79",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Heat",
+     "opponent": "HEAT 96, Nets 79",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-8.html"
     },
     {
      "day": 70,
-     "game": "Heat @ Cavaliers",
+     "game": "CAVALIERS 101, Heat 79",
      "has_game": true,
      "home_away": null,
-     "opponent": "Heat @ Cavaliers",
+     "opponent": "CAVALIERS 101, Heat 79",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-6.html"
     },
     {
      "day": 71,
-     "game": "Hornets @ Heat",
+     "game": "HEAT 95, Hornets 93",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hornets @ Heat",
+     "opponent": "HEAT 95, Hornets 93",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-8.html"
     },
     {
      "day": 72,
-     "game": "Trail Blazers @ Heat",
+     "game": "HEAT 101, Trail Blazers 87",
      "has_game": true,
      "home_away": null,
-     "opponent": "Trail Blazers @ Heat",
+     "opponent": "HEAT 101, Trail Blazers 87",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-9.html"
     },
     {
      "day": 73,
@@ -2287,13 +2305,14 @@
     },
     {
      "day": 74,
-     "game": "Bulls @ Heat",
+     "game": "HEAT 98, Bulls 86",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bulls @ Heat",
+     "opponent": "HEAT 98, Bulls 86",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-11.html"
     },
     {
      "day": 75,
@@ -2307,13 +2326,14 @@
     },
     {
      "day": 77,
-     "game": "Heat @ Knicks",
+     "game": "KNICKS 94, Heat 72",
      "has_game": true,
      "home_away": null,
-     "opponent": "Heat @ Knicks",
+     "opponent": "KNICKS 94, Heat 72",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-8.html"
     },
     {
      "day": 78,
@@ -2322,23 +2342,25 @@
     },
     {
      "day": 79,
-     "game": "Suns @ Heat",
+     "game": "Suns 87, HEAT 62",
      "has_game": true,
      "home_away": null,
-     "opponent": "Suns @ Heat",
+     "opponent": "Suns 87, HEAT 62",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-8.html"
     },
     {
      "day": 80,
-     "game": "Heat @ Lakers",
+     "game": "LAKERS 95, Heat 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Heat @ Lakers",
+     "opponent": "LAKERS 95, Heat 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-8.html"
     },
     {
      "day": 81,
@@ -3296,33 +3318,36 @@
     },
     {
      "day": 62,
-     "game": "Nets @ Bulls",
+     "game": "Nets 102, BULLS 98",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Bulls",
+     "opponent": "Nets 102, BULLS 98",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/62-4.html"
     },
     {
      "day": 63,
-     "game": "Trail Blazers @ Nets",
+     "game": "Trail Blazers 96, NETS 91",
      "has_game": true,
      "home_away": null,
-     "opponent": "Trail Blazers @ Nets",
+     "opponent": "Trail Blazers 96, NETS 91",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-4.html"
     },
     {
      "day": 64,
-     "game": "Raptors @ Nets",
+     "game": "Raptors 92, NETS 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "Raptors @ Nets",
+     "opponent": "Raptors 92, NETS 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-3.html"
     },
     {
      "day": 65,
@@ -3331,53 +3356,58 @@
     },
     {
      "day": 66,
-     "game": "Nets @ Warriors",
+     "game": "WARRIORS 115, Nets 90",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Warriors",
+     "opponent": "WARRIORS 115, Nets 90",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-9.html"
     },
     {
      "day": 67,
-     "game": "Nets @ Rockets",
+     "game": "Nets 96, ROCKETS 90",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Rockets",
+     "opponent": "Nets 96, ROCKETS 90",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-9.html"
     },
     {
      "day": 68,
-     "game": "Grizzlies @ Nets",
+     "game": "NETS 111, Grizzlies 86",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Nets",
+     "opponent": "NETS 111, Grizzlies 86",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/68-8.html"
     },
     {
      "day": 69,
-     "game": "Nets @ Heat",
+     "game": "HEAT 96, Nets 79",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Heat",
+     "opponent": "HEAT 96, Nets 79",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-8.html"
     },
     {
      "day": 70,
-     "game": "Nets @ Timberwolves",
+     "game": "Nets 111, TIMBERWOLVES 107",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Timberwolves",
+     "opponent": "Nets 111, TIMBERWOLVES 107",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-3.html"
     },
     {
      "day": 71,
@@ -3391,23 +3421,25 @@
     },
     {
      "day": 73,
-     "game": "Nets @ Celtics",
+     "game": "CELTICS 94, Nets 79",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Celtics",
+     "opponent": "CELTICS 94, Nets 79",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-9.html"
     },
     {
      "day": 74,
-     "game": "Nets @ Raptors",
+     "game": "Nets 92, RAPTORS 65",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Raptors",
+     "opponent": "Nets 92, RAPTORS 65",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-3.html"
     },
     {
      "day": 75,
@@ -3416,33 +3448,36 @@
     },
     {
      "day": 76,
-     "game": "Nets @ Wizards",
+     "game": "WIZARDS 103, Nets 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Wizards",
+     "opponent": "WIZARDS 103, Nets 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-6.html"
     },
     {
      "day": 77,
-     "game": "Nets @ Kings",
+     "game": "KINGS 104, Nets 66",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Kings",
+     "opponent": "KINGS 104, Nets 66",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-6.html"
     },
     {
      "day": 78,
-     "game": "SuperSonics @ Nets",
+     "game": "SuperSonics 106, NETS 98",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Nets",
+     "opponent": "SuperSonics 106, NETS 98",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/78-2.html"
     },
     {
      "day": 79,
@@ -4388,13 +4423,14 @@
     },
     {
      "day": 63,
-     "game": "Knicks @ Cavaliers",
+     "game": "CAVALIERS 90, Knicks 88",
      "has_game": true,
      "home_away": null,
-     "opponent": "Knicks @ Cavaliers",
+     "opponent": "CAVALIERS 90, Knicks 88",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-5.html"
     },
     {
      "day": 64,
@@ -4408,13 +4444,14 @@
     },
     {
      "day": 66,
-     "game": "Knicks @ Magic",
+     "game": "Knicks 104, MAGIC 102",
      "has_game": true,
      "home_away": null,
-     "opponent": "Knicks @ Magic",
+     "opponent": "Knicks 104, MAGIC 102",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-8.html"
     },
     {
      "day": 67,
@@ -4428,33 +4465,36 @@
     },
     {
      "day": 69,
-     "game": "Knicks @ Kings",
+     "game": "KINGS 105, Knicks 101",
      "has_game": true,
      "home_away": null,
-     "opponent": "Knicks @ Kings",
+     "opponent": "KINGS 105, Knicks 101",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-1.html"
     },
     {
      "day": 70,
-     "game": "Knicks @ Spurs",
+     "game": "SPURS 92, Knicks 79",
      "has_game": true,
      "home_away": null,
-     "opponent": "Knicks @ Spurs",
+     "opponent": "SPURS 92, Knicks 79",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-2.html"
     },
     {
      "day": 71,
-     "game": "Knicks @ Hawks",
+     "game": "HAWKS 83, Knicks 74",
      "has_game": true,
      "home_away": null,
-     "opponent": "Knicks @ Hawks",
+     "opponent": "HAWKS 83, Knicks 74",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-10.html"
     },
     {
      "day": 72,
@@ -4463,63 +4503,69 @@
     },
     {
      "day": 73,
-     "game": "SuperSonics @ Knicks",
+     "game": "KNICKS 100, SuperSonics 68",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Knicks",
+     "opponent": "KNICKS 100, SuperSonics 68",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-3.html"
     },
     {
      "day": 74,
-     "game": "Jazz @ Knicks",
+     "game": "KNICKS 84, Jazz 81",
      "has_game": true,
      "home_away": null,
-     "opponent": "Jazz @ Knicks",
+     "opponent": "KNICKS 84, Jazz 81",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-10.html"
     },
     {
      "day": 75,
-     "game": "Spurs @ Knicks",
+     "game": "KNICKS 104, Spurs 90",
      "has_game": true,
      "home_away": null,
-     "opponent": "Spurs @ Knicks",
+     "opponent": "KNICKS 104, Spurs 90",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-7.html"
     },
     {
      "day": 76,
-     "game": "Magic @ Knicks",
+     "game": "Magic 103, KNICKS 83",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ Knicks",
+     "opponent": "Magic 103, KNICKS 83",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-4.html"
     },
     {
      "day": 77,
-     "game": "Heat @ Knicks",
+     "game": "KNICKS 94, Heat 72",
      "has_game": true,
      "home_away": null,
-     "opponent": "Heat @ Knicks",
+     "opponent": "KNICKS 94, Heat 72",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-8.html"
     },
     {
      "day": 78,
-     "game": "Lakers @ Knicks",
+     "game": "Lakers 95, KNICKS 89",
      "has_game": true,
      "home_away": null,
-     "opponent": "Lakers @ Knicks",
+     "opponent": "Lakers 95, KNICKS 89",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/78-1.html"
     },
     {
      "day": 79,
@@ -4528,13 +4574,14 @@
     },
     {
      "day": 80,
-     "game": "Cavaliers @ Knicks",
+     "game": "KNICKS 88, Cavaliers 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Cavaliers @ Knicks",
+     "opponent": "KNICKS 88, Cavaliers 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-2.html"
     },
     {
      "day": 81,
@@ -5433,173 +5480,190 @@
     },
     {
      "day": 61,
-     "game": "Magic @ Pacers",
+     "game": "PACERS 112, Magic 94",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ Pacers",
+     "opponent": "PACERS 112, Magic 94",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-7.html"
     },
     {
      "day": 62,
-     "game": "Magic @ Trail Blazers",
+     "game": "Magic 110, TRAIL BLAZERS 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ Trail Blazers",
+     "opponent": "Magic 110, TRAIL BLAZERS 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/62-3.html"
     },
     {
      "day": 63,
-     "game": "Magic @ SuperSonics",
+     "game": "SUPERSONICS 105, Magic 95",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ SuperSonics",
+     "opponent": "SUPERSONICS 105, Magic 95",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-2.html"
     },
     {
      "day": 64,
-     "game": "Grizzlies @ Magic",
+     "game": "MAGIC 105, Grizzlies 96",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Magic",
+     "opponent": "MAGIC 105, Grizzlies 96",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-2.html"
     },
     {
      "day": 65,
-     "game": "Pistons @ Magic",
+     "game": "MAGIC 89, Pistons 70",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pistons @ Magic",
+     "opponent": "MAGIC 89, Pistons 70",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-5.html"
     },
     {
      "day": 66,
-     "game": "Knicks @ Magic",
+     "game": "Knicks 104, MAGIC 102",
      "has_game": true,
      "home_away": null,
-     "opponent": "Knicks @ Magic",
+     "opponent": "Knicks 104, MAGIC 102",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-8.html"
     },
     {
      "day": 67,
-     "game": "Magic @ Cavaliers",
+     "game": "Magic 106, CAVALIERS 103",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ Cavaliers",
+     "opponent": "Magic 106, CAVALIERS 103",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-7.html"
     },
     {
      "day": 68,
-     "game": "Trail Blazers @ Magic",
+     "game": "Trail Blazers 94, MAGIC 91",
      "has_game": true,
      "home_away": null,
-     "opponent": "Trail Blazers @ Magic",
+     "opponent": "Trail Blazers 94, MAGIC 91",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/68-6.html"
     },
     {
      "day": 69,
-     "game": "Bucks @ Magic",
+     "game": "MAGIC 116, Bucks 93",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bucks @ Magic",
+     "opponent": "MAGIC 116, Bucks 93",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-4.html"
     },
     {
      "day": 70,
-     "game": "Magic @ 76ers",
+     "game": "76ERS 118, Magic 100",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ 76ers",
+     "opponent": "76ERS 118, Magic 100",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-4.html"
     },
     {
      "day": 71,
-     "game": "Warriors @ Magic",
+     "game": "MAGIC 96, Warriors 75",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Magic",
+     "opponent": "MAGIC 96, Warriors 75",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-2.html"
     },
     {
      "day": 72,
-     "game": "Magic @ Wizards",
+     "game": "WIZARDS 101, Magic 90",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ Wizards",
+     "opponent": "WIZARDS 101, Magic 90",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-6.html"
     },
     {
      "day": 73,
-     "game": "Magic @ Rockets",
+     "game": "ROCKETS 96, Magic 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ Rockets",
+     "opponent": "ROCKETS 96, Magic 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-8.html"
     },
     {
      "day": 74,
-     "game": "Magic @ Hornets",
+     "game": "HORNETS 104, Magic 86",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ Hornets",
+     "opponent": "HORNETS 104, Magic 86",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-6.html"
     },
     {
      "day": 75,
-     "game": "Magic @ Timberwolves",
+     "game": "TIMBERWOLVES 106, Magic 102",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ Timberwolves",
+     "opponent": "TIMBERWOLVES 106, Magic 102",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-9.html"
     },
     {
      "day": 76,
-     "game": "Magic @ Knicks",
+     "game": "Magic 103, KNICKS 83",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ Knicks",
+     "opponent": "Magic 103, KNICKS 83",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-4.html"
     },
     {
      "day": 77,
-     "game": "Bulls @ Magic",
+     "game": "MAGIC 118, Bulls 82",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bulls @ Magic",
+     "opponent": "MAGIC 118, Bulls 82",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-1.html"
     },
     {
      "day": 78,
@@ -5608,13 +5672,14 @@
     },
     {
      "day": 79,
-     "game": "Jazz @ Magic",
+     "game": "MAGIC 91, Jazz 76",
      "has_game": true,
      "home_away": null,
-     "opponent": "Jazz @ Magic",
+     "opponent": "MAGIC 91, Jazz 76",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-7.html"
     },
     {
      "day": 80,
@@ -6541,13 +6606,14 @@
     },
     {
      "day": 61,
-     "game": "76ers @ Celtics",
+     "game": "CELTICS 90, 76ers 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Celtics",
+     "opponent": "CELTICS 90, 76ers 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-9.html"
     },
     {
      "day": 62,
@@ -6556,63 +6622,69 @@
     },
     {
      "day": 63,
-     "game": "Wizards @ 76ers",
+     "game": "76ERS 96, Wizards 89",
      "has_game": true,
      "home_away": null,
-     "opponent": "Wizards @ 76ers",
+     "opponent": "76ERS 96, Wizards 89",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-3.html"
     },
     {
      "day": 64,
-     "game": "76ers @ Bulls",
+     "game": "BULLS 107, 76ers 104",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Bulls",
+     "opponent": "BULLS 107, 76ers 104",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-4.html"
     },
     {
      "day": 65,
-     "game": "76ers @ Rockets",
+     "game": "ROCKETS 82, 76ers 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Rockets",
+     "opponent": "ROCKETS 82, 76ers 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-3.html"
     },
     {
      "day": 66,
-     "game": "76ers @ Wizards",
+     "game": "WIZARDS 107, 76ers 95",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Wizards",
+     "opponent": "WIZARDS 107, 76ers 95",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-2.html"
     },
     {
      "day": 67,
-     "game": "Bucks @ 76ers",
+     "game": "Bucks 103, 76ERS 92",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bucks @ 76ers",
+     "opponent": "Bucks 103, 76ERS 92",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-8.html"
     },
     {
      "day": 68,
-     "game": "76ers @ Heat",
+     "game": "76ers 92, HEAT 82",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Heat",
+     "opponent": "76ers 92, HEAT 82",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/68-4.html"
     },
     {
      "day": 69,
@@ -6621,83 +6693,91 @@
     },
     {
      "day": 70,
-     "game": "Magic @ 76ers",
+     "game": "76ERS 118, Magic 100",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ 76ers",
+     "opponent": "76ERS 118, Magic 100",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-4.html"
     },
     {
      "day": 71,
-     "game": "Lakers @ 76ers",
+     "game": "Lakers 100, 76ERS 96",
      "has_game": true,
      "home_away": null,
-     "opponent": "Lakers @ 76ers",
+     "opponent": "Lakers 100, 76ERS 96",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-7.html"
     },
     {
      "day": 72,
-     "game": "76ers @ Spurs",
+     "game": "76ers 98, SPURS 83",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Spurs",
+     "opponent": "76ers 98, SPURS 83",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-2.html"
     },
     {
      "day": 73,
-     "game": "76ers @ Pistons",
+     "game": "PISTONS 87, 76ers 72",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Pistons",
+     "opponent": "PISTONS 87, 76ers 72",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-5.html"
     },
     {
      "day": 74,
-     "game": "76ers @ Suns",
+     "game": "76ers 98, SUNS 74",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Suns",
+     "opponent": "76ers 98, SUNS 74",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-8.html"
     },
     {
      "day": 75,
-     "game": "76ers @ Cavaliers",
+     "game": "CAVALIERS 98, 76ers 85",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Cavaliers",
+     "opponent": "CAVALIERS 98, 76ers 85",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-4.html"
     },
     {
      "day": 76,
-     "game": "Clippers @ 76ers",
+     "game": "Clippers 116, 76ERS 93",
      "has_game": true,
      "home_away": null,
-     "opponent": "Clippers @ 76ers",
+     "opponent": "Clippers 116, 76ERS 93",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-7.html"
     },
     {
      "day": 77,
-     "game": "Hornets @ 76ers",
+     "game": "Hornets 87, 76ERS 66",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hornets @ 76ers",
+     "opponent": "Hornets 87, 76ERS 66",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-7.html"
     },
     {
      "day": 78,
@@ -6706,23 +6786,25 @@
     },
     {
      "day": 79,
-     "game": "76ers @ Wizards",
+     "game": "76ers 116, WIZARDS 102",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Wizards",
+     "opponent": "76ers 116, WIZARDS 102",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-1.html"
     },
     {
      "day": 80,
-     "game": "76ers @ Grizzlies",
+     "game": "76ers 100, GRIZZLIES 92",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Grizzlies",
+     "opponent": "76ers 100, GRIZZLIES 92",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-6.html"
     },
     {
      "day": 81,
@@ -7652,13 +7734,14 @@
     },
     {
      "day": 61,
-     "game": "Timberwolves @ Wizards",
+     "game": "WIZARDS 106, Timberwolves 76",
      "has_game": true,
      "home_away": null,
-     "opponent": "Timberwolves @ Wizards",
+     "opponent": "WIZARDS 106, Timberwolves 76",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-3.html"
     },
     {
      "day": 62,
@@ -7667,13 +7750,14 @@
     },
     {
      "day": 63,
-     "game": "Wizards @ 76ers",
+     "game": "76ERS 96, Wizards 89",
      "has_game": true,
      "home_away": null,
-     "opponent": "Wizards @ 76ers",
+     "opponent": "76ERS 96, Wizards 89",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-3.html"
     },
     {
      "day": 64,
@@ -7682,33 +7766,36 @@
     },
     {
      "day": 65,
-     "game": "Clippers @ Wizards",
+     "game": "WIZARDS 99, Clippers 63",
      "has_game": true,
      "home_away": null,
-     "opponent": "Clippers @ Wizards",
+     "opponent": "WIZARDS 99, Clippers 63",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-4.html"
     },
     {
      "day": 66,
-     "game": "76ers @ Wizards",
+     "game": "WIZARDS 107, 76ers 95",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Wizards",
+     "opponent": "WIZARDS 107, 76ers 95",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-2.html"
     },
     {
      "day": 67,
-     "game": "Wizards @ Hornets",
+     "game": "Wizards 102, HORNETS 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Wizards @ Hornets",
+     "opponent": "Wizards 102, HORNETS 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-6.html"
     },
     {
      "day": 68,
@@ -7717,13 +7804,14 @@
     },
     {
      "day": 69,
-     "game": "Raptors @ Wizards",
+     "game": "WIZARDS 100, Raptors 69",
      "has_game": true,
      "home_away": null,
-     "opponent": "Raptors @ Wizards",
+     "opponent": "WIZARDS 100, Raptors 69",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-6.html"
     },
     {
      "day": 70,
@@ -7737,53 +7825,58 @@
     },
     {
      "day": 72,
-     "game": "Magic @ Wizards",
+     "game": "WIZARDS 101, Magic 90",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ Wizards",
+     "opponent": "WIZARDS 101, Magic 90",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-6.html"
     },
     {
      "day": 73,
-     "game": "Spurs @ Wizards",
+     "game": "WIZARDS 104, Spurs 75",
      "has_game": true,
      "home_away": null,
-     "opponent": "Spurs @ Wizards",
+     "opponent": "WIZARDS 104, Spurs 75",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-11.html"
     },
     {
      "day": 74,
-     "game": "Pacers @ Wizards",
+     "game": "WIZARDS 108, Pacers 93",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pacers @ Wizards",
+     "opponent": "WIZARDS 108, Pacers 93",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-1.html"
     },
     {
      "day": 75,
-     "game": "Hornets @ Wizards",
+     "game": "Hornets 107, WIZARDS 99",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hornets @ Wizards",
+     "opponent": "Hornets 107, WIZARDS 99",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-1.html"
     },
     {
      "day": 76,
-     "game": "Nets @ Wizards",
+     "game": "WIZARDS 103, Nets 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Wizards",
+     "opponent": "WIZARDS 103, Nets 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-6.html"
     },
     {
      "day": 77,
@@ -7797,23 +7890,25 @@
     },
     {
      "day": 79,
-     "game": "76ers @ Wizards",
+     "game": "76ers 116, WIZARDS 102",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Wizards",
+     "opponent": "76ers 116, WIZARDS 102",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-1.html"
     },
     {
      "day": 80,
-     "game": "Wizards @ Raptors",
+     "game": "Wizards 91, RAPTORS 74",
      "has_game": true,
      "home_away": null,
-     "opponent": "Wizards @ Raptors",
+     "opponent": "Wizards 91, RAPTORS 74",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-3.html"
     },
     {
      "day": 81,
@@ -8718,23 +8813,25 @@
     },
     {
      "day": 61,
-     "game": "Hawks @ Hornets",
+     "game": "HORNETS 110, Hawks 99",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hawks @ Hornets",
+     "opponent": "HORNETS 110, Hawks 99",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-8.html"
     },
     {
      "day": 62,
-     "game": "Bucks @ Hawks",
+     "game": "HAWKS 87, Bucks 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bucks @ Hawks",
+     "opponent": "HAWKS 87, Bucks 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/62-6.html"
     },
     {
      "day": 63,
@@ -8743,23 +8840,25 @@
     },
     {
      "day": 64,
-     "game": "Kings @ Hawks",
+     "game": "Kings 85, HAWKS 72",
      "has_game": true,
      "home_away": null,
-     "opponent": "Kings @ Hawks",
+     "opponent": "Kings 85, HAWKS 72",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-7.html"
     },
     {
      "day": 65,
-     "game": "Hawks @ Timberwolves",
+     "game": "TIMBERWOLVES 88, Hawks 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hawks @ Timberwolves",
+     "opponent": "TIMBERWOLVES 88, Hawks 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-6.html"
     },
     {
      "day": 66,
@@ -8773,43 +8872,47 @@
     },
     {
      "day": 68,
-     "game": "Hawks @ Pacers",
+     "game": "Hawks 89, PACERS 66",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hawks @ Pacers",
+     "opponent": "Hawks 89, PACERS 66",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/68-2.html"
     },
     {
      "day": 69,
-     "game": "Suns @ Hawks",
+     "game": "HAWKS 76, Suns 75",
      "has_game": true,
      "home_away": null,
-     "opponent": "Suns @ Hawks",
+     "opponent": "HAWKS 76, Suns 75",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-5.html"
     },
     {
      "day": 70,
-     "game": "SuperSonics @ Hawks",
+     "game": "SuperSonics 100, HAWKS 79",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Hawks",
+     "opponent": "SuperSonics 100, HAWKS 79",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-1.html"
     },
     {
      "day": 71,
-     "game": "Knicks @ Hawks",
+     "game": "HAWKS 83, Knicks 74",
      "has_game": true,
      "home_away": null,
-     "opponent": "Knicks @ Hawks",
+     "opponent": "HAWKS 83, Knicks 74",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-10.html"
     },
     {
      "day": 72,
@@ -8818,13 +8921,14 @@
     },
     {
      "day": 73,
-     "game": "Hawks @ Hornets",
+     "game": "HORNETS 81, Hawks 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hawks @ Hornets",
+     "opponent": "HORNETS 81, Hawks 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-4.html"
     },
     {
      "day": 74,
@@ -8833,13 +8937,14 @@
     },
     {
      "day": 75,
-     "game": "Hawks @ Raptors",
+     "game": "Hawks 78, RAPTORS 74",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hawks @ Raptors",
+     "opponent": "Hawks 78, RAPTORS 74",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-2.html"
     },
     {
      "day": 76,
@@ -8853,23 +8958,25 @@
     },
     {
      "day": 78,
-     "game": "Pacers @ Hawks",
+     "game": "Pacers 95, HAWKS 91",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pacers @ Hawks",
+     "opponent": "Pacers 95, HAWKS 91",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/78-6.html"
     },
     {
      "day": 79,
-     "game": "Hawks @ Raptors",
+     "game": "RAPTORS 94, Hawks 85",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hawks @ Raptors",
+     "opponent": "RAPTORS 94, Hawks 85",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-9.html"
     },
     {
      "day": 80,
@@ -9827,53 +9934,58 @@
     },
     {
      "day": 61,
-     "game": "Hawks @ Hornets",
+     "game": "HORNETS 110, Hawks 99",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hawks @ Hornets",
+     "opponent": "HORNETS 110, Hawks 99",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-8.html"
     },
     {
      "day": 62,
-     "game": "Warriors @ Hornets",
+     "game": "HORNETS 99, Warriors 85",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Hornets",
+     "opponent": "HORNETS 99, Warriors 85",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/62-8.html"
     },
     {
      "day": 63,
-     "game": "Hornets @ Bucks",
+     "game": "Hornets 104, BUCKS 89",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hornets @ Bucks",
+     "opponent": "Hornets 104, BUCKS 89",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-8.html"
     },
     {
      "day": 64,
-     "game": "Hornets @ Pistons",
+     "game": "PISTONS 101, Hornets 96",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hornets @ Pistons",
+     "opponent": "PISTONS 101, Hornets 96",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-8.html"
     },
     {
      "day": 65,
-     "game": "Cavaliers @ Hornets",
+     "game": "Cavaliers 97, HORNETS 90",
      "has_game": true,
      "home_away": null,
-     "opponent": "Cavaliers @ Hornets",
+     "opponent": "Cavaliers 97, HORNETS 90",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-11.html"
     },
     {
      "day": 66,
@@ -9882,13 +9994,14 @@
     },
     {
      "day": 67,
-     "game": "Wizards @ Hornets",
+     "game": "Wizards 102, HORNETS 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Wizards @ Hornets",
+     "opponent": "Wizards 102, HORNETS 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-6.html"
     },
     {
      "day": 68,
@@ -9907,73 +10020,80 @@
     },
     {
      "day": 71,
-     "game": "Hornets @ Heat",
+     "game": "HEAT 95, Hornets 93",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hornets @ Heat",
+     "opponent": "HEAT 95, Hornets 93",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-8.html"
     },
     {
      "day": 72,
-     "game": "Hornets @ Clippers",
+     "game": "CLIPPERS 108, Hornets 100",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hornets @ Clippers",
+     "opponent": "CLIPPERS 108, Hornets 100",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-10.html"
     },
     {
      "day": 73,
-     "game": "Hawks @ Hornets",
+     "game": "HORNETS 81, Hawks 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hawks @ Hornets",
+     "opponent": "HORNETS 81, Hawks 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-4.html"
     },
     {
      "day": 74,
-     "game": "Magic @ Hornets",
+     "game": "HORNETS 104, Magic 86",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ Hornets",
+     "opponent": "HORNETS 104, Magic 86",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-6.html"
     },
     {
      "day": 75,
-     "game": "Hornets @ Wizards",
+     "game": "Hornets 107, WIZARDS 99",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hornets @ Wizards",
+     "opponent": "Hornets 107, WIZARDS 99",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-1.html"
     },
     {
      "day": 76,
-     "game": "Trail Blazers @ Hornets",
+     "game": "Trail Blazers 94, HORNETS 85",
      "has_game": true,
      "home_away": null,
-     "opponent": "Trail Blazers @ Hornets",
+     "opponent": "Trail Blazers 94, HORNETS 85",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-2.html"
     },
     {
      "day": 77,
-     "game": "Hornets @ 76ers",
+     "game": "Hornets 87, 76ERS 66",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hornets @ 76ers",
+     "opponent": "Hornets 87, 76ERS 66",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-7.html"
     },
     {
      "day": 78,
@@ -9982,13 +10102,14 @@
     },
     {
      "day": 79,
-     "game": "Hornets @ Kings",
+     "game": "KINGS 101, Hornets 88",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hornets @ Kings",
+     "opponent": "KINGS 101, Hornets 88",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-5.html"
     },
     {
      "day": 80,
@@ -10932,63 +11053,69 @@
     },
     {
      "day": 62,
-     "game": "Nets @ Bulls",
+     "game": "Nets 102, BULLS 98",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Bulls",
+     "opponent": "Nets 102, BULLS 98",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/62-4.html"
     },
     {
      "day": 63,
-     "game": "Bulls @ Clippers",
+     "game": "Bulls 97, CLIPPERS 79",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bulls @ Clippers",
+     "opponent": "Bulls 97, CLIPPERS 79",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-9.html"
     },
     {
      "day": 64,
-     "game": "76ers @ Bulls",
+     "game": "BULLS 107, 76ers 104",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Bulls",
+     "opponent": "BULLS 107, 76ers 104",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-4.html"
     },
     {
      "day": 65,
-     "game": "Raptors @ Bulls",
+     "game": "BULLS 87, Raptors 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Raptors @ Bulls",
+     "opponent": "BULLS 87, Raptors 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-9.html"
     },
     {
      "day": 66,
-     "game": "Clippers @ Bulls",
+     "game": "BULLS 99, Clippers 89",
      "has_game": true,
      "home_away": null,
-     "opponent": "Clippers @ Bulls",
+     "opponent": "BULLS 99, Clippers 89",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-7.html"
     },
     {
      "day": 67,
-     "game": "Bulls @ Suns",
+     "game": "SUNS 103, Bulls 91",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bulls @ Suns",
+     "opponent": "SUNS 103, Bulls 91",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-2.html"
     },
     {
      "day": 68,
@@ -10997,73 +11124,80 @@
     },
     {
      "day": 69,
-     "game": "Lakers @ Bulls",
+     "game": "BULLS 106, Lakers 103",
      "has_game": true,
      "home_away": null,
-     "opponent": "Lakers @ Bulls",
+     "opponent": "BULLS 106, Lakers 103",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-3.html"
     },
     {
      "day": 70,
-     "game": "Bulls @ Pacers",
+     "game": "PACERS 101, Bulls 73",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bulls @ Pacers",
+     "opponent": "PACERS 101, Bulls 73",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-8.html"
     },
     {
      "day": 71,
-     "game": "Celtics @ Bulls",
+     "game": "BULLS 100, Celtics 86",
      "has_game": true,
      "home_away": null,
-     "opponent": "Celtics @ Bulls",
+     "opponent": "BULLS 100, Celtics 86",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-4.html"
     },
     {
      "day": 72,
-     "game": "Kings @ Bulls",
+     "game": "BULLS 116, Kings 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Kings @ Bulls",
+     "opponent": "BULLS 116, Kings 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-3.html"
     },
     {
      "day": 73,
-     "game": "Pacers @ Bulls",
+     "game": "Pacers 101, BULLS 92",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pacers @ Bulls",
+     "opponent": "Pacers 101, BULLS 92",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-2.html"
     },
     {
      "day": 74,
-     "game": "Bulls @ Heat",
+     "game": "HEAT 98, Bulls 86",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bulls @ Heat",
+     "opponent": "HEAT 98, Bulls 86",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-11.html"
     },
     {
      "day": 75,
-     "game": "Bulls @ Celtics",
+     "game": "Bulls 88, CELTICS 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bulls @ Celtics",
+     "opponent": "Bulls 88, CELTICS 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-3.html"
     },
     {
      "day": 76,
@@ -11072,13 +11206,14 @@
     },
     {
      "day": 77,
-     "game": "Bulls @ Magic",
+     "game": "MAGIC 118, Bulls 82",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bulls @ Magic",
+     "opponent": "MAGIC 118, Bulls 82",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-1.html"
     },
     {
      "day": 78,
@@ -11087,23 +11222,25 @@
     },
     {
      "day": 79,
-     "game": "Trail Blazers @ Bulls",
+     "game": "BULLS 98, Trail Blazers 85",
      "has_game": true,
      "home_away": null,
-     "opponent": "Trail Blazers @ Bulls",
+     "opponent": "BULLS 98, Trail Blazers 85",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-2.html"
     },
     {
      "day": 80,
-     "game": "Bulls @ Warriors",
+     "game": "Bulls 85, WARRIORS 84",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bulls @ Warriors",
+     "opponent": "Bulls 85, WARRIORS 84",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-4.html"
     },
     {
      "day": 81,
@@ -12016,73 +12153,80 @@
     },
     {
      "day": 61,
-     "game": "Cavaliers @ Raptors",
+     "game": "RAPTORS 76, Cavaliers 66",
      "has_game": true,
      "home_away": null,
-     "opponent": "Cavaliers @ Raptors",
+     "opponent": "RAPTORS 76, Cavaliers 66",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-10.html"
     },
     {
      "day": 62,
-     "game": "Cavaliers @ Pistons",
+     "game": "PISTONS 84, Cavaliers 74",
      "has_game": true,
      "home_away": null,
-     "opponent": "Cavaliers @ Pistons",
+     "opponent": "PISTONS 84, Cavaliers 74",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/62-7.html"
     },
     {
      "day": 63,
-     "game": "Knicks @ Cavaliers",
+     "game": "CAVALIERS 90, Knicks 88",
      "has_game": true,
      "home_away": null,
-     "opponent": "Knicks @ Cavaliers",
+     "opponent": "CAVALIERS 90, Knicks 88",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-5.html"
     },
     {
      "day": 64,
-     "game": "Cavaliers @ Pacers",
+     "game": "PACERS 116, Cavaliers 74",
      "has_game": true,
      "home_away": null,
-     "opponent": "Cavaliers @ Pacers",
+     "opponent": "PACERS 116, Cavaliers 74",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-9.html"
     },
     {
      "day": 65,
-     "game": "Cavaliers @ Hornets",
+     "game": "Cavaliers 97, HORNETS 90",
      "has_game": true,
      "home_away": null,
-     "opponent": "Cavaliers @ Hornets",
+     "opponent": "Cavaliers 97, HORNETS 90",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-11.html"
     },
     {
      "day": 66,
-     "game": "Bucks @ Cavaliers",
+     "game": "Bucks 95, CAVALIERS 76",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bucks @ Cavaliers",
+     "opponent": "Bucks 95, CAVALIERS 76",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-5.html"
     },
     {
      "day": 67,
-     "game": "Magic @ Cavaliers",
+     "game": "Magic 106, CAVALIERS 103",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ Cavaliers",
+     "opponent": "Magic 106, CAVALIERS 103",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-7.html"
     },
     {
      "day": 68,
@@ -12091,33 +12235,36 @@
     },
     {
      "day": 69,
-     "game": "Cavaliers @ Nuggets",
+     "game": "NUGGETS 115, Cavaliers 83",
      "has_game": true,
      "home_away": null,
-     "opponent": "Cavaliers @ Nuggets",
+     "opponent": "NUGGETS 115, Cavaliers 83",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-12.html"
     },
     {
      "day": 70,
-     "game": "Heat @ Cavaliers",
+     "game": "CAVALIERS 101, Heat 79",
      "has_game": true,
      "home_away": null,
-     "opponent": "Heat @ Cavaliers",
+     "opponent": "CAVALIERS 101, Heat 79",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-6.html"
     },
     {
      "day": 71,
-     "game": "Pacers @ Cavaliers",
+     "game": "Pacers 99, CAVALIERS 92",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pacers @ Cavaliers",
+     "opponent": "Pacers 99, CAVALIERS 92",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-6.html"
     },
     {
      "day": 72,
@@ -12126,53 +12273,58 @@
     },
     {
      "day": 73,
-     "game": "Cavaliers @ Suns",
+     "game": "Cavaliers 76, SUNS 65",
      "has_game": true,
      "home_away": null,
-     "opponent": "Cavaliers @ Suns",
+     "opponent": "Cavaliers 76, SUNS 65",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-1.html"
     },
     {
      "day": 74,
-     "game": "Cavaliers @ Warriors",
+     "game": "Cavaliers 96, WARRIORS 77",
      "has_game": true,
      "home_away": null,
-     "opponent": "Cavaliers @ Warriors",
+     "opponent": "Cavaliers 96, WARRIORS 77",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-4.html"
     },
     {
      "day": 75,
-     "game": "76ers @ Cavaliers",
+     "game": "CAVALIERS 98, 76ers 85",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Cavaliers",
+     "opponent": "CAVALIERS 98, 76ers 85",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-4.html"
     },
     {
      "day": 76,
-     "game": "Raptors @ Cavaliers",
+     "game": "CAVALIERS 93, Raptors 87",
      "has_game": true,
      "home_away": null,
-     "opponent": "Raptors @ Cavaliers",
+     "opponent": "CAVALIERS 93, Raptors 87",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-9.html"
     },
     {
      "day": 77,
-     "game": "Grizzlies @ Cavaliers",
+     "game": "Grizzlies 93, CAVALIERS 85",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Cavaliers",
+     "opponent": "Grizzlies 93, CAVALIERS 85",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-10.html"
     },
     {
      "day": 78,
@@ -12181,23 +12333,25 @@
     },
     {
      "day": 79,
-     "game": "Celtics @ Cavaliers",
+     "game": "Celtics 124, CAVALIERS 102",
      "has_game": true,
      "home_away": null,
-     "opponent": "Celtics @ Cavaliers",
+     "opponent": "Celtics 124, CAVALIERS 102",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-4.html"
     },
     {
      "day": 80,
-     "game": "Cavaliers @ Knicks",
+     "game": "KNICKS 88, Cavaliers 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Cavaliers @ Knicks",
+     "opponent": "KNICKS 88, Cavaliers 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-2.html"
     },
     {
      "day": 81,
@@ -13122,23 +13276,25 @@
     },
     {
      "day": 61,
-     "game": "Pistons @ Lakers",
+     "game": "LAKERS 98, Pistons 82",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pistons @ Lakers",
+     "opponent": "LAKERS 98, Pistons 82",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-4.html"
     },
     {
      "day": 62,
-     "game": "Cavaliers @ Pistons",
+     "game": "PISTONS 84, Cavaliers 74",
      "has_game": true,
      "home_away": null,
-     "opponent": "Cavaliers @ Pistons",
+     "opponent": "PISTONS 84, Cavaliers 74",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/62-7.html"
     },
     {
      "day": 63,
@@ -13147,63 +13303,69 @@
     },
     {
      "day": 64,
-     "game": "Hornets @ Pistons",
+     "game": "PISTONS 101, Hornets 96",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hornets @ Pistons",
+     "opponent": "PISTONS 101, Hornets 96",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-8.html"
     },
     {
      "day": 65,
-     "game": "Pistons @ Magic",
+     "game": "MAGIC 89, Pistons 70",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pistons @ Magic",
+     "opponent": "MAGIC 89, Pistons 70",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-5.html"
     },
     {
      "day": 66,
-     "game": "Pistons @ Mavericks",
+     "game": "MAVERICKS 90, Pistons 87",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pistons @ Mavericks",
+     "opponent": "MAVERICKS 90, Pistons 87",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-4.html"
     },
     {
      "day": 67,
-     "game": "Pistons @ SuperSonics",
+     "game": "Pistons 102, SUPERSONICS 100",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pistons @ SuperSonics",
+     "opponent": "Pistons 102, SUPERSONICS 100",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-1.html"
     },
     {
      "day": 68,
-     "game": "Pistons @ Raptors",
+     "game": "RAPTORS 105, Pistons 81",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pistons @ Raptors",
+     "opponent": "RAPTORS 105, Pistons 81",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/68-3.html"
     },
     {
      "day": 69,
-     "game": "Pistons @ Celtics",
+     "game": "Pistons 83, CELTICS 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pistons @ Celtics",
+     "opponent": "Pistons 83, CELTICS 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-9.html"
     },
     {
      "day": 70,
@@ -13222,23 +13384,25 @@
     },
     {
      "day": 73,
-     "game": "76ers @ Pistons",
+     "game": "PISTONS 87, 76ers 72",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Pistons",
+     "opponent": "PISTONS 87, 76ers 72",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-5.html"
     },
     {
      "day": 74,
-     "game": "Spurs @ Pistons",
+     "game": "PISTONS 102, Spurs 94",
      "has_game": true,
      "home_away": null,
-     "opponent": "Spurs @ Pistons",
+     "opponent": "PISTONS 102, Spurs 94",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-9.html"
     },
     {
      "day": 75,
@@ -13247,13 +13411,14 @@
     },
     {
      "day": 76,
-     "game": "Pistons @ Spurs",
+     "game": "SPURS 122, Pistons 115",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pistons @ Spurs",
+     "opponent": "SPURS 122, Pistons 115",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-8.html"
     },
     {
      "day": 77,
@@ -14200,43 +14365,47 @@
     },
     {
      "day": 61,
-     "game": "Magic @ Pacers",
+     "game": "PACERS 112, Magic 94",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ Pacers",
+     "opponent": "PACERS 112, Magic 94",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-7.html"
     },
     {
      "day": 62,
-     "game": "Grizzlies @ Pacers",
+     "game": "PACERS 100, Grizzlies 77",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Pacers",
+     "opponent": "PACERS 100, Grizzlies 77",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/62-1.html"
     },
     {
      "day": 63,
-     "game": "Pacers @ Raptors",
+     "game": "Pacers 78, RAPTORS 71",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pacers @ Raptors",
+     "opponent": "Pacers 78, RAPTORS 71",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-6.html"
     },
     {
      "day": 64,
-     "game": "Cavaliers @ Pacers",
+     "game": "PACERS 116, Cavaliers 74",
      "has_game": true,
      "home_away": null,
-     "opponent": "Cavaliers @ Pacers",
+     "opponent": "PACERS 116, Cavaliers 74",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-9.html"
     },
     {
      "day": 65,
@@ -14250,23 +14419,25 @@
     },
     {
      "day": 67,
-     "game": "Pacers @ Trail Blazers",
+     "game": "Pacers 96, TRAIL BLAZERS 91",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pacers @ Trail Blazers",
+     "opponent": "Pacers 96, TRAIL BLAZERS 91",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-4.html"
     },
     {
      "day": 68,
-     "game": "Hawks @ Pacers",
+     "game": "Hawks 89, PACERS 66",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hawks @ Pacers",
+     "opponent": "Hawks 89, PACERS 66",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/68-2.html"
     },
     {
      "day": 69,
@@ -14275,23 +14446,25 @@
     },
     {
      "day": 70,
-     "game": "Bulls @ Pacers",
+     "game": "PACERS 101, Bulls 73",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bulls @ Pacers",
+     "opponent": "PACERS 101, Bulls 73",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-8.html"
     },
     {
      "day": 71,
-     "game": "Pacers @ Cavaliers",
+     "game": "Pacers 99, CAVALIERS 92",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pacers @ Cavaliers",
+     "opponent": "Pacers 99, CAVALIERS 92",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-6.html"
     },
     {
      "day": 72,
@@ -14300,23 +14473,25 @@
     },
     {
      "day": 73,
-     "game": "Pacers @ Bulls",
+     "game": "Pacers 101, BULLS 92",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pacers @ Bulls",
+     "opponent": "Pacers 101, BULLS 92",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-2.html"
     },
     {
      "day": 74,
-     "game": "Pacers @ Wizards",
+     "game": "WIZARDS 108, Pacers 93",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pacers @ Wizards",
+     "opponent": "WIZARDS 108, Pacers 93",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-1.html"
     },
     {
      "day": 75,
@@ -14325,33 +14500,36 @@
     },
     {
      "day": 76,
-     "game": "Pacers @ Celtics",
+     "game": "Pacers 116, CELTICS 89",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pacers @ Celtics",
+     "opponent": "Pacers 116, CELTICS 89",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-3.html"
     },
     {
      "day": 77,
-     "game": "Warriors @ Pacers",
+     "game": "Warriors 107, PACERS 88",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Pacers",
+     "opponent": "Warriors 107, PACERS 88",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-2.html"
     },
     {
      "day": 78,
-     "game": "Pacers @ Hawks",
+     "game": "Pacers 95, HAWKS 91",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pacers @ Hawks",
+     "opponent": "Pacers 95, HAWKS 91",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/78-6.html"
     },
     {
      "day": 79,
@@ -14360,13 +14538,14 @@
     },
     {
      "day": 80,
-     "game": "Suns @ Pacers",
+     "game": "PACERS 92, Suns 62",
      "has_game": true,
      "home_away": null,
-     "opponent": "Suns @ Pacers",
+     "opponent": "PACERS 92, Suns 62",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-7.html"
     },
     {
      "day": 81,
@@ -15311,73 +15490,80 @@
     },
     {
      "day": 61,
-     "game": "Heat @ Bucks",
+     "game": "Heat 104, BUCKS 98",
      "has_game": true,
      "home_away": null,
-     "opponent": "Heat @ Bucks",
+     "opponent": "Heat 104, BUCKS 98",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-5.html"
     },
     {
      "day": 62,
-     "game": "Bucks @ Hawks",
+     "game": "HAWKS 87, Bucks 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bucks @ Hawks",
+     "opponent": "HAWKS 87, Bucks 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/62-6.html"
     },
     {
      "day": 63,
-     "game": "Hornets @ Bucks",
+     "game": "Hornets 104, BUCKS 89",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hornets @ Bucks",
+     "opponent": "Hornets 104, BUCKS 89",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-8.html"
     },
     {
      "day": 64,
-     "game": "Suns @ Bucks",
+     "game": "Suns 104, BUCKS 85",
      "has_game": true,
      "home_away": null,
-     "opponent": "Suns @ Bucks",
+     "opponent": "Suns 104, BUCKS 85",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-10.html"
     },
     {
      "day": 65,
-     "game": "SuperSonics @ Bucks",
+     "game": "SuperSonics 111, BUCKS 107",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Bucks",
+     "opponent": "SuperSonics 111, BUCKS 107",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-7.html"
     },
     {
      "day": 66,
-     "game": "Bucks @ Cavaliers",
+     "game": "Bucks 95, CAVALIERS 76",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bucks @ Cavaliers",
+     "opponent": "Bucks 95, CAVALIERS 76",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-5.html"
     },
     {
      "day": 67,
-     "game": "Bucks @ 76ers",
+     "game": "Bucks 103, 76ERS 92",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bucks @ 76ers",
+     "opponent": "Bucks 103, 76ERS 92",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-8.html"
     },
     {
      "day": 68,
@@ -15386,13 +15572,14 @@
     },
     {
      "day": 69,
-     "game": "Bucks @ Magic",
+     "game": "MAGIC 116, Bucks 93",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bucks @ Magic",
+     "opponent": "MAGIC 116, Bucks 93",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-4.html"
     },
     {
      "day": 70,
@@ -15406,13 +15593,14 @@
     },
     {
      "day": 72,
-     "game": "Lakers @ Bucks",
+     "game": "BUCKS 113, Lakers 110",
      "has_game": true,
      "home_away": null,
-     "opponent": "Lakers @ Bucks",
+     "opponent": "BUCKS 113, Lakers 110",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-7.html"
     },
     {
      "day": 73,
@@ -15436,13 +15624,14 @@
     },
     {
      "day": 77,
-     "game": "Bucks @ Raptors",
+     "game": "RAPTORS 89, Bucks 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bucks @ Raptors",
+     "opponent": "RAPTORS 89, Bucks 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-4.html"
     },
     {
      "day": 78,
@@ -16383,13 +16572,14 @@
     },
     {
      "day": 61,
-     "game": "Cavaliers @ Raptors",
+     "game": "RAPTORS 76, Cavaliers 66",
      "has_game": true,
      "home_away": null,
-     "opponent": "Cavaliers @ Raptors",
+     "opponent": "RAPTORS 76, Cavaliers 66",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-10.html"
     },
     {
      "day": 62,
@@ -16398,43 +16588,47 @@
     },
     {
      "day": 63,
-     "game": "Pacers @ Raptors",
+     "game": "Pacers 78, RAPTORS 71",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pacers @ Raptors",
+     "opponent": "Pacers 78, RAPTORS 71",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-6.html"
     },
     {
      "day": 64,
-     "game": "Raptors @ Nets",
+     "game": "Raptors 92, NETS 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "Raptors @ Nets",
+     "opponent": "Raptors 92, NETS 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-3.html"
     },
     {
      "day": 65,
-     "game": "Raptors @ Bulls",
+     "game": "BULLS 87, Raptors 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Raptors @ Bulls",
+     "opponent": "BULLS 87, Raptors 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-9.html"
     },
     {
      "day": 66,
-     "game": "Rockets @ Raptors",
+     "game": "Rockets 101, RAPTORS 100",
      "has_game": true,
      "home_away": null,
-     "opponent": "Rockets @ Raptors",
+     "opponent": "Rockets 101, RAPTORS 100",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-6.html"
     },
     {
      "day": 67,
@@ -16443,23 +16637,25 @@
     },
     {
      "day": 68,
-     "game": "Pistons @ Raptors",
+     "game": "RAPTORS 105, Pistons 81",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pistons @ Raptors",
+     "opponent": "RAPTORS 105, Pistons 81",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/68-3.html"
     },
     {
      "day": 69,
-     "game": "Raptors @ Wizards",
+     "game": "WIZARDS 100, Raptors 69",
      "has_game": true,
      "home_away": null,
-     "opponent": "Raptors @ Wizards",
+     "opponent": "WIZARDS 100, Raptors 69",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-6.html"
     },
     {
      "day": 70,
@@ -16468,103 +16664,113 @@
     },
     {
      "day": 71,
-     "game": "Spurs @ Raptors",
+     "game": "Spurs 116, RAPTORS 82",
      "has_game": true,
      "home_away": null,
-     "opponent": "Spurs @ Raptors",
+     "opponent": "Spurs 116, RAPTORS 82",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-5.html"
     },
     {
      "day": 72,
-     "game": "Mavericks @ Raptors",
+     "game": "RAPTORS 72, Mavericks 65",
      "has_game": true,
      "home_away": null,
-     "opponent": "Mavericks @ Raptors",
+     "opponent": "RAPTORS 72, Mavericks 65",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-8.html"
     },
     {
      "day": 73,
-     "game": "Jazz @ Raptors",
+     "game": "RAPTORS 103, Jazz 73",
      "has_game": true,
      "home_away": null,
-     "opponent": "Jazz @ Raptors",
+     "opponent": "RAPTORS 103, Jazz 73",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-10.html"
     },
     {
      "day": 74,
-     "game": "Nets @ Raptors",
+     "game": "Nets 92, RAPTORS 65",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Raptors",
+     "opponent": "Nets 92, RAPTORS 65",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-3.html"
     },
     {
      "day": 75,
-     "game": "Hawks @ Raptors",
+     "game": "Hawks 78, RAPTORS 74",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hawks @ Raptors",
+     "opponent": "Hawks 78, RAPTORS 74",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-2.html"
     },
     {
      "day": 76,
-     "game": "Raptors @ Cavaliers",
+     "game": "CAVALIERS 93, Raptors 87",
      "has_game": true,
      "home_away": null,
-     "opponent": "Raptors @ Cavaliers",
+     "opponent": "CAVALIERS 93, Raptors 87",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-9.html"
     },
     {
      "day": 77,
-     "game": "Bucks @ Raptors",
+     "game": "RAPTORS 89, Bucks 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bucks @ Raptors",
+     "opponent": "RAPTORS 89, Bucks 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-4.html"
     },
     {
      "day": 78,
-     "game": "Celtics @ Raptors",
+     "game": "Celtics 91, RAPTORS 90",
      "has_game": true,
      "home_away": null,
-     "opponent": "Celtics @ Raptors",
+     "opponent": "Celtics 91, RAPTORS 90",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/78-3.html"
     },
     {
      "day": 79,
-     "game": "Hawks @ Raptors",
+     "game": "RAPTORS 94, Hawks 85",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hawks @ Raptors",
+     "opponent": "RAPTORS 94, Hawks 85",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-9.html"
     },
     {
      "day": 80,
-     "game": "Wizards @ Raptors",
+     "game": "Wizards 91, RAPTORS 74",
      "has_game": true,
      "home_away": null,
-     "opponent": "Wizards @ Raptors",
+     "opponent": "Wizards 91, RAPTORS 74",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-3.html"
     },
     {
      "day": 81,
@@ -17505,13 +17711,14 @@
     },
     {
      "day": 61,
-     "game": "Mavericks @ Rockets",
+     "game": "ROCKETS 95, Mavericks 70",
      "has_game": true,
      "home_away": null,
-     "opponent": "Mavericks @ Rockets",
+     "opponent": "ROCKETS 95, Mavericks 70",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-6.html"
     },
     {
      "day": 62,
@@ -17525,33 +17732,36 @@
     },
     {
      "day": 64,
-     "game": "Timberwolves @ Mavericks",
+     "game": "MAVERICKS 87, Timberwolves 71",
      "has_game": true,
      "home_away": null,
-     "opponent": "Timberwolves @ Mavericks",
+     "opponent": "MAVERICKS 87, Timberwolves 71",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-6.html"
     },
     {
      "day": 65,
-     "game": "Mavericks @ Celtics",
+     "game": "Mavericks 90, CELTICS 73",
      "has_game": true,
      "home_away": null,
-     "opponent": "Mavericks @ Celtics",
+     "opponent": "Mavericks 90, CELTICS 73",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-1.html"
     },
     {
      "day": 66,
-     "game": "Pistons @ Mavericks",
+     "game": "MAVERICKS 90, Pistons 87",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pistons @ Mavericks",
+     "opponent": "MAVERICKS 90, Pistons 87",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-4.html"
     },
     {
      "day": 67,
@@ -17565,53 +17775,58 @@
     },
     {
      "day": 69,
-     "game": "Mavericks @ Spurs",
+     "game": "Mavericks 76, SPURS 69",
      "has_game": true,
      "home_away": null,
-     "opponent": "Mavericks @ Spurs",
+     "opponent": "Mavericks 76, SPURS 69",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-11.html"
     },
     {
      "day": 70,
-     "game": "Kings @ Mavericks",
+     "game": "MAVERICKS 90, Kings 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "Kings @ Mavericks",
+     "opponent": "MAVERICKS 90, Kings 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-5.html"
     },
     {
      "day": 71,
-     "game": "Suns @ Mavericks",
+     "game": "MAVERICKS 99, Suns 87",
      "has_game": true,
      "home_away": null,
-     "opponent": "Suns @ Mavericks",
+     "opponent": "MAVERICKS 99, Suns 87",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-9.html"
     },
     {
      "day": 72,
-     "game": "Mavericks @ Raptors",
+     "game": "RAPTORS 72, Mavericks 65",
      "has_game": true,
      "home_away": null,
-     "opponent": "Mavericks @ Raptors",
+     "opponent": "RAPTORS 72, Mavericks 65",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-8.html"
     },
     {
      "day": 73,
-     "game": "Kings @ Mavericks",
+     "game": "MAVERICKS 74, Kings 70",
      "has_game": true,
      "home_away": null,
-     "opponent": "Kings @ Mavericks",
+     "opponent": "MAVERICKS 74, Kings 70",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-7.html"
     },
     {
      "day": 74,
@@ -17625,13 +17840,14 @@
     },
     {
      "day": 76,
-     "game": "Warriors @ Mavericks",
+     "game": "MAVERICKS 97, Warriors 82",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Mavericks",
+     "opponent": "MAVERICKS 97, Warriors 82",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-1.html"
     },
     {
      "day": 77,
@@ -17640,13 +17856,14 @@
     },
     {
      "day": 78,
-     "game": "Mavericks @ Timberwolves",
+     "game": "Mavericks 99, TIMBERWOLVES 85",
      "has_game": true,
      "home_away": null,
-     "opponent": "Mavericks @ Timberwolves",
+     "opponent": "Mavericks 99, TIMBERWOLVES 85",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/78-7.html"
     },
     {
      "day": 79,
@@ -18608,23 +18825,25 @@
     },
     {
      "day": 61,
-     "game": "Suns @ Nuggets",
+     "game": "NUGGETS 107, Suns 92",
      "has_game": true,
      "home_away": null,
-     "opponent": "Suns @ Nuggets",
+     "opponent": "NUGGETS 107, Suns 92",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-2.html"
     },
     {
      "day": 62,
-     "game": "Nuggets @ SuperSonics",
+     "game": "Nuggets 94, SUPERSONICS 93",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nuggets @ SuperSonics",
+     "opponent": "Nuggets 94, SUPERSONICS 93",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/62-5.html"
     },
     {
      "day": 63,
@@ -18638,13 +18857,14 @@
     },
     {
      "day": 65,
-     "game": "Nuggets @ Warriors",
+     "game": "WARRIORS 85, Nuggets 81",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nuggets @ Warriors",
+     "opponent": "WARRIORS 85, Nuggets 81",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-2.html"
     },
     {
      "day": 66,
@@ -18653,53 +18873,58 @@
     },
     {
      "day": 67,
-     "game": "Nuggets @ Lakers",
+     "game": "LAKERS 104, Nuggets 101",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nuggets @ Lakers",
+     "opponent": "LAKERS 104, Nuggets 101",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-3.html"
     },
     {
      "day": 68,
-     "game": "Kings @ Nuggets",
+     "game": "NUGGETS 82, Kings 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Kings @ Nuggets",
+     "opponent": "NUGGETS 82, Kings 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/68-1.html"
     },
     {
      "day": 69,
-     "game": "Cavaliers @ Nuggets",
+     "game": "NUGGETS 115, Cavaliers 83",
      "has_game": true,
      "home_away": null,
-     "opponent": "Cavaliers @ Nuggets",
+     "opponent": "NUGGETS 115, Cavaliers 83",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-12.html"
     },
     {
      "day": 70,
-     "game": "Rockets @ Nuggets",
+     "game": "Rockets 107, NUGGETS 94",
      "has_game": true,
      "home_away": null,
-     "opponent": "Rockets @ Nuggets",
+     "opponent": "Rockets 107, NUGGETS 94",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-7.html"
     },
     {
      "day": 71,
-     "game": "SuperSonics @ Nuggets",
+     "game": "NUGGETS 106, SuperSonics 81",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Nuggets",
+     "opponent": "NUGGETS 106, SuperSonics 81",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-1.html"
     },
     {
      "day": 72,
@@ -18708,13 +18933,14 @@
     },
     {
      "day": 73,
-     "game": "Nuggets @ Lakers",
+     "game": "LAKERS 102, Nuggets 90",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nuggets @ Lakers",
+     "opponent": "LAKERS 102, Nuggets 90",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-12.html"
     },
     {
      "day": 74,
@@ -18723,13 +18949,14 @@
     },
     {
      "day": 75,
-     "game": "Warriors @ Nuggets",
+     "game": "NUGGETS 89, Warriors 69",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Nuggets",
+     "opponent": "NUGGETS 89, Warriors 69",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-8.html"
     },
     {
      "day": 76,
@@ -18738,13 +18965,14 @@
     },
     {
      "day": 77,
-     "game": "Nuggets @ SuperSonics",
+     "game": "Nuggets 100, SUPERSONICS 90",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nuggets @ SuperSonics",
+     "opponent": "Nuggets 100, SUPERSONICS 90",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-3.html"
     },
     {
      "day": 78,
@@ -18758,13 +18986,14 @@
     },
     {
      "day": 80,
-     "game": "Rockets @ Nuggets",
+     "game": "NUGGETS 114, Rockets 88",
      "has_game": true,
      "home_away": null,
-     "opponent": "Rockets @ Nuggets",
+     "opponent": "NUGGETS 114, Rockets 88",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-5.html"
     },
     {
      "day": 81,
@@ -19658,13 +19887,14 @@
     },
     {
      "day": 61,
-     "game": "Mavericks @ Rockets",
+     "game": "ROCKETS 95, Mavericks 70",
      "has_game": true,
      "home_away": null,
-     "opponent": "Mavericks @ Rockets",
+     "opponent": "ROCKETS 95, Mavericks 70",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-6.html"
     },
     {
      "day": 62,
@@ -19678,43 +19908,47 @@
     },
     {
      "day": 64,
-     "game": "Trail Blazers @ Rockets",
+     "game": "ROCKETS 90, Trail Blazers 62",
      "has_game": true,
      "home_away": null,
-     "opponent": "Trail Blazers @ Rockets",
+     "opponent": "ROCKETS 90, Trail Blazers 62",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-1.html"
     },
     {
      "day": 65,
-     "game": "76ers @ Rockets",
+     "game": "ROCKETS 82, 76ers 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Rockets",
+     "opponent": "ROCKETS 82, 76ers 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-3.html"
     },
     {
      "day": 66,
-     "game": "Rockets @ Raptors",
+     "game": "Rockets 101, RAPTORS 100",
      "has_game": true,
      "home_away": null,
-     "opponent": "Rockets @ Raptors",
+     "opponent": "Rockets 101, RAPTORS 100",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-6.html"
     },
     {
      "day": 67,
-     "game": "Nets @ Rockets",
+     "game": "Nets 96, ROCKETS 90",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Rockets",
+     "opponent": "Nets 96, ROCKETS 90",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-9.html"
     },
     {
      "day": 68,
@@ -19723,63 +19957,69 @@
     },
     {
      "day": 69,
-     "game": "Rockets @ Grizzlies",
+     "game": "Rockets 100, GRIZZLIES 83",
      "has_game": true,
      "home_away": null,
-     "opponent": "Rockets @ Grizzlies",
+     "opponent": "Rockets 100, GRIZZLIES 83",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-2.html"
     },
     {
      "day": 70,
-     "game": "Rockets @ Nuggets",
+     "game": "Rockets 107, NUGGETS 94",
      "has_game": true,
      "home_away": null,
-     "opponent": "Rockets @ Nuggets",
+     "opponent": "Rockets 107, NUGGETS 94",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-7.html"
     },
     {
      "day": 71,
-     "game": "Rockets @ Jazz",
+     "game": "Rockets 91, JAZZ 86",
      "has_game": true,
      "home_away": null,
-     "opponent": "Rockets @ Jazz",
+     "opponent": "Rockets 91, JAZZ 86",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-3.html"
     },
     {
      "day": 72,
-     "game": "Grizzlies @ Rockets",
+     "game": "Grizzlies 91, ROCKETS 81",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Rockets",
+     "opponent": "Grizzlies 91, ROCKETS 81",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-1.html"
     },
     {
      "day": 73,
-     "game": "Magic @ Rockets",
+     "game": "ROCKETS 96, Magic 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ Rockets",
+     "opponent": "ROCKETS 96, Magic 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-8.html"
     },
     {
      "day": 74,
-     "game": "Rockets @ Timberwolves",
+     "game": "Rockets 94, TIMBERWOLVES 92",
      "has_game": true,
      "home_away": null,
-     "opponent": "Rockets @ Timberwolves",
+     "opponent": "Rockets 94, TIMBERWOLVES 92",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-7.html"
     },
     {
      "day": 75,
@@ -19793,43 +20033,47 @@
     },
     {
      "day": 77,
-     "game": "Clippers @ Rockets",
+     "game": "ROCKETS 114, Clippers 107",
      "has_game": true,
      "home_away": null,
-     "opponent": "Clippers @ Rockets",
+     "opponent": "ROCKETS 114, Clippers 107",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-5.html"
     },
     {
      "day": 78,
-     "game": "Rockets @ Warriors",
+     "game": "WARRIORS 92, Rockets 87",
      "has_game": true,
      "home_away": null,
-     "opponent": "Rockets @ Warriors",
+     "opponent": "WARRIORS 92, Rockets 87",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/78-4.html"
     },
     {
      "day": 79,
-     "game": "Clippers @ Rockets",
+     "game": "ROCKETS 99, Clippers 87",
      "has_game": true,
      "home_away": null,
-     "opponent": "Clippers @ Rockets",
+     "opponent": "ROCKETS 99, Clippers 87",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-3.html"
     },
     {
      "day": 80,
-     "game": "Rockets @ Nuggets",
+     "game": "NUGGETS 114, Rockets 88",
      "has_game": true,
      "home_away": null,
-     "opponent": "Rockets @ Nuggets",
+     "opponent": "NUGGETS 114, Rockets 88",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-5.html"
     },
     {
      "day": 81,
@@ -20844,13 +21088,14 @@
     },
     {
      "day": 61,
-     "game": "Timberwolves @ Wizards",
+     "game": "WIZARDS 106, Timberwolves 76",
      "has_game": true,
      "home_away": null,
-     "opponent": "Timberwolves @ Wizards",
+     "opponent": "WIZARDS 106, Timberwolves 76",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-3.html"
     },
     {
      "day": 62,
@@ -20859,43 +21104,47 @@
     },
     {
      "day": 63,
-     "game": "Timberwolves @ Heat",
+     "game": "HEAT 107, Timberwolves 105",
      "has_game": true,
      "home_away": null,
-     "opponent": "Timberwolves @ Heat",
+     "opponent": "HEAT 107, Timberwolves 105",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-1.html"
     },
     {
      "day": 64,
-     "game": "Timberwolves @ Mavericks",
+     "game": "MAVERICKS 87, Timberwolves 71",
      "has_game": true,
      "home_away": null,
-     "opponent": "Timberwolves @ Mavericks",
+     "opponent": "MAVERICKS 87, Timberwolves 71",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-6.html"
     },
     {
      "day": 65,
-     "game": "Hawks @ Timberwolves",
+     "game": "TIMBERWOLVES 88, Hawks 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hawks @ Timberwolves",
+     "opponent": "TIMBERWOLVES 88, Hawks 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-6.html"
     },
     {
      "day": 66,
-     "game": "Timberwolves @ Suns",
+     "game": "SUNS 92, Timberwolves 84",
      "has_game": true,
      "home_away": null,
-     "opponent": "Timberwolves @ Suns",
+     "opponent": "SUNS 92, Timberwolves 84",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-1.html"
     },
     {
      "day": 67,
@@ -20904,53 +21153,58 @@
     },
     {
      "day": 68,
-     "game": "Timberwolves @ Spurs",
+     "game": "Timberwolves 120, SPURS 98",
      "has_game": true,
      "home_away": null,
-     "opponent": "Timberwolves @ Spurs",
+     "opponent": "Timberwolves 120, SPURS 98",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/68-7.html"
     },
     {
      "day": 69,
-     "game": "Timberwolves @ Warriors",
+     "game": "WARRIORS 106, Timberwolves 104",
      "has_game": true,
      "home_away": null,
-     "opponent": "Timberwolves @ Warriors",
+     "opponent": "WARRIORS 106, Timberwolves 104",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-10.html"
     },
     {
      "day": 70,
-     "game": "Nets @ Timberwolves",
+     "game": "Nets 111, TIMBERWOLVES 107",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Timberwolves",
+     "opponent": "Nets 111, TIMBERWOLVES 107",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-3.html"
     },
     {
      "day": 71,
-     "game": "Timberwolves @ Kings",
+     "game": "KINGS 95, Timberwolves 79",
      "has_game": true,
      "home_away": null,
-     "opponent": "Timberwolves @ Kings",
+     "opponent": "KINGS 95, Timberwolves 79",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-11.html"
     },
     {
      "day": 72,
-     "game": "SuperSonics @ Timberwolves",
+     "game": "TIMBERWOLVES 104, SuperSonics 102",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Timberwolves",
+     "opponent": "TIMBERWOLVES 104, SuperSonics 102",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-5.html"
     },
     {
      "day": 73,
@@ -20959,23 +21213,25 @@
     },
     {
      "day": 74,
-     "game": "Rockets @ Timberwolves",
+     "game": "Rockets 94, TIMBERWOLVES 92",
      "has_game": true,
      "home_away": null,
-     "opponent": "Rockets @ Timberwolves",
+     "opponent": "Rockets 94, TIMBERWOLVES 92",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-7.html"
     },
     {
      "day": 75,
-     "game": "Magic @ Timberwolves",
+     "game": "TIMBERWOLVES 106, Magic 102",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ Timberwolves",
+     "opponent": "TIMBERWOLVES 106, Magic 102",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-9.html"
     },
     {
      "day": 76,
@@ -20989,23 +21245,25 @@
     },
     {
      "day": 78,
-     "game": "Mavericks @ Timberwolves",
+     "game": "Mavericks 99, TIMBERWOLVES 85",
      "has_game": true,
      "home_away": null,
-     "opponent": "Mavericks @ Timberwolves",
+     "opponent": "Mavericks 99, TIMBERWOLVES 85",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/78-7.html"
     },
     {
      "day": 79,
-     "game": "Warriors @ Timberwolves",
+     "game": "TIMBERWOLVES 114, Warriors 96",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Timberwolves",
+     "opponent": "TIMBERWOLVES 114, Warriors 96",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-6.html"
     },
     {
      "day": 80,
@@ -21894,13 +22152,14 @@
     },
     {
      "day": 63,
-     "game": "Grizzlies @ Spurs",
+     "game": "SPURS 107, Grizzlies 84",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Spurs",
+     "opponent": "SPURS 107, Grizzlies 84",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-7.html"
     },
     {
      "day": 64,
@@ -21909,13 +22168,14 @@
     },
     {
      "day": 65,
-     "game": "Spurs @ Heat",
+     "game": "HEAT 87, Spurs 64",
      "has_game": true,
      "home_away": null,
-     "opponent": "Spurs @ Heat",
+     "opponent": "HEAT 87, Spurs 64",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-10.html"
     },
     {
      "day": 66,
@@ -21929,103 +22189,113 @@
     },
     {
      "day": 68,
-     "game": "Timberwolves @ Spurs",
+     "game": "Timberwolves 120, SPURS 98",
      "has_game": true,
      "home_away": null,
-     "opponent": "Timberwolves @ Spurs",
+     "opponent": "Timberwolves 120, SPURS 98",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/68-7.html"
     },
     {
      "day": 69,
-     "game": "Mavericks @ Spurs",
+     "game": "Mavericks 76, SPURS 69",
      "has_game": true,
      "home_away": null,
-     "opponent": "Mavericks @ Spurs",
+     "opponent": "Mavericks 76, SPURS 69",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-11.html"
     },
     {
      "day": 70,
-     "game": "Knicks @ Spurs",
+     "game": "SPURS 92, Knicks 79",
      "has_game": true,
      "home_away": null,
-     "opponent": "Knicks @ Spurs",
+     "opponent": "SPURS 92, Knicks 79",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-2.html"
     },
     {
      "day": 71,
-     "game": "Spurs @ Raptors",
+     "game": "Spurs 116, RAPTORS 82",
      "has_game": true,
      "home_away": null,
-     "opponent": "Spurs @ Raptors",
+     "opponent": "Spurs 116, RAPTORS 82",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-5.html"
     },
     {
      "day": 72,
-     "game": "76ers @ Spurs",
+     "game": "76ers 98, SPURS 83",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Spurs",
+     "opponent": "76ers 98, SPURS 83",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-2.html"
     },
     {
      "day": 73,
-     "game": "Spurs @ Wizards",
+     "game": "WIZARDS 104, Spurs 75",
      "has_game": true,
      "home_away": null,
-     "opponent": "Spurs @ Wizards",
+     "opponent": "WIZARDS 104, Spurs 75",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-11.html"
     },
     {
      "day": 74,
-     "game": "Spurs @ Pistons",
+     "game": "PISTONS 102, Spurs 94",
      "has_game": true,
      "home_away": null,
-     "opponent": "Spurs @ Pistons",
+     "opponent": "PISTONS 102, Spurs 94",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-9.html"
     },
     {
      "day": 75,
-     "game": "Spurs @ Knicks",
+     "game": "KNICKS 104, Spurs 90",
      "has_game": true,
      "home_away": null,
-     "opponent": "Spurs @ Knicks",
+     "opponent": "KNICKS 104, Spurs 90",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-7.html"
     },
     {
      "day": 76,
-     "game": "Pistons @ Spurs",
+     "game": "SPURS 122, Pistons 115",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pistons @ Spurs",
+     "opponent": "SPURS 122, Pistons 115",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-8.html"
     },
     {
      "day": 77,
-     "game": "Trail Blazers @ Spurs",
+     "game": "SPURS 106, Trail Blazers 77",
      "has_game": true,
      "home_away": null,
-     "opponent": "Trail Blazers @ Spurs",
+     "opponent": "SPURS 106, Trail Blazers 77",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-9.html"
     },
     {
      "day": 78,
@@ -22984,13 +23254,14 @@
     },
     {
      "day": 62,
-     "game": "Jazz @ Lakers",
+     "game": "LAKERS 114, Jazz 83",
      "has_game": true,
      "home_away": null,
-     "opponent": "Jazz @ Lakers",
+     "opponent": "LAKERS 114, Jazz 83",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/62-2.html"
     },
     {
      "day": 63,
@@ -23004,33 +23275,36 @@
     },
     {
      "day": 65,
-     "game": "Trail Blazers @ Jazz",
+     "game": "Trail Blazers 86, JAZZ 81",
      "has_game": true,
      "home_away": null,
-     "opponent": "Trail Blazers @ Jazz",
+     "opponent": "Trail Blazers 86, JAZZ 81",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-12.html"
     },
     {
      "day": 66,
-     "game": "Jazz @ Grizzlies",
+     "game": "Jazz 92, GRIZZLIES 59",
      "has_game": true,
      "home_away": null,
-     "opponent": "Jazz @ Grizzlies",
+     "opponent": "Jazz 92, GRIZZLIES 59",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-10.html"
     },
     {
      "day": 67,
-     "game": "Clippers @ Jazz",
+     "game": "JAZZ 84, Clippers 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "Clippers @ Jazz",
+     "opponent": "JAZZ 84, Clippers 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-5.html"
     },
     {
      "day": 68,
@@ -23049,43 +23323,47 @@
     },
     {
      "day": 71,
-     "game": "Rockets @ Jazz",
+     "game": "Rockets 91, JAZZ 86",
      "has_game": true,
      "home_away": null,
-     "opponent": "Rockets @ Jazz",
+     "opponent": "Rockets 91, JAZZ 86",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-3.html"
     },
     {
      "day": 72,
-     "game": "Warriors @ Jazz",
+     "game": "JAZZ 85, Warriors 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Jazz",
+     "opponent": "JAZZ 85, Warriors 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-4.html"
     },
     {
      "day": 73,
-     "game": "Jazz @ Raptors",
+     "game": "RAPTORS 103, Jazz 73",
      "has_game": true,
      "home_away": null,
-     "opponent": "Jazz @ Raptors",
+     "opponent": "RAPTORS 103, Jazz 73",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-10.html"
     },
     {
      "day": 74,
-     "game": "Jazz @ Knicks",
+     "game": "KNICKS 84, Jazz 81",
      "has_game": true,
      "home_away": null,
-     "opponent": "Jazz @ Knicks",
+     "opponent": "KNICKS 84, Jazz 81",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-10.html"
     },
     {
      "day": 75,
@@ -23104,33 +23382,36 @@
     },
     {
      "day": 78,
-     "game": "Jazz @ Grizzlies",
+     "game": "GRIZZLIES 76, Jazz 75",
      "has_game": true,
      "home_away": null,
-     "opponent": "Jazz @ Grizzlies",
+     "opponent": "GRIZZLIES 76, Jazz 75",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/78-5.html"
     },
     {
      "day": 79,
-     "game": "Jazz @ Magic",
+     "game": "MAGIC 91, Jazz 76",
      "has_game": true,
      "home_away": null,
-     "opponent": "Jazz @ Magic",
+     "opponent": "MAGIC 91, Jazz 76",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-7.html"
     },
     {
      "day": 80,
-     "game": "SuperSonics @ Jazz",
+     "game": "JAZZ 102, SuperSonics 89",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Jazz",
+     "opponent": "JAZZ 102, SuperSonics 89",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-1.html"
     },
     {
      "day": 81,
@@ -24050,63 +24331,69 @@
     },
     {
      "day": 61,
-     "game": "Grizzlies @ Warriors",
+     "game": "WARRIORS 94, Grizzlies 79",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Warriors",
+     "opponent": "WARRIORS 94, Grizzlies 79",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-1.html"
     },
     {
      "day": 62,
-     "game": "Grizzlies @ Pacers",
+     "game": "PACERS 100, Grizzlies 77",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Pacers",
+     "opponent": "PACERS 100, Grizzlies 77",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/62-1.html"
     },
     {
      "day": 63,
-     "game": "Grizzlies @ Spurs",
+     "game": "SPURS 107, Grizzlies 84",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Spurs",
+     "opponent": "SPURS 107, Grizzlies 84",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-7.html"
     },
     {
      "day": 64,
-     "game": "Grizzlies @ Magic",
+     "game": "MAGIC 105, Grizzlies 96",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Magic",
+     "opponent": "MAGIC 105, Grizzlies 96",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-2.html"
     },
     {
      "day": 65,
-     "game": "Grizzlies @ Kings",
+     "game": "KINGS 87, Grizzlies 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Kings",
+     "opponent": "KINGS 87, Grizzlies 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-8.html"
     },
     {
      "day": 66,
-     "game": "Jazz @ Grizzlies",
+     "game": "Jazz 92, GRIZZLIES 59",
      "has_game": true,
      "home_away": null,
-     "opponent": "Jazz @ Grizzlies",
+     "opponent": "Jazz 92, GRIZZLIES 59",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-10.html"
     },
     {
      "day": 67,
@@ -24115,33 +24402,36 @@
     },
     {
      "day": 68,
-     "game": "Grizzlies @ Nets",
+     "game": "NETS 111, Grizzlies 86",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Nets",
+     "opponent": "NETS 111, Grizzlies 86",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/68-8.html"
     },
     {
      "day": 69,
-     "game": "Rockets @ Grizzlies",
+     "game": "Rockets 100, GRIZZLIES 83",
      "has_game": true,
      "home_away": null,
-     "opponent": "Rockets @ Grizzlies",
+     "opponent": "Rockets 100, GRIZZLIES 83",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-2.html"
     },
     {
      "day": 70,
-     "game": "Suns @ Grizzlies",
+     "game": "GRIZZLIES 92, Suns 67",
      "has_game": true,
      "home_away": null,
-     "opponent": "Suns @ Grizzlies",
+     "opponent": "GRIZZLIES 92, Suns 67",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-9.html"
     },
     {
      "day": 71,
@@ -24150,13 +24440,14 @@
     },
     {
      "day": 72,
-     "game": "Grizzlies @ Rockets",
+     "game": "Grizzlies 91, ROCKETS 81",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Rockets",
+     "opponent": "Grizzlies 91, ROCKETS 81",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-1.html"
     },
     {
      "day": 73,
@@ -24170,13 +24461,14 @@
     },
     {
      "day": 75,
-     "game": "Grizzlies @ Clippers",
+     "game": "Grizzlies 86, CLIPPERS 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Clippers",
+     "opponent": "Grizzlies 86, CLIPPERS 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-6.html"
     },
     {
      "day": 76,
@@ -24185,23 +24477,25 @@
     },
     {
      "day": 77,
-     "game": "Grizzlies @ Cavaliers",
+     "game": "Grizzlies 93, CAVALIERS 85",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Cavaliers",
+     "opponent": "Grizzlies 93, CAVALIERS 85",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-10.html"
     },
     {
      "day": 78,
-     "game": "Jazz @ Grizzlies",
+     "game": "GRIZZLIES 76, Jazz 75",
      "has_game": true,
      "home_away": null,
-     "opponent": "Jazz @ Grizzlies",
+     "opponent": "GRIZZLIES 76, Jazz 75",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/78-5.html"
     },
     {
      "day": 79,
@@ -24210,13 +24504,14 @@
     },
     {
      "day": 80,
-     "game": "76ers @ Grizzlies",
+     "game": "76ers 100, GRIZZLIES 92",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Grizzlies",
+     "opponent": "76ers 100, GRIZZLIES 92",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-6.html"
     },
     {
      "day": 81,
@@ -25117,23 +25412,25 @@
     },
     {
      "day": 61,
-     "game": "Grizzlies @ Warriors",
+     "game": "WARRIORS 94, Grizzlies 79",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Warriors",
+     "opponent": "WARRIORS 94, Grizzlies 79",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-1.html"
     },
     {
      "day": 62,
-     "game": "Warriors @ Hornets",
+     "game": "HORNETS 99, Warriors 85",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Hornets",
+     "opponent": "HORNETS 99, Warriors 85",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/62-8.html"
     },
     {
      "day": 63,
@@ -25142,33 +25439,36 @@
     },
     {
      "day": 64,
-     "game": "Warriors @ Lakers",
+     "game": "LAKERS 100, Warriors 86",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Lakers",
+     "opponent": "LAKERS 100, Warriors 86",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-5.html"
     },
     {
      "day": 65,
-     "game": "Nuggets @ Warriors",
+     "game": "WARRIORS 85, Nuggets 81",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nuggets @ Warriors",
+     "opponent": "WARRIORS 85, Nuggets 81",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-2.html"
     },
     {
      "day": 66,
-     "game": "Nets @ Warriors",
+     "game": "WARRIORS 115, Nets 90",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Warriors",
+     "opponent": "WARRIORS 115, Nets 90",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-9.html"
     },
     {
      "day": 67,
@@ -25182,13 +25482,14 @@
     },
     {
      "day": 69,
-     "game": "Timberwolves @ Warriors",
+     "game": "WARRIORS 106, Timberwolves 104",
      "has_game": true,
      "home_away": null,
-     "opponent": "Timberwolves @ Warriors",
+     "opponent": "WARRIORS 106, Timberwolves 104",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-10.html"
     },
     {
      "day": 70,
@@ -25197,103 +25498,113 @@
     },
     {
      "day": 71,
-     "game": "Warriors @ Magic",
+     "game": "MAGIC 96, Warriors 75",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Magic",
+     "opponent": "MAGIC 96, Warriors 75",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-2.html"
     },
     {
      "day": 72,
-     "game": "Warriors @ Jazz",
+     "game": "JAZZ 85, Warriors 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Jazz",
+     "opponent": "JAZZ 85, Warriors 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-4.html"
     },
     {
      "day": 73,
-     "game": "Warriors @ Clippers",
+     "game": "CLIPPERS 87, Warriors 74",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Clippers",
+     "opponent": "CLIPPERS 87, Warriors 74",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-6.html"
     },
     {
      "day": 74,
-     "game": "Cavaliers @ Warriors",
+     "game": "Cavaliers 96, WARRIORS 77",
      "has_game": true,
      "home_away": null,
-     "opponent": "Cavaliers @ Warriors",
+     "opponent": "Cavaliers 96, WARRIORS 77",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-4.html"
     },
     {
      "day": 75,
-     "game": "Warriors @ Nuggets",
+     "game": "NUGGETS 89, Warriors 69",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Nuggets",
+     "opponent": "NUGGETS 89, Warriors 69",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-8.html"
     },
     {
      "day": 76,
-     "game": "Warriors @ Mavericks",
+     "game": "MAVERICKS 97, Warriors 82",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Mavericks",
+     "opponent": "MAVERICKS 97, Warriors 82",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-1.html"
     },
     {
      "day": 77,
-     "game": "Warriors @ Pacers",
+     "game": "Warriors 107, PACERS 88",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Pacers",
+     "opponent": "Warriors 107, PACERS 88",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-2.html"
     },
     {
      "day": 78,
-     "game": "Rockets @ Warriors",
+     "game": "WARRIORS 92, Rockets 87",
      "has_game": true,
      "home_away": null,
-     "opponent": "Rockets @ Warriors",
+     "opponent": "WARRIORS 92, Rockets 87",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/78-4.html"
     },
     {
      "day": 79,
-     "game": "Warriors @ Timberwolves",
+     "game": "TIMBERWOLVES 114, Warriors 96",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Timberwolves",
+     "opponent": "TIMBERWOLVES 114, Warriors 96",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-6.html"
     },
     {
      "day": 80,
-     "game": "Bulls @ Warriors",
+     "game": "Bulls 85, WARRIORS 84",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bulls @ Warriors",
+     "opponent": "Bulls 85, WARRIORS 84",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-4.html"
     },
     {
      "day": 81,
@@ -26286,13 +26597,14 @@
     },
     {
      "day": 63,
-     "game": "Bulls @ Clippers",
+     "game": "Bulls 97, CLIPPERS 79",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bulls @ Clippers",
+     "opponent": "Bulls 97, CLIPPERS 79",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-9.html"
     },
     {
      "day": 64,
@@ -26301,33 +26613,36 @@
     },
     {
      "day": 65,
-     "game": "Clippers @ Wizards",
+     "game": "WIZARDS 99, Clippers 63",
      "has_game": true,
      "home_away": null,
-     "opponent": "Clippers @ Wizards",
+     "opponent": "WIZARDS 99, Clippers 63",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-4.html"
     },
     {
      "day": 66,
-     "game": "Clippers @ Bulls",
+     "game": "BULLS 99, Clippers 89",
      "has_game": true,
      "home_away": null,
-     "opponent": "Clippers @ Bulls",
+     "opponent": "BULLS 99, Clippers 89",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-7.html"
     },
     {
      "day": 67,
-     "game": "Clippers @ Jazz",
+     "game": "JAZZ 84, Clippers 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "Clippers @ Jazz",
+     "opponent": "JAZZ 84, Clippers 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-5.html"
     },
     {
      "day": 68,
@@ -26336,13 +26651,14 @@
     },
     {
      "day": 69,
-     "game": "Clippers @ Trail Blazers",
+     "game": "TRAIL BLAZERS 103, Clippers 77",
      "has_game": true,
      "home_away": null,
-     "opponent": "Clippers @ Trail Blazers",
+     "opponent": "TRAIL BLAZERS 103, Clippers 77",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-7.html"
     },
     {
      "day": 70,
@@ -26356,63 +26672,69 @@
     },
     {
      "day": 72,
-     "game": "Hornets @ Clippers",
+     "game": "CLIPPERS 108, Hornets 100",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hornets @ Clippers",
+     "opponent": "CLIPPERS 108, Hornets 100",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-10.html"
     },
     {
      "day": 73,
-     "game": "Warriors @ Clippers",
+     "game": "CLIPPERS 87, Warriors 74",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Clippers",
+     "opponent": "CLIPPERS 87, Warriors 74",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-6.html"
     },
     {
      "day": 74,
-     "game": "Kings @ Clippers",
+     "game": "Kings 84, CLIPPERS 81",
      "has_game": true,
      "home_away": null,
-     "opponent": "Kings @ Clippers",
+     "opponent": "Kings 84, CLIPPERS 81",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-5.html"
     },
     {
      "day": 75,
-     "game": "Grizzlies @ Clippers",
+     "game": "Grizzlies 86, CLIPPERS 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Clippers",
+     "opponent": "Grizzlies 86, CLIPPERS 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-6.html"
     },
     {
      "day": 76,
-     "game": "Clippers @ 76ers",
+     "game": "Clippers 116, 76ERS 93",
      "has_game": true,
      "home_away": null,
-     "opponent": "Clippers @ 76ers",
+     "opponent": "Clippers 116, 76ERS 93",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-7.html"
     },
     {
      "day": 77,
-     "game": "Clippers @ Rockets",
+     "game": "ROCKETS 114, Clippers 107",
      "has_game": true,
      "home_away": null,
-     "opponent": "Clippers @ Rockets",
+     "opponent": "ROCKETS 114, Clippers 107",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-5.html"
     },
     {
      "day": 78,
@@ -26421,23 +26743,25 @@
     },
     {
      "day": 79,
-     "game": "Clippers @ Rockets",
+     "game": "ROCKETS 99, Clippers 87",
      "has_game": true,
      "home_away": null,
-     "opponent": "Clippers @ Rockets",
+     "opponent": "ROCKETS 99, Clippers 87",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-3.html"
     },
     {
      "day": 80,
-     "game": "Clippers @ Kings",
+     "game": "KINGS 94, Clippers 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "Clippers @ Kings",
+     "opponent": "KINGS 94, Clippers 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-9.html"
     },
     {
      "day": 81,
@@ -27321,23 +27645,25 @@
     },
     {
      "day": 61,
-     "game": "Pistons @ Lakers",
+     "game": "LAKERS 98, Pistons 82",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pistons @ Lakers",
+     "opponent": "LAKERS 98, Pistons 82",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-4.html"
     },
     {
      "day": 62,
-     "game": "Jazz @ Lakers",
+     "game": "LAKERS 114, Jazz 83",
      "has_game": true,
      "home_away": null,
-     "opponent": "Jazz @ Lakers",
+     "opponent": "LAKERS 114, Jazz 83",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/62-2.html"
     },
     {
      "day": 63,
@@ -27346,13 +27672,14 @@
     },
     {
      "day": 64,
-     "game": "Warriors @ Lakers",
+     "game": "LAKERS 100, Warriors 86",
      "has_game": true,
      "home_away": null,
-     "opponent": "Warriors @ Lakers",
+     "opponent": "LAKERS 100, Warriors 86",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-5.html"
     },
     {
      "day": 65,
@@ -27361,43 +27688,47 @@
     },
     {
      "day": 66,
-     "game": "Lakers @ Kings",
+     "game": "Lakers 84, KINGS 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Lakers @ Kings",
+     "opponent": "Lakers 84, KINGS 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-3.html"
     },
     {
      "day": 67,
-     "game": "Nuggets @ Lakers",
+     "game": "LAKERS 104, Nuggets 101",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nuggets @ Lakers",
+     "opponent": "LAKERS 104, Nuggets 101",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-3.html"
     },
     {
      "day": 68,
-     "game": "SuperSonics @ Lakers",
+     "game": "LAKERS 112, SuperSonics 95",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Lakers",
+     "opponent": "LAKERS 112, SuperSonics 95",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/68-5.html"
     },
     {
      "day": 69,
-     "game": "Lakers @ Bulls",
+     "game": "BULLS 106, Lakers 103",
      "has_game": true,
      "home_away": null,
-     "opponent": "Lakers @ Bulls",
+     "opponent": "BULLS 106, Lakers 103",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-3.html"
     },
     {
      "day": 70,
@@ -27406,33 +27737,36 @@
     },
     {
      "day": 71,
-     "game": "Lakers @ 76ers",
+     "game": "Lakers 100, 76ERS 96",
      "has_game": true,
      "home_away": null,
-     "opponent": "Lakers @ 76ers",
+     "opponent": "Lakers 100, 76ERS 96",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-7.html"
     },
     {
      "day": 72,
-     "game": "Lakers @ Bucks",
+     "game": "BUCKS 113, Lakers 110",
      "has_game": true,
      "home_away": null,
-     "opponent": "Lakers @ Bucks",
+     "opponent": "BUCKS 113, Lakers 110",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-7.html"
     },
     {
      "day": 73,
-     "game": "Nuggets @ Lakers",
+     "game": "LAKERS 102, Nuggets 90",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nuggets @ Lakers",
+     "opponent": "LAKERS 102, Nuggets 90",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-12.html"
     },
     {
      "day": 74,
@@ -27441,13 +27775,14 @@
     },
     {
      "day": 75,
-     "game": "Lakers @ SuperSonics",
+     "game": "Lakers 115, SUPERSONICS 113",
      "has_game": true,
      "home_away": null,
-     "opponent": "Lakers @ SuperSonics",
+     "opponent": "Lakers 115, SUPERSONICS 113",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-5.html"
     },
     {
      "day": 76,
@@ -27461,13 +27796,14 @@
     },
     {
      "day": 78,
-     "game": "Lakers @ Knicks",
+     "game": "Lakers 95, KNICKS 89",
      "has_game": true,
      "home_away": null,
-     "opponent": "Lakers @ Knicks",
+     "opponent": "Lakers 95, KNICKS 89",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/78-1.html"
     },
     {
      "day": 79,
@@ -27476,13 +27812,14 @@
     },
     {
      "day": 80,
-     "game": "Heat @ Lakers",
+     "game": "LAKERS 95, Heat 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Heat @ Lakers",
+     "opponent": "LAKERS 95, Heat 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-8.html"
     },
     {
      "day": 81,
@@ -28465,13 +28802,14 @@
     },
     {
      "day": 61,
-     "game": "Suns @ Nuggets",
+     "game": "NUGGETS 107, Suns 92",
      "has_game": true,
      "home_away": null,
-     "opponent": "Suns @ Nuggets",
+     "opponent": "NUGGETS 107, Suns 92",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/61-2.html"
     },
     {
      "day": 62,
@@ -28485,13 +28823,14 @@
     },
     {
      "day": 64,
-     "game": "Suns @ Bucks",
+     "game": "Suns 104, BUCKS 85",
      "has_game": true,
      "home_away": null,
-     "opponent": "Suns @ Bucks",
+     "opponent": "Suns 104, BUCKS 85",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-10.html"
     },
     {
      "day": 65,
@@ -28500,23 +28839,25 @@
     },
     {
      "day": 66,
-     "game": "Timberwolves @ Suns",
+     "game": "SUNS 92, Timberwolves 84",
      "has_game": true,
      "home_away": null,
-     "opponent": "Timberwolves @ Suns",
+     "opponent": "SUNS 92, Timberwolves 84",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-1.html"
     },
     {
      "day": 67,
-     "game": "Bulls @ Suns",
+     "game": "SUNS 103, Bulls 91",
      "has_game": true,
      "home_away": null,
-     "opponent": "Bulls @ Suns",
+     "opponent": "SUNS 103, Bulls 91",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-2.html"
     },
     {
      "day": 68,
@@ -28525,33 +28866,36 @@
     },
     {
      "day": 69,
-     "game": "Suns @ Hawks",
+     "game": "HAWKS 76, Suns 75",
      "has_game": true,
      "home_away": null,
-     "opponent": "Suns @ Hawks",
+     "opponent": "HAWKS 76, Suns 75",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-5.html"
     },
     {
      "day": 70,
-     "game": "Suns @ Grizzlies",
+     "game": "GRIZZLIES 92, Suns 67",
      "has_game": true,
      "home_away": null,
-     "opponent": "Suns @ Grizzlies",
+     "opponent": "GRIZZLIES 92, Suns 67",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-9.html"
     },
     {
      "day": 71,
-     "game": "Suns @ Mavericks",
+     "game": "MAVERICKS 99, Suns 87",
      "has_game": true,
      "home_away": null,
-     "opponent": "Suns @ Mavericks",
+     "opponent": "MAVERICKS 99, Suns 87",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-9.html"
     },
     {
      "day": 72,
@@ -28560,23 +28904,25 @@
     },
     {
      "day": 73,
-     "game": "Cavaliers @ Suns",
+     "game": "Cavaliers 76, SUNS 65",
      "has_game": true,
      "home_away": null,
-     "opponent": "Cavaliers @ Suns",
+     "opponent": "Cavaliers 76, SUNS 65",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-1.html"
     },
     {
      "day": 74,
-     "game": "76ers @ Suns",
+     "game": "76ers 98, SUNS 74",
      "has_game": true,
      "home_away": null,
-     "opponent": "76ers @ Suns",
+     "opponent": "76ers 98, SUNS 74",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-8.html"
     },
     {
      "day": 75,
@@ -28600,23 +28946,25 @@
     },
     {
      "day": 79,
-     "game": "Suns @ Heat",
+     "game": "Suns 87, HEAT 62",
      "has_game": true,
      "home_away": null,
-     "opponent": "Suns @ Heat",
+     "opponent": "Suns 87, HEAT 62",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-8.html"
     },
     {
      "day": 80,
-     "game": "Suns @ Pacers",
+     "game": "PACERS 92, Suns 62",
      "has_game": true,
      "home_away": null,
-     "opponent": "Suns @ Pacers",
+     "opponent": "PACERS 92, Suns 62",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-7.html"
     },
     {
      "day": 81,
@@ -29557,43 +29905,47 @@
     },
     {
      "day": 62,
-     "game": "Magic @ Trail Blazers",
+     "game": "Magic 110, TRAIL BLAZERS 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ Trail Blazers",
+     "opponent": "Magic 110, TRAIL BLAZERS 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/62-3.html"
     },
     {
      "day": 63,
-     "game": "Trail Blazers @ Nets",
+     "game": "Trail Blazers 96, NETS 91",
      "has_game": true,
      "home_away": null,
-     "opponent": "Trail Blazers @ Nets",
+     "opponent": "Trail Blazers 96, NETS 91",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-4.html"
     },
     {
      "day": 64,
-     "game": "Trail Blazers @ Rockets",
+     "game": "ROCKETS 90, Trail Blazers 62",
      "has_game": true,
      "home_away": null,
-     "opponent": "Trail Blazers @ Rockets",
+     "opponent": "ROCKETS 90, Trail Blazers 62",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-1.html"
     },
     {
      "day": 65,
-     "game": "Trail Blazers @ Jazz",
+     "game": "Trail Blazers 86, JAZZ 81",
      "has_game": true,
      "home_away": null,
-     "opponent": "Trail Blazers @ Jazz",
+     "opponent": "Trail Blazers 86, JAZZ 81",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-12.html"
     },
     {
      "day": 66,
@@ -29602,33 +29954,36 @@
     },
     {
      "day": 67,
-     "game": "Pacers @ Trail Blazers",
+     "game": "Pacers 96, TRAIL BLAZERS 91",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pacers @ Trail Blazers",
+     "opponent": "Pacers 96, TRAIL BLAZERS 91",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-4.html"
     },
     {
      "day": 68,
-     "game": "Trail Blazers @ Magic",
+     "game": "Trail Blazers 94, MAGIC 91",
      "has_game": true,
      "home_away": null,
-     "opponent": "Trail Blazers @ Magic",
+     "opponent": "Trail Blazers 94, MAGIC 91",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/68-6.html"
     },
     {
      "day": 69,
-     "game": "Clippers @ Trail Blazers",
+     "game": "TRAIL BLAZERS 103, Clippers 77",
      "has_game": true,
      "home_away": null,
-     "opponent": "Clippers @ Trail Blazers",
+     "opponent": "TRAIL BLAZERS 103, Clippers 77",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-7.html"
     },
     {
      "day": 70,
@@ -29642,13 +29997,14 @@
     },
     {
      "day": 72,
-     "game": "Trail Blazers @ Heat",
+     "game": "HEAT 101, Trail Blazers 87",
      "has_game": true,
      "home_away": null,
-     "opponent": "Trail Blazers @ Heat",
+     "opponent": "HEAT 101, Trail Blazers 87",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-9.html"
     },
     {
      "day": 73,
@@ -29667,23 +30023,25 @@
     },
     {
      "day": 76,
-     "game": "Trail Blazers @ Hornets",
+     "game": "Trail Blazers 94, HORNETS 85",
      "has_game": true,
      "home_away": null,
-     "opponent": "Trail Blazers @ Hornets",
+     "opponent": "Trail Blazers 94, HORNETS 85",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-2.html"
     },
     {
      "day": 77,
-     "game": "Trail Blazers @ Spurs",
+     "game": "SPURS 106, Trail Blazers 77",
      "has_game": true,
      "home_away": null,
-     "opponent": "Trail Blazers @ Spurs",
+     "opponent": "SPURS 106, Trail Blazers 77",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-9.html"
     },
     {
      "day": 78,
@@ -29692,13 +30050,14 @@
     },
     {
      "day": 79,
-     "game": "Trail Blazers @ Bulls",
+     "game": "BULLS 98, Trail Blazers 85",
      "has_game": true,
      "home_away": null,
-     "opponent": "Trail Blazers @ Bulls",
+     "opponent": "BULLS 98, Trail Blazers 85",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-2.html"
     },
     {
      "day": 80,
@@ -30658,33 +31017,36 @@
     },
     {
      "day": 64,
-     "game": "Kings @ Hawks",
+     "game": "Kings 85, HAWKS 72",
      "has_game": true,
      "home_away": null,
-     "opponent": "Kings @ Hawks",
+     "opponent": "Kings 85, HAWKS 72",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/64-7.html"
     },
     {
      "day": 65,
-     "game": "Grizzlies @ Kings",
+     "game": "KINGS 87, Grizzlies 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Grizzlies @ Kings",
+     "opponent": "KINGS 87, Grizzlies 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-8.html"
     },
     {
      "day": 66,
-     "game": "Lakers @ Kings",
+     "game": "Lakers 84, KINGS 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Lakers @ Kings",
+     "opponent": "Lakers 84, KINGS 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/66-3.html"
     },
     {
      "day": 67,
@@ -30693,73 +31055,80 @@
     },
     {
      "day": 68,
-     "game": "Kings @ Nuggets",
+     "game": "NUGGETS 82, Kings 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Kings @ Nuggets",
+     "opponent": "NUGGETS 82, Kings 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/68-1.html"
     },
     {
      "day": 69,
-     "game": "Knicks @ Kings",
+     "game": "KINGS 105, Knicks 101",
      "has_game": true,
      "home_away": null,
-     "opponent": "Knicks @ Kings",
+     "opponent": "KINGS 105, Knicks 101",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/69-1.html"
     },
     {
      "day": 70,
-     "game": "Kings @ Mavericks",
+     "game": "MAVERICKS 90, Kings 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "Kings @ Mavericks",
+     "opponent": "MAVERICKS 90, Kings 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-5.html"
     },
     {
      "day": 71,
-     "game": "Timberwolves @ Kings",
+     "game": "KINGS 95, Timberwolves 79",
      "has_game": true,
      "home_away": null,
-     "opponent": "Timberwolves @ Kings",
+     "opponent": "KINGS 95, Timberwolves 79",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-11.html"
     },
     {
      "day": 72,
-     "game": "Kings @ Bulls",
+     "game": "BULLS 116, Kings 80",
      "has_game": true,
      "home_away": null,
-     "opponent": "Kings @ Bulls",
+     "opponent": "BULLS 116, Kings 80",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-3.html"
     },
     {
      "day": 73,
-     "game": "Kings @ Mavericks",
+     "game": "MAVERICKS 74, Kings 70",
      "has_game": true,
      "home_away": null,
-     "opponent": "Kings @ Mavericks",
+     "opponent": "MAVERICKS 74, Kings 70",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-7.html"
     },
     {
      "day": 74,
-     "game": "Kings @ Clippers",
+     "game": "Kings 84, CLIPPERS 81",
      "has_game": true,
      "home_away": null,
-     "opponent": "Kings @ Clippers",
+     "opponent": "Kings 84, CLIPPERS 81",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-5.html"
     },
     {
      "day": 75,
@@ -30768,23 +31137,25 @@
     },
     {
      "day": 76,
-     "game": "SuperSonics @ Kings",
+     "game": "KINGS 92, SuperSonics 83",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Kings",
+     "opponent": "KINGS 92, SuperSonics 83",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-5.html"
     },
     {
      "day": 77,
-     "game": "Nets @ Kings",
+     "game": "KINGS 104, Nets 66",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nets @ Kings",
+     "opponent": "KINGS 104, Nets 66",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-6.html"
     },
     {
      "day": 78,
@@ -30793,23 +31164,25 @@
     },
     {
      "day": 79,
-     "game": "Hornets @ Kings",
+     "game": "KINGS 101, Hornets 88",
      "has_game": true,
      "home_away": null,
-     "opponent": "Hornets @ Kings",
+     "opponent": "KINGS 101, Hornets 88",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/79-5.html"
     },
     {
      "day": 80,
-     "game": "Clippers @ Kings",
+     "game": "KINGS 94, Clippers 78",
      "has_game": true,
      "home_away": null,
-     "opponent": "Clippers @ Kings",
+     "opponent": "KINGS 94, Clippers 78",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-9.html"
     },
     {
      "day": 81,
@@ -31696,23 +32069,25 @@
     },
     {
      "day": 62,
-     "game": "Nuggets @ SuperSonics",
+     "game": "Nuggets 94, SUPERSONICS 93",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nuggets @ SuperSonics",
+     "opponent": "Nuggets 94, SUPERSONICS 93",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/62-5.html"
     },
     {
      "day": 63,
-     "game": "Magic @ SuperSonics",
+     "game": "SUPERSONICS 105, Magic 95",
      "has_game": true,
      "home_away": null,
-     "opponent": "Magic @ SuperSonics",
+     "opponent": "SUPERSONICS 105, Magic 95",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/63-2.html"
     },
     {
      "day": 64,
@@ -31721,13 +32096,14 @@
     },
     {
      "day": 65,
-     "game": "SuperSonics @ Bucks",
+     "game": "SuperSonics 111, BUCKS 107",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Bucks",
+     "opponent": "SuperSonics 111, BUCKS 107",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/65-7.html"
     },
     {
      "day": 66,
@@ -31736,23 +32112,25 @@
     },
     {
      "day": 67,
-     "game": "Pistons @ SuperSonics",
+     "game": "Pistons 102, SUPERSONICS 100",
      "has_game": true,
      "home_away": null,
-     "opponent": "Pistons @ SuperSonics",
+     "opponent": "Pistons 102, SUPERSONICS 100",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/67-1.html"
     },
     {
      "day": 68,
-     "game": "SuperSonics @ Lakers",
+     "game": "LAKERS 112, SuperSonics 95",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Lakers",
+     "opponent": "LAKERS 112, SuperSonics 95",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/68-5.html"
     },
     {
      "day": 69,
@@ -31761,93 +32139,102 @@
     },
     {
      "day": 70,
-     "game": "SuperSonics @ Hawks",
+     "game": "SuperSonics 100, HAWKS 79",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Hawks",
+     "opponent": "SuperSonics 100, HAWKS 79",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/70-1.html"
     },
     {
      "day": 71,
-     "game": "SuperSonics @ Nuggets",
+     "game": "NUGGETS 106, SuperSonics 81",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Nuggets",
+     "opponent": "NUGGETS 106, SuperSonics 81",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/71-1.html"
     },
     {
      "day": 72,
-     "game": "SuperSonics @ Timberwolves",
+     "game": "TIMBERWOLVES 104, SuperSonics 102",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Timberwolves",
+     "opponent": "TIMBERWOLVES 104, SuperSonics 102",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/72-5.html"
     },
     {
      "day": 73,
-     "game": "SuperSonics @ Knicks",
+     "game": "KNICKS 100, SuperSonics 68",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Knicks",
+     "opponent": "KNICKS 100, SuperSonics 68",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/73-3.html"
     },
     {
      "day": 74,
-     "game": "SuperSonics @ Celtics",
+     "game": "CELTICS 112, SuperSonics 98",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Celtics",
+     "opponent": "CELTICS 112, SuperSonics 98",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/74-2.html"
     },
     {
      "day": 75,
-     "game": "Lakers @ SuperSonics",
+     "game": "Lakers 115, SUPERSONICS 113",
      "has_game": true,
      "home_away": null,
-     "opponent": "Lakers @ SuperSonics",
+     "opponent": "Lakers 115, SUPERSONICS 113",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/75-5.html"
     },
     {
      "day": 76,
-     "game": "SuperSonics @ Kings",
+     "game": "KINGS 92, SuperSonics 83",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Kings",
+     "opponent": "KINGS 92, SuperSonics 83",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/76-5.html"
     },
     {
      "day": 77,
-     "game": "Nuggets @ SuperSonics",
+     "game": "Nuggets 100, SUPERSONICS 90",
      "has_game": true,
      "home_away": null,
-     "opponent": "Nuggets @ SuperSonics",
+     "opponent": "Nuggets 100, SUPERSONICS 90",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/77-3.html"
     },
     {
      "day": 78,
-     "game": "SuperSonics @ Nets",
+     "game": "SuperSonics 106, NETS 98",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Nets",
+     "opponent": "SuperSonics 106, NETS 98",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/78-2.html"
     },
     {
      "day": 79,
@@ -31856,13 +32243,14 @@
     },
     {
      "day": 80,
-     "game": "SuperSonics @ Jazz",
+     "game": "JAZZ 102, SuperSonics 89",
      "has_game": true,
      "home_away": null,
-     "opponent": "SuperSonics @ Jazz",
+     "opponent": "JAZZ 102, SuperSonics 89",
      "result": null,
      "score_for": null,
-     "score_against": null
+     "score_against": null,
+     "link": "../boxes/80-1.html"
     },
     {
      "day": 81,

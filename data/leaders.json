@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-16T20:29:40Z",
-  "parsed_at": "2026-11-16T20:30:20Z"
+  "crawled_at": "2026-11-17T19:29:17Z",
+  "parsed_at": "2026-11-17T19:30:32Z"
  },
  "league_leaders": {
   "Minutes-Per-Game": {
@@ -15,7 +15,7 @@
      "pos": "SG",
      "team": "Pacers",
      "team_id": 13,
-     "value": 39.6
+     "value": 40.0
     },
     {
      "rank": 2,
@@ -24,78 +24,78 @@
      "pos": "SG",
      "team": "Nuggets",
      "team_id": 17,
-     "value": 37.0
-    },
-    {
-     "rank": 3,
-     "player": "Vince Carter",
-     "player_id": 182,
-     "pos": "SG",
-     "team": "Rockets",
-     "team_id": 18,
      "value": 36.5
     },
     {
-     "rank": 4,
-     "player": "Chauncey Billups",
-     "player_id": 135,
-     "pos": "PG",
-     "team": "Suns",
-     "team_id": 26,
-     "value": 36.3
-    },
-    {
-     "rank": 5,
+     "rank": 3,
      "player": "Speedy Claxton",
      "player_id": 190,
      "pos": "PG",
      "team": "Celtics",
      "team_id": 1,
+     "value": 36.2
+    },
+    {
+     "rank": 4,
+     "player": "Vince Carter",
+     "player_id": 182,
+     "pos": "SG",
+     "team": "Rockets",
+     "team_id": 18,
+     "value": 36.1
+    },
+    {
+     "rank": 5,
+     "player": "Chauncey Billups",
+     "player_id": 135,
+     "pos": "PG",
+     "team": "Suns",
+     "team_id": 26,
      "value": 36.0
     },
     {
      "rank": 6,
-     "player": "Josh Howard",
-     "player_id": 324,
-     "pos": "SF",
-     "team": "Rockets",
-     "team_id": 18,
-     "value": 35.9
+     "player": "Tony Parker",
+     "player_id": 481,
+     "pos": "PG",
+     "team": "SuperSonics",
+     "team_id": 29,
+     "value": 36.0
     },
     {
      "rank": 7,
-     "player": "Mike Bibby",
-     "player_id": 133,
-     "pos": "PG",
-     "team": "Hornets",
-     "team_id": 9,
-     "value": 35.8
-    },
-    {
-     "rank": 8,
-     "player": "Chris Paul",
-     "player_id": 483,
-     "pos": "PG",
-     "team": "Bulls",
-     "team_id": 10,
-     "value": 35.7
-    },
-    {
-     "rank": 9,
      "player": "Stephon Marbury",
      "player_id": 405,
      "pos": "PG",
      "team": "Knicks",
      "team_id": 4,
+     "value": 35.7
+    },
+    {
+     "rank": 8,
+     "player": "Andrei Kirilenko",
+     "player_id": 378,
+     "pos": "SF",
+     "team": "Mavericks",
+     "team_id": 16,
+     "value": 35.6
+    },
+    {
+     "rank": 9,
+     "player": "Paul Pierce",
+     "player_id": 491,
+     "pos": "SF",
+     "team": "Bucks",
+     "team_id": 14,
      "value": 35.6
     },
     {
      "rank": 10,
-     "player": "Mo Williams",
-     "player_id": 640,
+     "player": "Chris Paul",
+     "player_id": 483,
      "pos": "PG",
-     "team": "Timberwolves",
-     "team_id": 19,
+     "team": "Bulls",
+     "team_id": 10,
      "value": 35.5
     }
    ]
@@ -105,39 +105,39 @@
    "leaders": [
     {
      "rank": 1,
-     "player": "Kobe Bryant",
-     "player_id": 163,
-     "pos": "SG",
-     "team": "Pistons",
-     "team_id": 12,
-     "value": 29.0
-    },
-    {
-     "rank": 2,
      "player": "Ray Allen",
      "player_id": 92,
      "pos": "SG",
      "team": "Nuggets",
      "team_id": 17,
+     "value": 29.3
+    },
+    {
+     "rank": 2,
+     "player": "Kobe Bryant",
+     "player_id": 163,
+     "pos": "SG",
+     "team": "Pistons",
+     "team_id": 12,
      "value": 28.8
     },
     {
      "rank": 3,
-     "player": "Dirk Nowitzki",
-     "player_id": 462,
-     "pos": "PF",
-     "team": "Heat",
-     "team_id": 2,
-     "value": 28.8
-    },
-    {
-     "rank": 4,
      "player": "Carmelo Anthony",
      "player_id": 102,
      "pos": "SF",
      "team": "Hornets",
      "team_id": 9,
-     "value": 28.1
+     "value": 28.7
+    },
+    {
+     "rank": 4,
+     "player": "Dirk Nowitzki",
+     "player_id": 462,
+     "pos": "PF",
+     "team": "Heat",
+     "team_id": 2,
+     "value": 28.4
     },
     {
      "rank": 5,
@@ -146,34 +146,34 @@
      "pos": "PF",
      "team": "Magic",
      "team_id": 5,
-     "value": 26.4
+     "value": 26.8
     },
     {
      "rank": 6,
-     "player": "Chris Bosh",
-     "player_id": 146,
-     "pos": "PF",
-     "team": "Clippers",
-     "team_id": 24,
-     "value": 25.7
-    },
-    {
-     "rank": 7,
      "player": "Dwyane Wade",
      "player_id": 606,
      "pos": "SG",
      "team": "Pacers",
      "team_id": 13,
-     "value": 25.5
+     "value": 26.6
+    },
+    {
+     "rank": 7,
+     "player": "Richard Jefferson",
+     "player_id": 355,
+     "pos": "SF",
+     "team": "SuperSonics",
+     "team_id": 29,
+     "value": 25.1
     },
     {
      "rank": 8,
-     "player": "Vince Carter",
-     "player_id": 182,
-     "pos": "SG",
-     "team": "Rockets",
-     "team_id": 18,
-     "value": 24.8
+     "player": "Chris Bosh",
+     "player_id": 146,
+     "pos": "PF",
+     "team": "Clippers",
+     "team_id": 24,
+     "value": 25.0
     },
     {
      "rank": 9,
@@ -182,7 +182,7 @@
      "pos": "SF",
      "team": "76ers",
      "team_id": 6,
-     "value": 24.8
+     "value": 24.6
     },
     {
      "rank": 10,
@@ -191,7 +191,7 @@
      "pos": "C",
      "team": "Trail Blazers",
      "team_id": 27,
-     "value": 24.0
+     "value": 24.3
     }
    ]
   },
@@ -200,75 +200,75 @@
    "leaders": [
     {
      "rank": 1,
-     "player": "Zach Randolph",
-     "player_id": 511,
-     "pos": "PF",
-     "team": "Nets",
-     "team_id": 3,
-     "value": 11.8
-    },
-    {
-     "rank": 2,
      "player": "Tim Duncan",
      "player_id": 226,
      "pos": "PF",
      "team": "Lakers",
      "team_id": 25,
-     "value": 11.8
+     "value": 12.1
     },
     {
-     "rank": 3,
+     "rank": 2,
      "player": "Marcus Camby",
      "player_id": 176,
      "pos": "C",
      "team": "Kings",
      "team_id": 28,
-     "value": 11.5
+     "value": 11.8
     },
     {
-     "rank": 4,
+     "rank": 3,
      "player": "Kevin Garnett",
      "player_id": 265,
      "pos": "PF",
      "team": "Magic",
      "team_id": 5,
+     "value": 11.5
+    },
+    {
+     "rank": 4,
+     "player": "Zach Randolph",
+     "player_id": 511,
+     "pos": "PF",
+     "team": "Nets",
+     "team_id": 3,
      "value": 11.4
     },
     {
      "rank": 5,
-     "player": "Dwight Howard",
-     "player_id": 323,
-     "pos": "C",
-     "team": "Trail Blazers",
-     "team_id": 27,
-     "value": 11.0
-    },
-    {
-     "rank": 6,
      "player": "Shaquille O'Neal",
      "player_id": 470,
      "pos": "C",
      "team": "Rockets",
      "team_id": 18,
+     "value": 11.2
+    },
+    {
+     "rank": 6,
+     "player": "Dwight Howard",
+     "player_id": 323,
+     "pos": "C",
+     "team": "Trail Blazers",
+     "team_id": 27,
      "value": 10.9
     },
     {
      "rank": 7,
-     "player": "Jermaine O'Neal",
-     "player_id": 469,
-     "pos": "PF",
-     "team": "Timberwolves",
-     "team_id": 19,
-     "value": 10.7
+     "player": "Yao Ming",
+     "player_id": 437,
+     "pos": "C",
+     "team": "Knicks",
+     "team_id": 4,
+     "value": 10.6
     },
     {
      "rank": 8,
-     "player": "Lamar Odom",
-     "player_id": 464,
-     "pos": "PF",
-     "team": "Cavaliers",
-     "team_id": 11,
-     "value": 10.6
+     "player": "Joel Przybilla",
+     "player_id": 506,
+     "pos": "C",
+     "team": "Wizards",
+     "team_id": 7,
+     "value": 10.3
     },
     {
      "rank": 9,
@@ -277,15 +277,15 @@
      "pos": "C",
      "team": "Grizzlies",
      "team_id": 22,
-     "value": 10.4
+     "value": 10.3
     },
     {
      "rank": 10,
-     "player": "Carlos Boozer",
-     "player_id": 144,
+     "player": "Drew Gooden",
+     "player_id": 277,
      "pos": "PF",
-     "team": "Bucks",
-     "team_id": 14,
+     "team": "Warriors",
+     "team_id": 23,
      "value": 10.3
     }
    ]
@@ -304,38 +304,38 @@
     },
     {
      "rank": 2,
-     "player": "Stephon Marbury",
-     "player_id": 405,
-     "pos": "PG",
-     "team": "Knicks",
-     "team_id": 4,
-     "value": 8.5
-    },
-    {
-     "rank": 3,
-     "player": "Chauncey Billups",
-     "player_id": 135,
-     "pos": "PG",
-     "team": "Suns",
-     "team_id": 26,
-     "value": 8.4
-    },
-    {
-     "rank": 4,
-     "player": "Jason Kidd",
-     "player_id": 377,
-     "pos": "PG",
-     "team": "Jazz",
-     "team_id": 21,
-     "value": 8.3
-    },
-    {
-     "rank": 5,
      "player": "Baron Davis",
      "player_id": 207,
      "pos": "PG",
      "team": "Wizards",
      "team_id": 7,
+     "value": 8.4
+    },
+    {
+     "rank": 3,
+     "player": "Stephon Marbury",
+     "player_id": 405,
+     "pos": "PG",
+     "team": "Knicks",
+     "team_id": 4,
+     "value": 8.3
+    },
+    {
+     "rank": 4,
+     "player": "Tony Parker",
+     "player_id": 481,
+     "pos": "PG",
+     "team": "SuperSonics",
+     "team_id": 29,
+     "value": 8.2
+    },
+    {
+     "rank": 5,
+     "player": "Chauncey Billups",
+     "player_id": 135,
+     "pos": "PG",
+     "team": "Suns",
+     "team_id": 26,
      "value": 8.2
     },
     {
@@ -345,25 +345,25 @@
      "pos": "SG",
      "team": "Lakers",
      "team_id": 25,
-     "value": 8.2
+     "value": 8.0
     },
     {
      "rank": 7,
+     "player": "Jason Kidd",
+     "player_id": 377,
+     "pos": "PG",
+     "team": "Jazz",
+     "team_id": 21,
+     "value": 7.8
+    },
+    {
+     "rank": 8,
      "player": "Steve Francis",
      "player_id": 256,
      "pos": "PG",
      "team": "Heat",
      "team_id": 2,
-     "value": 8.0
-    },
-    {
-     "rank": 8,
-     "player": "Jamaal Tinsley",
-     "player_id": 589,
-     "pos": "PG",
-     "team": "Pistons",
-     "team_id": 12,
-     "value": 8.0
+     "value": 7.8
     },
     {
      "rank": 9,
@@ -372,16 +372,16 @@
      "pos": "PG",
      "team": "Hornets",
      "team_id": 9,
-     "value": 7.7
+     "value": 7.8
     },
     {
      "rank": 10,
-     "player": "Deron Williams",
-     "player_id": 633,
+     "player": "Jamaal Tinsley",
+     "player_id": 589,
      "pos": "PG",
-     "team": "Warriors",
-     "team_id": 23,
-     "value": 7.7
+     "team": "Pistons",
+     "team_id": 12,
+     "value": 7.6
     }
    ]
   },
@@ -395,7 +395,7 @@
      "pos": "C",
      "team": "Kings",
      "team_id": 28,
-     "value": 2.5
+     "value": 2.6
     },
     {
      "rank": 2,
@@ -408,21 +408,21 @@
     },
     {
      "rank": 3,
+     "player": "Elton Brand",
+     "player_id": 152,
+     "pos": "PF",
+     "team": "Mavericks",
+     "team_id": 16,
+     "value": 2.0
+    },
+    {
+     "rank": 4,
      "player": "Ben Wallace",
      "player_id": 611,
      "pos": "C",
      "team": "Magic",
      "team_id": 5,
      "value": 1.9
-    },
-    {
-     "rank": 4,
-     "player": "Elton Brand",
-     "player_id": 152,
-     "pos": "PF",
-     "team": "Mavericks",
-     "team_id": 16,
-     "value": 1.8
     },
     {
      "rank": 5,
@@ -435,20 +435,20 @@
     },
     {
      "rank": 6,
-     "player": "Dwight Howard",
-     "player_id": 323,
-     "pos": "C",
-     "team": "Trail Blazers",
-     "team_id": 27,
+     "player": "Jermaine O'Neal",
+     "player_id": 469,
+     "pos": "PF",
+     "team": "Timberwolves",
+     "team_id": 19,
      "value": 1.7
     },
     {
      "rank": 7,
-     "player": "Pau Gasol",
-     "player_id": 267,
-     "pos": "C",
-     "team": "Hawks",
-     "team_id": 8,
+     "player": "Eddie Griffin",
+     "player_id": 290,
+     "pos": "PF",
+     "team": "Clippers",
+     "team_id": 24,
      "value": 1.7
     },
     {
@@ -462,20 +462,20 @@
     },
     {
      "rank": 9,
-     "player": "Eddie Griffin",
-     "player_id": 290,
-     "pos": "PF",
-     "team": "Clippers",
-     "team_id": 24,
-     "value": 1.7
+     "player": "Andrei Kirilenko",
+     "player_id": 378,
+     "pos": "SF",
+     "team": "Mavericks",
+     "team_id": 16,
+     "value": 1.6
     },
     {
      "rank": 10,
-     "player": "Jermaine O'Neal",
-     "player_id": 469,
-     "pos": "PF",
-     "team": "Timberwolves",
-     "team_id": 19,
+     "player": "Dwight Howard",
+     "player_id": 323,
+     "pos": "C",
+     "team": "Trail Blazers",
+     "team_id": 27,
      "value": 1.6
     }
    ]
@@ -521,15 +521,6 @@
     },
     {
      "rank": 5,
-     "player": "T.J. Ford",
-     "player_id": 250,
-     "pos": "PG",
-     "team": "Magic",
-     "team_id": 5,
-     "value": 1.8
-    },
-    {
-     "rank": 6,
      "player": "Earl Watson",
      "player_id": 617,
      "pos": "PG",
@@ -538,40 +529,49 @@
      "value": 1.8
     },
     {
+     "rank": 6,
+     "player": "T.J. Ford",
+     "player_id": 250,
+     "pos": "PG",
+     "team": "Magic",
+     "team_id": 5,
+     "value": 1.8
+    },
+    {
      "rank": 7,
-     "player": "Jamaal Tinsley",
-     "player_id": 589,
-     "pos": "PG",
-     "team": "Pistons",
-     "team_id": 12,
-     "value": 1.8
-    },
-    {
-     "rank": 8,
-     "player": "Bobby Jackson",
-     "player_id": 341,
-     "pos": "PG",
-     "team": "Kings",
-     "team_id": 28,
-     "value": 1.8
-    },
-    {
-     "rank": 9,
      "player": "Dwyane Wade",
      "player_id": 606,
      "pos": "SG",
      "team": "Pacers",
      "team_id": 13,
+     "value": 1.8
+    },
+    {
+     "rank": 8,
+     "player": "Jamaal Tinsley",
+     "player_id": 589,
+     "pos": "PG",
+     "team": "Pistons",
+     "team_id": 12,
      "value": 1.7
     },
     {
+     "rank": 9,
+     "player": "Mike Bibby",
+     "player_id": 133,
+     "pos": "PG",
+     "team": "Hornets",
+     "team_id": 9,
+     "value": 1.6
+    },
+    {
      "rank": 10,
-     "player": "Marcus Camby",
-     "player_id": 176,
-     "pos": "C",
-     "team": "Kings",
-     "team_id": 28,
-     "value": 1.7
+     "player": "Baron Davis",
+     "player_id": 207,
+     "pos": "PG",
+     "team": "Wizards",
+     "team_id": 7,
+     "value": 1.6
     }
    ]
   },
@@ -585,25 +585,25 @@
      "pos": "SF",
      "team": "Hornets",
      "team_id": 9,
-     "value": 24.4
+     "value": 24.5
     },
     {
      "rank": 2,
-     "player": "Dirk Nowitzki",
-     "player_id": 462,
-     "pos": "PF",
-     "team": "Heat",
-     "team_id": 2,
-     "value": 24.0
-    },
-    {
-     "rank": 3,
      "player": "Ray Allen",
      "player_id": 92,
      "pos": "SG",
      "team": "Nuggets",
      "team_id": 17,
-     "value": 24.0
+     "value": 24.1
+    },
+    {
+     "rank": 3,
+     "player": "Dirk Nowitzki",
+     "player_id": 462,
+     "pos": "PF",
+     "team": "Heat",
+     "team_id": 2,
+     "value": 23.6
     },
     {
      "rank": 4,
@@ -612,7 +612,7 @@
      "pos": "SG",
      "team": "Pistons",
      "team_id": 12,
-     "value": 22.5
+     "value": 22.7
     },
     {
      "rank": 5,
@@ -621,37 +621,28 @@
      "pos": "SG",
      "team": "Pacers",
      "team_id": 13,
-     "value": 21.3
+     "value": 21.5
     },
     {
      "rank": 6,
-     "player": "Vince Carter",
-     "player_id": 182,
-     "pos": "SG",
-     "team": "Rockets",
-     "team_id": 18,
-     "value": 21.0
-    },
-    {
-     "rank": 7,
      "player": "Richard Jefferson",
      "player_id": 355,
      "pos": "SF",
      "team": "SuperSonics",
      "team_id": 29,
-     "value": 20.7
+     "value": 21.0
     },
     {
-     "rank": 8,
-     "player": "Chris Bosh",
-     "player_id": 146,
-     "pos": "PF",
-     "team": "Clippers",
-     "team_id": 24,
+     "rank": 7,
+     "player": "Vince Carter",
+     "player_id": 182,
+     "pos": "SG",
+     "team": "Rockets",
+     "team_id": 18,
      "value": 20.6
     },
     {
-     "rank": 9,
+     "rank": 8,
      "player": "LeBron James",
      "player_id": 349,
      "pos": "SF",
@@ -660,12 +651,21 @@
      "value": 20.4
     },
     {
+     "rank": 9,
+     "player": "Kevin Garnett",
+     "player_id": 265,
+     "pos": "PF",
+     "team": "Magic",
+     "team_id": 5,
+     "value": 20.3
+    },
+    {
      "rank": 10,
-     "player": "Ron Artest",
-     "player_id": 109,
-     "pos": "SF",
-     "team": "Jazz",
-     "team_id": 21,
+     "player": "Chris Bosh",
+     "player_id": 146,
+     "pos": "PF",
+     "team": "Clippers",
+     "team_id": 24,
      "value": 20.3
     }
    ]
@@ -680,88 +680,88 @@
      "pos": "PG",
      "team": "Warriors",
      "team_id": 23,
-     "value": 0.529
-    },
-    {
-     "rank": 2,
-     "player": "David Lee",
-     "player_id": 391,
-     "pos": "PF",
-     "team": "Knicks",
-     "team_id": 4,
-     "value": 0.521
-    },
-    {
-     "rank": 3,
-     "player": "Eddy Curry",
-     "player_id": 200,
-     "pos": "C",
-     "team": "Bucks",
-     "team_id": 14,
-     "value": 0.52
-    },
-    {
-     "rank": 4,
-     "player": "Damon Jones",
-     "player_id": 366,
-     "pos": "PG",
-     "team": "Kings",
-     "team_id": 28,
-     "value": 0.514
-    },
-    {
-     "rank": 5,
-     "player": "Eddie House",
-     "player_id": 322,
-     "pos": "PG",
-     "team": "Pacers",
-     "team_id": 13,
-     "value": 0.514
-    },
-    {
-     "rank": 6,
-     "player": "Brian Cook",
-     "player_id": 196,
-     "pos": "PF",
-     "team": "Kings",
-     "team_id": 28,
      "value": 0.513
     },
     {
-     "rank": 7,
-     "player": "Scot Pollard",
-     "player_id": 496,
-     "pos": "C",
-     "team": "Nets",
-     "team_id": 3,
-     "value": 0.511
-    },
-    {
-     "rank": 8,
-     "player": "Rashad McCants",
-     "player_id": 419,
-     "pos": "SG",
-     "team": "Kings",
-     "team_id": 28,
-     "value": 0.511
-    },
-    {
-     "rank": 9,
-     "player": "Steve Francis",
-     "player_id": 256,
-     "pos": "PG",
-     "team": "Heat",
-     "team_id": 2,
-     "value": 0.508
-    },
-    {
-     "rank": 10,
+     "rank": 2,
      "player": "Shaquille O'Neal",
      "player_id": 470,
      "pos": "C",
      "team": "Rockets",
      "team_id": 18,
      "value": 0.508
+    },
+    {
+     "rank": 3,
+     "player": "Rashad McCants",
+     "player_id": 419,
+     "pos": "SG",
+     "team": "Kings",
+     "team_id": 28,
+     "value": 0.504
+    },
+    {
+     "rank": 4,
+     "player": "Eddie House",
+     "player_id": 322,
+     "pos": "PG",
+     "team": "Pacers",
+     "team_id": 13,
+     "value": 0.502
+    },
+    {
+     "rank": 5,
+     "player": "Michael Redd",
+     "player_id": 514,
+     "pos": "SG",
+     "team": "Pacers",
+     "team_id": 13,
+     "value": 0.502
+    },
+    {
+     "rank": 6,
+     "player": "Yao Ming",
+     "player_id": 437,
+     "pos": "C",
+     "team": "Knicks",
+     "team_id": 4,
+     "value": 0.498
+    },
+    {
+     "rank": 7,
+     "player": "David Lee",
+     "player_id": 391,
+     "pos": "PF",
+     "team": "Knicks",
+     "team_id": 4,
+     "value": 0.497
+    },
+    {
+     "rank": 8,
+     "player": "Mickael Pietrus",
+     "player_id": 492,
+     "pos": "SF",
+     "team": "Grizzlies",
+     "team_id": 22,
+     "value": 0.496
+    },
+    {
+     "rank": 9,
+     "player": "John Salmons",
+     "player_id": 531,
+     "pos": "SG",
+     "team": "Rockets",
+     "team_id": 18,
+     "value": 0.495
+    },
+    {
+     "rank": 10,
+     "player": "Jason Richardson",
+     "player_id": 517,
+     "pos": "SG",
+     "team": "Celtics",
+     "team_id": 1,
+     "value": 0.493
     }
    ]
   },
@@ -775,10 +775,19 @@
      "pos": "PF",
      "team": "Magic",
      "team_id": 5,
-     "value": 9.0
+     "value": 9.1
     },
     {
      "rank": 2,
+     "player": "Amar'e Stoudemire",
+     "player_id": 567,
+     "pos": "PF",
+     "team": "Spurs",
+     "team_id": 20,
+     "value": 8.8
+    },
+    {
+     "rank": 3,
      "player": "Dwight Howard",
      "player_id": 323,
      "pos": "C",
@@ -787,40 +796,31 @@
      "value": 8.6
     },
     {
-     "rank": 3,
-     "player": "Amar'e Stoudemire",
-     "player_id": 567,
-     "pos": "PF",
-     "team": "Spurs",
-     "team_id": 20,
-     "value": 8.4
-    },
-    {
      "rank": 4,
      "player": "Tim Duncan",
      "player_id": 226,
      "pos": "PF",
      "team": "Lakers",
      "team_id": 25,
-     "value": 8.1
+     "value": 8.2
     },
     {
      "rank": 5,
-     "player": "Jermaine O'Neal",
-     "player_id": 469,
-     "pos": "PF",
-     "team": "Timberwolves",
-     "team_id": 19,
-     "value": 7.8
-    },
-    {
-     "rank": 6,
      "player": "LeBron James",
      "player_id": 349,
      "pos": "SF",
      "team": "76ers",
      "team_id": 6,
-     "value": 7.4
+     "value": 7.5
+    },
+    {
+     "rank": 6,
+     "player": "Dwyane Wade",
+     "player_id": 606,
+     "pos": "SG",
+     "team": "Pacers",
+     "team_id": 13,
+     "value": 7.5
     },
     {
      "rank": 7,
@@ -829,16 +829,16 @@
      "pos": "PF",
      "team": "Clippers",
      "team_id": 24,
-     "value": 7.3
+     "value": 7.4
     },
     {
      "rank": 8,
-     "player": "Dwyane Wade",
-     "player_id": 606,
-     "pos": "SG",
-     "team": "Pacers",
-     "team_id": 13,
-     "value": 7.2
+     "player": "Jermaine O'Neal",
+     "player_id": 469,
+     "pos": "PF",
+     "team": "Timberwolves",
+     "team_id": 19,
+     "value": 7.4
     },
     {
      "rank": 9,
@@ -847,7 +847,7 @@
      "pos": "C",
      "team": "Knicks",
      "team_id": 4,
-     "value": 7.1
+     "value": 6.9
     },
     {
      "rank": 10,
@@ -856,7 +856,7 @@
      "pos": "SG",
      "team": "Pistons",
      "team_id": 12,
-     "value": 6.9
+     "value": 6.8
     }
    ]
   },
@@ -870,7 +870,7 @@
      "pos": "PF",
      "team": "Heat",
      "team_id": 2,
-     "value": 0.858
+     "value": 0.856
     },
     {
      "rank": 2,
@@ -879,79 +879,79 @@
      "pos": "PF",
      "team": "Magic",
      "team_id": 5,
-     "value": 0.843
+     "value": 0.846
     },
     {
      "rank": 3,
-     "player": "Mike Dunleavy Jr.",
-     "player_id": 227,
-     "pos": "SF",
-     "team": "Spurs",
-     "team_id": 20,
-     "value": 0.842
-    },
-    {
-     "rank": 4,
-     "player": "Gerald Green",
-     "player_id": 285,
-     "pos": "SG",
-     "team": "Knicks",
-     "team_id": 4,
-     "value": 0.833
-    },
-    {
-     "rank": 5,
      "player": "Steve Nash",
      "player_id": 454,
      "pos": "PG",
      "team": "Nuggets",
      "team_id": 17,
-     "value": 0.825
+     "value": 0.819
     },
     {
-     "rank": 6,
-     "player": "Mehmet Okur",
-     "player_id": 466,
-     "pos": "C",
-     "team": "Hornets",
-     "team_id": 9,
-     "value": 0.822
-    },
-    {
-     "rank": 7,
-     "player": "Earl Watson",
-     "player_id": 617,
+     "rank": 4,
+     "player": "Carlos Arroyo",
+     "player_id": 108,
      "pos": "PG",
-     "team": "Cavaliers",
-     "team_id": 11,
-     "value": 0.821
+     "team": "Rockets",
+     "team_id": 18,
+     "value": 0.816
     },
     {
-     "rank": 8,
-     "player": "Luke Ridnour",
-     "player_id": 519,
+     "rank": 5,
+     "player": "Chauncey Billups",
+     "player_id": 135,
      "pos": "PG",
      "team": "Suns",
      "team_id": 26,
-     "value": 0.814
+     "value": 0.802
+    },
+    {
+     "rank": 6,
+     "player": "Speedy Claxton",
+     "player_id": 190,
+     "pos": "PG",
+     "team": "Celtics",
+     "team_id": 1,
+     "value": 0.8
+    },
+    {
+     "rank": 7,
+     "player": "Paul Pierce",
+     "player_id": 491,
+     "pos": "SF",
+     "team": "Bucks",
+     "team_id": 14,
+     "value": 0.793
+    },
+    {
+     "rank": 8,
+     "player": "Jason Williams",
+     "player_id": 636,
+     "pos": "PG",
+     "team": "Lakers",
+     "team_id": 25,
+     "value": 0.789
     },
     {
      "rank": 9,
-     "player": "Earl Boykins",
-     "player_id": 149,
-     "pos": "PG",
-     "team": "Bulls",
-     "team_id": 10,
-     "value": 0.81
-    },
-    {
-     "rank": 10,
      "player": "Chris Bosh",
      "player_id": 146,
      "pos": "PF",
      "team": "Clippers",
      "team_id": 24,
-     "value": 0.806
+     "value": 0.788
+    },
+    {
+     "rank": 10,
+     "player": "Mehmet Okur",
+     "player_id": 466,
+     "pos": "C",
+     "team": "Hornets",
+     "team_id": 9,
+     "value": 0.788
     }
    ]
   },
@@ -974,7 +974,7 @@
      "pos": "SG",
      "team": "Wizards",
      "team_id": 7,
-     "value": 4.9
+     "value": 5.0
     },
     {
      "rank": 3,
@@ -996,12 +996,12 @@
     },
     {
      "rank": 5,
-     "player": "Allen Iverson",
-     "player_id": 338,
-     "pos": "SG",
-     "team": "Lakers",
-     "team_id": 25,
-     "value": 4.1
+     "player": "Paul Pierce",
+     "player_id": 491,
+     "pos": "SF",
+     "team": "Bucks",
+     "team_id": 14,
+     "value": 4.2
     },
     {
      "rank": 6,
@@ -1010,25 +1010,25 @@
      "pos": "PG",
      "team": "Nuggets",
      "team_id": 17,
-     "value": 4.1
+     "value": 4.2
     },
     {
      "rank": 7,
+     "player": "Allen Iverson",
+     "player_id": 338,
+     "pos": "SG",
+     "team": "Lakers",
+     "team_id": 25,
+     "value": 4.1
+    },
+    {
+     "rank": 8,
      "player": "Kobe Bryant",
      "player_id": 163,
      "pos": "SG",
      "team": "Pistons",
      "team_id": 12,
-     "value": 4.1
-    },
-    {
-     "rank": 8,
-     "player": "Paul Pierce",
-     "player_id": 491,
-     "pos": "SF",
-     "team": "Bucks",
-     "team_id": 14,
-     "value": 4.1
+     "value": 4.0
     },
     {
      "rank": 9,
@@ -1037,7 +1037,7 @@
      "pos": "PG",
      "team": "Nets",
      "team_id": 3,
-     "value": 3.9
+     "value": 3.8
     },
     {
      "rank": 10,
@@ -1046,7 +1046,7 @@
      "pos": "PF",
      "team": "Heat",
      "team_id": 2,
-     "value": 3.9
+     "value": 3.8
     }
    ]
   },
@@ -1060,88 +1060,88 @@
      "pos": "C",
      "team": "Hornets",
      "team_id": 9,
-     "value": 0.563
+     "value": 0.536
     },
     {
      "rank": 2,
-     "player": "Gerald Green",
-     "player_id": 285,
-     "pos": "SG",
-     "team": "Knicks",
-     "team_id": 4,
-     "value": 0.543
-    },
-    {
-     "rank": 3,
      "player": "Eddie House",
      "player_id": 322,
      "pos": "PG",
      "team": "Pacers",
      "team_id": 13,
-     "value": 0.505
+     "value": 0.489
+    },
+    {
+     "rank": 3,
+     "player": "Leandro Barbosa",
+     "player_id": 117,
+     "pos": "SG",
+     "team": "Magic",
+     "team_id": 5,
+     "value": 0.489
     },
     {
      "rank": 4,
+     "player": "Gerald Green",
+     "player_id": 285,
+     "pos": "SG",
+     "team": "Knicks",
+     "team_id": 4,
+     "value": 0.479
+    },
+    {
+     "rank": 5,
+     "player": "Mike Miller",
+     "player_id": 436,
+     "pos": "SF",
+     "team": "76ers",
+     "team_id": 6,
+     "value": 0.457
+    },
+    {
+     "rank": 6,
      "player": "Willie Green",
      "player_id": 286,
      "pos": "SG",
      "team": "Cavaliers",
      "team_id": 11,
-     "value": 0.489
+     "value": 0.449
     },
     {
-     "rank": 5,
+     "rank": 7,
      "player": "Matt Barnes",
      "player_id": 118,
      "pos": "SF",
      "team": "Magic",
      "team_id": 5,
-     "value": 0.487
-    },
-    {
-     "rank": 6,
-     "player": "Paul Pierce",
-     "player_id": 491,
-     "pos": "SF",
-     "team": "Bucks",
-     "team_id": 14,
-     "value": 0.468
-    },
-    {
-     "rank": 7,
-     "player": "Andres Nocioni",
-     "player_id": 460,
-     "pos": "SF",
-     "team": "Kings",
-     "team_id": 28,
-     "value": 0.467
+     "value": 0.446
     },
     {
      "rank": 8,
-     "player": "Jose Calderon",
-     "player_id": 175,
-     "pos": "PG",
-     "team": "Hawks",
-     "team_id": 8,
-     "value": 0.466
-    },
-    {
-     "rank": 9,
-     "player": "Morris Peterson",
-     "player_id": 488,
-     "pos": "SG",
-     "team": "Warriors",
-     "team_id": 23,
-     "value": 0.462
-    },
-    {
-     "rank": 10,
      "player": "Dirk Nowitzki",
      "player_id": 462,
      "pos": "PF",
      "team": "Heat",
      "team_id": 2,
      "value": 0.446
+    },
+    {
+     "rank": 9,
+     "player": "Mickael Pietrus",
+     "player_id": 492,
+     "pos": "SF",
+     "team": "Grizzlies",
+     "team_id": 22,
+     "value": 0.444
+    },
+    {
+     "rank": 10,
+     "player": "Juan Dixon",
+     "player_id": 221,
+     "pos": "SG",
+     "team": "SuperSonics",
+     "team_id": 29,
+     "value": 0.438
     }
    ]
   },
@@ -1150,15 +1150,6 @@
    "leaders": [
     {
      "rank": 1,
-     "player": "Josh Smith",
-     "player_id": 553,
-     "pos": "PF",
-     "team": "Celtics",
-     "team_id": 1,
-     "value": 3.1
-    },
-    {
-     "rank": 2,
      "player": "Carlos Boozer",
      "player_id": 144,
      "pos": "PF",
@@ -1167,7 +1158,25 @@
      "value": 3.0
     },
     {
+     "rank": 2,
+     "player": "Josh Smith",
+     "player_id": 553,
+     "pos": "PF",
+     "team": "Celtics",
+     "team_id": 1,
+     "value": 2.9
+    },
+    {
      "rank": 3,
+     "player": "Zydrunas Ilgauskas",
+     "player_id": 335,
+     "pos": "C",
+     "team": "Mavericks",
+     "team_id": 16,
+     "value": 2.9
+    },
+    {
+     "rank": 4,
      "player": "Erick Dampier",
      "player_id": 202,
      "pos": "C",
@@ -1176,66 +1185,57 @@
      "value": 2.9
     },
     {
-     "rank": 4,
-     "player": "Pau Gasol",
-     "player_id": 267,
-     "pos": "C",
-     "team": "Hawks",
-     "team_id": 8,
-     "value": 2.9
-    },
-    {
      "rank": 5,
-     "player": "Elton Brand",
-     "player_id": 152,
-     "pos": "PF",
-     "team": "Mavericks",
-     "team_id": 16,
-     "value": 2.9
-    },
-    {
-     "rank": 6,
-     "player": "Zydrunas Ilgauskas",
-     "player_id": 335,
-     "pos": "C",
-     "team": "Mavericks",
-     "team_id": 16,
-     "value": 2.8
-    },
-    {
-     "rank": 7,
-     "player": "Chris Webber",
-     "player_id": 618,
-     "pos": "PF",
-     "team": "Bulls",
-     "team_id": 10,
-     "value": 2.8
-    },
-    {
-     "rank": 8,
      "player": "Zach Randolph",
      "player_id": 511,
      "pos": "PF",
      "team": "Nets",
      "team_id": 3,
-     "value": 2.8
+     "value": 2.7
+    },
+    {
+     "rank": 6,
+     "player": "Elton Brand",
+     "player_id": 152,
+     "pos": "PF",
+     "team": "Mavericks",
+     "team_id": 16,
+     "value": 2.7
+    },
+    {
+     "rank": 7,
+     "player": "Mehmet Okur",
+     "player_id": 466,
+     "pos": "C",
+     "team": "Hornets",
+     "team_id": 9,
+     "value": 2.7
+    },
+    {
+     "rank": 8,
+     "player": "Tim Duncan",
+     "player_id": 226,
+     "pos": "PF",
+     "team": "Lakers",
+     "team_id": 25,
+     "value": 2.7
     },
     {
      "rank": 9,
-     "player": "Kenyon Martin",
-     "player_id": 411,
+     "player": "Drew Gooden",
+     "player_id": 277,
      "pos": "PF",
-     "team": "Nuggets",
-     "team_id": 17,
+     "team": "Warriors",
+     "team_id": 23,
      "value": 2.7
     },
     {
      "rank": 10,
-     "player": "Brad Miller",
-     "player_id": 435,
-     "pos": "C",
-     "team": "Lakers",
-     "team_id": 25,
+     "player": "Chris Webber",
+     "player_id": 618,
+     "pos": "PF",
+     "team": "Bulls",
+     "team_id": 10,
      "value": 2.7
     }
    ]
@@ -1259,37 +1259,19 @@
      "pos": "C",
      "team": "Trail Blazers",
      "team_id": 27,
-     "value": 3.9
+     "value": 3.7
     },
     {
      "rank": 3,
-     "player": "Amar'e Stoudemire",
-     "player_id": 567,
-     "pos": "PF",
-     "team": "Spurs",
-     "team_id": 20,
-     "value": 3.5
+     "player": "Tony Parker",
+     "player_id": 481,
+     "pos": "PG",
+     "team": "SuperSonics",
+     "team_id": 29,
+     "value": 3.3
     },
     {
      "rank": 4,
-     "player": "Jameer Nelson",
-     "player_id": 457,
-     "pos": "PG",
-     "team": "Trail Blazers",
-     "team_id": 27,
-     "value": 3.3
-    },
-    {
-     "rank": 5,
-     "player": "Brevin Knight",
-     "player_id": 381,
-     "pos": "PG",
-     "team": "Raptors",
-     "team_id": 15,
-     "value": 3.3
-    },
-    {
-     "rank": 6,
      "player": "Earl Watson",
      "player_id": 617,
      "pos": "PG",
@@ -1298,39 +1280,57 @@
      "value": 3.3
     },
     {
-     "rank": 7,
-     "player": "Tony Parker",
-     "player_id": 481,
-     "pos": "PG",
-     "team": "SuperSonics",
-     "team_id": 29,
-     "value": 3.2
+     "rank": 5,
+     "player": "Amar'e Stoudemire",
+     "player_id": 567,
+     "pos": "PF",
+     "team": "Spurs",
+     "team_id": 20,
+     "value": 3.3
     },
     {
-     "rank": 8,
-     "player": "Eddie House",
-     "player_id": 322,
-     "pos": "PG",
-     "team": "Pacers",
-     "team_id": 13,
-     "value": 3.2
-    },
-    {
-     "rank": 9,
+     "rank": 6,
      "player": "Speedy Claxton",
      "player_id": 190,
      "pos": "PG",
      "team": "Celtics",
      "team_id": 1,
+     "value": 3.3
+    },
+    {
+     "rank": 7,
+     "player": "Jameer Nelson",
+     "player_id": 457,
+     "pos": "PG",
+     "team": "Trail Blazers",
+     "team_id": 27,
      "value": 3.2
     },
     {
+     "rank": 8,
+     "player": "Allen Iverson",
+     "player_id": 338,
+     "pos": "SG",
+     "team": "Lakers",
+     "team_id": 25,
+     "value": 3.2
+    },
+    {
+     "rank": 9,
+     "player": "Richard Jefferson",
+     "player_id": 355,
+     "pos": "SF",
+     "team": "SuperSonics",
+     "team_id": 29,
+     "value": 3.1
+    },
+    {
      "rank": 10,
-     "player": "Kirk Hinrich",
-     "player_id": 318,
+     "player": "Mike Bibby",
+     "player_id": 133,
      "pos": "PG",
-     "team": "76ers",
-     "team_id": 6,
+     "team": "Hornets",
+     "team_id": 9,
      "value": 3.1
     }
    ]
@@ -1348,10 +1348,10 @@
    },
    {
     "category": "FG",
-    "record": 21,
-    "player": "Dirk Nowitzki",
-    "position": "PF",
-    "team": "Heat",
+    "record": 23,
+    "player": "Carmelo Anthony",
+    "position": "SF",
+    "team": "Hornets",
     "season": 2005
    },
    {
@@ -1380,15 +1380,15 @@
    },
    {
     "category": "3P",
-    "record": 5,
-    "player": "Stephen Jackson",
+    "record": 6,
+    "player": "Richard Jefferson",
     "position": "SF",
-    "team": "Pistons",
+    "team": "SuperSonics",
     "season": 2005
    },
    {
     "category": "3PA",
-    "record": 12,
+    "record": 13,
     "player": "Carmelo Anthony",
     "position": "SF",
     "team": "Hornets",
@@ -1404,7 +1404,7 @@
    },
    {
     "category": "Assists",
-    "record": 18,
+    "record": 19,
     "player": "Steve Nash",
     "position": "PG",
     "team": "Nuggets",

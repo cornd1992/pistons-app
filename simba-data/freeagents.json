@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-16T20:29:40Z",
-  "parsed_at": "2026-11-16T20:30:20Z"
+  "crawled_at": "2026-11-17T19:29:17Z",
+  "parsed_at": "2026-11-17T19:30:32Z"
  },
  "free_agents": [
   {
@@ -310,6 +310,23 @@
    "height_in": 84
   },
   {
+   "name": "Pavel Podkolzin",
+   "player_id": 495,
+   "pos": "C",
+   "height": "7'5''",
+   "weight": 260,
+   "age": 21,
+   "in": "C",
+   "out": "D",
+   "hn": "F+",
+   "df": "C",
+   "reb": "C",
+   "pot": "D",
+   "last_team": "Hawks",
+   "team_id": 8,
+   "height_in": 89
+  },
+  {
    "name": "Vitaly Potapenko",
    "player_id": 498,
    "pos": "C",
@@ -614,22 +631,6 @@
    "height_in": 80
   },
   {
-   "name": "Corsley Edwards",
-   "player_id": 230,
-   "pos": "PF",
-   "height": "6'9''",
-   "weight": 275,
-   "age": 26,
-   "in": "C",
-   "out": "D+",
-   "hn": "F+",
-   "df": "C-",
-   "reb": "C",
-   "pot": "F",
-   "last_team": "N/A",
-   "height_in": 81
-  },
-  {
    "name": "Sharrod Ford",
    "player_id": 249,
    "pos": "PF",
@@ -869,6 +870,23 @@
    "pot": "F",
    "last_team": "N/A",
    "height_in": 82
+  },
+  {
+   "name": "Eduardo Najera",
+   "player_id": 453,
+   "pos": "PF",
+   "height": "6'8''",
+   "weight": 235,
+   "age": 29,
+   "in": "C",
+   "out": "C",
+   "hn": "D+",
+   "df": "C+",
+   "reb": "C",
+   "pot": "D",
+   "last_team": "Hawks",
+   "team_id": 8,
+   "height_in": 80
   },
   {
    "name": "Kevinn Pinkney",
@@ -1399,22 +1417,6 @@
    "height_in": 78
   },
   {
-   "name": "Justin Reed",
-   "player_id": 515,
-   "pos": "SF",
-   "height": "6'8''",
-   "weight": 240,
-   "age": 24,
-   "in": "C",
-   "out": "C-",
-   "hn": "D+",
-   "df": "C",
-   "reb": "C-",
-   "pot": "D",
-   "last_team": "N/A",
-   "height_in": 80
-  },
-  {
    "name": "Ansu Sesay",
    "player_id": 539,
    "pos": "SF",
@@ -1653,6 +1655,23 @@
    "pot": "C",
    "last_team": "N/A",
    "height_in": 74
+  },
+  {
+   "name": "Trenton Hassell",
+   "player_id": 309,
+   "pos": "SG",
+   "height": "6'5''",
+   "weight": 200,
+   "age": 26,
+   "in": "C",
+   "out": "C",
+   "hn": "C-",
+   "df": "C+",
+   "reb": "C-",
+   "pot": "D",
+   "last_team": "Warriors",
+   "team_id": 23,
+   "height_in": 77
   },
   {
    "name": "Julius Hodge",
@@ -1971,7 +1990,8 @@
    "df": "C-",
    "reb": "D",
    "pot": "D",
-   "last_team": "N/A",
+   "last_team": "Warriors",
+   "team_id": 23,
    "height_in": 74
   },
   {
@@ -2037,22 +2057,6 @@
    "pot": "D",
    "last_team": "N/A",
    "height_in": 75
-  },
-  {
-   "name": "Junior Harrington",
-   "player_id": 301,
-   "pos": "PG",
-   "height": "6'4''",
-   "weight": 180,
-   "age": 25,
-   "in": "C-",
-   "out": "C",
-   "hn": "C",
-   "df": "C",
-   "reb": "D+",
-   "pot": "D",
-   "last_team": "N/A",
-   "height_in": 76
   },
   {
    "name": "Marcelo Huertas",
@@ -2135,6 +2139,22 @@
    "height_in": 76
   },
   {
+   "name": "Keith McLeod",
+   "player_id": 427,
+   "pos": "PG",
+   "height": "6'2''",
+   "weight": 190,
+   "age": 26,
+   "in": "C",
+   "out": "C",
+   "hn": "C",
+   "df": "C",
+   "reb": "D",
+   "pot": "D",
+   "last_team": "N/A",
+   "height_in": 74
+  },
+  {
    "name": "Aaron Miles",
    "player_id": 430,
    "pos": "PG",
@@ -2213,23 +2233,6 @@
    "pot": "F",
    "last_team": "N/A",
    "height_in": 69
-  },
-  {
-   "name": "Mike Wilks",
-   "player_id": 630,
-   "pos": "PG",
-   "height": "5'10''",
-   "weight": 180,
-   "age": 26,
-   "in": "C",
-   "out": "C",
-   "hn": "C",
-   "df": "C",
-   "reb": "D+",
-   "pot": "D",
-   "last_team": "Timberwolves",
-   "team_id": 19,
-   "height_in": 70
   },
   {
    "name": "Alvin Williams",
