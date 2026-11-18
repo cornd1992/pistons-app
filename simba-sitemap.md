@@ -1,9 +1,9 @@
 # Sitemap: simba.mygamesonline.org
 
-- **Crawl date:** 2026-11-17
-- **Pages found:** 2273
-- **Broken/errored links:** 3
-- **URLs fetched:** 2276
+- **Crawl date:** 2026-11-18
+- **Pages found:** 2477
+- **Broken/errored links:** 2
+- **URLs fetched:** 2479
 
 ## Crawl notes
 
@@ -11,10 +11,10 @@
 - No `/robots.txt` (404) and no `/sitemap.xml` (404).
 - Home is a frameset (`index2.htm` menu + `index1.htm`); JS `<select>` menu option values extracted as links.
 - Full crawl: every discovered same-host page was fetched.
-- Crawl took 2275.3 s, 2276 HTTP requests.
+- Crawl took 2490.0 s, 2490 HTTP requests.
 - Player pages embed a stats iframe (`playerNstats.htm`), crawled as separate pages.
 
-## Pages (2273)
+## Pages (2477)
 
 - [Main Index](https://simba.mygamesonline.org/) `/`
 - [All-Star Weekend Winners](https://simba.mygamesonline.org/allstarweekend.htm) `/allstarweekend.htm`
@@ -36,7 +36,7 @@
 - [Potential Free Agents](https://simba.mygamesonline.org/potentialfas.htm) `/potentialfas.htm`
 - [Team Season Records](https://simba.mygamesonline.org/teamssnrecords.htm) `/teamssnrecords.htm`
 - [Transactions](https://simba.mygamesonline.org/transactions.htm) `/transactions.htm`
-- **boxes/** (870)
+- **boxes/** (1073)
   - [Day 1: Spurs vs. Celtics](https://simba.mygamesonline.org/boxes/1-1.html) `/boxes/1-1.html`
   - [Day 1: Jazz vs. Suns](https://simba.mygamesonline.org/boxes/1-10.html) `/boxes/1-10.html`
   - [Day 1: Pacers vs. Pistons](https://simba.mygamesonline.org/boxes/1-11.html) `/boxes/1-11.html`
@@ -814,6 +814,88 @@
   - [Day 80: Suns vs. Pacers](https://simba.mygamesonline.org/boxes/80-7.html) `/boxes/80-7.html`
   - [Day 80: Heat vs. Lakers](https://simba.mygamesonline.org/boxes/80-8.html) `/boxes/80-8.html`
   - [Day 80: Clippers vs. Kings](https://simba.mygamesonline.org/boxes/80-9.html) `/boxes/80-9.html`
+  - [Day 81: SuperSonics vs. Grizzlies](https://simba.mygamesonline.org/boxes/81-1.html) `/boxes/81-1.html`
+  - [Day 81: Lakers vs. Rockets](https://simba.mygamesonline.org/boxes/81-2.html) `/boxes/81-2.html`
+  - [Day 81: Pistons vs. Bucks](https://simba.mygamesonline.org/boxes/81-3.html) `/boxes/81-3.html`
+  - [Day 81: Mavericks vs. Magic](https://simba.mygamesonline.org/boxes/81-4.html) `/boxes/81-4.html`
+  - [Day 81: Kings vs. Warriors](https://simba.mygamesonline.org/boxes/81-5.html) `/boxes/81-5.html`
+  - [Day 81: Nuggets vs. 76ers](https://simba.mygamesonline.org/boxes/81-6.html) `/boxes/81-6.html`
+  - [Day 81: Knicks vs. Pacers](https://simba.mygamesonline.org/boxes/81-7.html) `/boxes/81-7.html`
+  - [Day 82: Hawks vs. Bulls](https://simba.mygamesonline.org/boxes/82-1.html) `/boxes/82-1.html`
+  - [Day 82: Jazz vs. Bucks](https://simba.mygamesonline.org/boxes/82-2.html) `/boxes/82-2.html`
+  - [Day 82: Rockets vs. Pistons](https://simba.mygamesonline.org/boxes/82-3.html) `/boxes/82-3.html`
+  - [Day 82: SuperSonics vs. Grizzlies](https://simba.mygamesonline.org/boxes/82-4.html) `/boxes/82-4.html`
+  - [Day 82: Mavericks vs. Trail Blazers](https://simba.mygamesonline.org/boxes/82-5.html) `/boxes/82-5.html`
+  - [Day 82: Clippers vs. Cavaliers](https://simba.mygamesonline.org/boxes/82-6.html) `/boxes/82-6.html`
+  - [Day 82: Hornets vs. 76ers](https://simba.mygamesonline.org/boxes/82-7.html) `/boxes/82-7.html`
+  - [Day 82: Warriors vs. Spurs](https://simba.mygamesonline.org/boxes/82-8.html) `/boxes/82-8.html`
+  - [Day 83: Cavaliers vs. Hawks](https://simba.mygamesonline.org/boxes/83-1.html) `/boxes/83-1.html`
+  - [Day 83: Raptors vs. Hornets](https://simba.mygamesonline.org/boxes/83-10.html) `/boxes/83-10.html`
+  - [Day 83: Mavericks vs. Lakers](https://simba.mygamesonline.org/boxes/83-2.html) `/boxes/83-2.html`
+  - [Day 83: Rockets vs. Spurs](https://simba.mygamesonline.org/boxes/83-3.html) `/boxes/83-3.html`
+  - [Day 83: Kings vs. Timberwolves](https://simba.mygamesonline.org/boxes/83-4.html) `/boxes/83-4.html`
+  - [Day 83: Clippers vs. Suns](https://simba.mygamesonline.org/boxes/83-5.html) `/boxes/83-5.html`
+  - [Day 83: Trail Blazers vs. Celtics](https://simba.mygamesonline.org/boxes/83-6.html) `/boxes/83-6.html`
+  - [Day 83: Wizards vs. 76ers](https://simba.mygamesonline.org/boxes/83-7.html) `/boxes/83-7.html`
+  - [Day 83: Nuggets vs. Nets](https://simba.mygamesonline.org/boxes/83-8.html) `/boxes/83-8.html`
+  - [Day 83: Bucks vs. Warriors](https://simba.mygamesonline.org/boxes/83-9.html) `/boxes/83-9.html`
+  - [Day 84: Celtics vs. Heat](https://simba.mygamesonline.org/boxes/84-1.html) `/boxes/84-1.html`
+  - [Day 84: Rockets vs. Jazz](https://simba.mygamesonline.org/boxes/84-2.html) `/boxes/84-2.html`
+  - [Day 84: Lakers vs. Suns](https://simba.mygamesonline.org/boxes/84-3.html) `/boxes/84-3.html`
+  - [Day 84: Wizards vs. Nets](https://simba.mygamesonline.org/boxes/84-4.html) `/boxes/84-4.html`
+  - [Day 84: Spurs vs. Trail Blazers](https://simba.mygamesonline.org/boxes/84-5.html) `/boxes/84-5.html`
+  - [Day 84: Bulls vs. Pistons](https://simba.mygamesonline.org/boxes/84-6.html) `/boxes/84-6.html`
+  - [Day 84: Cavaliers vs. Bucks](https://simba.mygamesonline.org/boxes/84-7.html) `/boxes/84-7.html`
+  - [Day 84: Warriors vs. Nuggets](https://simba.mygamesonline.org/boxes/84-8.html) `/boxes/84-8.html`
+  - [Day 84: Hawks vs. Knicks](https://simba.mygamesonline.org/boxes/84-9.html) `/boxes/84-9.html`
+  - [Day 85: Rockets vs. Grizzlies](https://simba.mygamesonline.org/boxes/85-1.html) `/boxes/85-1.html`
+  - [Day 85: Celtics vs. Raptors](https://simba.mygamesonline.org/boxes/85-10.html) `/boxes/85-10.html`
+  - [Day 85: Hornets vs. Lakers](https://simba.mygamesonline.org/boxes/85-2.html) `/boxes/85-2.html`
+  - [Day 85: Timberwolves vs. Warriors](https://simba.mygamesonline.org/boxes/85-3.html) `/boxes/85-3.html`
+  - [Day 85: Clippers vs. Mavericks](https://simba.mygamesonline.org/boxes/85-4.html) `/boxes/85-4.html`
+  - [Day 85: Wizards vs. Suns](https://simba.mygamesonline.org/boxes/85-5.html) `/boxes/85-5.html`
+  - [Day 85: Jazz vs. Nuggets](https://simba.mygamesonline.org/boxes/85-6.html) `/boxes/85-6.html`
+  - [Day 85: SuperSonics vs. Spurs](https://simba.mygamesonline.org/boxes/85-7.html) `/boxes/85-7.html`
+  - [Day 85: Cavaliers vs. Bucks](https://simba.mygamesonline.org/boxes/85-8.html) `/boxes/85-8.html`
+  - [Day 85: 76ers vs. Nets](https://simba.mygamesonline.org/boxes/85-9.html) `/boxes/85-9.html`
+  - [Day 86: 76ers vs. Warriors](https://simba.mygamesonline.org/boxes/86-1.html) `/boxes/86-1.html`
+  - [Day 86: Mavericks vs. Jazz](https://simba.mygamesonline.org/boxes/86-10.html) `/boxes/86-10.html`
+  - [Day 86: Kings vs. Grizzlies](https://simba.mygamesonline.org/boxes/86-2.html) `/boxes/86-2.html`
+  - [Day 86: Hawks vs. SuperSonics](https://simba.mygamesonline.org/boxes/86-3.html) `/boxes/86-3.html`
+  - [Day 86: Rockets vs. Spurs](https://simba.mygamesonline.org/boxes/86-4.html) `/boxes/86-4.html`
+  - [Day 86: Lakers vs. Clippers](https://simba.mygamesonline.org/boxes/86-5.html) `/boxes/86-5.html`
+  - [Day 86: Celtics vs. Pacers](https://simba.mygamesonline.org/boxes/86-6.html) `/boxes/86-6.html`
+  - [Day 86: Nets vs. Bulls](https://simba.mygamesonline.org/boxes/86-7.html) `/boxes/86-7.html`
+  - [Day 86: Bucks vs. Nuggets](https://simba.mygamesonline.org/boxes/86-8.html) `/boxes/86-8.html`
+  - [Day 86: Heat vs. Trail Blazers](https://simba.mygamesonline.org/boxes/86-9.html) `/boxes/86-9.html`
+  - [Day 87: Heat vs. Cavaliers](https://simba.mygamesonline.org/boxes/87-1.html) `/boxes/87-1.html`
+  - [Day 87: Bulls vs. Hornets](https://simba.mygamesonline.org/boxes/87-10.html) `/boxes/87-10.html`
+  - [Day 87: Suns vs. SuperSonics](https://simba.mygamesonline.org/boxes/87-2.html) `/boxes/87-2.html`
+  - [Day 87: Pistons vs. Raptors](https://simba.mygamesonline.org/boxes/87-3.html) `/boxes/87-3.html`
+  - [Day 87: Pacers vs. Celtics](https://simba.mygamesonline.org/boxes/87-4.html) `/boxes/87-4.html`
+  - [Day 87: Wizards vs. Lakers](https://simba.mygamesonline.org/boxes/87-5.html) `/boxes/87-5.html`
+  - [Day 87: Grizzlies vs. Bucks](https://simba.mygamesonline.org/boxes/87-6.html) `/boxes/87-6.html`
+  - [Day 87: Magic vs. Jazz](https://simba.mygamesonline.org/boxes/87-7.html) `/boxes/87-7.html`
+  - [Day 87: Hawks vs. 76ers](https://simba.mygamesonline.org/boxes/87-8.html) `/boxes/87-8.html`
+  - [Day 87: Mavericks vs. Kings](https://simba.mygamesonline.org/boxes/87-9.html) `/boxes/87-9.html`
+  - [Day 88: Bulls vs. Pacers](https://simba.mygamesonline.org/boxes/88-1.html) `/boxes/88-1.html`
+  - [Day 88: Mavericks vs. Hornets](https://simba.mygamesonline.org/boxes/88-10.html) `/boxes/88-10.html`
+  - [Day 88: Hawks vs. Magic](https://simba.mygamesonline.org/boxes/88-2.html) `/boxes/88-2.html`
+  - [Day 88: SuperSonics vs. Warriors](https://simba.mygamesonline.org/boxes/88-3.html) `/boxes/88-3.html`
+  - [Day 88: Kings vs. Raptors](https://simba.mygamesonline.org/boxes/88-4.html) `/boxes/88-4.html`
+  - [Day 88: Lakers vs. Jazz](https://simba.mygamesonline.org/boxes/88-5.html) `/boxes/88-5.html`
+  - [Day 88: Wizards vs. Knicks](https://simba.mygamesonline.org/boxes/88-6.html) `/boxes/88-6.html`
+  - [Day 88: Grizzlies vs. Timberwolves](https://simba.mygamesonline.org/boxes/88-7.html) `/boxes/88-7.html`
+  - [Day 88: Pistons vs. 76ers](https://simba.mygamesonline.org/boxes/88-8.html) `/boxes/88-8.html`
+  - [Day 88: Rockets vs. Clippers](https://simba.mygamesonline.org/boxes/88-9.html) `/boxes/88-9.html`
+  - [Day 89: Mavericks vs. Pacers](https://simba.mygamesonline.org/boxes/89-1.html) `/boxes/89-1.html`
+  - [Day 89: Lakers vs. Hornets](https://simba.mygamesonline.org/boxes/89-2.html) `/boxes/89-2.html`
+  - [Day 89: Timberwolves vs. SuperSonics](https://simba.mygamesonline.org/boxes/89-3.html) `/boxes/89-3.html`
+  - [Day 89: Hawks vs. Wizards](https://simba.mygamesonline.org/boxes/89-4.html) `/boxes/89-4.html`
+  - [Day 89: Rockets vs. Clippers](https://simba.mygamesonline.org/boxes/89-5.html) `/boxes/89-5.html`
+  - [Day 89: Kings vs. Nets](https://simba.mygamesonline.org/boxes/89-6.html) `/boxes/89-6.html`
+  - [Day 89: Bulls vs. Trail Blazers](https://simba.mygamesonline.org/boxes/89-7.html) `/boxes/89-7.html`
+  - [Day 89: Warriors vs. Grizzlies](https://simba.mygamesonline.org/boxes/89-8.html) `/boxes/89-8.html`
   - [Day 9: Knicks vs. Wizards](https://simba.mygamesonline.org/boxes/9-1.html) `/boxes/9-1.html`
   - [Day 9: Bulls vs. 76ers](https://simba.mygamesonline.org/boxes/9-10.html) `/boxes/9-10.html`
   - [Day 9: Kings vs. Heat](https://simba.mygamesonline.org/boxes/9-2.html) `/boxes/9-2.html`
@@ -824,6 +906,108 @@
   - [Day 9: Spurs vs. Hornets](https://simba.mygamesonline.org/boxes/9-7.html) `/boxes/9-7.html`
   - [Day 9: Nuggets vs. Warriors](https://simba.mygamesonline.org/boxes/9-8.html) `/boxes/9-8.html`
   - [Day 9: Timberwolves vs. Lakers](https://simba.mygamesonline.org/boxes/9-9.html) `/boxes/9-9.html`
+  - [Day 90: Grizzlies vs. Rockets](https://simba.mygamesonline.org/boxes/90-1.html) `/boxes/90-1.html`
+  - [Day 90: Jazz vs. Timberwolves](https://simba.mygamesonline.org/boxes/90-10.html) `/boxes/90-10.html`
+  - [Day 90: Bulls vs. Magic](https://simba.mygamesonline.org/boxes/90-2.html) `/boxes/90-2.html`
+  - [Day 90: Bucks vs. 76ers](https://simba.mygamesonline.org/boxes/90-3.html) `/boxes/90-3.html`
+  - [Day 90: Heat vs. Mavericks](https://simba.mygamesonline.org/boxes/90-4.html) `/boxes/90-4.html`
+  - [Day 90: SuperSonics vs. Raptors](https://simba.mygamesonline.org/boxes/90-5.html) `/boxes/90-5.html`
+  - [Day 90: Hornets vs. Trail Blazers](https://simba.mygamesonline.org/boxes/90-6.html) `/boxes/90-6.html`
+  - [Day 90: Clippers vs. Pacers](https://simba.mygamesonline.org/boxes/90-7.html) `/boxes/90-7.html`
+  - [Day 90: Hawks vs. Warriors](https://simba.mygamesonline.org/boxes/90-8.html) `/boxes/90-8.html`
+  - [Day 90: Spurs vs. Nuggets](https://simba.mygamesonline.org/boxes/90-9.html) `/boxes/90-9.html`
+  - [Day 91: Cavaliers vs. 76ers](https://simba.mygamesonline.org/boxes/91-1.html) `/boxes/91-1.html`
+  - [Day 91: Hornets vs. Pacers](https://simba.mygamesonline.org/boxes/91-10.html) `/boxes/91-10.html`
+  - [Day 91: Wizards vs. Magic](https://simba.mygamesonline.org/boxes/91-2.html) `/boxes/91-2.html`
+  - [Day 91: Trail Blazers vs. Spurs](https://simba.mygamesonline.org/boxes/91-3.html) `/boxes/91-3.html`
+  - [Day 91: Mavericks vs. Suns](https://simba.mygamesonline.org/boxes/91-4.html) `/boxes/91-4.html`
+  - [Day 91: Jazz vs. Rockets](https://simba.mygamesonline.org/boxes/91-5.html) `/boxes/91-5.html`
+  - [Day 91: Nuggets vs. Kings](https://simba.mygamesonline.org/boxes/91-6.html) `/boxes/91-6.html`
+  - [Day 91: Knicks vs. Heat](https://simba.mygamesonline.org/boxes/91-7.html) `/boxes/91-7.html`
+  - [Day 91: Celtics vs. Hawks](https://simba.mygamesonline.org/boxes/91-8.html) `/boxes/91-8.html`
+  - [Day 91: Clippers vs. Lakers](https://simba.mygamesonline.org/boxes/91-9.html) `/boxes/91-9.html`
+  - [Day 92: Heat vs. Raptors](https://simba.mygamesonline.org/boxes/92-1.html) `/boxes/92-1.html`
+  - [Day 92: Bucks vs. Grizzlies](https://simba.mygamesonline.org/boxes/92-10.html) `/boxes/92-10.html`
+  - [Day 92: Suns vs. Knicks](https://simba.mygamesonline.org/boxes/92-2.html) `/boxes/92-2.html`
+  - [Day 92: Lakers vs. Spurs](https://simba.mygamesonline.org/boxes/92-3.html) `/boxes/92-3.html`
+  - [Day 92: Warriors vs. Celtics](https://simba.mygamesonline.org/boxes/92-4.html) `/boxes/92-4.html`
+  - [Day 92: SuperSonics vs. Pacers](https://simba.mygamesonline.org/boxes/92-5.html) `/boxes/92-5.html`
+  - [Day 92: Hawks vs. Cavaliers](https://simba.mygamesonline.org/boxes/92-6.html) `/boxes/92-6.html`
+  - [Day 92: Rockets vs. Magic](https://simba.mygamesonline.org/boxes/92-7.html) `/boxes/92-7.html`
+  - [Day 92: Trail Blazers vs. Timberwolves](https://simba.mygamesonline.org/boxes/92-8.html) `/boxes/92-8.html`
+  - [Day 92: 76ers vs. Hornets](https://simba.mygamesonline.org/boxes/92-9.html) `/boxes/92-9.html`
+  - [Day 93: Hawks vs. Celtics](https://simba.mygamesonline.org/boxes/93-1.html) `/boxes/93-1.html`
+  - [Day 93: Knicks vs. Raptors](https://simba.mygamesonline.org/boxes/93-2.html) `/boxes/93-2.html`
+  - [Day 93: Warriors vs. SuperSonics](https://simba.mygamesonline.org/boxes/93-3.html) `/boxes/93-3.html`
+  - [Day 93: Nuggets vs. Spurs](https://simba.mygamesonline.org/boxes/93-4.html) `/boxes/93-4.html`
+  - [Day 93: Magic vs. Cavaliers](https://simba.mygamesonline.org/boxes/93-5.html) `/boxes/93-5.html`
+  - [Day 93: Pacers vs. Wizards](https://simba.mygamesonline.org/boxes/93-6.html) `/boxes/93-6.html`
+  - [Day 93: Mavericks vs. Pistons](https://simba.mygamesonline.org/boxes/93-7.html) `/boxes/93-7.html`
+  - [Day 93: Suns vs. Clippers](https://simba.mygamesonline.org/boxes/93-8.html) `/boxes/93-8.html`
+  - [Day 93: Grizzlies vs. Lakers](https://simba.mygamesonline.org/boxes/93-9.html) `/boxes/93-9.html`
+  - [Day 94: Heat vs. Pistons](https://simba.mygamesonline.org/boxes/94-1.html) `/boxes/94-1.html`
+  - [Day 94: Nets vs. Hornets](https://simba.mygamesonline.org/boxes/94-10.html) `/boxes/94-10.html`
+  - [Day 94: Mavericks vs. Spurs](https://simba.mygamesonline.org/boxes/94-11.html) `/boxes/94-11.html`
+  - [Day 94: Warriors vs. SuperSonics](https://simba.mygamesonline.org/boxes/94-2.html) `/boxes/94-2.html`
+  - [Day 94: Trail Blazers vs. Bucks](https://simba.mygamesonline.org/boxes/94-3.html) `/boxes/94-3.html`
+  - [Day 94: Kings vs. Grizzlies](https://simba.mygamesonline.org/boxes/94-4.html) `/boxes/94-4.html`
+  - [Day 94: Celtics vs. Hawks](https://simba.mygamesonline.org/boxes/94-5.html) `/boxes/94-5.html`
+  - [Day 94: Pacers vs. Timberwolves](https://simba.mygamesonline.org/boxes/94-6.html) `/boxes/94-6.html`
+  - [Day 94: Cavaliers vs. Bulls](https://simba.mygamesonline.org/boxes/94-7.html) `/boxes/94-7.html`
+  - [Day 94: Wizards vs. Knicks](https://simba.mygamesonline.org/boxes/94-8.html) `/boxes/94-8.html`
+  - [Day 94: Nuggets vs. Rockets](https://simba.mygamesonline.org/boxes/94-9.html) `/boxes/94-9.html`
+  - [Day 95: Nets vs. Pistons](https://simba.mygamesonline.org/boxes/95-1.html) `/boxes/95-1.html`
+  - [Day 95: Celtics vs. Magic](https://simba.mygamesonline.org/boxes/95-10.html) `/boxes/95-10.html`
+  - [Day 95: Pacers vs. Heat](https://simba.mygamesonline.org/boxes/95-2.html) `/boxes/95-2.html`
+  - [Day 95: Mavericks vs. Bulls](https://simba.mygamesonline.org/boxes/95-3.html) `/boxes/95-3.html`
+  - [Day 95: Grizzlies vs. Trail Blazers](https://simba.mygamesonline.org/boxes/95-4.html) `/boxes/95-4.html`
+  - [Day 95: Hornets vs. Hawks](https://simba.mygamesonline.org/boxes/95-5.html) `/boxes/95-5.html`
+  - [Day 95: Warriors vs. Lakers](https://simba.mygamesonline.org/boxes/95-6.html) `/boxes/95-6.html`
+  - [Day 95: SuperSonics vs. Wizards](https://simba.mygamesonline.org/boxes/95-7.html) `/boxes/95-7.html`
+  - [Day 95: Rockets vs. Bucks](https://simba.mygamesonline.org/boxes/95-8.html) `/boxes/95-8.html`
+  - [Day 95: Jazz vs. Kings](https://simba.mygamesonline.org/boxes/95-9.html) `/boxes/95-9.html`
+  - [Day 96: Pacers vs. Knicks](https://simba.mygamesonline.org/boxes/96-1.html) `/boxes/96-1.html`
+  - [Day 96: Rockets vs. Mavericks](https://simba.mygamesonline.org/boxes/96-10.html) `/boxes/96-10.html`
+  - [Day 96: Trail Blazers vs. Wizards](https://simba.mygamesonline.org/boxes/96-2.html) `/boxes/96-2.html`
+  - [Day 96: Suns vs. Celtics](https://simba.mygamesonline.org/boxes/96-3.html) `/boxes/96-3.html`
+  - [Day 96: Lakers vs. Raptors](https://simba.mygamesonline.org/boxes/96-4.html) `/boxes/96-4.html`
+  - [Day 96: Magic vs. Pistons](https://simba.mygamesonline.org/boxes/96-5.html) `/boxes/96-5.html`
+  - [Day 96: Bucks vs. Hornets](https://simba.mygamesonline.org/boxes/96-6.html) `/boxes/96-6.html`
+  - [Day 96: SuperSonics vs. Bulls](https://simba.mygamesonline.org/boxes/96-7.html) `/boxes/96-7.html`
+  - [Day 96: Warriors vs. Jazz](https://simba.mygamesonline.org/boxes/96-8.html) `/boxes/96-8.html`
+  - [Day 96: Nets vs. 76ers](https://simba.mygamesonline.org/boxes/96-9.html) `/boxes/96-9.html`
+  - [Day 97: 76ers vs. Bucks](https://simba.mygamesonline.org/boxes/97-1.html) `/boxes/97-1.html`
+  - [Day 97: Raptors vs. Rockets](https://simba.mygamesonline.org/boxes/97-10.html) `/boxes/97-10.html`
+  - [Day 97: Jazz vs. Lakers](https://simba.mygamesonline.org/boxes/97-2.html) `/boxes/97-2.html`
+  - [Day 97: Pacers vs. Kings](https://simba.mygamesonline.org/boxes/97-3.html) `/boxes/97-3.html`
+  - [Day 97: Heat vs. Suns](https://simba.mygamesonline.org/boxes/97-4.html) `/boxes/97-4.html`
+  - [Day 97: Nuggets vs. Pistons](https://simba.mygamesonline.org/boxes/97-5.html) `/boxes/97-5.html`
+  - [Day 97: Celtics vs. Knicks](https://simba.mygamesonline.org/boxes/97-6.html) `/boxes/97-6.html`
+  - [Day 97: Magic vs. Warriors](https://simba.mygamesonline.org/boxes/97-7.html) `/boxes/97-7.html`
+  - [Day 97: Hawks vs. Grizzlies](https://simba.mygamesonline.org/boxes/97-8.html) `/boxes/97-8.html`
+  - [Day 97: Spurs vs. SuperSonics](https://simba.mygamesonline.org/boxes/97-9.html) `/boxes/97-9.html`
+  - [Day 98: Nuggets vs. Celtics](https://simba.mygamesonline.org/boxes/98-1.html) `/boxes/98-1.html`
+  - [Day 98: Lakers vs. Clippers](https://simba.mygamesonline.org/boxes/98-10.html) `/boxes/98-10.html`
+  - [Day 98: Raptors vs. Warriors](https://simba.mygamesonline.org/boxes/98-11.html) `/boxes/98-11.html`
+  - [Day 98: Spurs vs. Grizzlies](https://simba.mygamesonline.org/boxes/98-2.html) `/boxes/98-2.html`
+  - [Day 98: Bulls vs. Rockets](https://simba.mygamesonline.org/boxes/98-3.html) `/boxes/98-3.html`
+  - [Day 98: Pistons vs. Hawks](https://simba.mygamesonline.org/boxes/98-4.html) `/boxes/98-4.html`
+  - [Day 98: Nets vs. Knicks](https://simba.mygamesonline.org/boxes/98-5.html) `/boxes/98-5.html`
+  - [Day 98: Timberwolves vs. Trail Blazers](https://simba.mygamesonline.org/boxes/98-6.html) `/boxes/98-6.html`
+  - [Day 98: SuperSonics vs. Jazz](https://simba.mygamesonline.org/boxes/98-7.html) `/boxes/98-7.html`
+  - [Day 98: Cavaliers vs. Magic](https://simba.mygamesonline.org/boxes/98-8.html) `/boxes/98-8.html`
+  - [Day 98: Heat vs. Pacers](https://simba.mygamesonline.org/boxes/98-9.html) `/boxes/98-9.html`
+  - [Day 99: Nuggets vs. Mavericks](https://simba.mygamesonline.org/boxes/99-1.html) `/boxes/99-1.html`
+  - [Day 99: Hawks vs. Kings](https://simba.mygamesonline.org/boxes/99-10.html) `/boxes/99-10.html`
+  - [Day 99: Lakers vs. Spurs](https://simba.mygamesonline.org/boxes/99-11.html) `/boxes/99-11.html`
+  - [Day 99: Pacers vs. Suns](https://simba.mygamesonline.org/boxes/99-2.html) `/boxes/99-2.html`
+  - [Day 99: Timberwolves vs. Jazz](https://simba.mygamesonline.org/boxes/99-3.html) `/boxes/99-3.html`
+  - [Day 99: Raptors vs. Bucks](https://simba.mygamesonline.org/boxes/99-4.html) `/boxes/99-4.html`
+  - [Day 99: Heat vs. Hornets](https://simba.mygamesonline.org/boxes/99-5.html) `/boxes/99-5.html`
+  - [Day 99: Wizards vs. Trail Blazers](https://simba.mygamesonline.org/boxes/99-6.html) `/boxes/99-6.html`
+  - [Day 99: Warriors vs. Cavaliers](https://simba.mygamesonline.org/boxes/99-7.html) `/boxes/99-7.html`
+  - [Day 99: 76ers vs. Bulls](https://simba.mygamesonline.org/boxes/99-8.html) `/boxes/99-8.html`
+  - [Day 99: Magic vs. Nets](https://simba.mygamesonline.org/boxes/99-9.html) `/boxes/99-9.html`
   - [allstar.html](https://simba.mygamesonline.org/boxes/allstar.html) `/boxes/allstar.html`
   - [Daily Schedule](https://simba.mygamesonline.org/boxes/day1.htm) `/boxes/day1.htm`
   - [Daily Schedule](https://simba.mygamesonline.org/boxes/day10.htm) `/boxes/day10.htm`
@@ -904,7 +1088,26 @@
   - [Daily Schedule](https://simba.mygamesonline.org/boxes/day79.htm) `/boxes/day79.htm`
   - [Daily Schedule](https://simba.mygamesonline.org/boxes/day8.htm) `/boxes/day8.htm`
   - [Daily Schedule](https://simba.mygamesonline.org/boxes/day80.htm) `/boxes/day80.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day81.htm) `/boxes/day81.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day82.htm) `/boxes/day82.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day83.htm) `/boxes/day83.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day84.htm) `/boxes/day84.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day85.htm) `/boxes/day85.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day86.htm) `/boxes/day86.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day87.htm) `/boxes/day87.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day88.htm) `/boxes/day88.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day89.htm) `/boxes/day89.htm`
   - [Daily Schedule](https://simba.mygamesonline.org/boxes/day9.htm) `/boxes/day9.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day90.htm) `/boxes/day90.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day91.htm) `/boxes/day91.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day92.htm) `/boxes/day92.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day93.htm) `/boxes/day93.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day94.htm) `/boxes/day94.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day95.htm) `/boxes/day95.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day96.htm) `/boxes/day96.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day97.htm) `/boxes/day97.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day98.htm) `/boxes/day98.htm`
+  - [Daily Schedule](https://simba.mygamesonline.org/boxes/day99.htm) `/boxes/day99.htm`
   - [Dunk Contest Results](https://simba.mygamesonline.org/boxes/dunkresults.htm) `/boxes/dunkresults.htm`
   - [rookiegame.html](https://simba.mygamesonline.org/boxes/rookiegame.html) `/boxes/rookiegame.html`
 - **draft/** (11)
@@ -934,7 +1137,7 @@
   - [Free Agents](https://simba.mygamesonline.org/fa/fa-wt.htm) `/fa/fa-wt.htm`
 - **hof/** (1)
   - [Hall Of Fame](https://simba.mygamesonline.org/hof/all.htm) `/hof/all.htm`
-- **players/** (1253)
+- **players/** (1254)
   - [SF Shandon Anderson - Wizards](https://simba.mygamesonline.org/players/player100.htm) `/players/player100.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player100stats.htm) `/players/player100stats.htm`
   - [C Martynas Andriuskevicius - Spurs](https://simba.mygamesonline.org/players/player101.htm) `/players/player101.htm`
@@ -1119,7 +1322,7 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player190stats.htm) `/players/player190stats.htm`
   - [PG Mateen Cleaves - FA](https://simba.mygamesonline.org/players/player191.htm) `/players/player191.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player191stats.htm) `/players/player191stats.htm`
-  - [C Jarron Collins - Nuggets](https://simba.mygamesonline.org/players/player192.htm) `/players/player192.htm`
+  - [C Jarron Collins - Clippers](https://simba.mygamesonline.org/players/player192.htm) `/players/player192.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player192stats.htm) `/players/player192stats.htm`
   - [C Jason Collins - SuperSonics](https://simba.mygamesonline.org/players/player193.htm) `/players/player193.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player193stats.htm) `/players/player193stats.htm`
@@ -1449,6 +1652,7 @@
   - [C Marc Jackson - SuperSonics](https://simba.mygamesonline.org/players/player345.htm) `/players/player345.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player345stats.htm) `/players/player345stats.htm`
   - [SF Stephen Jackson - Pistons](https://simba.mygamesonline.org/players/player346.htm) `/players/player346.htm`
+  - [Player Statistics](https://simba.mygamesonline.org/players/player346stats.htm) `/players/player346stats.htm`
   - [SG Casey Jacobsen - Hornets](https://simba.mygamesonline.org/players/player347.htm) `/players/player347.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player347stats.htm) `/players/player347stats.htm`
   - [C Jerome James - Celtics](https://simba.mygamesonline.org/players/player348.htm) `/players/player348.htm`
@@ -1495,7 +1699,7 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player366stats.htm) `/players/player366stats.htm`
   - [C Dwayne Jones - Nuggets](https://simba.mygamesonline.org/players/player367.htm) `/players/player367.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player367stats.htm) `/players/player367stats.htm`
-  - [SG Eddie Jones - Clippers](https://simba.mygamesonline.org/players/player368.htm) `/players/player368.htm`
+  - [SG Eddie Jones - Nuggets](https://simba.mygamesonline.org/players/player368.htm) `/players/player368.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player368stats.htm) `/players/player368stats.htm`
   - [SG Fred Jones - 76ers](https://simba.mygamesonline.org/players/player369.htm) `/players/player369.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player369stats.htm) `/players/player369stats.htm`
@@ -2299,10 +2503,9 @@
     - [Team Statistics](https://simba.mygamesonline.org/tmstats/offense/team.htm) `/tmstats/offense/team.htm`
     - [Team Statistics](https://simba.mygamesonline.org/tmstats/offense/topg.htm) `/tmstats/offense/topg.htm`
 
-## Broken links (3)
+## Broken links (2)
 
 | Status | URL | Linked from |
 |---|---|---|
 | 404 | https://simba.mygamesonline.org/hof/All.htm | /hof/all.htm |
-| 404 | https://simba.mygamesonline.org/players/player346stats.htm | /players/player346.htm |
 | 404 | https://simba.mygamesonline.org/salaryneeds-new.htm | /index2.htm |

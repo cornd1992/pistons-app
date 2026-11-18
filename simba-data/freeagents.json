@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-17T19:29:17Z",
-  "parsed_at": "2026-11-17T19:30:32Z"
+  "crawled_at": "2026-11-18T19:11:28Z",
+  "parsed_at": "2026-11-18T19:12:18Z"
  },
  "free_agents": [
   {
@@ -2135,7 +2135,8 @@
    "df": "C",
    "reb": "D",
    "pot": "D",
-   "last_team": "N/A",
+   "last_team": "Warriors",
+   "team_id": 23,
    "height_in": 76
   },
   {
@@ -2233,6 +2234,23 @@
    "pot": "F",
    "last_team": "N/A",
    "height_in": 69
+  },
+  {
+   "name": "Mike Wilks",
+   "player_id": 630,
+   "pos": "PG",
+   "height": "5'10''",
+   "weight": 180,
+   "age": 26,
+   "in": "C",
+   "out": "C",
+   "hn": "C",
+   "df": "C",
+   "reb": "D+",
+   "pot": "D",
+   "last_team": "Nets",
+   "team_id": 3,
+   "height_in": 70
   },
   {
    "name": "Alvin Williams",
