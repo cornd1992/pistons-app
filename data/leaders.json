@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-18T19:11:28Z",
-  "parsed_at": "2026-11-18T19:12:18Z"
+  "crawled_at": "2026-11-19T19:24:44Z",
+  "parsed_at": "2026-11-19T19:26:22Z"
  },
  "league_leaders": {
   "Minutes-Per-Game": {
@@ -1675,6 +1675,174 @@
   ]
  },
  "awards": {
+  "Player of the Week": [
+   {
+    "week": "1",
+    "player": "Elton Brand",
+    "pos": "PF",
+    "team": "Mavericks"
+   },
+   {
+    "week": "2",
+    "player": "Tim Duncan",
+    "pos": "PF",
+    "team": "Lakers"
+   },
+   {
+    "week": "3",
+    "player": "Yao Ming",
+    "pos": "C",
+    "team": "Knicks"
+   },
+   {
+    "week": "4",
+    "player": "Dirk Nowitzki",
+    "pos": "PF",
+    "team": "Heat"
+   },
+   {
+    "week": "5",
+    "player": "Chauncey Billups",
+    "pos": "PG",
+    "team": "Suns"
+   },
+   {
+    "week": "6",
+    "player": "Baron Davis",
+    "pos": "PG",
+    "team": "Wizards"
+   },
+   {
+    "week": "7",
+    "player": "Chris Bosh",
+    "pos": "PF",
+    "team": "Clippers"
+   },
+   {
+    "week": "8",
+    "player": "Kobe Bryant",
+    "pos": "SG",
+    "team": "Pistons"
+   },
+   {
+    "week": "9",
+    "player": "Chauncey Billups",
+    "pos": "PG",
+    "team": "Suns"
+   },
+   {
+    "week": "10",
+    "player": "Dirk Nowitzki",
+    "pos": "PF",
+    "team": "Heat"
+   },
+   {
+    "week": "11",
+    "player": "Jason Kidd",
+    "pos": "PG",
+    "team": "Jazz"
+   },
+   {
+    "week": "12",
+    "player": "Chris Bosh",
+    "pos": "PF",
+    "team": "Clippers"
+   },
+   {
+    "week": "13",
+    "player": "Kevin Garnett",
+    "pos": "PF",
+    "team": "Magic"
+   },
+   {
+    "week": "14",
+    "player": "Gilbert Arenas",
+    "pos": "PG",
+    "team": "Nets"
+   },
+   {
+    "week": "15",
+    "player": "Carmelo Anthony",
+    "pos": "SF",
+    "team": "Hornets"
+   },
+   {
+    "week": "16",
+    "player": "Shawn Marion",
+    "pos": "SF",
+    "team": "Kings"
+   },
+   {
+    "week": "17",
+    "player": "Tim Duncan",
+    "pos": "PF",
+    "team": "Lakers"
+   },
+   {
+    "week": "18",
+    "player": "Dwyane Wade",
+    "pos": "SG",
+    "team": "Pacers"
+   },
+   {
+    "week": "19",
+    "player": "Dwyane Wade",
+    "pos": "SG",
+    "team": "Pacers"
+   }
+  ],
+  "Player of the Month": [
+   {
+    "month": "1",
+    "player": "Allen Iverson",
+    "pos": "SG",
+    "team": "Lakers"
+   },
+   {
+    "month": "2",
+    "player": "Kevin Garnett",
+    "pos": "PF",
+    "team": "Magic"
+   },
+   {
+    "month": "3",
+    "player": "Jason Kidd",
+    "pos": "PG",
+    "team": "Jazz"
+   },
+   {
+    "month": "4",
+    "player": "Dwyane Wade",
+    "pos": "SG",
+    "team": "Pacers"
+   }
+  ],
+  "Rookie of the Month": [
+   {
+    "month": "1",
+    "player": "Chris Paul",
+    "pos": "PG",
+    "team": "Bulls"
+   },
+   {
+    "month": "2",
+    "player": "Raymond Felton",
+    "pos": "PG",
+    "team": "Clippers"
+   },
+   {
+    "month": "3",
+    "player": "Chris Paul",
+    "pos": "PG",
+    "team": "Bulls"
+   },
+   {
+    "month": "4",
+    "player": "Chris Paul",
+    "pos": "PG",
+    "team": "Bulls"
+   }
+  ],
   "3-Point Shootout": [
    {
     "season": "2005",

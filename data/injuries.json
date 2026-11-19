@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-18T19:11:28Z",
-  "parsed_at": "2026-11-18T19:12:18Z"
+  "crawled_at": "2026-11-19T19:24:44Z",
+  "parsed_at": "2026-11-19T19:26:22Z"
  },
  "league_ir": [
   {
@@ -166,14 +166,6 @@
    "duration": 0
   },
   {
-   "name": "Juan Carlos Navarro",
-   "player_id": 179,
-   "team": "Lakers",
-   "team_id": 25,
-   "injury": "None",
-   "duration": 0
-  },
-  {
    "name": "Jarron Collins",
    "player_id": 192,
    "team": "Clippers",
@@ -313,14 +305,6 @@
    "player_id": 382,
    "team": "Spurs",
    "team_id": 20,
-   "injury": "None",
-   "duration": 0
-  },
-  {
-   "name": "Toni Kukoc",
-   "player_id": 385,
-   "team": "Hawks",
-   "team_id": 8,
    "injury": "None",
    "duration": 0
   },
@@ -529,14 +513,6 @@
    "player_id": 619,
    "team": "SuperSonics",
    "team_id": 29,
-   "injury": "None",
-   "duration": 0
-  },
-  {
-   "name": "Aaron Williams",
-   "player_id": 631,
-   "team": "Knicks",
-   "team_id": 4,
    "injury": "None",
    "duration": 0
   },

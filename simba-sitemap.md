@@ -1,9 +1,9 @@
 # Sitemap: simba.mygamesonline.org
 
-- **Crawl date:** 2026-11-18
-- **Pages found:** 2477
+- **Crawl date:** 2026-11-19
+- **Pages found:** 2463
 - **Broken/errored links:** 2
-- **URLs fetched:** 2479
+- **URLs fetched:** 2465
 
 ## Crawl notes
 
@@ -11,10 +11,10 @@
 - No `/robots.txt` (404) and no `/sitemap.xml` (404).
 - Home is a frameset (`index2.htm` menu + `index1.htm`); JS `<select>` menu option values extracted as links.
 - Full crawl: every discovered same-host page was fetched.
-- Crawl took 2490.0 s, 2490 HTTP requests.
+- Crawl took 2464.3 s, 2465 HTTP requests.
 - Player pages embed a stats iframe (`playerNstats.htm`), crawled as separate pages.
 
-## Pages (2477)
+## Pages (2463)
 
 - [Main Index](https://simba.mygamesonline.org/) `/`
 - [All-Star Weekend Winners](https://simba.mygamesonline.org/allstarweekend.htm) `/allstarweekend.htm`
@@ -22,20 +22,19 @@
 - [Historical Team Performance](https://simba.mygamesonline.org/historicalperformance.htm) `/historicalperformance.htm`
 - [Default Page](https://simba.mygamesonline.org/index1.htm) `/index1.htm`
 - [Main Index](https://simba.mygamesonline.org/index2.htm) `/index2.htm`
-- [Injured Players](https://simba.mygamesonline.org/injuries.htm) `/injuries.htm`
 - [Injured Reserve](https://simba.mygamesonline.org/ir.htm) `/ir.htm`
 - [League Leaders](https://simba.mygamesonline.org/leagueleaders.htm) `/leagueleaders.htm`
 - [League Schedule](https://simba.mygamesonline.org/leagueschedule.htm) `/leagueschedule.htm`
-- [Weekly/Monthly Awards](https://simba.mygamesonline.org/monthly-awards.htm) `/monthly-awards.htm`
 - [Past #1 Overall Picks](https://simba.mygamesonline.org/past1picks.htm) `/past1picks.htm`
 - [Past Champions](https://simba.mygamesonline.org/pastchamps.htm) `/pastchamps.htm`
 - [Player Career Records](https://simba.mygamesonline.org/playercareerrecords.htm) `/playercareerrecords.htm`
 - [Player Game Records](https://simba.mygamesonline.org/playergmrecords.htm) `/playergmrecords.htm`
 - [Player Season Records](https://simba.mygamesonline.org/playerssnrecords.htm) `/playerssnrecords.htm`
 - [Playoff Standings](https://simba.mygamesonline.org/playstand.htm) `/playstand.htm`
-- [Potential Free Agents](https://simba.mygamesonline.org/potentialfas.htm) `/potentialfas.htm`
+- [Available Cap Room](https://simba.mygamesonline.org/salaryneeds.htm) `/salaryneeds.htm`
 - [Team Season Records](https://simba.mygamesonline.org/teamssnrecords.htm) `/teamssnrecords.htm`
 - [Transactions](https://simba.mygamesonline.org/transactions.htm) `/transactions.htm`
+- [Weekly/Monthly Awards](https://simba.mygamesonline.org/wkly-mnthly.htm) `/wkly-mnthly.htm`
 - **boxes/** (1073)
   - [Day 1: Spurs vs. Celtics](https://simba.mygamesonline.org/boxes/1-1.html) `/boxes/1-1.html`
   - [Day 1: Jazz vs. Suns](https://simba.mygamesonline.org/boxes/1-10.html) `/boxes/1-10.html`
@@ -1137,7 +1136,7 @@
   - [Free Agents](https://simba.mygamesonline.org/fa/fa-wt.htm) `/fa/fa-wt.htm`
 - **hof/** (1)
   - [Hall Of Fame](https://simba.mygamesonline.org/hof/all.htm) `/hof/all.htm`
-- **players/** (1254)
+- **players/** (1252)
   - [SF Shandon Anderson - Wizards](https://simba.mygamesonline.org/players/player100.htm) `/players/player100.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player100stats.htm) `/players/player100stats.htm`
   - [C Martynas Andriuskevicius - Spurs](https://simba.mygamesonline.org/players/player101.htm) `/players/player101.htm`
@@ -1973,8 +1972,6 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player490stats.htm) `/players/player490stats.htm`
   - [SF Paul Pierce - Bucks](https://simba.mygamesonline.org/players/player491.htm) `/players/player491.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player491stats.htm) `/players/player491stats.htm`
-  - [SF Mickael Pietrus - Grizzlies](https://simba.mygamesonline.org/players/player492.htm) `/players/player492.htm`
-  - [Player Statistics](https://simba.mygamesonline.org/players/player492stats.htm) `/players/player492stats.htm`
   - [PF Kevinn Pinkney - FA](https://simba.mygamesonline.org/players/player493.htm) `/players/player493.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player493stats.htm) `/players/player493stats.htm`
   - [PG Zoran Planinic - Grizzlies](https://simba.mygamesonline.org/players/player494.htm) `/players/player494.htm`
@@ -2277,7 +2274,7 @@
   - [Player Statistics](https://simba.mygamesonline.org/players/player629stats.htm) `/players/player629stats.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player62stats.htm) `/players/player62stats.htm`
   - [SF Xavier Tower - Draft](https://simba.mygamesonline.org/players/player63.htm) `/players/player63.htm`
-  - [PG Mike Wilks - Nets](https://simba.mygamesonline.org/players/player630.htm) `/players/player630.htm`
+  - [PG Mike Wilks - FA](https://simba.mygamesonline.org/players/player630.htm) `/players/player630.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player630stats.htm) `/players/player630stats.htm`
   - [PF Aaron Williams - Knicks](https://simba.mygamesonline.org/players/player631.htm) `/players/player631.htm`
   - [Player Statistics](https://simba.mygamesonline.org/players/player631stats.htm) `/players/player631stats.htm`
@@ -2481,19 +2478,7 @@
   - [New Orleans Hornets Roster](https://simba.mygamesonline.org/rosters/roster9.htm) `/rosters/roster9.htm`
   - [New Orleans Hornets Roster](https://simba.mygamesonline.org/rosters/roster9hist.htm) `/rosters/roster9hist.htm`
   - [Schedule](https://simba.mygamesonline.org/rosters/roster9sched.htm) `/rosters/roster9sched.htm`
-- **tmstats/** (18)
-  - **advanced/** (11)
-    - [Advanced Stats](https://simba.mygamesonline.org/tmstats/advanced/change.htm) `/tmstats/advanced/change.htm`
-    - [Advanced Stats](https://simba.mygamesonline.org/tmstats/advanced/drtg.htm) `/tmstats/advanced/drtg.htm`
-    - [Advanced Stats](https://simba.mygamesonline.org/tmstats/advanced/l.htm) `/tmstats/advanced/l.htm`
-    - [Advanced Stats](https://simba.mygamesonline.org/tmstats/advanced/mov.htm) `/tmstats/advanced/mov.htm`
-    - [Advanced Stats](https://simba.mygamesonline.org/tmstats/advanced/net.htm) `/tmstats/advanced/net.htm`
-    - [Advanced Stats](https://simba.mygamesonline.org/tmstats/advanced/ortg.htm) `/tmstats/advanced/ortg.htm`
-    - [Advanced Stats](https://simba.mygamesonline.org/tmstats/advanced/pace.htm) `/tmstats/advanced/pace.htm`
-    - [Advanced Stats](https://simba.mygamesonline.org/tmstats/advanced/sos.htm) `/tmstats/advanced/sos.htm`
-    - [Advanced Stats](https://simba.mygamesonline.org/tmstats/advanced/srs.htm) `/tmstats/advanced/srs.htm`
-    - [Advanced Stats](https://simba.mygamesonline.org/tmstats/advanced/team.htm) `/tmstats/advanced/team.htm`
-    - [Advanced Stats](https://simba.mygamesonline.org/tmstats/advanced/w.htm) `/tmstats/advanced/w.htm`
+- **tmstats/** (7)
   - **offense/** (7)
     - [Team Statistics](https://simba.mygamesonline.org/tmstats/offense/apg.htm) `/tmstats/offense/apg.htm`
     - [Team Statistics](https://simba.mygamesonline.org/tmstats/offense/bpg.htm) `/tmstats/offense/bpg.htm`
@@ -2508,4 +2493,4 @@
 | Status | URL | Linked from |
 |---|---|---|
 | 404 | https://simba.mygamesonline.org/hof/All.htm | /hof/all.htm |
-| 404 | https://simba.mygamesonline.org/salaryneeds-new.htm | /index2.htm |
+| 404 | https://simba.mygamesonline.org/players/player492.htm | /boxes/day11.htm, /boxes/day28.htm, /boxes/day29.htm, /boxes/day40.htm, /boxes/day41.htm …(+13) |

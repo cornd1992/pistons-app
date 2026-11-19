@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-18T19:11:28Z",
-  "parsed_at": "2026-11-18T19:12:18Z"
+  "crawled_at": "2026-11-19T19:24:44Z",
+  "parsed_at": "2026-11-19T19:26:22Z"
  },
  "teams": [
   {
@@ -2441,47 +2441,6 @@
      "profile_url": "https://simba.mygamesonline.org/players/player391.htm"
     },
     {
-     "player_id": 631,
-     "name": "Aaron Williams",
-     "pos": "PF",
-     "age": 34,
-     "height": "6'9''",
-     "height_in": 81,
-     "weight": 235,
-     "ratings": {
-      "in": "C",
-      "out": "C-",
-      "hn": "D-",
-      "df": "C",
-      "reb": "C",
-      "pot": "D"
-     },
-     "season_stats": {
-      "games": 2,
-      "mpg": 4.5,
-      "ppg": 1.0,
-      "rpg": 3.0,
-      "apg": 0.0,
-      "spg": 0.5,
-      "bpg": 0.0,
-      "fg_pct": 1.0,
-      "ft_pct": 0.0,
-      "three_p_pct": 0.0,
-      "topg": 0.5
-     },
-     "salary": {
-      "year_1": 3375000,
-      "year_2": null,
-      "year_3": null,
-      "year_4": null,
-      "year_5": null,
-      "year_6": null,
-      "year_7": null
-     },
-     "salary_total": 3375000,
-     "profile_url": "https://simba.mygamesonline.org/players/player631.htm"
-    },
-    {
      "player_id": 299,
      "name": "Matt Harpring",
      "pos": "SF",
@@ -2605,6 +2564,47 @@
      "profile_url": "https://simba.mygamesonline.org/players/player482.htm"
     },
     {
+     "player_id": 438,
+     "name": "Cuttino Mobley",
+     "pos": "SG",
+     "age": 30,
+     "height": "6'4''",
+     "height_in": 76,
+     "weight": 215,
+     "ratings": {
+      "in": "C+",
+      "out": "B",
+      "hn": "C",
+      "df": "C+",
+      "reb": "C-",
+      "pot": "D"
+     },
+     "season_stats": {
+      "games": 64,
+      "mpg": 26.8,
+      "ppg": 7.7,
+      "rpg": 3.4,
+      "apg": 1.8,
+      "spg": 0.8,
+      "bpg": 0.2,
+      "fg_pct": 0.463,
+      "ft_pct": 0.743,
+      "three_p_pct": 0.388,
+      "topg": 1.4
+     },
+     "salary": {
+      "year_1": 7250000,
+      "year_2": 7800000,
+      "year_3": 8350000,
+      "year_4": 8900000,
+      "year_5": 9450000,
+      "year_6": null,
+      "year_7": null
+     },
+     "salary_total": 41750000,
+     "profile_url": "https://simba.mygamesonline.org/players/player438.htm"
+    },
+    {
      "player_id": 550,
      "name": "J.R. Smith",
      "pos": "SG",
@@ -2685,47 +2685,6 @@
      },
      "salary_total": 2600044,
      "profile_url": "https://simba.mygamesonline.org/players/player285.htm"
-    },
-    {
-     "player_id": 383,
-     "name": "Kyle Korver",
-     "pos": "SG",
-     "age": 24,
-     "height": "6'7''",
-     "height_in": 79,
-     "weight": 212,
-     "ratings": {
-      "in": "C",
-      "out": "B+",
-      "hn": "C-",
-      "df": "C",
-      "reb": "C-",
-      "pot": "B"
-     },
-     "season_stats": {
-      "games": 26,
-      "mpg": 8.7,
-      "ppg": 3.5,
-      "rpg": 1.4,
-      "apg": 0.8,
-      "spg": 0.3,
-      "bpg": 0.0,
-      "fg_pct": 0.474,
-      "ft_pct": 0.75,
-      "three_p_pct": 0.368,
-      "topg": 0.8
-     },
-     "salary": {
-      "year_1": 3636364,
-      "year_2": 4018182,
-      "year_3": 4400000,
-      "year_4": 4781818,
-      "year_5": 5163636,
-      "year_6": null,
-      "year_7": null
-     },
-     "salary_total": 22000000,
-     "profile_url": "https://simba.mygamesonline.org/players/player383.htm"
     },
     {
      "player_id": 622,
@@ -5380,6 +5339,47 @@
      "profile_url": "https://simba.mygamesonline.org/players/player220.htm"
     },
     {
+     "player_id": 591,
+     "name": "Jake Tsakalidis",
+     "pos": "C",
+     "age": 26,
+     "height": "7'2''",
+     "height_in": 86,
+     "weight": 290,
+     "ratings": {
+      "in": "C",
+      "out": "C-",
+      "hn": "D-",
+      "df": "C+",
+      "reb": "B-",
+      "pot": "D"
+     },
+     "season_stats": {
+      "games": 66,
+      "mpg": 22.3,
+      "ppg": 8.8,
+      "rpg": 6.6,
+      "apg": 1.2,
+      "spg": 0.7,
+      "bpg": 0.8,
+      "fg_pct": 0.451,
+      "ft_pct": 0.66,
+      "three_p_pct": 0.0,
+      "topg": 2.0
+     },
+     "salary": {
+      "year_1": 2900000,
+      "year_2": 2900000,
+      "year_3": null,
+      "year_4": null,
+      "year_5": null,
+      "year_6": null,
+      "year_7": null
+     },
+     "salary_total": 5800000,
+     "profile_url": "https://simba.mygamesonline.org/players/player591.htm"
+    },
+    {
      "player_id": 468,
      "name": "Michael Olowokandi",
      "pos": "C",
@@ -5583,47 +5583,6 @@
      },
      "salary_total": 24515001,
      "profile_url": "https://simba.mygamesonline.org/players/player594.htm"
-    },
-    {
-     "player_id": 385,
-     "name": "Toni Kukoc",
-     "pos": "SF",
-     "age": 37,
-     "height": "6'11''",
-     "height_in": 83,
-     "weight": 235,
-     "ratings": {
-      "in": "C",
-      "out": "C+",
-      "hn": "C",
-      "df": "C",
-      "reb": "C-",
-      "pot": "F"
-     },
-     "season_stats": {
-      "games": 0,
-      "mpg": 0.0,
-      "ppg": 0.0,
-      "rpg": 0.0,
-      "apg": 0.0,
-      "spg": 0.0,
-      "bpg": 0.0,
-      "fg_pct": 0.0,
-      "ft_pct": 0.0,
-      "three_p_pct": 0.0,
-      "topg": 0.0
-     },
-     "salary": {
-      "year_1": 2000000,
-      "year_2": null,
-      "year_3": null,
-      "year_4": null,
-      "year_5": null,
-      "year_6": null,
-      "year_7": null
-     },
-     "salary_total": 2000000,
-     "profile_url": "https://simba.mygamesonline.org/players/player385.htm"
     },
     {
      "player_id": 451,
@@ -6520,6 +6479,47 @@
      },
      "salary_total": 761438,
      "profile_url": "https://simba.mygamesonline.org/players/player347.htm"
+    },
+    {
+     "player_id": 179,
+     "name": "Juan Carlos Navarro",
+     "pos": "SG",
+     "age": 25,
+     "height": "6'3''",
+     "height_in": 75,
+     "weight": 170,
+     "ratings": {
+      "in": "C",
+      "out": "C+",
+      "hn": "C-",
+      "df": "D+",
+      "reb": "D",
+      "pot": "C"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0,
+      "topg": 0.0
+     },
+     "salary": {
+      "year_1": 407425,
+      "year_2": null,
+      "year_3": null,
+      "year_4": null,
+      "year_5": null,
+      "year_6": null,
+      "year_7": null
+     },
+     "salary_total": 407425,
+     "profile_url": "https://simba.mygamesonline.org/players/player179.htm"
     },
     {
      "player_id": 133,
@@ -8525,6 +8525,47 @@
      "profile_url": "https://simba.mygamesonline.org/players/player586.htm"
     },
     {
+     "player_id": 631,
+     "name": "Aaron Williams",
+     "pos": "PF",
+     "age": 34,
+     "height": "6'9''",
+     "height_in": 81,
+     "weight": 235,
+     "ratings": {
+      "in": "C",
+      "out": "C-",
+      "hn": "D-",
+      "df": "C",
+      "reb": "C",
+      "pot": "D"
+     },
+     "season_stats": {
+      "games": 2,
+      "mpg": 4.5,
+      "ppg": 1.0,
+      "rpg": 3.0,
+      "apg": 0.0,
+      "spg": 0.5,
+      "bpg": 0.0,
+      "fg_pct": 1.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0,
+      "topg": 0.5
+     },
+     "salary": {
+      "year_1": 3375000,
+      "year_2": null,
+      "year_3": null,
+      "year_4": null,
+      "year_5": null,
+      "year_6": null,
+      "year_7": null
+     },
+     "salary_total": 3375000,
+     "profile_url": "https://simba.mygamesonline.org/players/player631.htm"
+    },
+    {
      "player_id": 346,
      "name": "Stephen Jackson",
      "pos": "SF",
@@ -8730,45 +8771,45 @@
      "profile_url": "https://simba.mygamesonline.org/players/player163.htm"
     },
     {
-     "player_id": 438,
-     "name": "Cuttino Mobley",
+     "player_id": 383,
+     "name": "Kyle Korver",
      "pos": "SG",
-     "age": 30,
-     "height": "6'4''",
-     "height_in": 76,
-     "weight": 215,
+     "age": 24,
+     "height": "6'7''",
+     "height_in": 79,
+     "weight": 212,
      "ratings": {
-      "in": "C+",
-      "out": "B",
-      "hn": "C",
-      "df": "C+",
+      "in": "C",
+      "out": "B+",
+      "hn": "C-",
+      "df": "C",
       "reb": "C-",
-      "pot": "D"
+      "pot": "B"
      },
      "season_stats": {
-      "games": 64,
-      "mpg": 26.8,
-      "ppg": 7.7,
-      "rpg": 3.4,
-      "apg": 1.8,
-      "spg": 0.8,
-      "bpg": 0.2,
-      "fg_pct": 0.463,
-      "ft_pct": 0.743,
-      "three_p_pct": 0.388,
-      "topg": 1.4
+      "games": 26,
+      "mpg": 8.7,
+      "ppg": 3.5,
+      "rpg": 1.4,
+      "apg": 0.8,
+      "spg": 0.3,
+      "bpg": 0.0,
+      "fg_pct": 0.474,
+      "ft_pct": 0.75,
+      "three_p_pct": 0.368,
+      "topg": 0.8
      },
      "salary": {
-      "year_1": 7250000,
-      "year_2": 7800000,
-      "year_3": 8350000,
-      "year_4": 8900000,
-      "year_5": 9450000,
+      "year_1": 3636364,
+      "year_2": 4018182,
+      "year_3": 4400000,
+      "year_4": 4781818,
+      "year_5": 5163636,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 41750000,
-     "profile_url": "https://simba.mygamesonline.org/players/player438.htm"
+     "salary_total": 22000000,
+     "profile_url": "https://simba.mygamesonline.org/players/player383.htm"
     },
     {
      "player_id": 589,
@@ -10661,47 +10702,6 @@
      "profile_url": "https://simba.mygamesonline.org/players/player487.htm"
     },
     {
-     "player_id": 591,
-     "name": "Jake Tsakalidis",
-     "pos": "C",
-     "age": 26,
-     "height": "7'2''",
-     "height_in": 86,
-     "weight": 290,
-     "ratings": {
-      "in": "C",
-      "out": "C-",
-      "hn": "D-",
-      "df": "C+",
-      "reb": "B-",
-      "pot": "D"
-     },
-     "season_stats": {
-      "games": 66,
-      "mpg": 22.3,
-      "ppg": 8.8,
-      "rpg": 6.6,
-      "apg": 1.2,
-      "spg": 0.7,
-      "bpg": 0.8,
-      "fg_pct": 0.451,
-      "ft_pct": 0.66,
-      "three_p_pct": 0.0,
-      "topg": 2.0
-     },
-     "salary": {
-      "year_1": 2900000,
-      "year_2": 2900000,
-      "year_3": null,
-      "year_4": null,
-      "year_5": null,
-      "year_6": null,
-      "year_7": null
-     },
-     "salary_total": 5800000,
-     "profile_url": "https://simba.mygamesonline.org/players/player591.htm"
-    },
-    {
      "player_id": 648,
      "name": "Lorenzen Wright",
      "pos": "C",
@@ -10946,6 +10946,47 @@
      },
      "salary_total": 2058004,
      "profile_url": "https://simba.mygamesonline.org/players/player334.htm"
+    },
+    {
+     "player_id": 385,
+     "name": "Toni Kukoc",
+     "pos": "SF",
+     "age": 37,
+     "height": "6'11''",
+     "height_in": 83,
+     "weight": 235,
+     "ratings": {
+      "in": "C",
+      "out": "C+",
+      "hn": "C",
+      "df": "C",
+      "reb": "C-",
+      "pot": "F"
+     },
+     "season_stats": {
+      "games": 0,
+      "mpg": 0.0,
+      "ppg": 0.0,
+      "rpg": 0.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "fg_pct": 0.0,
+      "ft_pct": 0.0,
+      "three_p_pct": 0.0,
+      "topg": 0.0
+     },
+     "salary": {
+      "year_1": 2000000,
+      "year_2": null,
+      "year_3": null,
+      "year_4": null,
+      "year_5": null,
+      "year_6": null,
+      "year_7": null
+     },
+     "salary_total": 2000000,
+     "profile_url": "https://simba.mygamesonline.org/players/player385.htm"
     },
     {
      "player_id": 642,
@@ -18536,47 +18577,6 @@
      },
      "salary_total": 735000,
      "profile_url": "https://simba.mygamesonline.org/players/player205.htm"
-    },
-    {
-     "player_id": 179,
-     "name": "Juan Carlos Navarro",
-     "pos": "SG",
-     "age": 25,
-     "height": "6'3''",
-     "height_in": 75,
-     "weight": 170,
-     "ratings": {
-      "in": "C",
-      "out": "C+",
-      "hn": "C-",
-      "df": "D+",
-      "reb": "D",
-      "pot": "C"
-     },
-     "season_stats": {
-      "games": 0,
-      "mpg": 0.0,
-      "ppg": 0.0,
-      "rpg": 0.0,
-      "apg": 0.0,
-      "spg": 0.0,
-      "bpg": 0.0,
-      "fg_pct": 0.0,
-      "ft_pct": 0.0,
-      "three_p_pct": 0.0,
-      "topg": 0.0
-     },
-     "salary": {
-      "year_1": 407425,
-      "year_2": null,
-      "year_3": null,
-      "year_4": null,
-      "year_5": null,
-      "year_6": null,
-      "year_7": null
-     },
-     "salary_total": 407425,
-     "profile_url": "https://simba.mygamesonline.org/players/player179.htm"
     },
     {
      "player_id": 636,

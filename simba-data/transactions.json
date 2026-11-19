@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-18T19:11:28Z",
-  "parsed_at": "2026-11-18T19:12:18Z"
+  "crawled_at": "2026-11-19T19:24:44Z",
+  "parsed_at": "2026-11-19T19:26:22Z"
  },
  "transactions": [
   {
@@ -8935,6 +8935,69 @@
    "team": "Celtics",
    "action": "Place PF Hakim Warrick on Injured Reserve.",
    "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Hawks",
+   "action": "Trade SF Toni Kukoc to the Raptors for C Jake Tsakalidis",
+   "type": "trade"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Raptors",
+   "action": "Trade C Jake Tsakalidis to the Hawks for SF Toni Kukoc",
+   "type": "trade"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Hawks",
+   "action": "Activate SF Toni Kukoc from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Lakers",
+   "action": "Trade SG Juan Carlos Navarro to the Hornets for",
+   "type": "trade"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Hornets",
+   "action": "Trade to the Lakers for SG Juan Carlos Navarro",
+   "type": "trade"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Lakers",
+   "action": "Activate SG Juan Carlos Navarro from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Pistons",
+   "action": "Trade SG Cuttino Mobley to the Knicks for SG Kyle Korver and PF Aaron Williams",
+   "type": "trade"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Knicks",
+   "action": "Trade SG Kyle Korver and PF Aaron Williams to the Pistons for SG Cuttino Mobley",
+   "type": "trade"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Knicks",
+   "action": "Activate PF Aaron Williams from Injured Reserve.",
+   "type": "activate"
   }
  ]
 }
