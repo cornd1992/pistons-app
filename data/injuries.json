@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-19T19:24:44Z",
-  "parsed_at": "2026-11-19T19:26:22Z"
+  "crawled_at": "2026-11-20T18:47:38Z",
+  "parsed_at": "2026-11-20T18:48:29Z"
  },
  "league_ir": [
   {
@@ -150,18 +150,18 @@
    "duration": 0
   },
   {
-   "name": "Matt Bonner",
-   "player_id": 142,
-   "team": "Hawks",
-   "team_id": 8,
-   "injury": "None",
-   "duration": 0
-  },
-  {
    "name": "Ryan Bowen",
    "player_id": 148,
    "team": "Magic",
    "team_id": 5,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Juan Carlos Navarro",
+   "player_id": 179,
+   "team": "Hornets",
+   "team_id": 9,
    "injury": "None",
    "duration": 0
   },
@@ -277,6 +277,14 @@
    "duration": 0
   },
   {
+   "name": "Donnell Harvey",
+   "player_id": 307,
+   "team": "Timberwolves",
+   "team_id": 19,
+   "injury": "None",
+   "duration": 0
+  },
+  {
    "name": "Jim Jackson",
    "player_id": 343,
    "team": "Pistons",
@@ -305,6 +313,14 @@
    "player_id": 382,
    "team": "Spurs",
    "team_id": 20,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Toni Kukoc",
+   "player_id": 385,
+   "team": "Raptors",
+   "team_id": 15,
    "injury": "None",
    "duration": 0
   },
@@ -357,10 +373,10 @@
    "duration": 0
   },
   {
-   "name": "Bo Outlaw",
-   "player_id": 472,
-   "team": "Raptors",
-   "team_id": 15,
+   "name": "Michael Olowokandi",
+   "player_id": 468,
+   "team": "Timberwolves",
+   "team_id": 19,
    "injury": "None",
    "duration": 0
   },
@@ -437,14 +453,6 @@
    "duration": 0
   },
   {
-   "name": "Donta Smith",
-   "player_id": 549,
-   "team": "Timberwolves",
-   "team_id": 19,
-   "injury": "None",
-   "duration": 0
-  },
-  {
    "name": "Will Solomon",
    "player_id": 557,
    "team": "Celtics",
@@ -513,6 +521,14 @@
    "player_id": 619,
    "team": "SuperSonics",
    "team_id": 29,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Aaron Williams",
+   "player_id": 631,
+   "team": "Pistons",
+   "team_id": 12,
    "injury": "None",
    "duration": 0
   },

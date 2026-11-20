@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-19T19:24:44Z",
-  "parsed_at": "2026-11-19T19:26:22Z"
+  "crawled_at": "2026-11-20T18:47:38Z",
+  "parsed_at": "2026-11-20T18:48:29Z"
  },
  "teams": [
   {
@@ -113,14 +113,14 @@
   {
    "team": "Atlanta Hawks",
    "team_id": 8,
-   "cap_room": 99269501,
+   "cap_room": 95973201,
    "team_salary": null,
    "committed_by_year": [
-    48720842,
-    37079605,
-    32456108,
-    21970200,
-    16477001,
+    52017142,
+    47282005,
+    45810206,
+    15106001,
+    16477000,
     0,
     0
    ]
@@ -278,14 +278,14 @@
   {
    "team": "Minnesota Timberwolves",
    "team_id": 19,
-   "cap_room": 98801656,
+   "cap_room": 102097956,
    "team_salary": null,
    "committed_by_year": [
-    50634881,
-    45627001,
-    45281904,
-    27584205,
-    22260001,
+    46682891,
+    35424601,
+    31927806,
+    34448404,
+    22260002,
     0,
     0
    ]

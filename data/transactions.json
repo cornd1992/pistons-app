@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-19T19:24:44Z",
-  "parsed_at": "2026-11-19T19:26:22Z"
+  "crawled_at": "2026-11-20T18:47:38Z",
+  "parsed_at": "2026-11-20T18:48:29Z"
  },
  "transactions": [
   {
@@ -8998,6 +8998,97 @@
    "team": "Knicks",
    "action": "Activate PF Aaron Williams from Injured Reserve.",
    "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Raptors",
+   "action": "Activate PF Bo Outlaw from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Raptors",
+   "action": "Place SF Toni Kukoc on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Hawks",
+   "action": "Place SG Matt Carroll on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Hornets",
+   "action": "Place SG Juan Carlos Navarro on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Pistons",
+   "action": "Place PF Aaron Williams on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Timberwolves",
+   "action": "Activate SG Donta Smith from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Timberwolves",
+   "action": "Cut SG Donta Smith",
+   "type": "cut"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Hawks",
+   "action": "Trade SF Hedo Turkoglu, C DeSagana Diop and C Michael Olowokandi to the Timberwolves for PF Jermaine O'Neal",
+   "type": "trade"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Timberwolves",
+   "action": "Trade PF Jermaine O'Neal to the Hawks for SF Hedo Turkoglu, C DeSagana Diop and C Michael Olowokandi",
+   "type": "trade"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Hawks",
+   "action": "Activate PF Matt Bonner from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Hawks",
+   "action": "Activate SG Matt Carroll from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Timberwolves",
+   "action": "Place PF Donnell Harvey on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 100,
+   "team": "Timberwolves",
+   "action": "Place C Michael Olowokandi on Injured Reserve.",
+   "type": "place"
   }
  ]
 }
