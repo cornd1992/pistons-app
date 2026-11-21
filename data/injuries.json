@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-20T18:47:38Z",
-  "parsed_at": "2026-11-20T18:48:29Z"
+  "crawled_at": "2026-11-21T04:07:11Z",
+  "parsed_at": "2026-11-21T04:07:56Z"
  },
  "league_ir": [
   {
@@ -11,7 +11,7 @@
    "team": "Celtics",
    "team_id": 1,
    "injury": "Ruptured Achilles",
-   "duration": 140
+   "duration": 119
   },
   {
    "name": "Tracy McGrady",
@@ -19,7 +19,7 @@
    "team": "Cavaliers",
    "team_id": 11,
    "injury": "Ruptured Achilles",
-   "duration": 132
+   "duration": 111
   },
   {
    "name": "Morris Peterson",
@@ -27,7 +27,7 @@
    "team": "Warriors",
    "team_id": 23,
    "injury": "Torn ACL",
-   "duration": 103
+   "duration": 82
   },
   {
    "name": "Antonio McDyess",
@@ -35,7 +35,23 @@
    "team": "Pacers",
    "team_id": 13,
    "injury": "Broken Skull",
-   "duration": 44
+   "duration": 23
+  },
+  {
+   "name": "Allen Iverson",
+   "player_id": 338,
+   "team": "Lakers",
+   "team_id": 25,
+   "injury": "Scratched Cornea",
+   "duration": 11
+  },
+  {
+   "name": "Mehmet Okur",
+   "player_id": 466,
+   "team": "Hornets",
+   "team_id": 9,
+   "injury": "Fractured Hip",
+   "duration": 11
   },
   {
    "name": "Zydrunas Ilgauskas",
@@ -43,79 +59,55 @@
    "team": "Mavericks",
    "team_id": 16,
    "injury": "Torn Hamstring",
-   "duration": 31
+   "duration": 10
   },
   {
-   "name": "Kelenna Azubuike",
-   "player_id": 112,
-   "team": "Hornets",
-   "team_id": 9,
-   "injury": "Torn Hamstring",
-   "duration": 19
+   "name": "Peja Stojakovic",
+   "player_id": 563,
+   "team": "Cavaliers",
+   "team_id": 11,
+   "injury": "Broken Jaw",
+   "duration": 9
   },
   {
-   "name": "Dikembe Mutombo",
-   "player_id": 450,
-   "team": "Pacers",
-   "team_id": 13,
-   "injury": "Severe Migraines",
-   "duration": 8
+   "name": "Sarunas Jasikevicius",
+   "player_id": 353,
+   "team": "Grizzlies",
+   "team_id": 22,
+   "injury": "Groin Pull",
+   "duration": 6
   },
   {
-   "name": "Sean Marks",
-   "player_id": 407,
-   "team": "Pacers",
-   "team_id": 13,
-   "injury": "Blurred Vision",
+   "name": "Ray Allen",
+   "player_id": 92,
+   "team": "Nuggets",
+   "team_id": 17,
+   "injury": "Sprained Knee",
    "duration": 4
   },
   {
-   "name": "Darrell Armstrong",
-   "player_id": 107,
-   "team": "Nuggets",
-   "team_id": 17,
-   "injury": "Sprained Wrist",
+   "name": "Alonzo Mourning",
+   "player_id": 446,
+   "team": "Jazz",
+   "team_id": 21,
+   "injury": "Bruised Jaw",
    "duration": 3
   },
   {
-   "name": "Caron Butler",
-   "player_id": 169,
-   "team": "Timberwolves",
-   "team_id": 19,
-   "injury": "Bruised Cheekbone",
-   "duration": 2
-  },
-  {
-   "name": "T.J. Ford",
-   "player_id": 250,
-   "team": "Magic",
-   "team_id": 5,
+   "name": "Raja Bell",
+   "player_id": 131,
+   "team": "Trail Blazers",
+   "team_id": 27,
    "injury": "Broken Ribs",
    "duration": 2
   },
   {
-   "name": "Kevin Garnett",
-   "player_id": 265,
-   "team": "Magic",
-   "team_id": 5,
-   "injury": "Sprained Wrist",
+   "name": "Andrew Bogut",
+   "player_id": 141,
+   "team": "Grizzlies",
+   "team_id": 22,
+   "injury": "Fractured Cheekbone",
    "duration": 2
-  },
-  {
-   "name": "Zach Randolph",
-   "player_id": 511,
-   "team": "Nets",
-   "team_id": 3,
-   "injury": "Severe Migraines",
-   "duration": 2
-  },
-  {
-   "name": "Paul Pierce",
-   "player_id": 491,
-   "team": "Bucks",
-   "team_id": 14,
-   "injury": "Migraine",
-   "duration": 1
   },
   {
    "name": "Shandon Anderson",
@@ -134,6 +126,30 @@
    "duration": 0
   },
   {
+   "name": "Pero Antic",
+   "player_id": 103,
+   "team": "Warriors",
+   "team_id": 23,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Sean Banks",
+   "player_id": 116,
+   "team": "Suns",
+   "team_id": 26,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Earl Barron",
+   "player_id": 120,
+   "team": "Clippers",
+   "team_id": 24,
+   "injury": "None",
+   "duration": 0
+  },
+  {
    "name": "Esteban Batista",
    "player_id": 126,
    "team": "Trail Blazers",
@@ -142,16 +158,24 @@
    "duration": 0
   },
   {
-   "name": "Jonathan Bender",
-   "player_id": 132,
-   "team": "Suns",
-   "team_id": 26,
+   "name": "Lonny Baxter",
+   "player_id": 129,
+   "team": "Hawks",
+   "team_id": 8,
    "injury": "None",
    "duration": 0
   },
   {
    "name": "Ryan Bowen",
    "player_id": 148,
+   "team": "Magic",
+   "team_id": 5,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Zarko Cabarkapa",
+   "player_id": 174,
    "team": "Magic",
    "team_id": 5,
    "injury": "None",
@@ -166,10 +190,26 @@
    "duration": 0
   },
   {
+   "name": "Lionel Chalmers",
+   "player_id": 185,
+   "team": "Lakers",
+   "team_id": 25,
+   "injury": "None",
+   "duration": 0
+  },
+  {
    "name": "Jarron Collins",
    "player_id": 192,
    "team": "Clippers",
    "team_id": 24,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Antonio Davis",
+   "player_id": 206,
+   "team": "Pacers",
+   "team_id": 13,
    "injury": "None",
    "duration": 0
   },
@@ -198,6 +238,14 @@
    "duration": 0
   },
   {
+   "name": "Daniel Ewing",
+   "player_id": 240,
+   "team": "Heat",
+   "team_id": 2,
+   "injury": "None",
+   "duration": 0
+  },
+  {
    "name": "Noel Felix",
    "player_id": 242,
    "team": "Mavericks",
@@ -214,10 +262,42 @@
    "duration": 0
   },
   {
+   "name": "Danny Fortson",
+   "player_id": 251,
+   "team": "Magic",
+   "team_id": 5,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Richie Frahm",
+   "player_id": 255,
+   "team": "76ers",
+   "team_id": 6,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Francisco Garcia",
+   "player_id": 264,
+   "team": "Timberwolves",
+   "team_id": 19,
+   "injury": "None",
+   "duration": 0
+  },
+  {
    "name": "Ryan Gomes",
    "player_id": 276,
    "team": "Bulls",
    "team_id": 10,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Joey Graham",
+   "player_id": 280,
+   "team": "Pacers",
+   "team_id": 13,
    "injury": "None",
    "duration": 0
   },
@@ -233,6 +313,14 @@
    "name": "Orien Greene",
    "player_id": 287,
    "team": "",
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Lynn Greer",
+   "player_id": 288,
+   "team": "Raptors",
+   "team_id": 15,
    "injury": "None",
    "duration": 0
   },
@@ -261,18 +349,18 @@
    "duration": 0
   },
   {
-   "name": "Junior Harrington",
-   "player_id": 301,
-   "team": "Rockets",
-   "team_id": 18,
+   "name": "Matt Harpring",
+   "player_id": 299,
+   "team": "Knicks",
+   "team_id": 4,
    "injury": "None",
    "duration": 0
   },
   {
-   "name": "Mike Harris",
-   "player_id": 304,
-   "team": "Kings",
-   "team_id": 28,
+   "name": "Junior Harrington",
+   "player_id": 301,
+   "team": "Rockets",
+   "team_id": 18,
    "injury": "None",
    "duration": 0
   },
@@ -293,18 +381,34 @@
    "duration": 0
   },
   {
-   "name": "Marc Jackson",
-   "player_id": 345,
-   "team": "SuperSonics",
-   "team_id": 29,
+   "name": "Luke Jackson",
+   "player_id": 344,
+   "team": "Nuggets",
+   "team_id": 17,
    "injury": "None",
    "duration": 0
   },
   {
-   "name": "Linas Kleiza",
-   "player_id": 379,
-   "team": "Grizzlies",
-   "team_id": 22,
+   "name": "Antawn Jamison",
+   "player_id": 351,
+   "team": "Kings",
+   "team_id": 28,
+   "injury": "Fractured Nose",
+   "duration": 0
+  },
+  {
+   "name": "Jared Jeffries",
+   "player_id": 356,
+   "team": "Nets",
+   "team_id": 3,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Horace Jenkins",
+   "player_id": 357,
+   "team": "Hawks",
+   "team_id": 8,
    "injury": "None",
    "duration": 0
   },
@@ -333,6 +437,14 @@
    "duration": 0
   },
   {
+   "name": "Rawle Marshall",
+   "player_id": 409,
+   "team": "Wizards",
+   "team_id": 7,
+   "injury": "None",
+   "duration": 0
+  },
+  {
    "name": "Jamal Mashburn",
    "player_id": 413,
    "team": "Grizzlies",
@@ -345,6 +457,14 @@
    "player_id": 420,
    "team": "Nuggets",
    "team_id": 17,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Jeff McInnis",
+   "player_id": 425,
+   "team": "SuperSonics",
+   "team_id": 29,
    "injury": "None",
    "duration": 0
   },
@@ -397,14 +517,6 @@
    "duration": 0
   },
   {
-   "name": "Zoran Planinic",
-   "player_id": 494,
-   "team": "Grizzlies",
-   "team_id": 22,
-   "injury": "None",
-   "duration": 0
-  },
-  {
    "name": "Josh Powell",
    "player_id": 499,
    "team": "Lakers",
@@ -421,26 +533,18 @@
    "duration": 0
   },
   {
-   "name": "Jalen Rose",
-   "player_id": 525,
-   "team": "Trail Blazers",
-   "team_id": 27,
-   "injury": "None",
-   "duration": 0
-  },
-  {
-   "name": "Malik Rose",
-   "player_id": 526,
-   "team": "Cavaliers",
-   "team_id": 11,
-   "injury": "None",
-   "duration": 0
-  },
-  {
    "name": "Quinton Ross",
    "player_id": 527,
    "team": "Heat",
    "team_id": 2,
+   "injury": "None",
+   "duration": 0
+  },
+  {
+   "name": "Brian Scalabrine",
+   "player_id": 535,
+   "team": "Bucks",
+   "team_id": 14,
    "injury": "None",
    "duration": 0
   },
@@ -485,26 +589,18 @@
    "duration": 0
   },
   {
+   "name": "Nikoloz Tskitishvili",
+   "player_id": 592,
+   "team": "Nets",
+   "team_id": 3,
+   "injury": "None",
+   "duration": 0
+  },
+  {
    "name": "Roko Ukic",
    "player_id": 597,
    "team": "Kings",
    "team_id": 28,
-   "injury": "None",
-   "duration": 0
-  },
-  {
-   "name": "Jake Voskuhl",
-   "player_id": 603,
-   "team": "Lakers",
-   "team_id": 25,
-   "injury": "None",
-   "duration": 0
-  },
-  {
-   "name": "Von Wafer",
-   "player_id": 607,
-   "team": "Jazz",
-   "team_id": 21,
    "injury": "None",
    "duration": 0
   },
@@ -586,84 +682,77 @@
    {
     "name": "Austin Croshere",
     "injury": "Ruptured Achilles",
-    "duration": 140
+    "duration": 119
    }
   ],
-  "3": [
+  "4": [
    {
-    "name": "Zach Randolph",
-    "injury": "Severe Migraines",
-    "duration": 2
-   }
-  ],
-  "5": [
-   {
-    "name": "T.J. Ford",
-    "injury": "Broken Ribs",
-    "duration": 2
-   },
-   {
-    "name": "Kevin Garnett",
-    "injury": "Sprained Wrist",
-    "duration": 2
+    "name": "Cuttino Mobley",
+    "injury": "Concussion",
+    "duration": 3
    }
   ],
   "9": [
    {
-    "name": "Kelenna Azubuike",
-    "injury": "Torn Hamstring",
-    "duration": 19
+    "name": "Mehmet Okur",
+    "injury": "Fractured Hip",
+    "duration": 11
    }
   ],
   "11": [
    {
     "name": "Tracy McGrady",
     "injury": "Ruptured Achilles",
-    "duration": 132
+    "duration": 111
+   },
+   {
+    "name": "Peja Stojakovic",
+    "injury": "Broken Jaw",
+    "duration": 9
    }
   ],
   "13": [
    {
     "name": "Antonio McDyess",
     "injury": "Broken Skull",
-    "duration": 44
-   },
-   {
-    "name": "Dikembe Mutombo",
-    "injury": "Severe Migraines",
-    "duration": 8
-   },
-   {
-    "name": "Sean Marks",
-    "injury": "Blurred Vision",
-    "duration": 4
-   }
-  ],
-  "14": [
-   {
-    "name": "Paul Pierce",
-    "injury": "Migraine",
-    "duration": 1
+    "duration": 23
    }
   ],
   "16": [
    {
     "name": "Zydrunas Ilgauskas",
     "injury": "Torn Hamstring",
-    "duration": 31
+    "duration": 10
    }
   ],
   "17": [
    {
-    "name": "Darrell Armstrong",
-    "injury": "Sprained Wrist",
+    "name": "Ray Allen",
+    "injury": "Sprained Knee",
+    "duration": 4
+   }
+  ],
+  "21": [
+   {
+    "name": "Richard Hamilton",
+    "injury": "Groin Pull",
+    "duration": 7
+   },
+   {
+    "name": "Alonzo Mourning",
+    "injury": "Bruised Jaw",
     "duration": 3
    }
   ],
-  "19": [
+  "22": [
    {
-    "name": "Caron Butler",
-    "injury": "Bruised Cheekbone",
+    "name": "Sarunas Jasikevicius",
+    "injury": "Groin Pull",
+    "duration": 6
+   },
+   {
+    "name": "Andrew Bogut",
+    "injury": "Fractured Cheekbone",
     "duration": 2
    }
   ],
@@ -671,7 +760,21 @@
    {
     "name": "Morris Peterson",
     "injury": "Torn ACL",
-    "duration": 103
+    "duration": 82
+   }
+  ],
+  "25": [
+   {
+    "name": "Allen Iverson",
+    "injury": "Scratched Cornea",
+    "duration": 11
+   }
+  ],
+  "27": [
+   {
+    "name": "Raja Bell",
+    "injury": "Broken Ribs",
+    "duration": 2
    }
   ]
  }
