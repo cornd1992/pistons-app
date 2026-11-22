@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-21T17:45:05Z",
-  "parsed_at": "2026-11-21T17:46:51Z"
+  "crawled_at": "2026-11-22T18:14:04Z",
+  "parsed_at": "2026-11-22T18:15:04Z"
  },
  "league": {
   "months": [
@@ -427,7 +427,7 @@
      },
      {
       "day": 100,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day100.htm"
      }
     ]
    },
@@ -436,83 +436,83 @@
     "days": [
      {
       "day": 101,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day101.htm"
      },
      {
       "day": 102,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day102.htm"
      },
      {
       "day": 103,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day103.htm"
      },
      {
       "day": 104,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day104.htm"
      },
      {
       "day": 105,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day105.htm"
      },
      {
       "day": 106,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day106.htm"
      },
      {
       "day": 107,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day107.htm"
      },
      {
       "day": 108,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day108.htm"
      },
      {
       "day": 109,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day109.htm"
      },
      {
       "day": 110,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day110.htm"
      },
      {
       "day": 111,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day111.htm"
      },
      {
       "day": 112,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day112.htm"
      },
      {
       "day": 113,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day113.htm"
      },
      {
       "day": 114,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day114.htm"
      },
      {
       "day": 115,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day115.htm"
      },
      {
       "day": 116,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day116.htm"
      },
      {
       "day": 117,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day117.htm"
      },
      {
       "day": 118,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day118.htm"
      },
      {
       "day": 119,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day119.htm"
      },
      {
       "day": 120,
-      "url": null
+      "url": "https://simba.mygamesonline.org/boxes/day120.htm"
      }
     ]
    }

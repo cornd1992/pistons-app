@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-21T17:45:05Z",
-  "parsed_at": "2026-11-21T17:46:51Z"
+  "crawled_at": "2026-11-22T18:14:04Z",
+  "parsed_at": "2026-11-22T18:15:04Z"
  },
  "players": [
   {
@@ -195431,6 +195431,177 @@
     }
    },
    "profile_url": "https://simba.mygamesonline.org/players/player344.htm"
+  },
+  {
+   "player_id": 345,
+   "name": "Marc Jackson",
+   "pos": "C",
+   "team": "SuperSonics",
+   "team_id": null,
+   "age": 31,
+   "height": "6'10''",
+   "height_in": 82,
+   "weight": 253,
+   "college": "Temple",
+   "hometown": "N/A",
+   "experience": 5,
+   "draft_round": 0,
+   "draft_pick": 0,
+   "attributes": {
+    "inside_scoring": "C+",
+    "outside_scoring": "C-",
+    "handling": "D",
+    "defense": "C-",
+    "rebounding": "C+",
+    "potential": "D"
+   },
+   "achievements": {
+    "championships": 0,
+    "player_of_the_game": 0,
+    "player_of_the_week": 0,
+    "player_of_the_month": 0,
+    "double_doubles": 0,
+    "triple_doubles": 0
+   },
+   "awards": [],
+   "season_averages": {
+    "games": 1,
+    "mpg": 3.0,
+    "ppg": 5.0,
+    "rpg": 1.0,
+    "apg": 0.0,
+    "spg": 0.0,
+    "bpg": 0.0,
+    "topg": 0.0,
+    "fg_pct": 0.5,
+    "ft_pct": 1.0,
+    "three_p_pct": 0.0
+   },
+   "career_highs": {
+    "points": 5,
+    "rebounds": 1,
+    "assists": 0,
+    "steals": 0,
+    "blocks": 0
+   },
+   "contract": {
+    "loyalty": 76,
+    "greed": 25,
+    "play_for_winner": 34,
+    "bird_years": 0,
+    "salary_by_year": [
+     853967,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "total": 853967
+   },
+   "stats": {
+    "columns": [
+     "Season",
+     "Team",
+     "Games",
+     "MPG",
+     "FG",
+     "FGA",
+     "FG %",
+     "FT",
+     "FTA",
+     "FT %",
+     "3P",
+     "3PA",
+     "3P %",
+     "RPG",
+     "APG",
+     "SPG",
+     "BPG",
+     "TOPG",
+     "DQ",
+     "PPG"
+    ],
+    "seasons": [
+     {
+      "season": "2005",
+      "team": "SuperSonics",
+      "games": 1,
+      "mpg": 3.0,
+      "fg": 2,
+      "fga": 4,
+      "fg_pct": 0.5,
+      "ft": 1,
+      "fta": 1,
+      "ft_pct": 1.0,
+      "three_p": 0,
+      "three_pa": 0,
+      "three_p_pct": 0.0,
+      "rpg": 1.0,
+      "apg": 0.0,
+      "spg": 0.0,
+      "bpg": 0.0,
+      "topg": 0.0,
+      "dq": 0,
+      "ppg": 5.0
+     }
+    ],
+    "career": {
+     "games": 1,
+     "mpg": 3.0,
+     "fg": 2,
+     "fga": 4,
+     "fg_pct": 0.5,
+     "ft": 1,
+     "fta": 1,
+     "ft_pct": 1.0,
+     "three_p": 0,
+     "three_pa": 0,
+     "three_p_pct": 0.0,
+     "rpg": 1.0,
+     "apg": 0.0,
+     "spg": 0.0,
+     "bpg": 0.0,
+     "topg": 0.0,
+     "dq": 0,
+     "ppg": 5.0
+    }
+   },
+   "profile_url": "https://simba.mygamesonline.org/players/player345.htm",
+   "box_totals": {
+    "games": 1,
+    "min": 3,
+    "fg": 2,
+    "fga": 4,
+    "three_p": 0,
+    "three_pa": 0,
+    "ft": 1,
+    "fta": 1,
+    "reb": 1,
+    "ast": 0,
+    "pf": 0,
+    "stl": 0,
+    "tov": 0,
+    "blk": 0,
+    "pts": 5
+   },
+   "game_log": [
+    {
+     "d": 32,
+     "min": 3,
+     "pts": 5,
+     "reb": 1,
+     "ast": 0,
+     "stl": 0,
+     "blk": 0,
+     "tov": 0,
+     "fg": 2,
+     "fga": 4,
+     "ft": 1,
+     "fta": 1
+    }
+   ]
   },
   {
    "player_id": 346,

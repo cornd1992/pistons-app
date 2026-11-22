@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-21T17:45:05Z",
-  "parsed_at": "2026-11-21T17:46:51Z"
+  "crawled_at": "2026-11-22T18:14:04Z",
+  "parsed_at": "2026-11-22T18:15:04Z"
  },
  "free_agents": [
   {
@@ -22,22 +22,6 @@
    "height_in": 83
   },
   {
-   "name": "Pero Antic",
-   "player_id": 103,
-   "pos": "C",
-   "height": "6'11''",
-   "weight": 260,
-   "age": 23,
-   "in": "C",
-   "out": "C",
-   "hn": "D",
-   "df": "C-",
-   "reb": "C",
-   "pot": "C",
-   "last_team": "N/A",
-   "height_in": 83
-  },
-  {
    "name": "Rafael Araujo",
    "player_id": 104,
    "pos": "C",
@@ -52,22 +36,6 @@
    "pot": "D",
    "last_team": "N/A",
    "height_in": 83
-  },
-  {
-   "name": "Earl Barron",
-   "player_id": 120,
-   "pos": "C",
-   "height": "7'0''",
-   "weight": 245,
-   "age": 24,
-   "in": "C",
-   "out": "C-",
-   "hn": "D-",
-   "df": "C-",
-   "reb": "C",
-   "pot": "C",
-   "last_team": "N/A",
-   "height_in": 84
   },
   {
    "name": "Mark Blount",
@@ -196,6 +164,23 @@
    "pot": "D",
    "last_team": "N/A",
    "height_in": 85
+  },
+  {
+   "name": "Marc Jackson",
+   "player_id": 345,
+   "pos": "C",
+   "height": "6'10''",
+   "weight": 253,
+   "age": 31,
+   "in": "C+",
+   "out": "C-",
+   "hn": "D",
+   "df": "C-",
+   "reb": "C+",
+   "pot": "D",
+   "last_team": "SuperSonics",
+   "team_id": 29,
+   "height_in": 82
   },
   {
    "name": "Ervin Johnson",
@@ -549,22 +534,6 @@
    "pot": "D",
    "last_team": "N/A",
    "height_in": 81
-  },
-  {
-   "name": "Lonny Baxter",
-   "player_id": 129,
-   "pos": "PF",
-   "height": "6'8''",
-   "weight": 260,
-   "age": 27,
-   "in": "C",
-   "out": "D+",
-   "hn": "D-",
-   "df": "C",
-   "reb": "C",
-   "pot": "D",
-   "last_team": "N/A",
-   "height_in": 80
   },
   {
    "name": "Michael Bradley",
@@ -969,22 +938,6 @@
    "height_in": 80
   },
   {
-   "name": "Nikoloz Tskitishvili",
-   "player_id": 592,
-   "pos": "PF",
-   "height": "7'0''",
-   "weight": 225,
-   "age": 22,
-   "in": "C",
-   "out": "C",
-   "hn": "D",
-   "df": "C-",
-   "reb": "C-",
-   "pot": "D",
-   "last_team": "N/A",
-   "height_in": 84
-  },
-  {
    "name": "Jackson Vroman",
    "player_id": 604,
    "pos": "PF",
@@ -1013,22 +966,6 @@
    "df": "C+",
    "reb": "C-",
    "pot": "F",
-   "last_team": "N/A",
-   "height_in": 80
-  },
-  {
-   "name": "Sean Banks",
-   "player_id": 116,
-   "pos": "SF",
-   "height": "6'8''",
-   "weight": 210,
-   "age": 21,
-   "in": "C",
-   "out": "C",
-   "hn": "C-",
-   "df": "C-",
-   "reb": "C-",
-   "pot": "D",
    "last_team": "N/A",
    "height_in": 80
   },
@@ -1241,22 +1178,6 @@
    "height_in": 81
   },
   {
-   "name": "Luke Jackson",
-   "player_id": 344,
-   "pos": "SF",
-   "height": "6'7''",
-   "weight": 215,
-   "age": 24,
-   "in": "C",
-   "out": "C",
-   "hn": "C-",
-   "df": "C",
-   "reb": "C-",
-   "pot": "D",
-   "last_team": "N/A",
-   "height_in": 79
-  },
-  {
    "name": "Britton Johnsen",
    "player_id": 358,
    "pos": "SF",
@@ -1321,22 +1242,6 @@
    "height_in": 79
   },
   {
-   "name": "Rawle Marshall",
-   "player_id": 409,
-   "pos": "SF",
-   "height": "6'7''",
-   "weight": 190,
-   "age": 23,
-   "in": "C",
-   "out": "C",
-   "hn": "D+",
-   "df": "C",
-   "reb": "D+",
-   "pot": "D",
-   "last_team": "N/A",
-   "height_in": 79
-  },
-  {
    "name": "Sergei Monia",
    "player_id": 441,
    "pos": "SF",
@@ -1365,7 +1270,8 @@
    "df": "C",
    "reb": "C",
    "pot": "D",
-   "last_team": "N/A",
+   "last_team": "Raptors",
+   "team_id": 15,
    "height_in": 81
   },
   {
@@ -1413,7 +1319,8 @@
    "df": "C-",
    "reb": "C",
    "pot": "D",
-   "last_team": "N/A",
+   "last_team": "Knicks",
+   "team_id": 4,
    "height_in": 78
   },
   {
@@ -1593,22 +1500,6 @@
    "height_in": 75
   },
   {
-   "name": "Richie Frahm",
-   "player_id": 255,
-   "pos": "SG",
-   "height": "6'5''",
-   "weight": 210,
-   "age": 28,
-   "in": "C",
-   "out": "C+",
-   "hn": "C-",
-   "df": "C-",
-   "reb": "D+",
-   "pot": "D",
-   "last_team": "N/A",
-   "height_in": 77
-  },
-  {
    "name": "Reece Gaines",
    "player_id": 261,
    "pos": "SG",
@@ -1639,22 +1530,6 @@
    "pot": "F",
    "last_team": "N/A",
    "height_in": 75
-  },
-  {
-   "name": "Lynn Greer",
-   "player_id": 288,
-   "pos": "SG",
-   "height": "6'2''",
-   "weight": 175,
-   "age": 26,
-   "in": "C",
-   "out": "C+",
-   "hn": "C-",
-   "df": "C-",
-   "reb": "D",
-   "pot": "C",
-   "last_team": "N/A",
-   "height_in": 74
   },
   {
    "name": "Trenton Hassell",
@@ -1979,22 +1854,6 @@
    "height_in": 75
   },
   {
-   "name": "Lionel Chalmers",
-   "player_id": 185,
-   "pos": "PG",
-   "height": "6'0''",
-   "weight": 180,
-   "age": 25,
-   "in": "C-",
-   "out": "C",
-   "hn": "C-",
-   "df": "C",
-   "reb": "D+",
-   "pot": "F",
-   "last_team": "N/A",
-   "height_in": 72
-  },
-  {
    "name": "Mateen Cleaves",
    "player_id": 191,
    "pos": "PG",
@@ -2010,22 +1869,6 @@
    "last_team": "Warriors",
    "team_id": 23,
    "height_in": 74
-  },
-  {
-   "name": "Daniel Ewing",
-   "player_id": 240,
-   "pos": "PG",
-   "height": "6'3''",
-   "weight": 185,
-   "age": 22,
-   "in": "C",
-   "out": "C",
-   "hn": "C-",
-   "df": "C",
-   "reb": "D",
-   "pot": "C",
-   "last_team": "N/A",
-   "height_in": 75
   },
   {
    "name": "Anthony Goldwire",
@@ -2108,22 +1951,6 @@
    "height_in": 77
   },
   {
-   "name": "Horace Jenkins",
-   "player_id": 357,
-   "pos": "PG",
-   "height": "6'1''",
-   "weight": 180,
-   "age": 31,
-   "in": "C-",
-   "out": "C",
-   "hn": "C-",
-   "df": "C",
-   "reb": "D",
-   "pot": "F",
-   "last_team": "N/A",
-   "height_in": 73
-  },
-  {
    "name": "Brandin Knight",
    "player_id": 380,
    "pos": "PG",
@@ -2138,23 +1965,6 @@
    "pot": "F",
    "last_team": "N/A",
    "height_in": 72
-  },
-  {
-   "name": "Jeff McInnis",
-   "player_id": 425,
-   "pos": "PG",
-   "height": "6'4''",
-   "weight": 185,
-   "age": 31,
-   "in": "C",
-   "out": "C",
-   "hn": "C",
-   "df": "C",
-   "reb": "D",
-   "pot": "D",
-   "last_team": "Warriors",
-   "team_id": 23,
-   "height_in": 76
   },
   {
    "name": "Keith McLeod",
