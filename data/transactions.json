@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-22T18:14:04Z",
-  "parsed_at": "2026-11-22T18:15:04Z"
+  "crawled_at": "2026-11-23T22:34:32Z",
+  "parsed_at": "2026-11-23T22:35:42Z"
  },
  "transactions": [
   {
@@ -9984,6 +9984,118 @@
    "day": 120,
    "team": "Wizards",
    "action": "Place SF Shandon Anderson on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 122,
+   "team": "Lakers",
+   "action": "Activate SG Allen Iverson from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 122,
+   "team": "Lakers",
+   "action": "Place C Jake Voskuhl on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 122,
+   "team": "Jazz",
+   "action": "Activate C Alonzo Mourning from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 122,
+   "team": "Mavericks",
+   "action": "Activate C Zydrunas Ilgauskas from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 122,
+   "team": "Nuggets",
+   "action": "Activate SG Ray Allen from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 122,
+   "team": "Mavericks",
+   "action": "Place PG Luis Flores on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 122,
+   "team": "Jazz",
+   "action": "Place SG Von Wafer on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 122,
+   "team": "Kings",
+   "action": "Activate PF Antawn Jamison from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 122,
+   "team": "Kings",
+   "action": "Place PF Mike Harris on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 122,
+   "team": "Nuggets",
+   "action": "Place C Dwayne Jones on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 122,
+   "team": "Suns",
+   "action": "Activate PF Scott Padgett from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 122,
+   "team": "Suns",
+   "action": "Place SG Derek Anderson on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 122,
+   "team": "Wizards",
+   "action": "Activate SF Shandon Anderson from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 122,
+   "team": "Wizards",
+   "action": "Place PG Vassilis Spanoulis on Injured Reserve.",
+   "type": "place"
+  },
+  {
+   "season": 2005,
+   "day": 122,
+   "team": "Pacers",
+   "action": "Activate PF Antonio McDyess from Injured Reserve.",
+   "type": "activate"
+  },
+  {
+   "season": 2005,
+   "day": 122,
+   "team": "Pacers",
+   "action": "Place SF Alan Anderson on Injured Reserve.",
    "type": "place"
   }
  ]

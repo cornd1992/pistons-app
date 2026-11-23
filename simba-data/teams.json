@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-22T18:14:04Z",
-  "parsed_at": "2026-11-22T18:15:04Z"
+  "crawled_at": "2026-11-23T22:34:32Z",
+  "parsed_at": "2026-11-23T22:35:42Z"
  },
  "teams": [
   {
@@ -181,14 +181,14 @@
      },
      "salary": {
       "year_1": 1365360,
-      "year_2": 2,
+      "year_2": 1460640,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1365364,
+     "salary_total": 2826002,
      "profile_url": "https://simba.mygamesonline.org/players/player553.htm"
     },
     {
@@ -468,14 +468,14 @@
      },
      "salary": {
       "year_1": 1437240,
-      "year_2": 2,
+      "year_2": 1537440,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1437244,
+     "salary_total": 2974682,
      "profile_url": "https://simba.mygamesonline.org/players/player556.htm"
     },
     {
@@ -649,14 +649,14 @@
     {
      "name": "Austin Croshere",
      "injury": "Ruptured Achilles",
-     "duration": 119
+     "duration": 108
     }
    ],
    "history": {
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 0,
-     "win_rating": 50
+     "win_rating": 37
     },
     "franchise_player_records": [
      {
@@ -815,7 +815,7 @@
      "height_in": 82,
      "weight": 252,
      "ratings": {
-      "in": "C+",
+      "in": "B-",
       "out": "C-",
       "hn": "D-",
       "df": "B",
@@ -837,14 +837,14 @@
      },
      "salary": {
       "year_1": 4020120,
-      "year_2": 2,
+      "year_2": 4300560,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 4020124,
+     "salary_total": 8320682,
      "profile_url": "https://simba.mygamesonline.org/players/player465.htm"
     },
     {
@@ -1042,14 +1042,14 @@
      },
      "salary": {
       "year_1": 407425,
-      "year_2": 2,
+      "year_2": 688474,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 407427,
+     "salary_total": 1095899,
      "profile_url": "https://simba.mygamesonline.org/players/player442.htm"
     },
     {
@@ -1428,8 +1428,8 @@
    "history": {
     "team_information": {
      "championships": 0,
-     "years_in_playoffs": 0,
-     "win_rating": 50
+     "years_in_playoffs": 1,
+     "win_rating": 41
     },
     "franchise_player_records": [
      {
@@ -2201,8 +2201,8 @@
    "history": {
     "team_information": {
      "championships": 0,
-     "years_in_playoffs": 0,
-     "win_rating": 50
+     "years_in_playoffs": 1,
+     "win_rating": 54
     },
     "franchise_player_records": [
      {
@@ -2711,14 +2711,14 @@
      },
      "salary": {
       "year_1": 1297080,
-      "year_2": 2,
+      "year_2": 1387560,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1297084,
+     "salary_total": 2684642,
      "profile_url": "https://simba.mygamesonline.org/players/player550.htm"
     },
     {
@@ -2916,14 +2916,14 @@
      },
      "salary": {
       "year_1": 1010040,
-      "year_2": 2,
+      "year_2": 1080480,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1010044,
+     "salary_total": 2090522,
      "profile_url": "https://simba.mygamesonline.org/players/player624.htm"
     },
     {
@@ -2970,18 +2970,12 @@
    ],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [
-    {
-     "name": "Cuttino Mobley",
-     "injury": "Concussion",
-     "duration": 3
-    }
-   ],
+   "injuries": [],
    "history": {
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 0,
-     "win_rating": 50
+     "win_rating": 35
     },
     "franchise_player_records": [
      {
@@ -3572,14 +3566,14 @@
      },
      "salary": {
       "year_1": 930600,
-      "year_2": 2,
+      "year_2": 1679733,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 930602,
+     "salary_total": 2610333,
      "profile_url": "https://simba.mygamesonline.org/players/player117.htm"
     },
     {
@@ -3753,8 +3747,8 @@
    "history": {
     "team_information": {
      "championships": 0,
-     "years_in_playoffs": 0,
-     "win_rating": 50
+     "years_in_playoffs": 1,
+     "win_rating": 60
     },
     "franchise_player_records": [
      {
@@ -4526,8 +4520,8 @@
    "history": {
     "team_information": {
      "championships": 0,
-     "years_in_playoffs": 0,
-     "win_rating": 50
+     "years_in_playoffs": 1,
+     "win_rating": 45
     },
     "franchise_player_records": [
      {
@@ -5299,8 +5293,8 @@
    "history": {
     "team_information": {
      "championships": 0,
-     "years_in_playoffs": 0,
-     "win_rating": 50
+     "years_in_playoffs": 1,
+     "win_rating": 53
     },
     "franchise_player_records": [
      {
@@ -5850,14 +5844,14 @@
      },
      "salary": {
       "year_1": 910440,
-      "year_2": 2,
+      "year_2": 973920,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 910444,
+     "salary_total": 1884362,
      "profile_url": "https://simba.mygamesonline.org/players/player605.htm"
     },
     {
@@ -5891,14 +5885,14 @@
      },
      "salary": {
       "year_1": 1100000,
-      "year_2": 2,
+      "year_2": null,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1100002,
+     "salary_total": 1100000,
      "profile_url": "https://simba.mygamesonline.org/players/player180.htm"
     },
     {
@@ -6073,7 +6067,7 @@
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 0,
-     "win_rating": 50
+     "win_rating": 37
     },
     "franchise_player_records": [
      {
@@ -6500,14 +6494,14 @@
      },
      "salary": {
       "year_1": 3713640,
-      "year_2": 2,
+      "year_2": 4694041,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 3713642,
+     "salary_total": 8407681,
      "profile_url": "https://simba.mygamesonline.org/players/player102.htm"
     },
     {
@@ -6541,14 +6535,14 @@
      },
      "salary": {
       "year_1": 1082160,
-      "year_2": 2,
+      "year_2": 1836426,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1082162,
+     "salary_total": 2918586,
      "profile_url": "https://simba.mygamesonline.org/players/player473.htm"
     },
     {
@@ -6841,18 +6835,12 @@
    ],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [
-    {
-     "name": "Mehmet Okur",
-     "injury": "Fractured Hip",
-     "duration": 11
-    }
-   ],
+   "injuries": [],
    "history": {
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 0,
-     "win_rating": 50
+     "win_rating": 39
     },
     "franchise_player_records": [
      {
@@ -7033,14 +7021,14 @@
      },
      "salary": {
       "year_1": 2753760,
-      "year_2": 2,
+      "year_2": 3491768,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 2753762,
+     "salary_total": 6245528,
      "profile_url": "https://simba.mygamesonline.org/players/player373.htm"
     },
     {
@@ -7074,14 +7062,14 @@
      },
      "salary": {
       "year_1": 898200,
-      "year_2": 2,
+      "year_2": 960840,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 898204,
+     "salary_total": 1859042,
      "profile_url": "https://simba.mygamesonline.org/players/player305.htm"
     },
     {
@@ -7238,14 +7226,14 @@
      },
      "salary": {
       "year_1": 1815000,
-      "year_2": 2,
+      "year_2": 2501070,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1815002,
+     "salary_total": 4316070,
      "profile_url": "https://simba.mygamesonline.org/players/player194.htm"
     },
     {
@@ -7566,14 +7554,14 @@
      },
      "salary": {
       "year_1": 2947440,
-      "year_2": 2,
+      "year_2": 3153120,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 2947444,
+     "salary_total": 6100562,
      "profile_url": "https://simba.mygamesonline.org/players/player303.htm"
     },
     {
@@ -7625,7 +7613,7 @@
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 0,
-     "win_rating": 50
+     "win_rating": 32
     },
     "franchise_player_records": [
      {
@@ -8356,19 +8344,14 @@
     {
      "name": "Tracy McGrady",
      "injury": "Ruptured Achilles",
-     "duration": 111
-    },
-    {
-     "name": "Peja Stojakovic",
-     "injury": "Broken Jaw",
-     "duration": 9
+     "duration": 100
     }
    ],
    "history": {
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 0,
-     "win_rating": 50
+     "win_rating": 33
     },
     "franchise_player_records": [
      {
@@ -9140,8 +9123,8 @@
    "history": {
     "team_information": {
      "championships": 0,
-     "years_in_playoffs": 0,
-     "win_rating": 50
+     "years_in_playoffs": 1,
+     "win_rating": 47
     },
     "franchise_player_records": [
      {
@@ -9322,14 +9305,14 @@
      },
      "salary": {
       "year_1": 1857360,
-      "year_2": 2,
+      "year_2": 1986960,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1857364,
+     "salary_total": 3844322,
      "profile_url": "https://simba.mygamesonline.org/players/player134.htm"
     },
     {
@@ -9650,14 +9633,14 @@
      },
      "salary": {
       "year_1": 3031920,
-      "year_2": 2,
+      "year_2": 3841443,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 3031922,
+     "salary_total": 6873363,
      "profile_url": "https://simba.mygamesonline.org/players/player606.htm"
     },
     {
@@ -9913,14 +9896,14 @@
     {
      "name": "Antonio McDyess",
      "injury": "Broken Skull",
-     "duration": 23
+     "duration": 12
     }
    ],
    "history": {
     "team_information": {
      "championships": 0,
-     "years_in_playoffs": 0,
-     "win_rating": 50
+     "years_in_playoffs": 1,
+     "win_rating": 60
     },
     "franchise_player_records": [
      {
@@ -10692,8 +10675,8 @@
    "history": {
     "team_information": {
      "championships": 0,
-     "years_in_playoffs": 0,
-     "win_rating": 50
+     "years_in_playoffs": 1,
+     "win_rating": 41
     },
     "franchise_player_records": [
      {
@@ -10874,14 +10857,14 @@
      },
      "salary": {
       "year_1": 936480,
-      "year_2": 2,
+      "year_2": 1689409,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 936482,
+     "salary_total": 2625889,
      "profile_url": "https://simba.mygamesonline.org/players/player487.htm"
     },
     {
@@ -11120,14 +11103,14 @@
      },
      "salary": {
       "year_1": 2058000,
-      "year_2": 2,
+      "year_2": 2201640,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 2058004,
+     "salary_total": 4259642,
      "profile_url": "https://simba.mygamesonline.org/players/player334.htm"
     },
     {
@@ -11243,14 +11226,14 @@
      },
      "salary": {
       "year_1": 969600,
-      "year_2": 2,
+      "year_2": 1037280,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 969604,
+     "salary_total": 2006882,
      "profile_url": "https://simba.mygamesonline.org/players/player93.htm"
     },
     {
@@ -11407,14 +11390,14 @@
      },
      "salary": {
       "year_1": 655690,
-      "year_2": 2,
+      "year_2": 771751,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 655692,
+     "salary_total": 1427441,
      "profile_url": "https://simba.mygamesonline.org/players/player339.htm"
     },
     {
@@ -11466,7 +11449,7 @@
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 0,
-     "win_rating": 50
+     "win_rating": 30
     },
     "franchise_player_records": [
      {
@@ -11625,11 +11608,11 @@
      "height_in": 87,
      "weight": 260,
      "ratings": {
-      "in": "B-",
+      "in": "C+",
       "out": "C-",
       "hn": "D",
-      "df": "B",
-      "reb": "B",
+      "df": "C+",
+      "reb": "C+",
       "pot": "D"
      },
      "season_stats": {
@@ -12193,18 +12176,12 @@
    ],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [
-    {
-     "name": "Zydrunas Ilgauskas",
-     "injury": "Torn Hamstring",
-     "duration": 10
-    }
-   ],
+   "injuries": [],
    "history": {
     "team_information": {
      "championships": 0,
-     "years_in_playoffs": 0,
-     "win_rating": 50
+     "years_in_playoffs": 1,
+     "win_rating": 59
     },
     "franchise_player_records": [
      {
@@ -12732,8 +12709,8 @@
      "height_in": 77,
      "weight": 205,
      "ratings": {
-      "in": "B-",
-      "out": "B+",
+      "in": "C+",
+      "out": "B",
       "hn": "C",
       "df": "C",
       "reb": "C-",
@@ -12776,7 +12753,7 @@
       "in": "C",
       "out": "B-",
       "hn": "C",
-      "df": "C+",
+      "df": "B-",
       "reb": "C-",
       "pot": "D"
      },
@@ -12972,18 +12949,12 @@
    ],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [
-    {
-     "name": "Ray Allen",
-     "injury": "Sprained Knee",
-     "duration": 4
-    }
-   ],
+   "injuries": [],
    "history": {
     "team_information": {
      "championships": 0,
-     "years_in_playoffs": 0,
-     "win_rating": 50
+     "years_in_playoffs": 1,
+     "win_rating": 55
     },
     "franchise_player_records": [
      {
@@ -13410,14 +13381,14 @@
      },
      "salary": {
       "year_1": 923880,
-      "year_2": 2,
+      "year_2": 1667603,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 923882,
+     "salary_total": 2591483,
      "profile_url": "https://simba.mygamesonline.org/players/player324.htm"
     },
     {
@@ -13451,14 +13422,14 @@
      },
      "salary": {
       "year_1": 1223160,
-      "year_2": 2,
+      "year_2": 1886113,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1223162,
+     "salary_total": 3109273,
      "profile_url": "https://simba.mygamesonline.org/players/player365.htm"
     },
     {
@@ -13615,14 +13586,14 @@
      },
      "salary": {
       "year_1": 3254880,
-      "year_2": 2,
+      "year_2": 3481920,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 3254884,
+     "salary_total": 6736802,
      "profile_url": "https://simba.mygamesonline.org/players/player395.htm"
     },
     {
@@ -13714,8 +13685,8 @@
    "history": {
     "team_information": {
      "championships": 0,
-     "years_in_playoffs": 0,
-     "win_rating": 50
+     "years_in_playoffs": 1,
+     "win_rating": 59
     },
     "franchise_player_records": [
      {
@@ -14488,7 +14459,7 @@
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 0,
-     "win_rating": 50
+     "win_rating": 38
     },
     "franchise_player_records": [
      {
@@ -15261,7 +15232,7 @@
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 0,
-     "win_rating": 50
+     "win_rating": 40
     },
     "franchise_player_records": [
      {
@@ -15789,11 +15760,11 @@
      "height_in": 79,
      "weight": 193,
      "ratings": {
-      "in": "B-",
-      "out": "B",
+      "in": "C+",
+      "out": "B-",
       "hn": "C",
-      "df": "C+",
-      "reb": "C-",
+      "df": "C",
+      "reb": "D+",
       "pot": "C"
      },
      "season_stats": {
@@ -15893,14 +15864,14 @@
      },
      "salary": {
       "year_1": 407425,
-      "year_2": 2,
+      "year_2": 688474,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 407427,
+     "salary_total": 1095899,
      "profile_url": "https://simba.mygamesonline.org/players/player607.htm"
     },
     {
@@ -16029,23 +16000,12 @@
    ],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [
-    {
-     "name": "Richard Hamilton",
-     "injury": "Groin Pull",
-     "duration": 7
-    },
-    {
-     "name": "Alonzo Mourning",
-     "injury": "Bruised Jaw",
-     "duration": 3
-    }
-   ],
+   "injuries": [],
    "history": {
     "team_information": {
      "championships": 0,
-     "years_in_playoffs": 0,
-     "win_rating": 50
+     "years_in_playoffs": 1,
+     "win_rating": 52
     },
     "franchise_player_records": [
      {
@@ -16267,14 +16227,14 @@
      },
      "salary": {
       "year_1": 1010040,
-      "year_2": 2,
+      "year_2": 1080480,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1010044,
+     "salary_total": 2090522,
      "profile_url": "https://simba.mygamesonline.org/players/player384.htm"
     },
     {
@@ -16390,14 +16350,14 @@
      },
      "salary": {
       "year_1": 1174200,
-      "year_2": 2,
+      "year_2": 1870501,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1174202,
+     "salary_total": 3044701,
      "profile_url": "https://simba.mygamesonline.org/players/player214.htm"
     },
     {
@@ -16472,14 +16432,14 @@
      },
      "salary": {
       "year_1": 2443920,
-      "year_2": 2,
+      "year_2": 2614440,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 2443924,
+     "salary_total": 5058362,
      "profile_url": "https://simba.mygamesonline.org/players/player213.htm"
     },
     {
@@ -16513,14 +16473,14 @@
      },
      "salary": {
       "year_1": 1910520,
-      "year_2": 2,
+      "year_2": 2535260,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1910522,
+     "salary_total": 4445780,
      "profile_url": "https://simba.mygamesonline.org/players/player492.htm"
     },
     {
@@ -16677,14 +16637,14 @@
      },
      "salary": {
       "year_1": 1274160,
-      "year_2": 2,
+      "year_2": 1962206,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1274162,
+     "salary_total": 3236366,
      "profile_url": "https://simba.mygamesonline.org/players/player484.htm"
     },
     {
@@ -16718,14 +16678,14 @@
      },
      "salary": {
       "year_1": 904800,
-      "year_2": 2,
+      "year_2": 967920,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 904804,
+     "salary_total": 1872722,
      "profile_url": "https://simba.mygamesonline.org/players/player596.htm"
     },
     {
@@ -16800,36 +16760,25 @@
      },
      "salary": {
       "year_1": 1127280,
-      "year_2": 2,
+      "year_2": null,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1127282,
+     "salary_total": 1127280,
      "profile_url": "https://simba.mygamesonline.org/players/player494.htm"
     }
    ],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [
-    {
-     "name": "Sarunas Jasikevicius",
-     "injury": "Groin Pull",
-     "duration": 6
-    },
-    {
-     "name": "Andrew Bogut",
-     "injury": "Fractured Cheekbone",
-     "duration": 2
-    }
-   ],
+   "injuries": [],
    "history": {
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 0,
-     "win_rating": 50
+     "win_rating": 35
     },
     "franchise_player_records": [
      {
@@ -17601,14 +17550,14 @@
     {
      "name": "Morris Peterson",
      "injury": "Torn ACL",
-     "duration": 82
+     "duration": 71
     }
    ],
    "history": {
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 0,
-     "win_rating": 50
+     "win_rating": 27
     },
     "franchise_player_records": [
      {
@@ -17789,14 +17738,14 @@
      },
      "salary": {
       "year_1": 1512840,
-      "year_2": 2,
+      "year_2": 1618320,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1512844,
+     "salary_total": 3131162,
      "profile_url": "https://simba.mygamesonline.org/players/player354.htm"
     },
     {
@@ -17912,14 +17861,14 @@
      },
      "salary": {
       "year_1": 3348000,
-      "year_2": 2,
+      "year_2": 4235220,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 3348002,
+     "salary_total": 7583220,
      "profile_url": "https://simba.mygamesonline.org/players/player146.htm"
     },
     {
@@ -18380,8 +18329,8 @@
    "history": {
     "team_information": {
      "championships": 0,
-     "years_in_playoffs": 0,
-     "win_rating": 50
+     "years_in_playoffs": 1,
+     "win_rating": 43
     },
     "franchise_player_records": [
      {
@@ -18909,11 +18858,11 @@
      "height_in": 72,
      "weight": 165,
      "ratings": {
-      "in": "B+",
+      "in": "B",
       "out": "C+",
       "hn": "B",
       "df": "C+",
-      "reb": "D",
+      "reb": "D+",
       "pot": "D"
      },
      "season_stats": {
@@ -19149,18 +19098,12 @@
    ],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [
-    {
-     "name": "Allen Iverson",
-     "injury": "Scratched Cornea",
-     "duration": 11
-    }
-   ],
+   "injuries": [],
    "history": {
     "team_information": {
      "championships": 0,
-     "years_in_playoffs": 0,
-     "win_rating": 50
+     "years_in_playoffs": 1,
+     "win_rating": 62
     },
     "franchise_player_records": [
      {
@@ -19628,14 +19571,14 @@
      },
      "salary": {
       "year_1": 969600,
-      "year_2": 2,
+      "year_2": 1037280,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 969604,
+     "salary_total": 2006882,
      "profile_url": "https://simba.mygamesonline.org/players/player211.htm"
     },
     {
@@ -19751,14 +19694,14 @@
      },
      "salary": {
       "year_1": 937440,
-      "year_2": 2,
+      "year_2": 1002840,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 937444,
+     "salary_total": 1940282,
      "profile_url": "https://simba.mygamesonline.org/players/player412.htm"
     },
     {
@@ -19874,14 +19817,14 @@
      },
      "salary": {
       "year_1": 1638000,
-      "year_2": 2,
+      "year_2": 2425878,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1638002,
+     "salary_total": 4063878,
      "profile_url": "https://simba.mygamesonline.org/players/player519.htm"
     },
     {
@@ -19932,8 +19875,8 @@
    "history": {
     "team_information": {
      "championships": 0,
-     "years_in_playoffs": 0,
-     "win_rating": 50
+     "years_in_playoffs": 1,
+     "win_rating": 44
     },
     "franchise_player_records": [
      {
@@ -20114,14 +20057,14 @@
      },
      "salary": {
       "year_1": 4493160,
-      "year_2": 2,
+      "year_2": 4806720,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 4493164,
+     "salary_total": 9299882,
      "profile_url": "https://simba.mygamesonline.org/players/player323.htm"
     },
     {
@@ -20196,14 +20139,14 @@
      },
      "salary": {
       "year_1": 4135200,
-      "year_2": 2,
+      "year_2": null,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 4135202,
+     "salary_total": 4135200,
      "profile_url": "https://simba.mygamesonline.org/players/player433.htm"
     },
     {
@@ -20237,14 +20180,14 @@
      },
      "salary": {
       "year_1": 1592400,
-      "year_2": 2,
+      "year_2": 1703520,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1592404,
+     "salary_total": 3295922,
      "profile_url": "https://simba.mygamesonline.org/players/player330.htm"
     },
     {
@@ -20565,14 +20508,14 @@
      },
      "salary": {
       "year_1": 1189200,
-      "year_2": 2,
+      "year_2": 1272120,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1189204,
+     "salary_total": 2461322,
      "profile_url": "https://simba.mygamesonline.org/players/player457.htm"
     },
     {
@@ -20701,18 +20644,12 @@
    ],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [
-    {
-     "name": "Raja Bell",
-     "injury": "Broken Ribs",
-     "duration": 2
-    }
-   ],
+   "injuries": [],
    "history": {
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 0,
-     "win_rating": 50
+     "win_rating": 34
     },
     "franchise_player_records": [
      {
@@ -20953,7 +20890,7 @@
      "height_in": 81,
      "weight": 235,
      "ratings": {
-      "in": "B-",
+      "in": "B",
       "out": "B-",
       "hn": "C-",
       "df": "C",
@@ -21016,14 +20953,14 @@
      },
      "salary": {
       "year_1": 1038960,
-      "year_2": 2,
+      "year_2": 1817141,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1038962,
+     "salary_total": 2856101,
      "profile_url": "https://simba.mygamesonline.org/players/player196.htm"
     },
     {
@@ -21057,14 +20994,14 @@
      },
      "salary": {
       "year_1": 2116920,
-      "year_2": 2,
+      "year_2": 2696956,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 2116922,
+     "salary_total": 4813876,
      "profile_url": "https://simba.mygamesonline.org/players/player571.htm"
     },
     {
@@ -21221,14 +21158,14 @@
      },
      "salary": {
       "year_1": 2011080,
-      "year_2": 2,
+      "year_2": 2564127,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 2011082,
+     "salary_total": 4575207,
      "profile_url": "https://simba.mygamesonline.org/players/player311.htm"
     },
     {
@@ -21443,8 +21380,8 @@
    "history": {
     "team_information": {
      "championships": 0,
-     "years_in_playoffs": 0,
-     "win_rating": 50
+     "years_in_playoffs": 1,
+     "win_rating": 48
     },
     "franchise_player_records": [
      {
@@ -22217,7 +22154,7 @@
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 0,
-     "win_rating": 50
+     "win_rating": 29
     },
     "franchise_player_records": [
      {

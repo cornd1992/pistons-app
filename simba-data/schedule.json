@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-22T18:14:04Z",
-  "parsed_at": "2026-11-22T18:15:04Z"
+  "crawled_at": "2026-11-23T22:34:32Z",
+  "parsed_at": "2026-11-23T22:35:42Z"
  },
  "league": {
   "months": [
@@ -2755,13 +2755,13 @@
    "games_scheduled": 82,
    "post_season": {
     "Round 1": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a"
+     "PACERS 88, Heat 77",
+     "PACERS 91, Heat 88",
+     "HEAT 101, Pacers 92",
+     "HEAT 85, Pacers 66",
+     "PACERS 96, Heat 72",
+     "HEAT 68, Pacers 66",
+     "PACERS 105, Heat 73"
     ],
     "Round 2": [
      "n/a",
@@ -3891,16 +3891,16 @@
    "games_scheduled": 82,
    "post_season": {
     "Round 1": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a"
+     "Nets 123, 76ERS 114",
+     "Nets 98, 76ERS 95",
+     "NETS 105, 76ers 80",
+     "76ers 105, NETS 98",
+     "76ERS 100, Nets 98",
+     "76ers 103, NETS 96",
+     "Nets 93, 76ERS 82"
     ],
     "Round 2": [
-     "n/a",
+     "Nets @ Pacers",
      "n/a",
      "n/a",
      "n/a",
@@ -6163,16 +6163,16 @@
    "games_scheduled": 82,
    "post_season": {
     "Round 1": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
+     "MAGIC 107, Bucks 85",
+     "MAGIC 105, Bucks 90",
+     "Magic 118, BUCKS 95",
+     "Magic 83, BUCKS 78",
      "n/a",
      "n/a",
      "n/a"
     ],
     "Round 2": [
-     "n/a",
+     "Wizards @ Magic",
      "n/a",
      "n/a",
      "n/a",
@@ -7299,13 +7299,13 @@
    "games_scheduled": 82,
    "post_season": {
     "Round 1": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a"
+     "Nets 123, 76ERS 114",
+     "Nets 98, 76ERS 95",
+     "NETS 105, 76ers 80",
+     "76ers 105, NETS 98",
+     "76ERS 100, Nets 98",
+     "76ers 103, NETS 96",
+     "Nets 93, 76ERS 82"
     ],
     "Round 2": [
      "n/a",
@@ -8435,16 +8435,16 @@
    "games_scheduled": 82,
    "post_season": {
     "Round 1": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
+     "Wizards 91, PISTONS 84",
+     "PISTONS 94, Wizards 93",
+     "Pistons 123, WIZARDS 113",
+     "WIZARDS 97, Pistons 72",
+     "Wizards 90, PISTONS 71",
+     "WIZARDS 106, Pistons 78",
      "n/a"
     ],
     "Round 2": [
-     "n/a",
+     "Wizards @ Magic",
      "n/a",
      "n/a",
      "n/a",
@@ -14115,12 +14115,12 @@
    "games_scheduled": 82,
    "post_season": {
     "Round 1": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
+     "Wizards 91, PISTONS 84",
+     "PISTONS 94, Wizards 93",
+     "Pistons 123, WIZARDS 113",
+     "WIZARDS 97, Pistons 72",
+     "Wizards 90, PISTONS 71",
+     "WIZARDS 106, Pistons 78",
      "n/a"
     ],
     "Round 2": [
@@ -15251,16 +15251,16 @@
    "games_scheduled": 82,
    "post_season": {
     "Round 1": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a"
+     "PACERS 88, Heat 77",
+     "PACERS 91, Heat 88",
+     "HEAT 101, Pacers 92",
+     "HEAT 85, Pacers 66",
+     "PACERS 96, Heat 72",
+     "HEAT 68, Pacers 66",
+     "PACERS 105, Heat 73"
     ],
     "Round 2": [
-     "n/a",
+     "Nets @ Pacers",
      "n/a",
      "n/a",
      "n/a",
@@ -16387,10 +16387,10 @@
    "games_scheduled": 82,
    "post_season": {
     "Round 1": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
+     "MAGIC 107, Bucks 85",
+     "MAGIC 105, Bucks 90",
+     "Magic 118, BUCKS 95",
+     "Magic 83, BUCKS 78",
      "n/a",
      "n/a",
      "n/a"
@@ -18659,16 +18659,16 @@
    "games_scheduled": 82,
    "post_season": {
     "Round 1": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a"
+     "MAVERICKS 104, Clippers 92",
+     "MAVERICKS 96, Clippers 73",
+     "CLIPPERS 106, Mavericks 88",
+     "Mavericks 101, CLIPPERS 86",
+     "Clippers 88, MAVERICKS 71",
+     "CLIPPERS 107, Mavericks 106",
+     "MAVERICKS 85, Clippers 71"
     ],
     "Round 2": [
-     "n/a",
+     "Rockets @ Mavericks",
      "n/a",
      "n/a",
      "n/a",
@@ -19795,16 +19795,16 @@
    "games_scheduled": 82,
    "post_season": {
     "Round 1": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a"
+     "KINGS 113, Nuggets 109",
+     "KINGS 84, Nuggets 73",
+     "NUGGETS 101, Kings 96",
+     "Kings 94, NUGGETS 92",
+     "Nuggets 112, KINGS 104",
+     "NUGGETS 91, Kings 84",
+     "Nuggets 102, KINGS 97"
     ],
     "Round 2": [
-     "n/a",
+     "Jazz @ Nuggets",
      "n/a",
      "n/a",
      "n/a",
@@ -20931,16 +20931,16 @@
    "games_scheduled": 82,
    "post_season": {
     "Round 1": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a"
+     "Suns 92, ROCKETS 89",
+     "ROCKETS 108, Suns 106",
+     "Rockets 110, SUNS 82",
+     "SUNS 95, Rockets 93",
+     "ROCKETS 83, Suns 70",
+     "SUNS 92, Rockets 89",
+     "ROCKETS 78, Suns 77"
     ],
     "Round 2": [
-     "n/a",
+     "Rockets @ Mavericks",
      "n/a",
      "n/a",
      "n/a",
@@ -24339,16 +24339,16 @@
    "games_scheduled": 82,
    "post_season": {
     "Round 1": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
+     "LAKERS 89, Jazz 74",
+     "LAKERS 80, Jazz 65",
+     "JAZZ 92, Lakers 78",
+     "JAZZ 85, Lakers 77",
+     "Jazz 79, LAKERS 76",
+     "JAZZ 88, Lakers 86",
      "n/a"
     ],
     "Round 2": [
-     "n/a",
+     "Jazz @ Nuggets",
      "n/a",
      "n/a",
      "n/a",
@@ -27747,13 +27747,13 @@
    "games_scheduled": 82,
    "post_season": {
     "Round 1": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a"
+     "MAVERICKS 104, Clippers 92",
+     "MAVERICKS 96, Clippers 73",
+     "CLIPPERS 106, Mavericks 88",
+     "Mavericks 101, CLIPPERS 86",
+     "Clippers 88, MAVERICKS 71",
+     "CLIPPERS 107, Mavericks 106",
+     "MAVERICKS 85, Clippers 71"
     ],
     "Round 2": [
      "n/a",
@@ -28883,12 +28883,12 @@
    "games_scheduled": 82,
    "post_season": {
     "Round 1": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
+     "LAKERS 89, Jazz 74",
+     "LAKERS 80, Jazz 65",
+     "JAZZ 92, Lakers 78",
+     "JAZZ 85, Lakers 77",
+     "Jazz 79, LAKERS 76",
+     "JAZZ 88, Lakers 86",
      "n/a"
     ],
     "Round 2": [
@@ -30019,13 +30019,13 @@
    "games_scheduled": 82,
    "post_season": {
     "Round 1": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a"
+     "Suns 92, ROCKETS 89",
+     "ROCKETS 108, Suns 106",
+     "Rockets 110, SUNS 82",
+     "SUNS 95, Rockets 93",
+     "ROCKETS 83, Suns 70",
+     "SUNS 92, Rockets 89",
+     "ROCKETS 78, Suns 77"
     ],
     "Round 2": [
      "n/a",
@@ -32291,13 +32291,13 @@
    "games_scheduled": 82,
    "post_season": {
     "Round 1": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a"
+     "KINGS 113, Nuggets 109",
+     "KINGS 84, Nuggets 73",
+     "NUGGETS 101, Kings 96",
+     "Kings 94, NUGGETS 92",
+     "Nuggets 112, KINGS 104",
+     "NUGGETS 91, Kings 84",
+     "Nuggets 102, KINGS 97"
     ],
     "Round 2": [
      "n/a",
