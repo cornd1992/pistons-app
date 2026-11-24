@@ -1,6 +1,6 @@
 # Sitemap: simba.mygamesonline.org
 
-- **Crawl date:** 2026-11-23
+- **Crawl date:** 2026-11-24
 - **Pages found:** 2769
 - **Broken/errored links:** 10
 - **URLs fetched:** 2779
@@ -11,7 +11,7 @@
 - No `/robots.txt` (404) and no `/sitemap.xml` (404).
 - Home is a frameset (`index2.htm` menu + `index1.htm`); JS `<select>` menu option values extracted as links.
 - Full crawl: every discovered same-host page was fetched.
-- Crawl took 2784.3 s, 2785 HTTP requests.
+- Crawl took 2778.5 s, 2779 HTTP requests.
 - Player pages embed a stats iframe (`playerNstats.htm`), crawled as separate pages.
 
 ## Pages (2769)
