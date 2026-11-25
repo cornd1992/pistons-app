@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-24T21:12:03Z",
-  "parsed_at": "2026-11-24T21:13:20Z"
+  "crawled_at": "2026-11-25T20:26:30Z",
+  "parsed_at": "2026-11-25T20:28:19Z"
  },
  "divisional": [
   {
@@ -14,7 +14,7 @@
      "w": 50,
      "l": 32,
      "win_pct": 0.61,
-     "last10": "7-3",
+     "last10": "9-1",
      "home": "31-10",
      "gb": 0.0
     },
@@ -34,7 +34,7 @@
      "w": 44,
      "l": 38,
      "win_pct": 0.537,
-     "last10": "7-3",
+     "last10": "3-7",
      "home": "25-16",
      "gb": 6.0
     },
@@ -44,7 +44,7 @@
      "w": 43,
      "l": 39,
      "win_pct": 0.524,
-     "last10": "5-5",
+     "last10": "4-6",
      "home": "24-17",
      "gb": 7.0
     },
@@ -89,7 +89,7 @@
      "w": 50,
      "l": 32,
      "win_pct": 0.61,
-     "last10": "6-4",
+     "last10": "7-3",
      "home": "26-15",
      "gb": 0.0
     },
@@ -174,7 +174,7 @@
      "w": 49,
      "l": 33,
      "win_pct": 0.598,
-     "last10": "7-3",
+     "last10": "5-5",
      "home": "26-15",
      "gb": 0.0
     },
@@ -184,7 +184,7 @@
      "w": 49,
      "l": 33,
      "win_pct": 0.598,
-     "last10": "7-3",
+     "last10": "5-5",
      "home": "32-9",
      "gb": 0.0
     },
@@ -194,7 +194,7 @@
      "w": 45,
      "l": 37,
      "win_pct": 0.549,
-     "last10": "7-3",
+     "last10": "6-4",
      "home": "30-11",
      "gb": 4.0
     },
@@ -327,7 +327,7 @@
      "w": 50,
      "l": 32,
      "win_pct": 0.61,
-     "last10": "6-4",
+     "last10": "7-3",
      "home": "26-15",
      "gb": 0.0
     },
@@ -338,7 +338,7 @@
      "w": 50,
      "l": 32,
      "win_pct": 0.61,
-     "last10": "7-3",
+     "last10": "9-1",
      "home": "31-10",
      "gb": 0.0
     },
@@ -371,7 +371,7 @@
      "w": 44,
      "l": 38,
      "win_pct": 0.537,
-     "last10": "7-3",
+     "last10": "3-7",
      "home": "25-16",
      "gb": 6.0
     },
@@ -382,7 +382,7 @@
      "w": 43,
      "l": 39,
      "win_pct": 0.524,
-     "last10": "5-5",
+     "last10": "4-6",
      "home": "24-17",
      "gb": 7.0
     },
@@ -508,7 +508,7 @@
      "w": 49,
      "l": 33,
      "win_pct": 0.598,
-     "last10": "7-3",
+     "last10": "5-5",
      "home": "26-15",
      "gb": 13.0
     },
@@ -519,7 +519,7 @@
      "w": 49,
      "l": 33,
      "win_pct": 0.598,
-     "last10": "7-3",
+     "last10": "5-5",
      "home": "32-9",
      "gb": 13.0
     },
@@ -541,7 +541,7 @@
      "w": 45,
      "l": 37,
      "win_pct": 0.549,
-     "last10": "7-3",
+     "last10": "6-4",
      "home": "30-11",
      "gb": 17.0
     },
@@ -681,8 +681,8 @@
    "losses": 38,
    "win_pct": 0.537,
    "playoff_wins": 4,
-   "playoff_losses": 3,
-   "playoff_win_pct": 0.571,
+   "playoff_losses": 7,
+   "playoff_win_pct": 0.364,
    "playoffs": 1,
    "finals": 0,
    "championships": 0
@@ -706,9 +706,9 @@
    "wins": 50,
    "losses": 32,
    "win_pct": 0.61,
-   "playoff_wins": 4,
-   "playoff_losses": 0,
-   "playoff_win_pct": 1.0,
+   "playoff_wins": 8,
+   "playoff_losses": 1,
+   "playoff_win_pct": 0.889,
    "playoffs": 1,
    "finals": 0,
    "championships": 0
@@ -732,9 +732,9 @@
    "wins": 43,
    "losses": 39,
    "win_pct": 0.524,
-   "playoff_wins": 4,
-   "playoff_losses": 2,
-   "playoff_win_pct": 0.667,
+   "playoff_wins": 5,
+   "playoff_losses": 6,
+   "playoff_win_pct": 0.455,
    "playoffs": 1,
    "finals": 0,
    "championships": 0
@@ -810,9 +810,9 @@
    "wins": 50,
    "losses": 32,
    "win_pct": 0.61,
-   "playoff_wins": 4,
+   "playoff_wins": 8,
    "playoff_losses": 3,
-   "playoff_win_pct": 0.571,
+   "playoff_win_pct": 0.727,
    "playoffs": 1,
    "finals": 0,
    "championships": 0
@@ -849,8 +849,8 @@
    "wins": 49,
    "losses": 33,
    "win_pct": 0.598,
-   "playoff_wins": 4,
-   "playoff_losses": 3,
+   "playoff_wins": 8,
+   "playoff_losses": 6,
    "playoff_win_pct": 0.571,
    "playoffs": 1,
    "finals": 0,
@@ -862,9 +862,9 @@
    "wins": 45,
    "losses": 37,
    "win_pct": 0.549,
-   "playoff_wins": 4,
-   "playoff_losses": 3,
-   "playoff_win_pct": 0.571,
+   "playoff_wins": 7,
+   "playoff_losses": 7,
+   "playoff_win_pct": 0.5,
    "playoffs": 1,
    "finals": 0,
    "championships": 0
@@ -875,9 +875,9 @@
    "wins": 49,
    "losses": 33,
    "win_pct": 0.598,
-   "playoff_wins": 4,
-   "playoff_losses": 3,
-   "playoff_win_pct": 0.571,
+   "playoff_wins": 7,
+   "playoff_losses": 7,
+   "playoff_win_pct": 0.5,
    "playoffs": 1,
    "finals": 0,
    "championships": 0
@@ -914,9 +914,9 @@
    "wins": 42,
    "losses": 40,
    "win_pct": 0.512,
-   "playoff_wins": 4,
-   "playoff_losses": 2,
-   "playoff_win_pct": 0.667,
+   "playoff_wins": 8,
+   "playoff_losses": 5,
+   "playoff_win_pct": 0.615,
    "playoffs": 1,
    "finals": 0,
    "championships": 0

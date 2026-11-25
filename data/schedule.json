@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-24T21:12:03Z",
-  "parsed_at": "2026-11-24T21:13:20Z"
+  "crawled_at": "2026-11-25T20:26:30Z",
+  "parsed_at": "2026-11-25T20:28:19Z"
  },
  "league": {
   "months": [
@@ -3900,10 +3900,10 @@
      "Nets 93, 76ERS 82"
     ],
     "Round 2": [
-     "Nets @ Pacers",
-     "n/a",
-     "n/a",
-     "n/a",
+     "PACERS 107, Nets 106",
+     "PACERS 89, Nets 68",
+     "Pacers 108, NETS 97",
+     "Pacers 82, NETS 75",
      "n/a",
      "n/a",
      "n/a"
@@ -6172,16 +6172,16 @@
      "n/a"
     ],
     "Round 2": [
-     "Wizards @ Magic",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
+     "MAGIC 97, Wizards 96",
+     "Wizards 92, MAGIC 82",
+     "Magic 91, WIZARDS 88",
+     "Magic 108, WIZARDS 96",
+     "MAGIC 95, Wizards 92",
      "n/a",
      "n/a"
     ],
     "Semi-Finals": [
-     "n/a",
+     "Magic @ Pacers",
      "n/a",
      "n/a",
      "n/a",
@@ -8444,11 +8444,11 @@
      "n/a"
     ],
     "Round 2": [
-     "Wizards @ Magic",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
+     "MAGIC 97, Wizards 96",
+     "Wizards 92, MAGIC 82",
+     "Magic 91, WIZARDS 88",
+     "Magic 108, WIZARDS 96",
+     "MAGIC 95, Wizards 92",
      "n/a",
      "n/a"
     ],
@@ -15260,16 +15260,16 @@
      "PACERS 105, Heat 73"
     ],
     "Round 2": [
-     "Nets @ Pacers",
-     "n/a",
-     "n/a",
-     "n/a",
+     "PACERS 107, Nets 106",
+     "PACERS 89, Nets 68",
+     "Pacers 108, NETS 97",
+     "Pacers 82, NETS 75",
      "n/a",
      "n/a",
      "n/a"
     ],
     "Semi-Finals": [
-     "n/a",
+     "Magic @ Pacers",
      "n/a",
      "n/a",
      "n/a",
@@ -18668,16 +18668,16 @@
      "MAVERICKS 85, Clippers 71"
     ],
     "Round 2": [
-     "Rockets @ Mavericks",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a"
+     "MAVERICKS 79, Rockets 75",
+     "Rockets 97, MAVERICKS 82",
+     "Mavericks 102, ROCKETS 85",
+     "Mavericks 92, ROCKETS 87",
+     "Rockets 90, MAVERICKS 77",
+     "ROCKETS 85, Mavericks 71",
+     "MAVERICKS 101, Rockets 80"
     ],
     "Semi-Finals": [
-     "n/a",
+     "Jazz @ Mavericks",
      "n/a",
      "n/a",
      "n/a",
@@ -19804,13 +19804,13 @@
      "Nuggets 102, KINGS 97"
     ],
     "Round 2": [
-     "Jazz @ Nuggets",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a"
+     "NUGGETS 115, Jazz 95",
+     "NUGGETS 96, Jazz 81",
+     "Nuggets 104, JAZZ 102",
+     "JAZZ 87, Nuggets 69",
+     "Jazz 91, NUGGETS 78",
+     "JAZZ 92, Nuggets 66",
+     "Jazz 85, NUGGETS 71"
     ],
     "Semi-Finals": [
      "n/a",
@@ -20940,13 +20940,13 @@
      "ROCKETS 78, Suns 77"
     ],
     "Round 2": [
-     "Rockets @ Mavericks",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a"
+     "MAVERICKS 79, Rockets 75",
+     "Rockets 97, MAVERICKS 82",
+     "Mavericks 102, ROCKETS 85",
+     "Mavericks 92, ROCKETS 87",
+     "Rockets 90, MAVERICKS 77",
+     "ROCKETS 85, Mavericks 71",
+     "MAVERICKS 101, Rockets 80"
     ],
     "Semi-Finals": [
      "n/a",
@@ -24348,16 +24348,16 @@
      "n/a"
     ],
     "Round 2": [
-     "Jazz @ Nuggets",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a"
+     "NUGGETS 115, Jazz 95",
+     "NUGGETS 96, Jazz 81",
+     "Nuggets 104, JAZZ 102",
+     "JAZZ 87, Nuggets 69",
+     "Jazz 91, NUGGETS 78",
+     "JAZZ 92, Nuggets 66",
+     "Jazz 85, NUGGETS 71"
     ],
     "Semi-Finals": [
-     "n/a",
+     "Jazz @ Mavericks",
      "n/a",
      "n/a",
      "n/a",

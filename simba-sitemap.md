@@ -1,9 +1,9 @@
 # Sitemap: simba.mygamesonline.org
 
-- **Crawl date:** 2026-11-24
-- **Pages found:** 2769
-- **Broken/errored links:** 10
-- **URLs fetched:** 2779
+- **Crawl date:** 2026-11-25
+- **Pages found:** 2791
+- **Broken/errored links:** 18
+- **URLs fetched:** 2809
 
 ## Crawl notes
 
@@ -11,10 +11,10 @@
 - No `/robots.txt` (404) and no `/sitemap.xml` (404).
 - Home is a frameset (`index2.htm` menu + `index1.htm`); JS `<select>` menu option values extracted as links.
 - Full crawl: every discovered same-host page was fetched.
-- Crawl took 2778.5 s, 2779 HTTP requests.
+- Crawl took 2809.6 s, 2810 HTTP requests.
 - Player pages embed a stats iframe (`playerNstats.htm`), crawled as separate pages.
 
-## Pages (2769)
+## Pages (2791)
 
 - [Main Index](https://simba.mygamesonline.org/) `/`
 - [All-Star Weekend Winners](https://simba.mygamesonline.org/allstarweekend.htm) `/allstarweekend.htm`
@@ -39,7 +39,7 @@
 - [Regular Season Awards](https://simba.mygamesonline.org/season-awards.htm) `/season-awards.htm`
 - [Team Season Records](https://simba.mygamesonline.org/teamssnrecords.htm) `/teamssnrecords.htm`
 - [Transactions](https://simba.mygamesonline.org/transactions.htm) `/transactions.htm`
-- **boxes/** (1364)
+- **boxes/** (1386)
   - [Day 1: Spurs vs. Celtics](https://simba.mygamesonline.org/boxes/1-1.html) `/boxes/1-1.html`
   - [Day 1: Jazz vs. Suns](https://simba.mygamesonline.org/boxes/1-10.html) `/boxes/1-10.html`
   - [Day 1: Pacers vs. Pistons](https://simba.mygamesonline.org/boxes/1-11.html) `/boxes/1-11.html`
@@ -62,7 +62,6 @@
   - [Day 10: Raptors vs. Kings](https://simba.mygamesonline.org/boxes/10-5.html) `/boxes/10-5.html`
   - [Day 10: Nets vs. Mavericks](https://simba.mygamesonline.org/boxes/10-6.html) `/boxes/10-6.html`
   - [Day 10: 76ers vs. Jazz](https://simba.mygamesonline.org/boxes/10-7.html) `/boxes/10-7.html`
-  - [Day 10: Pistons vs. Suns](https://simba.mygamesonline.org/boxes/10-8.html) `/boxes/10-8.html`
   - [Day 10: Lakers vs. Timberwolves](https://simba.mygamesonline.org/boxes/10-9.html) `/boxes/10-9.html`
   - [Day 100: Bucks vs. Trail Blazers](https://simba.mygamesonline.org/boxes/100-1.html) `/boxes/100-1.html`
   - [Day 100: SuperSonics vs. Mavericks](https://simba.mygamesonline.org/boxes/100-10.html) `/boxes/100-10.html`
@@ -365,6 +364,25 @@
   - [Day 131: Suns vs. Rockets](https://simba.mygamesonline.org/boxes/131-3.html) `/boxes/131-3.html`
   - [Day 131: Heat vs. Pacers](https://simba.mygamesonline.org/boxes/131-4.html) `/boxes/131-4.html`
   - [Day 131: Nets vs. 76ers](https://simba.mygamesonline.org/boxes/131-5.html) `/boxes/131-5.html`
+  - [Day 133: Jazz vs. Nuggets](https://simba.mygamesonline.org/boxes/133-1.html) `/boxes/133-1.html`
+  - [Day 133: Rockets vs. Mavericks](https://simba.mygamesonline.org/boxes/133-2.html) `/boxes/133-2.html`
+  - [Day 133: Nets vs. Pacers](https://simba.mygamesonline.org/boxes/133-3.html) `/boxes/133-3.html`
+  - [Day 133: Wizards vs. Magic](https://simba.mygamesonline.org/boxes/133-4.html) `/boxes/133-4.html`
+  - [Day 134: Jazz vs. Nuggets](https://simba.mygamesonline.org/boxes/134-1.html) `/boxes/134-1.html`
+  - [Day 134: Rockets vs. Mavericks](https://simba.mygamesonline.org/boxes/134-2.html) `/boxes/134-2.html`
+  - [Day 134: Nets vs. Pacers](https://simba.mygamesonline.org/boxes/134-3.html) `/boxes/134-3.html`
+  - [Day 134: Wizards vs. Magic](https://simba.mygamesonline.org/boxes/134-4.html) `/boxes/134-4.html`
+  - [Day 136: Nuggets vs. Jazz](https://simba.mygamesonline.org/boxes/136-1.html) `/boxes/136-1.html`
+  - [Day 136: Mavericks vs. Rockets](https://simba.mygamesonline.org/boxes/136-2.html) `/boxes/136-2.html`
+  - [Day 136: Pacers vs. Nets](https://simba.mygamesonline.org/boxes/136-3.html) `/boxes/136-3.html`
+  - [Day 136: Magic vs. Wizards](https://simba.mygamesonline.org/boxes/136-4.html) `/boxes/136-4.html`
+  - [Day 137: Nuggets vs. Jazz](https://simba.mygamesonline.org/boxes/137-1.html) `/boxes/137-1.html`
+  - [Day 137: Mavericks vs. Rockets](https://simba.mygamesonline.org/boxes/137-2.html) `/boxes/137-2.html`
+  - [Day 137: Pacers vs. Nets](https://simba.mygamesonline.org/boxes/137-3.html) `/boxes/137-3.html`
+  - [Day 137: Magic vs. Wizards](https://simba.mygamesonline.org/boxes/137-4.html) `/boxes/137-4.html`
+  - [Day 139: Jazz vs. Nuggets](https://simba.mygamesonline.org/boxes/139-1.html) `/boxes/139-1.html`
+  - [Day 139: Rockets vs. Mavericks](https://simba.mygamesonline.org/boxes/139-2.html) `/boxes/139-2.html`
+  - [Day 139: Wizards vs. Magic](https://simba.mygamesonline.org/boxes/139-3.html) `/boxes/139-3.html`
   - [Day 14: Celtics vs. Magic](https://simba.mygamesonline.org/boxes/14-1.html) `/boxes/14-1.html`
   - [Day 14: Mavericks vs. Timberwolves](https://simba.mygamesonline.org/boxes/14-2.html) `/boxes/14-2.html`
   - [Day 14: Jazz vs. SuperSonics](https://simba.mygamesonline.org/boxes/14-3.html) `/boxes/14-3.html`
@@ -373,6 +391,10 @@
   - [Day 14: Hornets vs. Pistons](https://simba.mygamesonline.org/boxes/14-6.html) `/boxes/14-6.html`
   - [Day 14: 76ers vs. Hawks](https://simba.mygamesonline.org/boxes/14-7.html) `/boxes/14-7.html`
   - [Day 14: Knicks vs. Bucks](https://simba.mygamesonline.org/boxes/14-8.html) `/boxes/14-8.html`
+  - [Day 141: Nuggets vs. Jazz](https://simba.mygamesonline.org/boxes/141-1.html) `/boxes/141-1.html`
+  - [Day 141: Mavericks vs. Rockets](https://simba.mygamesonline.org/boxes/141-2.html) `/boxes/141-2.html`
+  - [Day 143: Jazz vs. Nuggets](https://simba.mygamesonline.org/boxes/143-1.html) `/boxes/143-1.html`
+  - [Day 143: Rockets vs. Mavericks](https://simba.mygamesonline.org/boxes/143-2.html) `/boxes/143-2.html`
   - [Day 15: Spurs vs. Nuggets](https://simba.mygamesonline.org/boxes/15-1.html) `/boxes/15-1.html`
   - [Day 15: Timberwolves vs. Trail Blazers](https://simba.mygamesonline.org/boxes/15-2.html) `/boxes/15-2.html`
   - [Day 15: Bucks vs. Pacers](https://simba.mygamesonline.org/boxes/15-3.html) `/boxes/15-3.html`
@@ -2795,7 +2817,7 @@
     - [Team Statistics](https://simba.mygamesonline.org/tmstats/offense/team.htm) `/tmstats/offense/team.htm`
     - [Team Statistics](https://simba.mygamesonline.org/tmstats/offense/topg.htm) `/tmstats/offense/topg.htm`
 
-## Broken links (10)
+## Broken links (18)
 
 | Status | URL | Linked from |
 |---|---|---|
@@ -2806,6 +2828,14 @@
 | 404 | https://simba.mygamesonline.org/.\boxes\day128.htm | /playoffs.htm |
 | 404 | https://simba.mygamesonline.org/.\boxes\day130.htm | /playoffs.htm |
 | 404 | https://simba.mygamesonline.org/.\boxes\day132.htm | /playoffs.htm |
+| 404 | https://simba.mygamesonline.org/.\boxes\day133.htm | /playoffs.htm |
+| 404 | https://simba.mygamesonline.org/.\boxes\day134.htm | /playoffs.htm |
+| 404 | https://simba.mygamesonline.org/.\boxes\day136.htm | /playoffs.htm |
+| 404 | https://simba.mygamesonline.org/.\boxes\day137.htm | /playoffs.htm |
+| 404 | https://simba.mygamesonline.org/.\boxes\day139.htm | /playoffs.htm |
+| 404 | https://simba.mygamesonline.org/.\boxes\day141.htm | /playoffs.htm |
+| 404 | https://simba.mygamesonline.org/.\boxes\day143.htm | /playoffs.htm |
+| 404 | https://simba.mygamesonline.org/boxes/10-8.html | /boxes/day10.htm, /rosters/roster12sched.htm, /rosters/roster26sched.htm |
 | 404 | https://simba.mygamesonline.org/hof/All.htm | /hof/all.htm |
 | 404 | https://simba.mygamesonline.org/players/player492.htm | /boxes/day11.htm, /boxes/day115.htm, /boxes/day118.htm, /boxes/day28.htm, /boxes/day29.htm …(+15) |
 | 404 | https://simba.mygamesonline.org/salaryneeds-new.htm | /index2.htm |

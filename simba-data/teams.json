@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-24T21:12:03Z",
-  "parsed_at": "2026-11-24T21:13:20Z"
+  "crawled_at": "2026-11-25T20:26:30Z",
+  "parsed_at": "2026-11-25T20:28:19Z"
  },
  "teams": [
   {
@@ -649,7 +649,7 @@
     {
      "name": "Austin Croshere",
      "injury": "Ruptured Achilles",
-     "duration": 108
+     "duration": 96
     }
    ],
    "history": {
@@ -2020,14 +2020,14 @@
      },
      "salary": {
       "year_1": 3610200,
-      "year_2": 2,
+      "year_2": 3862080,
       "year_3": 2,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 3610204,
+     "salary_total": 7472282,
      "profile_url": "https://simba.mygamesonline.org/players/player278.htm"
     },
     {
@@ -3748,7 +3748,7 @@
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 1,
-     "win_rating": 60
+     "win_rating": 70
     },
     "franchise_player_records": [
      {
@@ -4866,14 +4866,14 @@
      },
      "salary": {
       "year_1": 407425,
-      "year_2": 2,
+      "year_2": 688474,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 407427,
+     "salary_total": 1095899,
      "profile_url": "https://simba.mygamesonline.org/players/player137.htm"
     },
     {
@@ -8344,7 +8344,7 @@
     {
      "name": "Tracy McGrady",
      "injury": "Ruptured Achilles",
-     "duration": 100
+     "duration": 88
     }
    ],
    "history": {
@@ -9409,8 +9409,8 @@
       "in": "C+",
       "out": "C-",
       "hn": "D+",
-      "df": "B-",
-      "reb": "B",
+      "df": "C",
+      "reb": "C+",
       "pot": "D"
      },
      "season_stats": {
@@ -9892,18 +9892,12 @@
    ],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [
-    {
-     "name": "Antonio McDyess",
-     "injury": "Broken Skull",
-     "duration": 12
-    }
-   ],
+   "injuries": [],
    "history": {
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 1,
-     "win_rating": 60
+     "win_rating": 70
     },
     "franchise_player_records": [
      {
@@ -11608,11 +11602,11 @@
      "height_in": 87,
      "weight": 260,
      "ratings": {
-      "in": "C+",
+      "in": "B-",
       "out": "C-",
       "hn": "D",
-      "df": "C+",
-      "reb": "C+",
+      "df": "B",
+      "reb": "B",
       "pot": "D"
      },
      "season_stats": {
@@ -11772,11 +11766,11 @@
      "height_in": 80,
      "weight": 254,
      "ratings": {
-      "in": "B",
-      "out": "C",
+      "in": "B-",
+      "out": "C-",
       "hn": "C-",
-      "df": "B+",
-      "reb": "B",
+      "df": "B",
+      "reb": "B-",
       "pot": "C"
      },
      "season_stats": {
@@ -12181,7 +12175,7 @@
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 1,
-     "win_rating": 59
+     "win_rating": 69
     },
     "franchise_player_records": [
      {
@@ -12709,8 +12703,8 @@
      "height_in": 77,
      "weight": 205,
      "ratings": {
-      "in": "C+",
-      "out": "B",
+      "in": "B-",
+      "out": "B+",
       "hn": "C",
       "df": "C",
       "reb": "C-",
@@ -12751,7 +12745,7 @@
      "weight": 200,
      "ratings": {
       "in": "C",
-      "out": "B-",
+      "out": "B",
       "hn": "C",
       "df": "B-",
       "reb": "C-",
@@ -12949,7 +12943,13 @@
    ],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [],
+   "injuries": [
+    {
+     "name": "Ray Allen",
+     "injury": "Sprained Knee",
+     "duration": 3
+    }
+   ],
    "history": {
     "team_information": {
      "championships": 0,
@@ -15760,11 +15760,11 @@
      "height_in": 79,
      "weight": 193,
      "ratings": {
-      "in": "C+",
-      "out": "B-",
+      "in": "B-",
+      "out": "B",
       "hn": "C",
-      "df": "C",
-      "reb": "D+",
+      "df": "C+",
+      "reb": "C-",
       "pot": "C"
      },
      "season_stats": {
@@ -16005,7 +16005,7 @@
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 1,
-     "win_rating": 52
+     "win_rating": 62
     },
     "franchise_player_records": [
      {
@@ -17550,7 +17550,7 @@
     {
      "name": "Morris Peterson",
      "injury": "Torn ACL",
-     "duration": 71
+     "duration": 59
     }
    ],
    "history": {
@@ -18858,11 +18858,11 @@
      "height_in": 72,
      "weight": 165,
      "ratings": {
-      "in": "B",
+      "in": "B+",
       "out": "C+",
       "hn": "B",
       "df": "C+",
-      "reb": "D+",
+      "reb": "D",
       "pot": "D"
      },
      "season_stats": {
