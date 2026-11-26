@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-25T20:26:30Z",
-  "parsed_at": "2026-11-25T20:28:19Z"
+  "crawled_at": "2026-11-26T20:05:25Z",
+  "parsed_at": "2026-11-26T20:07:15Z"
  },
  "league_ir": [
   {
@@ -11,7 +11,7 @@
    "team": "Celtics",
    "team_id": 1,
    "injury": "Ruptured Achilles",
-   "duration": 96
+   "duration": 74
   },
   {
    "name": "Tracy McGrady",
@@ -19,7 +19,7 @@
    "team": "Cavaliers",
    "team_id": 11,
    "injury": "Ruptured Achilles",
-   "duration": 88
+   "duration": 66
   },
   {
    "name": "Morris Peterson",
@@ -27,7 +27,7 @@
    "team": "Warriors",
    "team_id": 23,
    "injury": "Torn ACL",
-   "duration": 59
+   "duration": 37
   },
   {
    "name": "Alan Anderson",
@@ -675,28 +675,21 @@
    {
     "name": "Austin Croshere",
     "injury": "Ruptured Achilles",
-    "duration": 96
+    "duration": 74
    }
   ],
   "11": [
    {
     "name": "Tracy McGrady",
     "injury": "Ruptured Achilles",
-    "duration": 88
-   }
-  ],
-  "17": [
-   {
-    "name": "Ray Allen",
-    "injury": "Sprained Knee",
-    "duration": 3
+    "duration": 66
    }
   ],
   "23": [
    {
     "name": "Morris Peterson",
     "injury": "Torn ACL",
-    "duration": 59
+    "duration": 37
    }
   ]
  }

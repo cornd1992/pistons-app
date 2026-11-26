@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-25T20:26:30Z",
-  "parsed_at": "2026-11-25T20:28:19Z"
+  "crawled_at": "2026-11-26T20:05:25Z",
+  "parsed_at": "2026-11-26T20:07:15Z"
  },
  "teams": [
   {
@@ -649,7 +649,7 @@
     {
      "name": "Austin Croshere",
      "injury": "Ruptured Achilles",
-     "duration": 96
+     "duration": 74
     }
    ],
    "history": {
@@ -4175,14 +4175,14 @@
      },
      "salary": {
       "year_1": 4621800,
-      "year_2": 2,
+      "year_2": 5828090,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 4621802,
+     "salary_total": 10449890,
      "profile_url": "https://simba.mygamesonline.org/players/player349.htm"
     },
     {
@@ -4421,14 +4421,14 @@
      },
      "salary": {
       "year_1": 2513880,
-      "year_2": 2,
+      "year_2": 3192628,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 2513882,
+     "salary_total": 5706508,
      "profile_url": "https://simba.mygamesonline.org/players/player318.htm"
     },
     {
@@ -8344,7 +8344,7 @@
     {
      "name": "Tracy McGrady",
      "injury": "Ruptured Achilles",
-     "duration": 88
+     "duration": 66
     }
    ],
    "history": {
@@ -9409,8 +9409,8 @@
       "in": "C+",
       "out": "C-",
       "hn": "D+",
-      "df": "C",
-      "reb": "C+",
+      "df": "B-",
+      "reb": "B",
       "pot": "D"
      },
      "season_stats": {
@@ -9895,9 +9895,9 @@
    "injuries": [],
    "history": {
     "team_information": {
-     "championships": 0,
+     "championships": 1,
      "years_in_playoffs": 1,
-     "win_rating": 70
+     "win_rating": 95
     },
     "franchise_player_records": [
      {
@@ -11766,11 +11766,11 @@
      "height_in": 80,
      "weight": 254,
      "ratings": {
-      "in": "B-",
-      "out": "C-",
+      "in": "B",
+      "out": "C",
       "hn": "C-",
-      "df": "B",
-      "reb": "B-",
+      "df": "B+",
+      "reb": "B",
       "pot": "C"
      },
      "season_stats": {
@@ -12943,13 +12943,7 @@
    ],
    "cut_players": [],
    "draft_picks": [],
-   "injuries": [
-    {
-     "name": "Ray Allen",
-     "injury": "Sprained Knee",
-     "duration": 3
-    }
-   ],
+   "injuries": [],
    "history": {
     "team_information": {
      "championships": 0,
@@ -16005,7 +15999,7 @@
     "team_information": {
      "championships": 0,
      "years_in_playoffs": 1,
-     "win_rating": 62
+     "win_rating": 72
     },
     "franchise_player_records": [
      {
@@ -17550,7 +17544,7 @@
     {
      "name": "Morris Peterson",
      "injury": "Torn ACL",
-     "duration": 59
+     "duration": 37
     }
    ],
    "history": {
@@ -19407,14 +19401,14 @@
      },
      "salary": {
       "year_1": 1670000,
-      "year_2": 2,
+      "year_2": 1760000,
       "year_3": null,
       "year_4": null,
       "year_5": null,
       "year_6": null,
       "year_7": null
      },
-     "salary_total": 1670002,
+     "salary_total": 3430000,
      "profile_url": "https://simba.mygamesonline.org/players/player476.htm"
     },
     {

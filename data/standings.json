@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-25T20:26:30Z",
-  "parsed_at": "2026-11-25T20:28:19Z"
+  "crawled_at": "2026-11-26T20:05:25Z",
+  "parsed_at": "2026-11-26T20:07:15Z"
  },
  "divisional": [
   {
@@ -14,7 +14,7 @@
      "w": 50,
      "l": 32,
      "win_pct": 0.61,
-     "last10": "9-1",
+     "last10": "6-4",
      "home": "31-10",
      "gb": 0.0
     },
@@ -174,7 +174,7 @@
      "w": 49,
      "l": 33,
      "win_pct": 0.598,
-     "last10": "5-5",
+     "last10": "4-6",
      "home": "26-15",
      "gb": 0.0
     },
@@ -204,7 +204,7 @@
      "w": 42,
      "l": 40,
      "win_pct": 0.512,
-     "last10": "7-3",
+     "last10": "5-5",
      "home": "26-15",
      "gb": 7.0
     },
@@ -338,7 +338,7 @@
      "w": 50,
      "l": 32,
      "win_pct": 0.61,
-     "last10": "9-1",
+     "last10": "6-4",
      "home": "31-10",
      "gb": 0.0
     },
@@ -508,7 +508,7 @@
      "w": 49,
      "l": 33,
      "win_pct": 0.598,
-     "last10": "5-5",
+     "last10": "4-6",
      "home": "26-15",
      "gb": 13.0
     },
@@ -574,7 +574,7 @@
      "w": 42,
      "l": 40,
      "win_pct": 0.512,
-     "last10": "7-3",
+     "last10": "5-5",
      "home": "26-15",
      "gb": 20.0
     },
@@ -706,9 +706,9 @@
    "wins": 50,
    "losses": 32,
    "win_pct": 0.61,
-   "playoff_wins": 8,
-   "playoff_losses": 1,
-   "playoff_win_pct": 0.889,
+   "playoff_wins": 11,
+   "playoff_losses": 5,
+   "playoff_win_pct": 0.688,
    "playoffs": 1,
    "finals": 0,
    "championships": 0
@@ -810,12 +810,12 @@
    "wins": 50,
    "losses": 32,
    "win_pct": 0.61,
-   "playoff_wins": 8,
-   "playoff_losses": 3,
-   "playoff_win_pct": 0.727,
+   "playoff_wins": 16,
+   "playoff_losses": 8,
+   "playoff_win_pct": 0.667,
    "playoffs": 1,
-   "finals": 0,
-   "championships": 0
+   "finals": 1,
+   "championships": 1
   },
   {
    "team": "Bucks",
@@ -849,9 +849,9 @@
    "wins": 49,
    "losses": 33,
    "win_pct": 0.598,
-   "playoff_wins": 8,
-   "playoff_losses": 6,
-   "playoff_win_pct": 0.571,
+   "playoff_wins": 10,
+   "playoff_losses": 10,
+   "playoff_win_pct": 0.5,
    "playoffs": 1,
    "finals": 0,
    "championships": 0
@@ -914,11 +914,11 @@
    "wins": 42,
    "losses": 40,
    "win_pct": 0.512,
-   "playoff_wins": 8,
-   "playoff_losses": 5,
-   "playoff_win_pct": 0.615,
+   "playoff_wins": 14,
+   "playoff_losses": 11,
+   "playoff_win_pct": 0.56,
    "playoffs": 1,
-   "finals": 0,
+   "finals": 1,
    "championships": 0
   },
   {

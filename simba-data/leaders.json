@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-25T20:26:30Z",
-  "parsed_at": "2026-11-25T20:28:19Z"
+  "crawled_at": "2026-11-26T20:05:25Z",
+  "parsed_at": "2026-11-26T20:07:15Z"
  },
  "league_leaders": {
   "Minutes-Per-Game": {
@@ -1692,6 +1692,11 @@
    }
   ]
  },
- "past_champions": [],
+ "past_champions": [
+  {
+   "season": 2005,
+   "championship": "Pacers 4, Jazz 2"
+  }
+ ],
  "hall_of_fame": []
 }

@@ -1,8 +1,8 @@
 {
  "_meta": {
   "source": "https://simba.mygamesonline.org/",
-  "crawled_at": "2026-11-25T20:26:30Z",
-  "parsed_at": "2026-11-25T20:28:19Z"
+  "crawled_at": "2026-11-26T20:05:25Z",
+  "parsed_at": "2026-11-26T20:07:15Z"
  },
  "league": {
   "months": [
@@ -6181,13 +6181,13 @@
      "n/a"
     ],
     "Semi-Finals": [
-     "Magic @ Pacers",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a"
+     "Magic 86, PACERS 75",
+     "PACERS 96, Magic 80",
+     "MAGIC 82, Pacers 79",
+     "Pacers 99, MAGIC 90",
+     "PACERS 99, Magic 95",
+     "MAGIC 79, Pacers 73",
+     "PACERS 91, Magic 88"
     ],
     "Finals": [
      "n/a",
@@ -15269,21 +15269,21 @@
      "n/a"
     ],
     "Semi-Finals": [
-     "Magic @ Pacers",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a"
+     "Magic 86, PACERS 75",
+     "PACERS 96, Magic 80",
+     "MAGIC 82, Pacers 79",
+     "Pacers 99, MAGIC 90",
+     "PACERS 99, Magic 95",
+     "MAGIC 79, Pacers 73",
+     "PACERS 91, Magic 88"
     ],
     "Finals": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
+     "PACERS 88, Jazz 78",
+     "PACERS 87, Jazz 59",
+     "JAZZ 95, Pacers 79",
+     "JAZZ 89, Pacers 71",
+     "Pacers 92, JAZZ 88",
+     "PACERS 82, Jazz 75",
      "n/a"
     ]
    }
@@ -18677,12 +18677,12 @@
      "MAVERICKS 101, Rockets 80"
     ],
     "Semi-Finals": [
-     "Jazz @ Mavericks",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
+     "Jazz 91, MAVERICKS 89",
+     "MAVERICKS 92, Jazz 78",
+     "JAZZ 75, Mavericks 72",
+     "JAZZ 89, Mavericks 72",
+     "MAVERICKS 97, Jazz 55",
+     "JAZZ 100, Mavericks 77",
      "n/a"
     ],
     "Finals": [
@@ -24357,21 +24357,21 @@
      "Jazz 85, NUGGETS 71"
     ],
     "Semi-Finals": [
-     "Jazz @ Mavericks",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
+     "Jazz 91, MAVERICKS 89",
+     "MAVERICKS 92, Jazz 78",
+     "JAZZ 75, Mavericks 72",
+     "JAZZ 89, Mavericks 72",
+     "MAVERICKS 97, Jazz 55",
+     "JAZZ 100, Mavericks 77",
      "n/a"
     ],
     "Finals": [
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
-     "n/a",
+     "PACERS 88, Jazz 78",
+     "PACERS 87, Jazz 59",
+     "JAZZ 95, Pacers 79",
+     "JAZZ 89, Pacers 71",
+     "Pacers 92, JAZZ 88",
+     "PACERS 82, Jazz 75",
      "n/a"
     ]
    }
